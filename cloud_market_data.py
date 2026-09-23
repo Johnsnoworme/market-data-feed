@@ -11,6 +11,7 @@ GitHub Actions에서 매일 자동 실행되는 스크립트.
       -> raw.githubusercontent.com URL로 공개 접근 가능
 """
 
+import io
 import requests
 import pandas as pd
 import yfinance as yf
@@ -65,7 +66,7 @@ def get_universe():
             "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
             headers=BROWSER_HEADERS, timeout=10,
         )
-        table = pd.read_html(resp.text)[0]
+        table = pd.read_html(io.StringIO(resp.text))[0]
         for _, row in table.iterrows():
             t = str(row["Symbol"]).replace(".", "-")
             universe[t] = row.get("Security", t)
@@ -77,7 +78,7 @@ def get_universe():
             "https://en.wikipedia.org/wiki/Nasdaq-100",
             headers=BROWSER_HEADERS, timeout=10,
         )
-        tables = pd.read_html(resp.text)
+        tables = pd.read_html(io.StringIO(resp.text))
         for tb in tables:
             if "Ticker" in tb.columns:
                 name_col = "Company" if "Company" in tb.columns else tb.columns[0]
