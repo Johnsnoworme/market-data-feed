@@ -1,1 +1,36 @@
+name: Update Market Data
 
+on:
+  schedule:
+    # 매일 20:15 UTC = 시드니 오전 6:15경 (AEST 기준, 서머타임 때는 1시간 당겨짐)
+    - cron: "15 20 * * 1-5"
+  workflow_dispatch: {}   # Actions 탭에서 수동으로도 실행 가능하게 함
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests pandas yfinance lxml
+
+      - name: Run script
+        run: python cloud_market_data.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add Market_Data.md
+          git commit -m "Update market data" || echo "No changes to commit"
+          git push
