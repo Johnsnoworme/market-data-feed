@@ -18,10 +18,10 @@ def get_fear_and_greed():
     except Exception as e:
         return "데이터 가져오기 실패"
 
-# 2. Finviz 크롤링 (Large Cap $10B+ & Overview View v=111)
-def get_finviz_top3(order_param, change_col_idx):
-    # v=111: Overview 뷰, f=cap_largeover10: 시총 $10B 이상
-    url = f"https://finviz.com/screener.ashx?v=111&f=cap_largeover10&o={order_param}"
+# 2. Finviz 크롤러 (시총 $10B 이상 + 정확한 티커 파싱)
+def get_finviz_top3(view_type, order_param, col_idx):
+    # cap_largeover10: 시총 10B 달러 이상 필터
+    url = f"https://finviz.com/screener.ashx?v={view_type}&f=cap_largeover10&o={order_param}"
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
         soup = BeautifulSoup(res.text, 'html.parser')
@@ -29,47 +29,38 @@ def get_finviz_top3(order_param, change_col_idx):
         rows = soup.select('tr.styled-row')
         top3 = []
         
-        for row in rows[:3]:
-            cols = row.find_all('td')
-            if len(cols) > change_col_idx:
-                ticker = cols[1].text.strip()
-                change = cols[change_col_idx].text.strip()
-                top3.append((ticker, change))
-        return top3
-    except Exception as e:
-        return []
-
-# 데이터 수집
-fg_result = get_fear_and_greed()
-
-# Overview(v=111) 기준:
-# Daily: o=-change (Change 컬럼은 9번 인덱스)
-# Weekly: Performance(v=141) 기준 o=-perf1w (Perf Week 컬럼은 2번 인덱스)
-# Monthly: Performance(v=141) 기준 o=-perf4w (Perf Month 컬럼은 3번 인덱스)
-daily_top3 = get_finviz_top3("-change", 9)
-
-# Performance 뷰(v=141) 크롤러 별도 함수 (주간/월간 전용)
-def get_finviz_perf_top3(order_param, col_idx):
-    url = f"https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o={order_param}"
-    try:
-        res = requests.get(url, headers=HEADERS, timeout=10)
-        soup = BeautifulSoup(res.text, 'html.parser')
-        rows = soup.select('tr.styled-row')
-        top3 = []
-        for row in rows[:3]:
+        for row in rows:
             cols = row.find_all('td')
             if len(cols) > col_idx:
-                ticker = cols[1].text.strip()
+                # 티커 링크(a 태그)에서 정확한 티커명 추출 (앞글자 중복 방지)
+                ticker_element = cols[1].find('a')
+                if ticker_element:
+                    ticker = ticker_element.text.strip()
+                else:
+                    ticker = cols[1].text.strip()
+                
                 change = cols[col_idx].text.strip()
-                top3.append((ticker, change))
+                
+                # 플러스(+) 상승률을 가진 종목만 필터링
+                if change.startswith('+') or (not change.startswith('-') and change != '-'):
+                    top3.append((ticker, change))
+                
+                if len(top3) == 3:
+                    break
         return top3
     except Exception as e:
         return []
 
-weekly_top3 = get_finviz_perf_top3("-perf1w", 2)
-monthly_top3 = get_finviz_perf_top3("-perf4w", 3)
+fg_result = get_fear_and_greed()
 
-# Markdown 작성
+# Overview(v=111) 기준 Daily Top 3 (Change 컬럼 = 9)
+daily_top3 = get_finviz_top3(111, "-change", 9)
+
+# Performance(v=141) 기준 Weekly Top 3 (Perf Week 컬럼 = 2), Monthly Top 3 (Perf Month 컬럼 = 3)
+weekly_top3 = get_finviz_top3(141, "-perf1w", 2)
+monthly_top3 = get_finviz_top3(141, "-perf4w", 3)
+
+# HTML 태그를 조합하여 새 탭(target="_blank") 생성 마크다운 작성
 md_content = f"""# Market Data
 
 ## Fear & Greed Index
@@ -80,30 +71,30 @@ md_content = f"""# Market Data
 | :--- | :--- |
 """
 for ticker, change in daily_top3:
-    md_content += f"| [{ticker}](https://finviz.com/quote.ashx?t={ticker}) | {change} |\n"
+    md_content += f'| <a href="https://finviz.com/quote.ashx?t={ticker}" target="_blank">{ticker}</a> | {change} |\n'
 
 md_content += """
-👉 [Finviz Daily Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=111&f=cap_largeover10&o=-change)
+👉 <a href="https://finviz.com/screener.ashx?v=111&f=cap_largeover10&o=-change" target="_blank">Finviz Daily Large-Cap Screener 전체보기</a>
 
 ## Weekly Top 3
 | 티커 | 주간 변동률 |
 | :--- | :--- |
 """
 for ticker, change in weekly_top3:
-    md_content += f"| [{ticker}](https://finviz.com/quote.ashx?t={ticker}) | {change} |\n"
+    md_content += f'| <a href="https://finviz.com/quote.ashx?t={ticker}" target="_blank">{ticker}</a> | {change} |\n'
 
 md_content += """
-👉 [Finviz Weekly Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf1w)
+👉 <a href="https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf1w" target="_blank">Finviz Weekly Large-Cap Screener 전체보기</a>
 
 ## Monthly Top 3
 | 티커 | 월간 변동률 |
 | :--- | :--- |
 """
 for ticker, change in monthly_top3:
-    md_content += f"| [{ticker}](https://finviz.com/quote.ashx?t={ticker}) | {change} |\n"
+    md_content += f'| <a href="https://finviz.com/quote.ashx?t={ticker}" target="_blank">{ticker}</a> | {change} |\n'
 
 md_content += """
-👉 [Finviz Monthly Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf4w)
+👉 <a href="https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf4w" target="_blank">Finviz Monthly Large-Cap Screener 전체보기</a>
 """
 
 with open("Market_Data.md", "w", encoding="utf-8") as f:
