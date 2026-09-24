@@ -2,92 +2,94 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-def get_finviz_top3(signal_type="daily"):
-    """
-    Finviz Screener (Market Cap > $10B Large Cap) 기준
-    signal_type: 'daily' (Change), 'weekly' (Perf Week), 'monthly' (Perf Month)
-    """
-    # Order parameter: -change (Daily), -perf1w (Weekly), -perf4w (Monthly)
-    order_map = {
-        "daily": "-change",
-        "weekly": "-perf1w",
-        "monthly": "-perf4w"
-    }
-    
-    order = order_map.get(signal_type, "-change")
-    url = f"https://finviz.com/screener.ashx?v=141&f=cap_largeover10&ft=4&o={order}"
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, Gecko) Chrome/120.0.0.0 Safari/537.36"
-    }
-    
-    try:
-        resp = requests.get(url, headers=headers, timeout=10)
-        soup = BeautifulSoup(resp.text, 'html.parser')
-        
-        # Screener table parsing
-        rows = soup.select('tr.styled-row')
-        results = []
-        
-        for row in rows[:3]: # Top 3
-            cols = row.find_all('td')
-            if len(cols) > 1:
-                ticker = cols[1].text.strip()
-                # Finviz link for each ticker
-                ticker_link = f"[{ticker}](https://finviz.com/quote.ashx?t={ticker})"
-                
-                # Fetch performance metrics from row if available
-                change_pct = cols[-2].text.strip() if len(cols) >= 10 else "N/A"
-                results.append((ticker_link, change_pct))
-                
-        return results
-    except Exception as e:
-        print(f"Error fetching Finviz {signal_type}: {e}")
-        return []
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+}
 
+# 1. Fear & Greed Index 크롤링
 def get_fear_and_greed():
     try:
         url = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
-        headers = {"User-Agent": "Mozilla/5.0"}
-        r = requests.get(url, headers=headers, timeout=5).json()
-        score = round(r['fear_and_greed']['score'], 1)
-        rating = r['fear_and_greed']['rating']
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        data = res.json()
+        score = round(data['fear_and_greed']['score'], 1)
+        rating = data['fear_and_greed']['rating'].title()
         return f"{score} / 100 ({rating})"
-    except:
-        return "N/A"
+    except Exception as e:
+        return "데이터 가져오기 실패"
 
-def generate_markdown():
-    fg = get_fear_and_greed()
-    daily_top3 = get_finviz_top3("daily")
-    weekly_top3 = get_finviz_top3("weekly")
-    monthly_top3 = get_finviz_top3("monthly")
-    
-    screener_link = "https://finviz.com/screener.ashx?v=141&f=cap_largeover10&ft=4&o=-change"
-    
-    md_content = f"""# Market Data
+# 2. Finviz 크롤링 (Large Cap $10B+ 필터 적용: f=cap_largeover10)
+def get_finviz_top3(order_param):
+    # f=cap_largeover10 옵션이 시가총액 $10B 이상(Large-Cap) 조건입니다.
+    url = f"https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o={order_param}"
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        
+        rows = soup.select('tr.styled-row')
+        top3 = []
+        
+        for row in rows[:3]:
+            cols = row.find_all('td')
+            if len(cols) >= 10:
+                ticker = cols[1].text.strip()
+                # 기간별 변동률 컬럼 위치 (Daily=9번, Weekly=9번, Monthly=9번 퍼포먼스 뷰 기준)
+                change = cols[9].text.strip()
+                top3.append((ticker, change))
+        return top3
+    except Exception as e:
+        return []
+
+# 데이터 수집
+fg_result = get_fear_and_greed()
+
+# Finviz Order 파라미터 (시총 10B+ 필터 적용된 순위)
+# -change: Daily Top Gainers
+# -perf1w: Weekly Top Gainers
+# -perf4w: Monthly Top Gainers
+daily_top3 = get_finviz_top3("-change")
+weekly_top3 = get_finviz_top3("-perf1w")
+monthly_top3 = get_finviz_top3("-perf4w")
+
+# Markdown 파일 작성
+md_content = f"""# Market Data
 
 ## Fear & Greed Index
-{fg}
+{fg_result}
 
 ## Daily Top 3
 | 티커 | 변동률 |
 | :--- | :--- |
 """
-    for t, c in daily_top3:
-        md_content += f"| {t} | {c} |\n"
-        
-    md_content += f"\n👉 [Finviz Large-Cap Screener 전체보기]({screener_link})\n\n"
-    
-    md_content += "## Weekly Top 3\n| 티커 | 주간 변동률 |\n| :--- | :--- |\n"
-    for t, c in weekly_top3:
-        md_content += f"| {t} | {c} |\n"
-        
-    md_content += "\n## Monthly Top 3\n| 티커 | 월간 변동률 |\n| :--- | :--- |\n"
-    for t, c in monthly_top3:
-        md_content += f"| {t} | {c} |\n"
-        
-    with open("Market_Data.md", "w", encoding="utf-8") as f:
-        f.write(md_content)
+for ticker, change in daily_top3:
+    md_content += f"| [{ticker}](https://finviz.com/quote.ashx?t={ticker}) | {change} |\n"
 
-if __name__ == "__main__":
-    generate_markdown()
+md_content += """
+👉 [Finviz Daily Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover10&ft=4&o=-change)
+
+## Weekly Top 3
+| 티커 | 주간 변동률 |
+| :--- | :--- |
+"""
+for ticker, change in weekly_top3:
+    md_content += f"| [{ticker}](https://finviz.com/quote.ashx?t={ticker}) | {change} |\n"
+
+md_content += """
+👉 [Finviz Weekly Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover10&ft=4&o=-perf1w)
+
+## Monthly Top 3
+| 티커 | 월간 변동률 |
+| :--- | :--- |
+"""
+for ticker, change in monthly_top3:
+    md_content += f"| [{ticker}](https://finviz.com/quote.ashx?t={ticker}) | {change} |\n"
+
+md_content += """
+👉 [Finviz Monthly Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover10&ft=4&o=-perf4w)
+"""
+
+# 저장
+with open("Market_Data.md", "w", encoding="utf-8") as f:
+    f.write(md_content.strip())
+
+print("Market_Data.md 생성 완료!")
