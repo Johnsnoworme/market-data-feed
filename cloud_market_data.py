@@ -1,4 +1,5 @@
 import os
+import re
 import requests
 from bs4 import BeautifulSoup
 
@@ -6,96 +7,121 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
 
-# 1. Fear & Greed Index
+# 1. CNN Fear & Greed Index 수집
 def get_fear_and_greed():
     try:
         url = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
         res = requests.get(url, headers=HEADERS, timeout=10)
+        res.raise_for_status()
         data = res.json()
         score = round(data['fear_and_greed']['score'], 1)
         rating = data['fear_and_greed']['rating'].title()
         return f"{score} / 100 ({rating})"
-    except Exception as e:
+    except Exception:
         return "데이터 가져오기 실패"
 
-# 2. Finviz 크롤러 (시총 $10B 이상 + 정확한 티커 파싱)
-def get_finviz_top3(view_type, order_param, col_idx):
-    # cap_largeover10: 시총 10B 달러 이상 필터
+# 2. Large Cap ($10B+) 사전 메타데이터 수집 (속도 최적화 & 차단 방지)
+def build_largecap_dict():
+    meta_dict = {}
+    # Overview(v=111) 상위 100개 대형주 정보 일괄 수집 (1, 21, 41, 61, 81페이지)
+    for r in [1, 21, 41, 61, 81]:
+        url = f"https://finviz.com/screener.ashx?v=111&f=cap_largeover10&r={r}"
+        try:
+            res = requests.get(url, headers=HEADERS, timeout=10)
+            soup = BeautifulSoup(res.text, 'html.parser')
+            rows = soup.find_all('tr', class_=lambda c: c and 'styled-row' in c)
+            
+            for row in rows:
+                cols = row.find_all('td')
+                if len(cols) >= 4:
+                    link = cols[1].find('a')
+                    if link and 'href' in link.attrs:
+                        # 순수 quote.ashx 링크만 정밀 매칭
+                        match = re.search(r'quote\.ashx\?t=([A-Za-z0-9\.-]+)', link['href'])
+                        if match:
+                            ticker = match.group(1).upper()
+                            company = cols[2].text.strip()
+                            sector = cols[3].text.strip()
+                            meta_dict[ticker] = {'company': company, 'sector': sector}
+        except Exception:
+            pass
+    return meta_dict
+
+# 3. Finviz Top 3 수집 함수
+def get_finviz_top3(view_type, order_param, change_col_idx, meta_dict):
     url = f"https://finviz.com/screener.ashx?v={view_type}&f=cap_largeover10&o={order_param}"
+    results = []
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
         soup = BeautifulSoup(res.text, 'html.parser')
-        
-        rows = soup.select('tr.styled-row')
-        top3 = []
+        rows = soup.find_all('tr', class_=lambda c: c and 'styled-row' in c)
         
         for row in rows:
             cols = row.find_all('td')
-            if len(cols) > col_idx:
-                # 티커 링크(a 태그)에서 정확한 티커명 추출 (앞글자 중복 방지)
-                ticker_element = cols[1].find('a')
-                if ticker_element:
-                    ticker = ticker_element.text.strip()
+            if len(cols) > change_col_idx:
+                ticker_a = cols[1].find('a')
+                if not ticker_a or 'href' not in ticker_a.attrs:
+                    continue
+                
+                # 티커 추출 정규식 검증
+                match = re.search(r'quote\.ashx\?t=([A-Za-z0-9\.-]+)', ticker_a['href'])
+                if not match:
+                    continue
+                
+                ticker = match.group(1).upper()
+                if len(ticker) < 2:
+                    continue
+                    
+                change = cols[change_col_idx].text.strip()
+                
+                # 메타 정보 매핑 (Overview면 직접 가져오고, 없으면 사전에서 조회)
+                if view_type == 111 and len(cols) >= 4:
+                    company = cols[2].text.strip()
+                    sector = cols[3].text.strip()
                 else:
-                    ticker = cols[1].text.strip()
+                    meta = meta_dict.get(ticker, {'company': ticker, 'sector': 'N/A'})
+                    company = meta['company']
+                    sector = meta['sector']
+
+                results.append({
+                    'ticker': ticker,
+                    'company': company,
+                    'sector': sector,
+                    'change': change
+                })
                 
-                change = cols[col_idx].text.strip()
-                
-                # 플러스(+) 상승률을 가진 종목만 필터링
-                if change.startswith('+') or (not change.startswith('-') and change != '-'):
-                    top3.append((ticker, change))
-                
-                if len(top3) == 3:
+                if len(results) == 3:
                     break
-        return top3
-    except Exception as e:
+        return results
+    except Exception:
         return []
 
+# --- 실행 부분 ---
 fg_result = get_fear_and_greed()
+meta_dict = build_largecap_dict()
 
-# Overview(v=111) 기준 Daily Top 3 (Change 컬럼 = 9)
-daily_top3 = get_finviz_top3(111, "-change", 9)
+daily_top3 = get_finviz_top3(111, "-change", 9, meta_dict)
+weekly_top3 = get_finviz_top3(141, "-perf1w", 2, meta_dict)
+monthly_top3 = get_finviz_top3(141, "-perf4w", 3, meta_dict)
 
-# Performance(v=141) 기준 Weekly Top 3 (Perf Week 컬럼 = 2), Monthly Top 3 (Perf Month 컬럼 = 3)
-weekly_top3 = get_finviz_top3(141, "-perf1w", 2)
-monthly_top3 = get_finviz_top3(141, "-perf4w", 3)
+# 마크다운 표 구성
+def render_table(title, items, screener_url):
+    md = f"## {title}\n"
+    md += "| 티커 | 회사 이름 | 섹터 | 변동률 |\n"
+    md += "| :--- | :--- | :--- | :--- |\n"
+    if not items:
+        md += "| - | 데이터 수집 실패 | - | - |\n"
+    else:
+        for item in items:
+            md += f'| <a href="https://finviz.com/quote.ashx?t={item["ticker"]}" target="_blank">{item["ticker"]}</a> | {item["company"]} | {item["sector"]} | {item["change"]} |\n'
+    md += f'\n👉 <a href="{screener_url}" target="_blank">Finviz {title} Large-Cap Screener 전체보기</a>\n\n'
+    return md
 
-# HTML 태그를 조합하여 새 탭(target="_blank") 생성 마크다운 작성
-md_content = f"""# Market Data
-
-## Fear & Greed Index
-{fg_result}
-
-## Daily Top 3
-| 티커 | 변동률 |
-| :--- | :--- |
-"""
-for ticker, change in daily_top3:
-    md_content += f'| <a href="https://finviz.com/quote.ashx?t={ticker}" target="_blank">{ticker}</a> | {change} |\n'
-
-md_content += """
-👉 <a href="https://finviz.com/screener.ashx?v=111&f=cap_largeover10&o=-change" target="_blank">Finviz Daily Large-Cap Screener 전체보기</a>
-
-## Weekly Top 3
-| 티커 | 주간 변동률 |
-| :--- | :--- |
-"""
-for ticker, change in weekly_top3:
-    md_content += f'| <a href="https://finviz.com/quote.ashx?t={ticker}" target="_blank">{ticker}</a> | {change} |\n'
-
-md_content += """
-👉 <a href="https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf1w" target="_blank">Finviz Weekly Large-Cap Screener 전체보기</a>
-
-## Monthly Top 3
-| 티커 | 월간 변동률 |
-| :--- | :--- |
-"""
-for ticker, change in monthly_top3:
-    md_content += f'| <a href="https://finviz.com/quote.ashx?t={ticker}" target="_blank">{ticker}</a> | {change} |\n'
-
-md_content += """
-👉 <a href="https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf4w" target="_blank">Finviz Monthly Large-Cap Screener 전체보기</a>
-"""
+# 마크다운 저장
+md_content = f"# Market Data\n\n## Fear & Greed Index\n{fg_result}\n\n"
+md_content += render_table("Daily Top 3", daily_top3, "https://finviz.com/screener.ashx?v=111&f=cap_largeover10&o=-change")
+md_content += render_table("Weekly Top 3", weekly_top3, "https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf1w")
+md_content += render_table("Monthly Top 3", monthly_top3, "https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf4w")
 
 with open("Market_Data.md", "w", encoding="utf-8") as f:
     f.write(md_content.strip())
