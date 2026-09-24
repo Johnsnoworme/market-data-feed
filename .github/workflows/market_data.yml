@@ -2,9 +2,8 @@ name: Update Market Data
 
 on:
   schedule:
-    # UTC 20:30 = 뉴욕 마감(오후 4시 ET) + 30분 여유
-    # 시드니 기준: 오전 6:30 (서머타임 아닐 때) / 오전 7:30 (서머타임일 때)
-    - cron: "30 20 * * *"
+    # UTC 22:00 = 시드니 시간 오전 08:00 AM
+    - cron: "0 22 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -23,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests pandas lxml
+        run: pip install requests pandas
 
       - name: Run script
         run: python cloud_market_data.py
@@ -32,6 +31,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add Market_Data.md
-          git commit -m "Update market data" || echo "No changes to commit"
+          git add Market_Data.md history.csv
+          git commit -m "Update market data & history" || echo "No changes to commit"
           git push
