@@ -1,4 +1,6 @@
 import datetime
+import sys
+from io import StringIO
 import urllib3
 import requests
 import pandas as pd
@@ -30,7 +32,11 @@ def generate_market_data_md():
     print("1. Wikipedia에서 대형주(S&P 500) 리스트 및 섹터 정보 수집 중...")
     try:
         url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
-        tables = pd.read_html(url)
+        # User-Agent 없이 요청하면 Wikipedia가 403 Forbidden으로 차단함
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+        resp = requests.get(url, headers=headers, timeout=20)
+        resp.raise_for_status()
+        tables = pd.read_html(StringIO(resp.text))
         sp500_df = tables[0]
         
         # yfinance 호환을 위해 티커의 '.'을 '-'로 변경 (예: BRK.B -> BRK-B)
@@ -41,7 +47,7 @@ def generate_market_data_md():
         tickers = list(info_dict.keys())
     except Exception as e:
         print(f"S&P 500 리스트 수집 실패: {e}")
-        return
+        sys.exit(1)
 
     print(f"2. yfinance로 {len(tickers)}개 대형주 주가 일괄 다운로드 중...")
     try:
@@ -57,7 +63,7 @@ def generate_market_data_md():
             
     except Exception as e:
         print(f"주가 데이터 수집 실패: {e}")
-        return
+        sys.exit(1)
 
     print("3. 기간별 수익률 계산 및 Top 3 동적 추출 중...")
     
