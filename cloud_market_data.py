@@ -76,94 +76,124 @@ def get_large_cap_universe():
         }
     return info
 
+FINVIZ_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.9',
+    'Referer': 'https://finviz.com/',
+}
+
+# Finviz 커스텀 뷰(v=152) 컬럼: 1=Ticker, 2=Company, 3=Sector, 42=Perf Week, 43=Perf Month, 66=Change %
+FINVIZ_COLS = {'change': 'Change %', 'perf1w': 'Perf Week', 'perf4w': 'Perf Month'}
+
+def get_finviz_top3(order):
+    """
+    Finviz 스크리너(+Large, 시총 $10B 이상)를 그대로 읽어서 상위 3개를 가져옴.
+    사용자가 브라우저에서 보는 Finviz 화면과 100% 같은 결과.
+    order: 'change' (Daily) / 'perf1w' (Weekly) / 'perf4w' (Monthly)
+    반환: [(ticker, company, sector, pct_float), ...]
+    """
+    import lxml.html
+    url = f"https://finviz.com/screener.ashx?v=152&f=cap_largeover&o=-{order}&c=1,2,3,42,43,66"
+    resp = requests.get(url, headers=FINVIZ_HEADERS, timeout=20)
+    resp.raise_for_status()
+    doc = lxml.html.fromstring(resp.text)
+    tables = doc.xpath("//table[contains(concat(' ', normalize-space(@class), ' '), ' screener_table ')]")
+    if not tables:
+        raise ValueError("Finviz 스크리너 표를 찾을 수 없습니다.")
+    rows = tables[0].xpath(".//tr")
+    header = [c.text_content().strip() for c in rows[0].xpath("./th|./td")]
+    i_t, i_c, i_s = header.index('Ticker'), header.index('Company'), header.index('Sector')
+    i_v = header.index(FINVIZ_COLS[order])
+
+    out = []
+    for r in rows[1:]:
+        cells = [c.text_content().strip() for c in r.xpath("./td")]
+        if len(cells) <= i_v or not cells[i_t]:
+            continue
+        val = float(cells[i_v].replace('%', '').replace(',', ''))
+        out.append((cells[i_t], cells[i_c], cells[i_s], val))
+        if len(out) == 3:
+            break
+    if len(out) < 3:
+        raise ValueError(f"Finviz 결과가 3개 미만입니다: {out}")
+    return out
+
+def compute_top3_fallback():
+    """
+    Finviz 접속이 막혔을 때의 백업: Nasdaq 전체 상장 $10B+ 종목을 yfinance로 직접 계산.
+    (시총 경계선 종목 1~2개는 Finviz와 다를 수 있음)
+    """
+    info_dict = get_large_cap_universe()
+    tickers = list(info_dict.keys())
+    if len(tickers) < 100:
+        raise ValueError(f"종목 수가 비정상적으로 적습니다: {len(tickers)}")
+    print(f"   yfinance로 {len(tickers)}개 대형주 주가 일괄 다운로드 중...")
+    data = yf.download(tickers, period="1mo", interval="1d", progress=False, threads=True)
+    close = data['Close'].dropna(how='all')
+    if len(close) < 2:
+        raise ValueError("수익률을 계산할 충분한 거래일 데이터가 없습니다.")
+    week_idx = -6 if len(close) >= 6 else 0
+    rets = {
+        'change': (close.iloc[-1] / close.iloc[-2] - 1) * 100,
+        'perf1w': (close.iloc[-1] / close.iloc[week_idx] - 1) * 100,
+        'perf4w': (close.iloc[-1] / close.iloc[0] - 1) * 100,
+    }
+    result = {}
+    for key, ser in rets.items():
+        result[key] = [
+            (t, info_dict[t]['Security'], info_dict[t]['GICS Sector'], float(v))
+            for t, v in ser.dropna().nlargest(3).items()
+        ]
+    return result
+
+def top3_md(rows, title, finviz_url):
+    md = f"## {title}\n"
+    md += "| 티커 | 회사 이름 | 섹터 | 변동률 |\n"
+    md += "| :--- | :--- | :--- | :--- |\n"
+    if not rows:
+        md += "| - | 데이터 수집 실패 | - | - |\n"
+    for ticker, name, sector, val in rows:
+        sign = "+" if val > 0 else ""
+        finviz_quote = f"https://finviz.com/quote.ashx?t={ticker}"
+        ticker_link = f'<a href="{finviz_quote}" target="_blank">{ticker}</a>'
+        md += f"| {ticker_link} | {name} | {sector} | {sign}{val:.2f}% |\n"
+    md += f'\n👉 <a href="{finviz_url}" target="_blank">Finviz {title} Large-Cap Screener 전체보기</a>\n\n'
+    return md
+
 def generate_market_data_md():
-    print("1. 시가총액 $10B 이상 미국 상장 전 종목 리스트 수집 중 (Finviz +Large 와 동일 기준)...")
+    print("1. Finviz 스크리너(+Large, 시총 $10B 이상)에서 Daily/Weekly/Monthly Top 3 수집 중...")
+    results = {}
     try:
-        info_dict = get_large_cap_universe()
-        tickers = list(info_dict.keys())
-        if len(tickers) < 100:
-            raise ValueError(f"종목 수가 비정상적으로 적습니다: {len(tickers)}")
+        for order in ['change', 'perf1w', 'perf4w']:
+            results[order] = get_finviz_top3(order)
+            print(f"   {order}: {[r[0] for r in results[order]]}")
+        source = "Finviz"
     except Exception as e:
-        print(f"대형주 리스트 수집 실패: {e}")
-        sys.exit(1)
+        print(f"   Finviz 수집 실패 ({e}) → 백업 방식(Nasdaq + yfinance)으로 계산합니다.")
+        try:
+            results = compute_top3_fallback()
+            source = "Nasdaq + yfinance (백업)"
+        except Exception as e2:
+            print(f"백업 방식도 실패: {e2}")
+            sys.exit(1)
 
-    print(f"2. yfinance로 {len(tickers)}개 대형주 주가 일괄 다운로드 중...")
-    try:
-        # progress=False로 콘솔 지저분함 방지, threads=True로 초고속 다운로드
-        data = yf.download(tickers, period="1mo", interval="1d", progress=False, threads=True)
-        close_prices = data['Close']
-        
-        # 주말/휴일 등 거래가 없어 전체가 NaN인 행 깔끔하게 제거
-        close_prices = close_prices.dropna(how='all')
-        
-        if len(close_prices) < 2:
-            raise ValueError("수익률을 계산할 충분한 거래일 데이터가 없습니다.")
-            
-    except Exception as e:
-        print(f"주가 데이터 수집 실패: {e}")
-        sys.exit(1)
-
-    print("3. 기간별 수익률 계산 및 Top 3 동적 추출 중...")
-    
-    # 1. Daily: 가장 최근 거래일 vs 직전 거래일
-    daily_ret = ((close_prices.iloc[-1] - close_prices.iloc[-2]) / close_prices.iloc[-2]) * 100
-    
-    # 2. Weekly: 가장 최근 거래일 vs 5거래일 전 (데이터가 5일 미만이면 가장 첫 데이터 사용)
-    week_idx = -6 if len(close_prices) >= 6 else 0
-    weekly_ret = ((close_prices.iloc[-1] - close_prices.iloc[week_idx]) / close_prices.iloc[week_idx]) * 100
-    
-    # 3. Monthly: 가장 최근 거래일 vs 1개월 전(가져온 데이터의 가장 첫 거래일)
-    monthly_ret = ((close_prices.iloc[-1] - close_prices.iloc[0]) / close_prices.iloc[0]) * 100
-
-    def get_top3_md(ret_series, title, finviz_url):
-        # 수익률 기준 내림차순 정렬 후 상위 3개 진짜 종목 추출
-        top3 = ret_series.dropna().nlargest(3)
-        
-        md = f"## {title}\n"
-        md += "| 티커 | 회사 이름 | 섹터 | 변동률 |\n"
-        md += "| :--- | :--- | :--- | :--- |\n"
-        
-        if top3.empty:
-            md += "| - | 데이터 수집 실패 | - | - |\n"
-        else:
-            for ticker, val in top3.items():
-                # Wikipedia 매핑 데이터에서 회사명과 섹터 가져오기
-                name = info_dict.get(ticker, {}).get('Security', ticker)
-                sector = info_dict.get(ticker, {}).get('GICS Sector', 'N/A')
-                
-                sign = "+" if val > 0 else ""
-                change_str = f"{sign}{val:.2f}%"
-                
-                # 티커에만 Finviz 상세 페이지 링크 삽입
-                finviz_quote = f"https://finviz.com/quote.ashx?t={ticker}"
-                ticker_link = f'<a href="{finviz_quote}" target="_blank">{ticker}</a>'
-                
-                md += f"| {ticker_link} | {name} | {sector} | {change_str} |\n"
-                
-        md += f'\n👉 <a href="{finviz_url}" target="_blank">Finviz {title} Large-Cap Screener 전체보기</a>\n\n'
-        return md
-
-    # 테이블 하단에 들어갈 Finviz 전체보기 원본 링크
+    print("2. Market_Data.md 작성 중...")
     url_daily = "https://finviz.com/screener.ashx?v=111&f=cap_largeover&o=-change"
     url_weekly = "https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf1w"
     url_monthly = "https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf4w"
 
-    md_content = "# Market Data\n\n"
-    
-    # 현재 UTC 기준 시간 기록
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-    md_content += f"> 마지막 업데이트: {now}\n\n"
-    
+    md_content = "# Market Data\n\n"
+    md_content += f"> 마지막 업데이트: {now} (데이터 출처: {source})\n\n"
     md_content += f"## Fear & Greed Index\n{get_fear_and_greed()}\n\n"
-    
-    md_content += get_top3_md(daily_ret, "Daily Top 3", url_daily)
-    md_content += get_top3_md(weekly_ret, "Weekly Top 3", url_weekly)
-    md_content += get_top3_md(monthly_ret, "Monthly Top 3", url_monthly)
+    md_content += top3_md(results['change'], "Daily Top 3", url_daily)
+    md_content += top3_md(results['perf1w'], "Weekly Top 3", url_weekly)
+    md_content += top3_md(results['perf4w'], "Monthly Top 3", url_monthly)
 
-    # 마크다운 파일 덮어쓰기
     with open("Market_Data.md", "w", encoding="utf-8") as f:
         f.write(md_content.strip())
-        
+
     print("Market_Data.md 정상 생성 완료!")
 
 if __name__ == "__main__":
