@@ -2,8 +2,9 @@ name: Update Market Data
 
 on:
   schedule:
-    # 시드니 시간 오전 8:00 (UTC 22:00) 자동 실행
-    - cron: '0 22 * * *'
+    # UTC 21:15 = 시드니 오전 7:15 (AEST) / 8:15 (AEDT 서머타임)
+    # 미국 장 마감 이후 + 시드니 오전 9시 단축어 실행 전에 항상 끝나도록 설정
+    - cron: '15 21 * * *'
   workflow_dispatch: # 수동 버튼 실행 허용
 
 jobs:
