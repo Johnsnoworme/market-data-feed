@@ -1,136 +1,126 @@
-import os
+import datetime
+import urllib3
 import requests
-import cloudscraper
-from bs4 import BeautifulSoup
+import pandas as pd
+import yfinance as yf
 
-# Cloudscraper 인스턴스 생성 (Finviz 차단 우회)
-scraper = cloudscraper.create_scraper(
-    browser={
-        'browser': 'chrome',
-        'platform': 'windows',
-        'desktop': True
-    }
-)
+# SSL 경고 숨김
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# 1. CNN Fear & Greed Index 수집
 def get_fear_and_greed():
     try:
         url = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        res = requests.get(url, headers=headers, timeout=10)
-        res.raise_for_status()
-        data = res.json()
-        score = round(data['fear_and_greed']['score'], 1)
-        rating = data['fear_and_greed']['rating'].title()
-        return f"{score} / 100 ({rating})"
-    except Exception:
-        return "데이터 가져오기 실패"
-
-# 2. Finviz 스크리너 파싱 (열 꼬임 문제 완벽 해결 + 순수 티커만 추출)
-def get_finviz_top3(screener_url):
-    results = []
-    try:
-        response = scraper.get(screener_url)
-        if response.status_code != 200:
-            return results
-
-        soup = BeautifulSoup(response.text, 'html.parser')
-        rows = soup.find_all('tr')
-        
-        for row in rows:
-            cols = row.find_all('td')
-            if len(cols) < 8:
-                continue
-            
-            # 티커 링크 tag (quote.ashx?t=) 직접 조회하여 중복 문자열 제거
-            ticker_a = row.find('a', href=lambda h: h and 'quote.ashx?t=' in h)
-            if not ticker_a:
-                continue
-            
-            # Pure Ticker 추출
-            raw_href = ticker_a['href']
-            ticker = raw_href.split('t=')[-1].split('&')[0].upper().strip()
-            
-            if not ticker or len(ticker) > 5 or not ticker.isalpha():
-                continue
-
-            # 클래스가 tablink인 a 태그들만 필터링 (회사명, 섹터 추출)
-            tablinks = [a.text.strip() for a in row.find_all('a', class_='tablink')]
-            
-            if len(tablinks) >= 3:
-                # tablinks 구조: [0]: Ticker, [1]: Company, [2]: Sector
-                company = tablinks[1]
-                sector = tablinks[2]
-            else:
-                company = cols[2].text.strip()
-                sector = cols[3].text.strip()
-
-            # 변동률 컬럼: %가 포함되고 숫자/부호가 포함된 최우측 값 자동 매핑
-            change = "N/A"
-            for col in reversed(cols):
-                text = col.text.strip()
-                if '%' in text and any(char.isdigit() for char in text):
-                    change = text
-                    break
-
-            # 티커 중복 수집 방지
-            if any(r['ticker'] == ticker for r in results):
-                continue
-
-            results.append({
-                'ticker': ticker,
-                'company': company,
-                'sector': sector,
-                'change': change
-            })
-
-            if len(results) == 3:
-                break
-
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'application/json',
+            'Referer': 'https://www.cnn.com/'
+        }
+        # verify=False 로 GitHub Actions 환경에서의 SSL 인증 오류 방지
+        res = requests.get(url, headers=headers, timeout=10, verify=False)
+        if res.status_code == 200:
+            data = res.json()
+            score = round(data['fear_and_greed']['score'], 1)
+            rating = data['fear_and_greed']['rating'].title()
+            return f"{score} / 100 ({rating})"
     except Exception as e:
-        print(f"Parsing Error: {e}")
+        print(f"Fear & Greed Index 실패: {e}")
+    return "데이터 수집 실패"
+
+def generate_market_data_md():
+    print("1. Wikipedia에서 대형주(S&P 500) 리스트 및 섹터 정보 수집 중...")
+    try:
+        url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
+        tables = pd.read_html(url)
+        sp500_df = tables[0]
         
-    return results
+        # yfinance 호환을 위해 티커의 '.'을 '-'로 변경 (예: BRK.B -> BRK-B)
+        sp500_df['Symbol'] = sp500_df['Symbol'].str.replace('.', '-')
+        
+        # 티커를 키값으로 하여 회사명(Security)과 섹터(GICS Sector)를 매핑
+        info_dict = sp500_df.set_index('Symbol')[['Security', 'GICS Sector']].to_dict('index')
+        tickers = list(info_dict.keys())
+    except Exception as e:
+        print(f"S&P 500 리스트 수집 실패: {e}")
+        return
 
-fg_result = get_fear_and_greed()
-
-# $10B 이상 Large Cap 스크리너 URL
-url_daily = "https://finviz.com/screener.ashx?v=111&f=cap_largeover10&o=-change"
-url_weekly = "https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf1w"
-url_monthly = "https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf4w"
-
-daily_top3 = get_finviz_top3(url_daily)
-weekly_top3 = get_finviz_top3(url_weekly)
-monthly_top3 = get_finviz_top3(url_monthly)
-
-# 마크다운 표 생성 (회사명 링크 전면 삭제, 오직 티커만 링크 적용)
-def render_table(title, items, screener_url):
-    md = f"## {title}\n"
-    md += "| 티커 | 회사 이름 | 섹터 | 변동률 |\n"
-    md += "| :--- | :--- | :--- | :--- |\n"
-    if not items:
-        md += "| - | 데이터 수집 실패 | - | - |\n"
-    else:
-        for item in items:
-            finviz_quote_url = f'https://finviz.com/quote.ashx?t={item["ticker"]}'
+    print(f"2. yfinance로 {len(tickers)}개 대형주 주가 일괄 다운로드 중...")
+    try:
+        # progress=False로 콘솔 지저분함 방지, threads=True로 초고속 다운로드
+        data = yf.download(tickers, period="1mo", interval="1d", progress=False, threads=True)
+        close_prices = data['Close']
+        
+        # 주말/휴일 등 거래가 없어 전체가 NaN인 행 깔끔하게 제거
+        close_prices = close_prices.dropna(how='all')
+        
+        if len(close_prices) < 2:
+            raise ValueError("수익률을 계산할 충분한 거래일 데이터가 없습니다.")
             
-            # 티커에만 링크 적용
-            ticker_link = f'<a href="{finviz_quote_url}" target="_blank">{item["ticker"]}</a>'
-            # 회사명은 링크 없는 일반 텍스트
-            company_name = item["company"]
-            
-            md += f'| {ticker_link} | {company_name} | {item["sector"]} | {item["change"]} |\n'
+    except Exception as e:
+        print(f"주가 데이터 수집 실패: {e}")
+        return
+
+    print("3. 기간별 수익률 계산 및 Top 3 동적 추출 중...")
     
-    md += f'\n👉 <a href="{screener_url}" target="_blank">Finviz {title} Large-Cap Screener 전체보기</a>\n\n'
-    return md
+    # 1. Daily: 가장 최근 거래일 vs 직전 거래일
+    daily_ret = ((close_prices.iloc[-1] - close_prices.iloc[-2]) / close_prices.iloc[-2]) * 100
+    
+    # 2. Weekly: 가장 최근 거래일 vs 5거래일 전 (데이터가 5일 미만이면 가장 첫 데이터 사용)
+    week_idx = -6 if len(close_prices) >= 6 else 0
+    weekly_ret = ((close_prices.iloc[-1] - close_prices.iloc[week_idx]) / close_prices.iloc[week_idx]) * 100
+    
+    # 3. Monthly: 가장 최근 거래일 vs 1개월 전(가져온 데이터의 가장 첫 거래일)
+    monthly_ret = ((close_prices.iloc[-1] - close_prices.iloc[0]) / close_prices.iloc[0]) * 100
 
-# 마크다운 최종 작성
-md_content = f"# Market Data\n\n## Fear & Greed Index\n{fg_result}\n\n"
-md_content += render_table("Daily Top 3", daily_top3, url_daily)
-md_content += render_table("Weekly Top 3", weekly_top3, url_weekly)
-md_content += render_table("Monthly Top 3", monthly_top3, url_monthly)
+    def get_top3_md(ret_series, title, finviz_url):
+        # 수익률 기준 내림차순 정렬 후 상위 3개 진짜 종목 추출
+        top3 = ret_series.dropna().nlargest(3)
+        
+        md = f"## {title}\n"
+        md += "| 티커 | 회사 이름 | 섹터 | 변동률 |\n"
+        md += "| :--- | :--- | :--- | :--- |\n"
+        
+        if top3.empty:
+            md += "| - | 데이터 수집 실패 | - | - |\n"
+        else:
+            for ticker, val in top3.items():
+                # Wikipedia 매핑 데이터에서 회사명과 섹터 가져오기
+                name = info_dict.get(ticker, {}).get('Security', ticker)
+                sector = info_dict.get(ticker, {}).get('GICS Sector', 'N/A')
+                
+                sign = "+" if val > 0 else ""
+                change_str = f"{sign}{val:.2f}%"
+                
+                # 티커에만 Finviz 상세 페이지 링크 삽입
+                finviz_quote = f"https://finviz.com/quote.ashx?t={ticker}"
+                ticker_link = f'<a href="{finviz_quote}" target="_blank">{ticker}</a>'
+                
+                md += f"| {ticker_link} | {name} | {sector} | {change_str} |\n"
+                
+        md += f'\n👉 <a href="{finviz_url}" target="_blank">Finviz {title} Large-Cap Screener 전체보기</a>\n\n'
+        return md
 
-with open("Market_Data.md", "w", encoding="utf-8") as f:
-    f.write(md_content.strip())
+    # 테이블 하단에 들어갈 Finviz 전체보기 원본 링크
+    url_daily = "https://finviz.com/screener.ashx?v=111&f=cap_largeover10&o=-change"
+    url_weekly = "https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf1w"
+    url_monthly = "https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf4w"
 
-print("Market_Data.md 정상 생성 완료!")
+    md_content = "# Market Data\n\n"
+    
+    # 현재 UTC 기준 시간 기록
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    md_content += f"> 마지막 업데이트: {now}\n\n"
+    
+    md_content += f"## Fear & Greed Index\n{get_fear_and_greed()}\n\n"
+    
+    md_content += get_top3_md(daily_ret, "Daily Top 3", url_daily)
+    md_content += get_top3_md(weekly_ret, "Weekly Top 3", url_weekly)
+    md_content += get_top3_md(monthly_ret, "Monthly Top 3", url_monthly)
+
+    # 마크다운 파일 덮어쓰기
+    with open("Market_Data.md", "w", encoding="utf-8") as f:
+        f.write(md_content.strip())
+        
+    print("Market_Data.md 정상 생성 완료!")
+
+if __name__ == "__main__":
+    generate_market_data_md()
