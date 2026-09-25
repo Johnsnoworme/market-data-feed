@@ -1,6 +1,6 @@
 # 시스템 설명서 — Obsidian 자동 다이어리 (Trinity)
 
-> 마지막 정리: 2026-09-25 · 이 노트는 Claude가 새 대화에서도 시스템 구조를 바로 파악하도록 만든 설명서입니다.
+> 마지막 정리: 2026-09-25 (주간/월간 확정 기록 + 자동 생성 추가) · 이 노트는 Claude가 새 대화에서도 시스템 구조를 바로 파악하도록 만든 설명서입니다.
 
 ## 1. 한눈에 보기
 
@@ -25,7 +25,14 @@
 - `.github/workflows/market_data.yml` : 자동 실행 설정
   - 매일 **UTC 21:15** = 시드니 **07:15 (AEST) / 08:15 (AEDT 서머타임)**
   - 수동 실행: GitHub → Actions → Update Market Data → Run workflow
-- `Market_Data.md` : 결과 파일 (Fear & Greed, Daily/Weekly/Monthly Top 3)
+- `Market_Data.md` : 결과 파일 (Fear & Greed, Daily/Weekly/Monthly Top 3) — **Daily 노트용** (Weekly/Monthly는 Finviz의 최근 5거래일/약 21거래일 기준)
+- `archive/` : **주간/월간 확정 기록** (Weekly/Monthly 노트는 이것을 사용)
+  - `archive/weekly/2026-W39.md` : 지난주 마지막 거래일 종가 → 그 주(월~금) 마지막 거래일 종가
+  - `archive/monthly/2026-09.md` : 지난달 마지막 거래일 종가 → 그 달 마지막 거래일 종가
+  - 대상: Nasdaq 상장 $10B+ 전 종목(막히면 Finviz +Large 목록), 종가는 yfinance(수정주가)로 직접 계산
+  - 기간이 끝난 뒤(뉴욕 16:30 이후) 첫 실행 때 한 번만 만들고, **이미 있으면 절대 다시 쓰지 않음**
+  - `archive/index.json` : 최신 확정 주/달 이름 (Obsidian 자동 생성기가 읽음)
+  - 실패하면 로그에 "확정 기록 실패"만 남기고 다음 날 다시 시도 (Market_Data.md는 정상 저장)
   - 원본 주소: `https://raw.githubusercontent.com/Johnsnoworme/market-data-feed/main/Market_Data.md`
 - `fix_obsidian.sh` : 2026-09-25 Obsidian 설정 복구용으로 한 번 쓴 스크립트 (백업: `~/Documents/obsidian_backup_날짜`)
 
@@ -36,8 +43,10 @@
   - Templater 설정: Template folder = `Templates`, **Trigger Templater on new file creation = 켜짐**
 - 템플릿 (`Templates/`)
   - `Daily_Note_Template` : Fear & Greed + Daily Top 3 자동 입력 + Upcoming Events(2주)
-  - `Weekly_Note_Template` : Weekly Top 3 자동 입력 + 이벤트(4주)
-  - `Monthly_Note_Template` : Monthly Top 3 자동 입력 + 이벤트(2개월)
+  - `Weekly_Note_Template` : Weekly Top 3(archive 확정 기록) + 이벤트(4주). 노트 이름 형식 `GGGG-[W]WW` (ISO 주, 예: 2026-W39)
+  - `Monthly_Note_Template` : Monthly Top 3(archive 확정 기록) + 이벤트(2개월). 노트 이름 `YYYY-MM`
+  - 확정 기록이 아직 없으면 `> ⏳ 아직 확정 기록이 없어요` 표시 → 나중에 자동으로 채워짐
+  - `_Startup_AutoCreate` : **자동 생성기** (Templater Startup template로 등록). Obsidian이 켜질 때 + 30분마다 index.json을 보고 최신 Weekly/Monthly 노트가 없으면 만들고, ⏳ 노트를 채움. 폰/iPad는 2분 기다렸다 실행(중복 방지)
   - 자동 입력 부분은 `<%* ... %>` 코드 블럭 — 요청 없이 건드리지 말 것
 - 노트 저장 위치: `Stock note/Daily`, `Stock note/Weekly`, `Stock note/Monthly`
   - Daily 파일 이름 형식: `2026-09-25(Friday)`
@@ -49,8 +58,11 @@
 
 - 뉴욕 장 마감 = 시드니 06:00 (4~10월 초) / 07:00 (10월 서머타임 시작 후) / 08:00 (11~3월)
 - GitHub 데이터 준비 = 시드니 07:15 또는 08:15
-- **규칙: Daily·Weekly 노트는 시드니 오전 8시 반 이후에 만들기** (노트 안 "📡 데이터 기준" 시간으로 확인 가능)
-- Weekly = 토요일 오전, Monthly = 매달 1일 오전에 사용자가 직접 생성 (폰 자동 생성은 쓰지 않기로 함)
+- **규칙: Daily 노트는 시드니 오전 8시 반 이후에 만들기** (노트 안 "📡 데이터 기준" 시간으로 확인 가능)
+- **Weekly / Monthly는 사용자가 만들지 않음** → 자동 생성기가 만듦
+  - Weekly: 금요일 뉴욕 장 마감 → 토요일 시드니 아침 GitHub 확정 → Obsidian이 열려 있거나 열 때 자동 생성
+  - Monthly: 마지막 거래일 장 마감 → 다음 달 1일 시드니 아침 확정 → 자동 생성
+  - 확정 기록이 기간별로 고정 저장되므로, 노트가 늦게 만들어져도 숫자는 항상 같음
 
 ## 5. 문제가 생기면 (자주 있었던 것)
 

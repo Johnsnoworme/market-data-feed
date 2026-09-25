@@ -168,6 +168,182 @@ def top3_md(rows, title, finviz_url):
     md += f'\n👉 <a href="{finviz_url}" target="_blank">Finviz {title} Large-Cap Screener 전체보기</a>\n\n'
     return md
 
+# ─────────────────────────────────────────────────────────────
+# 주간/월간 "확정 기록" (archive)
+#  - Weekly : 지난주 마지막 거래일 종가 → 이번 주 마지막 거래일 종가 (월~금 달력 한 주)
+#  - Monthly: 지난달 마지막 거래일 종가 → 이번 달 마지막 거래일 종가 (달력 한 달)
+#  - 기간이 끝난 뒤 한 번만 만들고, 이미 있으면 절대 다시 쓰지 않음 (기록 보존)
+#  - 결과: archive/weekly/2026-W39.md, archive/monthly/2026-09.md, archive/index.json
+# ─────────────────────────────────────────────────────────────
+import os
+import json
+import time as _time
+from zoneinfo import ZoneInfo
+
+NY = ZoneInfo("America/New_York")
+ARCHIVE_DIR = "archive"
+CLOSE_AFTER = datetime.time(16, 30)  # 뉴욕 장 마감(16:00) + 여유 30분
+KO_WD = ["월", "화", "수", "목", "금", "토", "일"]
+
+def _last_weekday_of_month(y, m):
+    nxt = datetime.date(y + (m == 12), m % 12 + 1, 1)
+    d = nxt - datetime.timedelta(days=1)
+    while d.weekday() >= 5:
+        d -= datetime.timedelta(days=1)
+    return d
+
+def last_completed_week(now_ny):
+    """장이 끝난 가장 최근 주의 (월요일, 금요일). 금요일 16:30(뉴욕) 이후면 이번 주가 끝난 것으로 봄."""
+    monday = now_ny.date() - datetime.timedelta(days=now_ny.weekday())
+    friday = monday + datetime.timedelta(days=4)
+    if now_ny < datetime.datetime.combine(friday, CLOSE_AFTER, tzinfo=NY):
+        monday -= datetime.timedelta(days=7)
+        friday -= datetime.timedelta(days=7)
+    return monday, friday
+
+def last_completed_month(now_ny):
+    """장이 끝난 가장 최근 달의 (1일, 마지막 평일)."""
+    y, m = now_ny.year, now_ny.month
+    last = _last_weekday_of_month(y, m)
+    if now_ny < datetime.datetime.combine(last, CLOSE_AFTER, tzinfo=NY):
+        y, m = (y - 1, 12) if m == 1 else (y, m - 1)
+        last = _last_weekday_of_month(y, m)
+    return datetime.date(y, m, 1), last
+
+def get_finviz_large_cap_universe():
+    """Nasdaq 접속이 막혔을 때: Finviz +Large 스크리너를 20개씩 넘겨가며 전체 목록 수집."""
+    import lxml.html
+    info, r = {}, 1
+    while r < 3000:
+        url = f"https://finviz.com/screener.ashx?v=152&f=cap_largeover&o=ticker&c=1,2,3&r={r}"
+        resp = requests.get(url, headers=FINVIZ_HEADERS, timeout=20)
+        resp.raise_for_status()
+        doc = lxml.html.fromstring(resp.text)
+        tables = doc.xpath("//table[contains(concat(' ', normalize-space(@class), ' '), ' screener_table ')]")
+        if not tables:
+            break
+        rows = tables[0].xpath(".//tr")
+        header = [c.text_content().strip() for c in rows[0].xpath("./th|./td")]
+        i_t, i_c, i_s = header.index('Ticker'), header.index('Company'), header.index('Sector')
+        new = 0
+        for row in rows[1:]:
+            tds = row.xpath("./td")
+            cells = [c.text_content().strip() for c in tds]
+            if len(cells) <= i_s:
+                continue
+            ticker = cells[i_t]
+            for href in tds[i_t].xpath(".//a/@href"):
+                if 't=' in href:
+                    ticker = href.split('t=')[1].split('&')[0]
+                    break
+            yf_sym = ticker.replace('/', '-').replace('.', '-')
+            if yf_sym and yf_sym not in info:
+                info[yf_sym] = {'Security': cells[i_c], 'GICS Sector': cells[i_s]}
+                new += 1
+        if new == 0 or len(rows) - 1 < 20:
+            break
+        r += 20
+        _time.sleep(1)
+    return info
+
+def get_universe_for_archive():
+    try:
+        info = get_large_cap_universe()
+        if len(info) >= 100:
+            return info, "Nasdaq 상장 $10B+ 전 종목"
+    except Exception as e:
+        print(f"   Nasdaq 종목 목록 실패 ({e}) → Finviz 목록으로 대체")
+    info = get_finviz_large_cap_universe()
+    if len(info) < 100:
+        raise ValueError(f"종목 수가 비정상적으로 적습니다: {len(info)}")
+    return info, "Finviz +Large($10B+) 전 종목"
+
+def period_top3(close, start, end, info, n=3):
+    """
+    close: 날짜 index × 티커 columns 의 종가 표
+    기준가 = start 이전 마지막 거래일 종가, 최종가 = end 이하 마지막 거래일 종가
+    반환: (rows, base_date, final_date)
+    """
+    idx = pd.to_datetime(close.index).date
+    before = [i for i, d in enumerate(idx) if d < start]
+    inside = [i for i, d in enumerate(idx) if start <= d <= end]
+    if not before or not inside:
+        raise ValueError("기간 계산에 필요한 거래일 데이터가 부족합니다.")
+    b, f = before[-1], inside[-1]
+    rets = (close.iloc[f] / close.iloc[b] - 1) * 100
+    rets = rets.replace([float('inf'), float('-inf')], float('nan')).dropna()
+    rows = [(t, info[t]['Security'], info[t]['GICS Sector'], float(v))
+            for t, v in rets.nlargest(n).items()]
+    return rows, idx[b], idx[f]
+
+def _archive_md(kind, name, rows, base_d, final_d, source):
+    fmt = lambda d: f"{d.isoformat()}({KO_WD[d.weekday()]})"
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    title = f"{kind} Top 3"
+    md = f"# {title} — {name}\n\n"
+    md += f"> 기간: {fmt(base_d)} 종가 → {fmt(final_d)} 종가 (뉴욕 기준)\n"
+    md += f"> 확정 시각: {now} (데이터: {source} · yfinance 종가)\n\n"
+    md += f"## {title}\n"
+    md += "| 티커 | 회사 이름 | 섹터 | 변동률 |\n| :--- | :--- | :--- | :--- |\n"
+    for ticker, cname, sector, val in rows:
+        sign = "+" if val > 0 else ""
+        link = f'<a href="https://finviz.com/quote.ashx?t={ticker}" target="_blank">{ticker}</a>'
+        md += f"| {link} | {cname} | {sector} | {sign}{val:.2f}% |\n"
+    return md
+
+def update_archive(now_ny=None):
+    now_ny = now_ny or datetime.datetime.now(NY)
+    w_mon, w_fri = last_completed_week(now_ny)
+    iso = w_mon.isocalendar()
+    week_name = f"{iso[0]}-W{iso[1]:02d}"
+    m_first, m_last = last_completed_month(now_ny)
+    month_name = f"{m_first.year}-{m_first.month:02d}"
+
+    jobs = []
+    for kind, name, start, end in [("Weekly", week_name, w_mon, w_fri),
+                                   ("Monthly", month_name, m_first, m_last)]:
+        path = os.path.join(ARCHIVE_DIR, kind.lower(), f"{name}.md")
+        if os.path.exists(path):
+            print(f"   {kind} {name}: 이미 확정됨 (그대로 둠)")
+        else:
+            jobs.append((kind, name, start, end, path))
+
+    if jobs:
+        info, source = get_universe_for_archive()
+        tickers = list(info.keys())
+        dl_start = min(j[2] for j in jobs) - datetime.timedelta(days=14)
+        dl_end = max(j[3] for j in jobs) + datetime.timedelta(days=1)
+        print(f"   {len(tickers)}개 대형주 종가 다운로드 ({dl_start} ~ {dl_end})...")
+        data = yf.download(tickers, start=dl_start.isoformat(), end=dl_end.isoformat(),
+                           interval="1d", auto_adjust=True, progress=False, threads=True)
+        close = data['Close'].dropna(how='all')
+        last_day = pd.to_datetime(close.index).date[-1] if len(close) else None
+        for kind, name, start, end, path in jobs:
+            # 마감 당일인데 그날 종가가 아직 안 들어왔으면 이번엔 건너뛰고 다음 실행 때 다시 시도
+            if now_ny.date() <= end and (last_day is None or last_day < end):
+                print(f"   {kind} {name}: {end} 종가가 아직 없음 → 다음 실행 때 다시 시도")
+                continue
+            try:
+                rows, b, f = period_top3(close, start, end, info)
+            except Exception as e:
+                print(f"   {kind} {name} 계산 실패: {e}")
+                continue
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            with open(path, "w", encoding="utf-8") as fp:
+                fp.write(_archive_md(kind, name, rows, b, f, source))
+            print(f"   {kind} {name} 확정 저장: {[r[0] for r in rows]} ({b} → {f})")
+
+    # index.json: Obsidian이 "최신 확정 주/달"을 알 수 있게
+    def listing(sub):
+        d = os.path.join(ARCHIVE_DIR, sub)
+        return sorted(x[:-3] for x in os.listdir(d) if x.endswith(".md")) if os.path.isdir(d) else []
+    weekly, monthly = listing("weekly"), listing("monthly")
+    os.makedirs(ARCHIVE_DIR, exist_ok=True)
+    with open(os.path.join(ARCHIVE_DIR, "index.json"), "w", encoding="utf-8") as fp:
+        json.dump({"latest_weekly": weekly[-1] if weekly else None,
+                   "latest_monthly": monthly[-1] if monthly else None,
+                   "weekly": weekly, "monthly": monthly}, fp, ensure_ascii=False, indent=2)
+
 def generate_market_data_md():
     print("1. Finviz 스크리너(+Large, 시총 $10B 이상)에서 Daily/Weekly/Monthly Top 3 수집 중...")
     results = {}
@@ -205,3 +381,9 @@ def generate_market_data_md():
 
 if __name__ == "__main__":
     generate_market_data_md()
+    print("3. 주간/월간 확정 기록(archive) 확인 중...")
+    try:
+        update_archive()
+    except Exception as e:
+        # 확정 기록이 실패해도 매일 데이터(Market_Data.md)는 그대로 저장되도록 함
+        print(f"   확정 기록 실패 (다음 실행 때 다시 시도): {e}")
