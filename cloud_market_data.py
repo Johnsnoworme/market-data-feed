@@ -108,11 +108,18 @@ def get_finviz_top3(order):
 
     out = []
     for r in rows[1:]:
-        cells = [c.text_content().strip() for c in r.xpath("./td")]
+        tds = r.xpath("./td")
+        cells = [c.text_content().strip() for c in tds]
         if len(cells) <= i_v or not cells[i_t]:
             continue
+        # 티커 칸에는 로고 글자가 섞여 있어서(예: "TTWST"), 링크 주소의 t=티커 값을 사용
+        ticker = cells[i_t]
+        for href in tds[i_t].xpath(".//a/@href"):
+            if 't=' in href:
+                ticker = href.split('t=')[1].split('&')[0]
+                break
         val = float(cells[i_v].replace('%', '').replace(',', ''))
-        out.append((cells[i_t], cells[i_c], cells[i_s], val))
+        out.append((ticker, cells[i_c], cells[i_s], val))
         if len(out) == 3:
             break
     if len(out) < 3:
