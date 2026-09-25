@@ -28,25 +28,63 @@ def get_fear_and_greed():
         print(f"Fear & Greed Index 실패: {e}")
     return "데이터 수집 실패"
 
+MIN_MARKET_CAP = 10_000_000_000  # Finviz "+Large (over $10bln)" 기준
+
+def _clean_name(name):
+    # Nasdaq 종목명 뒤에 붙는 "Common Stock", "Class A ..." 등 꼬리 제거
+    for cut in [" Common Stock", " Class A", " Class B", " Class C", " Ordinary Shares",
+                " American Depositary", " Sponsored ADR", " ADS", " Common Shares"]:
+        idx = name.find(cut)
+        if idx > 0:
+            name = name[:idx]
+    return name.strip()
+
+def get_large_cap_universe():
+    """
+    Nasdaq 스크리너(NYSE/NASDAQ/AMEX 전체 상장 종목)에서 시가총액 $10B 이상만 추출.
+    S&P 500만 보면 OKTA, VICR, TWST, NBIS 같은 비(非)S&P 대형주가 빠져서
+    Finviz 결과와 달라지므로, Finviz와 같은 전체 시장 기준을 사용.
+    반환: {ticker: {'Security': 회사명, 'GICS Sector': 섹터}}
+    """
+    url = "https://api.nasdaq.com/api/screener/stocks?tableonly=true&download=true"
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'application/json, text/plain, */*',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Origin': 'https://www.nasdaq.com',
+        'Referer': 'https://www.nasdaq.com/',
+    }
+    resp = requests.get(url, headers=headers, timeout=30)
+    resp.raise_for_status()
+    rows = resp.json()['data']['rows']
+
+    info = {}
+    for r in rows:
+        sym = (r.get('symbol') or '').strip()
+        try:
+            cap = float(r.get('marketCap') or 0)
+        except ValueError:
+            continue
+        # 우선주/워런트 등 특수 심볼(^ 포함) 제외, 시총 기준 미달 제외
+        if not sym or '^' in sym or cap < MIN_MARKET_CAP:
+            continue
+        # yfinance 호환: BRK/B -> BRK-B
+        yf_sym = sym.replace('/', '-').replace('.', '-')
+        info[yf_sym] = {
+            'Security': _clean_name(r.get('name') or yf_sym),
+            'GICS Sector': r.get('sector') or 'N/A',
+        }
+    return info
+
 def generate_market_data_md():
-    print("1. Wikipedia에서 대형주(S&P 500) 리스트 및 섹터 정보 수집 중...")
+    print("1. 시가총액 $10B 이상 미국 상장 전 종목 리스트 수집 중 (Finviz +Large 와 동일 기준)...")
     try:
-        url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
-        # User-Agent 없이 요청하면 Wikipedia가 403 Forbidden으로 차단함
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
-        resp = requests.get(url, headers=headers, timeout=20)
-        resp.raise_for_status()
-        tables = pd.read_html(StringIO(resp.text))
-        sp500_df = tables[0]
-        
-        # yfinance 호환을 위해 티커의 '.'을 '-'로 변경 (예: BRK.B -> BRK-B)
-        sp500_df['Symbol'] = sp500_df['Symbol'].str.replace('.', '-')
-        
-        # 티커를 키값으로 하여 회사명(Security)과 섹터(GICS Sector)를 매핑
-        info_dict = sp500_df.set_index('Symbol')[['Security', 'GICS Sector']].to_dict('index')
+        info_dict = get_large_cap_universe()
         tickers = list(info_dict.keys())
+        if len(tickers) < 100:
+            raise ValueError(f"종목 수가 비정상적으로 적습니다: {len(tickers)}")
     except Exception as e:
-        print(f"S&P 500 리스트 수집 실패: {e}")
+        print(f"대형주 리스트 수집 실패: {e}")
         sys.exit(1)
 
     print(f"2. yfinance로 {len(tickers)}개 대형주 주가 일괄 다운로드 중...")
@@ -106,9 +144,9 @@ def generate_market_data_md():
         return md
 
     # 테이블 하단에 들어갈 Finviz 전체보기 원본 링크
-    url_daily = "https://finviz.com/screener.ashx?v=111&f=cap_largeover10&o=-change"
-    url_weekly = "https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf1w"
-    url_monthly = "https://finviz.com/screener.ashx?v=141&f=cap_largeover10&o=-perf4w"
+    url_daily = "https://finviz.com/screener.ashx?v=111&f=cap_largeover&o=-change"
+    url_weekly = "https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf1w"
+    url_monthly = "https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf4w"
 
     md_content = "# Market Data\n\n"
     
