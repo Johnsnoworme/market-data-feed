@@ -1,1 +1,542 @@
-{}
+{
+  "MRNA": {
+    "name": "Moderna",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁",
+    "status": "active",
+    "last_zone": ""
+  },
+  "OKTA": {
+    "name": "Okta Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SAIL": {
+    "name": "SailPoint Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ILMN": {
+    "name": "Illumina, Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TEM": {
+    "name": "Tempus AI Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "NET": {
+    "name": "Cloudflare Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁",
+    "status": "active",
+    "last_zone": ""
+  },
+  "HPE": {
+    "name": "Hewlett Packard Enterprise",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TWLO": {
+    "name": "Twilio Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CRWD": {
+    "name": "CrowdStrike",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SMCI": {
+    "name": "Supermicro",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "META": {
+    "name": "Meta Platforms",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CORT": {
+    "name": "Corcept Therapeutics Incorporated",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ANET": {
+    "name": "Arista Networks",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "MDB": {
+    "name": "MongoDB Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "A": {
+    "name": "Agilent Technologies",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁",
+    "status": "active",
+    "last_zone": ""
+  },
+  "GRMN": {
+    "name": "Garmin",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SN": {
+    "name": "SharkNinja Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SHOP": {
+    "name": "Shopify Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SCCO": {
+    "name": "Southern Copper Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "AMD": {
+    "name": "Advanced Micro Devices",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁",
+    "status": "active",
+    "last_zone": ""
+  },
+  "MTD": {
+    "name": "Mettler Toledo",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗⭐주",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TRI": {
+    "name": "Thomson Reuters Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "AMGN": {
+    "name": "Amgen",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗⭐주",
+    "status": "active",
+    "last_zone": ""
+  },
+  "WBD": {
+    "name": "Warner Bros. Discovery",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DDS": {
+    "name": "Dillard's Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁",
+    "status": "active",
+    "last_zone": ""
+  },
+  "BE": {
+    "name": "Bloom Energy",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DHR": {
+    "name": "Danaher Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗⭐월주",
+    "status": "active",
+    "last_zone": ""
+  },
+  "RVMD": {
+    "name": "Revolution Medicines Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DDOG": {
+    "name": "Datadog",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ASX": {
+    "name": "ASE Technology Holding Co. Ltd.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TEL": {
+    "name": "TE Connectivity",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗⭐주",
+    "status": "active",
+    "last_zone": ""
+  },
+  "EMR": {
+    "name": "Emerson Electric",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "KEYS": {
+    "name": "Keysight Technologies",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "VTRS": {
+    "name": "Viatris",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ETN": {
+    "name": "Eaton Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "JCI": {
+    "name": "Johnson Controls",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "NDSN": {
+    "name": "Nordson Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DIS": {
+    "name": "Walt Disney Company (The)",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CLS": {
+    "name": "Celestica Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ARW": {
+    "name": "Arrow Electronics Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "GME": {
+    "name": "GameStop Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "QCOM": {
+    "name": "Qualcomm",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🏁",
+    "status": "active",
+    "last_zone": ""
+  },
+  "VRTX": {
+    "name": "Vertex Pharmaceuticals",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🚗",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TEAM": {
+    "name": "Atlassian Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "MSTR": {
+    "name": "Strategy Inc",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "PLTR": {
+    "name": "Palantir Technologies",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "VEEV": {
+    "name": "Veeva Systems",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "WDAY": {
+    "name": "Workday, Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DOCU": {
+    "name": "DocuSign Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CRM": {
+    "name": "Salesforce",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "U": {
+    "name": "Unity Software Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ZS": {
+    "name": "Zscaler Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "NOW": {
+    "name": "ServiceNow",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SAP": {
+    "name": "SAP  SE",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SWKS": {
+    "name": "Skyworks Solutions",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "PYPL": {
+    "name": "PayPal",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SSNC": {
+    "name": "SS&C Technologies Holdings Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "HOOD": {
+    "name": "Robinhood Markets",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CNH": {
+    "name": "CNH Industrial N.V.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  },
+  "VLTO": {
+    "name": "Veralto",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
+  }
+}
