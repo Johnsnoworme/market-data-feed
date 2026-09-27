@@ -270,7 +270,7 @@ def to_md(weekly, stars, idx13, idx1, week_end, universe_n):
     launch = [r for r in weekly if r["tier"] == "launch"]
     learn = [r for r in weekly if r["tier"] == "learn"]
     md = f"# 김종봉 스캐너 — {d} 주간\n\n"
-    md += "> 🧭 순서: ① 지수보다 강한 종목 찾기 (이 노트) → ② 8주 모니터링 → ③ 1파 뒤 2파 풀백(38.2·50·61.8%)에서 7개 룰 확인 후 진입 (Daily 노트 🔔)\n"
+    md += "> 🧭 순서: ① 지수보다 강한 종목 찾기 (이 노트) → ② 8주 모니터링 → ③ 1파 뒤 2파 풀백(주봉·월봉 30~70%)에서 7개 룰 직접 확인 후 진입 (Daily 노트 🔔)\n"
     md += f"> 기준: {d}(금) 뉴욕 종가 · 시총 $10B+ · 확정 {now} · 검사 {universe_n}개 · 🚗 {len(launch)}개 · 🏁 {len(learn)}개 · ⭐월 {sum(r['tf']=='월' for r in stars)}개 · ⭐주 {sum(r['tf']=='주' for r in stars)}개\n"
     md += f"> 지수 13주: QQQ {idx13['QQQ']:+.2f}% / SPY {idx13['SPY']:+.2f}% · 이번 주: QQQ {idx1['QQQ']:+.2f}% / SPY {idx1['SPY']:+.2f}%\n\n"
 
