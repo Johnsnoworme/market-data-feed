@@ -57,7 +57,7 @@ def swing(H, L, start, lookback, close, last_day, tf):
     cur = H.index[-1]  # 진행 중인 이번 주/이번 달 캔들
     return {"tf": tf, "low": round(l, 2), "high": round(h, 2), "retr": round((h - close) / (h - l) * 100, 1),
             "done": hd < cur,  # 1파 고점이 이번 캔들 이전 = 캔들 마감으로 확정
-            "wave1": f"{ld.strftime('%y/%m' if tf == 'M' else '%m/%d')}→{hd.strftime('%y/%m' if tf == 'M' else '%m/%d')}",
+            "wave1": f"{ld.strftime('%Y-%m' if tf == 'M' else '%m/%d')}→{hd.strftime('%Y-%m' if tf == 'M' else '%m/%d')}",
             "lv": {k: round(h - (h - l) * k / 100, 2) for k in (30, 38.2, 50, 61.8, 70)}}
 
 
@@ -134,21 +134,24 @@ def main():
             continue
         close = float(c.iloc[-1])
         # 주봉 기준 1파: 신호 8주 전부터 지금까지 주봉 최고가 ← 그 전 26주 안 주봉 최저가
-        # 월봉 기준 1파: 최근 12개월 월봉 최고가 ← 그 전 24개월 안 월봉 최저가
+        # 월봉 기준 1파: 신호 6개월 전부터 월봉 최고가 ← 그 전 24개월 안 월봉 최저가 (지금 가격이 1파 저점 아래면 월봉 1파 없음)
         W = swing(hi.resample("W-FRI").max(), lo.resample("W-FRI").min(),
                   pd.Timestamp(e["first_seen"]) - timedelta(weeks=8), 26, close, last_day, "W")
         M = swing(hi.resample("ME").max(), lo.resample("ME").min(),
-                  last_day - pd.DateOffset(months=12), 24, close, last_day, "M")
+                  pd.Timestamp(e["first_seen"]) - pd.DateOffset(months=6), 24, close, last_day, "M")
+        if M and M["retr"] > 100:
+            M = None
         if not W and not M:
             continue
         zw = zone(W["retr"]) if W else (False, "—", -1)
         zm = zone(M["retr"]) if M else (False, "—", -1)
-        alert = (zw[0] and zw[2] < 8) or (zm[0] and zm[2] < 8)
-        broken = (not W or zw[2] == 8) and (not M or zm[2] == 8 or not zm[0])
-        if broken and (zw[2] == 8):
+        aw, am = zw[0] and zw[2] < 8, zm[0] and zm[2] < 8
+        alert = aw or am
+        broken = bool(W) and zw[2] == 8 and not am   # 주봉 70% 이탈 + 월봉도 구간 밖 → 추적 종료
+        if broken:
             alert, order = True, 8
         else:
-            order = max(zw[2] if zw[0] else -1, zm[2] if zm[0] else -1)
+            order = max(zw[2] if aw else -1, zm[2] if am else -1)
         label = lambda z, S: (z[1] + ("" if S["done"] else " ⏳미확정")) if S and z[0] else (z[1] if S else "—")
         name = f"주 {label(zw, W)} / 월 {label(zm, M)}"
         key = f"{zw[1]}|{zm[1]}"
