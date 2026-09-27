@@ -14,7 +14,6 @@ from datetime import datetime, timezone, timedelta
 import pandas as pd
 import yfinance as yf
 
-from jb_rules import check as rule_check
 
 OUT = "scanner/jb/pullback"
 TRACK_PATH = "scanner/jb/tracking.json"
@@ -22,21 +21,21 @@ FIB = [23.6, 38.2, 50.0, 61.8]
 TOL = 1.5  # 레벨 '도달' 판정 여유 (%p)
 
 
-ZONE_LO, ZONE_HI = 38.2, 70.0   # 2파 풀백 알림 구간 (정확한 숫자 대신 범위)
+ZONE_LO, ZONE_HI = 30.0, 70.0   # 2파 풀백 알림 구간: 30~70% 안이면 어떤 가격이든 알림
 
 
 def zone(r):
-    """되돌림 %를 구간으로 (알림 여부, 표시 이름, 순서). 38.2~70% 전체가 알림 구간."""
+    """되돌림 %를 구간으로 (알림 여부, 표시 이름, 순서). 30~70% 전체가 알림 구간."""
     if r < 0:
         return (False, "🚀 신고가", 0)
-    if r < 23.6:
-        return (False, "🟢 고점 근처 (0~23.6%)", 1)
     if r < ZONE_LO:
-        return (False, "🟡 얕은 조정 (23.6~38.2%)", 2)
+        return (False, "🟢 고점 근처 (0~30%)", 1)
+    if r < 38.2:
+        return (True, "🔔 30~38.2%", 2)
     if r < 50:
         return (True, "🔔 38.2~50%", 3)
     if r < 61.8:
-        return (True, "🔔 50~61.8% (이상적)", 4)
+        return (True, "🔔 50~61.8%", 4)
     if r <= ZONE_HI:
         return (True, "🔔 61.8~70% (마지막 방어선)", 5)
     return (True, "⚠️ 70% 이탈 → 추적 종료", 8)
@@ -131,25 +130,20 @@ def main():
         week_start = (last_day - timedelta(days=last_day.weekday())).normalize()
         wave1_done = h_date < week_start
         alert, name, order = zone(retr)
-        if not wave1_done and order < 8:
-            alert, name, order = (False, "⏳ 1파 진행 중 (고점이 이번 주)", 1)
+        if alert and not wave1_done and order < 8:
+            name += " ⏳1파 미확정"
         new_zone = name != e.get("last_zone", "")
         e["last_zone"] = name
         if order == 8:
             e["status"] = "broken"
-        rc = None
-        if alert and order < 8:
-            try:
-                rc = rule_check(d["Open"][t], hi, lo, c, d["Volume"][t], l, h, l_date, h_date, retr)
-            except Exception as ex:
-                print(t, "룰 체크 실패", ex)
         rows.append({
             "ticker": t, "name": e.get("name", ""), "kind": e.get("kind", ""), "first_seen": e["first_seen"],
             "expires": e["expires"], "close": round(close, 2), "swing_low": round(l, 2), "swing_high": round(h, 2),
             "wave1": f"{l_date.strftime('%m/%d')}→{h_date.strftime('%m/%d')}",
             "retrace_pct": round(retr, 1), "zone": name, "alert": alert, "new": new_zone, "order": order,
             "lv382": round(h - (h - l) * 0.382, 2), "lv50": round(h - (h - l) * 0.5, 2),
-            "lv618": round(h - (h - l) * 0.618, 2), "lv70": round(h - (h - l) * 0.70, 2), "rules": rc,
+            "lv618": round(h - (h - l) * 0.618, 2), "lv70": round(h - (h - l) * 0.70, 2),
+            "lv30": round(h - (h - l) * 0.30, 2),
         })
 
     kind_rank = lambda k: 0 if k.startswith("🚗") else (1 if "⭐" in k else 2)
@@ -172,39 +166,24 @@ def main():
     md += "\n### 🔔 2파 풀백 구간 (추적 종목 = 지수보다 강했던 종목)\n"
     md += f"> 👀 조기 경보 {len(early)}개 (새로 {sum(r['new'] for r in early)}개) · 추적 {len(rows)}개 · 풀백 구간 {len(alerts)}개 · 오늘 새로 진입 {len(news)}개 · 생성 {now}\n"
     md += "> 1파 = 스윙 저점→고점 상승, 되돌림 % = 지금 2파로 1파의 몇 %를 내려왔나. 🚗 막 출발 / ⭐월·⭐주 인텔형 / 👀 조기 경보 / 🏁 학습용\n\n"
-    ICON = ["👤", "🧱", "🔪", "🧠", "🌊", "🥊"]
-    def rules_txt(r):
-        rc = r.get("rules")
-        if not rc:
-            return "—", "—"
-        marks = " ".join(k + ("✅" if v else "·") for k, v in rc["checks"].items())
-        p = rc["plan"]
-        plan = f"진입 {p['entry']} · 손절 {p['stop']} · 목표 {p['target1']} / {p['target2']}" + (f" · 손익비 {p['rr_t1']}" if p["rr_t1"] else "")
-        return f"{rc['score']}/6 {marks} · 🧠{rc['room_left']}캔들", plan
     live = [r for r in alerts if r["order"] < 8]
     broken = [r for r in alerts if r["order"] == 8]
-    live.sort(key=lambda r: (-(r["rules"]["score"] if r.get("rules") else 0), kind_rank(r["kind"]), r["ticker"]))
-    top = [r for r in live if r.get("rules") and r["rules"]["score"] == 6]
-    if top:
-        md += "#### ✅ 자동 룰 6/6 통과 → 차트 직접 확인 + 👓 계획 확정\n"
-        for r in top:
-            md += f"- **{r['ticker']}** {r['kind']} {r['zone']} · {rules_txt(r)[1]}\n"
-        md += "\n"
+    live.sort(key=lambda r: (not r["new"], kind_rank(r["kind"]), -r["order"], r["ticker"]))
     if live:
-        md += "| 티커 | 구분 | 구간 | 되돌림 | 1파 | 종가 | 38.2% · 50% · 61.8% · 70% | 룰 자동 체크 | 👓 계획 제안 |\n"
-        md += "| :--- | :--- | :--- | ---: | :--- | ---: | :--- | :--- | :--- |\n"
+        md += "| 티커 | 구분 | 구간 | 되돌림 | 1파 (저점→고점) | 종가 | 30% · 38.2% · 50% · 61.8% · 70% 가격 | 신호일 |\n"
+        md += "| :--- | :--- | :--- | ---: | :--- | ---: | :--- | :--- |\n"
         for r in live:
-            rt, plan = rules_txt(r)
-            md += (f"| {r['ticker']}{' 🆕' if r['new'] else ''} | {r['kind']} | {r['zone']} | {r['retrace_pct']:.1f}% | {r['wave1']} | {r['close']} | "
-                   f"{r['lv382']} · {r['lv50']} · {r['lv618']} · {r['lv70']} | {rt} | {plan} |\n")
+            md += (f"| {r['ticker']}{' 🆕' if r['new'] else ''} | {r['kind']} | {r['zone']} | {r['retrace_pct']:.1f}% | "
+                   f"{r['wave1']} ({r['swing_low']}→{r['swing_high']}) | {r['close']} | "
+                   f"{r['lv30']} · {r['lv382']} · {r['lv50']} · {r['lv618']} · {r['lv70']} | {r['first_seen']} |\n")
     else:
-        md += "오늘 2파 풀백 구간(38.2~70%)에 있는 종목이 없어요.\n"
+        md += "오늘 2파 풀백 구간(30~70%)에 있는 종목이 없어요.\n"
     if broken:
         md += "\n⚠️ 70% 이탈 → 추적 종료: " + ", ".join(r["ticker"] for r in broken) + "\n"
     waiting = [r for r in rows if not r["alert"]]
     if waiting:
-        md += f"\n> [!note]- 대기 중 {len(waiting)}개 (38.2% 전 또는 1파 진행 중)\n> " + ", ".join(f"{r['ticker']} {r['retrace_pct']:.0f}%" for r in waiting) + "\n"
-    md += "\n> 🆕 = 오늘 새 구간 · ⏳ = 1파 고점이 이번 주라 아직 확정 전(알림 안 함) · 룰 체크: 👤Big shadows 🧱Kwon 🔪Sharp 🧠Room for the left 🌊Liquidity 🥊Enter at the counter (기계 근사치, 차트 직접 확인 필수) · 👓 No plan no trade는 제안값을 보고 직접 확정\n"
+        md += f"\n> [!note]- 대기 중 {len(waiting)}개 (아직 30% 전)\n> " + ", ".join(f"{r['ticker']} {r['retrace_pct']:.0f}%" for r in waiting) + "\n"
+    md += "\n> 🆕 = 오늘 새 구간 · ⏳1파 미확정 = 1파 고점이 이번 주라 캔들 마감 전 · 알림은 '지켜볼 자리' → 7개 룰은 차트로 직접 확인\n"
 
     open(fname, "w", encoding="utf-8").write(md)
     open(f"{OUT}/latest.md", "w", encoding="utf-8").write(md)
