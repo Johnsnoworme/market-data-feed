@@ -75,7 +75,7 @@ def main():
         if e["status"] == "active" and e["expires"] < today:
             e["status"] = "expired"
     # 👀 조기 경보 대상: $10B+ 전체 + 워치리스트 (월말 전에 월봉 전환 조짐 잡기)
-    from jb_scanner import get_large_caps, get_watchlist, download_daily
+    from jb_scanner import get_large_caps, get_watchlist, download_daily, fv
     from jb_signals import early_monthly
     large = get_large_caps()
     wl = get_watchlist()
@@ -177,7 +177,7 @@ def main():
     if early:
         md += "| 티커 | 회사 | 이번 달 | 나스닥 이번 달 | 12개월선 대비 | 지난달 고점 | 바닥 개월 |\n| :--- | :--- | ---: | ---: | ---: | ---: | ---: |\n"
         for r in early[:10]:
-            md += (f"| {r['ticker']}{' 🆕' if r['new'] else ''} | {r['name']} | {r['mtd_pct']:+.1f}% | {r['qqq_mtd_pct']:+.1f}% | "
+            md += (f"| {fv(r['ticker'])}{' 🆕' if r['new'] else ''} | {r['name']} | {r['mtd_pct']:+.1f}% | {r['qqq_mtd_pct']:+.1f}% | "
                    f"{r['vs_ma12m_pct']:+.1f}% | {r['prev_high']} | {r['base']}/12 |\n")
         if len(early) > 10:
             md += f"\n> [!note]- 나머지 {len(early) - 10}개\n> " + ", ".join(f"{r['ticker']} {r['mtd_pct']:+.0f}%" for r in early[10:]) + "\n"
@@ -198,7 +198,7 @@ def main():
         md += "| 티커 | 구분 | 구간 (주봉 / 월봉) | 종가 | 주봉 풀백 | 월봉 풀백 | 신호일 |\n"
         md += "| :--- | :--- | :--- | ---: | :--- | :--- | :--- |\n"
         for r in live:
-            md += (f"| {r['ticker']}{' 🆕' if r['new'] else ''} | {r['kind']} | {r['zone']} | {r['close']} | "
+            md += (f"| {fv(r['ticker'])}{' 🆕' if r['new'] else ''} | {r['kind']} | {r['zone']} | {r['close']} | "
                    f"{lv(r['W'])} | {lv(r['M'])} | {r['first_seen']} |\n")
     else:
         md += "오늘 2파 풀백 구간(주봉 또는 월봉 30~70%)에 있는 종목이 없어요.\n"

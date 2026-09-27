@@ -193,6 +193,7 @@ def scan(daily, names, large_caps):
             "rs_vs_qqq": round(ret13 - idx13["QQQ"], 2), "rs_vs_spy": round(ret13 - idx13["SPY"], 2),
             "above_ma12_pct": round(pct(now, ma.iloc[-1]), 2), "against_index_weeks": against,
             "close": round(float(now), 2), "avg_dollar_vol_m": round(dv / 1e6, 1),
+            "mtd_pct": round(pct(mclose[t].dropna().iloc[-1], mclose[t].dropna().iloc[-2]), 2) if len(mclose[t].dropna()) > 2 else float("nan"),
         }
 
         # ⭐ 인텔형: 월봉 12개월선 돌파(⭐월) / 주봉 12주선 돌파(⭐주) — 둘 다 긴 바닥 후
@@ -244,23 +245,28 @@ def fill_names(rows):
             pass
 
 
-def row_md(r, extra):
+def fv(t):
+    """Finviz 링크 (새 탭). p=d&t= 순서라서 Top 3 티커 태그 자동 추가에는 안 걸림"""
+    return f'<a href="https://finviz.com/quote.ashx?p=d&t={t}" target="_blank">{t}</a>'
+
+
+def row_md(r, extra=None):
     star = (" ⭐" + r["star"]) if r.get("star") else ""
-    return (f"| {r['ticker']}{star} | {r['name']} | {r['sector']} | {r['week_pct']:+.2f}% | {r['month_pct']:+.2f}% | "
-            f"{r['rs_vs_qqq']:+.2f}%p | {r['above_ma12_pct']:+.2f}% | {extra} |\n")
+    return (f"| {fv(r['ticker'])}{star} | {r['name']} | {r['sector']} | {r['week_pct']:+.2f}% | "
+            f"{r['month_pct']:+.2f}% | {r['rs_vs_qqq']:+.1f}%p |\n")
 
 
-HEAD = "| 티커 | 회사 | 섹터 | 이번 주 | 1개월 | 13주 vs QQQ | 12주선 대비 | {x} |\n| :--- | :--- | :--- | ---: | ---: | ---: | ---: | :--- |\n"
+HEAD = "| 티커 | 회사 | 섹터 | 이번 주 | 1개월 | 지수보다 (13주) |\n| :--- | :--- | :--- | ---: | ---: | ---: |\n"
 
 
 def table(rows, x, extra_fn):
     if not rows:
         return "이번 주 없음\n"
-    md = HEAD.format(x=x) + "".join(row_md(r, extra_fn(r)) for r in rows[:SHOW_TOP])
+    md = HEAD + "".join(row_md(r, extra_fn(r)) for r in rows[:SHOW_TOP])
     rest = rows[SHOW_TOP:]
     if rest:
         md += f"\n> [!note]- 나머지 {len(rest)}개 (13주 상대강도 순, 전부 추적 중)\n"
-        md += "".join("> " + line + "\n" for line in (HEAD.format(x=x) + "".join(row_md(r, extra_fn(r)) for r in rest)).strip().split("\n"))
+        md += "".join("> " + line + "\n" for line in (HEAD + "".join(row_md(r, extra_fn(r)) for r in rest)).strip().split("\n"))
     return md
 
 
@@ -320,6 +326,50 @@ def update_tracking(weekly, stars, week_end):
     print(f"추적 리스트: 활성 {sum(1 for v in track.values() if v['status'] == 'active')}개")
 
 
+def update_monthly(weekly, stars, week_end):
+    """이달(금요일 날짜 기준 월) 김종봉 스캐너에 나온 종목을 모아 scanner/jb/monthly/YYYY-MM.md 로"""
+    ym = week_end.strftime("%Y-%m")
+    os.makedirs(f"{OUT_DIR}/monthly", exist_ok=True)
+    jp = f"{OUT_DIR}/monthly/{ym}.json"
+    data = json.load(open(jp, encoding="utf-8")) if os.path.exists(jp) else {"month": ym, "tickers": {}}
+    wk = week_end.strftime("%m/%d")
+    for r in list(weekly) + list(stars):
+        kind = ("🚗" if r.get("tier") == "launch" else "🏁") if "tier" in r else ("⭐" + r.get("tf", ""))
+        e = data["tickers"].setdefault(r["ticker"], {"name": r["name"], "sector": r["sector"], "first": wk, "kinds": [], "weeks": []})
+        if kind not in e["kinds"]:
+            e["kinds"].append(kind)
+        if wk not in e["weeks"]:
+            e["weeks"].append(wk)
+        e.update(name=r["name"] or e["name"], sector=r["sector"] or e["sector"], mtd_pct=r.get("mtd_pct"),
+                 rs_vs_qqq=r["rs_vs_qqq"], last=wk, star_m=e.get("star_m") or ("월" in (r.get("star") or "")))
+    data["last_week"] = week_end.strftime("%Y-%m-%d")
+    json.dump(data, open(jp, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+
+    rows = sorted(data["tickers"].items(), key=lambda kv: (-(len(kv[1]["weeks"])), -(kv[1].get("rs_vs_qqq") or 0)))
+    focus = [kv for kv in rows if any(k in ("🚗", "⭐월", "⭐주") for k in kv[1]["kinds"])]
+    learn = [kv for kv in rows if kv not in focus]
+    def line(t, e):
+        m = e.get("mtd_pct")
+        m = f"{m:+.1f}%" if isinstance(m, (int, float)) and m == m else "—"
+        return (f"| {fv(t)}{' ⭐월' if e.get('star_m') else ''} | {e['name']} | {e['sector']} | {' '.join(e['kinds'])} | "
+                f"{e['first']} | {len(e['weeks'])}주 | {m} |\n")
+    head = "| 티커 | 회사 | 섹터 | 구분 | 처음 뜬 주 | 등장 | 이번 달 |\n| :--- | :--- | :--- | :--- | :--- | ---: | ---: |\n"
+    md = f"# 김종봉 스캐너 — {ym} 월간 모음\n\n"
+    md += f"> 이달 매주 스캐너(시총 $10B+, 지수보다 강한 종목)에 나온 종목 모음 · 마지막 반영 {data['last_week']}(금) · 이번 달 % = 지난달 말 → 마지막 반영 금요일\n"
+    md += "> 여러 주 연속 등장할수록 위 · 티커를 누르면 Finviz\n\n"
+    md += "### 🎯 집중 (🚗 막 출발 · ⭐월 · ⭐주 인텔형)\n"
+    if focus:
+        md += head + "".join(line(t, e) for t, e in focus[:10])
+        if len(focus) > 10:
+            md += f"\n> [!note]- 나머지 {len(focus) - 10}개\n" + "".join("> " + l + "\n" for l in (head + "".join(line(t, e) for t, e in focus[10:])).strip().split("\n"))
+    else:
+        md += "이번 달 없음\n"
+    if learn:
+        md += f"\n> [!note]- 🏁 이미 달린 차 (학습용) {len(learn)}개\n" + "".join("> " + l + "\n" for l in (head + "".join(line(t, e) for t, e in learn)).strip().split("\n"))
+    open(f"{OUT_DIR}/monthly/{ym}.md", "w", encoding="utf-8").write(md)
+    print(f"월간 모음 {ym}: {len(rows)}개")
+
+
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     large = get_large_caps()
@@ -364,6 +414,7 @@ def main():
         hist.append(payload["week_end"])
     json.dump(sorted(hist), open(idx_path, "w"), indent=2)
     update_tracking(weekly, stars, week_end)
+    update_monthly(weekly, stars, week_end)
     print(md)
 
 
