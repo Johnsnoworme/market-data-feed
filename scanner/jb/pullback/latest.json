@@ -45,7 +45,7 @@
       "close": 23.39,
       "zone": "주 🟢 고점 근처 (0~30%) / 월 🔔 50~61.8%",
       "alert": true,
-      "new": true,
+      "new": false,
       "order": 4,
       "W": {
         "tf": "W",
@@ -88,7 +88,7 @@
       "close": 98.99,
       "zone": "주 🔔 30~38.2% / 월 🔔 30~38.2% ⏳미확정",
       "alert": true,
-      "new": true,
+      "new": false,
       "order": 2,
       "W": {
         "tf": "W",
@@ -1206,7 +1206,7 @@
       "close": 158.61,
       "zone": "주 🟢 고점 근처 (0~30%) / 월 🔔 38.2~50%",
       "alert": true,
-      "new": true,
+      "new": false,
       "order": 3,
       "W": {
         "tf": "W",
@@ -1249,7 +1249,7 @@
       "close": 55.04,
       "zone": "주 🔔 30~38.2% / 월 🔔 30~38.2%",
       "alert": true,
-      "new": true,
+      "new": false,
       "order": 2,
       "W": {
         "tf": "W",
@@ -1292,7 +1292,7 @@
       "close": 189.45,
       "zone": "주 🔔 30~38.2% / 월 🔔 30~38.2%",
       "alert": true,
-      "new": true,
+      "new": false,
       "order": 2,
       "W": {
         "tf": "W",
@@ -2109,7 +2109,7 @@
       "close": 201.97,
       "zone": "주 🟢 고점 근처 (0~30%) / 월 🔔 38.2~50%",
       "alert": true,
-      "new": true,
+      "new": false,
       "order": 3,
       "W": {
         "tf": "W",
@@ -2617,5 +2617,5 @@
       "retrace_pct": 12.0
     }
   ],
-  "generated_utc": "2026-09-27 12:19 UTC"
+  "generated_utc": "2026-09-27 12:34 UTC"
 }
