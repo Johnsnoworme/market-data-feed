@@ -270,33 +270,66 @@ def table(rows, x, extra_fn):
     return md
 
 
-def to_md(weekly, stars, idx13, idx1, week_end, universe_n):
+def combine(weekly, stars, prev_track):
+    """티커 하나당 한 줄로 합치고 점수 매기기 (신호 겹침 + 지수보다 강한 정도 + 주도 섹터 + 연속 등장)"""
+    by = {}
+    for r in weekly:
+        e = by.setdefault(r["ticker"], dict(r, sig=[]))
+        e["sig"].append("🚗" if r["tier"] == "launch" else "🏁")
+    for r in stars:
+        e = by.setdefault(r["ticker"], dict(r, sig=[]))
+        tag = "⭐" + r["tf"]
+        if tag not in e["sig"]:
+            e["sig"].append(tag)
+    from collections import Counter
+    sec = Counter(e["sector"] for e in by.values() if e.get("sector"))
+    hot = {k for k, v in sec.items() if v >= 4}
+    for t, e in by.items():
+        sc = 0.0
+        sc += 3 if "🚗" in e["sig"] else 0
+        sc += 2 * sum(1 for x in e["sig"] if x.startswith("⭐"))
+        sc += min(max(e["rs_vs_qqq"], 0) / 10, 3)
+        sc += 1 if e.get("against_index_weeks", 0) >= 1 else 0
+        sc += 1 if e.get("sector") in hot else 0
+        pt = prev_track.get(t)
+        e["repeat"] = bool(pt and pt.get("status") == "active" and pt.get("last_seen", "") < e.get("_week", "9"))
+        sc += 1 if e["repeat"] else 0
+        only_learn = e["sig"] == ["🏁"]
+        e["score"] = round(sc - (3 if only_learn else 0), 1)
+        e["only_learn"] = only_learn
+    return sorted(by.values(), key=lambda e: -e["score"]), sec, hot
+
+
+def row2(e):
+    rep = " 🔁" if e.get("repeat") else ""
+    return (f"| {fv(e['ticker'])}{rep} | {e['name']} | {e['sector']} | {e['week_pct']:+.2f}% | {e['month_pct']:+.2f}% | "
+            f"{e['rs_vs_qqq']:+.1f}%p | {' '.join(e['sig'])} |\n")
+
+
+HEAD2 = "| 티커 | 회사 | 섹터 | 이번 주 | 1개월 | 지수보다 (13주) | 신호 |\n| :--- | :--- | :--- | ---: | ---: | ---: | :--- |\n"
+
+
+def to_md(weekly, stars, idx13, idx1, week_end, universe_n, prev_track=None):
     d = week_end.strftime("%Y-%m-%d")
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    launch = [r for r in weekly if r["tier"] == "launch"]
-    learn = [r for r in weekly if r["tier"] == "learn"]
+    for r in weekly + stars:
+        r["_week"] = d
+    rows, sec, hot = combine(weekly, stars, prev_track or {})
+    top = [e for e in rows if not e["only_learn"]][:SHOW_TOP]
+    rest = [e for e in rows if e not in top]
     md = f"# 김종봉 스캐너 — {d} 주간\n\n"
     md += "> 🧭 순서: ① 지수보다 강한 종목 찾기 (이 노트) → ② 8주 모니터링 → ③ 1파 뒤 2파 풀백(주봉·월봉 30~70%)에서 7개 룰 직접 확인 후 진입 (Daily 노트 🔔)\n"
-    md += f"> 기준: {d}(금) 뉴욕 종가 · 시총 $10B+ · 확정 {now} · 검사 {universe_n}개 · 🚗 {len(launch)}개 · 🏁 {len(learn)}개 · ⭐월 {sum(r['tf']=='월' for r in stars)}개 · ⭐주 {sum(r['tf']=='주' for r in stars)}개\n"
+    md += f"> 기준: {d}(금) 뉴욕 종가 · 시총 $10B+ · 검사 {universe_n}개 → 지수보다 강한 종목 {len(rows)}개 (전부 레이더에 기록·추적) · 확정 {now}\n"
     md += f"> 지수 13주: QQQ {idx13['QQQ']:+.2f}% / SPY {idx13['SPY']:+.2f}% · 이번 주: QQQ {idx1['QQQ']:+.2f}% / SPY {idx1['SPY']:+.2f}%\n\n"
-
-    md += "### 🚗 막 출발하는 차 (집중)\n"
-    md += "> 지수보다 강함 + 1~3주 전 12주선까지 눌림 + 이번 주 다시 상승 + 12주선 대비 +15% 이내 → 손익비가 맞는 자리 후보\n\n"
-    md += table(launch, "눌림", lambda r: f"{r['pullback']} ({r['pullback_weeks_ago']}주 전)")
-
-    stars_m = [r for r in stars if r["tf"] == "월"]
-    stars_w = [r for r in stars if r["tf"] == "주"]
-    md += "\n### ⭐ 인텔형 — 월봉 (⭐월)\n"
-    md += "> 12개월 중 6개월 이상 월봉 12개월선 아래(긴 바닥) → 최근 2개월 안에 위로 돌파(+3%↑) + 13주 수익률이 지수보다 강함\n\n"
-    md += table(stars_m, "12개월선 대비 · 바닥 개월", lambda r: f"{r['star_above_pct']:+.2f}% · {r['star_base']}/12")
-    md += "\n### ⭐ 인텔형 — 주봉 (⭐주)\n"
-    md += "> 26주 중 13주 이상 주봉 12주선 아래(긴 바닥) → 최근 2주 안에 위로 돌파(+2%↑) + 주 +4% 이상 양봉 + 13주 수익률이 지수보다 강함\n\n"
-    md += table(stars_w, "12주선 대비 · 바닥 주", lambda r: f"{r['star_above_pct']:+.2f}% · {r['star_base']}/26")
-
-    md += "\n### 🏁 이미 달린 차 (학습용)\n"
-    md += "> 신호는 나왔지만 이미 멀리 감 → 손익비가 안 맞음. 차트 공부용으로만\n\n"
-    md += table(learn, "눌림", lambda r: f"{r['pullback']} ({r['pullback_weeks_ago']}주 전)")
-    md += "\n> 🔔 위 종목(🚗·⭐·🏁)은 8주 동안 추적 → 38.2% · 50% · 61.8% 풀백 구간에 오면 Daily 노트에 알림\n"
+    md += "### 🏆 이번 주 핵심 5\n"
+    md += "> 점수 = 신호 겹침(🚗 막 출발 +3, ⭐월·⭐주 인텔형 각 +2) + 지수보다 강한 정도(최대 +3) + 지수 하락 주에 상승(+1) + 주도 섹터(+1) + 연속 등장 🔁(+1)\n\n"
+    md += (HEAD2 + "".join(row2(e) for e in top)) if top else "이번 주 없음\n"
+    if hot:
+        md += "\n🔥 **돈이 몰린 섹터** (4종목↑): " + " · ".join(f"{k} {sec[k]}개" for k in sorted(hot, key=lambda k: -sec[k])) + "\n"
+    if rest:
+        md += f"\n> [!note]- 📡 레이더 전체 {len(rest)}개 (점수 순 · 전부 8주 추적 · 풀백 오면 Daily 알림)\n"
+        md += "".join("> " + l + "\n" for l in (HEAD2 + "".join(row2(e) for e in rest)).strip().split("\n"))
+    md += "\n> 신호: 🚗 막 출발(1~3주 전 12주선 눌림 후 반등, 12주선 +15% 이내) · ⭐월/⭐주 인텔형(긴 바닥 후 12개월선/12주선 돌파) · 🏁 이미 달린 차(학습용) · 티커를 누르면 Finviz\n"
     return md
 
 
@@ -357,11 +390,11 @@ def update_monthly(weekly, stars, week_end):
     md = f"# 김종봉 스캐너 — {ym} 월간 모음\n\n"
     md += f"> 이달 매주 스캐너(시총 $10B+, 지수보다 강한 종목)에 나온 종목 모음 · 마지막 반영 {data['last_week']}(금) · 이번 달 % = 지난달 말 → 마지막 반영 금요일\n"
     md += "> 여러 주 연속 등장할수록 위 · 티커를 누르면 Finviz\n\n"
-    md += "### 🎯 집중 (🚗 막 출발 · ⭐월 · ⭐주 인텔형)\n"
+    md += "### 🏆 이달 핵심 (여러 주 연속 등장 → 지수보다 강한 정도 순)\n"
     if focus:
-        md += head + "".join(line(t, e) for t, e in focus[:10])
-        if len(focus) > 10:
-            md += f"\n> [!note]- 나머지 {len(focus) - 10}개\n" + "".join("> " + l + "\n" for l in (head + "".join(line(t, e) for t, e in focus[10:])).strip().split("\n"))
+        md += head + "".join(line(t, e) for t, e in focus[:5])
+        if len(focus) > 5:
+            md += f"\n> [!note]- 나머지 {len(focus) - 5}개\n" + "".join("> " + l + "\n" for l in (head + "".join(line(t, e) for t, e in focus[5:])).strip().split("\n"))
     else:
         md += "이번 달 없음\n"
     if learn:
@@ -400,7 +433,8 @@ def main():
     fill_names(weekly + stars)
     for r in weekly + stars:
         r["in_watchlist"] = r["ticker"] in wl
-    md = to_md(weekly, stars, idx13, idx1, week_end, len(universe))
+    prev_track = json.load(open(TRACK_PATH, encoding="utf-8")) if os.path.exists(TRACK_PATH) else {}
+    md = to_md(weekly, stars, idx13, idx1, week_end, len(universe), prev_track)
     open(fname, "w", encoding="utf-8").write(md)
     payload = {"week_end": week_end.strftime("%Y-%m-%d"), "file": fname,
                "counts": {"launch": sum(r["tier"] == "launch" for r in weekly),
