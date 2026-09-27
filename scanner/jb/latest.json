@@ -33,7 +33,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 5,
       "tier": "learn",
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "OKTA",
@@ -53,7 +54,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 4,
       "tier": "learn",
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "SAIL",
@@ -73,7 +75,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 2,
       "tier": "learn",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "ILMN",
@@ -93,7 +96,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 1,
       "tier": "learn",
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "TEM",
@@ -113,7 +117,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 1,
       "tier": "learn",
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "NET",
@@ -133,7 +138,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 2,
       "tier": "learn",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "HPE",
@@ -153,7 +159,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 3,
       "tier": "learn",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "TWLO",
@@ -173,7 +180,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 1,
       "tier": "learn",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "CRWD",
@@ -193,7 +201,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 4,
       "tier": "learn",
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "SMCI",
@@ -213,7 +222,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 6,
       "tier": "learn",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "META",
@@ -233,7 +243,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 2,
       "tier": "learn",
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "CORT",
@@ -253,7 +264,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "ANET",
@@ -273,7 +285,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "MDB",
@@ -293,7 +306,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "A",
@@ -313,7 +327,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 1,
       "tier": "learn",
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "GRMN",
@@ -333,7 +348,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "SN",
@@ -353,7 +369,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "SHOP",
@@ -373,7 +390,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "SCCO",
@@ -393,7 +411,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "AMD",
@@ -413,7 +432,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "learn",
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "MTD",
@@ -433,7 +453,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "TRI",
@@ -453,7 +474,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "AMGN",
@@ -473,7 +495,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "WBD",
@@ -493,7 +516,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "DDS",
@@ -513,7 +537,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 5,
       "tier": "learn",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "BE",
@@ -533,7 +558,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 3,
       "tier": "learn",
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "DHR",
@@ -553,7 +579,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "RVMD",
@@ -573,7 +600,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "DDOG",
@@ -593,7 +621,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "ASX",
@@ -613,7 +642,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "TEL",
@@ -633,7 +663,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "EMR",
@@ -653,7 +684,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "KEYS",
@@ -673,7 +705,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "VTRS",
@@ -693,7 +726,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "ETN",
@@ -713,7 +747,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "JCI",
@@ -733,7 +768,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "NDSN",
@@ -753,7 +789,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "DIS",
@@ -773,7 +810,8 @@
       "pullback": "12주선 터치",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "CLS",
@@ -793,7 +831,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "ARW",
@@ -813,7 +852,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "GME",
@@ -833,7 +873,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "QCOM",
@@ -853,7 +894,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "learn",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "VRTX",
@@ -873,7 +915,8 @@
       "pullback": "12주선 아래 종가",
       "pullback_weeks_ago": 1,
       "tier": "launch",
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     }
   ],
   "star": [
@@ -895,7 +938,8 @@
       "tf": "월",
       "star_above_pct": 52.27,
       "star_base": 12,
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "MSTR",
@@ -915,7 +959,8 @@
       "tf": "월",
       "star_above_pct": 5.8,
       "star_base": 11,
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "PLTR",
@@ -935,7 +980,8 @@
       "tf": "월",
       "star_above_pct": 20.54,
       "star_base": 6,
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "VEEV",
@@ -955,7 +1001,8 @@
       "tf": "월",
       "star_above_pct": 29.83,
       "star_base": 9,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "SAIL",
@@ -975,7 +1022,8 @@
       "tf": "월",
       "star_above_pct": 20.1,
       "star_base": 6,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "WDAY",
@@ -995,7 +1043,8 @@
       "tf": "월",
       "star_above_pct": 11.01,
       "star_base": 12,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "TEM",
@@ -1015,7 +1064,8 @@
       "tf": "월",
       "star_above_pct": 37.68,
       "star_base": 8,
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "DOCU",
@@ -1035,7 +1085,8 @@
       "tf": "월",
       "star_above_pct": 17.83,
       "star_base": 12,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "CRM",
@@ -1055,7 +1106,8 @@
       "tf": "월",
       "star_above_pct": 10.7,
       "star_base": 12,
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "U",
@@ -1075,7 +1127,8 @@
       "tf": "월",
       "star_above_pct": 26.33,
       "star_base": 7,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "ZS",
@@ -1095,7 +1148,8 @@
       "tf": "월",
       "star_above_pct": 3.46,
       "star_base": 9,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "SMCI",
@@ -1115,7 +1169,8 @@
       "tf": "월",
       "star_above_pct": 26.27,
       "star_base": 8,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "NOW",
@@ -1135,7 +1190,8 @@
       "tf": "월",
       "star_above_pct": 5.96,
       "star_base": 12,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "META",
@@ -1155,7 +1211,8 @@
       "tf": "월",
       "star_above_pct": 19.19,
       "star_base": 9,
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "SAP",
@@ -1175,7 +1232,8 @@
       "tf": "월",
       "star_above_pct": 4.75,
       "star_base": 11,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "SWKS",
@@ -1195,7 +1253,8 @@
       "tf": "월",
       "star_above_pct": 33.57,
       "star_base": 7,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "PYPL",
@@ -1215,7 +1274,8 @@
       "tf": "월",
       "star_above_pct": 4.24,
       "star_base": 11,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "SSNC",
@@ -1235,7 +1295,8 @@
       "tf": "월",
       "star_above_pct": 3.32,
       "star_base": 7,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "SHOP",
@@ -1255,7 +1316,8 @@
       "tf": "월",
       "star_above_pct": 5.06,
       "star_base": 6,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "HOOD",
@@ -1275,7 +1337,8 @@
       "tf": "월",
       "star_above_pct": 18.29,
       "star_base": 6,
-      "in_watchlist": true
+      "in_watchlist": true,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "MTD",
@@ -1295,7 +1358,8 @@
       "tf": "주",
       "star_above_pct": 9.71,
       "star_base": 13,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "CNH",
@@ -1315,7 +1379,8 @@
       "tf": "월",
       "star_above_pct": 21.0,
       "star_base": 10,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "AMGN",
@@ -1335,7 +1400,8 @@
       "tf": "주",
       "star_above_pct": 3.87,
       "star_base": 13,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "DHR",
@@ -1355,7 +1421,8 @@
       "tf": "월",
       "star_above_pct": 9.11,
       "star_base": 7,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "DHR",
@@ -1375,7 +1442,8 @@
       "tf": "주",
       "star_above_pct": 8.82,
       "star_base": 13,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "TEL",
@@ -1395,7 +1463,8 @@
       "tf": "주",
       "star_above_pct": 5.31,
       "star_base": 17,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "VLTO",
@@ -1415,7 +1484,8 @@
       "tf": "월",
       "star_above_pct": 3.03,
       "star_base": 10,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     },
     {
       "ticker": "GME",
@@ -1435,8 +1505,9 @@
       "tf": "월",
       "star_above_pct": 4.91,
       "star_base": 10,
-      "in_watchlist": false
+      "in_watchlist": false,
+      "_week": "2026-09-25"
     }
   ],
-  "generated_utc": "2026-09-27T12:32:49.261875+00:00"
+  "generated_utc": "2026-09-27T12:48:13.476010+00:00"
 }
