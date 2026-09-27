@@ -46,6 +46,17 @@ INDEXES = ["QQQ", "SPY"]
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
 
 
+SECTOR_MAP = {"Information Technology": "Technology", "Healthcare": "Health Care", "Basic Materials": "Materials",
+              "Finance": "Financials", "Financial Services": "Financials", "Consumer Cyclical": "Consumer Discretionary",
+              "Consumer Defensive": "Consumer Staples", "Telecommunications": "Communication Services",
+              "Communication": "Communication Services"}
+
+
+def norm_sector(x):
+    x = (x or "").strip()
+    return SECTOR_MAP.get(x, x)
+
+
 def yf_symbol(t):
     return t.strip().upper().replace(".", "-").replace("/", "-")
 
@@ -273,6 +284,8 @@ def table(rows, x, extra_fn):
 def combine(weekly, stars, prev_track):
     """티커 하나당 한 줄로 합치고 점수 매기기 (신호 겹침 + 지수보다 강한 정도 + 주도 섹터 + 연속 등장)"""
     by = {}
+    for r in weekly + stars:
+        r["sector"] = norm_sector(r.get("sector"))
     for r in weekly:
         e = by.setdefault(r["ticker"], dict(r, sig=[]))
         e["sig"].append("🚗" if r["tier"] == "launch" else "🏁")
@@ -283,7 +296,7 @@ def combine(weekly, stars, prev_track):
             e["sig"].append(tag)
     from collections import Counter
     sec = Counter(e["sector"] for e in by.values() if e.get("sector"))
-    hot = {k for k, v in sec.items() if v >= 4}
+    hot = {k for k, v in sec.most_common(2) if v >= 4}   # 가장 많이 걸린 두 섹터
     for t, e in by.items():
         sc = 0.0
         sc += 3 if "🚗" in e["sig"] else 0
@@ -297,6 +310,8 @@ def combine(weekly, stars, prev_track):
         only_learn = e["sig"] == ["🏁"]
         e["score"] = round(sc - (3 if only_learn else 0), 1)
         e["only_learn"] = only_learn
+    for r in weekly + stars:
+        r["score"] = by[r["ticker"]]["score"]
     return sorted(by.values(), key=lambda e: -e["score"]), sec, hot
 
 
@@ -325,7 +340,7 @@ def to_md(weekly, stars, idx13, idx1, week_end, universe_n, prev_track=None):
     md += "> 점수 = 신호 겹침(🚗 막 출발 +3, ⭐월·⭐주 인텔형 각 +2) + 지수보다 강한 정도(최대 +3) + 지수 하락 주에 상승(+1) + 주도 섹터(+1) + 연속 등장 🔁(+1)\n\n"
     md += (HEAD2 + "".join(row2(e) for e in top)) if top else "이번 주 없음\n"
     if hot:
-        md += "\n🔥 **돈이 몰린 섹터** (4종목↑): " + " · ".join(f"{k} {sec[k]}개" for k in sorted(hot, key=lambda k: -sec[k])) + "\n"
+        md += "\n🔥 **돈이 가장 몰린 섹터**: " + " · ".join(f"{k} {sec[k]}개" for k in sorted(hot, key=lambda k: -sec[k])) + "\n"
     if rest:
         md += f"\n> [!note]- 📡 레이더 전체 {len(rest)}개 (점수 순 · 전부 8주 추적 · 풀백 오면 Daily 알림)\n"
         md += "".join("> " + l + "\n" for l in (HEAD2 + "".join(row2(e) for e in rest)).strip().split("\n"))
@@ -373,12 +388,13 @@ def update_monthly(weekly, stars, week_end):
             e["kinds"].append(kind)
         if wk not in e["weeks"]:
             e["weeks"].append(wk)
-        e.update(name=r["name"] or e["name"], sector=r["sector"] or e["sector"], mtd_pct=r.get("mtd_pct"),
+        e.update(name=r["name"] or e["name"], sector=norm_sector(r["sector"] or e["sector"]), mtd_pct=r.get("mtd_pct"),
+                 score=max(e.get("score", 0), r.get("score", 0)),
                  rs_vs_qqq=r["rs_vs_qqq"], last=wk, star_m=e.get("star_m") or ("월" in (r.get("star") or "")))
     data["last_week"] = week_end.strftime("%Y-%m-%d")
     json.dump(data, open(jp, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
-    rows = sorted(data["tickers"].items(), key=lambda kv: (-(len(kv[1]["weeks"])), -(kv[1].get("rs_vs_qqq") or 0)))
+    rows = sorted(data["tickers"].items(), key=lambda kv: (-(len(kv[1]["weeks"])), -(kv[1].get("score") or 0), -(kv[1].get("rs_vs_qqq") or 0)))
     focus = [kv for kv in rows if any(k in ("🚗", "⭐월", "⭐주") for k in kv[1]["kinds"])]
     learn = [kv for kv in rows if kv not in focus]
     def line(t, e):
@@ -390,7 +406,7 @@ def update_monthly(weekly, stars, week_end):
     md = f"# 김종봉 스캐너 — {ym} 월간 모음\n\n"
     md += f"> 이달 매주 스캐너(시총 $10B+, 지수보다 강한 종목)에 나온 종목 모음 · 마지막 반영 {data['last_week']}(금) · 이번 달 % = 지난달 말 → 마지막 반영 금요일\n"
     md += "> 여러 주 연속 등장할수록 위 · 티커를 누르면 Finviz\n\n"
-    md += "### 🏆 이달 핵심 (여러 주 연속 등장 → 지수보다 강한 정도 순)\n"
+    md += "### 🏆 이달 핵심 5 (여러 주 연속 등장 → 주간 점수 순)\n"
     if focus:
         md += head + "".join(line(t, e) for t, e in focus[:5])
         if len(focus) > 5:
