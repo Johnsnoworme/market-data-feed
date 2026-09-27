@@ -1,20 +1,13 @@
 # 🔔 풀백 알림 — 2026-09-25 뉴욕 종가
 
-> 추적 87개 · 풀백 구간 5개 · 오늘 새로 진입 5개 · 생성 2026-09-27 04:35 UTC
+> 추적 60개 · 풀백 구간 1개 · 오늘 새로 진입 1개 · 생성 2026-09-27 04:38 UTC
 > 되돌림 % = 직전 상승(스윙 저점→고점) 중 얼마나 내려왔나. 🚗 막 출발 / ⭐ 인텔형 / 🏁 학습용
 
 | 티커 | 구분 | 구간 | 되돌림 | 종가 | 38.2% | 50% | 61.8% | 신호일 |
 | :--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | :--- |
-| AU 🆕 | ⭐ | 🔔 38.2~50% 사이 | 43.6% | 99.03 | 101.52 | 96.07 | 90.61 | 2026-09-25 |
-| HL 🆕 | ⭐ | 🔔 38.2~50% 사이 | 44.2% | 18.19 | 18.67 | 17.73 | 16.8 | 2026-09-25 |
-| CDE 🆕 | ⭐ | 🔔 38.2% 도달 | 37.9% | 19.22 | 19.2 | 18.19 | 17.18 | 2026-09-25 |
-| EL 🆕 | ⭐ | 🔔 38.2% 도달 | 38.3% | 94.47 | 94.49 | 90.6 | 86.72 | 2026-09-25 |
 | TRI 🆕 | 🚗 | 🔔 38.2% 도달 | 37.3% | 98.99 | 98.64 | 94.28 | 89.91 | 2026-09-25 |
 
-<details><summary>대기 중 (82개)</summary>
-
-A 3%, AEM 26%, AMD 3%, AMGN 24%, ANET 7%, ARW 3%, ASX 6%, B 34%, BE 3%, BMNR 8%, CACI 13%, CLS 15%, CNH 29%, CORT 7%, CRCL 31%, CRM 28%, CRWD 10%, DDOG 16%, DDS 1%, DHR 3%, DIS 19%, DOCU 20%, EGO 30%, EMR 5%, ETN 8%, FNV 20%, FOX 28%, FOXA 28%, GFL 20%, GME 25%, GRMN 4%, HMY 31%, HOOD 14%, HPE 8%, IAG 25%, ICE 23%, ILMN 6%, IT 19%, J 31%, JCI 2%, KEYS 6%, MDB 22%, MDT 27%, META 11%, MRNA 2%, MSTR 14%, MTD 6%, NDSN 11%, NEM 25%, NET 10%, NOW 21%, OKTA 13%, PLTR 6%, PYPL 11%, QCOM 6%, RGLD 22%, RVMD 18%, SAIL 17%, SAP 16%, SCCO 23%, SHOP 23%, SMCI 2%, SN 18%, SONY 29%, SSNC 27%, STRC 2%, SWKS 9%, T 21%, TEAM 10%, TEL 4%, TEM 1%, TWLO 23%, U 16%, VEEV 7%, VLTO 12%, VRTX 23%, VTRS 5%, WBD 1%, WDAY 22%, WPM 30%, XP 16%, ZS 24%
-
-</details>
+> [!note]- 대기 중 59개 (아직 38.2% 전)
+> AMGN 24%, GME 25%, ANET 7%, ARW 3%, ASX 6%, CLS 15%, CORT 7%, DDOG 16%, DHR 3%, DIS 19%, EMR 5%, ETN 8%, GRMN 4%, JCI 2%, KEYS 6%, MDB 22%, MTD 6%, NDSN 11%, RVMD 18%, SCCO 23%, SHOP 23%, SN 18%, TEL 4%, VRTX 23%, VTRS 5%, WBD 1%, CNH 29%, CRM 28%, SSNC 27%, ZS 24%, DOCU 20%, HOOD 14%, META 11%, MSTR 14%, NOW 21%, PLTR 6%, PYPL 11%, SAIL 17%, SAP 16%, SMCI 2%, SWKS 9%, TEAM 10%, TEM 1%, U 16%, VEEV 7%, VLTO 12%, WDAY 22%, A 3%, AMD 3%, BE 3%, CRWD 10%, DDS 1%, HPE 8%, ILMN 6%, MRNA 2%, NET 10%, OKTA 13%, QCOM 6%, TWLO 23%
 
 > 🆕 = 오늘 새 구간에 들어옴 · 알림은 '지켜볼 자리'라는 뜻이지 진입 신호가 아님 → 7개 룰 확인
