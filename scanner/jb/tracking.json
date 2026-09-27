@@ -6,7 +6,7 @@
     "expires": "2026-11-20",
     "kind": "🏁",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "OKTA": {
     "name": "Okta Inc.",
@@ -15,7 +15,7 @@
     "expires": "2026-11-20",
     "kind": "🏁",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "SAIL": {
     "name": "SailPoint Inc.",
@@ -24,7 +24,7 @@
     "expires": "2026-11-20",
     "kind": "🏁⭐월",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "ILMN": {
     "name": "Illumina, Inc.",
@@ -33,7 +33,7 @@
     "expires": "2026-11-20",
     "kind": "🏁",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "TEM": {
     "name": "Tempus AI Inc.",
@@ -42,7 +42,7 @@
     "expires": "2026-11-20",
     "kind": "🏁⭐월",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "NET": {
     "name": "Cloudflare Inc.",
@@ -51,7 +51,7 @@
     "expires": "2026-11-20",
     "kind": "🏁",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "HPE": {
     "name": "Hewlett Packard Enterprise",
@@ -60,7 +60,7 @@
     "expires": "2026-11-20",
     "kind": "🏁",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "TWLO": {
     "name": "Twilio Inc.",
@@ -69,7 +69,7 @@
     "expires": "2026-11-20",
     "kind": "🏁",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "CRWD": {
     "name": "CrowdStrike",
@@ -78,7 +78,7 @@
     "expires": "2026-11-20",
     "kind": "🏁",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "SMCI": {
     "name": "Supermicro",
@@ -87,7 +87,7 @@
     "expires": "2026-11-20",
     "kind": "🏁⭐월",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "META": {
     "name": "Meta Platforms",
@@ -96,7 +96,7 @@
     "expires": "2026-11-20",
     "kind": "🏁⭐월👀",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "CORT": {
     "name": "Corcept Therapeutics Incorporated",
@@ -105,7 +105,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "ANET": {
     "name": "Arista Networks",
@@ -114,7 +114,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "MDB": {
     "name": "MongoDB Inc.",
@@ -123,7 +123,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "A": {
     "name": "Agilent Technologies",
@@ -132,7 +132,7 @@
     "expires": "2026-11-20",
     "kind": "🏁",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "GRMN": {
     "name": "Garmin",
@@ -141,7 +141,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "SN": {
     "name": "SharkNinja Inc.",
@@ -150,7 +150,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "SHOP": {
     "name": "Shopify Inc.",
@@ -159,7 +159,7 @@
     "expires": "2026-11-20",
     "kind": "🚗⭐월",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "SCCO": {
     "name": "Southern Copper Corporation",
@@ -168,7 +168,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "AMD": {
     "name": "Advanced Micro Devices",
@@ -177,7 +177,7 @@
     "expires": "2026-11-20",
     "kind": "🏁",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "MTD": {
     "name": "Mettler Toledo",
@@ -186,7 +186,7 @@
     "expires": "2026-11-20",
     "kind": "🚗⭐주",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "TRI": {
     "name": "Thomson Reuters Corporation",
@@ -195,7 +195,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "🟡 얕은 조정 (23.6~38.2%)"
+    "last_zone": "🔔 30~38.2%"
   },
   "AMGN": {
     "name": "Amgen",
@@ -204,7 +204,7 @@
     "expires": "2026-11-20",
     "kind": "🚗⭐주",
     "status": "active",
-    "last_zone": "🟡 얕은 조정 (23.6~38.2%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "WBD": {
     "name": "Warner Bros. Discovery",
@@ -213,7 +213,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "DDS": {
     "name": "Dillard's Inc.",
@@ -222,7 +222,7 @@
     "expires": "2026-11-20",
     "kind": "🏁",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "BE": {
     "name": "Bloom Energy",
@@ -231,7 +231,7 @@
     "expires": "2026-11-20",
     "kind": "🏁",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "DHR": {
     "name": "Danaher Corporation",
@@ -240,7 +240,7 @@
     "expires": "2026-11-20",
     "kind": "🚗⭐월주",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "RVMD": {
     "name": "Revolution Medicines Inc.",
@@ -249,7 +249,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "DDOG": {
     "name": "Datadog",
@@ -258,7 +258,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "ASX": {
     "name": "ASE Technology Holding Co. Ltd.",
@@ -267,7 +267,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "TEL": {
     "name": "TE Connectivity",
@@ -276,7 +276,7 @@
     "expires": "2026-11-20",
     "kind": "🚗⭐주",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "EMR": {
     "name": "Emerson Electric",
@@ -285,7 +285,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "KEYS": {
     "name": "Keysight Technologies",
@@ -294,7 +294,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "VTRS": {
     "name": "Viatris",
@@ -303,7 +303,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "ETN": {
     "name": "Eaton Corporation",
@@ -312,7 +312,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "JCI": {
     "name": "Johnson Controls",
@@ -321,7 +321,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "NDSN": {
     "name": "Nordson Corporation",
@@ -330,7 +330,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "DIS": {
     "name": "Walt Disney Company (The)",
@@ -339,7 +339,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "CLS": {
     "name": "Celestica Inc.",
@@ -348,7 +348,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "ARW": {
     "name": "Arrow Electronics Inc.",
@@ -357,7 +357,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "GME": {
     "name": "GameStop Corporation",
@@ -366,7 +366,7 @@
     "expires": "2026-11-20",
     "kind": "🚗⭐월👀",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "QCOM": {
     "name": "Qualcomm",
@@ -375,7 +375,7 @@
     "expires": "2026-11-20",
     "kind": "🏁",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "VRTX": {
     "name": "Vertex Pharmaceuticals",
@@ -384,7 +384,7 @@
     "expires": "2026-11-20",
     "kind": "🚗",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "TEAM": {
     "name": "Atlassian Corporation",
@@ -393,7 +393,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "MSTR": {
     "name": "Strategy Inc",
@@ -402,7 +402,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월👀",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "PLTR": {
     "name": "Palantir Technologies",
@@ -411,7 +411,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "VEEV": {
     "name": "Veeva Systems",
@@ -420,7 +420,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "WDAY": {
     "name": "Workday, Inc.",
@@ -429,7 +429,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "DOCU": {
     "name": "DocuSign Inc.",
@@ -438,7 +438,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "CRM": {
     "name": "Salesforce",
@@ -447,7 +447,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "🟡 얕은 조정 (23.6~38.2%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "U": {
     "name": "Unity Software Inc.",
@@ -456,7 +456,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "ZS": {
     "name": "Zscaler Inc.",
@@ -465,7 +465,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "NOW": {
     "name": "ServiceNow",
@@ -474,7 +474,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "SAP": {
     "name": "SAP  SE",
@@ -483,7 +483,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "SWKS": {
     "name": "Skyworks Solutions",
@@ -492,7 +492,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "PYPL": {
     "name": "PayPal",
@@ -501,7 +501,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "SSNC": {
     "name": "SS&C Technologies Holdings Inc.",
@@ -510,7 +510,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "🟡 얕은 조정 (23.6~38.2%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "HOOD": {
     "name": "Robinhood Markets",
@@ -519,7 +519,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "⏳ 1파 진행 중 (고점이 이번 주)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "CNH": {
     "name": "CNH Industrial N.V.",
@@ -528,7 +528,7 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "🟡 얕은 조정 (23.6~38.2%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   },
   "VLTO": {
     "name": "Veralto",
@@ -537,6 +537,6 @@
     "expires": "2026-11-20",
     "kind": "⭐월",
     "status": "active",
-    "last_zone": "🟢 고점 근처 (0~23.6%)"
+    "last_zone": "🟢 고점 근처 (0~30%)"
   }
 }
