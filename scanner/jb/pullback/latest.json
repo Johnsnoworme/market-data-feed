@@ -1,5 +1,40 @@
 {
   "ny_date": "2026-09-25",
+  "early": [
+    {
+      "base": 9,
+      "mtd_pct": 31.43,
+      "qqq_mtd_pct": 3.98,
+      "vs_ma12m_pct": 19.19,
+      "prev_high": 611.95,
+      "close": 751.66,
+      "ticker": "META",
+      "name": "Meta Platforms Inc.",
+      "new": true
+    },
+    {
+      "base": 10,
+      "mtd_pct": 27.26,
+      "qqq_mtd_pct": 3.98,
+      "vs_ma12m_pct": 4.91,
+      "prev_high": 20.5,
+      "close": 23.39,
+      "ticker": "GME",
+      "name": "GameStop Corporation",
+      "new": true
+    },
+    {
+      "base": 11,
+      "mtd_pct": 19.31,
+      "qqq_mtd_pct": 3.98,
+      "vs_ma12m_pct": 5.8,
+      "prev_high": 139.78,
+      "close": 158.61,
+      "ticker": "MSTR",
+      "name": "Strategy Inc",
+      "new": true
+    }
+  ],
   "rows": [
     {
       "ticker": "TRI",
@@ -22,7 +57,7 @@
     {
       "ticker": "AMGN",
       "name": "Amgen",
-      "kind": "🚗",
+      "kind": "🚗⭐주",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 414.61,
@@ -40,7 +75,7 @@
     {
       "ticker": "GME",
       "name": "GameStop Corporation",
-      "kind": "🚗⭐",
+      "kind": "🚗⭐월👀",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 23.39,
@@ -166,7 +201,7 @@
     {
       "ticker": "DHR",
       "name": "Danaher Corporation",
-      "kind": "🚗⭐",
+      "kind": "🚗⭐월주",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 224.49,
@@ -310,7 +345,7 @@
     {
       "ticker": "MTD",
       "name": "Mettler Toledo",
-      "kind": "🚗",
+      "kind": "🚗⭐주",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 1511.64,
@@ -382,7 +417,7 @@
     {
       "ticker": "SHOP",
       "name": "Shopify Inc.",
-      "kind": "🚗⭐",
+      "kind": "🚗⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 142.25,
@@ -418,7 +453,7 @@
     {
       "ticker": "TEL",
       "name": "TE Connectivity",
-      "kind": "🚗",
+      "kind": "🚗⭐주",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 218.59,
@@ -490,7 +525,7 @@
     {
       "ticker": "CNH",
       "name": "CNH Industrial N.V.",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 13.09,
@@ -508,7 +543,7 @@
     {
       "ticker": "CRM",
       "name": "Salesforce",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 234.02,
@@ -526,7 +561,7 @@
     {
       "ticker": "SSNC",
       "name": "SS&C Technologies Holdings Inc.",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 78.61,
@@ -544,7 +579,7 @@
     {
       "ticker": "ZS",
       "name": "Zscaler Inc.",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 193.05,
@@ -562,7 +597,7 @@
     {
       "ticker": "DOCU",
       "name": "DocuSign Inc.",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 67.5,
@@ -580,7 +615,7 @@
     {
       "ticker": "HOOD",
       "name": "Robinhood Markets",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 119.4,
@@ -598,7 +633,7 @@
     {
       "ticker": "META",
       "name": "Meta Platforms",
-      "kind": "🏁⭐",
+      "kind": "🏁⭐월👀",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 751.66,
@@ -616,7 +651,7 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "kind": "⭐",
+      "kind": "⭐월👀",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 158.61,
@@ -634,7 +669,7 @@
     {
       "ticker": "NOW",
       "name": "ServiceNow",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 135.62,
@@ -652,7 +687,7 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 189.67,
@@ -670,7 +705,7 @@
     {
       "ticker": "PYPL",
       "name": "PayPal",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 55.04,
@@ -688,7 +723,7 @@
     {
       "ticker": "SAIL",
       "name": "SailPoint Inc.",
-      "kind": "🏁⭐",
+      "kind": "🏁⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 20.64,
@@ -706,7 +741,7 @@
     {
       "ticker": "SAP",
       "name": "SAP  SE",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 210.68,
@@ -724,7 +759,7 @@
     {
       "ticker": "SMCI",
       "name": "Supermicro",
-      "kind": "🏁⭐",
+      "kind": "🏁⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 43.26,
@@ -742,7 +777,7 @@
     {
       "ticker": "SWKS",
       "name": "Skyworks Solutions",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 89.34,
@@ -760,7 +795,7 @@
     {
       "ticker": "TEAM",
       "name": "Atlassian Corporation",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 187.74,
@@ -778,7 +813,7 @@
     {
       "ticker": "TEM",
       "name": "Tempus AI Inc.",
-      "kind": "🏁⭐",
+      "kind": "🏁⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 85.01,
@@ -796,7 +831,7 @@
     {
       "ticker": "U",
       "name": "Unity Software Inc.",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 41.55,
@@ -814,7 +849,7 @@
     {
       "ticker": "VEEV",
       "name": "Veeva Systems",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 280.68,
@@ -832,7 +867,7 @@
     {
       "ticker": "VLTO",
       "name": "Veralto",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 97.14,
@@ -850,7 +885,7 @@
     {
       "ticker": "WDAY",
       "name": "Workday, Inc.",
-      "kind": "⭐",
+      "kind": "⭐월",
       "first_seen": "2026-09-25",
       "expires": "2026-11-20",
       "close": 189.45,
@@ -1082,5 +1117,5 @@
       "lv618": 227.16
     }
   ],
-  "generated_utc": "2026-09-27 04:38 UTC"
+  "generated_utc": "2026-09-27 05:06 UTC"
 }
