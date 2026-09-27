@@ -94,7 +94,7 @@
     "first_seen": "2026-09-25",
     "last_seen": "2026-09-25",
     "expires": "2026-11-20",
-    "kind": "🏁⭐월👀",
+    "kind": "🏁⭐월",
     "status": "active",
     "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
@@ -194,8 +194,8 @@
     "last_seen": "2026-09-25",
     "expires": "2026-11-20",
     "kind": "🚗",
-    "status": "broken",
-    "last_zone": "🔔 30~38.2%|⚠️ 70% 이탈 → 추적 종료"
+    "status": "active",
+    "last_zone": ""
   },
   "AMGN": {
     "name": "Amgen",
@@ -364,7 +364,7 @@
     "first_seen": "2026-09-25",
     "last_seen": "2026-09-25",
     "expires": "2026-11-20",
-    "kind": "🚗⭐월👀",
+    "kind": "🚗⭐월",
     "status": "active",
     "last_zone": "🟢 고점 근처 (0~30%)|🔔 50~61.8%"
   },
@@ -400,9 +400,9 @@
     "first_seen": "2026-09-25",
     "last_seen": "2026-09-25",
     "expires": "2026-11-20",
-    "kind": "⭐월👀",
-    "status": "broken",
-    "last_zone": "🟢 고점 근처 (0~30%)|⚠️ 70% 이탈 → 추적 종료"
+    "kind": "⭐월",
+    "status": "active",
+    "last_zone": ""
   },
   "PLTR": {
     "name": "Palantir Technologies",
@@ -428,8 +428,8 @@
     "last_seen": "2026-09-25",
     "expires": "2026-11-20",
     "kind": "⭐월",
-    "status": "broken",
-    "last_zone": "🔔 30~38.2%|⚠️ 70% 이탈 → 추적 종료"
+    "status": "active",
+    "last_zone": ""
   },
   "DOCU": {
     "name": "DocuSign Inc.",
@@ -437,8 +437,8 @@
     "last_seen": "2026-09-25",
     "expires": "2026-11-20",
     "kind": "⭐월",
-    "status": "broken",
-    "last_zone": "🟢 고점 근처 (0~30%)|⚠️ 70% 이탈 → 추적 종료"
+    "status": "active",
+    "last_zone": ""
   },
   "CRM": {
     "name": "Salesforce",
@@ -464,8 +464,8 @@
     "last_seen": "2026-09-25",
     "expires": "2026-11-20",
     "kind": "⭐월",
-    "status": "broken",
-    "last_zone": "🟢 고점 근처 (0~30%)|⚠️ 70% 이탈 → 추적 종료"
+    "status": "active",
+    "last_zone": ""
   },
   "NOW": {
     "name": "ServiceNow",
@@ -473,8 +473,8 @@
     "last_seen": "2026-09-25",
     "expires": "2026-11-20",
     "kind": "⭐월",
-    "status": "broken",
-    "last_zone": "🟢 고점 근처 (0~30%)|⚠️ 70% 이탈 → 추적 종료"
+    "status": "active",
+    "last_zone": ""
   },
   "SAP": {
     "name": "SAP  SE",
@@ -482,8 +482,8 @@
     "last_seen": "2026-09-25",
     "expires": "2026-11-20",
     "kind": "⭐월",
-    "status": "broken",
-    "last_zone": "🟢 고점 근처 (0~30%)|⚠️ 70% 이탈 → 추적 종료"
+    "status": "active",
+    "last_zone": ""
   },
   "SWKS": {
     "name": "Skyworks Solutions",
@@ -500,8 +500,8 @@
     "last_seen": "2026-09-25",
     "expires": "2026-11-20",
     "kind": "⭐월",
-    "status": "broken",
-    "last_zone": "🔔 30~38.2%|⚠️ 70% 이탈 → 추적 종료"
+    "status": "active",
+    "last_zone": ""
   },
   "SSNC": {
     "name": "SS&C Technologies Holdings Inc.",
