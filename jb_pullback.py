@@ -41,6 +41,26 @@ def zone(r):
     return (True, "⚠️ 70% 이탈 → 추적 종료", 8)
 
 
+def swing(H, L, start, lookback, close, last_day, tf):
+    """주봉/월봉 스윙: start 이후 최고가(1파 고점) ← 그 전 lookback개 캔들 최저가(1파 저점)"""
+    H, L = H.dropna(), L.dropna()
+    hw = H[H.index >= start]
+    if hw.empty:
+        return None
+    hd, h = hw.idxmax(), float(hw.max())
+    lw = L[L.index < hd].iloc[-lookback:]
+    if lw.empty:
+        return None
+    ld, l = lw.idxmin(), float(lw.min())
+    if h <= l:
+        return None
+    cur = H.index[-1]  # 진행 중인 이번 주/이번 달 캔들
+    return {"tf": tf, "low": round(l, 2), "high": round(h, 2), "retr": round((h - close) / (h - l) * 100, 1),
+            "done": hd < cur,  # 1파 고점이 이번 캔들 이전 = 캔들 마감으로 확정
+            "wave1": f"{ld.strftime('%y/%m' if tf == 'M' else '%m/%d')}→{hd.strftime('%y/%m' if tf == 'M' else '%m/%d')}",
+            "lv": {k: round(h - (h - l) * k / 100, 2) for k in (30, 38.2, 50, 61.8, 70)}}
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     if not os.path.exists(TRACK_PATH):
@@ -112,38 +132,35 @@ def main():
             continue
         if len(c) < 30:
             continue
-        start = pd.Timestamp(e["first_seen"]) - timedelta(days=28)
-        h_win = hi[hi.index >= start]
-        if h_win.empty:
-            continue
-        h_date, h = h_win.idxmax(), float(h_win.max())
-        l_win = lo[(lo.index < h_date)].iloc[-90:]
-        if l_win.empty:
-            continue
-        l = float(l_win.min())
-        if h <= l:
-            continue
         close = float(c.iloc[-1])
-        retr = (h - close) / (h - l) * 100
-        l_date = l_win.idxmin()
-        # 1파 확정: 고점이 '이번 주 이전'에 나왔고, 그 뒤 완성된 주봉이 고점 아래에서 마감 (윗꼬리/되돌림 시작)
-        week_start = (last_day - timedelta(days=last_day.weekday())).normalize()
-        wave1_done = h_date < week_start
-        alert, name, order = zone(retr)
-        if alert and not wave1_done and order < 8:
-            name += " ⏳1파 미확정"
-        new_zone = name != e.get("last_zone", "")
-        e["last_zone"] = name
+        # 주봉 기준 1파: 신호 8주 전부터 지금까지 주봉 최고가 ← 그 전 26주 안 주봉 최저가
+        # 월봉 기준 1파: 최근 12개월 월봉 최고가 ← 그 전 24개월 안 월봉 최저가
+        W = swing(hi.resample("W-FRI").max(), lo.resample("W-FRI").min(),
+                  pd.Timestamp(e["first_seen"]) - timedelta(weeks=8), 26, close, last_day, "W")
+        M = swing(hi.resample("ME").max(), lo.resample("ME").min(),
+                  last_day - pd.DateOffset(months=12), 24, close, last_day, "M")
+        if not W and not M:
+            continue
+        zw = zone(W["retr"]) if W else (False, "—", -1)
+        zm = zone(M["retr"]) if M else (False, "—", -1)
+        alert = (zw[0] and zw[2] < 8) or (zm[0] and zm[2] < 8)
+        broken = (not W or zw[2] == 8) and (not M or zm[2] == 8 or not zm[0])
+        if broken and (zw[2] == 8):
+            alert, order = True, 8
+        else:
+            order = max(zw[2] if zw[0] else -1, zm[2] if zm[0] else -1)
+        label = lambda z, S: (z[1] + ("" if S["done"] else " ⏳미확정")) if S and z[0] else (z[1] if S else "—")
+        name = f"주 {label(zw, W)} / 월 {label(zm, M)}"
+        key = f"{zw[1]}|{zm[1]}"
+        new_zone = alert and key != e.get("last_zone", "")
+        e["last_zone"] = key
         if order == 8:
             e["status"] = "broken"
         rows.append({
             "ticker": t, "name": e.get("name", ""), "kind": e.get("kind", ""), "first_seen": e["first_seen"],
-            "expires": e["expires"], "close": round(close, 2), "swing_low": round(l, 2), "swing_high": round(h, 2),
-            "wave1": f"{l_date.strftime('%m/%d')}→{h_date.strftime('%m/%d')}",
-            "retrace_pct": round(retr, 1), "zone": name, "alert": alert, "new": new_zone, "order": order,
-            "lv382": round(h - (h - l) * 0.382, 2), "lv50": round(h - (h - l) * 0.5, 2),
-            "lv618": round(h - (h - l) * 0.618, 2), "lv70": round(h - (h - l) * 0.70, 2),
-            "lv30": round(h - (h - l) * 0.30, 2),
+            "expires": e["expires"], "close": round(close, 2), "zone": name, "alert": alert, "new": new_zone,
+            "order": order, "W": W, "M": M,
+            "retrace_pct": round(min([x["retr"] for x in (W, M) if x and 30 <= x["retr"] <= 70] or [x["retr"] for x in (W, M) if x]), 1),
         })
 
     kind_rank = lambda k: 0 if k.startswith("🚗") else (1 if "⭐" in k else 2)
@@ -165,25 +182,29 @@ def main():
         md += "오늘은 없음\n"
     md += "\n### 🔔 2파 풀백 구간 (추적 종목 = 지수보다 강했던 종목)\n"
     md += f"> 👀 조기 경보 {len(early)}개 (새로 {sum(r['new'] for r in early)}개) · 추적 {len(rows)}개 · 풀백 구간 {len(alerts)}개 · 오늘 새로 진입 {len(news)}개 · 생성 {now}\n"
-    md += "> 1파 = 스윙 저점→고점 상승, 되돌림 % = 지금 2파로 1파의 몇 %를 내려왔나. 🚗 막 출발 / ⭐월·⭐주 인텔형 / 👀 조기 경보 / 🏁 학습용\n\n"
+    md += "> 주봉·월봉 두 기준으로 따로 계산. 1파 = 스윙 저점→고점, 되돌림 % = 2파로 1파의 몇 %를 내려왔나. 둘 중 하나라도 30~70%면 알림. 🚗 막 출발 / ⭐월·⭐주 인텔형 / 👀 조기 경보 / 🏁 학습용\n\n"
     live = [r for r in alerts if r["order"] < 8]
     broken = [r for r in alerts if r["order"] == 8]
     live.sort(key=lambda r: (not r["new"], kind_rank(r["kind"]), -r["order"], r["ticker"]))
+    def lv(S):
+        if not S:
+            return "—"
+        v = S["lv"]
+        return f"{S['retr']:.0f}% · 1파 {S['wave1']} ({S['low']}→{S['high']}) · 30~70%: {v[30]} ~ {v[70]} (50%: {v[50]})"
     if live:
-        md += "| 티커 | 구분 | 구간 | 되돌림 | 1파 (저점→고점) | 종가 | 30% · 38.2% · 50% · 61.8% · 70% 가격 | 신호일 |\n"
-        md += "| :--- | :--- | :--- | ---: | :--- | ---: | :--- | :--- |\n"
+        md += "| 티커 | 구분 | 구간 (주봉 / 월봉) | 종가 | 주봉 풀백 | 월봉 풀백 | 신호일 |\n"
+        md += "| :--- | :--- | :--- | ---: | :--- | :--- | :--- |\n"
         for r in live:
-            md += (f"| {r['ticker']}{' 🆕' if r['new'] else ''} | {r['kind']} | {r['zone']} | {r['retrace_pct']:.1f}% | "
-                   f"{r['wave1']} ({r['swing_low']}→{r['swing_high']}) | {r['close']} | "
-                   f"{r['lv30']} · {r['lv382']} · {r['lv50']} · {r['lv618']} · {r['lv70']} | {r['first_seen']} |\n")
+            md += (f"| {r['ticker']}{' 🆕' if r['new'] else ''} | {r['kind']} | {r['zone']} | {r['close']} | "
+                   f"{lv(r['W'])} | {lv(r['M'])} | {r['first_seen']} |\n")
     else:
-        md += "오늘 2파 풀백 구간(30~70%)에 있는 종목이 없어요.\n"
+        md += "오늘 2파 풀백 구간(주봉 또는 월봉 30~70%)에 있는 종목이 없어요.\n"
     if broken:
         md += "\n⚠️ 70% 이탈 → 추적 종료: " + ", ".join(r["ticker"] for r in broken) + "\n"
     waiting = [r for r in rows if not r["alert"]]
     if waiting:
-        md += f"\n> [!note]- 대기 중 {len(waiting)}개 (아직 30% 전)\n> " + ", ".join(f"{r['ticker']} {r['retrace_pct']:.0f}%" for r in waiting) + "\n"
-    md += "\n> 🆕 = 오늘 새 구간 · ⏳1파 미확정 = 1파 고점이 이번 주라 캔들 마감 전 · 알림은 '지켜볼 자리' → 7개 룰은 차트로 직접 확인\n"
+        md += f"\n> [!note]- 대기 중 {len(waiting)}개 (아직 30% 전)\n> " + ", ".join(f"{r['ticker']} 주{r['W']['retr'] if r['W'] else '-'}/월{r['M']['retr'] if r['M'] else '-'}" for r in waiting) + "\n"
+    md += "\n> 🆕 = 오늘 새 구간 · ⏳미확정 = 1파 고점이 이번 주(주봉) / 이번 달(월봉)이라 캔들 마감 전 · 알림은 '지켜볼 자리' → 7개 룰은 차트로 직접 확인\n"
 
     open(fname, "w", encoding="utf-8").write(md)
     open(f"{OUT}/latest.md", "w", encoding="utf-8").write(md)
