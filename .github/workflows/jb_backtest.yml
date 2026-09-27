@@ -1,0 +1,29 @@
+name: JB Backtest (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      tickers:
+        description: '티커 (쉼표로 구분)'
+        default: 'INTC'
+      start:
+        description: '시작일'
+        default: '2025-06-01'
+      end:
+        description: '끝일'
+        default: '2025-10-31'
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install yfinance pandas
+      - env:
+          BT_TICKERS: ${{ github.event.inputs.tickers }}
+          BT_START: ${{ github.event.inputs.start }}
+          BT_END: ${{ github.event.inputs.end }}
+        run: python jb_backtest.py
