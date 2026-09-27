@@ -7,6 +7,11 @@ on:
     - cron: '33 21 * * 1-5'
     - cron: '58 21 * * 1-5'
   workflow_dispatch:
+    inputs:
+      overwrite:
+        description: '같은 날 결과를 새로 덮어쓰기 (1 = 예)'
+        required: false
+        default: '0'
 
 jobs:
   pullback:
@@ -20,6 +25,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install yfinance pandas
       - name: Run pullback check
+        env:
+          JB_OVERWRITE: ${{ github.event.inputs.overwrite || '0' }}
         run: python jb_pullback.py
       - name: Commit and push if changed
         run: |

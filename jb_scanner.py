@@ -38,6 +38,10 @@ LAUNCH_MAX_ABOVE_MA = 15.0
 MIN_DOLLAR_VOL_DAY = 20_000_000
 MIN_MARKET_CAP = 10_000_000_000
 TRACK_DAYS = 56  # 8주
+STAR_MIN_BELOW_MONTHS = 6   # ⭐: 돌파 전 12개월 중 최소 6개월은 12개월선 아래 (인텔처럼 긴 바닥)
+STAR_MIN_ABOVE = 3.0        # ⭐: 지금 12개월선보다 3% 이상 위 (살짝 걸친 것 제외)
+SHOW_TOP = 5                # 칸마다 먼저 보여줄 개수 (나머지는 접어서 전부 기록)
+EXCLUDE_WORDS = ("Preferred", "Warrant", " Unit", "Depositary Shares")
 INDEXES = ["QQQ", "SPY"]
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
 
@@ -181,6 +185,8 @@ def scan(daily, names, large_caps):
         s_chg = c.pct_change().iloc[-8:]
         against = int(((q_chg.reindex(s_chg.index) < 0) & (s_chg > 0)).sum())
         name, sector = names.get(t, ("", ""))
+        if any(w in name for w in EXCLUDE_WORDS):
+            continue
         base = {
             "ticker": t, "name": name, "sector": sector,
             "week_pct": round(ret1, 2), "month_pct": round(ret4, 2), "ret13_pct": round(ret13, 2),
@@ -194,7 +200,10 @@ def scan(daily, names, large_caps):
         star = False
         if len(m) >= MA_MONTHS + 3:
             mma = m.rolling(MA_MONTHS).mean()
-            star = bool(m.iloc[-1] > mma.iloc[-1] and (m.iloc[-2] < mma.iloc[-2] or m.iloc[-3] < mma.iloc[-3]))
+            below_months = int((m.iloc[-14:-2] < mma.iloc[-14:-2]).sum())
+            star = bool(m.iloc[-1] > mma.iloc[-1] * (1 + STAR_MIN_ABOVE / 100)
+                        and (m.iloc[-2] < mma.iloc[-2] or m.iloc[-3] < mma.iloc[-3])
+                        and below_months >= STAR_MIN_BELOW_MONTHS)
         base["star"] = star
         if star:
             star_hits.append(dict(base, monthly_above_ma12_pct=round(pct(m.iloc[-1], m.rolling(MA_MONTHS).mean().iloc[-1]), 2)))
@@ -247,6 +256,17 @@ def row_md(r, extra):
 HEAD = "| 티커 | 회사 | 섹터 | 이번 주 | 1개월 | 13주 vs QQQ | 12주선 대비 | {x} |\n| :--- | :--- | :--- | ---: | ---: | ---: | ---: | :--- |\n"
 
 
+def table(rows, x, extra_fn):
+    if not rows:
+        return "이번 주 없음\n"
+    md = HEAD.format(x=x) + "".join(row_md(r, extra_fn(r)) for r in rows[:SHOW_TOP])
+    rest = rows[SHOW_TOP:]
+    if rest:
+        md += f"\n> [!note]- 나머지 {len(rest)}개 (13주 상대강도 순, 전부 추적 중)\n"
+        md += "".join("> " + line + "\n" for line in (HEAD.format(x=x) + "".join(row_md(r, extra_fn(r)) for r in rest)).strip().split("\n"))
+    return md
+
+
 def to_md(weekly, stars, idx13, idx1, week_end, universe_n):
     d = week_end.strftime("%Y-%m-%d")
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -258,30 +278,15 @@ def to_md(weekly, stars, idx13, idx1, week_end, universe_n):
 
     md += "### 🚗 막 출발하는 차 (집중)\n"
     md += "> 지수보다 강함 + 1~3주 전 12주선까지 눌림 + 이번 주 다시 상승 + 12주선 대비 +15% 이내 → 손익비가 맞는 자리 후보\n\n"
-    if launch:
-        md += HEAD.format(x="눌림")
-        for r in launch:
-            md += row_md(r, f"{r['pullback']} ({r['pullback_weeks_ago']}주 전)")
-    else:
-        md += "이번 주 없음\n"
+    md += table(launch, "눌림", lambda r: f"{r['pullback']} ({r['pullback_weeks_ago']}주 전)")
 
     md += "\n### ⭐ 인텔형: 월봉 12개월선 돌파 (최근 2개월)\n"
-    md += "> 월봉이 12개월선 아래에 있다가 위로 올라섬 + 13주 수익률이 지수보다 강함 → 큰 추세 전환 후보\n\n"
-    if stars:
-        md += HEAD.format(x="월봉 12개월선 대비")
-        for r in stars:
-            md += row_md(r, f"{r['monthly_above_ma12_pct']:+.2f}%")
-    else:
-        md += "이번 주 없음\n"
+    md += "> 돌파 전 12개월 중 6개월 이상 12개월선 아래(긴 바닥) → 최근 2개월 안에 위로 돌파(+3% 이상) + 13주 수익률이 지수보다 강함 → 큰 추세 전환 후보\n\n"
+    md += table(stars, "월봉 12개월선 대비", lambda r: f"{r['monthly_above_ma12_pct']:+.2f}%")
 
     md += "\n### 🏁 이미 달린 차 (학습용)\n"
     md += "> 신호는 나왔지만 이미 멀리 감 → 손익비가 안 맞음. 차트 공부용으로만\n\n"
-    if learn:
-        md += HEAD.format(x="눌림")
-        for r in learn:
-            md += row_md(r, f"{r['pullback']} ({r['pullback_weeks_ago']}주 전)")
-    else:
-        md += "이번 주 없음\n"
+    md += table(learn, "눌림", lambda r: f"{r['pullback']} ({r['pullback_weeks_ago']}주 전)")
     md += "\n> 🔔 위 종목(🚗·⭐·🏁)은 8주 동안 추적 → 38.2% · 50% · 61.8% 풀백 구간에 오면 Daily 노트에 알림\n"
     return md
 

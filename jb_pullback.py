@@ -68,7 +68,7 @@ def main():
         print(f"오늘({today}) 종가가 아직 없음 → 건너뜀")
         return
     fname = f"{OUT}/{ny_date}.md"
-    if os.path.exists(fname):
+    if os.path.exists(fname) and os.environ.get("JB_OVERWRITE") != "1":
         print(f"{fname} 이미 있음 → 건너뜀")
         return
 
@@ -108,7 +108,8 @@ def main():
             "lv382": round(h - (h - l) * 0.382, 2), "lv50": round(h - (h - l) * 0.5, 2), "lv618": round(h - (h - l) * 0.618, 2),
         })
 
-    rows.sort(key=lambda r: (-r["order"] if r["alert"] else 99, r["ticker"]))
+    kind_rank = lambda k: 0 if k.startswith("🚗") else (1 if "⭐" in k else 2)
+    rows.sort(key=lambda r: (kind_rank(r["kind"]), -r["order"], r["ticker"]))
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     alerts = [r for r in rows if r["alert"]]
     news = [r for r in alerts if r["new"]]
@@ -126,8 +127,7 @@ def main():
         md += "오늘 풀백 구간(38.2% 이상)에 들어온 종목이 없어요.\n"
     waiting = [r for r in rows if not r["alert"]]
     if waiting:
-        md += "\n<details><summary>대기 중 (" + str(len(waiting)) + "개)</summary>\n\n"
-        md += ", ".join(f"{r['ticker']} {r['retrace_pct']:.0f}%" for r in waiting) + "\n\n</details>\n"
+        md += f"\n> [!note]- 대기 중 {len(waiting)}개 (아직 38.2% 전)\n> " + ", ".join(f"{r['ticker']} {r['retrace_pct']:.0f}%" for r in waiting) + "\n"
     md += "\n> 🆕 = 오늘 새 구간에 들어옴 · 알림은 '지켜볼 자리'라는 뜻이지 진입 신호가 아님 → 7개 룰 확인\n"
 
     open(fname, "w", encoding="utf-8").write(md)
