@@ -54,14 +54,14 @@ def main():
     for t, e in track.items():
         if e["status"] == "active" and e["expires"] < today:
             e["status"] = "expired"
+    # 👀 조기 경보 대상: $10B+ 전체 + 워치리스트 (월말 전에 월봉 전환 조짐 잡기)
+    from jb_scanner import get_large_caps, get_watchlist, download_daily
+    from jb_signals import early_monthly
+    large = get_large_caps()
+    wl = get_watchlist()
     active = [t for t, e in track.items() if e["status"] == "active"]
-    if not active:
-        print("활성 추적 종목 없음")
-        json.dump(track, open(TRACK_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-        return
-
-    d = yf.download(active + ["QQQ"], period="1y", interval="1d", auto_adjust=True,
-                    progress=False, group_by="column", threads=True)
+    universe = sorted(set(large) | wl | set(active) | {"QQQ"})
+    d = download_daily(universe, period="2y")
     last_day = d["Close"]["QQQ"].dropna().index[-1]
     ny_date = last_day.strftime("%Y-%m-%d")
     if now_ny.weekday() < 5 and now_ny.hour >= 16 and last_day.date() != now_ny.date() and os.environ.get("JB_FORCE") != "1":
@@ -71,6 +71,35 @@ def main():
     if os.path.exists(fname) and os.environ.get("JB_OVERWRITE") != "1":
         print(f"{fname} 이미 있음 → 건너뜀")
         return
+
+    early = []
+    expires = (last_day + timedelta(days=56)).strftime("%Y-%m-%d")
+    for t in universe:
+        if t == "QQQ" or t not in d["Close"].columns:
+            continue
+        if not (t in large or t in wl):
+            continue
+        try:
+            e = early_monthly(d["Close"][t], d["High"][t], d["Close"]["QQQ"])
+        except Exception:
+            e = None
+        if not e:
+            continue
+        name = large.get(t, ("", ""))[0]
+        if any(w in name for w in ("Preferred", "Warrant", " Unit", "Depositary Shares")):
+            continue
+        tr = track.get(t)
+        is_new = not (tr and tr.get("status") == "active" and "👀" in tr.get("kind", ""))
+        early.append(dict(e, ticker=t, name=name, new=is_new))
+        if tr and tr.get("status") == "active":
+            if "👀" not in tr["kind"]:
+                tr["kind"] += "👀"
+            tr["expires"] = max(tr["expires"], expires)
+        else:
+            track[t] = {"name": name, "first_seen": ny_date, "last_seen": ny_date, "expires": expires,
+                        "kind": "👀", "status": "active", "last_zone": ""}
+    early.sort(key=lambda r: (not r["new"], -r["mtd_pct"]))
+    active = [t for t, e in track.items() if e["status"] == "active"]
 
     rows = []
     for t in active:
@@ -114,8 +143,20 @@ def main():
     alerts = [r for r in rows if r["alert"]]
     news = [r for r in alerts if r["new"]]
     md = f"# 🔔 풀백 알림 — {ny_date} 뉴욕 종가\n\n"
-    md += f"> 추적 {len(rows)}개 · 풀백 구간 {len(alerts)}개 · 오늘 새로 진입 {len(news)}개 · 생성 {now}\n"
-    md += "> 되돌림 % = 직전 상승(스윙 저점→고점) 중 얼마나 내려왔나. 🚗 막 출발 / ⭐ 인텔형 / 🏁 학습용\n\n"
+    md += "### 👀 월봉 전환 조짐 (이번 달 진행 중 · 월말 전 조기 경보)\n"
+    md += "> 긴 바닥(12개월 중 6개월↑ 12개월선 아래) → 이번 달 +8%↑ 큰 양봉이 지난달 고점을 뚫고 12개월선에 닿거나 돌파 + 나스닥보다 강함\n\n"
+    if early:
+        md += "| 티커 | 회사 | 이번 달 | 나스닥 이번 달 | 12개월선 대비 | 지난달 고점 | 바닥 개월 |\n| :--- | :--- | ---: | ---: | ---: | ---: | ---: |\n"
+        for r in early[:10]:
+            md += (f"| {r['ticker']}{' 🆕' if r['new'] else ''} | {r['name']} | {r['mtd_pct']:+.1f}% | {r['qqq_mtd_pct']:+.1f}% | "
+                   f"{r['vs_ma12m_pct']:+.1f}% | {r['prev_high']} | {r['base']}/12 |\n")
+        if len(early) > 10:
+            md += f"\n> [!note]- 나머지 {len(early) - 10}개\n> " + ", ".join(f"{r['ticker']} {r['mtd_pct']:+.0f}%" for r in early[10:]) + "\n"
+    else:
+        md += "오늘은 없음\n"
+    md += "\n### 🔔 풀백 구간 (추적 종목)\n"
+    md += f"> 👀 조기 경보 {len(early)}개 (새로 {sum(r['new'] for r in early)}개) · 추적 {len(rows)}개 · 풀백 구간 {len(alerts)}개 · 오늘 새로 진입 {len(news)}개 · 생성 {now}\n"
+    md += "> 되돌림 % = 직전 상승(스윙 저점→고점) 중 얼마나 내려왔나. 🚗 막 출발 / ⭐월·⭐주 인텔형 / 👀 조기 경보 / 🏁 학습용\n\n"
     if alerts:
         md += "| 티커 | 구분 | 구간 | 되돌림 | 종가 | 38.2% | 50% | 61.8% | 신호일 |\n"
         md += "| :--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | :--- |\n"
@@ -132,7 +173,7 @@ def main():
 
     open(fname, "w", encoding="utf-8").write(md)
     open(f"{OUT}/latest.md", "w", encoding="utf-8").write(md)
-    json.dump({"ny_date": ny_date, "rows": rows, "generated_utc": now},
+    json.dump({"ny_date": ny_date, "early": early, "rows": rows, "generated_utc": now},
               open(f"{OUT}/latest.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     json.dump(track, open(TRACK_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(md)

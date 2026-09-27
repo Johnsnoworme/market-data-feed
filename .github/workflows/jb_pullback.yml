@@ -3,7 +3,7 @@ name: JB Daily Pullback
 on:
   schedule:
     # 뉴욕 월~금 장 마감 후 UTC 21:33 / 21:58 = 시드니 다음 날 07:33~08:58
-    # 금요일은 주간 스캐너(21:18) 다음에 돌아 새 추적 종목까지 포함. 두 번째 실행은 재시도용 (이미 있으면 아무것도 안 함)
+    # 👀 월봉 전환 조기 경보($10B+ 전체) + 추적 종목 풀백. 금요일은 주간 스캐너(21:18) 다음에 돌아 새 추적 종목까지 포함. 두 번째 실행은 재시도용 (이미 있으면 아무것도 안 함)
     - cron: '33 21 * * 1-5'
     - cron: '58 21 * * 1-5'
   workflow_dispatch:
@@ -18,12 +18,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
       - run: |
           python -m pip install --upgrade pip
-          pip install yfinance pandas
+          pip install yfinance pandas lxml requests
       - name: Run pullback check
         env:
           JB_OVERWRITE: ${{ github.event.inputs.overwrite || '0' }}

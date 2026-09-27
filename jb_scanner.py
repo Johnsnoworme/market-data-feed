@@ -10,7 +10,7 @@
 - 두 칸으로 나눔:
   🚗 막 출발하는 차 (집중) : 눌림이 1~3주 전 + 12주선 대비 +15% 이내
   🏁 이미 달린 차 (학습용)  : 나머지
-- ⭐ 인텔형: 월봉 종가가 12개월선 아래에 있다가 최근 2개월 안에 위로 돌파 + 13주 수익률이 지수보다 강함
+- ⭐ 인텔형: 월봉(⭐월)·주봉(⭐주) 두 가지. 긴 바닥 후 12개월선/12주선 위로 돌파 + 13주 수익률이 지수보다 강함 (jb_signals.py)
 - 신호가 뜬 종목은 8주 동안 추적 리스트(tracking.json)에 올라가고, jb_pullback.py가 매일 풀백 구간을 계산
 - 결과: scanner/jb/YYYY-MM-DD.md, latest.json, index.json, tracking.json
 - 이미 같은 날짜 파일이 있으면 다시 쓰지 않음 (기록 보존)
@@ -26,6 +26,8 @@ import pandas as pd
 import requests
 import yfinance as yf
 
+from jb_signals import monthly_star, weekly_star
+
 OUT_DIR = "scanner/jb"
 TRACK_PATH = f"{OUT_DIR}/tracking.json"
 MA_WEEKS = 12
@@ -38,8 +40,6 @@ LAUNCH_MAX_ABOVE_MA = 15.0
 MIN_DOLLAR_VOL_DAY = 20_000_000
 MIN_MARKET_CAP = 10_000_000_000
 TRACK_DAYS = 56  # 8주
-STAR_MIN_BELOW_MONTHS = 6   # ⭐: 돌파 전 12개월 중 최소 6개월은 12개월선 아래 (인텔처럼 긴 바닥)
-STAR_MIN_ABOVE = 3.0        # ⭐: 지금 12개월선보다 3% 이상 위 (살짝 걸친 것 제외)
 SHOW_TOP = 5                # 칸마다 먼저 보여줄 개수 (나머지는 접어서 전부 기록)
 EXCLUDE_WORDS = ("Preferred", "Warrant", " Unit", "Depositary Shares")
 INDEXES = ["QQQ", "SPY"]
@@ -195,18 +195,15 @@ def scan(daily, names, large_caps):
             "close": round(float(now), 2), "avg_dollar_vol_m": round(dv / 1e6, 1),
         }
 
-        # ⭐ 인텔형: 월봉 12개월선 돌파 (최근 2개월 안)
-        m = mclose[t].dropna()
-        star = False
-        if len(m) >= MA_MONTHS + 3:
-            mma = m.rolling(MA_MONTHS).mean()
-            below_months = int((m.iloc[-14:-2] < mma.iloc[-14:-2]).sum())
-            star = bool(m.iloc[-1] > mma.iloc[-1] * (1 + STAR_MIN_ABOVE / 100)
-                        and (m.iloc[-2] < mma.iloc[-2] or m.iloc[-3] < mma.iloc[-3])
-                        and below_months >= STAR_MIN_BELOW_MONTHS)
-        base["star"] = star
-        if star:
-            star_hits.append(dict(base, monthly_above_ma12_pct=round(pct(m.iloc[-1], m.rolling(MA_MONTHS).mean().iloc[-1]), 2)))
+        # ⭐ 인텔형: 월봉 12개월선 돌파(⭐월) / 주봉 12주선 돌파(⭐주) — 둘 다 긴 바닥 후
+        sm = monthly_star(mclose[t])
+        sw = weekly_star(c)
+        tfs = [x["tf"] for x in (sm, sw) if x]
+        base["star"] = "".join(tfs)
+        if sm:
+            star_hits.append(dict(base, tf="월", star_above_pct=sm["above_ma_pct"], star_base=sm["base"]))
+        if sw:
+            star_hits.append(dict(base, tf="주", star_above_pct=sw["above_ma_pct"], star_base=sw["base"]))
 
         # 주간 신호
         if not (now > ma.iloc[-1] and ret1 > 0 and all(ret1 > idx1[k] for k in INDEXES)):
@@ -248,7 +245,7 @@ def fill_names(rows):
 
 
 def row_md(r, extra):
-    star = " ⭐" if r.get("star") else ""
+    star = (" ⭐" + r["star"]) if r.get("star") else ""
     return (f"| {r['ticker']}{star} | {r['name']} | {r['sector']} | {r['week_pct']:+.2f}% | {r['month_pct']:+.2f}% | "
             f"{r['rs_vs_qqq']:+.2f}%p | {r['above_ma12_pct']:+.2f}% | {extra} |\n")
 
@@ -273,16 +270,21 @@ def to_md(weekly, stars, idx13, idx1, week_end, universe_n):
     launch = [r for r in weekly if r["tier"] == "launch"]
     learn = [r for r in weekly if r["tier"] == "learn"]
     md = f"# 김종봉 스캐너 — {d} 주간\n\n"
-    md += f"> 기준: {d}(금) 뉴욕 종가 · 시총 $10B+ · 확정 {now} · 검사 {universe_n}개 · 🚗 {len(launch)}개 · 🏁 {len(learn)}개 · ⭐ {len(stars)}개\n"
+    md += f"> 기준: {d}(금) 뉴욕 종가 · 시총 $10B+ · 확정 {now} · 검사 {universe_n}개 · 🚗 {len(launch)}개 · 🏁 {len(learn)}개 · ⭐월 {sum(r['tf']=='월' for r in stars)}개 · ⭐주 {sum(r['tf']=='주' for r in stars)}개\n"
     md += f"> 지수 13주: QQQ {idx13['QQQ']:+.2f}% / SPY {idx13['SPY']:+.2f}% · 이번 주: QQQ {idx1['QQQ']:+.2f}% / SPY {idx1['SPY']:+.2f}%\n\n"
 
     md += "### 🚗 막 출발하는 차 (집중)\n"
     md += "> 지수보다 강함 + 1~3주 전 12주선까지 눌림 + 이번 주 다시 상승 + 12주선 대비 +15% 이내 → 손익비가 맞는 자리 후보\n\n"
     md += table(launch, "눌림", lambda r: f"{r['pullback']} ({r['pullback_weeks_ago']}주 전)")
 
-    md += "\n### ⭐ 인텔형: 월봉 12개월선 돌파 (최근 2개월)\n"
-    md += "> 돌파 전 12개월 중 6개월 이상 12개월선 아래(긴 바닥) → 최근 2개월 안에 위로 돌파(+3% 이상) + 13주 수익률이 지수보다 강함 → 큰 추세 전환 후보\n\n"
-    md += table(stars, "월봉 12개월선 대비", lambda r: f"{r['monthly_above_ma12_pct']:+.2f}%")
+    stars_m = [r for r in stars if r["tf"] == "월"]
+    stars_w = [r for r in stars if r["tf"] == "주"]
+    md += "\n### ⭐ 인텔형 — 월봉 (⭐월)\n"
+    md += "> 12개월 중 6개월 이상 월봉 12개월선 아래(긴 바닥) → 최근 2개월 안에 위로 돌파(+3%↑) + 13주 수익률이 지수보다 강함\n\n"
+    md += table(stars_m, "12개월선 대비 · 바닥 개월", lambda r: f"{r['star_above_pct']:+.2f}% · {r['star_base']}/12")
+    md += "\n### ⭐ 인텔형 — 주봉 (⭐주)\n"
+    md += "> 26주 중 13주 이상 주봉 12주선 아래(긴 바닥) → 최근 2주 안에 위로 돌파(+2%↑) + 주 +4% 이상 양봉 + 13주 수익률이 지수보다 강함\n\n"
+    md += table(stars_w, "12주선 대비 · 바닥 주", lambda r: f"{r['star_above_pct']:+.2f}% · {r['star_base']}/26")
 
     md += "\n### 🏁 이미 달린 차 (학습용)\n"
     md += "> 신호는 나왔지만 이미 멀리 감 → 손익비가 안 맞음. 차트 공부용으로만\n\n"
@@ -296,13 +298,17 @@ def update_tracking(weekly, stars, week_end):
     d = week_end.strftime("%Y-%m-%d")
     expires = (week_end + timedelta(days=TRACK_DAYS)).strftime("%Y-%m-%d")
     wk = {r["ticker"]: r for r in weekly}
-    rows = list(weekly) + [r for r in stars if r["ticker"] not in wk]
+    seen = set(wk)
+    rows = list(weekly)
+    for r in stars:
+        if r["ticker"] not in seen:
+            seen.add(r["ticker"]); rows.append(r)
     for r in rows:
         t = r["ticker"]
         if t in wk:
-            kind = ("🚗" if r["tier"] == "launch" else "🏁") + ("⭐" if r.get("star") else "")
+            kind = ("🚗" if r["tier"] == "launch" else "🏁") + (("⭐" + r["star"]) if r.get("star") else "")
         else:
-            kind = "⭐"
+            kind = "⭐" + r.get("star", "")
         e = track.get(t)
         if e and e.get("status") == "active":
             e["last_seen"], e["expires"], e["kind"] = d, expires, kind
