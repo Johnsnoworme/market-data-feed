@@ -1,0 +1,15 @@
+ttps://www.sec.gov/files/company_tickers.json market-data-feed research 403 1925 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or
+ttps://www.sec.gov/files/company_tickers.json market-data-feed/1.0 (joh 403 1925 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or
+ttps://www.sec.gov/files/company_tickers.json Mozilla/5.0 (Windows NT 1 403 1925 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or
+https://www.sec.gov/include/ticker.txt market-data-feed research 403 1925 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or
+https://www.sec.gov/include/ticker.txt market-data-feed/1.0 (joh 403 1925 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or
+https://www.sec.gov/include/ticker.txt Mozilla/5.0 (Windows NT 1 403 1925 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or
+sPerShareDiluted/USD-per-shares/CY2020Q1.json market-data-feed research 403 4819 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or
+sPerShareDiluted/USD-per-shares/CY2020Q1.json market-data-feed/1.0 (joh 200 517152 {"taxonomy":"us-gaap","tag":"EarningsPerShareDiluted","ccp":"CY2020Q1","uom":"US
+sPerShareDiluted/USD-per-shares/CY2020Q1.json Mozilla/5.0 (Windows NT 1 200 517152 {"taxonomy":"us-gaap","tag":"EarningsPerShareDiluted","ccp":"CY2020Q1","uom":"US
+//data.sec.gov/submissions/CIK0001045810.json market-data-feed research 403 4819 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or
+//data.sec.gov/submissions/CIK0001045810.json market-data-feed/1.0 (joh 200 159785 {"cik":"0001045810","entityType":"operating","sic":"3674","sicDescription":"Semi
+//data.sec.gov/submissions/CIK0001045810.json Mozilla/5.0 (Windows NT 1 200 159785 {"cik":"0001045810","entityType":"operating","sic":"3674","sicDescription":"Semi
+wiki search 200 {"batchcomplete":"","continue":{"sroffset":1,"continue":"-||"},"query":{"searchinfo":{"totalhits":2622},"search":[{"ns":0,"title":"Nvidia","pageid":39120,"size":216626,"wordcount":18666,"snippet":"<sp
+pv 20260930 200 {"items":[{"project":"en.wikipedia","article":"Nvidia","granularity":"daily","timestamp":"2016010100","access":"all-access","agent":"user","views":112
+pv 20260927 200 {"items":[{"project":"en.wikipedia","article":"Nvidia","granularity":"daily","timestamp":"2016010100","access":"all-access","agent":"user","views":112
