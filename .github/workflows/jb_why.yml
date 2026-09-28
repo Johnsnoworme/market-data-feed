@@ -1,0 +1,25 @@
+name: JB Why (manual)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  why:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install yfinance pandas lxml requests
+      - run: python jb_why.py
+      - run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add scanner/jb/compare
+          git diff --staged --quiet || (git commit -m "JB why" && git pull --rebase && git push)
