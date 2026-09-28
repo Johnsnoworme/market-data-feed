@@ -1,0 +1,435 @@
+{
+  "ny_date": "2026-09-25",
+  "rows": [
+    {
+      "ticker": "MRNA",
+      "kind": "W",
+      "date": "2026-09-25",
+      "name": "Moderna Inc.",
+      "sector": "Health Care",
+      "chg": "+29.11%",
+      "close": 198.88,
+      "high": 202.67,
+      "low": 43.68,
+      "retr": 2.4,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 154.97,
+        "50": 123.17,
+        "70": 91.38
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D",
+        "M",
+        "W"
+      ]
+    },
+    {
+      "ticker": "TEAM",
+      "kind": "M",
+      "date": "2026-08-31",
+      "name": "Atlassian Corporation",
+      "sector": "Technology",
+      "chg": "+92.22%",
+      "close": 187.74,
+      "high": 200.0,
+      "low": 56.01,
+      "retr": 8.5,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 156.8,
+        "50": 128.0,
+        "70": 99.21
+      },
+      "weeks": 3,
+      "since": -3.3,
+      "kinds": [
+        "M"
+      ]
+    },
+    {
+      "ticker": "CRCL",
+      "kind": "M",
+      "date": "2026-08-31",
+      "name": "Circle Internet Group Inc.",
+      "sector": "Finance",
+      "chg": "+52.61%",
+      "close": 89.0,
+      "high": 103.28,
+      "low": 49.9,
+      "retr": 26.8,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 87.27,
+        "50": 76.59,
+        "70": 65.91
+      },
+      "weeks": 3,
+      "since": -6.9,
+      "kinds": [
+        "M"
+      ]
+    },
+    {
+      "ticker": "PS",
+      "kind": "W",
+      "date": "2026-09-18",
+      "name": "Pershing Square Inc.",
+      "sector": "Finance",
+      "chg": "+32.28%",
+      "close": 56.16,
+      "high": 56.94,
+      "low": 21.93,
+      "retr": 2.2,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 46.44,
+        "50": 39.44,
+        "70": 32.44
+      },
+      "weeks": 1,
+      "since": 12.7,
+      "kinds": [
+        "W"
+      ]
+    },
+    {
+      "ticker": "TEM",
+      "kind": "W",
+      "date": "2026-09-18",
+      "name": "Tempus AI Inc.",
+      "sector": "Technology",
+      "chg": "+31.91%",
+      "close": 85.01,
+      "high": 85.46,
+      "low": 40.77,
+      "retr": 1.0,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 72.05,
+        "50": 63.11,
+        "70": 54.18
+      },
+      "weeks": 1,
+      "since": 9.2,
+      "kinds": [
+        "W"
+      ]
+    },
+    {
+      "ticker": "TWST",
+      "kind": "D",
+      "date": "2026-09-24",
+      "name": "Twist Bioscience Corp",
+      "sector": "Healthcare",
+      "chg": "+16.11%",
+      "close": 182.83,
+      "high": 186.2,
+      "low": 80.59,
+      "retr": 3.2,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 154.52,
+        "50": 133.39,
+        "70": 112.27
+      },
+      "weeks": 0,
+      "since": -0.7,
+      "kinds": [
+        "D",
+        "W"
+      ]
+    },
+    {
+      "ticker": "AKAM",
+      "kind": "D",
+      "date": "2026-09-24",
+      "name": "Akamai Technologies Inc",
+      "sector": "Technology",
+      "chg": "+21.88%",
+      "close": 113.94,
+      "high": 128.46,
+      "low": 100.77,
+      "retr": 52.4,
+      "zone": "🔔 50~61.8%",
+      "alert": true,
+      "order": 4,
+      "lv": {
+        "30": 120.15,
+        "50": 114.62,
+        "70": 109.08
+      },
+      "weeks": 0,
+      "since": 3.2,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "H",
+      "kind": "D",
+      "date": "2026-09-24",
+      "name": "Hyatt Hotels Corp",
+      "sector": "Consumer Cyclical",
+      "chg": "+14.25%",
+      "close": 158.48,
+      "high": 161.06,
+      "low": 154.16,
+      "retr": 37.4,
+      "zone": "🔔 30~38.2%",
+      "alert": true,
+      "order": 2,
+      "lv": {
+        "30": 158.99,
+        "50": 157.61,
+        "70": 156.23
+      },
+      "weeks": 0,
+      "since": -0.3,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "CMS",
+      "kind": "D",
+      "date": "2026-09-24",
+      "name": "CMS Energy Corp",
+      "sector": "Utilities",
+      "chg": "+10.55%",
+      "close": 62.95,
+      "high": 65.41,
+      "low": 62.38,
+      "retr": 81.2,
+      "zone": "⚠️ 70% 이탈 → 종료",
+      "alert": false,
+      "order": 8,
+      "lv": {
+        "30": 64.5,
+        "50": 63.9,
+        "70": 63.29
+      },
+      "weeks": 0,
+      "since": 0.3,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "TXG",
+      "kind": "D",
+      "date": "2026-09-24",
+      "name": "10x Genomics Inc",
+      "sector": "Healthcare",
+      "chg": "+11.23%",
+      "close": 85.71,
+      "high": 86.16,
+      "low": 35.12,
+      "retr": 0.9,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 70.85,
+        "50": 60.64,
+        "70": 50.43
+      },
+      "weeks": 0,
+      "since": 1.9,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "P",
+      "kind": "W",
+      "date": "2026-09-25",
+      "name": "Everpure Inc.",
+      "sector": "Technology",
+      "chg": "+20.99%",
+      "close": 126.0,
+      "high": 131.41,
+      "low": 56.78,
+      "retr": 7.2,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 109.02,
+        "50": 94.1,
+        "70": 79.17
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D",
+        "W"
+      ]
+    },
+    {
+      "ticker": "NBIS",
+      "kind": "D",
+      "date": "2026-09-24",
+      "name": "Nebius Group N.V.",
+      "sector": "Technology",
+      "chg": "+7.44%",
+      "close": 237.33,
+      "high": 249.19,
+      "low": 145.8,
+      "retr": 11.5,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 218.17,
+        "50": 197.5,
+        "70": 176.82
+      },
+      "weeks": 0,
+      "since": -2.5,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "ILMN",
+      "kind": "D",
+      "date": "2026-09-24",
+      "name": "Illumina, Inc.",
+      "sector": "Health Care",
+      "chg": "+7.25%",
+      "close": 270.0,
+      "high": 277.95,
+      "low": 174.78,
+      "retr": 7.7,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 247.0,
+        "50": 226.37,
+        "70": 205.73
+      },
+      "weeks": 0,
+      "since": -1.4,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "VIAV",
+      "kind": "D",
+      "date": "2026-09-25",
+      "name": "Viavi Solutions Inc",
+      "sector": "Technology",
+      "chg": "+9.27%",
+      "close": 40.68,
+      "high": 40.88,
+      "low": 31.41,
+      "retr": 2.1,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 38.04,
+        "50": 36.15,
+        "70": 34.25
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "BE",
+      "kind": "D",
+      "date": "2026-09-25",
+      "name": "Bloom Energy Corp",
+      "sector": "Industrials",
+      "chg": "+8.27%",
+      "close": 288.7,
+      "high": 292.72,
+      "low": 157.33,
+      "retr": 3.0,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 252.1,
+        "50": 225.03,
+        "70": 197.95
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "CRDO",
+      "kind": "D",
+      "date": "2026-09-25",
+      "name": "Credo Technology Group Holding Ltd",
+      "sector": "Technology",
+      "chg": "+7.65%",
+      "close": 210.97,
+      "high": 214.87,
+      "low": 149.14,
+      "retr": 5.9,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 195.15,
+        "50": 182.0,
+        "70": 168.86
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "VICR",
+      "kind": "W",
+      "date": "2026-09-25",
+      "name": "Vicor Corporation",
+      "sector": "Technology",
+      "chg": "+26.60%",
+      "close": 281.96,
+      "high": 291.53,
+      "low": 137.67,
+      "retr": 6.2,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 245.37,
+        "50": 214.6,
+        "70": 183.83
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "W"
+      ]
+    }
+  ],
+  "generated_utc": "2026-09-28T03:47:01.419312+00:00"
+}
