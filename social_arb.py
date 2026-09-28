@@ -237,12 +237,13 @@ def main():
             if len(src[t]) < 2:
                 continue
             pool.append({"ticker": t, "px": px, "r1": r1 * 100, "r5": r5 * 100, "vr": vr, "why": src[t]})
-    picks = []
+    picks, fail = [], []
     for p in sorted(pool, key=lambda p: (-len(p["why"]), -p["vr"])):
         if p["ticker"] in shown and (pd.Timestamp.now() - pd.Timestamp(shown[p["ticker"]])).days <= 56:
             continue
         f = fundamentals(p["ticker"])
         if not f or not f["ok"]:
+            fail.append((p["ticker"], f["tag"] if f else "데이터 없음"))
             continue
         p["f"] = f
         p["bottleneck"] = "edgar" in p["why"] and bool(f["gm_up"])
@@ -278,9 +279,14 @@ def main():
     json.dump(shown, open(f"{OUT}/shown.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     json.dump(cache, open(f"{OUT}/wiki_map.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(md)
-    print("출처별:", {k: sum(1 for v in src.values() if k in v) for k in ("reddit", "stocktwits", "edgar", "wiki")})
-    print(f"가격 조건 통과 {len(price_ok)}개: " + ", ".join(f"{t}({'+'.join(src[t])})" for t in price_ok))
-    print(f"후보 풀 {len(pool)}개: " + ", ".join(f"{p['ticker']}({'+'.join(p['why'])})" for p in pool))
+    log = [f"{ds} 거름망 기록",
+           "출처별: " + str({k: sum(1 for v in src.values() if k in v) for k in ("reddit", "stocktwits", "edgar", "wiki")}),
+           f"관심 출처 1개↑ {len(src)}개: " + ", ".join(f"{t}({'+'.join(src[t])})" for t in sorted(src)),
+           f"가격 조건 통과 {len(price_ok)}개: " + ", ".join(f"{t}({'+'.join(src[t])})" for t in price_ok),
+           f"출처 2개↑ 후보 풀 {len(pool)}개: " + ", ".join(f"{p['ticker']}({'+'.join(p['why'])})" for p in pool),
+           "실적 탈락: " + ", ".join(f"{t}({why})" for t, why in fail)]
+    open(f"{OUT}/funnel.txt", "w", encoding="utf-8").write("\n".join(log) + "\n")
+    print("\n".join(log))
 
 
 if __name__ == "__main__":
