@@ -7,6 +7,7 @@
 ※ 지금 시총 $2B↑ 종목만(생존 편향) · 옵션은 모델 가격(실제 호가·스프레드 없음) → 그룹·기간끼리 비교로 해석
 결과: research/social_bt/latest.md, research/social_bt/events.csv.gz
 """
+import json
 import os
 import re
 import time
@@ -65,17 +66,21 @@ def prices(tickers):
     return out
 
 
+SCODE = {}
+
+
 def sec_get(url):
-    for i in range(4):
+    for i in range(2):
         try:
             r = requests.get(url, headers=UA, timeout=60)
+            SCODE[r.status_code] = SCODE.get(r.status_code, 0) + 1
             if r.status_code == 200:
                 return r.json()
-            if r.status_code == 404:
+            if r.status_code in (403, 404):
                 return None
         except Exception:
-            pass
-        time.sleep(1 + i * 2)
+            SCODE["err"] = SCODE.get("err", 0) + 1
+        time.sleep(2)
     return None
 
 
@@ -86,7 +91,12 @@ def norm(n):
 
 
 def fundamentals(names):
+    if os.path.exists(f"{OUT}/fund_cache.json"):
+        d = json.load(open(f"{OUT}/fund_cache.json"))
+        log(f"SEC 실적 캐시 사용: {len(d)}개 종목")
+        return {t: {int(k): v for k, v in x.items()} for t, x in d.items()}
     """{ticker: {qidx: {end, eps, rev}}} — SEC XBRL frames. 티커는 회사 이름으로 연결 (www.sec.gov 막힘)"""
+    t0 = time.time()
     by_name = {}
     for t, nm in names.items():
         by_name.setdefault(norm(nm), t)
@@ -111,7 +121,8 @@ def fundamentals(names):
                         continue
                     e = out.setdefault(t, {}).setdefault(qi, {"end": d.get("end")})
                     e.setdefault(kind, float(d["val"]))
-    log(f"SEC 실적 (회사 이름으로 연결): {len(out)}/{len(names)}개 종목")
+    log(f"SEC 실적 (회사 이름으로 연결): {len(out)}/{len(names)}개 종목 · 응답 코드 {SCODE} · {time.time() - t0:.0f}초")
+    json.dump({t: {str(k): v for k, v in d.items()} for t, d in out.items()}, open(f"{OUT}/fund_cache.json", "w"))
     return out
 
 
@@ -136,22 +147,28 @@ def clean_name(n):
     return re.sub(r"\s+", " ", re.sub(r"[,().]", " ", n)).strip()
 
 
+WIKI_DEADLINE = [0.0]
+
+
 def wget(url, **kw):
-    for i in range(5):
+    if time.time() > WIKI_DEADLINE[0]:
+        return None
+    for i in range(2):
         try:
-            r = requests.get(url, headers=UA, timeout=30, **kw)
+            r = requests.get(url, headers=UA, timeout=15, **kw)
             if r.status_code == 200:
                 return r.json()
+            WCODE[r.status_code] = WCODE.get(r.status_code, 0) + 1
             if r.status_code == 404:
                 return None
         except Exception:
             pass
-        time.sleep(2 * (i + 1))
+        time.sleep(1)
     WERR.append(url)
     return None
 
 
-WERR = []
+WERR, WCODE = [], {}
 
 
 def wiki_one(item):
@@ -178,10 +195,11 @@ def wiki_one(item):
 
 
 def wiki_all(names):
-    with ThreadPoolExecutor(3) as ex:
+    WIKI_DEADLINE[0] = time.time() + 25 * 60   # 위키는 최대 25분
+    with ThreadPoolExecutor(4) as ex:
         res = dict(ex.map(wiki_one, names.items()))
     ok = {t: s for t, s in res.items() if s is not None}
-    log(f"위키피디아 연결: {len(ok)}/{len(names)}개 종목 (요청 실패 {len(WERR)}건)")
+    log(f"위키피디아 연결: {len(ok)}/{len(names)}개 종목 (요청 실패 {len(WERR)}건, 응답 코드 {WCODE})")
     return ok
 
 
