@@ -197,9 +197,13 @@ def main():
     if live:
         md += "| 티커 | 구분 | 구간 (주봉 / 월봉) | 종가 | 주봉 풀백 | 월봉 풀백 | 신호일 |\n"
         md += "| :--- | :--- | :--- | ---: | :--- | :--- | :--- |\n"
-        for r in live:
-            md += (f"| {fv(r['ticker'])}{' 🆕' if r['new'] else ''} | {r['kind']} | {r['zone']} | {r['close']} | "
-                   f"{lv(r['W'])} | {lv(r['M'])} | {r['first_seen']} |\n")
+        hdr = "| 티커 | 구분 | 구간 (주봉 / 월봉) | 종가 | 주봉 풀백 | 월봉 풀백 | 신호일 |\n| :--- | :--- | :--- | ---: | :--- | :--- | :--- |\n"
+        rowf = lambda r: (f"| {fv(r['ticker'])}{' 🆕' if r['new'] else ''} | {r['kind']} | {r['zone']} | {r['close']} | "
+                          f"{lv(r['W'])} | {lv(r['M'])} | {r['first_seen']} |\n")
+        for r in live[:10]:
+            md += rowf(r)
+        if len(live) > 10:
+            md += f"\n> [!note]- 나머지 풀백 {len(live) - 10}개\n" + "".join("> " + l + "\n" for l in (hdr + "".join(rowf(r) for r in live[10:])).strip().split("\n"))
     else:
         md += "오늘 2파 풀백 구간(주봉 또는 월봉 30~70%)에 있는 종목이 없어요.\n"
     if broken:
