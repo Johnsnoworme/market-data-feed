@@ -1,0 +1,6 @@
+2026-09-25 거름망 기록
+출처별: {'reddit': 40, 'stocktwits': 19, 'edgar': 0, 'wiki': 0}
+관심 출처 1개↑ 54개: AM(reddit), AMD(reddit+stocktwits), AMZN(reddit), APLD(reddit), ASTS(reddit+stocktwits), AVGO(reddit), BYD(reddit), CBRS(reddit), COHR(stocktwits), CRDO(reddit), CRM(stocktwits), CRWD(reddit), FCF(reddit), GOOGL(reddit), GTLB(stocktwits), HBM(reddit), IBM(reddit), IBRX(stocktwits), INTC(reddit), IP(reddit), KLAC(stocktwits), META(reddit+stocktwits), MS(reddit), MSFT(stocktwits), MSTR(stocktwits), MU(reddit+stocktwits), NBIS(stocktwits), NET(reddit+stocktwits), NOW(reddit), NU(reddit), NVDA(reddit), ON(reddit), ONDS(reddit), OPEN(reddit), OR(reddit), ORCL(reddit), OUT(reddit), PLTR(reddit), PYPL(stocktwits), QNT(stocktwits), QS(reddit), RTX(reddit), SLS(reddit), SMCI(reddit), SNDK(stocktwits), SO(reddit), SOFI(stocktwits), SPCX(stocktwits), TD(reddit), TDS(reddit), UI(reddit), VST(reddit), WMT(stocktwits), YOU(reddit)
+가격 조건 통과 0개: 
+출처 2개↑ 후보 풀 0개: 
+실적 탈락: 
