@@ -4,6 +4,7 @@
     {
       "ticker": "MRNA",
       "kind": "W",
+      "src": "T",
       "date": "2026-09-25",
       "name": "Moderna Inc.",
       "sector": "Health Care",
@@ -31,6 +32,7 @@
     {
       "ticker": "TEAM",
       "kind": "M",
+      "src": "T",
       "date": "2026-08-31",
       "name": "Atlassian Corporation",
       "sector": "Technology",
@@ -47,7 +49,7 @@
         "50": 128.0,
         "70": 99.21
       },
-      "weeks": 3,
+      "weeks": 4,
       "since": -3.3,
       "kinds": [
         "M"
@@ -56,6 +58,7 @@
     {
       "ticker": "CRCL",
       "kind": "M",
+      "src": "T",
       "date": "2026-08-31",
       "name": "Circle Internet Group Inc.",
       "sector": "Finance",
@@ -72,7 +75,7 @@
         "50": 76.59,
         "70": 65.91
       },
-      "weeks": 3,
+      "weeks": 4,
       "since": -6.9,
       "kinds": [
         "M"
@@ -81,6 +84,7 @@
     {
       "ticker": "PS",
       "kind": "W",
+      "src": "T",
       "date": "2026-09-18",
       "name": "Pershing Square Inc.",
       "sector": "Finance",
@@ -106,6 +110,7 @@
     {
       "ticker": "TEM",
       "kind": "W",
+      "src": "T",
       "date": "2026-09-18",
       "name": "Tempus AI Inc.",
       "sector": "Technology",
@@ -131,6 +136,7 @@
     {
       "ticker": "TWST",
       "kind": "D",
+      "src": "T",
       "date": "2026-09-24",
       "name": "Twist Bioscience Corp",
       "sector": "Healthcare",
@@ -157,6 +163,7 @@
     {
       "ticker": "AKAM",
       "kind": "D",
+      "src": "T",
       "date": "2026-09-24",
       "name": "Akamai Technologies Inc",
       "sector": "Technology",
@@ -182,6 +189,7 @@
     {
       "ticker": "H",
       "kind": "D",
+      "src": "T",
       "date": "2026-09-24",
       "name": "Hyatt Hotels Corp",
       "sector": "Consumer Cyclical",
@@ -207,6 +215,7 @@
     {
       "ticker": "CMS",
       "kind": "D",
+      "src": "T",
       "date": "2026-09-24",
       "name": "CMS Energy Corp",
       "sector": "Utilities",
@@ -232,6 +241,7 @@
     {
       "ticker": "TXG",
       "kind": "D",
+      "src": "T",
       "date": "2026-09-24",
       "name": "10x Genomics Inc",
       "sector": "Healthcare",
@@ -257,6 +267,7 @@
     {
       "ticker": "P",
       "kind": "W",
+      "src": "T",
       "date": "2026-09-25",
       "name": "Everpure Inc.",
       "sector": "Technology",
@@ -283,6 +294,7 @@
     {
       "ticker": "NBIS",
       "kind": "D",
+      "src": "T",
       "date": "2026-09-24",
       "name": "Nebius Group N.V.",
       "sector": "Technology",
@@ -308,6 +320,7 @@
     {
       "ticker": "ILMN",
       "kind": "D",
+      "src": "T",
       "date": "2026-09-24",
       "name": "Illumina, Inc.",
       "sector": "Health Care",
@@ -333,6 +346,7 @@
     {
       "ticker": "VIAV",
       "kind": "D",
+      "src": "T",
       "date": "2026-09-25",
       "name": "Viavi Solutions Inc",
       "sector": "Technology",
@@ -358,6 +372,7 @@
     {
       "ticker": "BE",
       "kind": "D",
+      "src": "T",
       "date": "2026-09-25",
       "name": "Bloom Energy Corp",
       "sector": "Industrials",
@@ -383,6 +398,7 @@
     {
       "ticker": "CRDO",
       "kind": "D",
+      "src": "T",
       "date": "2026-09-25",
       "name": "Credo Technology Group Holding Ltd",
       "sector": "Technology",
@@ -408,6 +424,7 @@
     {
       "ticker": "VICR",
       "kind": "W",
+      "src": "T",
       "date": "2026-09-25",
       "name": "Vicor Corporation",
       "sector": "Technology",
@@ -429,7 +446,137 @@
       "kinds": [
         "W"
       ]
+    },
+    {
+      "ticker": "AVTR",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-09-25",
+      "name": "Avantor Inc.",
+      "sector": "",
+      "chg": "",
+      "close": 15.25,
+      "high": 15.59,
+      "low": 7.42,
+      "retr": 4.2,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 13.14,
+        "50": 11.51,
+        "70": 9.87
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "DOCU",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-09-25",
+      "name": "DocuSign Inc.",
+      "sector": "",
+      "chg": "",
+      "close": 67.5,
+      "high": 70.36,
+      "low": 41.37,
+      "retr": 9.9,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 61.66,
+        "50": 55.86,
+        "70": 50.07
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "WDAY",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-09-25",
+      "name": "Workday, Inc.",
+      "sector": "",
+      "chg": "",
+      "close": 189.45,
+      "high": 197.0,
+      "low": 110.36,
+      "retr": 8.7,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 171.01,
+        "50": 153.68,
+        "70": 136.35
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "MANH",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-09-25",
+      "name": "Manhattan Associates Inc.",
+      "sector": "",
+      "chg": "",
+      "close": 206.03,
+      "high": 213.3,
+      "low": 119.06,
+      "retr": 7.7,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 185.03,
+        "50": 166.18,
+        "70": 147.33
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "ZS",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-09-25",
+      "name": "Zscaler Inc.",
+      "sector": "",
+      "chg": "",
+      "close": 193.05,
+      "high": 216.97,
+      "low": 114.62,
+      "retr": 23.4,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 186.27,
+        "50": 165.8,
+        "70": 145.33
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
     }
   ],
-  "generated_utc": "2026-09-28T03:48:01.316041+00:00"
+  "generated_utc": "2026-09-28T04:42:59.736362+00:00"
 }
