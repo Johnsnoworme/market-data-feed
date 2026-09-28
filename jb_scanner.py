@@ -420,6 +420,7 @@ def update_monthly(weekly, stars, week_end):
     print(f"월간 모음 {ym}: {len(rows)}개")
 
 
+CREDIBLE_DOLLAR_VOL = 50_000_000   # 믿을 만한 종목: 하루 거래대금 5천만$↑ + 상장 1년↑ (52주)
 NEAR_MA = 15.0     # 12주선 대비 +15% 이내 = 아직 멀리 안 감 (오르려는 자리)
 MAIN_TOP = 10     # 표에 보여줄 후보 수
 LEADERS = ["NVDA", "MSFT", "AAPL", "AMZN", "GOOGL", "META", "AVGO", "TSLA"]
@@ -453,7 +454,7 @@ def kim_scan(daily, names, large):
         if t in LEADERS:
             lead.append(r)
         dv = dollar[t].reindex(c.index).iloc[-4:].sum() / max(days[t].reindex(c.index).iloc[-4:].sum(), 1)
-        if k["pass"] and dv >= MIN_DOLLAR_VOL_DAY:
+        if k["pass"] and dv >= CREDIBLE_DOLLAR_VOL and len(c) >= 52:
             rows.append(r)
     def cap_ok(r):
         if r["ticker"] in large:
@@ -468,7 +469,6 @@ def kim_scan(daily, names, large):
 def kim_md(rows, lead, L, q, week_end, universe_n):
     d = week_end.strftime("%Y-%m-%d")
     near = [r for r in rows if r["above_ma12"] <= NEAR_MA]
-    far = [r for r in rows if r["above_ma12"] > NEAR_MA]
     qd, qu = (L["trough"] / L["peak"] - 1) * 100, (q.iloc[-1] / L["trough"] - 1) * 100
     head = "| 티커 | 회사 | 섹터 | 이번 주 | 나스닥 저점 이후 |\n| :--- | :--- | :--- | ---: | ---: |\n"
     def line(r):
@@ -476,19 +476,25 @@ def kim_md(rows, lead, L, q, week_end, universe_n):
                 f"{r['week_pct']:+.1f}% | {r['up']:+.1f}% |\n")
     md = f"# 김종봉 스캐너 — {d} 주간\n\n"
     md += (f"> 나스닥 기준: {L['peak_d'].strftime('%m/%d')} 고점 → {L['trough_d'].strftime('%m/%d')} 저점 **{qd:+.1f}%** → 지금 **저점 대비 {qu:+.1f}%**\n")
-    md += f"> 후보 = 하락 구간에 나스닥보다 **덜 빠지고** + 반등 구간에 **더 오른** 종목 (시총 $10B+, {universe_n}개 중 {len(rows)}개) · 🔥 = 하락 구간에 오히려 오름\n\n"
+    md += (f"> 하락 구간에 나스닥보다 **덜 빠지고** + 반등 구간에 **더 오른** 종목 중, 아직 멀리 안 간(12주선 +15% 이내) 강한 순 **최대 {SHOW_TOP}개** "
+           f"· 시총 $10B+ · 상장 1년↑ · 하루 거래대금 5천만$↑ · 🔥 = 하락 구간에 오히려 오름\n\n")
     if lead:
         win = [r["ticker"] for r in lead if r["pass"]]
         md += "👑 **대장주**: " + " · ".join(f"{r['ticker']} {'✅' if r['pass'] else '❌'}" for r in lead)
         md += f" → {'지수보다 강한 대장이 있어 시장은 상승 쪽' if win else '대장이 지수를 못 이김 → 비중 절반'}\n\n"
-    md += f"### 🎯 오르려는 후보 (아직 멀리 안 감) — {len(near)}개\n"
-    md += head + "".join(line(r) for r in near[:MAIN_TOP]) if near else "이번 주 없음\n"
-    if len(near) > MAIN_TOP:
-        md += f"\n> [!note]- 나머지 {len(near) - MAIN_TOP}개\n" + "".join("> " + l + "\n" for l in (head + "".join(line(r) for r in near[MAIN_TOP:])).strip().split("\n"))
-    if far:
-        md += f"\n> [!note]- 이미 많이 오른 후보 {len(far)}개 (풀백 오면 Daily 노트에 알림)\n" + "".join("> " + l + "\n" for l in (head + "".join(line(r) for r in far)).strip().split("\n"))
-    md += "\n> 강한 순서대로 정렬 · 전부 8주 추적 → 풀백(주봉·월봉 30~70%)이 오면 Daily 노트 🔔 · 진입은 7개 룰 직접 확인 · 티커를 누르면 Finviz\n"
+    md += head + "".join(line(r) for r in near[:SHOW_TOP]) if near else "이번 주 없음 (기준을 넘는 종목이 없어요)\n"
+    md += "\n> 여기 나온 종목만 8주 추적 → 풀백(30~70%)이 오면 Daily 노트 🔔 '김종봉 후보' 칸 · 진입은 7개 룰 직접 확인 · 티커를 누르면 Finviz\n"
     return md
+
+
+def save_picks(rows, week_end):
+    """Weekly에 보여준 종목 = 8주 풀백 추적 대상"""
+    p = f"{OUT_DIR}/picks.json"
+    picks = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+    d = week_end.strftime("%Y-%m-%d")
+    for r in rows:
+        picks[r["ticker"]] = {"date": d, "name": r["name"], "sector": r["sector"]}
+    json.dump(picks, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 
 def update_tracking_kim(rows, week_end):
@@ -515,9 +521,9 @@ def update_monthly_kim(rows, week_end):
     os.makedirs(f"{OUT_DIR}/monthly", exist_ok=True)
     jp = f"{OUT_DIR}/monthly/{ym}.json"
     data = json.load(open(jp, encoding="utf-8")) if os.path.exists(jp) else {"month": ym, "tickers": {}}
-    data.setdefault("version", 2)
-    if data.get("version") != 2:
-        data = {"month": ym, "tickers": {}, "version": 2}
+    data.setdefault("version", 3)
+    if data.get("version") != 3:
+        data = {"month": ym, "tickers": {}, "version": 3}
     wk = week_end.strftime("%m/%d")
     for r in rows:
         e = data["tickers"].setdefault(r["ticker"], {"name": r["name"], "sector": r["sector"], "first": wk, "weeks": []})
@@ -530,10 +536,8 @@ def update_monthly_kim(rows, week_end):
     head = "| 티커 | 회사 | 섹터 | 처음 뜬 주 | 등장 |\n| :--- | :--- | :--- | :--- | ---: |\n"
     line = lambda t, e: f"| {fv(t)} | {e['name']} | {e['sector']} | {e['first']} | {len(e['weeks'])}주 |\n"
     md = f"# 김종봉 스캐너 — {ym} 월간 모음\n\n"
-    md += f"> 이달 매주 '지수보다 강한 종목'(김종봉 원본 기준)에 나온 종목 · 마지막 반영 {data['last_week']}(금) · 여러 주 연속 등장할수록 위\n\n"
+    md += f"> 이달 매주 Weekly 노트 김종봉 후보(주 최대 5개)에 나온 종목 · 마지막 반영 {data['last_week']}(금) · 여러 주 연속 등장할수록 위\n\n"
     md += f"### 🏆 이달 핵심 5\n" + (head + "".join(line(t, e) for t, e in items[:5]) if items else "이번 달 없음\n")
-    if len(items) > 5:
-        md += f"\n> [!note]- 나머지 {len(items) - 5}개\n" + "".join("> " + l + "\n" for l in (head + "".join(line(t, e) for t, e in items[5:])).strip().split("\n"))
     open(f"{OUT_DIR}/monthly/{ym}.md", "w", encoding="utf-8").write(md)
 
 
@@ -577,8 +581,10 @@ def main():
     if payload["week_end"] not in hist:
         hist.append(payload["week_end"])
     json.dump(sorted(hist), open(idx_path, "w"), indent=2)
-    update_tracking_kim(rows, week_end)
-    update_monthly_kim(rows, week_end)
+    shown = [r for r in rows if r["above_ma12"] <= NEAR_MA][:SHOW_TOP]
+    save_picks(shown, week_end)
+    update_tracking_kim(shown, week_end)
+    update_monthly_kim(shown, week_end)
     print(md)
 
 
