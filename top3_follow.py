@@ -91,7 +91,8 @@ def json_signals(path, kind):
     return out
 
 
-SRC = {"T": ("🏆 내 Top 3", ("D", "W", "M")), "J": ("🧭 김종봉 후보", ("J",)), "S": ("📡 소셜 아비트리지", ("S",))}
+# 📡 소셜 아비트리지는 2026-09-28 멈춤 (백테스트 결과). 다시 켜려면 아래 SRC와 sig에 "S" 추가
+SRC = {"T": ("🏆 내 Top 3", ("D", "W", "M")), "J": ("🧭 김종봉 후보", ("J",))}
 LAB = {"D": "Daily", "W": "Weekly", "M": "Monthly", "J": "주간", "S": "일간"}
 
 
@@ -99,7 +100,7 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     today = pd.Timestamp.now(tz="America/New_York").normalize().tz_localize(None)
     sig = {**daily_signals(), **archive_signals("weekly", "W"), **archive_signals("monthly", "M"),
-           **json_signals("scanner/jb/picks.json", "J"), **json_signals("social/shown.json", "S")}
+           **json_signals("scanner/jb/picks.json", "J")}
     sig = {k: v for k, v in sig.items() if (today - pd.Timestamp(k[2])).days <= DAYS}
     tickers = sorted({k[0].replace(".", "-") for k in sig})
     if not tickers:
@@ -158,7 +159,7 @@ def main():
                 f"{r['close']} | {r['lv'][30]} ~ {r['lv'][70]} ({r['lv'][50]}) | {since} |\n")
     all_live = [r for r in rows if r["alert"]]
     md = f"# 🔔 풀백 추적 — {ny} 뉴욕 종가 (8주)\n\n"
-    md += (f"> 🏆 내 Top 3 · 🧭 김종봉 후보 · 📡 소셜 아비트리지 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 {len(all_live)}개** "
+    md += (f"> 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 {len(all_live)}개** "
            f"· 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉\n")
     for src, (title, _) in SRC.items():
         rs = [r for r in rows if r["src"] == src]
@@ -179,7 +180,7 @@ def main():
             md += f"\n> [!note]- 대기 {len(wait)}개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)\n> " + ", ".join(f"{r['ticker']} {max(r['retr'], 0):.0f}%{' 📏' if r['zone'].startswith('📏') else ''}" for r in wait) + "\n"
         if done:
             md += "\n⚠️ 70% 이탈로 종료: " + ", ".join(r["ticker"] for r in done) + "\n"
-    md += "\n> 알림 = '지켜볼 자리'. 진입은 7개 룰을 차트로 직접 확인\n"
+    md += "\n> 알림 = '지켜볼 자리'. 진입은 7개 룰을 차트로 직접 확인 · 옵션: 9~12개월 ATM, +100% 익절 / 6개월 안 정리, 종가 70% 이탈 = 정리 ([[2026-09-28 레이더 백테스트 보고서]])\n"
     open(f"{OUT}/{ny}.md", "w", encoding="utf-8").write(md)
     open(f"{OUT}/latest.md", "w", encoding="utf-8").write(md)
     json.dump({"ny_date": ny, "rows": [dict(r, kinds=sorted(r["kinds"])) for r in rows],
