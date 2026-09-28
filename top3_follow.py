@@ -116,6 +116,8 @@ def main():
         close = float(c.iloc[-1])
         retr = (hi - close) / (hi - lo) * 100
         alert, zname, order = zone(retr)
+        if (hi / lo - 1) < 0.08 and order < 8:   # 1파가 8%도 안 되면 풀백 %가 의미 없음
+            alert, zname, order = (False, "📏 1파 작음 (8% 미만)", 1)
         lv = {k: round(hi - (hi - lo) * k / 100, 2) for k in (30, 50, 70)}
         rows.append({"ticker": t, "kind": kind, "date": sd, "name": info["name"], "sector": info["sector"], "chg": info["chg"],
                      "close": round(close, 2), "high": round(hi, 2), "low": round(lo, 2), "retr": round(retr, 1),
