@@ -176,7 +176,7 @@ def main():
         else:
             md += "오늘 풀백 구간(30~70%)에 있는 종목이 없어요.\n"
         if wait:
-            md += f"\n> [!note]- 대기 {len(wait)}개 (아직 30% 전 또는 신고가)\n> " + ", ".join(f"{r['ticker']} {max(r['retr'], 0):.0f}%" for r in wait) + "\n"
+            md += f"\n> [!note]- 대기 {len(wait)}개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)\n> " + ", ".join(f"{r['ticker']} {max(r['retr'], 0):.0f}%{' 📏' if r['zone'].startswith('📏') else ''}" for r in wait) + "\n"
         if done:
             md += "\n⚠️ 70% 이탈로 종료: " + ", ".join(r["ticker"] for r in done) + "\n"
     md += "\n> 알림 = '지켜볼 자리'. 진입은 7개 룰을 차트로 직접 확인\n"
