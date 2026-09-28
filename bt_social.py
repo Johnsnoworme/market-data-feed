@@ -68,7 +68,7 @@ def prices(tickers):
 def sec_get(url):
     for i in range(4):
         try:
-            r = requests.get(url, headers=SEC_UA, timeout=60)
+            r = requests.get(url, headers=UA, timeout=60)
             if r.status_code == 200:
                 return r.json()
             if r.status_code == 404:
@@ -79,18 +79,18 @@ def sec_get(url):
     return None
 
 
-def fundamentals(tickers):
-    """{ticker: {qidx: (end, eps, rev)}} — SEC XBRL frames (분기 3개월 값)"""
-    m = sec_get("https://www.sec.gov/files/company_tickers.json")
-    if not m:
-        log("SEC 티커 목록 실패 → 실적 그룹 없음")
-        return {}
-    cik2t = {}
-    for v in m.values():
-        t = v["ticker"].replace(".", "-")
-        if t in tickers:
-            cik2t.setdefault(int(v["cik_str"]), t)
-    out = {}
+def norm(n):
+    n = re.sub(r"\b(COMMON STOCK|CLASS [A-C]|ORDINARY SHARES?|AMERICAN DEPOSITARY SHARES?|ADS|INC|INCORPORATED|CORP|CORPORATION|HOLDINGS?|LTD|LIMITED|PLC|N ?V|S ?A|CO|COMPANY|GROUP|THE|COMMON|SHARES?|/DE|/MD|/NEW)\b", " ",
+               re.sub(r"[^A-Z0-9/ ]", " ", n.upper()))
+    return re.sub(r"\s+", " ", n).strip()
+
+
+def fundamentals(names):
+    """{ticker: {qidx: {end, eps, rev}}} — SEC XBRL frames. 티커는 회사 이름으로 연결 (www.sec.gov 막힘)"""
+    by_name = {}
+    for t, nm in names.items():
+        by_name.setdefault(norm(nm), t)
+    out, cik2t, miss = {}, {}, set()
     tags = [("eps", "EarningsPerShareDiluted", "USD-per-shares"), ("eps", "EarningsPerShareBasic", "USD-per-shares"),
             ("rev", "Revenues", "USD"), ("rev", "RevenueFromContractWithCustomerExcludingAssessedTax", "USD"),
             ("rev", "SalesRevenueNet", "USD"), ("rev", "RevenueFromContractWithCustomerIncludingAssessedTax", "USD")]
@@ -103,12 +103,15 @@ def fundamentals(tickers):
                 if not j:
                     continue
                 for d in j.get("data", []):
-                    t = cik2t.get(int(d["cik"]))
+                    cik = int(d["cik"])
+                    if cik not in cik2t:
+                        cik2t[cik] = by_name.get(norm(d.get("entityName", "")))
+                    t = cik2t[cik]
                     if not t:
                         continue
                     e = out.setdefault(t, {}).setdefault(qi, {"end": d.get("end")})
                     e.setdefault(kind, float(d["val"]))
-    log(f"SEC 실적: {len(out)}개 종목")
+    log(f"SEC 실적 (회사 이름으로 연결): {len(out)}/{len(names)}개 종목")
     return out
 
 
@@ -133,36 +136,52 @@ def clean_name(n):
     return re.sub(r"\s+", " ", re.sub(r"[,().]", " ", n)).strip()
 
 
+def wget(url, **kw):
+    for i in range(5):
+        try:
+            r = requests.get(url, headers=UA, timeout=30, **kw)
+            if r.status_code == 200:
+                return r.json()
+            if r.status_code == 404:
+                return None
+        except Exception:
+            pass
+        time.sleep(2 * (i + 1))
+    WERR.append(url)
+    return None
+
+
+WERR = []
+
+
 def wiki_one(item):
     t, name = item
     cn = clean_name(name)
     if not cn:
         return t, None
-    try:
-        r = requests.get("https://en.wikipedia.org/w/api.php", headers=UA, timeout=30,
-                         params={"action": "query", "list": "search", "format": "json", "srsearch": cn + " company", "srlimit": 1}).json()
-        res = r.get("query", {}).get("search", [])
-        if not res or cn.split()[0].lower() not in res[0]["title"].lower():
-            return t, None
-        title = res[0]["title"]
-        j = requests.get("https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/"
-                         f"{requests.utils.quote(title.replace(' ', '_'), safe='')}/daily/20160101/20260930", headers=UA, timeout=30).json()
-        s = pd.Series({pd.Timestamp(i["timestamp"][:8]): i["views"] for i in j.get("items", [])})
-        if len(s) < 200:
-            return t, None
-        s = s.asfreq("D").fillna(0)
-        rec, base = s.rolling(3).mean(), s.shift(3).rolling(30).mean()
-        spike = ((rec >= 2 * base.clip(lower=1)) & (rec >= 300)).astype(int).rolling(7, min_periods=1).max() > 0
-        return t, spike
-    except Exception:
+    r = wget("https://en.wikipedia.org/w/api.php", params={"action": "query", "list": "search", "format": "json", "srsearch": cn + " company", "srlimit": 1})
+    res = (r or {}).get("query", {}).get("search", [])
+    if not res or cn.split()[0].lower() not in res[0]["title"].lower():
         return t, None
+    title = res[0]["title"]
+    j = wget("https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/"
+             f"{requests.utils.quote(title.replace(' ', '_'), safe='')}/daily/20160101/20260927")
+    if not j:
+        return t, None
+    s = pd.Series({pd.Timestamp(i["timestamp"][:8]): i["views"] for i in j.get("items", [])})
+    if len(s) < 200:
+        return t, None
+    s = s.asfreq("D").fillna(0)
+    rec, base = s.rolling(3).mean(), s.shift(3).rolling(30).mean()
+    spike = ((rec >= 2 * base.clip(lower=1)) & (rec >= 300)).astype(int).rolling(7, min_periods=1).max() > 0
+    return t, spike
 
 
 def wiki_all(names):
-    with ThreadPoolExecutor(8) as ex:
+    with ThreadPoolExecutor(3) as ex:
         res = dict(ex.map(wiki_one, names.items()))
     ok = {t: s for t, s in res.items() if s is not None}
-    log(f"위키피디아 연결: {len(ok)}/{len(names)}개 종목")
+    log(f"위키피디아 연결: {len(ok)}/{len(names)}개 종목 (요청 실패 {len(WERR)}건)")
     return ok
 
 
@@ -197,9 +216,7 @@ def option_stats(paths, sig, days, mny):
 
 
 # ---------------- 백테스트 ----------------
-def main():
-    os.makedirs(OUT, exist_ok=True)
-    names = universe()
+def compute(names):
     log(f"대상(지금 시총 $2B↑): {len(names)}개")
     P = prices(sorted(names))
     C, Hh, Lw, V = P["Close"], P["High"], P["Low"], P["Volume"]
@@ -285,14 +302,28 @@ def main():
             for strat, roi in option_stats(path, sg, days, m).items():
                 ev[f"opt_{lab}_{k}_{strat}"] = roi
 
+    return ev, C, idx[s0], idx[last_ok - 1]
+
+
+def main():
+    os.makedirs(OUT, exist_ok=True)
+    names = universe()
+    if os.environ.get("ENRICH") == "1" and os.path.exists(f"{OUT}/events.csv.gz"):
+        ev = pd.read_csv(f"{OUT}/events.csv.gz", parse_dates=["date"])
+        ev = ev[[c for c in ev.columns if c not in ("has_f", "eps_pos", "eps_up", "rev_up", "has_w", "wiki")]]
+        log(f"저장된 신호 {len(ev):,}개 불러옴 (주가 계산 재사용)")
+        C = pd.DataFrame(columns=range(len(names)))
+        s0_date, end_date = ev.date.min(), ev.date.max()
+    else:
+        ev, C, s0_date, end_date = compute(names)
     # 실적·위키
-    fund = fundamentals(set(names))
+    fund = fundamentals(names)
     ff = [fund_flags(fund.get(t), d) for t, d in zip(ev["ticker"], ev["date"])]
     ev["has_f"] = [f is not None for f in ff]
     ev["eps_pos"] = [bool(f and f["eps_pos"]) for f in ff]
     ev["eps_up"] = [bool(f and f["eps_up"]) for f in ff]
     ev["rev_up"] = [bool(f and f["rev_up"]) for f in ff]
-    wk = wiki_all({t: names[t] for t in ev["ticker"].unique()})
+    wk = wiki_all({t: names.get(t, t) for t in ev["ticker"].unique()})
     ev["has_w"] = ev["ticker"].isin(list(wk))
     ev["wiki"] = [bool(wk[t].asof(d)) if t in wk and d >= wk[t].index[0] else False for t, d in zip(ev["ticker"], ev["date"])]
     ev.to_csv(f"{OUT}/events.csv.gz", index=False, compression="gzip")
@@ -307,9 +338,9 @@ def main():
         "⑥ ② + 위키 관심 급증": ev.eps_up & ev.rev_up & ev.wiki,
         "⑦ 위키 관심 급증 (실적 무관)": ev.wiki,
     }
-    days_n = len(pd.bdate_range(START_SIG, idx[last_ok - 1]))
+    days_n = len(pd.bdate_range(START_SIG, end_date))
     md = "# 🧪 소셜 아비트리지 레이더 백테스트 — 몇 개월 트레이더 관점\n\n"
-    md += (f"> 신호 {idx[s0]:%Y-%m} ~ {idx[last_ok - 1]:%Y-%m} · 지금 시총 $2B↑ {C.shape[1]}개 종목 · 신호 = 레이더 가격 조건 + 거래량 1.5배↑ (같은 종목 21일 중복 제거)\n"
+    md += (f"> 신호 {s0_date:%Y-%m} ~ {end_date:%Y-%m} · 지금 시총 $2B↑ {len(names)}개 종목 · 신호 = 레이더 가격 조건 + 거래량 1.5배↑ (같은 종목 21일 중복 제거)\n"
            "> 실적 = 당시 SEC 공시(분기 끝 50일 후부터 사용) · 위키 = 최근 7일 안 조회수 3일 평균 ≥ 이전 30일 × 2 (하루 300↑)\n"
            "> ⚠️ 생존 편향(지금 살아 있는 종목만) · 레딧·StockTwits 과거 기록 없음 · 옵션 = 블랙숄즈 모델값(변동성 = 60일 실제 × 1.2, 스프레드 없음) → **그룹·기간끼리 비교용**\n\n")
     md += "## 1. 주가: 신호 후 N개월 (QQQ 대비 초과수익)\n| 그룹 | 신호 수 | 하루 평균 | 1개월 | 3개월 | 6개월 | 9개월 | 12개월 | 6개월 QQQ 이긴 % | 12개월 QQQ 이긴 % |\n| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |\n"

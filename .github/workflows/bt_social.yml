@@ -2,6 +2,11 @@ name: Social Radar Backtest (manual)
 
 on:
   workflow_dispatch:
+    inputs:
+      enrich:
+        description: '저장된 신호에 실적·위키만 다시 붙이기 (1 = 예)'
+        required: false
+        default: '0'
 
 permissions:
   contents: write
@@ -17,6 +22,8 @@ jobs:
           python-version: '3.x'
       - run: pip install yfinance pandas requests lxml scipy
       - run: python bt_social.py
+        env:
+          ENRICH: ${{ github.event.inputs.enrich || '0' }}
       - run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
