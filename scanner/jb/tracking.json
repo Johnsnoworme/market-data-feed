@@ -1,1 +1,1280 @@
-{}
+{
+  "TXG": {
+    "name": "10x Genomics Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "VEEV": {
+    "name": "Veeva Systems",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ILMN": {
+    "name": "Illumina, Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "HALO": {
+    "name": "Halozyme Therapeutics Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "OKTA": {
+    "name": "Okta Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "AVTR": {
+    "name": "Avantor Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "NET": {
+    "name": "Cloudflare Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DOCU": {
+    "name": "DocuSign Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "WDAY": {
+    "name": "Workday, Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "MANH": {
+    "name": "Manhattan Associates Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ZS": {
+    "name": "Zscaler Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "IQV": {
+    "name": "IQVIA",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "NTRA": {
+    "name": "Natera Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CHYM": {
+    "name": "Chime Financial Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CRL": {
+    "name": "Charles River Laboratories",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SAIL": {
+    "name": "SailPoint Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "VLO": {
+    "name": "Valero Energy",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "MPC": {
+    "name": "Marathon Petroleum",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "RVTY": {
+    "name": "Revvity",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "IT": {
+    "name": "Gartner",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ZBRA": {
+    "name": "Zebra Technologies",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SNOW": {
+    "name": "Snowflake Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "A": {
+    "name": "Agilent Technologies",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "PSX": {
+    "name": "Phillips 66",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CRM": {
+    "name": "Salesforce",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "NTNX": {
+    "name": "Nutanix Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CRWD": {
+    "name": "CrowdStrike",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DELL": {
+    "name": "Dell Technologies",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "XP": {
+    "name": "XP Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "HPQ": {
+    "name": "HP Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CORT": {
+    "name": "Corcept Therapeutics Incorporated",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DINO": {
+    "name": "HF Sinclair Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TEAM": {
+    "name": "Atlassian Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "EMBJ": {
+    "name": "Embraer S.A.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "BIO": {
+    "name": "Bio-Rad Laboratories Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SHOP": {
+    "name": "Shopify Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CACI": {
+    "name": "CACI International Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "RBRK": {
+    "name": "Rubrik Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "U": {
+    "name": "Unity Software Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CTSH": {
+    "name": "Cognizant",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "GH": {
+    "name": "Guardant Health Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "NOW": {
+    "name": "ServiceNow",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "REGN": {
+    "name": "Regeneron Pharmaceuticals",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "GRMN": {
+    "name": "Garmin",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "NTAP": {
+    "name": "NetApp",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ACN": {
+    "name": "Accenture",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SN": {
+    "name": "SharkNinja Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SAP": {
+    "name": "SAP  SE",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TWST": {
+    "name": "Twist Bioscience Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "META": {
+    "name": "Meta Platforms",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TWLO": {
+    "name": "Twilio Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TMO": {
+    "name": "Thermo Fisher Scientific",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ANET": {
+    "name": "Arista Networks",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "APA": {
+    "name": "APA Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "BDX": {
+    "name": "Becton Dickinson",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "GILD": {
+    "name": "Gilead Sciences",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CNH": {
+    "name": "CNH Industrial N.V.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DHR": {
+    "name": "Danaher Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TX": {
+    "name": "Ternium S.A. Ternium S.A.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "HPE": {
+    "name": "Hewlett Packard Enterprise",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "MSFT": {
+    "name": "Microsoft",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DT": {
+    "name": "Dynatrace Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "HMC": {
+    "name": "Honda Motor Company Ltd.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DDS": {
+    "name": "Dillard's Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "PTC": {
+    "name": "PTC Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "P": {
+    "name": "Everpure",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TGT": {
+    "name": "Target Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "PANW": {
+    "name": "Palo Alto Networks",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "WAT": {
+    "name": "Waters Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "PFE": {
+    "name": "Pfizer",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DXCM": {
+    "name": "Dexcom",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "UHS": {
+    "name": "Universal Health Services",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "FOX": {
+    "name": "Fox Corporation (Class B)",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "WBD": {
+    "name": "Warner Bros. Discovery",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SOLV": {
+    "name": "Solventum",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ULTA": {
+    "name": "Ulta Beauty",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "IOT": {
+    "name": "Samsara Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SMCI": {
+    "name": "Supermicro",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "FOXA": {
+    "name": "Fox Corporation (Class A)",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SMMT": {
+    "name": "Summit Therapeutics Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TEVA": {
+    "name": "Teva Pharmaceutical Industries Limited",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "FNV": {
+    "name": "Franco-Nevada Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "BMNR": {
+    "name": "BitMine Immersion Technologies Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "HCA": {
+    "name": "HCA Healthcare",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "RACE": {
+    "name": "Ferrari N.V.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "MRK": {
+    "name": "Merck & Co.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "RMD": {
+    "name": "ResMed|",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "KSPI": {
+    "name": "Joint Stock Company Kaspi.kz American Depository Shares",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "MTD": {
+    "name": "Mettler Toledo",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "FTNT": {
+    "name": "Fortinet",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "AMD": {
+    "name": "Advanced Micro Devices",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "IFF": {
+    "name": "International Flavors & Fragrances",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "COIN": {
+    "name": "Coinbase",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "FFIV": {
+    "name": "F5, Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "EQH": {
+    "name": "Equitable Holdings Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "WST": {
+    "name": "West Pharmaceutical Services",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "EGO": {
+    "name": "Eldorado Gold Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ING": {
+    "name": "ING Group N.V.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "FUTU": {
+    "name": "Futu Holdings Limited",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "BIIB": {
+    "name": "Biogen",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CIB": {
+    "name": "Grupo Cibest S.A.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "FRO": {
+    "name": "Frontline Plc",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CRBG": {
+    "name": "Corebridge Financial Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SONY": {
+    "name": "Sony Group Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "PLTR": {
+    "name": "Palantir Technologies",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯↑",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DASH": {
+    "name": "DoorDash",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "PBR": {
+    "name": "Petroleo Brasileiro S.A. Petrobras",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ABNB": {
+    "name": "Airbnb",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "W": {
+    "name": "Wayfair Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "HL": {
+    "name": "Hecla Mining Company",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "THC": {
+    "name": "Tenet Healthcare Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "FROG": {
+    "name": "JFrog Ltd.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "BBVA": {
+    "name": "Banco Bilbao Vizcaya Argentaria S.A.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "EL": {
+    "name": "Estée Lauder Companies (The)",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "AMGN": {
+    "name": "Amgen",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "BSBR": {
+    "name": "Banco Santander Brasil SA",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ONC": {
+    "name": "BeOne Medicines Ltd.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "BR": {
+    "name": "Broadridge Financial Solutions",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "LDOS": {
+    "name": "Leidos",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TRI": {
+    "name": "Thomson Reuters Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "NDSN": {
+    "name": "Nordson Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "GME": {
+    "name": "GameStop Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "BNTX": {
+    "name": "BioNTech SE",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "VRTX": {
+    "name": "Vertex Pharmaceuticals",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "INSM": {
+    "name": "Insmed Incorporated",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "RGLD": {
+    "name": "Royal Gold Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "GEHC": {
+    "name": "GE HealthCare",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TECK": {
+    "name": "Teck Resources Ltd",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "DE": {
+    "name": "Deere & Company",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "VOD": {
+    "name": "Vodafone Group Plc",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "APH": {
+    "name": "Amphenol",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "HMY": {
+    "name": "Harmony Gold Mining Company Limited",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "MSI": {
+    "name": "Motorola Solutions",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "FIVE": {
+    "name": "Five Below Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TYL": {
+    "name": "Tyler Technologies",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TAK": {
+    "name": "Takeda Pharmaceutical Company Limited",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "EHC": {
+    "name": "Encompass Health Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SHEL": {
+    "name": "Shell PLC",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SCCO": {
+    "name": "Southern Copper Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TRMB": {
+    "name": "Trimble Inc.",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ETN": {
+    "name": "Eaton Corporation",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "NVDA": {
+    "name": "Nvidia",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  }
+}
