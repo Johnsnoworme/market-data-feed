@@ -166,7 +166,7 @@ def main():
             "retrace_pct": round(min([x["retr"] for x in (W, M) if x and 30 <= x["retr"] <= 70] or [x["retr"] for x in (W, M) if x]), 1),
         })
 
-    kind_rank = lambda k: 0 if k.startswith("🚗") else (1 if "⭐" in k else 2)
+    kind_rank = lambda k: 0 if k.startswith("🎯") and "↑" not in k else (1 if k.startswith("🎯") or k.startswith("🚗") else (2 if "⭐" in k or "👀" in k else 3))
     rows.sort(key=lambda r: (kind_rank(r["kind"]), -r["order"], r["ticker"]))
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     alerts = [r for r in rows if r["alert"]]
@@ -185,7 +185,7 @@ def main():
         md += "오늘은 없음\n"
     md += "\n### 🔔 2파 풀백 구간 (추적 종목 = 지수보다 강했던 종목)\n"
     md += f"> 👀 조기 경보 {len(early)}개 (새로 {sum(r['new'] for r in early)}개) · 추적 {len(rows)}개 · 풀백 구간 {len(alerts)}개 · 오늘 새로 진입 {len(news)}개 · 생성 {now}\n"
-    md += "> 주봉·월봉 두 기준으로 따로 계산. 1파 = 스윙 저점→고점, 되돌림 % = 2파로 1파의 몇 %를 내려왔나. 둘 중 하나라도 30~70%면 알림. 🚗 막 출발 / ⭐월·⭐주 인텔형 / 👀 조기 경보 / 🏁 학습용\n\n"
+    md += "> 주봉·월봉 두 기준으로 따로 계산. 1파 = 스윙 저점→고점, 되돌림 % = 2파로 1파의 몇 %를 내려왔나. 둘 중 하나라도 30~70%면 알림. 🎯 오르려는 후보 / 🎯↑ 이미 많이 오른 후보 / 👀 월봉 조기 경보\n\n"
     live = [r for r in alerts if r["order"] < 8]
     broken = [r for r in alerts if r["order"] == 8]
     live.sort(key=lambda r: (not r["new"], kind_rank(r["kind"]), -r["order"], r["ticker"]))

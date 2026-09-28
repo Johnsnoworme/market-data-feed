@@ -12,7 +12,7 @@ import pandas as pd
 def legs(q, lookback=52):
     """q: QQQ 주봉 종가 (마지막 = 이번 주). 최근 조정 구간 {peak_d, peak, trough_d, trough}"""
     s = q.dropna().iloc[-lookback:]
-    for thr in (0.05, 0.03):
+    for thr in (0.05, 0.03, 0.02, 0.01):
         best = None
         rp, rpd = s.iloc[0], s.index[0]
         for d, v in s.items():
@@ -33,9 +33,9 @@ def kim(c, q, L):
     except KeyError:
         return None
     qn = q.dropna().iloc[-1]
-    sd, qd = (ct / cp - 1) * 100, (L["trough"] / L["peak"] - 1) * 100
+    sd, qd = float((ct / cp - 1) * 100), float((L["trough"] / L["peak"] - 1) * 100)
     has_up = L["trough_d"] < c.index[-1]
-    su, qu = ((cn / ct - 1) * 100, (qn / L["trough"] - 1) * 100) if has_up else (0.0, 0.0)
+    su, qu = (float((cn / ct - 1) * 100), float((qn / L["trough"] - 1) * 100)) if has_up else (0.0, 0.0)
     down_ok = sd > qd
     up_ok = (su > qu) if has_up else True
     # 🥇 먼저 고점 돌파
