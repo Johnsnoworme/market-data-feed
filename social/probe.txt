@@ -1,0 +1,6 @@
+✅ Wikipedia pageviews (Bloom Energy): 10090
+✅ ApeWisdom (Reddit/4chan 언급 순위): [('MU', 101, 31), ('SPY', 63, 46), ('META', 33, 15), ('AMD', 28, 13), ('NVDA', 26, 12)]
+✅ StockTwits trending: ['MU', 'QQQ', 'USO', 'SLV', 'QNT']
+❌ Reddit JSON: Expecting value: line 1 column 1 (char 0)
+✅ Google Trends (pytrends): 66
+✅ SEC EDGAR full-text: 200
