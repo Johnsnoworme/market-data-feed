@@ -6,7 +6,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "VEEV": {
     "name": "Veeva Systems",
@@ -15,7 +15,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "ILMN": {
     "name": "Illumina, Inc.",
@@ -24,7 +24,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "HALO": {
     "name": "Halozyme Therapeutics Inc.",
@@ -33,7 +33,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "OKTA": {
     "name": "Okta Inc.",
@@ -42,7 +42,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "AVTR": {
     "name": "Avantor Inc.",
@@ -51,7 +51,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "NET": {
     "name": "Cloudflare Inc.",
@@ -60,7 +60,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "DOCU": {
     "name": "DocuSign Inc.",
@@ -69,7 +69,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "WDAY": {
     "name": "Workday, Inc.",
@@ -78,7 +78,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 30~38.2%|🔔 30~38.2%"
   },
   "MANH": {
     "name": "Manhattan Associates Inc.",
@@ -87,7 +87,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "ZS": {
     "name": "Zscaler Inc.",
@@ -96,7 +96,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "IQV": {
     "name": "IQVIA",
@@ -105,7 +105,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "NTRA": {
     "name": "Natera Inc.",
@@ -114,7 +114,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "CHYM": {
     "name": "Chime Financial Inc.",
@@ -123,7 +123,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 38.2~50%|🔔 38.2~50%"
   },
   "CRL": {
     "name": "Charles River Laboratories",
@@ -132,7 +132,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "SAIL": {
     "name": "SailPoint Inc.",
@@ -141,7 +141,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "VLO": {
     "name": "Valero Energy",
@@ -150,7 +150,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "MPC": {
     "name": "Marathon Petroleum",
@@ -159,7 +159,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "RVTY": {
     "name": "Revvity",
@@ -168,7 +168,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "IT": {
     "name": "Gartner",
@@ -177,7 +177,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "ZBRA": {
     "name": "Zebra Technologies",
@@ -186,7 +186,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "SNOW": {
     "name": "Snowflake Inc.",
@@ -195,7 +195,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "A": {
     "name": "Agilent Technologies",
@@ -204,7 +204,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "PSX": {
     "name": "Phillips 66",
@@ -213,7 +213,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "CRM": {
     "name": "Salesforce",
@@ -222,7 +222,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "NTNX": {
     "name": "Nutanix Inc.",
@@ -231,7 +231,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "CRWD": {
     "name": "CrowdStrike",
@@ -240,7 +240,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "DELL": {
     "name": "Dell Technologies",
@@ -249,7 +249,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "XP": {
     "name": "XP Inc.",
@@ -258,7 +258,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "HPQ": {
     "name": "HP Inc.",
@@ -267,7 +267,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "CORT": {
     "name": "Corcept Therapeutics Incorporated",
@@ -276,7 +276,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "DINO": {
     "name": "HF Sinclair Corporation",
@@ -285,7 +285,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "TEAM": {
     "name": "Atlassian Corporation",
@@ -294,7 +294,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "EMBJ": {
     "name": "Embraer S.A.",
@@ -303,7 +303,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "BIO": {
     "name": "Bio-Rad Laboratories Inc.",
@@ -312,7 +312,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "SHOP": {
     "name": "Shopify Inc.",
@@ -321,7 +321,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "CACI": {
     "name": "CACI International Inc.",
@@ -330,7 +330,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "RBRK": {
     "name": "Rubrik Inc.",
@@ -339,7 +339,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "U": {
     "name": "Unity Software Inc.",
@@ -348,7 +348,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "CTSH": {
     "name": "Cognizant",
@@ -357,7 +357,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|—"
   },
   "GH": {
     "name": "Guardant Health Inc.",
@@ -366,7 +366,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "NOW": {
     "name": "ServiceNow",
@@ -375,7 +375,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "REGN": {
     "name": "Regeneron Pharmaceuticals",
@@ -384,7 +384,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "GRMN": {
     "name": "Garmin",
@@ -393,7 +393,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "NTAP": {
     "name": "NetApp",
@@ -402,7 +402,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "ACN": {
     "name": "Accenture",
@@ -411,7 +411,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|—"
   },
   "SN": {
     "name": "SharkNinja Inc.",
@@ -420,7 +420,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "SAP": {
     "name": "SAP  SE",
@@ -429,7 +429,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "TWST": {
     "name": "Twist Bioscience Corporation",
@@ -438,16 +438,16 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "META": {
     "name": "Meta Platforms",
     "first_seen": "2026-09-25",
     "last_seen": "2026-09-25",
     "expires": "2026-11-20",
-    "kind": "🎯↑",
+    "kind": "🎯↑👀",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "TWLO": {
     "name": "Twilio Inc.",
@@ -456,7 +456,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "TMO": {
     "name": "Thermo Fisher Scientific",
@@ -465,7 +465,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "ANET": {
     "name": "Arista Networks",
@@ -474,7 +474,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "APA": {
     "name": "APA Corporation",
@@ -483,7 +483,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "BDX": {
     "name": "Becton Dickinson",
@@ -492,7 +492,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "GILD": {
     "name": "Gilead Sciences",
@@ -501,7 +501,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "CNH": {
     "name": "CNH Industrial N.V.",
@@ -510,7 +510,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "DHR": {
     "name": "Danaher Corporation",
@@ -519,7 +519,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "TX": {
     "name": "Ternium S.A. Ternium S.A.",
@@ -528,7 +528,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "HPE": {
     "name": "Hewlett Packard Enterprise",
@@ -537,7 +537,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "MSFT": {
     "name": "Microsoft",
@@ -546,7 +546,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "DT": {
     "name": "Dynatrace Inc.",
@@ -555,7 +555,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "HMC": {
     "name": "Honda Motor Company Ltd.",
@@ -564,7 +564,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "DDS": {
     "name": "Dillard's Inc.",
@@ -573,7 +573,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "PTC": {
     "name": "PTC Inc.",
@@ -582,7 +582,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 38.2~50%|⚠️ 70% 이탈 → 추적 종료"
   },
   "P": {
     "name": "Everpure",
@@ -591,7 +591,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "TGT": {
     "name": "Target Corporation",
@@ -600,7 +600,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "PANW": {
     "name": "Palo Alto Networks",
@@ -609,7 +609,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "WAT": {
     "name": "Waters Corporation",
@@ -618,7 +618,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "PFE": {
     "name": "Pfizer",
@@ -627,7 +627,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "DXCM": {
     "name": "Dexcom",
@@ -636,7 +636,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "UHS": {
     "name": "Universal Health Services",
@@ -645,7 +645,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🔔 50~61.8%"
   },
   "FOX": {
     "name": "Fox Corporation (Class B)",
@@ -654,7 +654,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 30~38.2%|🟢 고점 근처 (0~30%)"
   },
   "WBD": {
     "name": "Warner Bros. Discovery",
@@ -663,7 +663,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "SOLV": {
     "name": "Solventum",
@@ -672,7 +672,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "ULTA": {
     "name": "Ulta Beauty",
@@ -681,7 +681,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🔔 30~38.2%"
   },
   "IOT": {
     "name": "Samsara Inc.",
@@ -690,7 +690,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 30~38.2%|🔔 30~38.2%"
   },
   "SMCI": {
     "name": "Supermicro",
@@ -699,7 +699,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "FOXA": {
     "name": "Fox Corporation (Class A)",
@@ -708,7 +708,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 30~38.2%|🟢 고점 근처 (0~30%)"
   },
   "SMMT": {
     "name": "Summit Therapeutics Inc.",
@@ -717,7 +717,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 38.2~50%|⚠️ 70% 이탈 → 추적 종료"
   },
   "TEVA": {
     "name": "Teva Pharmaceutical Industries Limited",
@@ -726,7 +726,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "FNV": {
     "name": "Franco-Nevada Corporation",
@@ -735,7 +735,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "BMNR": {
     "name": "BitMine Immersion Technologies Inc.",
@@ -744,7 +744,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "HCA": {
     "name": "HCA Healthcare",
@@ -753,7 +753,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🔔 38.2~50%"
   },
   "RACE": {
     "name": "Ferrari N.V.",
@@ -762,7 +762,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "MRK": {
     "name": "Merck & Co.",
@@ -771,7 +771,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "RMD": {
     "name": "ResMed|",
@@ -780,7 +780,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 30~38.2%|🔔 50~61.8%"
   },
   "KSPI": {
     "name": "Joint Stock Company Kaspi.kz American Depository Shares",
@@ -789,7 +789,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "MTD": {
     "name": "Mettler Toledo",
@@ -798,7 +798,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "FTNT": {
     "name": "Fortinet",
@@ -807,7 +807,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "AMD": {
     "name": "Advanced Micro Devices",
@@ -816,7 +816,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "IFF": {
     "name": "International Flavors & Fragrances",
@@ -825,7 +825,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "COIN": {
     "name": "Coinbase",
@@ -834,7 +834,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🔔 30~38.2%"
   },
   "FFIV": {
     "name": "F5, Inc.",
@@ -843,7 +843,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "EQH": {
     "name": "Equitable Holdings Inc.",
@@ -852,7 +852,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "WST": {
     "name": "West Pharmaceutical Services",
@@ -861,7 +861,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "EGO": {
     "name": "Eldorado Gold Corporation",
@@ -870,7 +870,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 30~38.2%|🟢 고점 근처 (0~30%)"
   },
   "ING": {
     "name": "ING Group N.V.",
@@ -879,7 +879,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "FUTU": {
     "name": "Futu Holdings Limited",
@@ -888,7 +888,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 30~38.2%|🔔 50~61.8%"
   },
   "BIIB": {
     "name": "Biogen",
@@ -897,7 +897,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "CIB": {
     "name": "Grupo Cibest S.A.",
@@ -906,7 +906,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "FRO": {
     "name": "Frontline Plc",
@@ -915,7 +915,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "CRBG": {
     "name": "Corebridge Financial Inc.",
@@ -924,7 +924,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "SONY": {
     "name": "Sony Group Corporation",
@@ -933,7 +933,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "PLTR": {
     "name": "Palantir Technologies",
@@ -942,7 +942,7 @@
     "expires": "2026-11-20",
     "kind": "🎯↑",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "DASH": {
     "name": "DoorDash",
@@ -951,7 +951,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 38.2~50%|🔔 38.2~50%"
   },
   "PBR": {
     "name": "Petroleo Brasileiro S.A. Petrobras",
@@ -960,7 +960,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "ABNB": {
     "name": "Airbnb",
@@ -969,7 +969,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 38.2~50%|🔔 38.2~50%"
   },
   "W": {
     "name": "Wayfair Inc.",
@@ -978,7 +978,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 30~38.2%|🟢 고점 근처 (0~30%)"
   },
   "HL": {
     "name": "Hecla Mining Company",
@@ -987,7 +987,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 38.2~50%|🔔 30~38.2%"
   },
   "THC": {
     "name": "Tenet Healthcare Corporation",
@@ -996,7 +996,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "FROG": {
     "name": "JFrog Ltd.",
@@ -1005,7 +1005,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "BBVA": {
     "name": "Banco Bilbao Vizcaya Argentaria S.A.",
@@ -1014,7 +1014,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "EL": {
     "name": "Estée Lauder Companies (The)",
@@ -1023,7 +1023,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 30~38.2%|🟢 고점 근처 (0~30%)"
   },
   "AMGN": {
     "name": "Amgen",
@@ -1032,7 +1032,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "BSBR": {
     "name": "Banco Santander Brasil SA",
@@ -1041,7 +1041,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "ONC": {
     "name": "BeOne Medicines Ltd.",
@@ -1050,7 +1050,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "BR": {
     "name": "Broadridge Financial Solutions",
@@ -1059,7 +1059,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 38.2~50%|⚠️ 70% 이탈 → 추적 종료"
   },
   "LDOS": {
     "name": "Leidos",
@@ -1068,7 +1068,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 38.2~50%|⚠️ 70% 이탈 → 추적 종료"
   },
   "TRI": {
     "name": "Thomson Reuters Corporation",
@@ -1077,7 +1077,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 30~38.2%|🔔 30~38.2%"
   },
   "NDSN": {
     "name": "Nordson Corporation",
@@ -1086,16 +1086,16 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "GME": {
     "name": "GameStop Corporation",
     "first_seen": "2026-09-25",
     "last_seen": "2026-09-25",
     "expires": "2026-11-20",
-    "kind": "🎯",
+    "kind": "🎯👀",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🔔 50~61.8%"
   },
   "BNTX": {
     "name": "BioNTech SE",
@@ -1104,7 +1104,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 50~61.8%|🔔 50~61.8%"
   },
   "VRTX": {
     "name": "Vertex Pharmaceuticals",
@@ -1113,7 +1113,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "INSM": {
     "name": "Insmed Incorporated",
@@ -1122,7 +1122,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 38.2~50%|🔔 38.2~50%"
   },
   "RGLD": {
     "name": "Royal Gold Inc.",
@@ -1131,7 +1131,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "GEHC": {
     "name": "GE HealthCare",
@@ -1140,7 +1140,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 50~61.8%|🔔 61.8~70% (마지막 방어선)"
   },
   "TECK": {
     "name": "Teck Resources Ltd",
@@ -1149,7 +1149,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "DE": {
     "name": "Deere & Company",
@@ -1158,7 +1158,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "VOD": {
     "name": "Vodafone Group Plc",
@@ -1167,7 +1167,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "APH": {
     "name": "Amphenol",
@@ -1176,7 +1176,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "HMY": {
     "name": "Harmony Gold Mining Company Limited",
@@ -1185,7 +1185,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 38.2~50%|🟢 고점 근처 (0~30%)"
   },
   "MSI": {
     "name": "Motorola Solutions",
@@ -1194,7 +1194,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 30~38.2%|🟢 고점 근처 (0~30%)"
   },
   "FIVE": {
     "name": "Five Below Inc.",
@@ -1203,7 +1203,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 38.2~50%|🟢 고점 근처 (0~30%)"
   },
   "TYL": {
     "name": "Tyler Technologies",
@@ -1212,7 +1212,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🔔 50~61.8%|🔔 50~61.8%"
   },
   "TAK": {
     "name": "Takeda Pharmaceutical Company Limited",
@@ -1221,7 +1221,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "EHC": {
     "name": "Encompass Health Corporation",
@@ -1230,7 +1230,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "SHEL": {
     "name": "Shell PLC",
@@ -1239,7 +1239,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "SCCO": {
     "name": "Southern Copper Corporation",
@@ -1248,7 +1248,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "TRMB": {
     "name": "Trimble Inc.",
@@ -1257,7 +1257,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|⚠️ 70% 이탈 → 추적 종료"
   },
   "ETN": {
     "name": "Eaton Corporation",
@@ -1266,7 +1266,7 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "NVDA": {
     "name": "Nvidia",
@@ -1275,6 +1275,15 @@
     "expires": "2026-11-20",
     "kind": "🎯",
     "status": "active",
-    "last_zone": ""
+    "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
+  },
+  "MSTR": {
+    "name": "Strategy Inc",
+    "first_seen": "2026-09-25",
+    "last_seen": "2026-09-25",
+    "expires": "2026-11-20",
+    "kind": "👀",
+    "status": "active",
+    "last_zone": "🟢 고점 근처 (0~30%)|🔔 38.2~50%"
   }
 }
