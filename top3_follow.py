@@ -157,7 +157,7 @@ def main():
         return (f"| {fv(r['ticker'])} | {kinds_txt(r)} | {r['date'][5:]} ({r['weeks']}주 전) | {r['zone']} | {r['retr']:.0f}% | "
                 f"{r['close']} | {r['lv'][30]} ~ {r['lv'][70]} ({r['lv'][50]}) | {since} |\n")
     all_live = [r for r in rows if r["alert"]]
-    md = f"# 🔔 풀백 추적 (8주) — {ny} 뉴욕 종가\n\n"
+    md = f"# 🔔 풀백 추적 — {ny} 뉴욕 종가 (8주)\n\n"
     md += (f"> 🏆 내 Top 3 · 🧭 김종봉 후보 · 📡 소셜 아비트리지 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 {len(all_live)}개** "
            f"· 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉\n")
     for src, (title, _) in SRC.items():
