@@ -1,0 +1,27 @@
+{
+  "AVTR": {
+    "date": "2026-09-25",
+    "name": "Avantor Inc.",
+    "sector": "Industrials"
+  },
+  "DOCU": {
+    "date": "2026-09-25",
+    "name": "DocuSign Inc.",
+    "sector": "Technology"
+  },
+  "WDAY": {
+    "date": "2026-09-25",
+    "name": "Workday, Inc.",
+    "sector": "Technology"
+  },
+  "MANH": {
+    "date": "2026-09-25",
+    "name": "Manhattan Associates Inc.",
+    "sector": "Technology"
+  },
+  "ZS": {
+    "date": "2026-09-25",
+    "name": "Zscaler Inc.",
+    "sector": "Technology"
+  }
+}
