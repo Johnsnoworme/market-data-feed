@@ -1,0 +1,22 @@
+name: SA Probe (manual)
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install requests pytrends pandas
+      - run: |
+          mkdir -p social
+          python sa_probe.py | tee social/probe.txt
+      - run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add social
+          git diff --staged --quiet || (git commit -m "SA probe" && git pull --rebase && git push)
