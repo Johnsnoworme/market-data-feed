@@ -28,7 +28,7 @@ import yfinance as yf
 OUT = "social"
 MIN_CAP = 2_000_000_000
 MAX_PICKS = 2
-UA = {"User-Agent": "market-data-feed research (github.com/Johnsnoworme/market-data-feed)"}
+UA = {"User-Agent": "market-data-feed/1.0 (johnsnoworme research)"}
 PHRASES = ["supply constrained", "capacity constrained", "demand exceeds supply", "sold out",
            "extended lead times", "record backlog", "supply shortage", "on allocation"]
 
@@ -91,7 +91,10 @@ def stocktwits_trending():
     return {s["symbol"].replace(".", "-"): "StockTwits 인기 종목" for s in (r.json().get("symbols", []) if r else [])}
 
 
-def edgar_bottleneck(cik2t):
+EDGAR_STAT = {}
+
+
+def edgar_bottleneck():
     """최근 90일 vs 이전 90일, 병목 표현이 나온 공시 수"""
     today = datetime.now(timezone.utc).date()
     windows = {"now": (today - timedelta(days=90), today), "prev": (today - timedelta(days=180), today - timedelta(days=91))}
@@ -105,13 +108,16 @@ def edgar_bottleneck(cik2t):
                     break
                 hits = r.json().get("hits", {}).get("hits", [])
                 for h in hits:
-                    for cik in h.get("_source", {}).get("ciks", []):
-                        t = cik2t.get(str(int(cik)))
-                        if t:
+                    for dn in h.get("_source", {}).get("display_names", []):
+                        m = re.search(r"\(([A-Z0-9.\-, ]+)\)\s+\(CIK", dn)
+                        if m:
+                            t = m.group(1).split(",")[0].strip().replace(".", "-")
                             cnt[w].setdefault(t, set()).add(h.get("_id", "").split(":")[0])
                 if len(hits) < 100:
                     break
                 time.sleep(0.3)
+    print("EDGAR 종목 수 now/prev:", len(cnt["now"]), len(cnt["prev"]))
+    EDGAR_STAT.update(now=len(cnt["now"]), prev=len(cnt["prev"]))
     out = {}
     for t, docs in cnt["now"].items():
         n, p = len(docs), len(cnt["prev"].get(t, ()))
@@ -201,20 +207,20 @@ def main():
         except Exception as e:
             print(name, "실패", e)
     try:
-        for t, why in edgar_bottleneck(cik_map()).items():
+        for t, why in edgar_bottleneck().items():
             if t in uni:
                 src.setdefault(t, {})["edgar"] = why
     except Exception as e:
         print("edgar 실패", e)
     print(f"관심 출처 1개 이상: {len(src)}개")
-    price_ok = []
+    price_ok, why_fail = [], {}
     if not src:
         pool = []
     else:
         d = yf.download(sorted(src) + ["QQQ"], period="3mo", interval="1d", auto_adjust=True, progress=False, group_by="column")
         C, V = d["Close"], d["Volume"]
         q5 = C["QQQ"].dropna().iloc[-1] / C["QQQ"].dropna().iloc[-6] - 1
-        pool, price_ok = [], []
+        pool, price_ok, why_fail = [], [], {}
         for t in src:
             if t not in C.columns:
                 continue
@@ -226,9 +232,11 @@ def main():
             r1, r5, r21 = px / c.iloc[-2] - 1, px / c.iloc[-6] - 1, px / c.iloc[-22] - 1
             vr = float(v.iloc[-3:].mean() / max(v.iloc[-23:-3].mean(), 1))
             jump = float(c.pct_change().iloc[-5:].max())
-            ok = (px >= 5 and dv >= 20e6 and r5 > 0 and r5 > q5 and vr >= 1.5 and px > c.iloc[-20:].mean()
-                  and r21 < 0.5 and jump < 0.4)
-            if not ok:
+            checks = {"$5↑": px >= 5, "거래대금": dv >= 20e6, "5일↑": r5 > 0, "5일>나스닥": r5 > q5, "거래량1.5배": vr >= 1.5,
+                      "20일선 위": px > c.iloc[-20:].mean(), "1개월<50%": r21 < 0.5, "급등 없음": jump < 0.4}
+            bad = [k for k, v in checks.items() if not v]
+            if bad:
+                why_fail[t] = f"{'/'.join(bad)} (5일 {r5 * 100:+.1f}%, 거래량 {vr:.1f}배)"
                 continue
             price_ok.append(t)
             w = wiki_spike(t, uni[t]["name"], cache)
@@ -280,8 +288,10 @@ def main():
     json.dump(cache, open(f"{OUT}/wiki_map.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(md)
     log = [f"{ds} 거름망 기록",
+           f"EDGAR 병목 표현 공시 회사 수 (최근 90일 / 이전 90일): {EDGAR_STAT}",
            "출처별: " + str({k: sum(1 for v in src.values() if k in v) for k in ("reddit", "stocktwits", "edgar", "wiki")}),
            f"관심 출처 1개↑ {len(src)}개: " + ", ".join(f"{t}({'+'.join(src[t])})" for t in sorted(src)),
+           "가격 탈락: " + ", ".join(f"{t}[{w}]" for t, w in sorted(why_fail.items())),
            f"가격 조건 통과 {len(price_ok)}개: " + ", ".join(f"{t}({'+'.join(src[t])})" for t in price_ok),
            f"출처 2개↑ 후보 풀 {len(pool)}개: " + ", ".join(f"{p['ticker']}({'+'.join(p['why'])})" for p in pool),
            "실적 탈락: " + ", ".join(f"{t}({why})" for t, why in fail)]
