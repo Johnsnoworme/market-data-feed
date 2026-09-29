@@ -1,0 +1,19 @@
+name: Druck Probe (manual)
+on:
+  push:
+    paths: ['druck_probe.py']
+permissions:
+  contents: write
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.x'}
+      - run: pip install requests && python druck_probe.py
+      - run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add druck/probe.txt
+          git diff --staged --quiet || (git commit -m "druck probe" && git pull --rebase && git push)
