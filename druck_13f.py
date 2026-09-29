@@ -100,11 +100,27 @@ def parse(xml_text, dollars):
     return list(agg.values())
 
 
+def normalize(d):
+    """단위 자동 보정: 규정상 2023년부터 달러 단위지만 천 달러로 계속 내는 곳이 있다 → 주당 가격 중앙값으로 판단"""
+    import statistics
+    sh = [h["value"] / h["shares"] for h in d["holdings"] if h.get("kind") == "SH" and h["shares"] and h["value"]]
+    if sh:
+        m = statistics.median(sh)
+        f = 1000 if m < 2 else (0.001 if m > 300 else 1)
+        if f != 1:
+            for h in d["holdings"]:
+                h["value"] *= f
+    return d
+
+
 def map_cusips(cusips, cache):
+    retry = [c for c in cusips if c and cache.get(c) == ""][:300]
+    for c in retry:
+        cache.pop(c, None)
     todo = [c for c in cusips if c and c not in cache]
     for i in range(0, len(todo), 10):
         chunk = todo[i:i + 10]
-        body = [{"idType": "ID_CUSIP", "idValue": c, "exchCode": "US"} for c in chunk]
+        body = [{"idType": "ID_CUSIP", "idValue": c} for c in chunk]
         try:
             r = requests.post("https://api.openfigi.com/v3/mapping", json=body, timeout=30,
                               headers={"Content-Type": "application/json"})
@@ -118,7 +134,8 @@ def map_cusips(cusips, cache):
             res = [{}] * len(chunk)
         for c, x in zip(chunk, res):
             d = (x or {}).get("data") or []
-            cache[c] = d[0].get("ticker", "") if d else ""
+            us = [x for x in d if x.get("exchCode") in ("US", "UN", "UW", "UQ", "UA", "UR", "UP", "UV")]
+            cache[c] = ((us or d)[0].get("ticker", "") if d else "").split(" ")[0].replace("/", "-")
         time.sleep(2.6)  # 키 없이 분당 25회 제한
     return cache
 
@@ -167,7 +184,7 @@ def main():
         print(f"{q}: {len(hold)}종목 저장")
         new_any = True
     qs = sorted(fn[:-5] for fn in os.listdir(f"{OUT}/quarters") if fn.endswith(".json"))
-    data = {q: json.load(open(f"{OUT}/quarters/{q}.json")) for q in qs}
+    data = {q: normalize(json.load(open(f"{OUT}/quarters/{q}.json"))) for q in qs}
     allc = {h["cusip"] for d in data.values() for h in d["holdings"]}
     cmap = map_cusips(sorted(allc), cmap)
     json.dump(cmap, open(cmap_p, "w"), indent=1, sort_keys=True)
