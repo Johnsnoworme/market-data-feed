@@ -1,0 +1,1058 @@
+{
+ "ny_date": "2026-09-28",
+ "fear": [
+  {
+   "ticker": "ZS",
+   "close": 199.39,
+   "dd": -40.7,
+   "vs10": 0.0,
+   "vs63": 43.1,
+   "lows_hold": true,
+   "acc": {
+    "score": 7,
+    "udr": 1.43,
+    "dry": 1.7,
+    "beat": 0.67,
+    "clv": 0.68,
+    "qd_days": 6
+   },
+   "fear_ok": 2,
+   "f": {
+    "pm": -0.01885,
+    "rev": 0.249,
+    "eq": null,
+    "fpe": 35.592644,
+    "cap": 32511477760,
+    "name": "Zscaler, Inc."
+   }
+  },
+  {
+   "ticker": "TME",
+   "close": 8.37,
+   "dd": -63.8,
+   "vs10": -0.8,
+   "vs63": -2.8,
+   "lows_hold": true,
+   "acc": {
+    "score": 5,
+    "udr": 1.01,
+    "dry": 0.94,
+    "beat": 0.83,
+    "clv": 0.39,
+    "qd_days": 6
+   },
+   "fear_ok": 3,
+   "f": {
+    "pm": 0.26282,
+    "rev": 0.058,
+    "eq": 0.026,
+    "fpe": 8.324911,
+    "cap": 13641134080,
+    "name": "Tencent Music Entertainment Gro"
+   }
+  },
+  {
+   "ticker": "SE",
+   "close": 98.91,
+   "dd": -48.7,
+   "vs10": -13.0,
+   "vs63": 4.6,
+   "lows_hold": true,
+   "acc": {
+    "score": 6,
+    "udr": 1.23,
+    "dry": 0.81,
+    "beat": 0.83,
+    "clv": 0.45,
+    "qd_days": 6
+   },
+   "fear_ok": 2,
+   "f": {
+    "pm": 0.05908,
+    "rev": 0.481,
+    "eq": 0.106,
+    "fpe": 19.08741,
+    "cap": 60580847616,
+    "name": "Sea Limited"
+   }
+  },
+  {
+   "ticker": "TTMI",
+   "close": 124.19,
+   "dd": -43.9,
+   "vs10": 5.7,
+   "vs63": -35.3,
+   "lows_hold": true,
+   "acc": {
+    "score": 5,
+    "udr": 1.16,
+    "dry": 0.72,
+    "beat": 0.0,
+    "clv": 0.57,
+    "qd_days": 6
+   },
+   "fear_ok": 3,
+   "f": {
+    "pm": 0.07011,
+    "rev": 0.374,
+    "eq": 1.0,
+    "fpe": 18.018137,
+    "cap": 13083275264,
+    "name": "TTM Technologies, Inc."
+   }
+  },
+  {
+   "ticker": "BABA",
+   "close": 108.76,
+   "dd": -42.0,
+   "vs10": -4.4,
+   "vs63": 12.0,
+   "lows_hold": true,
+   "acc": {
+    "score": 6,
+    "udr": 1.09,
+    "dry": 0.61,
+    "beat": 0.83,
+    "clv": 0.32,
+    "qd_days": 6
+   },
+   "fear_ok": 2,
+   "f": {
+    "pm": 0.07039,
+    "rev": 0.086,
+    "eq": -0.739,
+    "fpe": 11.839417,
+    "cap": 270417412096,
+    "name": "Alibaba Group Holding Limited"
+   }
+  },
+  {
+   "ticker": "MKSI",
+   "close": 258.38,
+   "dd": -41.9,
+   "vs10": 4.0,
+   "vs63": -39.7,
+   "lows_hold": true,
+   "acc": {
+    "score": 5,
+    "udr": 1.19,
+    "dry": 0.87,
+    "beat": 0.33,
+    "clv": 0.64,
+    "qd_days": 6
+   },
+   "fear_ok": 3,
+   "f": {
+    "pm": 0.10099,
+    "rev": 0.283,
+    "eq": 1.823,
+    "fpe": 14.639309,
+    "cap": 17471025152,
+    "name": "MKS Inc."
+   }
+  },
+  {
+   "ticker": "ACN",
+   "close": 174.47,
+   "dd": -38.3,
+   "vs10": -14.5,
+   "vs63": 39.7,
+   "lows_hold": true,
+   "acc": {
+    "score": 6,
+    "udr": 1.21,
+    "dry": 0.9,
+    "beat": 0.83,
+    "clv": 0.24,
+    "qd_days": 6
+   },
+   "fear_ok": 2,
+   "f": {
+    "pm": 0.10656,
+    "rev": 0.056,
+    "eq": 0.064,
+    "fpe": 11.897723,
+    "cap": 106765533184,
+    "name": "Accenture plc"
+   }
+  },
+  {
+   "ticker": "MSTR",
+   "close": 157.14,
+   "dd": -56.3,
+   "vs10": 10.8,
+   "vs63": 67.7,
+   "lows_hold": true,
+   "acc": {
+    "score": 4,
+    "udr": 1.37,
+    "dry": 0.92,
+    "beat": 0.33,
+    "clv": 0.46,
+    "qd_days": 6
+   },
+   "fear_ok": 3,
+   "f": {
+    "pm": 0.0,
+    "rev": 0.069,
+    "eq": null,
+    "fpe": 3.1751869,
+    "cap": 62659702784,
+    "name": "Strategy Inc"
+   }
+  },
+  {
+   "ticker": "FUTU",
+   "close": 112.27,
+   "dd": -42.7,
+   "vs10": -2.9,
+   "vs63": 13.7,
+   "lows_hold": true,
+   "acc": {
+    "score": 5,
+    "udr": 1.83,
+    "dry": 0.75,
+    "beat": 0.17,
+    "clv": 0.39,
+    "qd_days": 6
+   },
+   "fear_ok": 2,
+   "f": {
+    "pm": 0.46201,
+    "rev": 0.356,
+    "eq": 0.417,
+    "fpe": 9.092617,
+    "cap": 15739635712,
+    "name": "Futu Holdings Limited"
+   }
+  },
+  {
+   "ticker": "RMBS",
+   "close": 102.12,
+   "dd": -40.2,
+   "vs10": 23.1,
+   "vs63": -19.4,
+   "lows_hold": true,
+   "acc": {
+    "score": 5,
+    "udr": 1.38,
+    "dry": 1.1,
+    "beat": 0.17,
+    "clv": 0.66,
+    "qd_days": 6
+   },
+   "fear_ok": 2,
+   "f": {
+    "pm": 0.3169,
+    "rev": 0.204,
+    "eq": 0.167,
+    "fpe": 27.442392,
+    "cap": 11076099072,
+    "name": "Rambus, Inc."
+   }
+  },
+  {
+   "ticker": "NVMI",
+   "close": 370.42,
+   "dd": -38.8,
+   "vs10": 6.7,
+   "vs63": -30.6,
+   "lows_hold": true,
+   "acc": {
+    "score": 5,
+    "udr": 1.31,
+    "dry": 1.09,
+    "beat": 0.33,
+    "clv": 0.7,
+    "qd_days": 6
+   },
+   "fear_ok": 2,
+   "f": {
+    "pm": 0.2884,
+    "rev": 0.159,
+    "eq": 0.098,
+    "fpe": 27.116734,
+    "cap": 11781638144,
+    "name": "Nova Ltd."
+   }
+  },
+  {
+   "ticker": "BMNR",
+   "close": 26.84,
+   "dd": -57.5,
+   "vs10": 0.2,
+   "vs63": 92.7,
+   "lows_hold": true,
+   "acc": {
+    "score": 4,
+    "udr": 1.63,
+    "dry": 1.19,
+    "beat": 0.33,
+    "clv": 0.53,
+    "qd_days": 6
+   },
+   "fear_ok": 2,
+   "f": {
+    "pm": 0.0,
+    "rev": 21.678,
+    "eq": null,
+    "fpe": 28.553192,
+    "cap": 16190596096,
+    "name": "BitMine Immersion Technologies,"
+   }
+  }
+ ],
+ "watchlist": [
+  {
+   "ticker": "NVDA",
+   "close": 228.86,
+   "dd": -2.7,
+   "vs10": 4.5,
+   "vs63": 15.7,
+   "lows_hold": true,
+   "acc": {
+    "score": 4,
+    "udr": 1.22,
+    "dry": 0.81,
+    "beat": 0.33,
+    "clv": 0.58,
+    "qd_days": 6
+   },
+   "tier": 1
+  },
+  {
+   "ticker": "TSLA",
+   "close": 357.45,
+   "dd": -27.0,
+   "vs10": -4.4,
+   "vs63": -15.0,
+   "lows_hold": true,
+   "acc": {
+    "score": 0,
+    "udr": 0.89,
+    "dry": 1.09,
+    "beat": 0.17,
+    "clv": 0.35,
+    "qd_days": 6
+   },
+   "tier": 1
+  },
+  {
+   "ticker": "PLTR",
+   "close": 187.48,
+   "dd": -9.5,
+   "vs10": 4.2,
+   "vs63": 60.2,
+   "lows_hold": true,
+   "acc": {
+    "score": 6,
+    "udr": 1.26,
+    "dry": 0.77,
+    "beat": 0.5,
+    "clv": 0.68,
+    "qd_days": 6
+   },
+   "tier": 1
+  },
+  {
+   "ticker": "HOOD",
+   "close": 116.46,
+   "dd": -23.6,
+   "vs10": -2.1,
+   "vs63": 12.5,
+   "lows_hold": true,
+   "acc": {
+    "score": 1,
+    "udr": 0.83,
+    "dry": 0.91,
+    "beat": 0.33,
+    "clv": 0.46,
+    "qd_days": 6
+   },
+   "tier": 1
+  },
+  {
+   "ticker": "MSTR",
+   "close": 157.14,
+   "dd": -56.3,
+   "vs10": 10.8,
+   "vs63": 67.7,
+   "lows_hold": true,
+   "acc": {
+    "score": 4,
+    "udr": 1.37,
+    "dry": 0.92,
+    "beat": 0.33,
+    "clv": 0.46,
+    "qd_days": 6
+   },
+   "tier": 1
+  },
+  {
+   "ticker": "META",
+   "close": 715.62,
+   "dd": -8.0,
+   "vs10": 3.6,
+   "vs63": 25.5,
+   "lows_hold": true,
+   "acc": {
+    "score": 4,
+    "udr": 1.26,
+    "dry": 1.37,
+    "beat": 0.67,
+    "clv": 0.43,
+    "qd_days": 6
+   },
+   "tier": 1
+  },
+  {
+   "ticker": "AMD",
+   "close": 607.87,
+   "dd": -3.6,
+   "vs10": 19.2,
+   "vs63": 10.8,
+   "lows_hold": true,
+   "acc": {
+    "score": 5,
+    "udr": 1.32,
+    "dry": 1.01,
+    "beat": 0.17,
+    "clv": 0.64,
+    "qd_days": 6
+   },
+   "tier": 1
+  },
+  {
+   "ticker": "GOOGL",
+   "close": 342.75,
+   "dd": -14.8,
+   "vs10": -5.9,
+   "vs63": -4.8,
+   "lows_hold": true,
+   "acc": {
+    "score": 2,
+    "udr": 0.99,
+    "dry": 1.06,
+    "beat": 0.5,
+    "clv": 0.44,
+    "qd_days": 6
+   },
+   "tier": 1
+  },
+  {
+   "ticker": "AAPL",
+   "close": 338.4,
+   "dd": -0.8,
+   "vs10": -2.4,
+   "vs63": 18.4,
+   "lows_hold": true,
+   "acc": {
+    "score": 5,
+    "udr": 0.96,
+    "dry": 1.01,
+    "beat": 1.0,
+    "clv": 0.53,
+    "qd_days": 6
+   },
+   "tier": 2
+  },
+  {
+   "ticker": "MSFT",
+   "close": 509.22,
+   "dd": -5.3,
+   "vs10": -3.2,
+   "vs63": 36.6,
+   "lows_hold": true,
+   "acc": {
+    "score": 6,
+    "udr": 1.68,
+    "dry": 1.16,
+    "beat": 0.67,
+    "clv": 0.54,
+    "qd_days": 6
+   },
+   "tier": 2
+  },
+  {
+   "ticker": "AMZN",
+   "close": 246.15,
+   "dd": -13.3,
+   "vs10": -6.9,
+   "vs63": 0.7,
+   "lows_hold": true,
+   "acc": {
+    "score": 0,
+    "udr": 0.69,
+    "dry": 1.2,
+    "beat": 0.17,
+    "clv": 0.48,
+    "qd_days": 6
+   },
+   "tier": 2
+  },
+  {
+   "ticker": "TSM",
+   "close": 452.88,
+   "dd": -4.9,
+   "vs10": 4.7,
+   "vs63": -2.0,
+   "lows_hold": true,
+   "acc": {
+    "score": 5,
+    "udr": 1.32,
+    "dry": 1.05,
+    "beat": 0.33,
+    "clv": 0.7,
+    "qd_days": 6
+   },
+   "tier": 2
+  },
+  {
+   "ticker": "AVGO",
+   "close": 349.57,
+   "dd": -27.2,
+   "vs10": -2.4,
+   "vs63": -7.8,
+   "lows_hold": true,
+   "acc": {
+    "score": 2,
+    "udr": 0.92,
+    "dry": 0.89,
+    "beat": 0.5,
+    "clv": 0.49,
+    "qd_days": 6
+   },
+   "tier": 2
+  },
+  {
+   "ticker": "ORCL",
+   "close": 132.6,
+   "dd": -57.2,
+   "vs10": -12.4,
+   "vs63": -11.8,
+   "lows_hold": false,
+   "acc": {
+    "score": 0,
+    "udr": 0.89,
+    "dry": 1.08,
+    "beat": 0.0,
+    "clv": 0.39,
+    "qd_days": 6
+   },
+   "tier": 2
+  },
+  {
+   "ticker": "CRWD",
+   "close": 259.25,
+   "dd": -1.2,
+   "vs10": 6.2,
+   "vs63": 37.8,
+   "lows_hold": true,
+   "acc": {
+    "score": 6,
+    "udr": 0.97,
+    "dry": 1.1,
+    "beat": 0.83,
+    "clv": 0.64,
+    "qd_days": 6
+   },
+   "tier": 2
+  },
+  {
+   "ticker": "PANW",
+   "close": 392.09,
+   "dd": -1.0,
+   "vs10": 0.9,
+   "vs63": 16.3,
+   "lows_hold": true,
+   "acc": {
+    "score": 5,
+    "udr": 0.91,
+    "dry": 1.08,
+    "beat": 0.83,
+    "clv": 0.6,
+    "qd_days": 6
+   },
+   "tier": 2
+  },
+  {
+   "ticker": "SNDK",
+   "close": 1712.89,
+   "dd": -26.6,
+   "vs10": 6.4,
+   "vs63": -18.3,
+   "lows_hold": true,
+   "acc": {
+    "score": 3,
+    "udr": 1.03,
+    "dry": 0.83,
+    "beat": 0.0,
+    "clv": 0.5,
+    "qd_days": 6
+   },
+   "tier": 2
+  },
+  {
+   "ticker": "BE",
+   "close": 262.87,
+   "dd": -24.0,
+   "vs10": -1.7,
+   "vs63": -6.2,
+   "lows_hold": true,
+   "acc": {
+    "score": 1,
+    "udr": 0.84,
+    "dry": 2.29,
+    "beat": 0.5,
+    "clv": 0.44,
+    "qd_days": 6
+   },
+   "tier": 2
+  },
+  {
+   "ticker": "ARM",
+   "close": 283.33,
+   "dd": -35.5,
+   "vs10": 14.6,
+   "vs63": -19.4,
+   "lows_hold": true,
+   "acc": {
+    "score": 2,
+    "udr": 1.23,
+    "dry": 1.8,
+    "beat": 0.33,
+    "clv": 0.5,
+    "qd_days": 6
+   },
+   "tier": 2
+  },
+  {
+   "ticker": "TEM",
+   "close": 85.08,
+   "dd": -17.6,
+   "vs10": 32.8,
+   "vs63": 44.1,
+   "lows_hold": true,
+   "acc": {
+    "score": 7,
+    "udr": 1.28,
+    "dry": 1.07,
+    "beat": 0.83,
+    "clv": 0.62,
+    "qd_days": 6
+   },
+   "tier": 2
+  },
+  {
+   "ticker": "MRNA",
+   "close": 197.28,
+   "dd": -0.8,
+   "vs10": 30.5,
+   "vs63": 181.2,
+   "lows_hold": true,
+   "acc": {
+    "score": 9,
+    "udr": 1.5,
+    "dry": 0.52,
+    "beat": 0.83,
+    "clv": 0.59,
+    "qd_days": 6
+   },
+   "tier": 2
+  }
+ ],
+ "tracked": [
+  {
+   "ticker": "MRNA",
+   "close": 197.28,
+   "dd": -0.8,
+   "vs10": 30.5,
+   "vs63": 181.2,
+   "lows_hold": true,
+   "acc": {
+    "score": 9,
+    "udr": 1.5,
+    "dry": 0.52,
+    "beat": 0.83,
+    "clv": 0.59,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "TEM",
+   "close": 85.08,
+   "dd": -17.6,
+   "vs10": 32.8,
+   "vs63": 44.1,
+   "lows_hold": true,
+   "acc": {
+    "score": 7,
+    "udr": 1.28,
+    "dry": 1.07,
+    "beat": 0.83,
+    "clv": 0.62,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "VICR",
+   "close": 285.1,
+   "dd": -24.9,
+   "vs10": 50.4,
+   "vs63": -24.1,
+   "lows_hold": true,
+   "acc": {
+    "score": 7,
+    "udr": 1.16,
+    "dry": 0.74,
+    "beat": 0.5,
+    "clv": 0.64,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "WDAY",
+   "close": 188.6,
+   "dd": -23.9,
+   "vs10": -6.9,
+   "vs63": 50.8,
+   "lows_hold": true,
+   "acc": {
+    "score": 7,
+    "udr": 1.11,
+    "dry": 0.51,
+    "beat": 0.83,
+    "clv": 0.36,
+    "qd_days": 6
+   },
+   "src": "🧭김종봉"
+  },
+  {
+   "ticker": "ZS",
+   "close": 199.39,
+   "dd": -40.7,
+   "vs10": 0.0,
+   "vs63": 43.1,
+   "lows_hold": true,
+   "acc": {
+    "score": 7,
+    "udr": 1.43,
+    "dry": 1.7,
+    "beat": 0.67,
+    "clv": 0.68,
+    "qd_days": 6
+   },
+   "src": "🧭김종봉"
+  },
+  {
+   "ticker": "P",
+   "close": 129.4,
+   "dd": 0.0,
+   "vs10": 34.0,
+   "vs63": 77.1,
+   "lows_hold": true,
+   "acc": {
+    "score": 6,
+    "udr": 2.95,
+    "dry": 0.98,
+    "beat": 0.5,
+    "clv": 0.61,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "VIAV",
+   "close": 40.87,
+   "dd": -26.1,
+   "vs10": 16.9,
+   "vs63": -15.6,
+   "lows_hold": true,
+   "acc": {
+    "score": 6,
+    "udr": 1.34,
+    "dry": 1.25,
+    "beat": 0.5,
+    "clv": 0.63,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "TXG",
+   "close": 88.5,
+   "dd": 0.0,
+   "vs10": 22.3,
+   "vs63": 136.4,
+   "lows_hold": true,
+   "acc": {
+    "score": 5,
+    "udr": 1.43,
+    "dry": 1.02,
+    "beat": 0.5,
+    "clv": 0.58,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "AVTR",
+   "close": 15.29,
+   "dd": -3.6,
+   "vs10": -3.1,
+   "vs63": 50.6,
+   "lows_hold": true,
+   "acc": {
+    "score": 5,
+    "udr": 1.46,
+    "dry": 1.77,
+    "beat": 0.67,
+    "clv": 0.42,
+    "qd_days": 6
+   },
+   "src": "🧭김종봉"
+  },
+  {
+   "ticker": "PANW",
+   "close": 392.09,
+   "dd": -1.0,
+   "vs10": 0.9,
+   "vs63": 16.3,
+   "lows_hold": true,
+   "acc": {
+    "score": 5,
+    "udr": 0.91,
+    "dry": 1.08,
+    "beat": 0.83,
+    "clv": 0.6,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "TEAM",
+   "close": 178.54,
+   "dd": -8.8,
+   "vs10": -11.3,
+   "vs63": 123.4,
+   "lows_hold": true,
+   "acc": {
+    "score": 4,
+    "udr": 1.99,
+    "dry": 1.19,
+    "beat": 0.5,
+    "clv": 0.48,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "TWST",
+   "close": 179.6,
+   "dd": -2.4,
+   "vs10": 29.3,
+   "vs63": 80.8,
+   "lows_hold": true,
+   "acc": {
+    "score": 4,
+    "udr": 1.17,
+    "dry": 1.48,
+    "beat": 0.5,
+    "clv": 0.56,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "ILMN",
+   "close": 271.9,
+   "dd": -0.7,
+   "vs10": 26.6,
+   "vs63": 48.3,
+   "lows_hold": true,
+   "acc": {
+    "score": 4,
+    "udr": 0.86,
+    "dry": 5.59,
+    "beat": 0.67,
+    "clv": 0.6,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "DOCU",
+   "close": 66.98,
+   "dd": -18.5,
+   "vs10": -7.9,
+   "vs63": 46.9,
+   "lows_hold": true,
+   "acc": {
+    "score": 4,
+    "udr": 1.06,
+    "dry": 0.97,
+    "beat": 0.83,
+    "clv": 0.43,
+    "qd_days": 6
+   },
+   "src": "🧭김종봉"
+  },
+  {
+   "ticker": "MANH",
+   "close": 201.88,
+   "dd": -9.8,
+   "vs10": -8.5,
+   "vs63": 44.4,
+   "lows_hold": true,
+   "acc": {
+    "score": 4,
+    "udr": 1.09,
+    "dry": 0.86,
+    "beat": 0.5,
+    "clv": 0.55,
+    "qd_days": 6
+   },
+   "src": "🧭김종봉"
+  },
+  {
+   "ticker": "CRCL",
+   "close": 85.8,
+   "dd": -43.0,
+   "vs10": -15.9,
+   "vs63": 11.1,
+   "lows_hold": true,
+   "acc": {
+    "score": 3,
+    "udr": 1.49,
+    "dry": 1.31,
+    "beat": 0.17,
+    "clv": 0.38,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "CRDO",
+   "close": 192.67,
+   "dd": -36.3,
+   "vs10": 24.4,
+   "vs63": -23.4,
+   "lows_hold": true,
+   "acc": {
+    "score": 3,
+    "udr": 1.08,
+    "dry": 1.4,
+    "beat": 0.33,
+    "clv": 0.69,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "NTES",
+   "close": 121.04,
+   "dd": -19.5,
+   "vs10": -1.4,
+   "vs63": -7.7,
+   "lows_hold": true,
+   "acc": {
+    "score": 3,
+    "udr": 0.84,
+    "dry": 0.85,
+    "beat": 0.67,
+    "clv": 0.39,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "H",
+   "close": 161.19,
+   "dd": -20.2,
+   "vs10": -5.5,
+   "vs63": -19.8,
+   "lows_hold": true,
+   "acc": {
+    "score": 2,
+    "udr": 0.85,
+    "dry": 1.11,
+    "beat": 0.67,
+    "clv": 0.45,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "CMS",
+   "close": 62.6,
+   "dd": -20.4,
+   "vs10": -10.3,
+   "vs63": -20.8,
+   "lows_hold": false,
+   "acc": {
+    "score": 2,
+    "udr": 0.61,
+    "dry": 1.29,
+    "beat": 0.67,
+    "clv": 0.28,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "NBIS",
+   "close": 231.88,
+   "dd": -19.1,
+   "vs10": 5.3,
+   "vs63": -13.0,
+   "lows_hold": true,
+   "acc": {
+    "score": 2,
+    "udr": 1.07,
+    "dry": 0.81,
+    "beat": 0.0,
+    "clv": 0.35,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "AKAM",
+   "close": 108.99,
+   "dd": -32.4,
+   "vs10": -0.7,
+   "vs63": -6.1,
+   "lows_hold": true,
+   "acc": {
+    "score": 1,
+    "udr": 1.1,
+    "dry": 1.73,
+    "beat": 0.33,
+    "clv": 0.37,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  },
+  {
+   "ticker": "BE",
+   "close": 262.87,
+   "dd": -24.0,
+   "vs10": -1.7,
+   "vs63": -6.2,
+   "lows_hold": true,
+   "acc": {
+    "score": 1,
+    "udr": 0.84,
+    "dry": 2.29,
+    "beat": 0.5,
+    "clv": 0.44,
+    "qd_days": 6
+   },
+   "src": "🏆Top3"
+  }
+ ],
+ "generated_utc": "2026-09-29T03:10:07.514384+00:00"
+}
