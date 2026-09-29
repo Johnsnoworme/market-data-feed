@@ -8,6 +8,9 @@
    "theme": "⚡ 전력·에너지 병목",
    "industry": "Copper",
    "rev": 0.739,
+   "yoy_prev": null,
+   "qoq": 0.08,
+   "why": "🔥 YoY +74%",
    "vs63": 42.3,
    "dd": -7.4,
    "acc": 5,
@@ -20,25 +23,14 @@
    "theme": "⚡ 전력·에너지 병목",
    "industry": "Copper",
    "rev": 1.848,
+   "yoy_prev": null,
+   "qoq": 0.394,
+   "why": "🔥 YoY +185% · ⚡ QoQ +39%",
    "vs63": 36.5,
    "dd": -9.1,
    "acc": 5,
    "fund": "흑자 · 매출 +185% · 순이익(분기) +2%"
   },
-  {
-   "ticker": "AEHR",
-   "name": "Aehr Test Systems Common Stock",
-   "cap_b": 3.4,
-   "theme": "🧠 AI 칩·장비",
-   "industry": "Semiconductor Equipment & Materials",
-   "rev": 0.337,
-   "vs63": 2.1,
-   "dd": -32.4,
-   "acc": 4,
-   "fund": "적자 · 매출 +34%"
-  }
- ],
- "near": [
   {
    "ticker": "PI",
    "name": "Impinj Inc. Common Stock",
@@ -46,11 +38,16 @@
    "theme": "🧠 AI 칩·장비",
    "industry": "Semiconductors",
    "rev": 0.107,
+   "yoy_prev": null,
+   "qoq": 0.46,
+   "why": "⚡ QoQ +46%",
    "vs63": 30.9,
    "dd": -26.9,
    "acc": 4,
    "fund": "적자 · 매출 +11% · 순이익(분기) +6%"
-  },
+  }
+ ],
+ "near": [
   {
    "ticker": "VNT",
    "name": "Vontier Corporation Common Stock ",
@@ -58,6 +55,9 @@
    "theme": "🔌 AI 인프라 (메모리·광·부품)",
    "industry": "Scientific & Technical Instruments",
    "rev": -0.022,
+   "yoy_prev": null,
+   "qoq": 0.008,
+   "why": "",
    "vs63": 6.1,
    "dd": -28.1,
    "acc": 1,
@@ -70,6 +70,9 @@
    "theme": "🔌 AI 인프라 (메모리·광·부품)",
    "industry": "Communication Equipment",
    "rev": 0.29,
+   "yoy_prev": null,
+   "qoq": 0.061,
+   "why": "",
    "vs63": 5.0,
    "dd": -8.2,
    "acc": 6,
@@ -81,7 +84,10 @@
    "cap_b": 3.9,
    "theme": "🔌 AI 인프라 (메모리·광·부품)",
    "industry": "Scientific & Technical Instruments",
-   "rev": -0.072,
+   "rev": -0.033,
+   "yoy_prev": null,
+   "qoq": 0.027,
+   "why": "",
    "vs63": 3.9,
    "dd": -36.0,
    "acc": 2,
@@ -94,22 +100,13 @@
    "theme": "⚡ 전력·에너지 병목",
    "industry": "Utilities - Regulated Electric",
    "rev": 0.092,
+   "yoy_prev": null,
+   "qoq": 0.086,
+   "why": "",
    "vs63": 1.3,
    "dd": -1.3,
    "acc": 5,
    "fund": "흑자 · 매출 +9% · 순이익(분기) +230%"
-  },
-  {
-   "ticker": "PLPC",
-   "name": "Preformed Line Products Company Common S",
-   "cap_b": 2.1,
-   "theme": "⚡ 전력·에너지 병목",
-   "industry": "Electrical Equipment & Parts",
-   "rev": 0.254,
-   "vs63": 1.1,
-   "dd": -13.4,
-   "acc": 2,
-   "fund": "흑자 · 매출 +25% · 순이익(분기) +69%"
   },
   {
    "ticker": "AMBA",
@@ -118,11 +115,14 @@
    "theme": "🧠 AI 칩·장비",
    "industry": "Semiconductor Equipment & Materials",
    "rev": 0.132,
+   "yoy_prev": null,
+   "qoq": 0.077,
+   "why": "",
    "vs63": 0.7,
    "dd": -28.1,
    "acc": 4,
    "fund": "적자 · 매출 +13%"
   }
  ],
- "generated_utc": "2026-09-29T05:37:45.071397+00:00"
+ "generated_utc": "2026-09-29T05:47:33.141638+00:00"
 }
