@@ -1,25 +1,25 @@
 # 🦅 드러켄밀러 13F — 2026-Q2 (분기 말 2026-06-30, 공시 2026-08-14)
 
-> Duquesne Family Office · 95종목 · 총 $5M · 직전 2026-Q1 대비 · 13F는 45일 늦은 스냅샷(미국 주식·옵션만, 채권·통화·해외·숏은 안 보임) · 업데이트 2026-09-29
+> Duquesne Family Office · 95종목 · 총 $5.21B · 직전 2026-Q1 대비 · 13F는 45일 늦은 스냅샷(미국 주식·옵션만, 채권·통화·해외·숏은 안 보임) · 업데이트 2026-09-29
 
 ### 🏆 비중 상위 15
 | # | 종목 | 비중 | 금액 | 직전 대비 |
 | ---: | :--- | ---: | ---: | :--- |
-| 1 | [NTRA](https://finviz.com/quote.ashx?t=NTRA&p=w) | 16.6% | $1M | 그대로 |
-| 2 | [TSM](https://finviz.com/quote.ashx?t=TSM&p=w) | 5.4% | $0M | 그대로 |
-| 3 | [STM](https://finviz.com/quote.ashx?t=STM&p=w) | 4.5% | $0M | 그대로 |
-| 4 | [RSP CALL](https://finviz.com/quote.ashx?t=RSP&p=w) | 3.4% | $0M | 그대로 |
-| 5 | [INSM](https://finviz.com/quote.ashx?t=INSM&p=w) | 2.9% | $0M | ➕ 늘림 (+23%) |
-| 6 | [EWZ CALL](https://finviz.com/quote.ashx?t=EWZ&p=w) | 2.8% | $0M | 그대로 |
-| 7 | [INSM CALL](https://finviz.com/quote.ashx?t=INSM&p=w) | 2.8% | $0M | 🆕 신규 |
-| 8 | [YPF](https://finviz.com/quote.ashx?t=YPF&p=w) | 2.7% | $0M | 그대로 |
-| 9 | [AMZN](https://finviz.com/quote.ashx?t=AMZN&p=w) | 2.5% | $0M | ➕ 늘림 (+1083%) |
-| 10 | Bbb Foods Inc | 2.3% | $0M | 그대로 |
-| 11 | [GOOGL](https://finviz.com/quote.ashx?t=GOOGL&p=w) | 2.3% | $0M | 🆕 신규 |
-| 12 | [EWZ](https://finviz.com/quote.ashx?t=EWZ&p=w) | 2.3% | $0M | 그대로 |
-| 13 | Seagate Technology Hld | 2.3% | $0M | ➕ 늘림 (+141%) |
-| 14 | [FOXA](https://finviz.com/quote.ashx?t=FOXA&p=w) | 2.2% | $0M | 🆕 신규 |
-| 15 | [AMZN CALL](https://finviz.com/quote.ashx?t=AMZN&p=w) | 2.1% | $0M | ➕ 늘림 (+130%) |
+| 1 | [NTRA](https://finviz.com/quote.ashx?t=NTRA&p=w) | 16.6% | $865M | 그대로 |
+| 2 | [TSM](https://finviz.com/quote.ashx?t=TSM&p=w) | 5.4% | $282M | 그대로 |
+| 3 | [STM](https://finviz.com/quote.ashx?t=STM&p=w) | 4.5% | $232M | 그대로 |
+| 4 | [RSP CALL](https://finviz.com/quote.ashx?t=RSP&p=w) | 3.4% | $175M | 그대로 |
+| 5 | [INSM](https://finviz.com/quote.ashx?t=INSM&p=w) | 2.9% | $152M | ➕ 늘림 (+23%) |
+| 6 | [EWZ CALL](https://finviz.com/quote.ashx?t=EWZ&p=w) | 2.8% | $146M | 그대로 |
+| 7 | [INSM CALL](https://finviz.com/quote.ashx?t=INSM&p=w) | 2.8% | $144M | 🆕 신규 |
+| 8 | [YPF](https://finviz.com/quote.ashx?t=YPF&p=w) | 2.7% | $143M | 그대로 |
+| 9 | [AMZN](https://finviz.com/quote.ashx?t=AMZN&p=w) | 2.5% | $129M | ➕ 늘림 (+1083%) |
+| 10 | Bbb Foods Inc | 2.3% | $121M | 그대로 |
+| 11 | [GOOGL](https://finviz.com/quote.ashx?t=GOOGL&p=w) | 2.3% | $120M | 🆕 신규 |
+| 12 | [EWZ](https://finviz.com/quote.ashx?t=EWZ&p=w) | 2.3% | $119M | 그대로 |
+| 13 | Seagate Technology Hld | 2.3% | $118M | ➕ 늘림 (+141%) |
+| 14 | [FOXA](https://finviz.com/quote.ashx?t=FOXA&p=w) | 2.2% | $115M | 🆕 신규 |
+| 15 | [AMZN CALL](https://finviz.com/quote.ashx?t=AMZN&p=w) | 2.1% | $109M | ➕ 늘림 (+130%) |
 
 ### 🆕 새로 산 것 (비중 순)
 - [INSM CALL](https://finviz.com/quote.ashx?t=INSM&p=w) — 2.8% · Insmed Inc
@@ -82,7 +82,7 @@
 ### ➖ 크게 줄인 것 (주식 수 -20%↓)
 - [WWD](https://finviz.com/quote.ashx?t=WWD&p=w) -68% → 비중 0.5%
 - [ROKU](https://finviz.com/quote.ashx?t=ROKU&p=w) -75% → 비중 0.5%
-- Teva Pharmaceutical In -74% → 비중 0.4%
+- [TEVAN](https://finviz.com/quote.ashx?t=TEVAN&p=w) -74% → 비중 0.4%
 - [WAB](https://finviz.com/quote.ashx?t=WAB&p=w) -40% → 비중 0.3%
 - [ARM](https://finviz.com/quote.ashx?t=ARM&p=w) -74% → 비중 0.2%
 - [AA](https://finviz.com/quote.ashx?t=AA&p=w) -88% → 비중 0.2%
