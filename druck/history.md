@@ -262,6 +262,6 @@
 - 🆕 SLB 10.4%, AMZN 5.8%, ILMN 4.8%, HAL 3.6%, PXDEUR 3.2%
 - ❌ PG (직전 6.5%), US Airways Group Inc. (직전 5.8%), Charter Comm's Inc (직전 5.0%), VZ (직전 3.5%), LyondellBasell Ind's N (직전 2.1%)
 
-## 2013-Q2 · $1M · 17종목
+## 2013-Q2 · $674M · 17종목
 - 상위: Google Inc. 29%, CBS Corp 15%, DAL 11%, PG 6%, US Airways Group Inc. 6%, Charter Comm's Inc 5%, WDAY 5%, GILD 5%, VZ 4%, Cubist Pharms Inc. 3%
 
