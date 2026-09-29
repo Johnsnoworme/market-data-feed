@@ -106,7 +106,7 @@ def normalize(d):
     sh = [h["value"] / h["shares"] for h in d["holdings"] if h.get("kind") == "SH" and h["shares"] and h["value"]]
     if sh:
         m = statistics.median(sh)
-        f = 1000 if m < 2 else (0.001 if m > 300 else 1)
+        f = 1000 if m < 2 else 1
         if f != 1:
             for h in d["holdings"]:
                 h["value"] *= f
