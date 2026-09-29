@@ -12,7 +12,7 @@ import requests
 
 CIK = "1536411"
 OUT = "druck"
-UA = os.environ.get("SEC_UA") or "Trinity13FTracker/1.0 (+https://github.com/Johnsnoworme/market-data-feed)"
+UA = os.environ.get("SEC_UA") or "Johnsnoworme-market-data-feed github-actions@users.noreply.github.com"
 H = {"User-Agent": UA, "Accept-Encoding": "gzip, deflate"}
 S = requests.Session()
 S.headers.update(H)
@@ -223,8 +223,16 @@ def main():
     open(f"{OUT}/history.md", "w", encoding="utf-8").write(hm)
     json.dump({"latest": cur_q, "quarters": qs, "new_filing": new_any,
                "updated_utc": datetime.now(timezone.utc).isoformat()}, open(f"{OUT}/status.json", "w"), indent=1)
+    if os.path.exists(f"{OUT}/error.txt"):
+        os.remove(f"{OUT}/error.txt")
     print(md)
 
 
 if __name__ == "__main__":
-    main()
+    import traceback
+    try:
+        main()
+    except Exception:
+        os.makedirs(OUT, exist_ok=True)
+        open(f"{OUT}/error.txt", "w").write(datetime.now(timezone.utc).isoformat() + "\n" + traceback.format_exc())
+        print(traceback.format_exc())
