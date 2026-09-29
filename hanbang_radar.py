@@ -197,7 +197,38 @@ def fundamentals(t):
         return {}
     g = lambda k: i.get(k)
     return dict(pm=g("profitMargins"), rev=g("revenueGrowth"), eq=g("earningsQuarterlyGrowth"),
-                fpe=g("forwardPE"), cap=g("marketCap"), name=g("shortName") or "")
+                fpe=g("forwardPE"), cap=g("marketCap"), name=g("shortName") or "",
+                industry=g("industry") or "", sector=g("sector") or "")
+
+
+# 🧩 산업 → 18개월 지도 테마 (없으면 "테마 밖")
+THEME_RULES = [
+    ("⚡ 전력·에너지 병목", ("Electrical Equipment", "Independent Power", "Renewable", "Utilities - Regulated Electric", "Uranium", "Copper", "Oil & Gas Equipment")),
+    ("🧠 AI 칩·장비", ("Semiconductor",)),
+    ("🔌 AI 인프라 (메모리·광·부품)", ("Computer Hardware", "Electronic Components", "Communication Equipment", "Scientific & Technical Instruments")),
+    ("🖥️ 소프트웨어", ("Software",)),
+    ("🌐 AI 플랫폼·인터넷", ("Internet Content", "Internet Retail", "Telecom Services", "Entertainment")),
+    ("🪙 크립토·토큰화·금융 인프라", ("Capital Markets", "Financial Data", "Credit Services")),
+    ("🧬 AI 바이오·헬스", ("Biotechnology", "Diagnostics", "Drug Manufacturers", "Medical Devices", "Medical Instruments", "Health Information")),
+    ("🚀 우주·방산", ("Aerospace",)),
+    ("🤖 피지컬 AI·EV", ("Auto Manufacturers", "Specialty Industrial Machinery")),
+    ("🛡️ 보안", ("Security",)),
+]
+
+
+def theme_of(f):
+    ind = (f or {}).get("industry", "")
+    for name, keys in THEME_RULES:
+        if any(k in ind for k in keys):
+            return name
+    return "· 테마 밖" if ind else "❔"
+
+
+def size_of(f):
+    c = (f or {}).get("cap")
+    if not c:
+        return "❔"
+    return "🐘 대형" if c >= 50e9 else ("🐕 중형" if c >= 10e9 else "🐁 소형")
 
 
 def ftxt(f):
@@ -314,8 +345,15 @@ def main():
         pool.append(dict(ticker=t, sources=tags, price_score=ps, score=ps + bonus, dd=s["dd"], vs63=s["vs63"],
                          acc=(s["acc"] or {}).get("score"), zone=s["zone"], zone_order=s["zone_order"], retr=s["retr"], basis=s["basis"],
                          fear=bool(s.get("fear")), quality=ql, q_pass=(True if t in wl_set else qp), watch=t in wl_set,
-                         fund=ftxt(f)))
+                         fund=ftxt(f), theme=theme_of(f), size=size_of(f), industry=(f or {}).get("industry", ""),
+                cap_b=round((f or {}).get("cap") / 1e9, 1) if (f or {}).get("cap") else None))
     pool.sort(key=lambda r: -r["vs63"])
+    # 🧩 오늘의 흐름: 최근 Top 3·김종봉 신호를 테마·산업으로 묶기
+    flow = {}
+    for r in pool:
+        if any(x.startswith(("🏆", "🧭")) for x in r["sources"]):
+            flow.setdefault(r["theme"], []).append(f"{r['ticker']}({r['industry'] or '?'})")
+    flow = dict(sorted(flow.items(), key=lambda kv: -len(kv[1])))
     # 전체 가격 지표 (대시보드에서 📺 소수몽키 종목 찾을 때 씀)
     allstats = {}
     for t in universe - {"QQQ"}:
@@ -347,12 +385,13 @@ def main():
     md += (f"## 🌤️ 시장 날씨: {wx}\n> {wtxt}\n> QQQ 고점 대비 {qdd:+.1f}% · 최근 20일 {q20:+.1f}% · 대장주 8개 중 지수보다 강함 {len(lead_ok)}개"
            f"{' (' + ', '.join(lead_ok) + ')' if lead_ok else ''} · Fear & Greed {fg if fg is not None else '—'} {fgl} · 🟢공포 후보 {len(fear)}개\n\n")
     md += "> 가격·거래량만 본다 (이동평균 없음). 읽는 법 → 옵시디언 [[📖 한 방 대시보드 설명서]]. 매수 추천이 아니다.\n\n"
+    md += "## 🧩 오늘의 흐름 — 최근 Top 3·김종봉 신호가 몰린 테마\n" + ("".join(f"- **{k}** {len(v)}개: {', '.join(v)}\n" for k, v in flow.items()) or "- 없음\n") + "\n"
     ready = [r for r in pool if r["q_pass"] is not False and (2 <= r["zone_order"] <= 5 or r["fear"])]
     wait = [r for r in pool if r["q_pass"] is not False and r not in ready]
     junk = [r for r in pool if r["q_pass"] is False]
-    head = "| # | 티커 | 출처 (언제) | 풀백 위치 | 3개월 QQQ 대비 | 고점 대비 | 🧲 | 숫자 | 점수 |\n| ---: | :--- | :--- | :--- | ---: | ---: | ---: | :--- | ---: |\n"
+    head = "| # | 티커 | 테마·크기 | 출처 (언제) | 풀백 위치 | 3개월 QQQ 대비 | 고점 대비 | 🧲 | 숫자 | 점수 |\n| ---: | :--- | :--- | :--- | :--- | ---: | ---: | ---: | :--- | ---: |\n"
     def prow(i, r):
-        return (f"| {i} | {fvl(r['ticker'])} | {' · '.join(r['sources'])} | {r['zone']}{(' (' + format(r['retr'], '.0f') + '%)') if r['retr'] is not None else ''} | "
+        return (f"| {i} | {fvl(r['ticker'])} | {r['theme']} {r['size']} | {' · '.join(r['sources'])} | {r['zone']}{(' (' + format(r['retr'], '.0f') + '%)') if r['retr'] is not None else ''} | "
                 f"{r['vs63']:+.0f}%p | {r['dd']:+.0f}% | {r['acc'] if r['acc'] is not None else '—'} | {r['quality']} | {r['score']} |\n")
     md += "## 🎯 지금 자리에 있는 후보 (🔔 30~70% 눌림 또는 🟢공포 · 3개월 QQQ 대비 강한 순)\n"
     md += (head + "".join(prow(i, r) for i, r in enumerate(ready, 1))) if ready else "- 없음\n"
@@ -398,7 +437,7 @@ def main():
     open(f"{OUT}/latest.md", "w", encoding="utf-8").write(md)
     open(f"{OUT}/{ny}.md", "w", encoding="utf-8").write(md)
     clean = lambda L: [{k: v for k, v in s.items() if k != "dollar_vol"} for s in L]
-    json.dump(dict(ny_date=ny, weather=weather, pool=pool, fear=clean(fear), watchlist={"1": clean(wl[1]), "2": clean(wl[2])},
+    json.dump(dict(ny_date=ny, weather=weather, pool=pool, flow=flow, fear=clean(fear), watchlist={"1": clean(wl[1]), "2": clean(wl[2])},
                    tracked=clean(trk), druck=dict(quarter=dq, moves=dm), stats=allstats,
                    generated_utc=datetime.now(timezone.utc).isoformat()),
               open(f"{OUT}/latest.json", "w", encoding="utf-8"), ensure_ascii=False, indent=None, default=str)
