@@ -1,0 +1,467 @@
+{
+ "quarter": "2022-Q1",
+ "period": "2022-03-31",
+ "filed": "2022-05-16",
+ "acc": "0001536411-22-000005",
+ "holdings": [
+  {
+   "name": "Abcellera Biologics Inc",
+   "cls": "COM",
+   "cusip": "00288U106",
+   "value": 6433000.0,
+   "shares": 659750.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Acadia Pharmaceuticals Inc",
+   "cls": "COM",
+   "cusip": "004225108",
+   "value": 1802000.0,
+   "shares": 74400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alnylam Pharmaceuticals Inc",
+   "cls": "COM",
+   "cusip": "02043Q107",
+   "value": 10442000.0,
+   "shares": 63945.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Amazon Com Inc",
+   "cls": "COM",
+   "cusip": "023135106",
+   "value": 198847000.0,
+   "shares": 60997.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Anaplan Inc",
+   "cls": "COM",
+   "cusip": "03272L108",
+   "value": 13746000.0,
+   "shares": 211315.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Antero Resources Corp",
+   "cls": "COM",
+   "cusip": "03674X106",
+   "value": 15015000.0,
+   "shares": 491800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Booking Holdings Inc",
+   "cls": "COM",
+   "cusip": "09857L108",
+   "value": 34705000.0,
+   "shares": 14778.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "British Amern Tob Plc",
+   "cls": "SPONSORED ADR",
+   "cusip": "110448107",
+   "value": 5099000.0,
+   "shares": 120950.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Caribou Biosciences Inc",
+   "cls": "COM",
+   "cusip": "142038108",
+   "value": 2492000.0,
+   "shares": 271430.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cazoo Group Ltd",
+   "cls": "COM",
+   "cusip": "G2007L105",
+   "value": 387000.0,
+   "shares": 140100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ccc Intelligent Solutions Hl",
+   "cls": "COM",
+   "cusip": "12510Q100",
+   "value": 3112000.0,
+   "shares": 281879.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cenovus Energy Inc",
+   "cls": "COM",
+   "cusip": "15135U109",
+   "value": 23992000.0,
+   "shares": 1438375.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Chevron Corp New",
+   "cls": "COM",
+   "cusip": "166764100",
+   "value": 157111000.0,
+   "shares": 964880.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Compass Inc",
+   "cls": "CL A",
+   "cusip": "20464U100",
+   "value": 3137000.0,
+   "shares": 399100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Coterra Energy Inc",
+   "cls": "COM",
+   "cusip": "127097103",
+   "value": 47899000.0,
+   "shares": 1776000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Coupang Inc",
+   "cls": "CL A",
+   "cusip": "22266T109",
+   "value": 343599000.0,
+   "shares": 19434307.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Dish Network Corporation",
+   "cls": "CL A",
+   "cusip": "25470M109",
+   "value": 3557000.0,
+   "shares": 112400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Expedia Group Inc",
+   "cls": "COM NEW",
+   "cusip": "30212P303",
+   "value": 11068000.0,
+   "shares": 56565.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Flex Ltd",
+   "cls": "ORD",
+   "cusip": "Y2573F102",
+   "value": 4464000.0,
+   "shares": 240666.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Freeport-Mcmoran Inc",
+   "cls": "CL B",
+   "cusip": "35671D857",
+   "value": 240583000.0,
+   "shares": 4836809.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Global E Online Ltd",
+   "cls": "SHS",
+   "cusip": "M5216V106",
+   "value": 19445000.0,
+   "shares": 575630.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ihs Holding Limited",
+   "cls": "ORD SHS",
+   "cusip": "G4701H109",
+   "value": 8544000.0,
+   "shares": 771096.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ishares Inc",
+   "cls": "MSCI BRAZIL ETF",
+   "cusip": "464286400",
+   "value": 5466000.0,
+   "shares": 144565.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Kbr Inc",
+   "cls": "COM",
+   "cusip": "48242W106",
+   "value": 65780000.0,
+   "shares": 1201903.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Las Vegas Sands Corp",
+   "cls": "COM",
+   "cusip": "517834107",
+   "value": 8940000.0,
+   "shares": 230000.0,
+   "kind": "SH",
+   "putcall": "CALL"
+  },
+  {
+   "name": "Microsoft Corp",
+   "cls": "COM",
+   "cusip": "594918104",
+   "value": 314570000.0,
+   "shares": 1020305.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Mosaic Co New",
+   "cls": "COM",
+   "cusip": "61945C103",
+   "value": 9564000.0,
+   "shares": 143825.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Netflix Inc",
+   "cls": "COM",
+   "cusip": "64110L106",
+   "value": 9829000.0,
+   "shares": 26240.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "New York Times Co",
+   "cls": "CL A",
+   "cusip": "650111107",
+   "value": 18763000.0,
+   "shares": 409325.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Opendoor Technologies Inc",
+   "cls": "COM",
+   "cusip": "683712103",
+   "value": 2015000.0,
+   "shares": 233000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Option Care Health Inc",
+   "cls": "COM NEW",
+   "cusip": "68404L201",
+   "value": 24652000.0,
+   "shares": 863148.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Oscar Health Inc",
+   "cls": "CL A",
+   "cusip": "687793109",
+   "value": 9913000.0,
+   "shares": 994289.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Palantir Technologies Inc",
+   "cls": "CL A",
+   "cusip": "69608A108",
+   "value": 45866000.0,
+   "shares": 3340537.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Phillips 66",
+   "cls": "COM",
+   "cusip": "718546104",
+   "value": 9791000.0,
+   "shares": 113335.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Pioneer Nat Res Co",
+   "cls": "COM",
+   "cusip": "723787107",
+   "value": 32598000.0,
+   "shares": 130375.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Pnc Finl Svcs Group Inc",
+   "cls": "COM",
+   "cusip": "693475105",
+   "value": 31122000.0,
+   "shares": 168726.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Procept Biorobotics Corp",
+   "cls": "COM",
+   "cusip": "74276L105",
+   "value": 39470000.0,
+   "shares": 1128041.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Reata Pharmaceuticals Inc",
+   "cls": "CL A",
+   "cusip": "75615P103",
+   "value": 1933000.0,
+   "shares": 58997.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Recursion Pharmaceuticals In",
+   "cls": "CL A",
+   "cusip": "75629V104",
+   "value": 1959000.0,
+   "shares": 273650.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Sea Ltd",
+   "cls": "SPONSORD ADS",
+   "cusip": "81141R100",
+   "value": 5797000.0,
+   "shares": 48396.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Sensei Biotherapeutics Inc",
+   "cls": "COM",
+   "cusip": "81728A108",
+   "value": 231000.0,
+   "shares": 100000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Smartsheet Inc",
+   "cls": "COM CL A",
+   "cusip": "83200N103",
+   "value": 52683000.0,
+   "shares": 961722.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Snap Inc",
+   "cls": "CL A",
+   "cusip": "83304A106",
+   "value": 8473000.0,
+   "shares": 235440.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Solaredge Technologies Inc",
+   "cls": "COM",
+   "cusip": "83417M104",
+   "value": 9639000.0,
+   "shares": 29900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Spdr S&P 500 Etf Tr",
+   "cls": "TR UNIT",
+   "cusip": "78462F103",
+   "value": 108213000.0,
+   "shares": 239600.0,
+   "kind": "SH",
+   "putcall": "PUT"
+  },
+  {
+   "name": "Sunrun Inc",
+   "cls": "COM",
+   "cusip": "86771W105",
+   "value": 5420000.0,
+   "shares": 178450.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Teck Resources Ltd",
+   "cls": "CL B",
+   "cusip": "878742204",
+   "value": 97749000.0,
+   "shares": 2420125.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "T-Mobile Us Inc",
+   "cls": "COM",
+   "cusip": "872590104",
+   "value": 114386000.0,
+   "shares": 891207.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Willscot Mobil Mini Hldng Co",
+   "cls": "COM CL A",
+   "cusip": "971378104",
+   "value": 75414000.0,
+   "shares": 1927271.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Workday Inc",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 19755000.0,
+   "shares": 82500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Zendesk Inc",
+   "cls": "COM",
+   "cusip": "98936J101",
+   "value": 20168000.0,
+   "shares": 167660.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

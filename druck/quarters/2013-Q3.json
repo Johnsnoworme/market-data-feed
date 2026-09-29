@@ -1,0 +1,260 @@
+{
+ "quarter": "2013-Q3",
+ "period": "2013-09-30",
+ "filed": "2013-11-14",
+ "acc": "0001536411-13-000023",
+ "holdings": [
+  {
+   "name": "Amazon.com Inc.",
+   "cls": "COM",
+   "cusip": "023135106",
+   "value": 49303000.0,
+   "shares": 157700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Amgen Inc.",
+   "cls": "COM",
+   "cusip": "031162100",
+   "value": 25855000.0,
+   "shares": 231000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Biogen Idec Inc.",
+   "cls": "COM",
+   "cusip": "09062X103",
+   "value": 22030000.0,
+   "shares": 91500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Boeing Co",
+   "cls": "COM",
+   "cusip": "097023105",
+   "value": 11656000.0,
+   "shares": 99200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "CBS Corp",
+   "cls": "CL A",
+   "cusip": "124857202",
+   "value": 26571000.0,
+   "shares": 481700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cheniere Energy Inc.",
+   "cls": "COM",
+   "cusip": "16411R208",
+   "value": 10351000.0,
+   "shares": 303200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cubist Pharm's Inc.",
+   "cls": "COM",
+   "cusip": "229678107",
+   "value": 26246000.0,
+   "shares": 413000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Delta Air Lines Inc.",
+   "cls": "COM",
+   "cusip": "247361702",
+   "value": 73365000.0,
+   "shares": 3110000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Endo Health Sol'ns Inc.",
+   "cls": "COM",
+   "cusip": "29264F205",
+   "value": 23947000.0,
+   "shares": 527000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Gilead Sciences Inc.",
+   "cls": "COM",
+   "cusip": "375558103",
+   "value": 38395000.0,
+   "shares": 610700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Google Inc.",
+   "cls": "CL A",
+   "cusip": "38259P508",
+   "value": 195547000.0,
+   "shares": 223250.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Halliburton Co",
+   "cls": "COM",
+   "cusip": "406216101",
+   "value": 30513000.0,
+   "shares": 633700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Illumina Inc.",
+   "cls": "COM",
+   "cusip": "452327109",
+   "value": 40957000.0,
+   "shares": 506700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "IShares MSCI Sth Kor Cap Idx Fnd",
+   "cls": "MSCI STH KOR ETF",
+   "cusip": "464286772",
+   "value": 10183000.0,
+   "shares": 165500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "IShares FTSE China 25 Idx Fnd",
+   "cls": "CHINA LG-CAP ETF",
+   "cusip": "464287184",
+   "value": 9667000.0,
+   "shares": 260700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ishares JPM USD Emg Bnd",
+   "cls": "JP MOR EM MK ETF",
+   "cusip": "464288281",
+   "value": 14879000.0,
+   "shares": 136500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Johnson & Johnson",
+   "cls": "COM",
+   "cusip": "478160104",
+   "value": 11183000.0,
+   "shares": 129000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nokia Oyj",
+   "cls": "SPONS ADR",
+   "cusip": "654902204",
+   "value": 6510000.0,
+   "shares": 1000000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Pioneer Nat'l Res's Co",
+   "cls": "COM",
+   "cusip": "723787107",
+   "value": 26998000.0,
+   "shares": 143000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Schlumberger Ltd.",
+   "cls": "COM",
+   "cusip": "806857108",
+   "value": 87741000.0,
+   "shares": 993000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Mat'ls Select Sctr SPDR Tst",
+   "cls": "SBI MATERIALS",
+   "cusip": "81369Y100",
+   "value": 5057000.0,
+   "shares": 120400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cons Disc Sel Sctr SPDR Fnd",
+   "cls": "COM",
+   "cusip": "81369Y407",
+   "value": 10356000.0,
+   "shares": 170800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Engy Select Sctr SPDR Fnd",
+   "cls": "SBI INT-ENERGY",
+   "cusip": "81369Y506",
+   "value": 9689000.0,
+   "shares": 116900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ind'l Select Sctr SPDR",
+   "cls": "SBI INT-INDS",
+   "cusip": "81369Y704",
+   "value": 10336000.0,
+   "shares": 222900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Wendy's Co",
+   "cls": "COM",
+   "cusip": "95058W100",
+   "value": 16960000.0,
+   "shares": 2000000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "WisdomTree Jpn Hdgd Eq Fnd",
+   "cls": "JAPN HEDGE EQT",
+   "cusip": "97717W851",
+   "value": 4889000.0,
+   "shares": 102000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Workday Inc.",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 40910000.0,
+   "shares": 505500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Herbalife Ltd.",
+   "cls": "COM USD SHS",
+   "cusip": "G4412G101",
+   "value": 5514000.0,
+   "shares": 79032.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

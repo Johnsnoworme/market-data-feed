@@ -1,0 +1,323 @@
+{
+ "quarter": "2014-Q4",
+ "period": "2014-12-31",
+ "filed": "2015-02-12",
+ "acc": "0001536411-15-000002",
+ "holdings": [
+  {
+   "name": "Alcoa Inc",
+   "cls": "COM",
+   "cusip": "013817101",
+   "value": 29616000.0,
+   "shares": 1875600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alibaba Group Hldg Ltd",
+   "cls": "SPON ADS",
+   "cusip": "01609W102",
+   "value": 26390000.0,
+   "shares": 253900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "American Air Grp Inc",
+   "cls": "COM",
+   "cusip": "02376R102",
+   "value": 22235000.0,
+   "shares": 414600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Amer Eagle Outfitters Inc",
+   "cls": "COM",
+   "cusip": "02553E106",
+   "value": 19837000.0,
+   "shares": 1429200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Biogen Idec Inc",
+   "cls": "COM",
+   "cusip": "09062X103",
+   "value": 121998000.0,
+   "shares": 359400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Bluebird Bio Inc",
+   "cls": "COM",
+   "cusip": "09609G100",
+   "value": 32597000.0,
+   "shares": 355400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Celgene Corp",
+   "cls": "COM",
+   "cusip": "151020104",
+   "value": 48558000.0,
+   "shares": 434100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cognizant Tech Sol'ns Corp",
+   "cls": "CL A",
+   "cusip": "192446102",
+   "value": 19463000.0,
+   "shares": 369600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Costco Wholesale Corp",
+   "cls": "COM",
+   "cusip": "22160K105",
+   "value": 40399000.0,
+   "shares": 285000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Crown Castle Int'l Corp",
+   "cls": "COM",
+   "cusip": "22822V101",
+   "value": 9365000.0,
+   "shares": 119000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Delta Air Lines Inc",
+   "cls": "COM",
+   "cusip": "247361702",
+   "value": 20655000.0,
+   "shares": 419900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Facebook Inc",
+   "cls": "CL A",
+   "cusip": "30303M102",
+   "value": 33549000.0,
+   "shares": 430000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Foot Locker Inc",
+   "cls": "COM",
+   "cusip": "344849104",
+   "value": 11820000.0,
+   "shares": 210400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Goldman Sachs Grp Inc",
+   "cls": "COM",
+   "cusip": "38141G104",
+   "value": 25682000.0,
+   "shares": 132500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "HDFC Bank Ltd",
+   "cls": "ADR REPS 3 SHS",
+   "cusip": "40415F101",
+   "value": 50933000.0,
+   "shares": 1003600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Home Depot Inc",
+   "cls": "COM",
+   "cusip": "437076102",
+   "value": 55540000.0,
+   "shares": 529100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Illumina Inc",
+   "cls": "COM",
+   "cusip": "452327109",
+   "value": 75696000.0,
+   "shares": 410100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Infosys Ltd",
+   "cls": "SPON ADR",
+   "cusip": "456788108",
+   "value": 19622000.0,
+   "shares": 623700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Juno Therapeutics Inc",
+   "cls": "COM",
+   "cusip": "48205A109",
+   "value": 3655000.0,
+   "shares": 70000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Kohl's Corp",
+   "cls": "COM",
+   "cusip": "500255104",
+   "value": 14033000.0,
+   "shares": 229900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "L Brands Inc",
+   "cls": "COM",
+   "cusip": "501797104",
+   "value": 23507000.0,
+   "shares": 271600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Lowe's Companies Inc",
+   "cls": "COM",
+   "cusip": "548661107",
+   "value": 46041000.0,
+   "shares": 669200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Macrogenics Inc",
+   "cls": "COM",
+   "cusip": "556099109",
+   "value": 16571000.0,
+   "shares": 472500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Macy's, Inc",
+   "cls": "COM",
+   "cusip": "55616P104",
+   "value": 16451000.0,
+   "shares": 250200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Mattress Firm Hldg Corp",
+   "cls": "COM",
+   "cusip": "57722W106",
+   "value": 10234000.0,
+   "shares": 176200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Morgan Stanley",
+   "cls": "COM",
+   "cusip": "617446448",
+   "value": 25752000.0,
+   "shares": 663700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nektar Therapeutics",
+   "cls": "COM",
+   "cusip": "640268108",
+   "value": 10153000.0,
+   "shares": 655000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nordstrom Inc",
+   "cls": "COM",
+   "cusip": "655664100",
+   "value": 34090000.0,
+   "shares": 429400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Southwest Airlines Co",
+   "cls": "COM",
+   "cusip": "844741108",
+   "value": 11426000.0,
+   "shares": 270000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Target Corp",
+   "cls": "COM",
+   "cusip": "87612E106",
+   "value": 57737000.0,
+   "shares": 760600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Virgin America Inc",
+   "cls": "COM VTG",
+   "cusip": "92765X208",
+   "value": 350000.0,
+   "shares": 8100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Wells Fargo & Co",
+   "cls": "COM",
+   "cusip": "949746101",
+   "value": 24833000.0,
+   "shares": 453000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Williams-Sonoma Inc",
+   "cls": "COM",
+   "cusip": "969904101",
+   "value": 26306000.0,
+   "shares": 347600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Workday Inc",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 26987000.0,
+   "shares": 330679.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "YPF S.A.",
+   "cls": "SPON ADR CL D",
+   "cusip": "984245100",
+   "value": 7912000.0,
+   "shares": 298900.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

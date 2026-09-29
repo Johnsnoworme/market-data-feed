@@ -1,0 +1,332 @@
+{
+ "quarter": "2014-Q3",
+ "period": "2014-09-30",
+ "filed": "2014-11-14",
+ "acc": "0001536411-14-000009",
+ "holdings": [
+  {
+   "name": "Alcoa Inc",
+   "cls": "COM",
+   "cusip": "013817101",
+   "value": 64650000.0,
+   "shares": 4018000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alibaba Group Hldng Ltd",
+   "cls": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 889000.0,
+   "shares": 10000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Am Eagle Outfitters Inc",
+   "cls": "COM",
+   "cusip": "02553E106",
+   "value": 14767000.0,
+   "shares": 1017000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Amgen Inc",
+   "cls": "COM",
+   "cusip": "031162100",
+   "value": 22319000.0,
+   "shares": 158900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ARIAD Pharms Inc",
+   "cls": "COM",
+   "cusip": "04033A100",
+   "value": 8883000.0,
+   "shares": 1645000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Biogen Idec Inc",
+   "cls": "COM",
+   "cusip": "09062X103",
+   "value": 34338000.0,
+   "shares": 103800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cameco Corp",
+   "cls": "COM",
+   "cusip": "13321L108",
+   "value": 25222000.0,
+   "shares": 1428200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Celgene Corp",
+   "cls": "COM",
+   "cusip": "151020104",
+   "value": 53134000.0,
+   "shares": 560600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Costco Wholesale Corp",
+   "cls": "COM",
+   "cusip": "22160K105",
+   "value": 19813000.0,
+   "shares": 158100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Foot Locker Inc",
+   "cls": "COM",
+   "cusip": "344849104",
+   "value": 9761000.0,
+   "shares": 175400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Gilead Sciences Inc",
+   "cls": "COM",
+   "cusip": "375558103",
+   "value": 23153000.0,
+   "shares": 217500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Google Inc",
+   "cls": "CL A",
+   "cusip": "38259P508",
+   "value": 98153000.0,
+   "shares": 166810.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "HDFC Bank Ltd",
+   "cls": "ADR REPS 3 SHS",
+   "cusip": "40415F101",
+   "value": 14253000.0,
+   "shares": 306000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Home Depot Inc",
+   "cls": "COM",
+   "cusip": "437076102",
+   "value": 20403000.0,
+   "shares": 222400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Illumina Inc.",
+   "cls": "COM",
+   "cusip": "452327109",
+   "value": 67224000.0,
+   "shares": 410100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Kite Pharma Inc",
+   "cls": "COM",
+   "cusip": "49803L109",
+   "value": 1140000.0,
+   "shares": 40000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Kohl's Corp",
+   "cls": "COM",
+   "cusip": "500255104",
+   "value": 19768000.0,
+   "shares": 323900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "L Brands Inc",
+   "cls": "COM",
+   "cusip": "501797104",
+   "value": 10134000.0,
+   "shares": 151300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Lowe's Co's Inc",
+   "cls": "COM",
+   "cusip": "548661107",
+   "value": 19628000.0,
+   "shares": 370900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Macy's, Inc",
+   "cls": "COM",
+   "cusip": "55616P104",
+   "value": 14336000.0,
+   "shares": 246400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Mkt Vctrs Gld Miners ETF",
+   "cls": "GOLD MINER ETF",
+   "cusip": "57060U100",
+   "value": 33020000.0,
+   "shares": 1546600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "McDermott Int'l Inc",
+   "cls": "COM",
+   "cusip": "580037109",
+   "value": 26055000.0,
+   "shares": 4555000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Merck & Co",
+   "cls": "COM",
+   "cusip": "58933Y105",
+   "value": 19539000.0,
+   "shares": 329600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "NewLink Genetics Corp",
+   "cls": "COM",
+   "cusip": "651511107",
+   "value": 3909000.0,
+   "shares": 182500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nordstrom Inc",
+   "cls": "COM",
+   "cusip": "655664100",
+   "value": 9791000.0,
+   "shares": 143200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SPDR D.J. Ind'l Avg ETF Tst",
+   "cls": "UT SER 1",
+   "cusip": "78467X109",
+   "value": 9915000.0,
+   "shares": 58300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Charles Schwab Corp",
+   "cls": "COM",
+   "cusip": "808513105",
+   "value": 14275000.0,
+   "shares": 485700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Hlth Care Slct Sctr SPDR",
+   "cls": "SBI HEALTHCARE",
+   "cusip": "81369Y209",
+   "value": 11012000.0,
+   "shares": 172300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Fin'l Slct Sctr SPDR Fnd",
+   "cls": "SBI INT-FINL",
+   "cusip": "81369Y605",
+   "value": 9933000.0,
+   "shares": 428700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Target Corp",
+   "cls": "COM",
+   "cusip": "87612E106",
+   "value": 19575000.0,
+   "shares": 312300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Vertex Pharms Inc",
+   "cls": "COM",
+   "cusip": "92532F100",
+   "value": 16465000.0,
+   "shares": 146600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Walgreen Co",
+   "cls": "COM",
+   "cusip": "931422109",
+   "value": 38407000.0,
+   "shares": 648000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Williams-Sonoma Inc",
+   "cls": "COM",
+   "cusip": "969904101",
+   "value": 14479000.0,
+   "shares": 217500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Workday Inc",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 18371000.0,
+   "shares": 222679.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "YPF S.A.",
+   "cls": "SPON ADR CL D",
+   "cusip": "984245100",
+   "value": 11056000.0,
+   "shares": 298900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Mellanox Tech's Ltd",
+   "cls": "SHS",
+   "cusip": "M51363113",
+   "value": 17468000.0,
+   "shares": 389300.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

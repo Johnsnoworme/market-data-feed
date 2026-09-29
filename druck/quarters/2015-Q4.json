@@ -1,0 +1,125 @@
+{
+ "quarter": "2015-Q4",
+ "period": "2015-12-31",
+ "filed": "2016-02-16",
+ "acc": "0001536411-16-000010",
+ "holdings": [
+  {
+   "name": "Alphabet Inc.",
+   "cls": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 25519000.0,
+   "shares": 32800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Amazon.com Inc.",
+   "cls": "COM",
+   "cusip": "023135106",
+   "value": 128419000.0,
+   "shares": 190000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Chipotle Mex Grill Inc.",
+   "cls": "COM",
+   "cusip": "169656105",
+   "value": 9693000.0,
+   "shares": 20200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ctrip.com Int'l Ltd.",
+   "cls": "AM DEP SHS",
+   "cusip": "22943F100",
+   "value": 35781000.0,
+   "shares": 772300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Facebook Inc.",
+   "cls": "CL A",
+   "cusip": "30303M102",
+   "value": 264842000.0,
+   "shares": 2530494.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "HDFC Bank Ltd.",
+   "cls": "ADR REPS 3 SHS",
+   "cusip": "40415F101",
+   "value": 30252000.0,
+   "shares": 491100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Microsoft Corp",
+   "cls": "COM",
+   "cusip": "594918104",
+   "value": 64634000.0,
+   "shares": 1165000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Northrop Grumman Corp",
+   "cls": "COM",
+   "cusip": "666807102",
+   "value": 25603000.0,
+   "shares": 135600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Pure Storage Inc.",
+   "cls": "CL A",
+   "cusip": "74624M102",
+   "value": 24912000.0,
+   "shares": 1600000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Raytheon Co",
+   "cls": "COM",
+   "cusip": "755111507",
+   "value": 52029000.0,
+   "shares": 417800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SPDR Gold Trust",
+   "cls": "CALL",
+   "cusip": "78463V907",
+   "value": 292205000.0,
+   "shares": 2880000.0,
+   "kind": "SH",
+   "putcall": "CALL"
+  },
+  {
+   "name": "Syncrony Fin'l",
+   "cls": "COM",
+   "cusip": "87165B103",
+   "value": 14402000.0,
+   "shares": 473600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Tempur Sealy Int'l Inc.",
+   "cls": "COM",
+   "cusip": "88023U101",
+   "value": 8843000.0,
+   "shares": 125500.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

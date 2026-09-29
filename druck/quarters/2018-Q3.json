@@ -1,0 +1,368 @@
+{
+ "quarter": "2018-Q3",
+ "period": "2018-09-30",
+ "filed": "2018-11-14",
+ "acc": "0001536411-18-000014",
+ "holdings": [
+  {
+   "name": "ABBOTT LABS",
+   "cls": "COM",
+   "cusip": "002824100",
+   "value": 53707000.0,
+   "shares": 732100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "AC IMMUNE SA",
+   "cls": "SHS",
+   "cusip": "H00263105",
+   "value": 19932000.0,
+   "shares": 2491517.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ADOBE SYS INC",
+   "cls": "COM",
+   "cusip": "00724F101",
+   "value": 72166000.0,
+   "shares": 267330.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ALEXION PHARMACEUTICALS INC",
+   "cls": "COM",
+   "cusip": "015351109",
+   "value": 20573000.0,
+   "shares": 148000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ALIBABA GROUP HLDG LTD",
+   "cls": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 12914000.0,
+   "shares": 78380.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ALPHABET INC",
+   "cls": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 228742000.0,
+   "shares": 189500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "AMAZON COM INC",
+   "cls": "COM",
+   "cusip": "023135106",
+   "value": 236945000.0,
+   "shares": 118295.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "AUTODESK INC",
+   "cls": "COM",
+   "cusip": "052769106",
+   "value": 5386000.0,
+   "shares": 34500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "BANK AMER CORP",
+   "cls": "COM",
+   "cusip": "060505104",
+   "value": 27000.0,
+   "shares": 900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "BURLINGTON STORES INC",
+   "cls": "COM",
+   "cusip": "122017106",
+   "value": 14272000.0,
+   "shares": 87600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "CENOVUS ENERGY INC",
+   "cls": "COM",
+   "cusip": "15135U109",
+   "value": 9893000.0,
+   "shares": 986300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "CITIGROUP INC",
+   "cls": "COM NEW",
+   "cusip": "172967424",
+   "value": 47858000.0,
+   "shares": 667100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "COUPA SOFTWARE INC",
+   "cls": "COM",
+   "cusip": "22266L106",
+   "value": 11082000.0,
+   "shares": 140100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ELECTRONIC ARTS INC",
+   "cls": "COM",
+   "cusip": "285512109",
+   "value": 15781000.0,
+   "shares": 130970.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "FACEBOOK INC",
+   "cls": "CL A",
+   "cusip": "30303M102",
+   "value": 3552000.0,
+   "shares": 21600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "FLEETCOR TECHNOLOGIES INC",
+   "cls": "COM",
+   "cusip": "339041105",
+   "value": 1025000.0,
+   "shares": 4500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "GILEAD SCIENCES INC",
+   "cls": "COM",
+   "cusip": "375558103",
+   "value": 113105000.0,
+   "shares": 1464900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "GW PHARMACEUTICALS PLC",
+   "cls": "ADS",
+   "cusip": "36197T103",
+   "value": 10727000.0,
+   "shares": 62100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "HILTON WORLDWIDE HLDGS INC",
+   "cls": "COM",
+   "cusip": "43300A203",
+   "value": 1987000.0,
+   "shares": 24600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "HOME DEPOT INC",
+   "cls": "COM",
+   "cusip": "437076102",
+   "value": 25562000.0,
+   "shares": 123400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "INTRA CELLULAR THERAPIES INC",
+   "cls": "COM",
+   "cusip": "46116X101",
+   "value": 6445000.0,
+   "shares": 296986.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ISHARES TR",
+   "cls": "NASDAQ BIOTECH",
+   "cusip": "464287556",
+   "value": 125952000.0,
+   "shares": 1032900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "KANSAS CITY SOUTHERN",
+   "cls": "COM NEW",
+   "cusip": "485170302",
+   "value": 4461000.0,
+   "shares": 39380.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "MASTERCARD INCORPORATED",
+   "cls": "CL A",
+   "cusip": "57636Q104",
+   "value": 3112000.0,
+   "shares": 13980.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "MEDTRONIC PLC",
+   "cls": "SHS",
+   "cusip": "G5960L103",
+   "value": 36643000.0,
+   "shares": 372500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "MICROSOFT CORP",
+   "cls": "COM",
+   "cusip": "594918104",
+   "value": 403189000.0,
+   "shares": 3525300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "NETFLIX INC",
+   "cls": "COM",
+   "cusip": "64110L106",
+   "value": 1945000.0,
+   "shares": 5200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "PAYPAL HLDGS INC",
+   "cls": "COM",
+   "cusip": "70450Y103",
+   "value": 63904000.0,
+   "shares": 727500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "PORTOLA PHARMACEUTICALS INC",
+   "cls": "COM",
+   "cusip": "737010108",
+   "value": 9259000.0,
+   "shares": 347700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "QUALCOMM INC",
+   "cls": "COM",
+   "cusip": "747525103",
+   "value": 25016000.0,
+   "shares": 347300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SALESFORCE COM INC",
+   "cls": "COM",
+   "cusip": "79466L302",
+   "value": 246926000.0,
+   "shares": 1552700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SELECT SECTOR SPDR TR",
+   "cls": "ENERGY",
+   "cusip": "81369Y506",
+   "value": 39604000.0,
+   "shares": 522900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SERVICENOW INC",
+   "cls": "COM",
+   "cusip": "81762P102",
+   "value": 38011000.0,
+   "shares": 194300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SPLUNK INC",
+   "cls": "COM",
+   "cusip": "848637104",
+   "value": 5816000.0,
+   "shares": 48100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "STAMPS COM INC",
+   "cls": "COM NEW",
+   "cusip": "852857200",
+   "value": 2925000.0,
+   "shares": 12930.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "T MOBILE US INC",
+   "cls": "COM",
+   "cusip": "872590104",
+   "value": 25251000.0,
+   "shares": 359800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "TWENTY FIRST CENTY FOX INC",
+   "cls": "CL A",
+   "cusip": "90130A101",
+   "value": 25843000.0,
+   "shares": 557800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "VANECK VECTORS ETF TR",
+   "cls": "OIL SVCS ETF",
+   "cusip": "92189F718",
+   "value": 39425000.0,
+   "shares": 1565100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "WORKDAY INC",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 65472000.0,
+   "shares": 448500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ZENDESK INC",
+   "cls": "COM",
+   "cusip": "98936J101",
+   "value": 29464000.0,
+   "shares": 414984.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

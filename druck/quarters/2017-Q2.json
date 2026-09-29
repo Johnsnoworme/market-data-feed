@@ -1,0 +1,314 @@
+{
+ "quarter": "2017-Q2",
+ "period": "2017-06-30",
+ "filed": "2017-08-14",
+ "acc": "0001536411-17-000009",
+ "holdings": [
+  {
+   "name": "Ac Immune Sa",
+   "cls": "SHS",
+   "cusip": "H00263105",
+   "value": 21021000.0,
+   "shares": 2388700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Activision Blizzard Inc",
+   "cls": "COM",
+   "cusip": "00507V109",
+   "value": 41111000.0,
+   "shares": 714100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alibaba Group Hldg Ltd",
+   "cls": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 100067000.0,
+   "shares": 710200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alphabet Inc",
+   "cls": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 162369000.0,
+   "shares": 174650.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Amazon Com Inc",
+   "cls": "COM",
+   "cusip": "023135106",
+   "value": 116163000.0,
+   "shares": 120003.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "American Airls Group Inc",
+   "cls": "COM",
+   "cusip": "02376R102",
+   "value": 20128000.0,
+   "shares": 400000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Autodesk Inc",
+   "cls": "COM",
+   "cusip": "052769106",
+   "value": 35065000.0,
+   "shares": 347800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Comcast Corp New",
+   "cls": "CL A",
+   "cusip": "20030N101",
+   "value": 76610000.0,
+   "shares": 1968400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Crown Castle Intl Corp New",
+   "cls": "COM",
+   "cusip": "22822V101",
+   "value": 14827000.0,
+   "shares": 148000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ctrip Com Intl Ltd",
+   "cls": "AMERICAN DEP SHS",
+   "cusip": "22943F100",
+   "value": 76061000.0,
+   "shares": 1412200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Delta Air Lines Inc Del",
+   "cls": "COM NEW",
+   "cusip": "247361702",
+   "value": 21012000.0,
+   "shares": 391000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Electronic Arts Inc",
+   "cls": "COM",
+   "cusip": "285512109",
+   "value": 75474000.0,
+   "shares": 713900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Expedia Inc Del",
+   "cls": "COM NEW",
+   "cusip": "30212P303",
+   "value": 48243000.0,
+   "shares": 323884.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Facebook Inc",
+   "cls": "CL A",
+   "cusip": "30303M102",
+   "value": 163602000.0,
+   "shares": 1083600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Hdfc Bank Ltd",
+   "cls": "ADR REPS 3 SHS",
+   "cusip": "40415F101",
+   "value": 11150000.0,
+   "shares": 128200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ishares Tr",
+   "cls": "NASDQ BIOTEC ETF",
+   "cusip": "464287556",
+   "value": 25563000.0,
+   "shares": 82400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Jd Com Inc",
+   "cls": "SPON ADR CL A",
+   "cusip": "47215P106",
+   "value": 53292000.0,
+   "shares": 1358800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Las Vegas Sands Corp",
+   "cls": "COM",
+   "cusip": "517834107",
+   "value": 39260000.0,
+   "shares": 614500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Mastercard Incorporated",
+   "cls": "CL A",
+   "cusip": "57636Q104",
+   "value": 20064000.0,
+   "shares": 165200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Merck & Co Inc",
+   "cls": "COM",
+   "cusip": "58933Y105",
+   "value": 48420000.0,
+   "shares": 755500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Microsoft Corp",
+   "cls": "COM",
+   "cusip": "594918104",
+   "value": 181431000.0,
+   "shares": 2632100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nektar Therapeutics",
+   "cls": "COM",
+   "cusip": "640268108",
+   "value": 22797000.0,
+   "shares": 1166100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Netease Inc",
+   "cls": "SPONSORED ADR",
+   "cusip": "64110W102",
+   "value": 25764000.0,
+   "shares": 85700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Paypal Hldgs Inc",
+   "cls": "COM",
+   "cusip": "70450Y103",
+   "value": 49655000.0,
+   "shares": 925200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Potash Corp Sask Inc",
+   "cls": "COM",
+   "cusip": "73755L107",
+   "value": 34124000.0,
+   "shares": 2093500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Priceline Grp Inc",
+   "cls": "COM NEW",
+   "cusip": "741503403",
+   "value": 117712000.0,
+   "shares": 62930.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ptc Inc",
+   "cls": "COM",
+   "cusip": "69370C100",
+   "value": 24782000.0,
+   "shares": 449600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Salesforce Com Inc",
+   "cls": "COM",
+   "cusip": "79466L302",
+   "value": 93667000.0,
+   "shares": 1081600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Sba Communications Corp New",
+   "cls": "CL A",
+   "cusip": "78410G104",
+   "value": 15109000.0,
+   "shares": 112000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Servicenow Inc",
+   "cls": "COM",
+   "cusip": "81762P102",
+   "value": 45368000.0,
+   "shares": 428000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "United Contl Hldgs Inc",
+   "cls": "COM",
+   "cusip": "910047109",
+   "value": 18323000.0,
+   "shares": 243500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Visa Inc",
+   "cls": "COM CL A",
+   "cusip": "92826C839",
+   "value": 20294000.0,
+   "shares": 216400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Workday Inc",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 24279000.0,
+   "shares": 250300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Yum China Hldgs Inc",
+   "cls": "COM",
+   "cusip": "98850P109",
+   "value": 23548000.0,
+   "shares": 597200.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

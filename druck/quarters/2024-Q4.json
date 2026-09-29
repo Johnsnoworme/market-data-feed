@@ -1,0 +1,710 @@
+{
+ "quarter": "2024-Q4",
+ "period": "2024-12-31",
+ "filed": "2025-02-14",
+ "acc": "0001536411-25-000006",
+ "holdings": [
+  {
+   "name": "Alphabet Inc",
+   "cls": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 14516.0,
+   "shares": 76680.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Amazon Com Inc",
+   "cls": "COM",
+   "cusip": "023135106",
+   "value": 72048.0,
+   "shares": 328400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "American Airl",
+   "cls": "S GROUP INC COM",
+   "cusip": "02376R102",
+   "value": 16034.0,
+   "shares": 919928.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "American Airl",
+   "cls": "S GROUP INC COM",
+   "cusip": "02376R102",
+   "value": 44856.0,
+   "shares": 2573500.0,
+   "kind": "SH",
+   "putcall": "CALL"
+  },
+  {
+   "name": "Ameris Bancorp",
+   "cls": "COM",
+   "cusip": "03076K108",
+   "value": 9636.0,
+   "shares": 154000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Arcellx Inc",
+   "cls": "COMMON STOCK",
+   "cusip": "03940C100",
+   "value": 5683.0,
+   "shares": 74100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Arm Holdings Plc",
+   "cls": "SPONSORED ADS",
+   "cusip": "042068205",
+   "value": 22007.0,
+   "shares": 178394.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ascendis Pharma A/S",
+   "cls": "SPONSORED ADR",
+   "cusip": "04351P101",
+   "value": 36488.0,
+   "shares": 265040.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Banco Macro Sa",
+   "cls": "SPON ADR B",
+   "cusip": "05961W105",
+   "value": 46970.0,
+   "shares": 485430.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Barclays Plc",
+   "cls": "ADR",
+   "cusip": "06738E204",
+   "value": 42353.0,
+   "shares": 3186855.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Brookfield Corp",
+   "cls": "CL A LTD VT SH",
+   "cusip": "11271J107",
+   "value": 35057.0,
+   "shares": 610225.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Bwx Technologies Inc",
+   "cls": "COM",
+   "cusip": "05605H100",
+   "value": 33325.0,
+   "shares": 299171.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Citigroup Inc",
+   "cls": "COM NEW",
+   "cusip": "172967424",
+   "value": 5114.0,
+   "shares": 72655.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Coherent Corp",
+   "cls": "COM",
+   "cusip": "19247G107",
+   "value": 267227.0,
+   "shares": 2820930.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Coupang Inc",
+   "cls": "CL A",
+   "cusip": "22266T109",
+   "value": 195680.0,
+   "shares": 8902649.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Crinetics Pharmaceuticals In",
+   "cls": "COM",
+   "cusip": "22663K107",
+   "value": 6274.0,
+   "shares": 122700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Daktronics Inc",
+   "cls": "COM",
+   "cusip": "234264109",
+   "value": 44259.0,
+   "shares": 2625105.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Delta Air Lines Inc Del",
+   "cls": "COM NEW",
+   "cusip": "247361702",
+   "value": 49473.0,
+   "shares": 817740.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Delta Air Lines Inc Del",
+   "cls": "COM NEW",
+   "cusip": "247361702",
+   "value": 57445.0,
+   "shares": 949500.0,
+   "kind": "SH",
+   "putcall": "CALL"
+  },
+  {
+   "name": "Discover Finl Svcs",
+   "cls": "COM",
+   "cusip": "254709108",
+   "value": 25460.0,
+   "shares": 146970.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "E L F Beauty Inc",
+   "cls": "COM",
+   "cusip": "26856L103",
+   "value": 4683.0,
+   "shares": 37300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Eli Lilly & Co",
+   "cls": "COM",
+   "cusip": "532457108",
+   "value": 48011.0,
+   "shares": 62190.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "First Ctzns Bancshares Inc N",
+   "cls": "CL A",
+   "cusip": "31946M103",
+   "value": 10952.0,
+   "shares": 5183.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "First Horizon Corporation",
+   "cls": "COM",
+   "cusip": "320517105",
+   "value": 12481.0,
+   "shares": 619700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Flex Ltd",
+   "cls": "ORD",
+   "cusip": "Y2573F102",
+   "value": 13394.0,
+   "shares": 348900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Flutter Entmt Plc",
+   "cls": "SHS",
+   "cusip": "G3643J108",
+   "value": 4678.0,
+   "shares": 18100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Freeport-Mcmoran Inc",
+   "cls": "CL B",
+   "cusip": "35671D857",
+   "value": 28899.0,
+   "shares": 758905.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ge Vernova Inc",
+   "cls": "COM",
+   "cusip": "36828A101",
+   "value": 32811.0,
+   "shares": 99750.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Global X Fds",
+   "cls": "GB MSCI AR ETF",
+   "cusip": "37950E259",
+   "value": 45369.0,
+   "shares": 548800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Grupo Financiero Galicia S.A",
+   "cls": "SPONSORED ADR",
+   "cusip": "399909100",
+   "value": 27961.0,
+   "shares": 448663.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Huntington Bancshares Inc",
+   "cls": "COM",
+   "cusip": "446150104",
+   "value": 10920.0,
+   "shares": 671200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Insmed Inc",
+   "cls": "COM PAR $.01",
+   "cusip": "457669307",
+   "value": 40973.0,
+   "shares": 593470.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Invivyd Inc",
+   "cls": "COM",
+   "cusip": "00534A102",
+   "value": 253.0,
+   "shares": 571425.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Iqvia Hldgs Inc",
+   "cls": "COM",
+   "cusip": "46266C105",
+   "value": 4225.0,
+   "shares": 21500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Joby Aviation Inc",
+   "cls": "COMMON STOCK",
+   "cusip": "G65163100",
+   "value": 256.0,
+   "shares": 31489.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Keycorp",
+   "cls": "COM",
+   "cusip": "493267108",
+   "value": 9033.0,
+   "shares": 527000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Kinder Morgan Inc Del",
+   "cls": "COM",
+   "cusip": "49456B101",
+   "value": 60973.0,
+   "shares": 2225300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Live Nation Entertainment In",
+   "cls": "COM",
+   "cusip": "538034109",
+   "value": 10313.0,
+   "shares": 79635.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Mercadolibre Inc",
+   "cls": "COM",
+   "cusip": "58733R102",
+   "value": 91356.0,
+   "shares": 53725.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Micron Technology Inc",
+   "cls": "COM",
+   "cusip": "595112103",
+   "value": 34412.0,
+   "shares": 408885.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Mirion Technologies Inc",
+   "cls": "COM CL A",
+   "cusip": "60471A101",
+   "value": 5980.0,
+   "shares": 342700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Natera Inc",
+   "cls": "COM",
+   "cusip": "632307104",
+   "value": 564632.0,
+   "shares": 3566850.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Newamsterdam Pharma Company",
+   "cls": "ORDINARY SHARES",
+   "cusip": "N62509109",
+   "value": 7390.0,
+   "shares": 287535.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nu Hldgs Ltd",
+   "cls": "ORD SHS CL A",
+   "cusip": "G6683N103",
+   "value": 4841.0,
+   "shares": 467255.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nvent Electric Plc",
+   "cls": "SHS",
+   "cusip": "G6700G107",
+   "value": 30745.0,
+   "shares": 451065.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Palantir Technologies Inc",
+   "cls": "CL A",
+   "cusip": "69608A108",
+   "value": 3155.0,
+   "shares": 41710.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Palo Alto Networks Inc",
+   "cls": "COM",
+   "cusip": "697435105",
+   "value": 15908.0,
+   "shares": 87424.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Philip Morris Intl Inc",
+   "cls": "COM",
+   "cusip": "718172109",
+   "value": 162744.0,
+   "shares": 1352255.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Purecycle Technologies Inc",
+   "cls": "COM",
+   "cusip": "74623V103",
+   "value": 16323.0,
+   "shares": 1592500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Seagate Technology Hldngs Pl",
+   "cls": "ORD SHS",
+   "cusip": "G7997R103",
+   "value": 134995.0,
+   "shares": 1564076.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Seagate Technology Hldngs Pl",
+   "cls": "ORD SHS",
+   "cusip": "G7997R103",
+   "value": 43975.0,
+   "shares": 509500.0,
+   "kind": "SH",
+   "putcall": "CALL"
+  },
+  {
+   "name": "Skechers U S A Inc",
+   "cls": "CL A",
+   "cusip": "830566105",
+   "value": 72272.0,
+   "shares": 1074840.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Slm Corp",
+   "cls": "COM",
+   "cusip": "78442P106",
+   "value": 69509.0,
+   "shares": 2520275.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Spdr Ser Tr",
+   "cls": "S&P REGL BKG",
+   "cusip": "78464A698",
+   "value": 33442.0,
+   "shares": 554138.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Springworks Therapeutics Inc",
+   "cls": "COM",
+   "cusip": "85205L107",
+   "value": 31061.0,
+   "shares": 859694.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Sunrise Communications Ag Ads",
+   "cls": "CL A",
+   "cusip": "867975104",
+   "value": 5736.0,
+   "shares": 133152.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Taiwan Semiconductor Mfg Ltd",
+   "cls": "SPONSORED ADS",
+   "cusip": "874039100",
+   "value": 21233.0,
+   "shares": 107515.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Teck Resources Ltd",
+   "cls": "CL B",
+   "cusip": "878742204",
+   "value": 17491.0,
+   "shares": 431545.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Terawulf Inc",
+   "cls": "COM",
+   "cusip": "88080T104",
+   "value": 8333.0,
+   "shares": 1472225.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Tesla Inc",
+   "cls": "COM",
+   "cusip": "88160R101",
+   "value": 15215.0,
+   "shares": 37675.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Teva Pharmaceutical Inds Ltd",
+   "cls": "SPONSORED ADS",
+   "cusip": "881624209",
+   "value": 198303.0,
+   "shares": 8997400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Trisalus Life Sciences Inc",
+   "cls": "COM",
+   "cusip": "89680M101",
+   "value": 2139.0,
+   "shares": 426921.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Truist Finl Corp",
+   "cls": "COM",
+   "cusip": "89832Q109",
+   "value": 10129.0,
+   "shares": 233500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ultragenyx Pharmaceutical In",
+   "cls": "COM",
+   "cusip": "90400D108",
+   "value": 3595.0,
+   "shares": 85445.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "United Airls Hldgs Inc",
+   "cls": "COM",
+   "cusip": "910047109",
+   "value": 101353.0,
+   "shares": 1043805.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "United Airls Hldgs Inc",
+   "cls": "COM",
+   "cusip": "910047109",
+   "value": 21945.0,
+   "shares": 226000.0,
+   "kind": "SH",
+   "putcall": "CALL"
+  },
+  {
+   "name": "United States Stl Corp",
+   "cls": "NEW COM",
+   "cusip": "912909108",
+   "value": 54725.0,
+   "shares": 1610040.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Us Bancorp Del",
+   "cls": "COM NEW",
+   "cusip": "902973304",
+   "value": 24087.0,
+   "shares": 503595.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Vaxcyte Inc",
+   "cls": "COM",
+   "cusip": "92243G108",
+   "value": 7062.0,
+   "shares": 86265.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Verona Pharma Plc",
+   "cls": "SPONSORED ADS",
+   "cusip": "925050106",
+   "value": 41219.0,
+   "shares": 887580.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Vistra Corp",
+   "cls": "COM",
+   "cusip": "92840M102",
+   "value": 39066.0,
+   "shares": 283355.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Wabtec",
+   "cls": "COM",
+   "cusip": "929740108",
+   "value": 53097.0,
+   "shares": 280060.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Warner Bros Discovery Inc",
+   "cls": "COM SER A",
+   "cusip": "934423104",
+   "value": 49231.0,
+   "shares": 4657650.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Wells Fargo Co New",
+   "cls": "COM",
+   "cusip": "949746101",
+   "value": 11035.0,
+   "shares": 157100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Western Digital Corp",
+   "cls": "COM",
+   "cusip": "958102105",
+   "value": 24875.0,
+   "shares": 417160.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Woodward Inc",
+   "cls": "COM",
+   "cusip": "980745103",
+   "value": 203989.0,
+   "shares": 1225750.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ypf Sociedad Anonima",
+   "cls": "SPON ADR CL D",
+   "cusip": "984245100",
+   "value": 71745.0,
+   "shares": 1687716.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Zoominfo Technologies Inc",
+   "cls": "COMMON STOCK",
+   "cusip": "98980F104",
+   "value": 18518.0,
+   "shares": 1761926.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

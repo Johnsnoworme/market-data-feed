@@ -1,0 +1,287 @@
+{
+ "quarter": "2018-Q4",
+ "period": "2018-12-31",
+ "filed": "2019-02-14",
+ "acc": "0001536411-19-000002",
+ "holdings": [
+  {
+   "name": "Alibaba Group Hldg Ltd",
+   "cls": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 23905000.0,
+   "shares": 174400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alphabet Inc",
+   "cls": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 11807000.0,
+   "shares": 11299.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Amazon Com Inc",
+   "cls": "COM",
+   "cusip": "023135106",
+   "value": 147836000.0,
+   "shares": 98428.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "American Airls Group Inc",
+   "cls": "COM",
+   "cusip": "02376R102",
+   "value": 16855000.0,
+   "shares": 524900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ishares Tr",
+   "cls": "MSCI EMG MKT ETF",
+   "cusip": "464287234",
+   "value": 65609000.0,
+   "shares": 1679700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ishares Tr",
+   "cls": "NASDAQ BIOTECH",
+   "cusip": "464287556",
+   "value": 33779000.0,
+   "shares": 350300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Microsoft Corp",
+   "cls": "COM",
+   "cusip": "594918104",
+   "value": 469098000.0,
+   "shares": 4618471.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Paypal Hldgs Inc",
+   "cls": "COM",
+   "cusip": "70450Y103",
+   "value": 34354000.0,
+   "shares": 408535.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Abbott Labs",
+   "cls": "COM",
+   "cusip": "002824100",
+   "value": 93718000.0,
+   "shares": 1295700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ac Immune Sa",
+   "cls": "SHS",
+   "cusip": "H00263105",
+   "value": 23545000.0,
+   "shares": 2491517.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Adobe Inc",
+   "cls": "COM",
+   "cusip": "00724F101",
+   "value": 68102000.0,
+   "shares": 301015.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Agilent Technologies Inc",
+   "cls": "COM",
+   "cusip": "00846U101",
+   "value": 14929000.0,
+   "shares": 221300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Autodesk Inc",
+   "cls": "COM",
+   "cusip": "052769106",
+   "value": 3433000.0,
+   "shares": 26690.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Coupa Software Inc",
+   "cls": "COM",
+   "cusip": "22266L106",
+   "value": 71095000.0,
+   "shares": 1131000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Delta Air Lines Inc Del",
+   "cls": "COM NEW",
+   "cusip": "247361702",
+   "value": 31267000.0,
+   "shares": 626600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Gilead Sciences Inc",
+   "cls": "COM",
+   "cusip": "375558103",
+   "value": 64010000.0,
+   "shares": 1023345.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Hologic Inc",
+   "cls": "COM",
+   "cusip": "436440101",
+   "value": 13838000.0,
+   "shares": 336700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Illumina Inc",
+   "cls": "COM",
+   "cusip": "452327109",
+   "value": 41840000.0,
+   "shares": 139500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Intuitive Surgical Inc",
+   "cls": "COM NEW",
+   "cusip": "46120E602",
+   "value": 52825000.0,
+   "shares": 110300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Kohls Corp",
+   "cls": "COM",
+   "cusip": "500255104",
+   "value": 9785000.0,
+   "shares": 147500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Medtronic Plc",
+   "cls": "SHS",
+   "cusip": "G5960L103",
+   "value": 33883000.0,
+   "shares": 372500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Mercadolibre Inc",
+   "cls": "COM",
+   "cusip": "58733R102",
+   "value": 21676000.0,
+   "shares": 74016.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Netflix Inc",
+   "cls": "COM",
+   "cusip": "64110L106",
+   "value": 17668000.0,
+   "shares": 66010.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Okta Inc",
+   "cls": "CL A",
+   "cusip": "679295105",
+   "value": 11095000.0,
+   "shares": 173900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Tesla Inc",
+   "cls": "COM",
+   "cusip": "88160R101",
+   "value": 99773000.0,
+   "shares": 299800.0,
+   "kind": "SH",
+   "putcall": "PUT"
+  },
+  {
+   "name": "Salesforce Com Inc",
+   "cls": "COM",
+   "cusip": "79466L302",
+   "value": 146912000.0,
+   "shares": 1072585.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Servicenow Inc",
+   "cls": "COM",
+   "cusip": "81762P102",
+   "value": 14636000.0,
+   "shares": 82200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Barrick Gold Corp",
+   "cls": "COM",
+   "cusip": "067901108",
+   "value": 2022000.0,
+   "shares": 149300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Elastic N V",
+   "cls": "ORD SHS",
+   "cusip": "N14506104",
+   "value": 715000.0,
+   "shares": 10000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Workday Inc",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 83896000.0,
+   "shares": 525400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Zendesk Inc",
+   "cls": "COM",
+   "cusip": "98936J101",
+   "value": 3362000.0,
+   "shares": 57600.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

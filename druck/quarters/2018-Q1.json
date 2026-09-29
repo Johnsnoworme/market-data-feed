@@ -1,0 +1,206 @@
+{
+ "quarter": "2018-Q1",
+ "period": "2018-03-31",
+ "filed": "2018-05-15",
+ "acc": "0001536411-18-000008",
+ "holdings": [
+  {
+   "name": "Ac Immune Sa",
+   "cls": "SHS",
+   "cusip": "H00263105",
+   "value": 24699000.0,
+   "shares": 2388700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Adobe Sys Inc",
+   "cls": "COM",
+   "cusip": "00724F101",
+   "value": 26470000.0,
+   "shares": 122500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alibaba Group Hldg Ltd",
+   "cls": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 120659000.0,
+   "shares": 657400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alphabet Inc",
+   "cls": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 268775000.0,
+   "shares": 259150.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Amazon Com Inc",
+   "cls": "COM",
+   "cusip": "023135106",
+   "value": 247282000.0,
+   "shares": 170853.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ctrip Com Intl Ltd",
+   "cls": "AMERICAN DEP SHS",
+   "cusip": "22943F100",
+   "value": 14252000.0,
+   "shares": 305700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Intel Corp",
+   "cls": "COM",
+   "cusip": "458140100",
+   "value": 128252000.0,
+   "shares": 2462600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Intra Cellular Therapies Inc",
+   "cls": "COM",
+   "cusip": "46116X101",
+   "value": 6252000.0,
+   "shares": 296986.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Jd Com Inc",
+   "cls": "SPON ADR CL A",
+   "cusip": "47215P106",
+   "value": 72194000.0,
+   "shares": 1783000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Micron Technology Inc",
+   "cls": "COM",
+   "cusip": "595112103",
+   "value": 114056000.0,
+   "shares": 2187500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Microsoft Corp",
+   "cls": "COM",
+   "cusip": "594918104",
+   "value": 221804000.0,
+   "shares": 2430200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nektar Therapeutics",
+   "cls": "COM",
+   "cusip": "640268108",
+   "value": 126694000.0,
+   "shares": 1192300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Netflix Inc",
+   "cls": "COM",
+   "cusip": "64110L106",
+   "value": 56028000.0,
+   "shares": 189700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Pagseguro Digital Ltd Com",
+   "cls": "CL A",
+   "cusip": "G68707101",
+   "value": 1341000.0,
+   "shares": 35000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Qualcomm Inc",
+   "cls": "COM",
+   "cusip": "747525103",
+   "value": 22774000.0,
+   "shares": 411000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Salesforce Com Inc",
+   "cls": "COM",
+   "cusip": "79466L302",
+   "value": 198326000.0,
+   "shares": 1705300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Stamps Com Inc",
+   "cls": "COM NEW",
+   "cusip": "852857200",
+   "value": 31766000.0,
+   "shares": 158000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Sterling Bancorp Del",
+   "cls": "COM",
+   "cusip": "85917A100",
+   "value": 9056000.0,
+   "shares": 401600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Tal Ed Group",
+   "cls": "SPONSORED ADS",
+   "cusip": "874080104",
+   "value": 25295000.0,
+   "shares": 682000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Vipshop Hldgs Ltd",
+   "cls": "SPONSORED ADR",
+   "cusip": "92763W103",
+   "value": 9520000.0,
+   "shares": 572800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Workday Inc",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 72351000.0,
+   "shares": 569200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Yandex N V",
+   "cls": "SHS CLASS A",
+   "cusip": "N97284108",
+   "value": 11993000.0,
+   "shares": 304000.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

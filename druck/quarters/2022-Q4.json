@@ -1,0 +1,530 @@
+{
+ "quarter": "2022-Q4",
+ "period": "2022-12-31",
+ "filed": "2023-02-14",
+ "acc": "0001536411-23-000003",
+ "holdings": [
+  {
+   "name": "Abcellera Biologics Inc",
+   "cls": "COM",
+   "cusip": "00288U106",
+   "value": 6683268.0,
+   "shares": 659750.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Acadia Pharmaceuticals Inc",
+   "cls": "COM",
+   "cusip": "004225108",
+   "value": 1184448.0,
+   "shares": 74400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Advanced Micro Devices Inc",
+   "cls": "COM",
+   "cusip": "007903107",
+   "value": 19964381.0,
+   "shares": 308235.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alnylam Pharmaceuticals Inc",
+   "cls": "COM",
+   "cusip": "02043Q107",
+   "value": 21129462.0,
+   "shares": 88910.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alpha Metallurgical Resour I",
+   "cls": "COM",
+   "cusip": "020764106",
+   "value": 5763374.0,
+   "shares": 39370.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Arch Resources Inc",
+   "cls": "CL A",
+   "cusip": "03940R107",
+   "value": 18439901.0,
+   "shares": 129140.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "At&T Inc",
+   "cls": "COM",
+   "cusip": "00206R102",
+   "value": 25328110.0,
+   "shares": 1375780.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Avantor Inc",
+   "cls": "COM",
+   "cusip": "05352A100",
+   "value": 4000668.0,
+   "shares": 189695.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cameco Corp",
+   "cls": "COM",
+   "cusip": "13321L108",
+   "value": 16961785.0,
+   "shares": 748204.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Caterpillar Inc",
+   "cls": "COM",
+   "cusip": "149123101",
+   "value": 15283928.0,
+   "shares": 63800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cazoo Group Ltd",
+   "cls": "COM",
+   "cusip": "G2007L105",
+   "value": 21968.0,
+   "shares": 140100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ccc Intelligent Solutions Hl",
+   "cls": "COM",
+   "cusip": "12510Q100",
+   "value": 2452347.0,
+   "shares": 281879.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cenovus Energy Inc",
+   "cls": "COM",
+   "cusip": "15135U109",
+   "value": 52426229.0,
+   "shares": 2701140.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Chevron Corp New",
+   "cls": "COM",
+   "cusip": "166764100",
+   "value": 176556236.0,
+   "shares": 983655.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Compass Inc",
+   "cls": "CL A",
+   "cusip": "20464U100",
+   "value": 929903.0,
+   "shares": 399100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Constellation Energy Corp",
+   "cls": "COM",
+   "cusip": "21037T109",
+   "value": 7657603.0,
+   "shares": 88825.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Coupang Inc",
+   "cls": "CL A",
+   "cusip": "22266T109",
+   "value": 298374183.0,
+   "shares": 20283765.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "D R Horton Inc",
+   "cls": "COM",
+   "cusip": "23331A109",
+   "value": 10108476.0,
+   "shares": 113400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Datadog Inc",
+   "cls": "CL A COM",
+   "cusip": "23804L103",
+   "value": 24420596.0,
+   "shares": 332253.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Deere & Co",
+   "cls": "COM",
+   "cusip": "244199105",
+   "value": 31258748.0,
+   "shares": 72905.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Dish Network Corporation",
+   "cls": "CL A",
+   "cusip": "25470M109",
+   "value": 1578096.0,
+   "shares": 112400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Enovix Corporation",
+   "cls": "COM",
+   "cusip": "293594107",
+   "value": 5777136.0,
+   "shares": 464400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Entegris Inc",
+   "cls": "COM",
+   "cusip": "29362U104",
+   "value": 3640245.0,
+   "shares": 55500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Freeport-Mcmoran Inc",
+   "cls": "CL B",
+   "cusip": "35671D857",
+   "value": 31829826.0,
+   "shares": 837627.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ihs Holding Limited",
+   "cls": "ORD SHS",
+   "cusip": "G4701H109",
+   "value": 3793792.0,
+   "shares": 771096.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Joby Aviation Inc",
+   "cls": "COMMON STOCK",
+   "cusip": "G65163100",
+   "value": 37674.0,
+   "shares": 11246.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Kb Home",
+   "cls": "COM",
+   "cusip": "48666K109",
+   "value": 1864340.0,
+   "shares": 58535.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Kbr Inc",
+   "cls": "COM",
+   "cusip": "48242W106",
+   "value": 89098310.0,
+   "shares": 1687468.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Lamb Weston Hldgs Inc",
+   "cls": "COM",
+   "cusip": "513272104",
+   "value": 148147710.0,
+   "shares": 1657875.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Las Vegas Sands Corp",
+   "cls": "COM",
+   "cusip": "517834107",
+   "value": 11056100.0,
+   "shares": 230000.0,
+   "kind": "SH",
+   "putcall": "CALL"
+  },
+  {
+   "name": "Lennar Corp",
+   "cls": "CL A",
+   "cusip": "526057104",
+   "value": 39991226.0,
+   "shares": 441892.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Lgi Homes Inc",
+   "cls": "COM",
+   "cusip": "50187T106",
+   "value": 4630000.0,
+   "shares": 50000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Lilly Eli & Co",
+   "cls": "COM",
+   "cusip": "532457108",
+   "value": 269889314.0,
+   "shares": 737725.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Meta Platforms Inc",
+   "cls": "CL A",
+   "cusip": "30303M102",
+   "value": 108507570.0,
+   "shares": 901675.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Moderna Inc",
+   "cls": "COM",
+   "cusip": "60770K107",
+   "value": 3979301.0,
+   "shares": 22154.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Natera Inc",
+   "cls": "COM",
+   "cusip": "632307104",
+   "value": 25850600.0,
+   "shares": 643530.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nextera Energy Inc",
+   "cls": "COM",
+   "cusip": "65339F101",
+   "value": 7808240.0,
+   "shares": 93400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nvidia Corporation",
+   "cls": "COM",
+   "cusip": "67066G104",
+   "value": 85187198.0,
+   "shares": 582915.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Occidental Pete Corp",
+   "cls": "COM",
+   "cusip": "674599105",
+   "value": 26492334.0,
+   "shares": 420580.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Opendoor Technologies Inc",
+   "cls": "COM",
+   "cusip": "683712103",
+   "value": 1784179.0,
+   "shares": 1538085.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Option Care Health Inc",
+   "cls": "COM NEW",
+   "cusip": "68404L201",
+   "value": 45920951.0,
+   "shares": 1526120.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Oscar Health Inc",
+   "cls": "CL A",
+   "cusip": "687793109",
+   "value": 2445951.0,
+   "shares": 994289.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ovintiv Inc",
+   "cls": "COM",
+   "cusip": "69047Q102",
+   "value": 20992926.0,
+   "shares": 413980.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Palantir Technologies Inc",
+   "cls": "CL A",
+   "cusip": "69608A108",
+   "value": 8157939.0,
+   "shares": 1270707.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Palo Alto Networks Inc",
+   "cls": "COM",
+   "cusip": "697435105",
+   "value": 15247536.0,
+   "shares": 109270.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Parker-Hannifin Corp",
+   "cls": "COM",
+   "cusip": "701094104",
+   "value": 19438800.0,
+   "shares": 66800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Phillips 66",
+   "cls": "COM",
+   "cusip": "718546104",
+   "value": 11849508.0,
+   "shares": 113850.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Pioneer Nat Res Co",
+   "cls": "COM",
+   "cusip": "723787107",
+   "value": 16331027.0,
+   "shares": 71505.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Reata Pharmaceuticals Inc",
+   "cls": "CL A",
+   "cusip": "75615P103",
+   "value": 2241296.0,
+   "shares": 58997.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Recursion Pharmaceuticals In",
+   "cls": "CL A",
+   "cusip": "75629V104",
+   "value": 10685675.0,
+   "shares": 1385950.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Samsara Inc",
+   "cls": "COM CL A",
+   "cusip": "79589L106",
+   "value": 10077163.0,
+   "shares": 810713.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Sensei Biotherapeutics Inc",
+   "cls": "COM",
+   "cusip": "81728A108",
+   "value": 149000.0,
+   "shares": 100000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Sunrun Inc",
+   "cls": "COM",
+   "cusip": "86771W105",
+   "value": 3338780.0,
+   "shares": 139000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Teck Resources Ltd",
+   "cls": "CL B",
+   "cusip": "878742204",
+   "value": 67346263.0,
+   "shares": 1780705.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "T-Mobile Us Inc",
+   "cls": "COM",
+   "cusip": "872590104",
+   "value": 63610680.0,
+   "shares": 454362.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Vale S A",
+   "cls": "SPONSORED ADS",
+   "cusip": "91912E105",
+   "value": 17733650.0,
+   "shares": 1045000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Vertiv Holdings Co",
+   "cls": "COM CL A",
+   "cusip": "92537N108",
+   "value": 80814199.0,
+   "shares": 5916120.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Willscot Mobil Mini Hldng Co",
+   "cls": "COM CL A",
+   "cusip": "971378104",
+   "value": 13996647.0,
+   "shares": 309866.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

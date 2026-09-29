@@ -1,0 +1,305 @@
+{
+ "quarter": "2018-Q2",
+ "period": "2018-06-30",
+ "filed": "2018-08-14",
+ "acc": "0001536411-18-000011",
+ "holdings": [
+  {
+   "name": "AC IMMUNE SA",
+   "cls": "SHS",
+   "cusip": "H00263105",
+   "value": 22263000.0,
+   "shares": 2388700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ACTIVISION BLIZZARD INC",
+   "cls": "COM",
+   "cusip": "00507V109",
+   "value": 25735000.0,
+   "shares": 337200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ADOBE SYS INC",
+   "cls": "COM",
+   "cusip": "00724F101",
+   "value": 29867000.0,
+   "shares": 122500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ALIBABA GROUP HLDG LTD",
+   "cls": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 149222000.0,
+   "shares": 804300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ALPHABET INC",
+   "cls": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 192414000.0,
+   "shares": 170400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "AMAZON COM INC",
+   "cls": "COM",
+   "cusip": "023135106",
+   "value": 263899000.0,
+   "shares": 155253.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "AUTODESK INC",
+   "cls": "COM",
+   "cusip": "052769106",
+   "value": 33336000.0,
+   "shares": 254300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "CENOVUS ENERGY INC",
+   "cls": "COM",
+   "cusip": "15135U109",
+   "value": 10238000.0,
+   "shares": 986300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "CLOVIS ONCOLOGY INC",
+   "cls": "COM",
+   "cusip": "189464100",
+   "value": 21917000.0,
+   "shares": 482000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "COUPA SOFTWARE INC",
+   "cls": "COM",
+   "cusip": "22266L106",
+   "value": 10263000.0,
+   "shares": 164900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "CTRIP COM INTL LTD",
+   "cls": "AMERICAN DEP SHS",
+   "cusip": "22943F100",
+   "value": 20057000.0,
+   "shares": 421100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "DEVON ENERGY CORP NEW",
+   "cls": "COM",
+   "cusip": "25179M103",
+   "value": 32561000.0,
+   "shares": 740700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ELECTRONIC ARTS INC",
+   "cls": "COM",
+   "cusip": "285512109",
+   "value": 15174000.0,
+   "shares": 107600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "FACEBOOK INC",
+   "cls": "CL A",
+   "cusip": "30303M102",
+   "value": 178386000.0,
+   "shares": 918000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "FREEPORT-MCMORAN INC",
+   "cls": "CL B",
+   "cusip": "35671D857",
+   "value": 14809000.0,
+   "shares": 858000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "GILEAD SCIENCES INC",
+   "cls": "COM",
+   "cusip": "375558103",
+   "value": 85383000.0,
+   "shares": 1205300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "HOME DEPOT INC",
+   "cls": "COM",
+   "cusip": "437076102",
+   "value": 24680000.0,
+   "shares": 126500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "INTRA CELLULAR THERAPIES INC",
+   "cls": "COM",
+   "cusip": "46116X101",
+   "value": 5248000.0,
+   "shares": 296986.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ISHARES TR",
+   "cls": "NASDAQ BIOTECH",
+   "cusip": "464287556",
+   "value": 20339000.0,
+   "shares": 183900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "MARATHON PETE CORP",
+   "cls": "COM",
+   "cusip": "56585A102",
+   "value": 34827000.0,
+   "shares": 496400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "MERCADOLIBRE INC",
+   "cls": "COM",
+   "cusip": "58733R102",
+   "value": 5052000.0,
+   "shares": 16900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "MICROSOFT CORP",
+   "cls": "COM",
+   "cusip": "594918104",
+   "value": 294528000.0,
+   "shares": 2986800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "NABORS INDUSTRIES LTD",
+   "cls": "SHS",
+   "cusip": "G6359F103",
+   "value": 7538000.0,
+   "shares": 1176000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "NETFLIX INC",
+   "cls": "COM",
+   "cusip": "64110L106",
+   "value": 74254000.0,
+   "shares": 189700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "PAGSEGURO DIGITAL LTD COM",
+   "cls": "CL A",
+   "cusip": "G68707101",
+   "value": 5966000.0,
+   "shares": 215000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SALESFORCE COM INC",
+   "cls": "COM",
+   "cusip": "79466L302",
+   "value": 232603000.0,
+   "shares": 1705300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SELECT SECTOR SPDR TR",
+   "cls": "ENERGY",
+   "cusip": "81369Y506",
+   "value": 24726000.0,
+   "shares": 325600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SPLUNK INC",
+   "cls": "COM",
+   "cusip": "848637104",
+   "value": 33955000.0,
+   "shares": 342600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SQUARE INC",
+   "cls": "CL A",
+   "cusip": "852234103",
+   "value": 15225000.0,
+   "shares": 247000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "STAMPS COM INC",
+   "cls": "COM NEW",
+   "cusip": "852857200",
+   "value": 39122000.0,
+   "shares": 154600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "TAL ED GROUP",
+   "cls": "SPONSORED ADS",
+   "cusip": "874080104",
+   "value": 25098000.0,
+   "shares": 682000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "VANECK VECTORS ETF TR",
+   "cls": "OIL SVCS ETF",
+   "cusip": "92189F718",
+   "value": 44139000.0,
+   "shares": 1680200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "WORKDAY INC",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 78789000.0,
+   "shares": 650500.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

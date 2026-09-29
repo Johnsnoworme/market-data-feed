@@ -1,0 +1,260 @@
+{
+ "quarter": "2015-Q1",
+ "period": "2015-03-31",
+ "filed": "2015-05-15",
+ "acc": "0001536411-15-000004",
+ "holdings": [
+  {
+   "name": "Akamai Tech Inc",
+   "cls": "COM",
+   "cusip": "00971T101",
+   "value": 25242000.0,
+   "shares": 355300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alibaba Grp Hldg Ltd",
+   "cls": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 19936000.0,
+   "shares": 239500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Baidu.com Inc",
+   "cls": "SPON ADR REP A",
+   "cusip": "056752108",
+   "value": 17964000.0,
+   "shares": 86200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Banco Macro SA",
+   "cls": "SPON ADR B",
+   "cusip": "05961W105",
+   "value": 6298000.0,
+   "shares": 110100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Biogen Inc",
+   "cls": "COM",
+   "cusip": "09062X103",
+   "value": 73892000.0,
+   "shares": 175000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Bluebird Bio Inc",
+   "cls": "COM",
+   "cusip": "09609G100",
+   "value": 22232000.0,
+   "shares": 184082.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Celgene Corp",
+   "cls": "COM",
+   "cusip": "151020104",
+   "value": 22592000.0,
+   "shares": 195975.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cheniere Energy Inc",
+   "cls": "COM",
+   "cusip": "16411R208",
+   "value": 20023000.0,
+   "shares": 258700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cognizant Tech Sol'ns Corp",
+   "cls": "CL A",
+   "cusip": "192446102",
+   "value": 45351000.0,
+   "shares": 726900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "EOG Res's Inc",
+   "cls": "COM",
+   "cusip": "26875P101",
+   "value": 51493000.0,
+   "shares": 561600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Expedia Inc",
+   "cls": "COM",
+   "cusip": "30212P303",
+   "value": 15061000.0,
+   "shares": 160000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Facebook Inc",
+   "cls": "CL A",
+   "cusip": "30303M102",
+   "value": 20718000.0,
+   "shares": 252000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "HDFC Bank Ltd",
+   "cls": "ADR REPS 3 SHS",
+   "cusip": "40415F101",
+   "value": 59102000.0,
+   "shares": 1003600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "IRSA Inversiones Y Rep SA",
+   "cls": "GLOBAL DEP RCPT",
+   "cusip": "450047204",
+   "value": 794000.0,
+   "shares": 40300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Illumina Inc",
+   "cls": "COM",
+   "cusip": "452327109",
+   "value": 76131000.0,
+   "shares": 410100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Infosys Ltd",
+   "cls": "ADR",
+   "cusip": "456788108",
+   "value": 26538000.0,
+   "shares": 756500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Macrogenics Inc",
+   "cls": "COM",
+   "cusip": "556099109",
+   "value": 14822000.0,
+   "shares": 472500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Mattress Firm Hldg Corp",
+   "cls": "COM",
+   "cusip": "57722W106",
+   "value": 6052000.0,
+   "shares": 86900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nektar Therapeutics",
+   "cls": "COM",
+   "cusip": "640268108",
+   "value": 7205000.0,
+   "shares": 655000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Noble Energy Inc",
+   "cls": "COM",
+   "cusip": "655044105",
+   "value": 30382000.0,
+   "shares": 621300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Pampa Energia SA",
+   "cls": "SPONS ADR LVL I",
+   "cusip": "697660207",
+   "value": 3797000.0,
+   "shares": 214899.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Pioneer Nat'l Res's Co",
+   "cls": "COM",
+   "cusip": "723787107",
+   "value": 36708000.0,
+   "shares": 224500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Restaurant Brands Int'l Inc",
+   "cls": "COM",
+   "cusip": "76131D103",
+   "value": 19743000.0,
+   "shares": 514000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Telecom Argentina SA",
+   "cls": "SPON ADR REP B",
+   "cusip": "879273209",
+   "value": 5632000.0,
+   "shares": 248000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Teva Pharm Ind's Ltd",
+   "cls": "ADR",
+   "cusip": "881624209",
+   "value": 49248000.0,
+   "shares": 790500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Workday Inc",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 27913000.0,
+   "shares": 330679.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "YPF S.A.",
+   "cls": "SPON ADR CL D",
+   "cusip": "984245100",
+   "value": 19168000.0,
+   "shares": 698300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "LyondellBasell Ind's NV",
+   "cls": "SHS A",
+   "cusip": "N53745100",
+   "value": 62948000.0,
+   "shares": 716950.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

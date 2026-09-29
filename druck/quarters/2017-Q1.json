@@ -1,0 +1,431 @@
+{
+ "quarter": "2017-Q1",
+ "period": "2017-03-31",
+ "filed": "2017-05-15",
+ "acc": "0001536411-17-000007",
+ "holdings": [
+  {
+   "name": "Ac Immune Sa",
+   "cls": "SHS",
+   "cusip": "H00263105",
+   "value": 24747000.0,
+   "shares": 2388700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Activision Blizzard Inc",
+   "cls": "COM",
+   "cusip": "00507V109",
+   "value": 26790000.0,
+   "shares": 537300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Agnico Eagle Mines Ltd",
+   "cls": "COM",
+   "cusip": "008474108",
+   "value": 37470000.0,
+   "shares": 882900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alcoa Corp",
+   "cls": "COM",
+   "cusip": "013872106",
+   "value": 47146000.0,
+   "shares": 1370511.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alphabet Inc",
+   "cls": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 85119000.0,
+   "shares": 100400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Amazon Com Inc",
+   "cls": "COM",
+   "cusip": "023135106",
+   "value": 63033000.0,
+   "shares": 71100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "American Airls Group Inc",
+   "cls": "COM",
+   "cusip": "02376R102",
+   "value": 8591000.0,
+   "shares": 203100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Aspen Technology Inc",
+   "cls": "COM",
+   "cusip": "045327103",
+   "value": 12367000.0,
+   "shares": 209900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Autodesk Inc",
+   "cls": "COM",
+   "cusip": "052769106",
+   "value": 13692000.0,
+   "shares": 158349.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Bank Amer Corp",
+   "cls": "COM",
+   "cusip": "060505104",
+   "value": 49782000.0,
+   "shares": 2110300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Barrick Gold Corp",
+   "cls": "COM",
+   "cusip": "067901108",
+   "value": 54122000.0,
+   "shares": 2850000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cabot Oil & Gas Corp",
+   "cls": "COM",
+   "cusip": "127097103",
+   "value": 22848000.0,
+   "shares": 955588.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Celgene Corp",
+   "cls": "COM",
+   "cusip": "151020104",
+   "value": 10253000.0,
+   "shares": 82400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cheniere Energy Inc",
+   "cls": "COM NEW",
+   "cusip": "16411R208",
+   "value": 21089000.0,
+   "shares": 446145.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Comcast Corp New",
+   "cls": "CL A",
+   "cusip": "20030N101",
+   "value": 25802000.0,
+   "shares": 686400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ctrip Com Intl Ltd",
+   "cls": "AMERICAN DEP SHS",
+   "cusip": "22943F100",
+   "value": 44835000.0,
+   "shares": 912200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Electronic Arts Inc",
+   "cls": "COM",
+   "cusip": "285512109",
+   "value": 51358000.0,
+   "shares": 573700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Eqt Corp",
+   "cls": "COM",
+   "cusip": "26884L109",
+   "value": 8688000.0,
+   "shares": 142200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Expedia Inc Del",
+   "cls": "COM NEW",
+   "cusip": "30212P303",
+   "value": 25713000.0,
+   "shares": 203800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Facebook Inc",
+   "cls": "CL A",
+   "cusip": "30303M102",
+   "value": 57658000.0,
+   "shares": 405900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Halliburton Co",
+   "cls": "COM",
+   "cusip": "406216101",
+   "value": 14842000.0,
+   "shares": 301600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ishares Tr",
+   "cls": "MSCI EMG MKT ETF",
+   "cusip": "464287234",
+   "value": 98436000.0,
+   "shares": 2499000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Jd Com Inc",
+   "cls": "SPON ADR CL A",
+   "cusip": "47215P106",
+   "value": 19848000.0,
+   "shares": 638000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Las Vegas Sands Corp",
+   "cls": "COM",
+   "cusip": "517834107",
+   "value": 15791000.0,
+   "shares": 276700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Lyondellbasell Industries N",
+   "cls": "SHS - A -",
+   "cusip": "N53745100",
+   "value": 105625000.0,
+   "shares": 1158300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Microsoft Corp",
+   "cls": "COM",
+   "cusip": "594918104",
+   "value": 106970000.0,
+   "shares": 1624200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nektar Therapeutics",
+   "cls": "COM",
+   "cusip": "640268108",
+   "value": 15622000.0,
+   "shares": 665600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Netease Inc",
+   "cls": "SPONSORED ADR",
+   "cusip": "64110W102",
+   "value": 14796000.0,
+   "shares": 52100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Netflix Inc",
+   "cls": "COM",
+   "cusip": "64110L106",
+   "value": 10435000.0,
+   "shares": 70600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nucor Corp",
+   "cls": "COM",
+   "cusip": "670346105",
+   "value": 9376000.0,
+   "shares": 157000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Paypal Hldgs Inc",
+   "cls": "COM",
+   "cusip": "70450Y103",
+   "value": 24689000.0,
+   "shares": 573900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Pioneer Nat Res Co",
+   "cls": "COM",
+   "cusip": "723787107",
+   "value": 23949000.0,
+   "shares": 128600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Potash Corp Sask Inc",
+   "cls": "COM",
+   "cusip": "73755L107",
+   "value": 35757000.0,
+   "shares": 2093500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Priceline Grp Inc",
+   "cls": "COM NEW",
+   "cusip": "741503403",
+   "value": 72445000.0,
+   "shares": 40700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ptc Inc",
+   "cls": "COM",
+   "cusip": "69370C100",
+   "value": 43601000.0,
+   "shares": 829700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Pure Storage Inc",
+   "cls": "CL A",
+   "cusip": "74624M102",
+   "value": 9104000.0,
+   "shares": 926133.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Rice Energy Inc",
+   "cls": "COM",
+   "cusip": "762760106",
+   "value": 7737000.0,
+   "shares": 326455.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Rockwell Automation Inc",
+   "cls": "COM",
+   "cusip": "773903109",
+   "value": 15415000.0,
+   "shares": 99000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Salesforce Com Inc",
+   "cls": "COM",
+   "cusip": "79466L302",
+   "value": 79595000.0,
+   "shares": 964900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Sprint Corp",
+   "cls": "COM SER 1",
+   "cusip": "85207U105",
+   "value": 14439000.0,
+   "shares": 1663500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Symantec Corp",
+   "cls": "COM",
+   "cusip": "871503108",
+   "value": 16920000.0,
+   "shares": 551500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "T Mobile Us Inc",
+   "cls": "COM",
+   "cusip": "872590104",
+   "value": 15676000.0,
+   "shares": 242700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Twitter Inc",
+   "cls": "COM",
+   "cusip": "90184L102",
+   "value": 9045000.0,
+   "shares": 605000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "United Contl Hldgs Inc",
+   "cls": "COM",
+   "cusip": "910047109",
+   "value": 9296000.0,
+   "shares": 131600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Vulcan Matls Co",
+   "cls": "COM",
+   "cusip": "929160109",
+   "value": 14699000.0,
+   "shares": 122000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Williams Cos Inc Del",
+   "cls": "COM",
+   "cusip": "969457100",
+   "value": 9685000.0,
+   "shares": 327300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Workday Inc",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 19429000.0,
+   "shares": 233300.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

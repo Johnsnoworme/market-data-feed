@@ -1,0 +1,305 @@
+{
+ "quarter": "2016-Q1",
+ "period": "2016-03-31",
+ "filed": "2016-05-16",
+ "acc": "0001536411-16-000012",
+ "holdings": [
+  {
+   "name": "Agnico Eagle Mines Ltd",
+   "cls": "COM",
+   "cusip": "008474108",
+   "value": 15726000.0,
+   "shares": 434900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alphabet Inc.",
+   "cls": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 42494000.0,
+   "shares": 55700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Amazon.com Inc.",
+   "cls": "COM",
+   "cusip": "023135106",
+   "value": 45829000.0,
+   "shares": 77200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Am Elect Pwr Co Inc.",
+   "cls": "COM",
+   "cusip": "025537101",
+   "value": 10637000.0,
+   "shares": 160200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Barrick Gold Corp",
+   "cls": "COM",
+   "cusip": "067901108",
+   "value": 24887000.0,
+   "shares": 1832600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Caterpillar Inc.",
+   "cls": "COM",
+   "cusip": "149123101",
+   "value": 25258000.0,
+   "shares": 330000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Coca-Cola Co",
+   "cls": "COM",
+   "cusip": "191216100",
+   "value": 64431000.0,
+   "shares": 1388900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Consolidated Edison Inc.",
+   "cls": "COM",
+   "cusip": "209115104",
+   "value": 10872000.0,
+   "shares": 141900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Duke Energy Corp",
+   "cls": "COM",
+   "cusip": "26441C204",
+   "value": 52369000.0,
+   "shares": 649100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Emerson Electric Inc.",
+   "cls": "COM",
+   "cusip": "291011104",
+   "value": 29963000.0,
+   "shares": 551000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Facebook Inc.",
+   "cls": "CL A",
+   "cusip": "30303M102",
+   "value": 230903000.0,
+   "shares": 2023694.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "HDFC Bank Ltd.",
+   "cls": "ADR REPS 3 SHS",
+   "cusip": "40415F101",
+   "value": 7753000.0,
+   "shares": 125800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Home Depot Inc.",
+   "cls": "COM",
+   "cusip": "437076102",
+   "value": 20108000.0,
+   "shares": 150700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "IShrs MSCI Emg'g Mkt Idx",
+   "cls": "MSCI EMG MKT ETF",
+   "cusip": "464287234",
+   "value": 101757000.0,
+   "shares": 2971000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "JD.Com Inc.",
+   "cls": "SPON ADR CL A",
+   "cusip": "47215P106",
+   "value": 9445000.0,
+   "shares": 356400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "The Estee Lauder Co Inc.",
+   "cls": "CL A",
+   "cusip": "518439104",
+   "value": 10553000.0,
+   "shares": 111900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "McDonald's Corp",
+   "cls": "COM",
+   "cusip": "580135101",
+   "value": 19883000.0,
+   "shares": 158200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Microsoft Corp",
+   "cls": "COM",
+   "cusip": "594918104",
+   "value": 28559000.0,
+   "shares": 517100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "PPL Corp",
+   "cls": "COM",
+   "cusip": "69351T106",
+   "value": 37107000.0,
+   "shares": 974700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Pepsico Inc.",
+   "cls": "COM",
+   "cusip": "713448108",
+   "value": 36206000.0,
+   "shares": 353300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Philip Morris Int'l Inc.",
+   "cls": "COM",
+   "cusip": "718172109",
+   "value": 54431000.0,
+   "shares": 554800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Post Holdings Inc.",
+   "cls": "COM",
+   "cusip": "737446104",
+   "value": 20026000.0,
+   "shares": 291200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Pure Storage Inc.",
+   "cls": "CL A",
+   "cusip": "74624M102",
+   "value": 27169000.0,
+   "shares": 1984600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SPDR Gold Trust",
+   "cls": "GOLD SHS",
+   "cusip": "78463V907",
+   "value": 237162000.0,
+   "shares": 2016000.0,
+   "kind": "SH",
+   "putcall": "CALL"
+  },
+  {
+   "name": "Southern Co",
+   "cls": "COM",
+   "cusip": "842587107",
+   "value": 52630000.0,
+   "shares": 1017400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Southwest Airlines Co.",
+   "cls": "COM",
+   "cusip": "844741108",
+   "value": 22086000.0,
+   "shares": 493000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Tempur Sealy Int'l Inc.",
+   "cls": "COM",
+   "cusip": "88023U101",
+   "value": 7629000.0,
+   "shares": 125500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Verizon Comms Inc.",
+   "cls": "COM",
+   "cusip": "92343V104",
+   "value": 21632000.0,
+   "shares": 400000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "WEC Energy Grp Inc.",
+   "cls": "COM",
+   "cusip": "92939U106",
+   "value": 10692000.0,
+   "shares": 178000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "WhiteWave Foods Co",
+   "cls": "COM",
+   "cusip": "966244105",
+   "value": 14793000.0,
+   "shares": 364000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Williams Co's Inc.",
+   "cls": "COM",
+   "cusip": "969457100",
+   "value": 4474000.0,
+   "shares": 278400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Workday Inc.",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 19955000.0,
+   "shares": 259700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Zoetis Inc.",
+   "cls": "CL A",
+   "cusip": "98978V103",
+   "value": 21185000.0,
+   "shares": 477900.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

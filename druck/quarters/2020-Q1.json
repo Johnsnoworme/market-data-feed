@@ -1,0 +1,422 @@
+{
+ "quarter": "2020-Q1",
+ "period": "2020-03-31",
+ "filed": "2020-05-15",
+ "acc": "0001536411-20-000004",
+ "holdings": [
+  {
+   "name": "2U Inc",
+   "cls": "COM",
+   "cusip": "90214J101",
+   "value": 9438000.0,
+   "shares": 444748.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Abbott Labs",
+   "cls": "COM",
+   "cusip": "002824100",
+   "value": 62441000.0,
+   "shares": 791300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Activision Blizzard Inc",
+   "cls": "COM",
+   "cusip": "00507V109",
+   "value": 92813000.0,
+   "shares": 1560400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Adobe Inc",
+   "cls": "COM",
+   "cusip": "00724F101",
+   "value": 19072000.0,
+   "shares": 59930.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alibaba Group Hldg Ltd",
+   "cls": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 80146000.0,
+   "shares": 412105.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alnylam Pharmaceuticals Inc",
+   "cls": "COM",
+   "cusip": "02043Q107",
+   "value": 40102000.0,
+   "shares": 368419.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alphabet Inc",
+   "cls": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 162338000.0,
+   "shares": 139712.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Amazon Com Inc",
+   "cls": "COM",
+   "cusip": "023135106",
+   "value": 352312000.0,
+   "shares": 180699.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Anaplan Inc",
+   "cls": "COM",
+   "cusip": "03272L108",
+   "value": 5167000.0,
+   "shares": 170763.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Barrick Gold Corporation",
+   "cls": "COM",
+   "cusip": "067901108",
+   "value": 78256000.0,
+   "shares": 4271600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Coupa Software Inc",
+   "cls": "COM",
+   "cusip": "22266L106",
+   "value": 13135000.0,
+   "shares": 94000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Crowdstrike Hldgs Inc",
+   "cls": "CL A",
+   "cusip": "22788C105",
+   "value": 8855000.0,
+   "shares": 159040.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Datadog Inc",
+   "cls": "CL A COM",
+   "cusip": "23804L103",
+   "value": 929000.0,
+   "shares": 25810.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Dish Network Corporation",
+   "cls": "CL A",
+   "cusip": "25470M109",
+   "value": 19312000.0,
+   "shares": 966100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Disney Walt Co",
+   "cls": "COM DISNEY",
+   "cusip": "254687106",
+   "value": 2888000.0,
+   "shares": 29900.0,
+   "kind": "SH",
+   "putcall": "CALL"
+  },
+  {
+   "name": "Facebook Inc",
+   "cls": "CL A",
+   "cusip": "30303M102",
+   "value": 207458000.0,
+   "shares": 1243752.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Fastly Inc",
+   "cls": "CL A",
+   "cusip": "31188V100",
+   "value": 2202000.0,
+   "shares": 116036.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Fidelity Natl Information Sv",
+   "cls": "COM",
+   "cusip": "31620M106",
+   "value": 42001000.0,
+   "shares": 345288.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Flex Ltd",
+   "cls": "ORD",
+   "cusip": "Y2573F102",
+   "value": 3842000.0,
+   "shares": 458790.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Freeport-Mcmoran Inc",
+   "cls": "CL B",
+   "cusip": "35671D857",
+   "value": 9394000.0,
+   "shares": 1391700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "General Electric Co",
+   "cls": "COM",
+   "cusip": "369604103",
+   "value": 63249000.0,
+   "shares": 7965928.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "General Electric Co",
+   "cls": "COM",
+   "cusip": "369604103",
+   "value": 3340000.0,
+   "shares": 420700.0,
+   "kind": "SH",
+   "putcall": "CALL"
+  },
+  {
+   "name": "Home Depot Inc",
+   "cls": "COM",
+   "cusip": "437076102",
+   "value": 57712000.0,
+   "shares": 309100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Intelsat S A",
+   "cls": "COM",
+   "cusip": "L5140P101",
+   "value": 38000.0,
+   "shares": 25000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Iqvia Hldgs Inc",
+   "cls": "COM",
+   "cusip": "46266C105",
+   "value": 32666000.0,
+   "shares": 302855.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ishares Tr",
+   "cls": "MSCI INDIA ETF",
+   "cusip": "46429B598",
+   "value": 18093000.0,
+   "shares": 750450.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Jd Com Inc",
+   "cls": "SPON ADR CL A",
+   "cusip": "47215P106",
+   "value": 23486000.0,
+   "shares": 579894.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Las Vegas Sands Corp",
+   "cls": "COM",
+   "cusip": "517834107",
+   "value": 7482000.0,
+   "shares": 176168.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Luckin Coffee Inc",
+   "cls": "SPONSORED ADS",
+   "cusip": "54951L109",
+   "value": 578000.0,
+   "shares": 21276.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Microsoft Corp",
+   "cls": "COM",
+   "cusip": "594918104",
+   "value": 174243000.0,
+   "shares": 1104832.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Netflix Inc",
+   "cls": "COM",
+   "cusip": "64110L106",
+   "value": 317917000.0,
+   "shares": 846651.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "New Oriental Ed & Tech Grp I",
+   "cls": "SPON ADR",
+   "cusip": "647581107",
+   "value": 8684000.0,
+   "shares": 80230.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Nextcure Inc",
+   "cls": "COM",
+   "cusip": "65343E108",
+   "value": 5244000.0,
+   "shares": 141459.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Paypal Hldgs Inc",
+   "cls": "COM",
+   "cusip": "70450Y103",
+   "value": 89153000.0,
+   "shares": 931198.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Qualcomm Inc",
+   "cls": "COM",
+   "cusip": "747525103",
+   "value": 31941000.0,
+   "shares": 472150.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Reata Pharmaceuticals Inc",
+   "cls": "CL A",
+   "cusip": "75615P103",
+   "value": 76771000.0,
+   "shares": 531878.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Sea Ltd",
+   "cls": "SPONSORED ADS",
+   "cusip": "81141R100",
+   "value": 52017000.0,
+   "shares": 1173938.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Servicenow Inc",
+   "cls": "COM",
+   "cusip": "81762P102",
+   "value": 31532000.0,
+   "shares": 110030.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Sony Corp",
+   "cls": "SPONSORED ADR",
+   "cusip": "835699307",
+   "value": 8664000.0,
+   "shares": 146400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Tal Education Group",
+   "cls": "SPONSORED ADS",
+   "cusip": "874080104",
+   "value": 16633000.0,
+   "shares": 312300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Tencent Music Entmt Group",
+   "cls": "SPON ADS",
+   "cusip": "88034P109",
+   "value": 2151000.0,
+   "shares": 213775.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Tricida Inc",
+   "cls": "COM",
+   "cusip": "89610F101",
+   "value": 15144000.0,
+   "shares": 688344.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Twilio Inc",
+   "cls": "CL A",
+   "cusip": "90138F102",
+   "value": 2377000.0,
+   "shares": 26558.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Uber Technologies Inc",
+   "cls": "COM",
+   "cusip": "90353T100",
+   "value": 11000.0,
+   "shares": 400.0,
+   "kind": "SH",
+   "putcall": "CALL"
+  },
+  {
+   "name": "Workday Inc",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 214760000.0,
+   "shares": 1649211.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Xp Inc",
+   "cls": "CL A",
+   "cusip": "G98239109",
+   "value": 965000.0,
+   "shares": 50000.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

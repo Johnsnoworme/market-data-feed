@@ -1,0 +1,197 @@
+{
+ "quarter": "2014-Q1",
+ "period": "2014-03-31",
+ "filed": "2014-05-14",
+ "acc": "0001536411-14-000005",
+ "holdings": [
+  {
+   "name": "Adobe Systems Inc",
+   "cls": "COM",
+   "cusip": "00724F101",
+   "value": 64208000.0,
+   "shares": 976700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Alcoa Inc.",
+   "cls": "COM",
+   "cusip": "013817101",
+   "value": 64350000.0,
+   "shares": 5000000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Astrazeneca PLC",
+   "cls": "SPONSORED ADR",
+   "cusip": "046353108",
+   "value": 23389000.0,
+   "shares": 360500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cameco Corp",
+   "cls": "COM",
+   "cusip": "13321L108",
+   "value": 32706000.0,
+   "shares": 1428200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "EQT Corp",
+   "cls": "COM",
+   "cusip": "26884L109",
+   "value": 17057000.0,
+   "shares": 175900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Google Inc.",
+   "cls": "CL A",
+   "cusip": "38259P508",
+   "value": 289338000.0,
+   "shares": 259610.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Illumina Inc.",
+   "cls": "COM",
+   "cusip": "452327109",
+   "value": 37656000.0,
+   "shares": 253300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ISh MSCI Australia Idx Fd",
+   "cls": "MSCI AUST ETF",
+   "cusip": "464286103",
+   "value": 10270000.0,
+   "shares": 397000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ISh MSCI Chile Cap Inv Mkt Idx Fd",
+   "cls": "MSCI CH CAP ETF",
+   "cusip": "464286640",
+   "value": 3052000.0,
+   "shares": 67000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "ISh MSCI Phillipines Inv Mkt Idx Fd",
+   "cls": "MSCI PHILIPS ETF",
+   "cusip": "46429B408",
+   "value": 2979000.0,
+   "shares": 87300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Microsoft Corp",
+   "cls": "COM",
+   "cusip": "594918104",
+   "value": 70675000.0,
+   "shares": 1724200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Monsanto Co",
+   "cls": "COM",
+   "cusip": "61166W101",
+   "value": 20194000.0,
+   "shares": 177500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SanDisk Corp",
+   "cls": "COM",
+   "cusip": "80004C101",
+   "value": 10620000.0,
+   "shares": 130800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Mat'ls Select Sctr SPDR Tst",
+   "cls": "SBI MATERIALS",
+   "cusip": "81369Y100",
+   "value": 9882000.0,
+   "shares": 209000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Hlth Care Select Sctr SPDR",
+   "cls": "SBI HEALTHCARE",
+   "cusip": "81369Y209",
+   "value": 11306000.0,
+   "shares": 193300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Fin'l Select Sector SPDR Fnd",
+   "cls": "SBI INT-FINL",
+   "cusip": "81369Y605",
+   "value": 9999000.0,
+   "shares": 447600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Teva Pharm Ind's Ltd",
+   "cls": "ADR",
+   "cusip": "881624209",
+   "value": 65574000.0,
+   "shares": 1241000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Walgreen Co",
+   "cls": "COM",
+   "cusip": "931422109",
+   "value": 81877000.0,
+   "shares": 1240000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Workday Inc.",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 39962000.0,
+   "shares": 437079.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "NXP Semiconductors NV",
+   "cls": "COM",
+   "cusip": "N6596X109",
+   "value": 10551000.0,
+   "shares": 179400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Sensata Technologies Hldng NV",
+   "cls": "SHS",
+   "cusip": "N7902X106",
+   "value": 10579000.0,
+   "shares": 248100.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}

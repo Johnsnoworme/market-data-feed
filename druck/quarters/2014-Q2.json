@@ -1,0 +1,422 @@
+{
+ "quarter": "2014-Q2",
+ "period": "2014-06-30",
+ "filed": "2014-08-14",
+ "acc": "0001536411-14-000007",
+ "holdings": [
+  {
+   "name": "Alcoa Inc.",
+   "cls": "COM",
+   "cusip": "013817101",
+   "value": 85528000.0,
+   "shares": 5744000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Allegheny Tech Inc.",
+   "cls": "COM",
+   "cusip": "01741R102",
+   "value": 23001000.0,
+   "shares": 510000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "American Air Group Inc.",
+   "cls": "COM",
+   "cusip": "02376R102",
+   "value": 10340000.0,
+   "shares": 240700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Astrazeneca PLC",
+   "cls": "SPON ADR",
+   "cusip": "046353108",
+   "value": 15523000.0,
+   "shares": 208900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Baidu.com Inc.",
+   "cls": "SPON ADR REP A",
+   "cusip": "056752108",
+   "value": 23538000.0,
+   "shares": 126000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Biogen Idec Inc.",
+   "cls": "COM",
+   "cusip": "09062X103",
+   "value": 32729000.0,
+   "shares": 103800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Cameco Corp",
+   "cls": "COM",
+   "cusip": "13321L108",
+   "value": 28007000.0,
+   "shares": 1428200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Canadian Pac Railway Ltd.",
+   "cls": "COM",
+   "cusip": "13645T100",
+   "value": 16665000.0,
+   "shares": 92000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Celgene Corp",
+   "cls": "COM",
+   "cusip": "151020104",
+   "value": 23703000.0,
+   "shares": 276000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "D.R. Horton Inc.",
+   "cls": "COM",
+   "cusip": "23331A109",
+   "value": 12153000.0,
+   "shares": 494429.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Devon Energy Corp",
+   "cls": "COM",
+   "cusip": "25179M103",
+   "value": 16476000.0,
+   "shares": 207500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "DISH Network Corp",
+   "cls": "CL A",
+   "cusip": "25470M109",
+   "value": 26976000.0,
+   "shares": 414500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "EOG Resources Inc.",
+   "cls": "COM",
+   "cusip": "26875P101",
+   "value": 33679000.0,
+   "shares": 288200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "EQT Corp",
+   "cls": "COM",
+   "cusip": "26884L109",
+   "value": 18804000.0,
+   "shares": 175900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Expeditors Int'l of Wash Inc.",
+   "cls": "COM",
+   "cusip": "302130109",
+   "value": 9715000.0,
+   "shares": 220000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Facebook Inc",
+   "cls": "CL A",
+   "cusip": "30303M102",
+   "value": 63825000.0,
+   "shares": 948500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Fluor Corp",
+   "cls": "COM",
+   "cusip": "343412102",
+   "value": 14826000.0,
+   "shares": 192800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Google Inc",
+   "cls": "CL A",
+   "cusip": "38259P508",
+   "value": 151786000.0,
+   "shares": 259610.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Google Inc",
+   "cls": "CL C",
+   "cusip": "38259P706",
+   "value": 74159000.0,
+   "shares": 128910.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "HCA Hldgs Inc.",
+   "cls": "COM",
+   "cusip": "40412C101",
+   "value": 10972000.0,
+   "shares": 194600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Halliburton Co",
+   "cls": "COM",
+   "cusip": "406216101",
+   "value": 26181000.0,
+   "shares": 368700.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Humana Inc.",
+   "cls": "COM",
+   "cusip": "444859102",
+   "value": 10716000.0,
+   "shares": 83900.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Illumina Inc.",
+   "cls": "COM",
+   "cusip": "452327109",
+   "value": 73219000.0,
+   "shares": 410100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "IShares FTSE China 25 Idx Fnd",
+   "cls": "CHINA LG-CAP ETF",
+   "cusip": "464287184",
+   "value": 10412000.0,
+   "shares": 281100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Lennar Corp",
+   "cls": "CL A",
+   "cusip": "526057104",
+   "value": 15549000.0,
+   "shares": 370400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Marathon Pete Corp",
+   "cls": "COM",
+   "cusip": "56585A102",
+   "value": 9634000.0,
+   "shares": 123400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Mkt Vectors Gld Miners ETF",
+   "cls": "GOLD MINER ETF",
+   "cusip": "57060U100",
+   "value": 103023000.0,
+   "shares": 3895000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "McDermott Int'l Inc.",
+   "cls": "COM",
+   "cusip": "580037109",
+   "value": 26697000.0,
+   "shares": 3300000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Occidental Pete Corp",
+   "cls": "COM",
+   "cusip": "674599105",
+   "value": 10612000.0,
+   "shares": 103400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Petroleo Brasileiro SA",
+   "cls": "SPON ADR",
+   "cusip": "71654V408",
+   "value": 25120000.0,
+   "shares": 1717000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Phillips 66",
+   "cls": "COM",
+   "cusip": "718546104",
+   "value": 24386000.0,
+   "shares": 303200.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Pioneer Nat'l Res's Co",
+   "cls": "COM",
+   "cusip": "723787107",
+   "value": 22935000.0,
+   "shares": 99800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Range Res's Corp",
+   "cls": "COM",
+   "cusip": "75281A109",
+   "value": 31598000.0,
+   "shares": 363400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SPDR S&P 500 ETF Trust",
+   "cls": "TR UNIT",
+   "cusip": "78462F103",
+   "value": 10001000.0,
+   "shares": 51100.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "SanDisk Corp",
+   "cls": "COM",
+   "cusip": "80004C101",
+   "value": 34525000.0,
+   "shares": 330600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Mat's Select Sctr SPDR Trust",
+   "cls": "SBI MATERIALS",
+   "cusip": "81369Y100",
+   "value": 10057000.0,
+   "shares": 202600.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Hlth Care Select Sctr SPDR",
+   "cls": "SBI HEALTHCARE",
+   "cusip": "81369Y209",
+   "value": 10481000.0,
+   "shares": 172300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Fin'l Select Sctr SPDR Fnd",
+   "cls": "SBI INT-FINL",
+   "cusip": "81369Y605",
+   "value": 10040000.0,
+   "shares": 441500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Ind'l Select Sctr SPDR",
+   "cls": "SBI INT-INDS",
+   "cusip": "81369Y704",
+   "value": 9909000.0,
+   "shares": 183300.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Tech Select Sctr SPDR Fnd",
+   "cls": "TECHNOLOGY",
+   "cusip": "81369Y803",
+   "value": 15125000.0,
+   "shares": 394400.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Sunpower Corp",
+   "cls": "COM",
+   "cusip": "867652406",
+   "value": 10278000.0,
+   "shares": 250800.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Teva Pharm Ind's Ltd",
+   "cls": "ADR",
+   "cusip": "881624209",
+   "value": 65053000.0,
+   "shares": 1241000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Valero Energy Corporation",
+   "cls": "COM",
+   "cusip": "91913Y100",
+   "value": 9945000.0,
+   "shares": 198500.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Walgreen Co",
+   "cls": "COM",
+   "cusip": "931422109",
+   "value": 91921000.0,
+   "shares": 1240000.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "Workday Inc.",
+   "cls": "CL A",
+   "cusip": "98138H101",
+   "value": 20010000.0,
+   "shares": 222679.0,
+   "kind": "SH",
+   "putcall": ""
+  },
+  {
+   "name": "NXP Semiconductors NV",
+   "cls": "COM",
+   "cusip": "N6596X109",
+   "value": 21469000.0,
+   "shares": 324400.0,
+   "kind": "SH",
+   "putcall": ""
+  }
+ ]
+}
