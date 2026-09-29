@@ -1,0 +1,140 @@
+{
+ "ny_date": "2026-09-28",
+ "hits": [
+  {
+   "ticker": "ERO",
+   "name": "Ero Copper Corp. Common Shares",
+   "cap_b": 3.9,
+   "theme": "⚡ 전력·에너지 병목",
+   "industry": "Copper",
+   "rev": 0.739,
+   "vs63": 42.3,
+   "dd": -7.4,
+   "acc": 5,
+   "fund": "흑자 · 매출 +74% · 순이익(분기) +27%"
+  },
+  {
+   "ticker": "TGB",
+   "name": "Trekor Metals Limited Common Shares",
+   "cap_b": 3.2,
+   "theme": "⚡ 전력·에너지 병목",
+   "industry": "Copper",
+   "rev": 1.848,
+   "vs63": 36.5,
+   "dd": -9.1,
+   "acc": 5,
+   "fund": "흑자 · 매출 +185% · 순이익(분기) +2%"
+  },
+  {
+   "ticker": "NESR",
+   "name": "National Energy Services Reunited Corp O",
+   "cap_b": 3.2,
+   "theme": "⚡ 전력·에너지 병목",
+   "industry": "Oil & Gas Equipment & Services",
+   "rev": 0.591,
+   "vs63": 2.8,
+   "dd": -17.9,
+   "acc": 2,
+   "fund": "흑자 · 매출 +59% · 순이익(분기) +190%"
+  }
+ ],
+ "near": [
+  {
+   "ticker": "PI",
+   "name": "Impinj Inc. Common Stock",
+   "cap_b": 5.4,
+   "theme": "🧠 AI 칩·장비",
+   "industry": "Semiconductors",
+   "rev": 0.107,
+   "vs63": 30.9,
+   "dd": -26.9,
+   "acc": 4,
+   "fund": "적자 · 매출 +11% · 순이익(분기) +6%"
+  },
+  {
+   "ticker": "OII",
+   "name": "Oceaneering International Inc. Common St",
+   "cap_b": 4.6,
+   "theme": "⚡ 전력·에너지 병목",
+   "industry": "Oil & Gas Equipment & Services",
+   "rev": 0.1,
+   "vs63": 14.1,
+   "dd": -15.3,
+   "acc": 7,
+   "fund": "흑자 · 매출 +10% · 순이익(분기) +19%"
+  },
+  {
+   "ticker": "VNT",
+   "name": "Vontier Corporation Common Stock ",
+   "cap_b": 4.3,
+   "theme": "🔌 AI 인프라 (메모리·광·부품)",
+   "industry": "Scientific & Technical Instruments",
+   "rev": -0.022,
+   "vs63": 6.1,
+   "dd": -28.1,
+   "acc": 1,
+   "fund": "흑자 · 매출 -2% · 순이익(분기) -70%"
+  },
+  {
+   "ticker": "DGII",
+   "name": "Digi International Inc. Common Stock",
+   "cap_b": 3.0,
+   "theme": "🔌 AI 인프라 (메모리·광·부품)",
+   "industry": "Communication Equipment",
+   "rev": 0.29,
+   "vs63": 5.0,
+   "dd": -8.2,
+   "acc": 6,
+   "fund": "흑자 · 매출 +29% · 순이익(분기) +54%"
+  },
+  {
+   "ticker": "ITRI",
+   "name": "Itron Inc. Common Stock",
+   "cap_b": 3.9,
+   "theme": "🔌 AI 인프라 (메모리·광·부품)",
+   "industry": "Scientific & Technical Instruments",
+   "rev": -0.072,
+   "vs63": 3.9,
+   "dd": -36.0,
+   "acc": 2,
+   "fund": "흑자 · 매출 -7% · 순이익(분기) -22%"
+  },
+  {
+   "ticker": "TXNM",
+   "name": "TXNM Energy Inc. Common Stock",
+   "cap_b": 6.4,
+   "theme": "⚡ 전력·에너지 병목",
+   "industry": "Utilities - Regulated Electric",
+   "rev": 0.092,
+   "vs63": 1.3,
+   "dd": -1.3,
+   "acc": 5,
+   "fund": "흑자 · 매출 +9% · 순이익(분기) +230%"
+  },
+  {
+   "ticker": "WTTR",
+   "name": "Select Water Solutions Inc. Class A comm",
+   "cap_b": 2.7,
+   "theme": "⚡ 전력·에너지 병목",
+   "industry": "Oil & Gas Equipment & Services",
+   "rev": 0.087,
+   "vs63": 1.3,
+   "dd": -9.0,
+   "acc": 4,
+   "fund": "흑자 · 매출 +9% · 순이익(분기) +98%"
+  },
+  {
+   "ticker": "PLPC",
+   "name": "Preformed Line Products Company Common S",
+   "cap_b": 2.1,
+   "theme": "⚡ 전력·에너지 병목",
+   "industry": "Electrical Equipment & Parts",
+   "rev": 0.254,
+   "vs63": 1.1,
+   "dd": -13.4,
+   "acc": 2,
+   "fund": "흑자 · 매출 +25% · 순이익(분기) +69%"
+  }
+ ],
+ "generated_utc": "2026-09-29T05:35:03.688714+00:00"
+}
