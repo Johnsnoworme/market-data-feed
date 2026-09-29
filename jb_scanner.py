@@ -421,7 +421,7 @@ def update_monthly(weekly, stars, week_end):
 
 
 CREDIBLE_DOLLAR_VOL = 50_000_000   # 믿을 만한 종목: 하루 거래대금 5천만$↑ + 상장 1년↑ (52주)
-NEAR_MA = 15.0     # 12주선 대비 +15% 이내 = 아직 멀리 안 감 (오르려는 자리)
+NEAR_MA = float("inf")  # 2026-09-29 John: 김종봉 원본에 충실 → 12주선 +15% 조건 없앰 (이동평균 거르기 안 함)
 MAIN_TOP = 10     # 표에 보여줄 후보 수
 LEADERS = ["NVDA", "MSFT", "AAPL", "AMZN", "GOOGL", "META", "AVGO", "TSLA"]
 
@@ -476,7 +476,7 @@ def kim_md(rows, lead, L, q, week_end, universe_n):
                 f"{r['week_pct']:+.1f}% | {r['up']:+.1f}% |\n")
     md = f"# 김종봉 스캐너 — {d} 주간\n\n"
     md += (f"> 나스닥 기준: {L['peak_d'].strftime('%m/%d')} 고점 → {L['trough_d'].strftime('%m/%d')} 저점 **{qd:+.1f}%** → 지금 **저점 대비 {qu:+.1f}%**\n")
-    md += (f"> 하락 구간에 나스닥보다 **덜 빠지고** + 반등 구간에 **더 오른** 종목 중, 아직 멀리 안 간(12주선 +15% 이내) 강한 순 **최대 {SHOW_TOP}개** "
+    md += (f"> 하락 구간에 나스닥보다 **덜 빠지고** + 반등 구간에 **더 오른** 종목 중 강한 순 **최대 {SHOW_TOP}개** (김종봉 원본 기준 — 이동평균 조건 없음) "
            f"· 시총 $10B+ · 상장 1년↑ · 하루 거래대금 5천만$↑ · 🔥 = 하락 구간에 오히려 오름\n\n")
     if lead:
         win = [r["ticker"] for r in lead if r["pass"]]

@@ -1,0 +1,32 @@
+name: Druckenmiller 13F Tracker
+
+on:
+  schedule:
+    # 매일 한 번 새 13F가 있는지 확인 (공시는 연 4회, 새 분기 파일만 추가로 받음)
+    - cron: '40 22 * * *'
+  push:
+    paths:
+      - 'druck_13f.py'
+      - '.github/workflows/druck_13f.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  druck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install requests
+      - run: python druck_13f.py
+        env:
+          SEC_UA: ${{ secrets.SEC_UA }}
+      - run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add druck
+          git diff --staged --quiet || (git commit -m "Druckenmiller 13F update" && git pull --rebase && git push)
