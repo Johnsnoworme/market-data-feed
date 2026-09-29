@@ -126,6 +126,27 @@ def weekly_pullback(c, h, l):
     return round((hi - float(c.iloc[-1])) / (hi - lo) * 100, 1)
 
 
+def wk(d):
+    """'2026-09-25' → '9월4주'"""
+    try:
+        y, m, dd = map(int, str(d)[:10].split("-"))
+        return f"{m}월{(dd - 1) // 7 + 1}주"
+    except Exception:
+        return ""
+
+
+def quality(f):
+    """🔢 숫자 게이트 (기관이 좋아하는 모양): 흑자+매출 10%↑ 또는 흑자+순이익 20%↑ = ✅ / 적자지만 매출 25%↑ = 🟡 / 나머지 ❌"""
+    if not f:
+        return "❔", None
+    pm, rev, eq = f.get("pm"), f.get("rev"), f.get("eq")
+    if pm is not None and pm > 0 and ((rev or 0) >= 0.10 or (eq or 0) >= 0.20):
+        return "✅ 숫자 좋음", True
+    if (pm is None or pm <= 0) and (rev or 0) >= 0.25:
+        return "🟡 적자·고성장", True
+    return "❌ 숫자 약함", False
+
+
 def price_score(s):
     """가격 점수 (0~6): 📈 지수보다 강함 · 🎯 자리 · 🧲 매집 흔적. 출처 겹침·1군 가산은 대시보드에서 (+3까지)"""
     sc = 0
@@ -264,32 +285,37 @@ def main():
             s = stats(t)
             if s:
                 wl[tier].append(dict(s, tier=tier))
-    # 🏁 통합 풀 (📺 소수몽키는 대시보드에서 합침)
+    # 🏁 통합 풀 (📺 소수몽키는 대시보드에서 합침) — 출처마다 날짜까지
     src = {}
     for t in t1:
-        src.setdefault(t, []).append("⭐1군")
+        src.setdefault(t, []).append("⭐워치 1군")
     for t in t2:
-        src.setdefault(t, []).append("⭐2군")
+        src.setdefault(t, []).append("⭐워치 2군")
     for t, r in t3.items():
         if r.get("src") == "J":
-            src.setdefault(t, []).append("🧭김종봉")
+            src.setdefault(t, []).append(f"🧭김종봉 ({wk(r.get('date'))})")
         else:
-            src.setdefault(t, []).append("🏆" + "·".join(k for k in ("D", "W", "M") if k in r.get("kinds", [])))
+            src.setdefault(t, []).append("🏆Top3 " + "·".join(k for k in ("D", "W", "M") if k in r.get("kinds", [])) + f" ({wk(r.get('date'))})")
     for t, tag in dm.items():
-        src.setdefault(t, []).append(f"🦅{tag}")
+        src.setdefault(t, []).append(f"🦅드러켄밀러 {dq[2:4]}Q{dq[-1]} {tag}")
     for t in fear_set:
-        src.setdefault(t, []).append("🟢공포")
+        src.setdefault(t, []).append("🟢공포 레이더")
+    wl_set = set(t1) | set(t2)
     pool = []
     for t, tags in src.items():
         s = stats(t)
         if not s:
             continue
+        f = next((x.get("f") for x in fear if x["ticker"] == t), None) or fundamentals(t)
+        ql, qp = quality(f)
         ps = price_score(s)
-        groups = {g[0] for g in tags if not g.startswith("⭐")} | ({"⭐"} if any(g.startswith("⭐") for g in tags) else set())
-        bonus = (2 if len(groups) >= 3 else 1 if len(groups) == 2 else 0) + (1 if "⭐1군" in tags else 0)
+        groups = {g[0] for g in tags}
+        bonus = (2 if len(groups) >= 3 else 1 if len(groups) == 2 else 0) + (1 if "⭐워치 1군" in tags else 0)
         pool.append(dict(ticker=t, sources=tags, price_score=ps, score=ps + bonus, dd=s["dd"], vs63=s["vs63"],
-                         acc=(s["acc"] or {}).get("score"), zone=s["zone"], zone_order=s["zone_order"], retr=s["retr"], basis=s["basis"]))
-    pool.sort(key=lambda r: (-r["score"], r["zone_order"] if 2 <= r["zone_order"] <= 5 else 9, -r["vs63"]))
+                         acc=(s["acc"] or {}).get("score"), zone=s["zone"], zone_order=s["zone_order"], retr=s["retr"], basis=s["basis"],
+                         fear=bool(s.get("fear")), quality=ql, q_pass=(True if t in wl_set else qp), watch=t in wl_set,
+                         fund=ftxt(f)))
+    pool.sort(key=lambda r: -r["vs63"])
     # 전체 가격 지표 (대시보드에서 📺 소수몽키 종목 찾을 때 씀)
     allstats = {}
     for t in universe - {"QQQ"}:
@@ -303,11 +329,11 @@ def main():
     lead_ok = [t for t in LEADERS if stats(t) and stats(t)["vs63"] > 0]
     fg, fgl = fear_greed()
     if qdd <= -10 or len(lead_ok) <= 2:
-        wx, wtxt = "🔴 폭풍", "관망이 기본. 🟢 공포 후보는 적어만 두기. (풋은 아직 John 룰에 없음)"
+        wx, wtxt = "🔴 폭풍 → 🛍️ 빅 세일 모드", "좋은 종목(⭐워치·✅숫자)이 공포로 크게 빠진 것 우선. 단 바닥 신호(🧲 매집·저점 방어·지수보다 덜 빠짐)가 보일 때만, 나눠서"
     elif qdd > -5 and len(lead_ok) >= 5:
-        wx, wtxt = "🟢 맑음", "강한 종목의 30~70% 눌림에서 콜 후보를 찾을 때"
+        wx, wtxt = "🟢 맑음 → 🔥 강세 눌림 모드", "지수보다 강한 종목의 30~70% 눌림 우선. 신고가 추격 금지"
     else:
-        wx, wtxt = "🟡 흐림", "선별 — 가장 강한 1개만, 크기는 작게"
+        wx, wtxt = "🟡 흐림 → 두 모드 모두", "강세 눌림과 빅 세일 둘 다 본다. 가장 좋은 1개만"
     weather = dict(label=wx, advice=wtxt, qqq_dd=round(float(qdd), 1), qqq_20d=round(float(q20), 1),
                    leaders_strong=len(lead_ok), leaders=lead_ok, fear_greed=fg, fear_greed_label=fgl, fear_count=len(fear))
 
@@ -321,11 +347,19 @@ def main():
     md += (f"## 🌤️ 시장 날씨: {wx}\n> {wtxt}\n> QQQ 고점 대비 {qdd:+.1f}% · 최근 20일 {q20:+.1f}% · 대장주 8개 중 지수보다 강함 {len(lead_ok)}개"
            f"{' (' + ', '.join(lead_ok) + ')' if lead_ok else ''} · Fear & Greed {fg if fg is not None else '—'} {fgl} · 🟢공포 후보 {len(fear)}개\n\n")
     md += "> 가격·거래량만 본다 (이동평균 없음). 읽는 법 → 옵시디언 [[📖 한 방 대시보드 설명서]]. 매수 추천이 아니다.\n\n"
-    md += "## 🏁 통합 후보 순위 (📺 소수몽키는 옵시디언 대시보드에서 합쳐짐)\n"
-    md += "| # | 티커 | 출처 | 점수 | 풀백 위치 | 고점 대비 | 3개월 QQQ 대비 | 🧲 |\n| ---: | :--- | :--- | ---: | :--- | ---: | ---: | ---: |\n"
-    for i, r in enumerate(pool[:20], 1):
-        md += (f"| {i} | {fvl(r['ticker'])} | {' '.join(r['sources'])} | {r['score']} | {r['zone']}{(' (' + format(r['retr'], '.0f') + '%)') if r['retr'] is not None else ''} | "
-               f"{r['dd']:+.0f}% | {r['vs63']:+.0f}%p | {r['acc'] if r['acc'] is not None else '—'} |\n")
+    ready = [r for r in pool if r["q_pass"] is not False and (2 <= r["zone_order"] <= 5 or r["fear"])]
+    wait = [r for r in pool if r["q_pass"] is not False and r not in ready]
+    junk = [r for r in pool if r["q_pass"] is False]
+    head = "| # | 티커 | 출처 (언제) | 풀백 위치 | 3개월 QQQ 대비 | 고점 대비 | 🧲 | 숫자 | 점수 |\n| ---: | :--- | :--- | :--- | ---: | ---: | ---: | :--- | ---: |\n"
+    def prow(i, r):
+        return (f"| {i} | {fvl(r['ticker'])} | {' · '.join(r['sources'])} | {r['zone']}{(' (' + format(r['retr'], '.0f') + '%)') if r['retr'] is not None else ''} | "
+                f"{r['vs63']:+.0f}%p | {r['dd']:+.0f}% | {r['acc'] if r['acc'] is not None else '—'} | {r['quality']} | {r['score']} |\n")
+    md += "## 🎯 지금 자리에 있는 후보 (🔔 30~70% 눌림 또는 🟢공포 · 3개월 QQQ 대비 강한 순)\n"
+    md += (head + "".join(prow(i, r) for i, r in enumerate(ready, 1))) if ready else "- 없음\n"
+    md += "\n## ⏳ 강하지만 아직 자리 아님 (기다림 · 3개월 QQQ 대비 강한 순)\n"
+    md += (head + "".join(prow(i, r) for i, r in enumerate(wait[:15], 1))) if wait else "- 없음\n"
+    if junk:
+        md += "\n> 🗑️ 숫자 게이트에서 걸러짐 (흑자+성장 아님): " + ", ".join(f"{r['ticker']}({r['fund']})" for r in junk) + "\n"
     md += f"\n## 🟢 공포 속 기회 후보 (52주 고점 대비 {FEAR_DD:.0f}%↓ + 매도가 마르는 흔적)\n"
     if fear:
         md += "| 티커 | 고점 대비 | 🧲 | 최근 10일 QQQ 대비 | 저점 방어 | 하락일 거래량 | 숫자 |\n| :--- | ---: | ---: | ---: | :---: | ---: | :--- |\n"
@@ -337,7 +371,7 @@ def main():
         md += "- 오늘은 없음\n"
     for tier, title in ((1, "🔴 ⭐ 1군 — 세상을 바꾸는 티커"), (2, "🟡 ⭐ 2군 — 메이저·핵심 테마")):
         md += f"\n## {title}\n| 티커 | 풀백 위치 (주봉) | 고점 대비 | 3개월 QQQ 대비 | 🧲 | 신호 |\n| :--- | :--- | ---: | ---: | ---: | :--- |\n"
-        for s in sorted(wl[tier], key=lambda s: s["dd"]):
+        for s in sorted(wl[tier], key=lambda s: s["ticker"]):
             a = s["acc"]
             sig = []
             if s["dd"] <= FEAR_DD:
