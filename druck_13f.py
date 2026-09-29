@@ -12,10 +12,20 @@ import requests
 
 CIK = "1536411"
 OUT = "druck"
-UA = os.environ.get("SEC_UA") or "Johnsnoworme-market-data-feed github-actions@users.noreply.github.com"
-H = {"User-Agent": UA, "Accept-Encoding": "gzip, deflate"}
+# SEC는 "이름 연락처" 형식의 User-Agent를 요구 (github noreply 주소는 거절됨, 2026-09-29 확인)
+UAS = [u for u in (os.environ.get("SEC_UA"), "Trinity Research admin@example.com",
+                   "Mozilla/5.0 (compatible; TrinityResearch/1.0; +admin@example.com)") if u]
 S = requests.Session()
-S.headers.update(H)
+S.headers.update({"User-Agent": UAS[0], "Accept-Encoding": "gzip, deflate"})
+
+
+def pick_ua():
+    for ua in UAS:
+        S.headers["User-Agent"] = ua
+        if S.get(f"https://data.sec.gov/submissions/CIK{CIK.zfill(10)}.json", timeout=30).status_code == 200:
+            print(f"SEC 접속 OK: {ua}")
+            return
+    raise RuntimeError("SEC가 모든 User-Agent를 거절")
 
 
 def get(url, **kw):
@@ -133,6 +143,7 @@ def main():
     os.makedirs(f"{OUT}/quarters", exist_ok=True)
     cmap_p = f"{OUT}/cusip_map.json"
     cmap = json.load(open(cmap_p)) if os.path.exists(cmap_p) else {}
+    pick_ua()
     filings = list_filings()
     print(f"13F 공시 {len(filings)}건")
     # 분기마다 원본(13F-HR) 기준, 같은 분기 여러 건이면 가장 늦은 원본 사용 (정정본 중 전체 재작성은 SEC상 표시가 애매해 제외)
