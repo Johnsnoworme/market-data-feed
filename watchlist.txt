@@ -1,10 +1,11 @@
-# 김종봉 스캐너에 항상 포함할 추가 워치리스트 (한 줄에 티커 하나, # 뒤는 메모)
-# 최근 60일 Daily/Weekly/Monthly Top 3 종목은 자동으로 포함됩니다.
-NVDA
-TSLA
-PLTR
-ORCL
-HOOD
-CRCL
-MSTR
-TEM
+# ⭐ 워치리스트 1군 — 기준: "세상을 바꿀 수 있는 티커" (2026-09-29, John 결정)
+# 원본 목록은 옵시디언 "⭐ Watchlist" 폴더(tier: 1). 여기는 스캐너용 복사본 — 한 줄에 티커 하나, # 뒤는 메모
+# 최근 60일 Daily/Weekly/Monthly Top 3 종목은 스캐너에 자동으로 포함됩니다.
+NVDA   # NVIDIA
+TSLA   # Tesla
+PLTR   # Palantir
+HOOD   # Robinhood
+MSTR   # Strategy
+META   # Meta Platforms
+AMD    # AMD
+GOOGL  # Alphabet
