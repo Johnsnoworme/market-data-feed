@@ -6,6 +6,6 @@
 | ---: | :--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: |
 | 1 | [ERO](https://finviz.com/quote.ashx?t=ERO&p=w) | Ero Copper Corp. Common Shares | ⚡ 전력·에너지 병목 | $3.9B | +74% | +42%p | -7% | 5 |
 | 2 | [TGB](https://finviz.com/quote.ashx?t=TGB&p=w) | Trekor Metals Limited Common Shares | ⚡ 전력·에너지 병목 | $3.2B | +185% | +36%p | -9% | 5 |
-| 3 | [NESR](https://finviz.com/quote.ashx?t=NESR&p=w) | National Energy Services Reunited Corp O | ⚡ 전력·에너지 병목 | $3.2B | +59% | +3%p | -18% | 2 |
+| 3 | [AEHR](https://finviz.com/quote.ashx?t=AEHR&p=w) | Aehr Test Systems Common Stock | 🧠 AI 칩·장비 | $3.4B | +34% | +2%p | -32% | 4 |
 
-> 아깝게 빠짐 (병목 테마 + 지수보다 강함, 매출 성장 30% 미만): PI(+11%), OII(+10%), VNT(-2%), DGII(+29%), ITRI(-7%), TXNM(+9%), WTTR(+9%), PLPC(+25%)
+> 아깝게 빠짐 (병목 테마 + 지수보다 강함, 매출 성장 30% 미만): PI(+11%), VNT(-2%), DGII(+29%), ITRI(-7%), TXNM(+9%), PLPC(+25%), AMBA(+13%)
