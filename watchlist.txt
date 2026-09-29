@@ -9,12 +9,12 @@ MSTR   # Strategy
 META   # Meta Platforms
 AMD    # AMD
 GOOGL  # Alphabet
+SPCX   # SpaceX (2026-06 상장, 2026-09-29 1군으로)
 # ⭐ 2군 — 메이저·핵심 테마 (2026-09-29, John 결정)
 AAPL   # Apple
 MSFT   # Microsoft
 AMZN   # Amazon
 TSM    # TSMC
-SPCX   # SpaceX (2026-06 상장)
 AVGO   # Broadcom
 ORCL   # Oracle
 CRWD   # CrowdStrike
