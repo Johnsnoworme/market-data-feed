@@ -207,7 +207,7 @@ THEME_RULES = [
     ("🧠 AI 칩·장비", ("Semiconductor",)),
     ("🔌 AI 인프라 (메모리·광·부품)", ("Computer Hardware", "Electronic Components", "Communication Equipment", "Scientific & Technical Instruments")),
     ("🖥️ 소프트웨어", ("Software",)),
-    ("🌐 AI 플랫폼·인터넷", ("Internet Content", "Internet Retail", "Telecom Services", "Entertainment")),
+    ("🌐 AI 플랫폼·인터넷", ("Internet Content", "Internet Retail", "Telecom Services", "Entertainment", "Consumer Electronics")),
     ("🪙 크립토·토큰화·금융 인프라", ("Capital Markets", "Financial Data", "Credit Services")),
     ("🧬 AI 바이오·헬스", ("Biotechnology", "Diagnostics", "Drug Manufacturers", "Medical Devices", "Medical Instruments", "Health Information")),
     ("🚀 우주·방산", ("Aerospace",)),
@@ -385,6 +385,11 @@ def main():
     md += (f"## 🌤️ 시장 날씨: {wx}\n> {wtxt}\n> QQQ 고점 대비 {qdd:+.1f}% · 최근 20일 {q20:+.1f}% · 대장주 8개 중 지수보다 강함 {len(lead_ok)}개"
            f"{' (' + ', '.join(lead_ok) + ')' if lead_ok else ''} · Fear & Greed {fg if fg is not None else '—'} {fgl} · 🟢공포 후보 {len(fear)}개\n\n")
     md += "> 가격·거래량만 본다 (이동평균 없음). 읽는 법 → 옵시디언 [[📖 한 방 대시보드 설명서]]. 매수 추천이 아니다.\n\n"
+    for r in pool:
+        r["outside"] = (r["theme"] == "· 테마 밖") and not r["watch"]
+    hidden = [r for r in pool if r["outside"]]
+    pool[:] = [r for r in pool if not r["outside"]]
+    flow.pop("· 테마 밖", None)
     md += "## 🧩 오늘의 흐름 — 최근 Top 3·김종봉 신호가 몰린 테마\n" + ("".join(f"- **{k}** {len(v)}개: {', '.join(v)}\n" for k, v in flow.items()) or "- 없음\n") + "\n"
     ready = [r for r in pool if r["q_pass"] is not False and (2 <= r["zone_order"] <= 5 or r["fear"])]
     wait = [r for r in pool if r["q_pass"] is not False and r not in ready]
@@ -397,6 +402,8 @@ def main():
     md += (head + "".join(prow(i, r) for i, r in enumerate(ready, 1))) if ready else "- 없음\n"
     md += "\n## ⏳ 강하지만 아직 자리 아님 (기다림 · 3개월 QQQ 대비 강한 순)\n"
     md += (head + "".join(prow(i, r) for i, r in enumerate(wait[:15], 1))) if wait else "- 없음\n"
+    if hidden:
+        md += f"\n> 🙈 18개월 지도 테마 밖이라 숨김 {len(hidden)}개 (워치리스트는 예외)\n"
     if junk:
         md += "\n> 🗑️ 숫자 게이트에서 걸러짐 (흑자+성장 아님): " + ", ".join(f"{r['ticker']}({r['fund']})" for r in junk) + "\n"
     md += f"\n## 🟢 공포 속 기회 후보 (52주 고점 대비 {FEAR_DD:.0f}%↓ + 매도가 마르는 흔적)\n"
