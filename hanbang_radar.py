@@ -203,7 +203,7 @@ def fundamentals(t):
 
 # 🧩 산업 → 18개월 지도 테마 (없으면 "테마 밖")
 THEME_RULES = [
-    ("⚡ 전력·에너지 병목", ("Electrical Equipment", "Independent Power", "Renewable", "Utilities - Regulated Electric", "Uranium", "Copper", "Oil & Gas Equipment")),
+    ("⚡ 전력·에너지 병목", ("Electrical Equipment", "Independent Power", "Renewable", "Utilities - Regulated Electric", "Uranium", "Copper")),
     ("🧠 AI 칩·장비", ("Semiconductor",)),
     ("🔌 AI 인프라 (메모리·광·부품)", ("Computer Hardware", "Electronic Components", "Communication Equipment", "Scientific & Technical Instruments")),
     ("🖥️ 소프트웨어", ("Software",)),
