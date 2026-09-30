@@ -2,14 +2,14 @@
 
 > 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 2개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 19개 · 풀백 2개
+### 🏆 내 Top 3 — 추적 21개 · 풀백 2개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | <a href="https://finviz.com/quote.ashx?p=w&t=CRCL" target="_blank">CRCL</a> | Monthly | 08-31 (4주 전) | 🔔 30~38.2% | 33% | 85.8 | 87.27 ~ 65.91 (76.59) | -10.2% |
 | <a href="https://finviz.com/quote.ashx?p=w&t=CRDO" target="_blank">CRDO</a> | Daily | 09-25 (0주 전) | 🔔 30~38.2% | 34% | 192.67 | 195.15 ~ 168.86 (182.0) | -8.7% |
 
-> [!note]- 대기 15개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> BE 22%, NBIS 17%, TEAM 15%, NTES 10% 📏, H 9% 📏, TWST 8%, VIAV 8%, ILMN 6%, VICR 4%, MRNA 3%, TEM 3%, PS 3%, PANW 3%, P 3%, TXG 3%
+> [!note]- 대기 17개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
+> CCL 43% 📏, RCL 26%, BE 18%, NBIS 17%, TEAM 15%, NTES 10% 📏, H 9% 📏, TWST 8%, VIAV 8%, ILMN 6%, VICR 4%, MRNA 3%, TEM 3%, PS 3%, PANW 3%, P 3%, TXG 3%
 
 ⚠️ 70% 이탈로 종료: AKAM, CMS
 

@@ -374,24 +374,24 @@
       "ticker": "BE",
       "kind": "D",
       "src": "T",
-      "date": "2026-09-25",
+      "date": "2026-09-29",
       "name": "Bloom Energy Corp",
       "sector": "Industrials",
-      "chg": "+8.27%",
+      "chg": "+10.80%",
       "close": 262.87,
-      "high": 292.72,
+      "high": 286.26,
       "low": 157.33,
-      "retr": 22.0,
+      "retr": 18.1,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
       "lv": {
-        "30": 252.1,
-        "50": 225.03,
-        "70": 197.95
+        "30": 247.58,
+        "50": 221.8,
+        "70": 196.01
       },
       "weeks": 0,
-      "since": -8.9,
+      "since": 0.0,
       "kinds": [
         "D"
       ]
@@ -629,7 +629,59 @@
       "kinds": [
         "D"
       ]
+    },
+    {
+      "ticker": "CCL",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-09-29",
+      "name": "Carnival Corp Ltd",
+      "sector": "Consumer Cyclical",
+      "chg": "+13.41%",
+      "close": 22.14,
+      "high": 22.66,
+      "low": 21.45,
+      "retr": 43.0,
+      "zone": "📏 1파 작음 (8% 미만)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 22.3,
+        "50": 22.06,
+        "70": 21.81
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "RCL",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-09-29",
+      "name": "Royal Caribbean Group",
+      "sector": "Consumer Cyclical",
+      "chg": "+7.45%",
+      "close": 242.59,
+      "high": 249.73,
+      "low": 222.22,
+      "retr": 26.0,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 241.48,
+        "50": 235.97,
+        "70": 230.47
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
     }
   ],
-  "generated_utc": "2026-09-29T02:31:45.521474+00:00"
+  "generated_utc": "2026-09-30T01:19:26.568095+00:00"
 }
