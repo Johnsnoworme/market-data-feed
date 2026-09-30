@@ -51,7 +51,7 @@
 | 14 | [HOOD](https://finviz.com/quote.ashx?t=HOOD&p=w) | 🪙 크립토·토큰화·금융 인프라 🐘 대형 | ⭐워치 1군 | 🟢 고점 근처 (16%) | +12%p | -24% | 1 | ✅ 숫자 좋음 | 2 |
 | 15 | [AMD](https://finviz.com/quote.ashx?t=AMD&p=w) | 🧠 AI 칩·장비 🐘 대형 | ⭐워치 1군 · 🦅드러켄밀러 26Q2 신규 | 🟢 고점 근처 (7%) | +11%p | -4% | 5 | ✅ 숫자 좋음 | 4 |
 
-> 🙈 18개월 지도 테마 밖이라 숨김 10개 (워치리스트는 예외)
+> 🙈 18개월 지도 테마 밖이라 숨김 12개 (워치리스트는 예외)
 
 > 🗑️ 숫자 게이트에서 걸러짐 (흑자+성장 아님): TXG(적자 · 매출 -13%), TWST(적자 · 매출 +23%), AVTR(적자 · 매출 +0% · 순이익(분기) -41%), ILMN(흑자 · 매출 +9% · 순이익(분기) -12%), MANH(흑자 · 매출 +9% · 순이익(분기) -11%), ZS(적자 · 매출 +25%), BABA(흑자 · 매출 +9% · 순이익(분기) -74%), CRCL(흑자 · 매출 +7%), RVMD(적자), TME(흑자 · 매출 +6% · 순이익(분기) +3%), IWM(—)
 
@@ -91,7 +91,7 @@
 | [AMZN](https://finviz.com/quote.ashx?t=AMZN&p=w) | 🔔 38~50% (45%) | -13% | +1%p | 0/10 | 🔔 눌림 구간 |
 | [ARM](https://finviz.com/quote.ashx?t=ARM&p=w) | 🔔 38~50% (48%) | -36% | -19%p | 2/10 | 🟢 크게 빠짐 🔔 눌림 구간 |
 | [AVGO](https://finviz.com/quote.ashx?t=AVGO&p=w) | ⚠️ 70% 이탈 (70%) | -27% | -8%p | 2/10 |  |
-| [BE](https://finviz.com/quote.ashx?t=BE&p=w) | 🟢 고점 근처 (22%) | -24% | -6%p | 1/10 |  |
+| [BE](https://finviz.com/quote.ashx?t=BE&p=w) | 🟢 고점 근처 (18%) | -24% | -6%p | 1/10 |  |
 | [CRWD](https://finviz.com/quote.ashx?t=CRWD&p=w) | 🟢 고점 근처 (3%) | -1% | +38%p | 6/10 | 🔥 지수보다 강함 |
 | [MRNA](https://finviz.com/quote.ashx?t=MRNA&p=w) | 🟢 고점 근처 (3%) | -1% | +181%p | 9/10 | 🧲 매집 강함 🔥 지수보다 강함 |
 | [MSFT](https://finviz.com/quote.ashx?t=MSFT&p=w) | 🟢 고점 근처 (6%) | -5% | +37%p | 6/10 | 🔥 지수보다 강함 |
@@ -106,6 +106,7 @@
 | :--- | :--- | :--- | :--- | ---: | ---: |
 | [CRCL](https://finviz.com/quote.ashx?t=CRCL&p=w) | 🏆M | 2026-08-31 | 🔔 30~38% (33%) | 3/10 | +11%p |
 | [CRDO](https://finviz.com/quote.ashx?t=CRDO&p=w) | 🏆D | 2026-09-25 | 🔔 30~38% (34%) | 3/10 | -23%p |
+| [CCL](https://finviz.com/quote.ashx?t=CCL&p=w) | 🏆D | 2026-09-29 | 🔔 38~50% (43%) | 0/10 | -26%p |
 | [MRNA](https://finviz.com/quote.ashx?t=MRNA&p=w) | 🏆D·W·M | 2026-09-25 | 🟢 고점 근처 (3%) | 9/10 | +181%p |
 | [TEM](https://finviz.com/quote.ashx?t=TEM&p=w) | 🏆W | 2026-09-18 | 🟢 고점 근처 (3%) | 7/10 | +44%p |
 | [VICR](https://finviz.com/quote.ashx?t=VICR&p=w) | 🏆W | 2026-09-25 | 🟢 고점 근처 (4%) | 7/10 | -24%p |
@@ -125,6 +126,7 @@
 | [NTES](https://finviz.com/quote.ashx?t=NTES&p=w) | 🏆D | 2026-09-28 | 🟢 고점 근처 (10%) | 3/10 | -8%p |
 | [H](https://finviz.com/quote.ashx?t=H&p=w) | 🏆D | 2026-09-24 | 🟢 고점 근처 (9%) | 2/10 | -20%p |
 | [NBIS](https://finviz.com/quote.ashx?t=NBIS&p=w) | 🏆D | 2026-09-24 | 🟢 고점 근처 (17%) | 2/10 | -13%p |
-| [BE](https://finviz.com/quote.ashx?t=BE&p=w) | 🏆D | 2026-09-25 | 🟢 고점 근처 (22%) | 1/10 | -6%p |
+| [BE](https://finviz.com/quote.ashx?t=BE&p=w) | 🏆D | 2026-09-29 | 🟢 고점 근처 (18%) | 1/10 | -6%p |
+| [RCL](https://finviz.com/quote.ashx?t=RCL&p=w) | 🏆D | 2026-09-29 | 🟢 고점 근처 (26%) | 1/10 | -26%p |
 
 > 🦅 드러켄밀러 2026-Q2 신규·늘림 (비중 0.8%↑): AMD 신규, GOOGL 신규, AMZN 늘림(콜), CDW 신규, DHI 신규, DAL 신규, FLR 신규, FOXA 신규, INSM 신규(콜), IWM 늘림(콜), RVMD 늘림, TSLA 신규(콜), UAL 늘림
