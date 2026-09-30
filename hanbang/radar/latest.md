@@ -2,7 +2,7 @@
 
 ## 🌤️ 시장 날씨: 🟢 맑음 → 🔥 강세 눌림 모드
 > 지수보다 강한 종목의 30~70% 눌림 우선. 신고가 추격 금지
-> QQQ 고점 대비 -1.5% · 최근 20일 +2.9% · 대장주 8개 중 지수보다 강함 5개 (NVDA, MSFT, AAPL, AMZN, META) · Fear & Greed 33.9 Fear · 🟢공포 후보 12개
+> QQQ 고점 대비 -1.5% · 최근 20일 +2.9% · 대장주 8개 중 지수보다 강함 5개 (NVDA, MSFT, AAPL, AMZN, META) · Fear & Greed 31.6 Fear · 🟢공포 후보 12개
 
 > 가격·거래량만 본다 (이동평균 없음). 읽는 법 → 옵시디언 [[📖 한 방 대시보드 설명서]]. 매수 추천이 아니다.
 
@@ -39,8 +39,8 @@
 | 2 | [TEAM](https://finviz.com/quote.ashx?t=TEAM&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 M (8월5주) | 🟢 고점 근처 (15%) | +123%p | -9% | 4 | 🟡 적자·고성장 | 2 |
 | 3 | [P](https://finviz.com/quote.ashx?t=P&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐕 중형 | 🏆Top3 D·W (9월4주) | 🟢 고점 근처 (3%) | +77%p | +0% | 6 | ✅ 숫자 좋음 | 3 |
 | 4 | [PLTR](https://finviz.com/quote.ashx?t=PLTR&p=w) | 🖥️ 소프트웨어 🐘 대형 | ⭐워치 1군 | 🟢 고점 근처 (8%) | +60%p | -10% | 6 | ✅ 숫자 좋음 | 4 |
-| 5 | [WDAY](https://finviz.com/quote.ashx?t=WDAY&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🧭김종봉 (9월4주) | 🟢 고점 근처 (10%) | +51%p | -24% | 7 | ✅ 숫자 좋음 | 4 |
-| 6 | [DOCU](https://finviz.com/quote.ashx?t=DOCU&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🧭김종봉 (9월4주) | 🟢 고점 근처 (12%) | +47%p | -18% | 4 | ✅ 숫자 좋음 | 2 |
+| 5 | [WDAY](https://finviz.com/quote.ashx?t=WDAY&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🧭김종봉 (9월4주) | 🟢 고점 근처 (10%) | +51%p | -23% | 7 | ✅ 숫자 좋음 | 4 |
+| 6 | [DOCU](https://finviz.com/quote.ashx?t=DOCU&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🧭김종봉 (9월4주) | 🟢 고점 근처 (12%) | +47%p | -8% | 4 | ✅ 숫자 좋음 | 2 |
 | 7 | [TEM](https://finviz.com/quote.ashx?t=TEM&p=w) | 🧬 AI 바이오·헬스 🐕 중형 | ⭐워치 2군 · 🏆Top3 W (9월3주) | 🟢 고점 근처 (3%) | +44%p | -18% | 7 | ❌ 숫자 약함 | 5 |
 | 8 | [CRWD](https://finviz.com/quote.ashx?t=CRWD&p=w) | 🖥️ 소프트웨어 🐘 대형 | ⭐워치 2군 | 🟢 고점 근처 (3%) | +38%p | -1% | 6 | ✅ 숫자 좋음 | 3 |
 | 9 | [MSFT](https://finviz.com/quote.ashx?t=MSFT&p=w) | 🖥️ 소프트웨어 🐘 대형 | ⭐워치 2군 | 🟢 고점 근처 (6%) | +37%p | -5% | 6 | ✅ 숫자 좋음 | 3 |
@@ -60,12 +60,12 @@
 | :--- | ---: | ---: | ---: | :---: | ---: | :--- |
 | [MAIR](https://finviz.com/quote.ashx?t=MAIR&p=w) | -43% | 6/10 | +1.6%p | ✅ | -30% | 흑자 · 매출 +21% · 순이익(분기) +210% |
 | [ZS](https://finviz.com/quote.ashx?t=ZS&p=w) | -41% | 7/10 | +0.0%p | ✅ | +70% | 적자 · 매출 +25% |
-| [TME](https://finviz.com/quote.ashx?t=TME&p=w) | -64% | 5/10 | -0.8%p | ✅ | -6% | 흑자 · 매출 +6% · 순이익(분기) +3% |
 | [SE](https://finviz.com/quote.ashx?t=SE&p=w) | -49% | 6/10 | -13.0%p | ✅ | -19% | 흑자 · 매출 +48% · 순이익(분기) +11% |
 | [TTMI](https://finviz.com/quote.ashx?t=TTMI&p=w) | -44% | 5/10 | +5.7%p | ✅ | -28% | 흑자 · 매출 +37% · 순이익(분기) +100% |
 | [BABA](https://finviz.com/quote.ashx?t=BABA&p=w) | -42% | 6/10 | -4.4%p | ✅ | -39% | 흑자 · 매출 +9% · 순이익(분기) -74% |
 | [MKSI](https://finviz.com/quote.ashx?t=MKSI&p=w) | -42% | 5/10 | +4.0%p | ✅ | -13% | 흑자 · 매출 +28% · 순이익(분기) +182% |
 | [ACN](https://finviz.com/quote.ashx?t=ACN&p=w) | -38% | 6/10 | -14.5%p | ✅ | -10% | 흑자 · 매출 +6% · 순이익(분기) +6% |
+| [TME](https://finviz.com/quote.ashx?t=TME&p=w) | -64% | 4/10 | -0.8%p | ✅ | -5% | 흑자 · 매출 +6% · 순이익(분기) +3% |
 | [MSTR](https://finviz.com/quote.ashx?t=MSTR&p=w) | -56% | 4/10 | +10.8%p | ✅ | -8% | 적자 · 매출 +7% |
 | [FUTU](https://finviz.com/quote.ashx?t=FUTU&p=w) | -43% | 5/10 | -2.9%p | ✅ | -25% | 흑자 · 매출 +36% · 순이익(분기) +42% |
 | [RMBS](https://finviz.com/quote.ashx?t=RMBS&p=w) | -40% | 5/10 | +23.1%p | ✅ | +10% | 흑자 · 매출 +20% · 순이익(분기) +17% |
