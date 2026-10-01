@@ -7,13 +7,13 @@
 > 가격·거래량만 본다 (이동평균 없음). 읽는 법 → 옵시디언 [[📖 한 방 대시보드 설명서]]. 매수 추천이 아니다.
 
 ## 🧩 오늘의 흐름 — 최근 Top 3·김종봉 신호가 몰린 테마
-- **🧬 AI 바이오·헬스** 6개: MRNA(Biotechnology), TXG(Medical Devices), TWST(Biotechnology), ILMN(Diagnostics & Research), AVTR(Medical Instruments & Supplies), TEM(Health Information Services)
-- **🖥️ 소프트웨어** 6개: TEAM(Software - Application), WDAY(Software - Application), DOCU(Software - Application), MANH(Software - Application), ZS(Software - Infrastructure), PANW(Software - Infrastructure)
+- **🧬 AI 바이오·헬스** 7개: MRNA(Biotechnology), TXG(Medical Devices), TWST(Biotechnology), ILMN(Diagnostics & Research), AVTR(Medical Instruments & Supplies), TEM(Health Information Services), UTHR(Drug Manufacturers - Specialty & Generic)
+- **🖥️ 소프트웨어** 7개: TEAM(Software - Application), WDAY(Software - Application), DOCU(Software - Application), MANH(Software - Application), ZS(Software - Infrastructure), PANW(Software - Infrastructure), FROG(Software - Application)
 - **🔌 AI 인프라 (메모리·광·부품)** 3개: P(Computer Hardware), VIAV(Communication Equipment), VICR(Electronic Components)
 - **⚡ 전력·에너지 병목** 2개: BE(Electrical Equipment & Parts), CMS(Utilities - Regulated Electric)
+- **🧠 AI 칩·장비** 2개: FORM(Semiconductor Equipment & Materials), CRDO(Semiconductors)
 - **🪙 크립토·토큰화·금융 인프라** 1개: CRCL(Capital Markets)
 - **🌐 AI 플랫폼·인터넷** 1개: NBIS(Internet Content & Information)
-- **🧠 AI 칩·장비** 1개: CRDO(Semiconductors)
 
 ## 🎯 지금 자리에 있는 후보 (🔔 30~70% 눌림 또는 🟢공포 · 3개월 QQQ 대비 강한 순)
 | # | 티커 | 테마·크기 | 출처 (언제) | 풀백 위치 | 3개월 QQQ 대비 | 고점 대비 | 🧲 | 숫자 | 점수 |
@@ -54,7 +54,7 @@
 
 > 🙈 18개월 지도 테마 밖이라 숨김 12개 (워치리스트는 예외)
 
-> 🗑️ 숫자 게이트에서 걸러짐 (흑자+성장 아님): TXG(적자 · 매출 -13%), TWST(적자 · 매출 +23%), ILMN(흑자 · 매출 +9% · 순이익(분기) -12%), AVTR(적자 · 매출 +0% · 순이익(분기) -41%), MANH(흑자 · 매출 +9% · 순이익(분기) -11%), ZS(적자 · 매출 +25%), CRCL(흑자 · 매출 +7%), COIN(적자 · 매출 -17%), BABA(흑자 · 매출 +9% · 순이익(분기) -74%), RVMD(적자), IWM(—), CMS(흑자 · 매출 -0% · 순이익(분기) -40%)
+> 🗑️ 숫자 게이트에서 걸러짐 (흑자+성장 아님): TXG(적자 · 매출 -13%), TWST(적자 · 매출 +23%), ILMN(흑자 · 매출 +9% · 순이익(분기) -12%), AVTR(적자 · 매출 +0% · 순이익(분기) -41%), MANH(흑자 · 매출 +9% · 순이익(분기) -11%), ZS(적자 · 매출 +25%), CRCL(흑자 · 매출 +7%), COIN(적자 · 매출 -17%), BABA(흑자 · 매출 +9% · 순이익(분기) -74%), RVMD(적자), IWM(—), UTHR(흑자 · 매출 -2% · 순이익(분기) +8%), CMS(흑자 · 매출 -0% · 순이익(분기) -40%)
 
 ## 🟢 공포 속 기회 후보 (52주 고점 대비 -35%↓ + 매도가 마르는 흔적)
 | 티커 | 고점 대비 | 🧲 | 최근 10일 QQQ 대비 | 저점 방어 | 하락일 거래량 | 숫자 |
@@ -107,6 +107,7 @@
 | :--- | :--- | :--- | :--- | ---: | ---: |
 | [CRCL](https://finviz.com/quote.ashx?t=CRCL&p=w) | 🏆M | 2026-08-31 | 🔔 30~38% (37%) | 3/10 | +33%p |
 | [CRDO](https://finviz.com/quote.ashx?t=CRDO&p=w) | 🏆D | 2026-09-25 | 🔔 30~38% (34%) | 3/10 | -30%p |
+| [UTHR](https://finviz.com/quote.ashx?t=UTHR&p=w) | 🏆D | 2026-09-30 | 🔔 30~38% (33%) | 3/10 | -12%p |
 | [CMS](https://finviz.com/quote.ashx?t=CMS&p=w) | 🏆D | 2026-09-24 | 🔔 62~70% 방어선 (65%) | 2/10 | -17%p |
 | [MRNA](https://finviz.com/quote.ashx?t=MRNA&p=w) | 🏆D·W·M | 2026-09-25 | 🟢 고점 근처 (3%) | 10/10 | +190%p |
 | [TEM](https://finviz.com/quote.ashx?t=TEM&p=w) | 🏆W | 2026-09-18 | 🟢 고점 근처 (14%) | 7/10 | +42%p |
@@ -121,8 +122,10 @@
 | [AVTR](https://finviz.com/quote.ashx?t=AVTR&p=w) | 🧭김종봉 | 2026-09-25 | 🟢 고점 근처 (4%) | 5/10 | +54%p |
 | [DOCU](https://finviz.com/quote.ashx?t=DOCU&p=w) | 🧭김종봉 | 2026-09-25 | 🟢 고점 근처 (12%) | 5/10 | +50%p |
 | [PANW](https://finviz.com/quote.ashx?t=PANW&p=w) | 🏆D | 2026-09-28 | 🟢 고점 근처 (7%) | 5/10 | +14%p |
+| [FORM](https://finviz.com/quote.ashx?t=FORM&p=w) | 🏆D | 2026-09-30 | 🟢 고점 근처 (1%) | 5/10 | -15%p |
 | [TWST](https://finviz.com/quote.ashx?t=TWST&p=w) | 🏆D·W | 2026-09-24 | 🟢 고점 근처 (4%) | 4/10 | +81%p |
 | [MANH](https://finviz.com/quote.ashx?t=MANH&p=w) | 🧭김종봉 | 2026-09-25 | 🟢 고점 근처 (14%) | 4/10 | +43%p |
+| [FROG](https://finviz.com/quote.ashx?t=FROG&p=w) | 🏆D | 2026-09-30 | 🟢 고점 근처 (1%) | 4/10 | -1%p |
 | [ILMN](https://finviz.com/quote.ashx?t=ILMN&p=w) | 🏆D | 2026-09-24 | 🟢 고점 근처 (7%) | 3/10 | +54%p |
 | [NTES](https://finviz.com/quote.ashx?t=NTES&p=w) | 🏆D | 2026-09-28 | 🟢 고점 근처 (6%) | 3/10 | -5%p |
 | [H](https://finviz.com/quote.ashx?t=H&p=w) | 🏆D | 2026-09-24 | 🟢 고점 근처 (22%) | 2/10 | -17%p |
