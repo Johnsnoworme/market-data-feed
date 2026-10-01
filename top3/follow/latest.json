@@ -681,7 +681,163 @@
       "kinds": [
         "D"
       ]
+    },
+    {
+      "ticker": "UTHR",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-09-30",
+      "name": "United Therapeutics Corp",
+      "sector": "Healthcare",
+      "chg": "+12.55%",
+      "close": 481.47,
+      "high": 487.62,
+      "low": 468.97,
+      "retr": 33.0,
+      "zone": "📏 1파 작음 (8% 미만)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 482.02,
+        "50": 478.29,
+        "70": 474.56
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "FORM",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-09-30",
+      "name": "FormFactor Inc",
+      "sector": "Technology",
+      "chg": "+9.59%",
+      "close": 136.25,
+      "high": 136.69,
+      "low": 82.34,
+      "retr": 0.8,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 120.39,
+        "50": 109.51,
+        "70": 98.64
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "FROG",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-09-30",
+      "name": "JFrog Ltd",
+      "sector": "Technology",
+      "chg": "+7.38%",
+      "close": 90.37,
+      "high": 90.55,
+      "low": 72.14,
+      "retr": 1.0,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 85.03,
+        "50": 81.35,
+        "70": 77.66
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "BRKRP",
+      "kind": "M",
+      "src": "T",
+      "date": "2026-09-30",
+      "name": "Bruker Corporation 6.375% Mandatory Convertible Preferred Stock Series A",
+      "sector": "Industrials",
+      "chg": "+10.07%",
+      "close": 471.09,
+      "high": 484.9,
+      "low": 258.84,
+      "retr": 6.1,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 417.08,
+        "50": 371.87,
+        "70": 326.66
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "M"
+      ]
+    },
+    {
+      "ticker": "SMCIP",
+      "kind": "M",
+      "src": "T",
+      "date": "2026-09-30",
+      "name": "Super Micro Computer Inc. Depositary Shares representing a 1/20th Interest in a Share of 7% Series A Mandatory Convertible Preferred Stock",
+      "sector": "Technology",
+      "chg": "+9.41%",
+      "close": 68.73,
+      "high": 73.06,
+      "low": 42.44,
+      "retr": 14.1,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 63.87,
+        "50": 57.75,
+        "70": 51.63
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "M"
+      ]
+    },
+    {
+      "ticker": "MCHPP",
+      "kind": "M",
+      "src": "T",
+      "date": "2026-09-30",
+      "name": "Microchip Technology Incorporated Depositary Shares Each Representing a 1/20th Interest in a Share of 7.50% Series A Mandatory Convertible Preferred Stock",
+      "sector": "Technology",
+      "chg": "+5.00%",
+      "close": 66.59,
+      "high": 68.41,
+      "low": 44.38,
+      "retr": 7.6,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 61.2,
+        "50": 56.4,
+        "70": 51.59
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "M"
+      ]
     }
   ],
-  "generated_utc": "2026-09-30T01:54:13.900793+00:00"
+  "generated_utc": "2026-10-01T01:19:11.955333+00:00"
 }
