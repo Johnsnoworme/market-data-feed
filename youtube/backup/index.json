@@ -5,11 +5,11 @@
     "name": "2026-10-01 초고금리 뉴노멀 시대에 대비하라 월가 초고수의 깜짝 예언, 적중할까",
     "daily": "2026-10-02",
     "published_utc": "2026-10-01T12:05:22.514137+00:00",
-    "status": "stub",
-    "model": "",
+    "status": "done",
+    "model": "gemini-flash-latest",
     "tries": 1,
     "error": "",
-    "updated_utc": "2026-10-02T02:05:22+00:00"
+    "updated_utc": "2026-10-02T02:19:30+00:00"
   },
   "kiQ_USot1go": {
     "ch": "sosumonkey",
@@ -17,11 +17,11 @@
     "name": "2026-10-01 사상 첫 우주 데이터센터 시작, 구글 스페이스X의 승부수 먹힐까",
     "daily": "2026-10-01",
     "published_utc": "2026-10-01T02:05:22.514137+00:00",
-    "status": "stub",
-    "model": "",
+    "status": "done",
+    "model": "gemini-flash-latest",
     "tries": 1,
     "error": "",
-    "updated_utc": "2026-10-02T02:05:22+00:00"
+    "updated_utc": "2026-10-02T02:19:30+00:00"
   },
   "Cswz8biSRHs": {
     "ch": "sosumonkey",
@@ -29,11 +29,11 @@
     "name": "2026-09-30 AI에이전트가 노는 돈 다 찾아내서 옮긴다 우려가 현실이 된 위기의 주식",
     "daily": "2026-09-30",
     "published_utc": "2026-09-30T02:05:22.514137+00:00",
-    "status": "stub",
-    "model": "",
+    "status": "done",
+    "model": "gemini-flash-latest",
     "tries": 1,
     "error": "",
-    "updated_utc": "2026-10-02T02:05:22+00:00"
+    "updated_utc": "2026-10-02T02:19:30+00:00"
   },
   "3TUarra5A4I": {
     "ch": "ssh",
@@ -41,11 +41,11 @@
     "name": "2026-10-01 '이 신호' 뜨면 현금 늘려라. 5% 금리보다 더 한 게 온다｜성상현의",
     "daily": "2026-10-02",
     "published_utc": "2026-10-01T11:05:22.514137+00:00",
-    "status": "stub",
-    "model": "",
+    "status": "done",
+    "model": "gemini-flash-latest",
     "tries": 1,
     "error": "",
-    "updated_utc": "2026-10-02T02:05:22+00:00"
+    "updated_utc": "2026-10-02T02:19:30+00:00"
   },
   "t5e3br8z5uo": {
     "ch": "ssh",
@@ -53,10 +53,10 @@
     "name": "2026-09-30 지금 반등에 속지 마라. 앞으로 '이것'부터 떨어진다｜성상현의 매크로비욘",
     "daily": "2026-09-30",
     "published_utc": "2026-09-30T02:05:22.514137+00:00",
-    "status": "stub",
-    "model": "",
+    "status": "done",
+    "model": "gemini-flash-latest",
     "tries": 1,
     "error": "",
-    "updated_utc": "2026-10-02T02:05:22+00:00"
+    "updated_utc": "2026-10-02T02:19:30+00:00"
   }
 }
