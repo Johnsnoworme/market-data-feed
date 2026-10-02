@@ -170,6 +170,13 @@ def note(ch, v, body, model):
     return fm + head + (body or "") + "\n"
 
 
+LOG = []
+_print = print
+def print(*a):  # 실행 기록을 youtube/backup/last_run.txt에도 남김 (Actions 로그를 못 볼 때 확인용)
+    LOG.append(" ".join(str(x) for x in a))
+    _print(*a)
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     ip = os.path.join(OUT, "index.json")
@@ -214,6 +221,8 @@ def main():
                             "updated_utc": now.isoformat(timespec="seconds")}
             print(f"   {'✅ 요약' if status == 'done' else '⏳ 대기'}: {info['name']} · {v['id']} · {v['title']}")
     json.dump(idx, open(ip, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    open(os.path.join(OUT, "last_run.txt"), "w", encoding="utf-8").write(
+        f"{now:%Y-%m-%d %H:%M} UTC · Gemini 키 {'있음' if KEY else '없음'}\n" + "\n".join(LOG) + "\n")
 
 
 if __name__ == "__main__":
