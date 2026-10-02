@@ -1,26 +1,21 @@
-# 2026-10-02 시험: GitHub에서 유튜브 영상 목록을 읽을 수 있는 방법 찾기
-import json, re, subprocess, requests
+# 2026-10-02 시험 3: 채널 페이지(한국어 제목·상대시간) + 영상 페이지 업로드 시각
+import re, requests
 out = []
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-      "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8"}
-for name, u in [("RSS+UA", "https://www.youtube.com/feeds/videos.xml?channel_id=UCC3yfxS5qC6PCwDzetUuEWg"),
-                ("RSS playlist", "https://www.youtube.com/feeds/videos.xml?playlist_id=UUC3yfxS5qC6PCwDzetUuEWg")]:
-    try:
-        r = requests.get(u, headers=UA, timeout=30); out.append(f"{name}: {r.status_code} {len(r.text)}")
-    except Exception as e: out.append(f"{name}: ERR {e}")
-try:
-    r = requests.get("https://www.youtube.com/@sosumonkey/videos", headers=UA, cookies={"CONSENT": "YES+1", "SOCS": "CAI"}, timeout=30)
-    m = re.search(r"var ytInitialData = (\{.*?\});</script>", r.text)
-    ids = re.findall(r'"videoId":"([\w-]{11})"', r.text)
-    rel = re.findall(r'"publishedTimeText":\{"simpleText":"([^"]+)"', r.text)
-    out.append(f"HTML videos: {r.status_code} len {len(r.text)} ytInitialData {'O' if m else 'X'} ids {list(dict.fromkeys(ids))[:6]} rel {rel[:4]}")
-except Exception as e: out.append(f"HTML: ERR {e}")
-def run(cmd):
-    p = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
-    return (p.stdout.strip() or p.stderr.strip())[:700]
-out.append("YTDLP flat: " + run(["yt-dlp", "--flat-playlist", "--playlist-end", "4", "--print", "%(id)s|%(title)s|%(timestamp)s|%(upload_date)s", "https://www.youtube.com/@sosumonkey/videos"]))
-ids = re.findall(r"^([\w-]{11})\|", out[-1].replace("YTDLP flat: ", ""), re.M)
-if ids:
-    out.append("YTDLP video: " + run(["yt-dlp", "--skip-download", "--print", "%(id)s|%(timestamp)s|%(upload_date)s|%(duration)s", f"https://www.youtube.com/watch?v={ids[0]}"]))
+      "Accept-Language": "ko-KR,ko;q=0.9"}
+CK = {"CONSENT": "YES+1", "SOCS": "CAI"}
+for h in ["@sosumonkey", "@SSH_MacroBeyond"]:
+    r = requests.get(f"https://www.youtube.com/{h}/videos?hl=ko&gl=KR", headers=UA, cookies=CK, timeout=30)
+    t = r.text
+    blocks = re.findall(r'"lockupViewModel":\{"contentImage".*?"contentId":"([\w-]{11})".*?"title":\{"content":"(.*?)"\}.*?"content":"([^"]*(?:ago|전))"', t)[:4]
+    out.append(f"{h}: {r.status_code} lockups {len(blocks)}")
+    for b in blocks: out.append("   " + " | ".join(b))
+    if not blocks:
+        out.append("   ids " + str(list(dict.fromkeys(re.findall(r'"contentId":"([\w-]{11})"', t)))[:5]) + " rel " + str(re.findall(r'"content":"([^"]*(?:ago|전))"', t)[:5]))
+for vid in ["2cduC5_rK9I", "kiQ_USot1go"]:
+    r = requests.get(f"https://www.youtube.com/watch?v={vid}&hl=ko", headers=UA, cookies=CK, timeout=30)
+    pd = re.search(r'"publishDate":"([^"]+)"', r.text); ud = re.search(r'"uploadDate":"([^"]+)"', r.text)
+    ti = re.search(r'<meta name="title" content="([^"]+)"', r.text); ln = re.search(r'"lengthSeconds":"(\d+)"', r.text)
+    out.append(f"watch {vid}: {r.status_code} publishDate {pd and pd.group(1)} uploadDate {ud and ud.group(1)} len {ln and ln.group(1)} title {ti and ti.group(1)}")
 open("research/yt_probe.txt", "w").write("\n".join(out))
 print("\n".join(out))
