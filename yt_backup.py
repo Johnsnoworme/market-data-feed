@@ -167,9 +167,10 @@ def gemini(url, prompt):
             "generationConfig": {"temperature": 0.3, "mediaResolution": "MEDIA_RESOLUTION_LOW"}}
     last = ""
     for m in MODELS:
-        u = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={KEY}"
+        u = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent"
         for attempt in range(2):
-            r = requests.post(u, json=body, timeout=600)
+            # 키는 주소 대신 헤더로 보냄 (새 형식 키 AQ.… 도 지원, 로그에 키가 안 남음)
+            r = requests.post(u, json=body, timeout=600, headers={"x-goog-api-key": KEY})
             if r.status_code == 200:
                 parts = r.json()["candidates"][0]["content"]["parts"]
                 txt = "".join(p.get("text", "") for p in parts).strip()
