@@ -78,3 +78,15 @@
 - Obsidian 작업은 Claude 앱의 **프로젝트 "Obsidian 자동 다이어리 (Trinity)"** 안에서 요청 (Trinity 폴더가 연결되어 있음)
 - Mac이 켜져 있고 Claude 앱이 열려 있어야 폴더 작업 가능
 - 사용자 선호: 아주 쉽게, 단계별로, 한국어로, 복사-붙여넣기만 하면 되게
+
+## 7. 📸 Daily 확정 스냅샷 (2026-10-02 추가)
+
+- 문제였던 것: Daily 노트는 "만드는 순간의 최신 Market_Data.md"를 가져왔음 → 어제 노트를 오늘 만들면 오늘 숫자가 들어감. 또 GitHub 예약 실행이 매일 2.5~3.5시간 늦게 시작됨.
+- 해결:
+  - `archive/daily/YYYY-MM-DD.md` (시드니 날짜) : 그날 아침 Fear & Greed + Daily Top 3를 **한 번만** 저장, 다시 안 바뀜
+  - 뉴욕 장중(평일 04:00~16:20 뉴욕)에는 저장하지 않음 → 항상 "장 마감 숫자"
+  - `archive/daily/index.json` : {시드니 날짜: 뉴욕 거래일} (토·일·월 시드니 = 금요일 뉴욕)
+  - Market Data 실행 3번: UTC 21:41 / 23:13 / 01:27 (처음 성공한 것이 확정, 나머지는 백업)
+  - Top3 Pullback Follow는 Market Data가 끝나면 자동으로 이어서 실행 (workflow_run)
+  - 과거 날짜(2026-09-25~)는 `daily_backfill.py`로 git 기록에서 복원
+- Obsidian: Daily 템플릿은 **노트 날짜의 스냅샷**을 읽음. 아직 없으면 `> ⏳ 아직 이 날짜의 Daily 데이터가 확정 전이에요` → `_Startup_AutoCreate`가 30분마다 채움. 스냅샷이 있는데 Daily 노트가 없으면 자동 생성기가 노트를 만들어 줌 (2026-10-02 이후 날짜만).

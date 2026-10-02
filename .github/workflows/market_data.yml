@@ -2,9 +2,13 @@ name: Update Market Data
 
 on:
   schedule:
-    # UTC 21:15 = 시드니 오전 7:15 (AEST) / 8:15 (AEDT 서머타임)
-    # 미국 장 마감 이후 + 시드니 오전 9시 단축어 실행 전에 항상 끝나도록 설정
-    - cron: '15 21 * * *'
+    # 2026-10-02 변경: GitHub 예약 실행이 매일 2.5~3.5시간 늦게 시작되는 문제 → 3번 시도 (백업)
+    # 뉴욕 장 마감 = UTC 20:00(미국 서머타임) / 21:00(겨울) → 21:41은 어느 계절이든 마감 41분 이후
+    # 시드니: 07:41 / 09:13 / 11:27 (AEST) · 08:41 / 10:13 / 12:27 (AEDT 서머타임) + GitHub 지연
+    # Daily 스냅샷(archive/daily)은 시드니 날짜마다 처음 성공한 한 번만 저장되고 다시 안 바뀜
+    - cron: '41 21 * * *'
+    - cron: '13 23 * * *'
+    - cron: '27 1 * * *'
   workflow_dispatch: # 수동 버튼 실행 허용
 
 jobs:
@@ -32,4 +36,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add Market_Data.md archive
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update Market_Data.md" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update Market_Data.md" && git pull --rebase && git push)

@@ -1,4 +1,5 @@
 import datetime
+import re
 import sys
 from io import StringIO
 import urllib3
@@ -344,6 +345,98 @@ def update_archive(now_ny=None):
                    "latest_monthly": monthly[-1] if monthly else None,
                    "weekly": weekly, "monthly": monthly}, fp, ensure_ascii=False, indent=2)
 
+
+# ─────────────────────────────────────────────────────────────
+# 📸 Daily 확정 스냅샷 (2026-10-02 추가)
+#  - 시드니 날짜별로 "그날 아침의 숫자"(Fear & Greed + Daily Top 3)를 한 번만 저장
+#  - archive/daily/2026-10-02.md  ← 시드니 10/2 Daily 노트가 읽는 파일
+#  - 이미 있으면 절대 다시 쓰지 않음 → 노트를 며칠 늦게 만들어도 그날 숫자 그대로
+#  - 뉴욕 장중(04:00~16:20 뉴욕)에는 저장하지 않음 (장중 숫자가 기록되는 것 방지)
+#  - archive/daily/index.json : {시드니 날짜: 뉴욕 거래일} (Obsidian 자동 생성기가 읽음)
+# ─────────────────────────────────────────────────────────────
+SYD = ZoneInfo("Australia/Sydney")
+DAILY_DIR = os.path.join(ARCHIVE_DIR, "daily")
+
+def capture_ok(now_utc):
+    """뉴욕 평일 04:00~16:20 (프리마켓·정규장)이면 False."""
+    n = now_utc.astimezone(NY)
+    return not (n.weekday() < 5 and datetime.time(4, 0) <= n.time() < datetime.time(16, 20))
+
+def ny_session_for(now_utc, use_yf=True):
+    """이 시점에 '마지막으로 끝난' 뉴욕 거래일."""
+    n = now_utc.astimezone(NY)
+    d = n.date()
+    if not (d.weekday() < 5 and n.time() >= datetime.time(16, 20)):
+        d -= datetime.timedelta(days=1)
+    while d.weekday() >= 5:
+        d -= datetime.timedelta(days=1)
+    if use_yf:
+        try:  # 휴장일(추수감사절 등) 보정: SPY 마지막 거래일
+            h = yf.Ticker("SPY").history(period="10d", auto_adjust=False)
+            last = pd.to_datetime(h.index[-1]).date()
+            if last <= d:
+                d = last
+        except Exception as e:
+            print(f"   SPY 거래일 확인 실패 (요일 계산 사용): {e}")
+    return d
+
+def _sec(md, title):
+    m = re.search(r"## " + re.escape(title) + r"\n(.*?)(?=\n## |\Z)", md, re.S)
+    return m.group(1).strip() if m else None
+
+def snapshot_md(market_md, syd_date, ny_date):
+    updated = (re.search(r"> 마지막 업데이트: (.*)", market_md) or [None, "알 수 없음"])[1]
+    fg, top = _sec(market_md, "Fear & Greed Index"), _sec(market_md, "Daily Top 3")
+    if not fg or not top:
+        return None
+    ny_txt = f"{ny_date.isoformat()}({KO_WD[ny_date.weekday()]})"
+    md = f"# 📸 Daily 확정 스냅샷 — {syd_date.isoformat()} (시드니)\n\n"
+    md += f"> 🗽 뉴욕 거래일: {ny_txt} 장 마감 기준 · 캡처: {updated}\n\n"
+    md += "<!-- BODY -->\n"
+    md += "## 😨😄 Fear & Greed Index\n"
+    md += f"> 📡 데이터 기준: {updated} · 🗽 뉴욕 {ny_txt} 장 마감\n\n"
+    md += f"**{fg}**\n\n"
+    md += "## 🚀 Daily Top 3 (Large-Cap $10B+)\n"
+    md += top + "\n"
+    return md
+
+def write_daily_index():
+    idx = {}
+    if os.path.isdir(DAILY_DIR):
+        for f in sorted(os.listdir(DAILY_DIR)):
+            if f.endswith(".md"):
+                m = re.search(r"뉴욕 거래일: (\d{4}-\d{2}-\d{2})", open(os.path.join(DAILY_DIR, f), encoding="utf-8").read())
+                if m:
+                    idx[f[:-3]] = m.group(1)
+    with open(os.path.join(DAILY_DIR, "index.json"), "w", encoding="utf-8") as fp:
+        json.dump({"latest": max(idx) if idx else None, "days": idx}, fp, ensure_ascii=False, indent=2)
+
+def save_daily_snapshot(market_md, now_utc=None, use_yf=True):
+    now_utc = now_utc or datetime.datetime.now(datetime.timezone.utc)
+    syd = now_utc.astimezone(SYD).date()
+    path = os.path.join(DAILY_DIR, f"{syd.isoformat()}.md")
+    if os.path.exists(path):
+        print(f"   Daily 스냅샷 {syd}: 이미 확정됨 (그대로 둠)")
+        return False
+    if not capture_ok(now_utc):
+        print(f"   Daily 스냅샷 {syd}: 지금은 뉴욕 장중 → 저장 안 함")
+        return False
+    if "데이터 수집 실패" in (_sec(market_md, "Daily Top 3") or "데이터 수집 실패"):
+        print("   Daily 스냅샷: Top 3 수집 실패 → 다음 실행 때 다시 시도")
+        return False
+    if "데이터 수집 실패" in (_sec(market_md, "Fear & Greed Index") or "") and now_utc.astimezone(SYD).hour < 12:
+        print("   Daily 스냅샷: Fear & Greed 실패 → 다음 실행(백업) 때 다시 시도")
+        return False
+    md = snapshot_md(market_md, syd, ny_session_for(now_utc, use_yf))
+    if not md:
+        print("   Daily 스냅샷: Market_Data.md 형식 이상 → 저장 안 함")
+        return False
+    os.makedirs(DAILY_DIR, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as fp:
+        fp.write(md)
+    print(f"   📸 Daily 스냅샷 확정 저장: {path}")
+    return True
+
 def generate_market_data_md():
     print("1. Finviz 스크리너(+Large, 시총 $10B 이상)에서 Daily/Weekly/Monthly Top 3 수집 중...")
     results = {}
@@ -378,9 +471,19 @@ def generate_market_data_md():
         f.write(md_content.strip())
 
     print("Market_Data.md 정상 생성 완료!")
+    return md_content.strip()
 
 if __name__ == "__main__":
-    generate_market_data_md()
+    market_md = generate_market_data_md()
+    print("3-0. 📸 Daily 확정 스냅샷 확인 중...")
+    try:
+        save_daily_snapshot(market_md)
+    except Exception as e:
+        print(f"   Daily 스냅샷 실패 (다음 실행 때 다시 시도): {e}")
+    try:
+        write_daily_index()
+    except Exception as e:
+        print(f"   Daily index 실패: {e}")
     print("3. 주간/월간 확정 기록(archive) 확인 중...")
     try:
         update_archive()

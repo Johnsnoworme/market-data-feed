@@ -5,6 +5,10 @@ on:
     # 뉴욕 월~금 장 마감 후, Top 3(21:15)·소셜(21:50) 다음 = 시드니 다음 날 07:40~09:05
     - cron: '15 22 * * 1-5'
     - cron: '05 23 * * 1-5'
+  # 2026-10-02 추가: Market Data가 끝나면 바로 이어서 실행 (새 Daily Top 3를 반드시 반영)
+  workflow_run:
+    workflows: ["Update Market Data"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
