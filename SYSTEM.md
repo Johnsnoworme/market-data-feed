@@ -90,3 +90,15 @@
   - Top3 Pullback Follow는 Market Data가 끝나면 자동으로 이어서 실행 (workflow_run)
   - 과거 날짜(2026-09-25~)는 `daily_backfill.py`로 git 기록에서 복원
 - Obsidian: Daily 템플릿은 **노트 날짜의 스냅샷**을 읽음. 아직 없으면 `> ⏳ 아직 이 날짜의 Daily 데이터가 확정 전이에요` → `_Startup_AutoCreate`가 30분마다 채움. 스냅샷이 있는데 Daily 노트가 없으면 자동 생성기가 노트를 만들어 줌 (2026-10-02 이후 날짜만).
+
+## 8. 🤖 유튜브 백업 요약 (2026-10-02 추가)
+
+- 문제: 유튜브 자막은 Mac 내장 브라우저로만 읽힘 (GitHub·클라우드는 자막 차단, RSS는 404) → Mac이 꺼져 있으면 요약이 빠짐
+- `yt_backup.py` + `.github/workflows/yt_backup.yml` : UTC 15:20 / 21:50 / 03:20 (하루 3번)
+  - 채널 "동영상" 탭 HTML의 ytInitialData로 소수몽키(@sosumonkey)·성상현(@SSH_MacroBeyond) 새 영상 찾기 (업로드 시각 = 상대 시간 추정)
+  - `GEMINI_API_KEY` Secret이 있으면 Gemini에 유튜브 주소를 줘서 요약(source: gemini-backup), 없으면 링크만(source: gemini-stub)
+  - 결과: `youtube/backup/<sosumonkey|ssh>/<video_id>.md`, `youtube/backup/index.json`, `youtube/backup/last_run.txt`
+  - 🎖️ 장군님(이선엽)은 여러 채널 출연이라 대상 아님 (Mac 작업만)
+- Obsidian `_Startup_AutoCreate`의 runYouTube(): 업로드 11시간 뒤부터 볼트로 가져옴 (Claude 요약이 이미 있으면 건너뜀) → `📺 소수몽키/`, `🎙️ 전문가 렌즈/🤖 백업 요약/` + Daily 칸에 넣음
+- Claude 예약 작업: 공통 규칙 5️⃣ — 백업 노트는 "미처리"로 보고 Mac이 켜지면 같은 파일을 자세한 Claude 요약으로 덮어씀
+- Weekly/Monthly: 자동 생성기가 이제 index.json의 **빠진 주·달 전부**를 만듦 (예전: 최신 1개만)
