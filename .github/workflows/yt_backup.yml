@@ -1,0 +1,31 @@
+name: YouTube Backup Summary (유튜브 백업 요약)
+
+on:
+  schedule:
+    # 소수몽키·성상현 영상은 보통 시드니 저녁 8~11시 업로드
+    # UTC 15:20 / 21:50 / 03:20 = 시드니 01:20 / 07:50 / 13:20 (AEST) · 02:20 / 08:50 / 14:20 (AEDT)
+    - cron: '20 15 * * *'
+    - cron: '50 21 * * *'
+    - cron: '20 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install requests
+      - run: python yt_backup.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add youtube
+          git diff --staged --quiet || (git commit -m "YouTube backup summary" && git pull --rebase && git push)
