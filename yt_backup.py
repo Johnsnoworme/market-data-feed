@@ -206,7 +206,9 @@ def note(ch, v, body, model):
         else:
             body = f"## ⚡ 핵심 3줄\n{flag}\n\n🎬 [{v['title']}]({url})\n\n## 🎯 종목\n- (요약 대기)\n"
         return fm + head + body + "\n"
-    head = f"**📊 성상현 (의견)** — [매크로비욘드: {v['title']}]({url}) · {pub_syd:%Y-%m-%d}\n\n{flag}\n\n"
+    # Daily 노트는 ![[이름#📊 요약]] 으로 이 칸을 불러옴
+    head = (f"# 📊 성상현 — {v['title']}\n\n## 📊 요약\n"
+            f"**📊 성상현 (의견)** — [매크로비욘드: {v['title']}]({url}) · {pub_syd:%Y-%m-%d} · ⏱️ {v.get('length', '')}\n\n{flag}\n\n")
     return fm + head + (body or "") + "\n"
 
 
