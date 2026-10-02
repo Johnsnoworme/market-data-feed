@@ -1,10 +1,12 @@
-RSS+UA: 404 1609
-RSS playlist: 404 1610
-HTML videos: 200 len 1201926 ytInitialData O ids ['2cduC5_rK9I', 'kiQ_USot1go', 'Cswz8biSRHs', '4muqJe1bX-I', 'N8hjfIoLtV8', 'uWZtDWUzO94'] rel []
-YTDLP flat: 2cduC5_rK9I|Prepare for the New Normal of Ultra-High Interest Rates? Will Wall Street's Veteran Expert's Surp...|NA|NA
-kiQ_USot1go|The First-Ever Space Data Center: Will Google and SpaceX’s Bold Move Pay Off?|NA|NA
-Cswz8biSRHs|AI Agents Are Hunting Down Your Idle Cash? The Stocks at Risk as Fears Become Reality|NA|NA
-4muqJe1bX-I|Did Meta’s Bold Move Shock the Market? The New Beneficiaries of the Third AI Inflection Point|NA|NA
-YTDLP video: WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
-WARNING: [youtube] No title found in player responses; falling back to title from initial data. Other metadata may also be missing
-ERROR: [youtube] 2cduC5_rK9I: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for 
+@sosumonkey: 200 lockups 4
+   2cduC5_rK9I | 사상 첫 우주 데이터센터 시작, 구글 스페이스X의 승부수 먹힐까 | 1일 전
+   Cswz8biSRHs | 메타의 승부수에 깜짝 놀란 증시? AI 3차 변곡점의 새로운 수혜주들 | 3일 전
+   N8hjfIoLtV8 | 조용한 3차 대전 시작됐다? 트럼프의 영토확장 선언,신호일까 | 9일 전
+   cNiqvNwYD4U | 챗GPT, 끌로드 더 이상 못믿겠다? 자체 AI 구축 열풍의 새로운 수혜주들 | 2주 전
+@SSH_MacroBeyond: 200 lockups 4
+   3TUarra5A4I | 지금 반등에 속지 마라. 앞으로 '이것'부터 떨어진다｜성상현의 매크로비욘드 4-1부 | 2일 전
+   YKuO6WJfX2E | 삼전닉스 시대 끝났다. 앞으로 '이곳'에 모든 돈 몰린다｜성상현의 매크로비욘드 3-2부 | 7일 전
+   kjGCX0rWrAE | 미국 금리 난리난 지금 '이 자산'에 모든 돈이 몰린다｜성상현의 매크로비욘드 2-3부 | 11일 전
+   pazZH7fwEhw | 미국에 닥칠 끔찍한 결말. 경제 패권 완전히 뒤집힌다｜성상현의 매크로비욘드 2-1부 | 2주 전
+watch 2cduC5_rK9I: 200 publishDate None uploadDate None len None title None
+watch kiQ_USot1go: 200 publishDate None uploadDate None len None title None
