@@ -1,7 +1,7 @@
 """
 🤖 유튜브 백업 요약 (2026-10-02 추가) — Mac이 꺼져 있어도 요약이 빠지지 않게
 - 대상: 🐒 소수몽키(@sosumonkey) · 📊 성상현(@SSH_MacroBeyond)  ※ 🎖️ 장군님은 여러 채널 출연(검색 필요)이라 Mac 작업만 담당
-- 방법: 유튜브 RSS로 새 영상 찾기 → Gemini API에 유튜브 주소를 주고 요약 (GitHub에서는 자막이 막혀 있지만 Gemini는 구글이 직접 영상을 봄)
+- 방법: 채널 "동영상" 탭에서 새 영상 찾기 (RSS는 2026-10 기준 404) → Gemini API에 유튜브 주소를 주고 요약 (GitHub에서는 자막이 막혀 있지만 Gemini는 구글이 직접 영상을 봄)
 - GEMINI_API_KEY(깃허브 Secret)가 없으면: 영상 링크만 있는 "대기" 노트를 저장 (놓친 영상이 있다는 건 알 수 있게)
 - 결과: youtube/backup/<채널>/<video_id>.md + youtube/backup/index.json
 - Obsidian 자동 생성기가 가져가서 📺 소수몽키 / 🎙️ 전문가 렌즈 폴더와 Daily 노트에 넣음
@@ -23,9 +23,11 @@ SINCE = datetime(2026, 9, 30, tzinfo=timezone.utc)   # 이 날 이후 영상만
 MAX_AGE = timedelta(days=7)
 MAX_TRIES = 4
 CHANNELS = {
-    "sosumonkey": {"name": "소수몽키", "id": "UCC3yfxS5qC6PCwDzetUuEWg"},
-    "ssh": {"name": "성상현 (매크로비욘드)", "id": "UCWaqBZR6pS8iU_hkz9LUI-w"},
+    "sosumonkey": {"name": "소수몽키", "handle": "@sosumonkey"},
+    "ssh": {"name": "성상현 (매크로비욘드)", "handle": "@SSH_MacroBeyond"},
 }
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+      "Accept-Language": "ko-KR,ko;q=0.9"}
 MODELS = [m for m in [os.environ.get("GEMINI_MODEL"), "gemini-2.5-flash", "gemini-flash-latest", "gemini-2.0-flash"] if m]
 KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 RAW = "https://raw.githubusercontent.com/Johnsnoworme/market-data-feed/main"
@@ -95,18 +97,56 @@ def clean(t):
     return re.sub(r'[\\/:*?"<>|#^\[\]]', "", t).strip()[:40].strip()
 
 
-def rss(ch_id):
-    r = requests.get(f"https://www.youtube.com/feeds/videos.xml?channel_id={ch_id}", timeout=30)
+def rel_to_dt(rel, now):
+    """'3시간 전' / '1일 전' / '5 hours ago' → 대략의 업로드 시각 (2026-10-02: RSS·영상 페이지가 GitHub에서 막혀 채널 목록의 상대 시간 사용)"""
+    m = re.search(r"(\d+)\s*(초|분|시간|일|주|개월|second|minute|hour|day|week|month)", rel)
+    if not m:
+        return None
+    n, u = int(m.group(1)), m.group(2)
+    mult = {"초": 1, "second": 1, "분": 60, "minute": 60, "시간": 3600, "hour": 3600, "일": 86400, "day": 86400,
+            "주": 604800, "week": 604800, "개월": 2592000, "month": 2592000}[u]
+    return now - timedelta(seconds=n * mult)
+
+
+def list_videos(handle, now):
+    """채널 '동영상' 탭의 ytInitialData를 읽음 (Mac 작업의 공통 규칙 1⃣과 같은 방법). 쇼츠는 이 탭에 없음."""
+    r = requests.get(f"https://www.youtube.com/{handle}/videos?hl=ko&gl=KR", headers=UA,
+                     cookies={"CONSENT": "YES+1", "SOCS": "CAI"}, timeout=30)
     r.raise_for_status()
-    ns = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
+    m = re.search(r"var ytInitialData = (\{.*?\});</script>", r.text, re.S)
+    if not m:
+        raise ValueError("ytInitialData 없음")
     out = []
-    for e in ET.fromstring(r.content).findall("a:entry", ns):
-        link = e.find("a:link", ns).get("href", "")
-        title = e.find("a:title", ns).text or ""
-        if "/shorts/" in link or "#shorts" in title.lower():
-            continue
-        out.append({"id": e.find("yt:videoId", ns).text, "title": title,
-                    "pub": datetime.fromisoformat(e.find("a:published", ns).text)})
+
+    def walk(o):
+        if len(out) >= 10:
+            return
+        if isinstance(o, dict):
+            if "lockupViewModel" in o:
+                lv = o["lockupViewModel"]
+                js = json.dumps(lv, ensure_ascii=False)
+                vid = (re.search(r'"contentId": "([\w-]{11})"', js) or [None, None])[1]
+                title = (((lv.get("metadata") or {}).get("lockupMetadataViewModel") or {}).get("title") or {}).get("content", "")
+                rel = (re.search(r'"content": "([^"]*(?:ago|전))"', js) or [None, ""])[1]
+                ln = (re.search(r'"text": "(\d{1,2}:\d{2}(?::\d{2})?)"', js) or [None, ""])[1]
+                if vid:
+                    out.append({"id": vid, "title": title, "rel": rel, "length": ln, "pub": rel_to_dt(rel, now)})
+                return
+            if "videoRenderer" in o and o["videoRenderer"].get("videoId"):
+                v = o["videoRenderer"]
+                rel = (v.get("publishedTimeText") or {}).get("simpleText", "")
+                title = "".join(x.get("text", "") for x in (v.get("title") or {}).get("runs", []))
+                out.append({"id": v["videoId"], "title": title, "rel": rel,
+                            "length": (v.get("lengthText") or {}).get("simpleText", ""), "pub": rel_to_dt(rel, now)})
+                return
+            for x in o.values():
+                walk(x)
+        elif isinstance(o, list):
+            for x in o:
+                walk(x)
+    walk(json.loads(m.group(1)))
+    if not out:
+        raise ValueError("목록 0개 (페이지 형식 변경?)")
     return out
 
 
@@ -154,13 +194,13 @@ def note(ch, v, body, model):
     url = f"https://www.youtube.com/watch?v={v['id']}"
     src = "gemini-backup" if body else "gemini-stub"
     fm = (f"---\ndate: {pub_syd:%Y-%m-%d}\ndaily: {daily}\nvideo_id: {v['id']}\nvideo: {url}\n"
-          f"uploaded: {pub_syd:%Y-%m-%d %H:%M} (시드니)\nsource: {src}\n"
+          f"uploaded: {pub_syd:%Y-%m-%d %H:%M} (시드니 · 추정)\nlength: {v.get('length', '')}\nsource: {src}\n"
           f"tags:\n  - {'소수몽키' if ch == 'sosumonkey' else '전문가렌즈'}\n  - 백업요약\n---\n")
     flag = (f"> 🤖 **Gemini 백업 요약** ({model}) — Mac이 꺼져 있어 GitHub가 대신 만든 요약이에요. Mac이 켜지면 Claude가 자세한 버전으로 바꿔요."
             if body else
             "> ⏳ **요약 대기** — Mac이 꺼져 있고 Gemini 키가 아직 없어서 링크만 저장했어요. Mac이 켜지면 Claude가 요약해요.")
     if ch == "sosumonkey":
-        head = f"# 🐒 소수몽키 — {v['title']} ({pub_syd.month}/{pub_syd.day})\n> 🎬 [영상]({url})\n\n"
+        head = f"# 🐒 소수몽키 — {v['title']} ({pub_syd.month}/{pub_syd.day})\n> 🎬 [영상]({url}) · ⏱️ {v.get('length', '')}\n\n"
         if body:
             body = body.replace("## ⚡ 핵심 3줄\n", "## ⚡ 핵심 3줄\n" + flag + "\n\n", 1)
         else:
@@ -185,15 +225,17 @@ def main():
     ctx = context()
     for ch, info in CHANNELS.items():
         try:
-            vids = rss(info["id"])
-            print(f"{info['name']}: RSS {len(vids)}개")
+            vids = list_videos(info["handle"], now)
+            print(f"{info['name']}: 목록 {len(vids)}개 읽음 · 위 3개: " + " / ".join(f"{v['id']} {v['rel']}" for v in vids[:3]))
         except Exception as e:
-            print(f"{info['name']}: RSS 실패 {e}")
+            print(f"{info['name']}: ❌ 목록 실패 {e}")
             continue
         for v in vids:
-            if v["pub"] < SINCE or now - v["pub"] > MAX_AGE:
-                continue
             e = idx.get(v["id"], {})
+            if e.get("published_utc"):  # 처음 본 시각의 추정값을 계속 사용 (상대 시간은 갈수록 부정확해짐)
+                v["pub"] = datetime.fromisoformat(e["published_utc"])
+            if not v["pub"] or not v["length"] or v["pub"] < SINCE or now - v["pub"] > MAX_AGE:
+                continue
             if e.get("status") == "done" or e.get("tries", 0) >= MAX_TRIES:
                 continue
             if e.get("status") == "stub" and not KEY:
