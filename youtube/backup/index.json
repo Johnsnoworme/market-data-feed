@@ -58,5 +58,17 @@
     "tries": 1,
     "error": "",
     "updated_utc": "2026-10-02T02:19:30+00:00"
+  },
+  "c82bBXBuqOw": {
+    "ch": "ssh",
+    "title": "\"5% 시대 열렸다\" 베센트의 폭탄 발언 '이 자산'에 모든 돈 몰린다'｜성상현의 매크로비욘드 3-풀버전",
+    "name": "2026-10-03 5% 시대 열렸다 베센트의 폭탄 발언 '이 자산'에 모든 돈 몰린다'｜성",
+    "daily": "2026-10-03",
+    "published_utc": "2026-10-03T02:43:54.965261+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-2.0-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen",
+    "updated_utc": "2026-10-03T18:43:54+00:00"
   }
 }
