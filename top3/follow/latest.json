@@ -21,7 +21,7 @@
         "50": 126.29,
         "70": 93.25
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": -5.0,
       "kinds": [
         "D",
@@ -128,7 +128,7 @@
         "50": 64.93,
         "70": 55.27
       },
-      "weeks": 1,
+      "weeks": 2,
       "since": -1.7,
       "kinds": [
         "W"
@@ -285,7 +285,7 @@
         "50": 97.54,
         "70": 82.28
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": 6.5,
       "kinds": [
         "D",
@@ -364,7 +364,7 @@
         "50": 38.41,
         "70": 35.61
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": 10.1,
       "kinds": [
         "D"
@@ -416,7 +416,7 @@
         "50": 182.0,
         "70": 168.86
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": -0.4,
       "kinds": [
         "D"
@@ -442,7 +442,7 @@
         "50": 241.14,
         "70": 205.19
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": 9.4,
       "kinds": [
         "W"
@@ -468,7 +468,7 @@
         "50": 11.51,
         "70": 9.87
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": -1.4,
       "kinds": [
         "J"
@@ -494,7 +494,7 @@
         "50": 55.86,
         "70": 50.07
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": 3.3,
       "kinds": [
         "J"
@@ -520,7 +520,7 @@
         "50": 153.68,
         "70": 136.35
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": -1.4,
       "kinds": [
         "J"
@@ -546,7 +546,7 @@
         "50": 166.18,
         "70": 147.33
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": -0.9,
       "kinds": [
         "J"
@@ -572,7 +572,7 @@
         "50": 165.8,
         "70": 145.33
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": 3.0,
       "kinds": [
         "J"
@@ -768,10 +768,10 @@
       "name": "Bruker Corporation 6.375% Mandatory Convertible Preferred Stock Series A",
       "sector": "Industrials",
       "chg": "+10.07%",
-      "close": 452.68,
+      "close": 465.78,
       "high": 484.9,
       "low": 258.84,
-      "retr": 14.3,
+      "retr": 8.5,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -781,7 +781,7 @@
         "70": 326.66
       },
       "weeks": 0,
-      "since": -3.9,
+      "since": -1.1,
       "kinds": [
         "M"
       ]
@@ -814,28 +814,29 @@
     },
     {
       "ticker": "MCHPP",
-      "kind": "M",
+      "kind": "W",
       "src": "T",
-      "date": "2026-09-30",
+      "date": "2026-10-02",
       "name": "Microchip Technology Incorporated Depositary Shares Each Representing a 1/20th Interest in a Share of 7.50% Series A Mandatory Convertible Preferred Stock",
       "sector": "Technology",
-      "chg": "+5.00%",
-      "close": 66.9,
-      "high": 68.41,
-      "low": 44.38,
-      "retr": 6.3,
+      "chg": "+2.91%",
+      "close": 69.07,
+      "high": 70.62,
+      "low": 56.28,
+      "retr": 10.8,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
       "lv": {
-        "30": 61.2,
-        "50": 56.4,
-        "70": 51.59
+        "30": 66.32,
+        "50": 63.45,
+        "70": 60.58
       },
       "weeks": 0,
-      "since": 0.5,
+      "since": 0.0,
       "kinds": [
-        "M"
+        "M",
+        "W"
       ]
     },
     {
@@ -915,7 +916,137 @@
       "kinds": [
         "D"
       ]
+    },
+    {
+      "ticker": "IBRX",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-02",
+      "name": "ImmunityBio Inc",
+      "sector": "Healthcare",
+      "chg": "+10.83%",
+      "close": 9.28,
+      "high": 10.09,
+      "low": 6.65,
+      "retr": 23.5,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 9.06,
+        "50": 8.37,
+        "70": 7.68
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "INIO",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-02",
+      "name": "Innio NV",
+      "sector": "Industrials",
+      "chg": "+9.35%",
+      "close": 18.28,
+      "high": 19.15,
+      "low": 17.45,
+      "retr": 51.2,
+      "zone": "🔔 50~61.8%",
+      "alert": true,
+      "order": 4,
+      "lv": {
+        "30": 18.64,
+        "50": 18.3,
+        "70": 17.96
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "FPS",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-02",
+      "name": "Forgent Power Solutions Inc",
+      "sector": "Industrials",
+      "chg": "+8.09%",
+      "close": 37.33,
+      "high": 39.0,
+      "low": 27.99,
+      "retr": 15.2,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 35.7,
+        "50": 33.49,
+        "70": 31.29
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "BTSGU",
+      "kind": "W",
+      "src": "T",
+      "date": "2026-10-02",
+      "name": "BrightSpring Health Services Inc. Tangible Equity Unit",
+      "sector": "Health Care",
+      "chg": "+7.08%",
+      "close": 197.35,
+      "high": 197.35,
+      "low": 143.81,
+      "retr": 0.0,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 181.29,
+        "50": 170.58,
+        "70": 159.87
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "W"
+      ]
+    },
+    {
+      "ticker": "BPYPO",
+      "kind": "W",
+      "src": "T",
+      "date": "2026-10-02",
+      "name": "Brookfield Property Partners L.P. 6.375%",
+      "sector": "Finance",
+      "chg": "+3.11%",
+      "close": 15.06,
+      "high": 15.25,
+      "low": 13.88,
+      "retr": 13.5,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 14.84,
+        "50": 14.57,
+        "70": 14.29
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "W"
+      ]
     }
   ],
-  "generated_utc": "2026-10-02T02:04:34.436524+00:00"
+  "generated_utc": "2026-10-03T00:44:33.554020+00:00"
 }

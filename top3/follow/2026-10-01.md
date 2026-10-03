@@ -1,14 +1,15 @@
 # 🔔 풀백 추적 — 2026-10-01 뉴욕 종가 (8주)
 
-> 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 1개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
+> 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 2개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 30개 · 풀백 1개
+### 🏆 내 Top 3 — 추적 35개 · 풀백 2개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
+| <a href="https://finviz.com/quote.ashx?p=w&t=INIO" target="_blank">INIO</a> | Daily | 10-02 (0주 전) | 🔔 50~61.8% | 51% | 18.28 | 18.64 ~ 17.96 (18.3) | +0.0% |
 | <a href="https://finviz.com/quote.ashx?p=w&t=CRCL" target="_blank">CRCL</a> | Monthly | 08-31 (4주 전) | 🔔 30~38.2% | 38% | 82.91 | 87.27 ~ 65.91 (76.59) | -13.2% |
 
-> [!note]- 대기 27개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> CMS 58% 📏, H 33% 📏, NTES 26% 📏, TEM 26%, PS 24%, NBIS 17%, BE 17%, ACN 16%, ILMN 14%, BRKRP 14%, VICR 12%, UTHR 12%, MRNA 12%, TXG 11%, SMCIP 10%, TWST 10%, CCL 10%, PANW 9%, FROG 8%, CRDO 7%, TEAM 7%, MCHPP 6%, SNPS 5%, VIAV 4%, FORM 3%, P 2%, RCL 2%
+> [!note]- 대기 31개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
+> CMS 58% 📏, H 33% 📏, NTES 26% 📏, TEM 26%, PS 24%, IBRX 24%, NBIS 17%, BE 17%, ACN 16%, FPS 15%, ILMN 14%, BPYPO 14%, VICR 12%, UTHR 12%, MRNA 12%, MCHPP 11%, TXG 11%, SMCIP 10%, TWST 10%, CCL 10%, PANW 9%, BRKRP 8%, FROG 8%, CRDO 7%, TEAM 7%, SNPS 5%, VIAV 4%, FORM 3%, P 2%, RCL 2%, BTSGU 0%
 
 ⚠️ 70% 이탈로 종료: AKAM, FICO
 
