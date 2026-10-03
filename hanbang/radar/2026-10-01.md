@@ -2,18 +2,19 @@
 
 ## 🌤️ 시장 날씨: 🟡 흐림 → 두 모드 모두
 > 강세 눌림과 빅 세일 둘 다 본다. 가장 좋은 1개만
-> QQQ 고점 대비 -0.7% · 최근 20일 +4.7% · 대장주 8개 중 지수보다 강함 4개 (NVDA, MSFT, AAPL, META) · Fear & Greed 28.1 Fear · 🟢공포 후보 12개
+> QQQ 고점 대비 -0.7% · 최근 20일 +4.7% · 대장주 8개 중 지수보다 강함 4개 (NVDA, MSFT, AAPL, META) · Fear & Greed 31.2 Fear · 🟢공포 후보 12개
 
 > 가격·거래량만 본다 (이동평균 없음). 읽는 법 → 옵시디언 [[📖 한 방 대시보드 설명서]]. 매수 추천이 아니다.
 
 ## 🧩 오늘의 흐름 — 최근 Top 3·김종봉 신호가 몰린 테마
-- **🧬 AI 바이오·헬스** 8개: MRNA(Biotechnology), TXG(Medical Devices), TWST(Biotechnology), AVTR(Medical Instruments & Supplies), ILMN(Diagnostics & Research), TEM(Health Information Services), UTHR(Drug Manufacturers - Specialty & Generic), BRKRP(Medical Devices)
+- **🧬 AI 바이오·헬스** 8개: MRNA(Biotechnology), TXG(Medical Devices), TWST(Biotechnology), AVTR(Medical Instruments & Supplies), ILMN(Diagnostics & Research), TEM(Health Information Services), UTHR(Drug Manufacturers - Specialty & Generic), IBRX(Biotechnology)
 - **🖥️ 소프트웨어** 8개: TEAM(Software - Application), DOCU(Software - Application), WDAY(Software - Application), MANH(Software - Application), ZS(Software - Infrastructure), PANW(Software - Infrastructure), SNPS(Software - Infrastructure), FROG(Software - Application)
 - **🔌 AI 인프라 (메모리·광·부품)** 4개: P(Computer Hardware), SMCIP(Computer Hardware), VICR(Electronic Components), VIAV(Communication Equipment)
-- **🧠 AI 칩·장비** 3개: FORM(Semiconductor Equipment & Materials), MCHPP(Semiconductors), CRDO(Semiconductors)
-- **⚡ 전력·에너지 병목** 2개: BE(Electrical Equipment & Parts), CMS(Utilities - Regulated Electric)
+- **⚡ 전력·에너지 병목** 3개: BE(Electrical Equipment & Parts), CMS(Utilities - Regulated Electric), FPS(Electrical Equipment & Parts)
+- **🧠 AI 칩·장비** 2개: FORM(Semiconductor Equipment & Materials), CRDO(Semiconductors)
 - **🪙 크립토·토큰화·금융 인프라** 1개: CRCL(Capital Markets)
 - **🌐 AI 플랫폼·인터넷** 1개: NBIS(Internet Content & Information)
+- **🤖 피지컬 AI·EV** 1개: INIO(Specialty Industrial Machinery)
 
 ## 🎯 지금 자리에 있는 후보 (🔔 30~70% 눌림 또는 🟢공포 · 3개월 QQQ 대비 강한 순)
 | # | 티커 | 테마·크기 | 출처 (언제) | 풀백 위치 | 3개월 QQQ 대비 | 고점 대비 | 🧲 | 숫자 | 점수 |
@@ -31,6 +32,7 @@
 | 11 | [TTMI](https://finviz.com/quote.ashx?t=TTMI&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐕 중형 | 🟢공포 레이더 | 🔔 50~62% (61%) | -23%p | -43% | 5 | ✅ 숫자 좋음 | 3 |
 | 12 | [MKSI](https://finviz.com/quote.ashx?t=MKSI&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐕 중형 | 🟢공포 레이더 | 🔔 62~70% 방어선 (64%) | -30%p | -39% | 6 | ✅ 숫자 좋음 | 3 |
 | 13 | [ALNY](https://finviz.com/quote.ashx?t=ALNY&p=w) | 🧬 AI 바이오·헬스 🐕 중형 | 🟢공포 레이더 | ⬇️ 1파 저점 아래 (139%) | -30%p | -53% | 5 | ✅ 숫자 좋음 | 3 |
+| 14 | [INIO](https://finviz.com/quote.ashx?t=INIO&p=w) | 🤖 피지컬 AI·EV 🐕 중형 | 🏆Top3 D (10월1주) | 🔔 50~62% (51%) | -55%p | -56% | 3 | ✅ 숫자 좋음 | 2 |
 
 ## ⏳ 강하지만 아직 자리 아님 (기다림 · 3개월 QQQ 대비 강한 순)
 | # | 티커 | 테마·크기 | 출처 (언제) | 풀백 위치 | 3개월 QQQ 대비 | 고점 대비 | 🧲 | 숫자 | 점수 |
@@ -53,7 +55,7 @@
 
 > 🙈 18개월 지도 테마 밖이라 숨김 12개 (워치리스트는 예외)
 
-> 🗑️ 숫자 게이트에서 걸러짐 (흑자+성장 아님): TXG(적자 · 매출 -13%), TWST(적자 · 매출 +23%), AVTR(적자 · 매출 +0% · 순이익(분기) -41%), ILMN(흑자 · 매출 +9% · 순이익(분기) -12%), MANH(흑자 · 매출 +9% · 순이익(분기) -11%), ZS(적자 · 매출 +25%), CRCL(흑자 · 매출 +7%), RVMD(적자), UTHR(흑자 · 매출 -2% · 순이익(분기) +8%), BRKRP(적자 · 매출 +5%), BSX(흑자 · 매출 +8% · 순이익(분기) +14%), IWM(—), CMS(흑자 · 매출 -0% · 순이익(분기) -40%)
+> 🗑️ 숫자 게이트에서 걸러짐 (흑자+성장 아님): TXG(적자 · 매출 -13%), TWST(적자 · 매출 +23%), AVTR(적자 · 매출 +0% · 순이익(분기) -41%), ILMN(흑자 · 매출 +9% · 순이익(분기) -12%), MANH(흑자 · 매출 +9% · 순이익(분기) -11%), ZS(적자 · 매출 +25%), CRCL(흑자 · 매출 +7%), RVMD(적자), UTHR(흑자 · 매출 -2% · 순이익(분기) +8%), BSX(흑자 · 매출 +8% · 순이익(분기) +14%), IWM(—), CMS(흑자 · 매출 -0% · 순이익(분기) -40%)
 
 ## 🟢 공포 속 기회 후보 (52주 고점 대비 -35%↓ + 매도가 마르는 흔적)
 | 티커 | 고점 대비 | 🧲 | 최근 10일 QQQ 대비 | 저점 방어 | 하락일 거래량 | 숫자 |
@@ -106,6 +108,7 @@
 | :--- | :--- | :--- | :--- | ---: | ---: |
 | [CRCL](https://finviz.com/quote.ashx?t=CRCL&p=w) | 🏆M | 2026-08-31 | 🔔 38~50% (38%) | 5/10 | +24%p |
 | [H](https://finviz.com/quote.ashx?t=H&p=w) | 🏆D | 2026-09-24 | 🔔 30~38% (33%) | 5/10 | -20%p |
+| [INIO](https://finviz.com/quote.ashx?t=INIO&p=w) | 🏆D | 2026-10-02 | 🔔 50~62% (51%) | 3/10 | -55%p |
 | [CMS](https://finviz.com/quote.ashx?t=CMS&p=w) | 🏆D | 2026-09-24 | 🔔 50~62% (58%) | 2/10 | -22%p |
 | [VICR](https://finviz.com/quote.ashx?t=VICR&p=w) | 🏆W | 2026-09-25 | 🟢 고점 근처 (12%) | 8/10 | +5%p |
 | [MRNA](https://finviz.com/quote.ashx?t=MRNA&p=w) | 🏆D·W·M | 2026-09-25 | 🟢 고점 근처 (12%) | 7/10 | +133%p |
@@ -121,15 +124,15 @@
 | [AVTR](https://finviz.com/quote.ashx?t=AVTR&p=w) | 🧭김종봉 | 2026-09-25 | 🟢 고점 근처 (7%) | 6/10 | +41%p |
 | [PANW](https://finviz.com/quote.ashx?t=PANW&p=w) | 🏆D | 2026-09-28 | 🟢 고점 근처 (9%) | 6/10 | +10%p |
 | [FORM](https://finviz.com/quote.ashx?t=FORM&p=w) | 🏆D | 2026-09-30 | 🟢 고점 근처 (3%) | 6/10 | +16%p |
-| [MCHPP](https://finviz.com/quote.ashx?t=MCHPP&p=w) | 🏆M | 2026-09-30 | 🟢 고점 근처 (6%) | 6/10 | -10%p |
 | [SNPS](https://finviz.com/quote.ashx?t=SNPS&p=w) | 🏆D | 2026-10-01 | 🟢 고점 근처 (5%) | 6/10 | +8%p |
 | [TWST](https://finviz.com/quote.ashx?t=TWST&p=w) | 🏆D·W | 2026-09-24 | 🟢 고점 근처 (10%) | 5/10 | +85%p |
 | [DOCU](https://finviz.com/quote.ashx?t=DOCU&p=w) | 🧭김종봉 | 2026-09-25 | 🟢 고점 근처 (2%) | 5/10 | +48%p |
 | [MANH](https://finviz.com/quote.ashx?t=MANH&p=w) | 🧭김종봉 | 2026-09-25 | 🟢 고점 근처 (10%) | 5/10 | +31%p |
+| [FPS](https://finviz.com/quote.ashx?t=FPS&p=w) | 🏆D | 2026-10-02 | 🟢 고점 근처 (15%) | 5/10 | -25%p |
 | [CRDO](https://finviz.com/quote.ashx?t=CRDO&p=w) | 🏆D | 2026-09-25 | 🟢 고점 근처 (7%) | 4/10 | -17%p |
 | [UTHR](https://finviz.com/quote.ashx?t=UTHR&p=w) | 🏆D | 2026-09-30 | 🟢 고점 근처 (12%) | 4/10 | -2%p |
 | [FROG](https://finviz.com/quote.ashx?t=FROG&p=w) | 🏆D | 2026-09-30 | 🟢 고점 근처 (8%) | 4/10 | -1%p |
-| [BRKRP](https://finviz.com/quote.ashx?t=BRKRP&p=w) | 🏆M | 2026-09-30 | 🟢 고점 근처 (14%) | 4/10 | -2%p |
+| [IBRX](https://finviz.com/quote.ashx?t=IBRX&p=w) | 🏆D | 2026-10-02 | 🟢 고점 근처 (24%) | 4/10 | -6%p |
 | [ILMN](https://finviz.com/quote.ashx?t=ILMN&p=w) | 🏆D | 2026-09-24 | 🟢 고점 근처 (14%) | 3/10 | +37%p |
 | [NTES](https://finviz.com/quote.ashx?t=NTES&p=w) | 🏆D | 2026-09-28 | 🟢 고점 근처 (26%) | 3/10 | -9%p |
 | [SMCIP](https://finviz.com/quote.ashx?t=SMCIP&p=w) | 🏆M | 2026-09-30 | 🟢 고점 근처 (10%) | 3/10 | +42%p |
