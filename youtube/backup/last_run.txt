@@ -1,8 +1,4 @@
-2026-10-03 18:43 UTC · Gemini 키 있음
+2026-10-04 00:06 UTC · Gemini 키 있음
 소수몽키: 목록 10개 읽음 · 위 3개: 2cduC5_rK9I 2일 전 / kiQ_USot1go 3일 전 / Cswz8biSRHs 4일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: c82bBXBuqOw 16시간 전 / 3TUarra5A4I 2일 전 / t5e3br8z5uo 4일 전
-   Gemini 실패 c82bBXBuqOw: gemini-2.0-flash: HTTP 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
-   ⏳ 대기: 성상현 (매크로비욘드) · c82bBXBuqOw · "5% 시대 열렸다" 베센트의 폭탄 발언 '이 자산'에 모든 돈 몰린다'｜성상현의 매크로비욘드 3-풀버전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: c82bBXBuqOw 22시간 전 / 3TUarra5A4I 2일 전 / t5e3br8z5uo 4일 전
+   ✅ 요약: 성상현 (매크로비욘드) · c82bBXBuqOw · "5% 시대 열렸다" 베센트의 폭탄 발언 '이 자산'에 모든 돈 몰린다'｜성상현의 매크로비욘드 3-풀버전
