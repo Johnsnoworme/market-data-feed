@@ -1,8 +1,4 @@
-2026-10-05 19:31 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: V3ZQ02Syf5U 7시간 전 / 2cduC5_rK9I 4일 전 / kiQ_USot1go 5일 전
-   Gemini 실패 V3ZQ02Syf5U: gemini-2.0-flash: HTTP 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
-   ⏳ 대기: 소수몽키 · V3ZQ02Syf5U · 나스닥 엔비디아는 신고가인데 내 주식은 왜? 역대급 기묘한 랠리 이어질까
+2026-10-05 22:04 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: V3ZQ02Syf5U 9시간 전 / 2cduC5_rK9I 4일 전 / kiQ_USot1go 5일 전
+   ✅ 요약: 소수몽키 · V3ZQ02Syf5U · 나스닥 엔비디아는 신고가인데 내 주식은 왜? 역대급 기묘한 랠리 이어질까
 성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: c82bBXBuqOw 2일 전 / 3TUarra5A4I 4일 전 / t5e3br8z5uo 6일 전
