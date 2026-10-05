@@ -1,3 +1,8 @@
-2026-10-05 10:38 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: 2cduC5_rK9I 3일 전 / kiQ_USot1go 4일 전 / Cswz8biSRHs 5일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: c82bBXBuqOw 돈의 흐름 완전히 뒤바뀐다. 반도체 다음 주도주 될 '3가지'｜성상현의 매크로비욘드 3-풀버전 / 3TUarra5A4I 4일 전 / t5e3br8z5uo 6일 전
+2026-10-05 19:31 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: V3ZQ02Syf5U 7시간 전 / 2cduC5_rK9I 4일 전 / kiQ_USot1go 5일 전
+   Gemini 실패 V3ZQ02Syf5U: gemini-2.0-flash: HTTP 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen
+   ⏳ 대기: 소수몽키 · V3ZQ02Syf5U · 나스닥 엔비디아는 신고가인데 내 주식은 왜? 역대급 기묘한 랠리 이어질까
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: c82bBXBuqOw 2일 전 / 3TUarra5A4I 4일 전 / t5e3br8z5uo 6일 전

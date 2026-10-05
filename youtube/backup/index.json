@@ -70,5 +70,17 @@
     "tries": 1,
     "error": "",
     "updated_utc": "2026-10-04T00:06:52+00:00"
+  },
+  "V3ZQ02Syf5U": {
+    "ch": "sosumonkey",
+    "title": "나스닥 엔비디아는 신고가인데 내 주식은 왜? 역대급 기묘한 랠리 이어질까",
+    "name": "2026-10-05 나스닥 엔비디아는 신고가인데 내 주식은 왜 역대급 기묘한 랠리 이어질까",
+    "daily": "2026-10-06",
+    "published_utc": "2026-10-05T12:31:34.418190+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-2.0-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen",
+    "updated_utc": "2026-10-05T19:31:34+00:00"
   }
 }
