@@ -116,6 +116,35 @@ try:
 except Exception as e:
     checks.append(f"⚠️ 🚦 실행 기록 확인 실패: {e}")
 
+# 6) 🧭 김종봉 주간 기록 — 뉴욕 토요일 18시(금요일 마감 + 26시간) 이후에는 반드시 있어야 함 (2026-10-05 추가)
+#    (2026-10-02 주간 기록이 '성공' 표시 뒤에서 조용히 빠졌던 일 때문에)
+jb_file = f"scanner/jb/{last_fri.isoformat()}.md"
+if exists(jb_file):
+    checks.append(f"✅ 🧭 김종봉 주간 {last_fri}")
+elif now > datetime.combine(last_fri, datetime.min.time(), NY).astimezone(timezone.utc) + timedelta(hours=16 + 26):
+    checks.append(f"❌ 🧭 김종봉 주간 {last_fri} 없음")
+    dispatch("jb_scanner.yml", f"김종봉 주간 기록 {last_fri} 없음 (Yahoo 종가 지연 가능성)")
+else:
+    checks.append(f"⏳ 🧭 김종봉 주간 {last_fri} — 아직 시간 전 (뉴욕 토요일 18시까지)")
+
+# 7) 🎯 한 방 레이더 · 🔔 Top 3 추적 — 최신 뉴욕 거래일 날짜로 저장됐는지 (마감 + 16시간 이후 검사, 2026-10-05 추가)
+#    (Yahoo 종가가 늦게 들어와 한 방 레이더가 매일 하루 늦은 데이터로 저장되던 일 때문에)
+try:
+    from ny_session import expected_session
+    exp = expected_session(now)
+    due = datetime.combine(exp, datetime.min.time(), NY).astimezone(timezone.utc) + timedelta(hours=16 + 16)
+    for label, path, wf in (("🎯 한 방 레이더", "hanbang/radar", "hanbang_radar.yml"),
+                            ("🔔 Top 3 추적", "top3/follow", "top3_follow.yml")):
+        if exists(f"{path}/{exp.isoformat()}.md"):
+            checks.append(f"✅ {label} {exp} (최신 거래일)")
+        elif now > due:
+            checks.append(f"❌ {label} {exp} 없음 (최신 거래일 기록이 안 생김)")
+            dispatch(wf, f"{label} {exp} 기록 없음 (Yahoo 종가 지연 가능성)")
+        else:
+            checks.append(f"⏳ {label} {exp} — 아직 시간 전 (Yahoo 종가는 마감 후 약 6시간 뒤 들어옴)")
+except Exception as e:
+    checks.append(f"⚠️ 🎯 한 방·Top 3 날짜 확인 실패: {e}")
+
 # 결과 쓰기
 bad_n = sum(c.startswith(("❌", "⚠️")) for c in checks)
 md = f"# 🩺 GitHub 건강검진\n\n> 마지막 검사: {syd:%Y-%m-%d %H:%M} 시드니 · {'✅ 모두 정상' if not bad_n else f'⚠️ 문제 {bad_n}개'}\n\n"

@@ -557,10 +557,12 @@ def main():
     if (week_end - last_day).days > 3:
         print("이번 주 데이터가 아직 불완전 → 건너뜀")
         return
-    now_ny = pd.Timestamp.now(tz="America/New_York")
-    if now_ny.weekday() == 4 and last_day.date() != now_ny.date() and os.environ.get("JB_FORCE") != "1":
-        print(f"오늘({now_ny.date()}) 종가가 아직 없음 → 다음 실행에서 다시 시도")
-        return
+    # 2026-10-05: 마지막으로 끝난 뉴욕 거래일(휴장일 반영)의 종가가 Yahoo에 들어왔는지 확인
+    # (예전 규칙은 금요일에만 확인 → 토요일 재시도 때 목요일 데이터로 저장될 위험이 있었음)
+    if os.environ.get("JB_FORCE") == "1":
+        os.environ["DATA_FORCE"] = "1"
+    from ny_session import require_fresh
+    require_fresh(last_day, "김종봉 주간 스캐너")
 
     fname = f"{OUT_DIR}/{week_end.strftime('%Y-%m-%d')}.md"
     if os.path.exists(fname) and os.environ.get("JB_OVERWRITE") != "1":

@@ -15,6 +15,7 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 from jb_scanner import get_large_caps, get_watchlist, download_daily, yf_symbol
+from ny_session import require_fresh
 
 OUT = "hanbang/radar"
 FEAR_DD = -35.0          # 52주 고점 대비 이 %보다 더 빠지면 공포 후보
@@ -260,6 +261,7 @@ def main():
     d = download_daily(universe, period="1y")
     C, H, L, V = d["Close"], d["High"], d["Low"], d["Volume"]
     q = C["QQQ"].dropna()
+    require_fresh(q.index[-1], "한 방 레이더")  # 그날 종가가 없으면 저장하지 않고 종료 (2026-10-05)
     ny = q.index[-1].strftime("%Y-%m-%d")
     cache = {}
 

@@ -108,6 +108,8 @@ def main():
         return
     d = yf.download(tickers + ["QQQ"], period="3y", interval="1d", auto_adjust=True, progress=False, group_by="column")
     last = d["Close"]["QQQ"].dropna().index[-1]
+    from ny_session import require_fresh
+    require_fresh(last, "Top 3 풀백 추적")  # 그날 종가가 없으면 저장하지 않고 종료 (2026-10-05)
     rows = []
     for (t, kind, sd), info in sig.items():
         y = t.replace(".", "-")

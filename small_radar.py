@@ -73,6 +73,8 @@ def main():
     d = download_daily(set(u) | {"QQQ"}, period="1y")
     C, H, L, V = d["Close"], d["High"], d["Low"], d["Volume"]
     q = C["QQQ"].dropna()
+    from ny_session import require_fresh
+    require_fresh(q.index[-1], "소형 병목 레이더")  # 2026-10-05
     ny = q.index[-1].strftime("%Y-%m-%d")
     q63 = (q.iloc[-1] / q.iloc[-64] - 1) * 100
     pre = []
