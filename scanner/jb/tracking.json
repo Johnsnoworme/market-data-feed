@@ -2,27 +2,27 @@
   "TXG": {
     "name": "10x Genomics Inc.",
     "first_seen": "2026-09-25",
-    "last_seen": "2026-09-25",
-    "expires": "2026-11-20",
-    "kind": "🎯↑",
+    "last_seen": "2026-10-02",
+    "expires": "2026-11-27",
+    "kind": "🎯",
     "status": "active",
     "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "VEEV": {
     "name": "Veeva Systems",
     "first_seen": "2026-09-25",
-    "last_seen": "2026-09-25",
-    "expires": "2026-11-20",
-    "kind": "🎯↑",
+    "last_seen": "2026-10-02",
+    "expires": "2026-11-27",
+    "kind": "🎯",
     "status": "active",
     "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
   "ILMN": {
     "name": "Illumina, Inc.",
     "first_seen": "2026-09-25",
-    "last_seen": "2026-09-25",
-    "expires": "2026-11-20",
-    "kind": "🎯↑",
+    "last_seen": "2026-10-02",
+    "expires": "2026-11-27",
+    "kind": "🎯",
     "status": "active",
     "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
   },
@@ -146,8 +146,8 @@
   "VLO": {
     "name": "Valero Energy",
     "first_seen": "2026-09-25",
-    "last_seen": "2026-09-25",
-    "expires": "2026-11-20",
+    "last_seen": "2026-10-02",
+    "expires": "2026-11-27",
     "kind": "🎯",
     "status": "active",
     "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
@@ -155,8 +155,8 @@
   "MPC": {
     "name": "Marathon Petroleum",
     "first_seen": "2026-09-25",
-    "last_seen": "2026-09-25",
-    "expires": "2026-11-20",
+    "last_seen": "2026-10-02",
+    "expires": "2026-11-27",
     "kind": "🎯",
     "status": "active",
     "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"

@@ -23,5 +23,30 @@
     "date": "2026-09-25",
     "name": "Zscaler Inc.",
     "sector": "Technology"
+  },
+  "TXG": {
+    "date": "2026-10-02",
+    "name": "10x Genomics Inc.",
+    "sector": "Industrials"
+  },
+  "VEEV": {
+    "date": "2026-10-02",
+    "name": "Veeva Systems",
+    "sector": "Health Care"
+  },
+  "ILMN": {
+    "date": "2026-10-02",
+    "name": "Illumina, Inc.",
+    "sector": "Health Care"
+  },
+  "MPC": {
+    "date": "2026-10-02",
+    "name": "Marathon Petroleum",
+    "sector": "Energy"
+  },
+  "VLO": {
+    "date": "2026-10-02",
+    "name": "Valero Energy",
+    "sector": "Energy"
   }
 }

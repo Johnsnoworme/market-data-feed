@@ -1,0 +1,67 @@
+{
+  "month": "2026-10",
+  "tickers": {
+    "TXG": {
+      "name": "10x Genomics Inc.",
+      "sector": "Industrials",
+      "first": "10/02",
+      "weeks": [
+        "10/02"
+      ],
+      "last": "10/02",
+      "score": 40.6,
+      "up": 102.1,
+      "near": true
+    },
+    "VEEV": {
+      "name": "Veeva Systems",
+      "sector": "Health Care",
+      "first": "10/02",
+      "weeks": [
+        "10/02"
+      ],
+      "last": "10/02",
+      "score": 29.0,
+      "up": 46.8,
+      "near": true
+    },
+    "ILMN": {
+      "name": "Illumina, Inc.",
+      "sector": "Health Care",
+      "first": "10/02",
+      "weeks": [
+        "10/02"
+      ],
+      "last": "10/02",
+      "score": 27.4,
+      "up": 40.7,
+      "near": true
+    },
+    "MPC": {
+      "name": "Marathon Petroleum",
+      "sector": "Energy",
+      "first": "10/02",
+      "weeks": [
+        "10/02"
+      ],
+      "last": "10/02",
+      "score": 27.3,
+      "up": 36.9,
+      "near": true
+    },
+    "VLO": {
+      "name": "Valero Energy",
+      "sector": "Energy",
+      "first": "10/02",
+      "weeks": [
+        "10/02"
+      ],
+      "last": "10/02",
+      "score": 25.2,
+      "up": 34.8,
+      "near": true
+    }
+  },
+  "version": 3,
+  "last_week": "2026-10-02"
+}
