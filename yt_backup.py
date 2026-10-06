@@ -28,7 +28,8 @@ CHANNELS = {
 }
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
       "Accept-Language": "ko-KR,ko;q=0.9"}
-MODELS = [m for m in [os.environ.get("GEMINI_MODEL"), "gemini-2.5-flash", "gemini-flash-latest", "gemini-2.0-flash"] if m]
+# 2026-10-07: gemini-2.0-flash 퇴역(404) → API가 안내한 gemini-3.8-flash 추가. 실패하면 모든 모델의 오류를 남김(🔁 매일 감사 수리 제안)
+MODELS = [m for m in [os.environ.get("GEMINI_MODEL"), "gemini-3.8-flash", "gemini-2.5-flash", "gemini-flash-latest"] if m]
 KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 RAW = "https://raw.githubusercontent.com/Johnsnoworme/market-data-feed/main"
 
@@ -165,7 +166,7 @@ def context():
 def gemini(url, prompt):
     body = {"contents": [{"parts": [{"file_data": {"file_uri": url}}, {"text": prompt}]}],
             "generationConfig": {"temperature": 0.3, "mediaResolution": "MEDIA_RESOLUTION_LOW"}}
-    last = ""
+    errs = []
     for m in MODELS:
         u = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent"
         for attempt in range(2):
@@ -177,16 +178,18 @@ def gemini(url, prompt):
                 txt = re.sub(r"^```(?:markdown)?\s*|\s*```$", "", txt)
                 if len(txt) > 200:
                     return txt, m
-                last = f"{m}: 답이 너무 짧음"
+                errs.append(f"{m}: 답이 너무 짧음")
                 break
-            last = f"{m}: HTTP {r.status_code} {r.text[:200]}"
+            last = f"{m}: HTTP {r.status_code} {r.text[:160]}"
             if r.status_code in (404, 400) and "not found" in r.text.lower():
                 break  # 모델 이름 없음 → 다음 모델
             if r.status_code in (429, 500, 503):
                 time.sleep(30)
                 continue
             break
-    raise RuntimeError(last)
+        if r.status_code != 200:
+            errs.append(last)
+    raise RuntimeError(" | ".join(errs) or "알 수 없음")
 
 
 def note(ch, v, body, model):
