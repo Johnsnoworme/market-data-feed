@@ -82,5 +82,17 @@
     "tries": 1,
     "error": "",
     "updated_utc": "2026-10-05T22:04:47+00:00"
+  },
+  "ha4-lyhvafM": {
+    "ch": "sosumonkey",
+    "title": "2년만에 재결합한 머스크와 트럼프, 두 거물 화해의 수혜주들",
+    "name": "2026-10-06 2년만에 재결합한 머스크와 트럼프, 두 거물 화해의 수혜주들",
+    "daily": "2026-10-07",
+    "published_utc": "2026-10-06T09:23:48.791124+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-2.0-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvemen",
+    "updated_utc": "2026-10-06T20:23:48+00:00"
   }
 }
