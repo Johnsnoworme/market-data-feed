@@ -33,6 +33,34 @@ MODELS = [m for m in [os.environ.get("GEMINI_MODEL"), "gemini-3.8-flash", "gemin
 KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 RAW = "https://raw.githubusercontent.com/Johnsnoworme/market-data-feed/main"
 
+
+_MODELS_CACHE = []
+
+
+def models():
+    """2026-10-07: 쓸 수 있는 Gemini 모델을 Google에 직접 물어봄 (옛 이름이 없어져도 자동으로 새 모델 사용).
+    순서: GEMINI_MODEL(설정) → 기본 목록 중 실제로 있는 것 → 그 밖의 flash 모델(최신 우선)."""
+    if _MODELS_CACHE:
+        return _MODELS_CACHE
+    have = []
+    try:
+        r = requests.get("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200",
+                         headers={"x-goog-api-key": KEY}, timeout=30)
+        for x in r.json().get("models", []):
+            if "generateContent" in x.get("supportedGenerationMethods", []):
+                have.append(x["name"].split("/")[-1])
+    except Exception as e:
+        print(f"   모델 목록 확인 실패: {e}")
+    if not have:
+        _MODELS_CACHE.extend(MODELS)
+        return _MODELS_CACHE
+    flash = sorted([m for m in have if "flash" in m and "image" not in m and "tts" not in m
+                    and "live" not in m and "audio" not in m], reverse=True)
+    order = [m for m in MODELS if m in have] + [m for m in flash if m not in MODELS]
+    _MODELS_CACHE.extend(order[:5] or MODELS)
+    print(f"   사용할 Gemini 모델: {', '.join(_MODELS_CACHE)}")
+    return _MODELS_CACHE
+
 PROMPT_SOSU = """너는 한국 주식 유튜브 '소수몽키' 영상을 요약하는 비서다. 독자는 시드니에 사는 개인 트레이더 John이다.
 영상을 처음부터 끝까지 보고, 한국어로 아주 쉽게, 중요한 내용을 빠짐없이 아래 형식의 마크다운만 출력하라 (앞뒤 설명 금지, 코드블럭 금지).
 매수 추천은 하지 않는다. 사실과 의견을 구분한다. 영상에 없는 티커·숫자를 지어내지 않는다.
@@ -167,7 +195,7 @@ def gemini(url, prompt):
     body = {"contents": [{"parts": [{"file_data": {"file_uri": url}}, {"text": prompt}]}],
             "generationConfig": {"temperature": 0.3, "mediaResolution": "MEDIA_RESOLUTION_LOW"}}
     errs = []
-    for m in MODELS:
+    for m in models():
         u = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent"
         for attempt in range(2):
             # 키는 주소 대신 헤더로 보냄 (새 형식 키 AQ.… 도 지원, 로그에 키가 안 남음)
@@ -184,7 +212,7 @@ def gemini(url, prompt):
             if r.status_code in (404, 400) and "not found" in r.text.lower():
                 break  # 모델 이름 없음 → 다음 모델
             if r.status_code in (429, 500, 503):
-                time.sleep(30)
+                time.sleep(45)  # 붐빔 → 잠깐 쉬고 한 번 더
                 continue
             break
         if r.status_code != 200:
