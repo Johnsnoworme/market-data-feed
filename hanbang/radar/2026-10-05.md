@@ -24,21 +24,22 @@
 | 3 | [GWRE](https://finviz.com/quote.ashx?t=GWRE&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🟢공포 레이더 | 🔔 38~50% (42%) | +12%p | -36% | 6 | ✅ 숫자 좋음 | 4 |
 | 4 | [FOXA](https://finviz.com/quote.ashx?t=FOXA&p=w) | 🌐 AI 플랫폼·인터넷 🐕 중형 | 🦅드러켄밀러 26Q2 신규 | 🔔 30~38% (32%) | +9%p | -16% | 6 | ✅ 숫자 좋음 | 4 |
 | 5 | [HUBS](https://finviz.com/quote.ashx?t=HUBS&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🟢공포 레이더 | 🔔 38~50% (46%) | +1%p | -55% | 4 | ✅ 숫자 좋음 | 3 |
-| 6 | [SNDK](https://finviz.com/quote.ashx?t=SNDK&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐘 대형 | ⭐워치 2군 | 🔔 30~38% (31%) | -1%p | -27% | 1 | ✅ 숫자 좋음 | 2 |
-| 7 | [AMZN](https://finviz.com/quote.ashx?t=AMZN&p=w) | 🌐 AI 플랫폼·인터넷 🐘 대형 | ⭐워치 2군 · 🦅드러켄밀러 26Q2 늘림(콜) | 🔔 38~50% (39%) | -4%p | -12% | 0 | ✅ 숫자 좋음 | 3 |
-| 8 | [ORCL](https://finviz.com/quote.ashx?t=ORCL&p=w) | 🖥️ 소프트웨어 🐘 대형 | ⭐워치 2군 | ⚠️ 70% 이탈 (93%) | -6%p | -54% | 3 | ✅ 숫자 좋음 | 2 |
-| 9 | [ARM](https://finviz.com/quote.ashx?t=ARM&p=w) | 🧠 AI 칩·장비 🐘 대형 | ⭐워치 2군 | 🔔 38~50% (42%) | -6%p | -31% | 4 | ✅ 숫자 좋음 | 2 |
-| 10 | [FIG](https://finviz.com/quote.ashx?t=FIG&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🟢공포 레이더 | 🔔 62~70% 방어선 (63%) | -8%p | -69% | 5 | 🟡 적자·고성장 | 3 |
-| 11 | [AVGO](https://finviz.com/quote.ashx?t=AVGO&p=w) | 🧠 AI 칩·장비 🐘 대형 | ⭐워치 2군 | 🔔 62~70% 방어선 (64%) | -9%p | -24% | 2 | ✅ 숫자 좋음 | 2 |
-| 12 | [GOOGL](https://finviz.com/quote.ashx?t=GOOGL&p=w) | 🌐 AI 플랫폼·인터넷 🐘 대형 | ⭐워치 1군 · 🦅드러켄밀러 26Q2 신규 | 🔔 38~50% (45%) | -12%p | -14% | 4 | ✅ 숫자 좋음 | 4 |
-| 13 | [ON](https://finviz.com/quote.ashx?t=ON&p=w) | 🧠 AI 칩·장비 🐕 중형 | 🟢공포 레이더 | 🔔 50~62% (60%) | -12%p | -36% | 6 | ✅ 숫자 좋음 | 3 |
-| 14 | [TSLA](https://finviz.com/quote.ashx?t=TSLA&p=w) | 🤖 피지컬 AI·EV 🐘 대형 | ⭐워치 1군 · 🦅드러켄밀러 26Q2 신규(콜) | 🔔 62~70% 방어선 (64%) | -13%p | -23% | 3 | ✅ 숫자 좋음 | 4 |
-| 15 | [NVMI](https://finviz.com/quote.ashx?t=NVMI&p=w) | 🧠 AI 칩·장비 🐕 중형 | 🟢공포 레이더 | ⚠️ 70% 이탈 (77%) | -19%p | -35% | 6 | ✅ 숫자 좋음 | 3 |
-| 16 | [FPS](https://finviz.com/quote.ashx?t=FPS&p=w) | ⚡ 전력·에너지 병목 🐕 중형 | 🏆Top3 D (10월1주) | 🟢 고점 근처 (13%) | -20%p | -40% | 5 | ✅ 숫자 좋음 | 3 |
-| 17 | [GLW](https://finviz.com/quote.ashx?t=GLW&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐘 대형 | 🟢공포 레이더 | 🔔 50~62% (60%) | -21%p | -38% | 5 | ✅ 숫자 좋음 | 3 |
-| 18 | [MKSI](https://finviz.com/quote.ashx?t=MKSI&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐕 중형 | 🟢공포 레이더 | 🔔 50~62% (60%) | -26%p | -37% | 7 | ✅ 숫자 좋음 | 4 |
-| 19 | [INIO](https://finviz.com/quote.ashx?t=INIO&p=w) | 🤖 피지컬 AI·EV 🐕 중형 | 🏆Top3 D (10월1주) | 🔔 38~50% (46%) | -52%p | -54% | 3 | ✅ 숫자 좋음 | 2 |
-| 20 | [FICO](https://finviz.com/quote.ashx?t=FICO&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (10월1주) | 🔔 50~62% (61%) | -54%p | -63% | 0 | ✅ 숫자 좋음 | 2 |
+| 6 | [BSY](https://finviz.com/quote.ashx?t=BSY&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🟢공포 레이더 | 🔔 30~38% (35%) | +1%p | -38% | 7 | ✅ 숫자 좋음 | 5 |
+| 7 | [SNDK](https://finviz.com/quote.ashx?t=SNDK&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐘 대형 | ⭐워치 2군 | 🔔 30~38% (31%) | -1%p | -27% | 1 | ✅ 숫자 좋음 | 2 |
+| 8 | [AMZN](https://finviz.com/quote.ashx?t=AMZN&p=w) | 🌐 AI 플랫폼·인터넷 🐘 대형 | ⭐워치 2군 · 🦅드러켄밀러 26Q2 늘림(콜) | 🔔 38~50% (39%) | -4%p | -12% | 0 | ✅ 숫자 좋음 | 3 |
+| 9 | [ORCL](https://finviz.com/quote.ashx?t=ORCL&p=w) | 🖥️ 소프트웨어 🐘 대형 | ⭐워치 2군 | ⚠️ 70% 이탈 (93%) | -6%p | -54% | 3 | ✅ 숫자 좋음 | 2 |
+| 10 | [ARM](https://finviz.com/quote.ashx?t=ARM&p=w) | 🧠 AI 칩·장비 🐘 대형 | ⭐워치 2군 | 🔔 38~50% (42%) | -6%p | -31% | 4 | ✅ 숫자 좋음 | 2 |
+| 11 | [FIG](https://finviz.com/quote.ashx?t=FIG&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🟢공포 레이더 | 🔔 62~70% 방어선 (63%) | -8%p | -69% | 5 | 🟡 적자·고성장 | 3 |
+| 12 | [AVGO](https://finviz.com/quote.ashx?t=AVGO&p=w) | 🧠 AI 칩·장비 🐘 대형 | ⭐워치 2군 | 🔔 62~70% 방어선 (64%) | -9%p | -24% | 2 | ✅ 숫자 좋음 | 2 |
+| 13 | [GOOGL](https://finviz.com/quote.ashx?t=GOOGL&p=w) | 🌐 AI 플랫폼·인터넷 🐘 대형 | ⭐워치 1군 · 🦅드러켄밀러 26Q2 신규 | 🔔 38~50% (45%) | -12%p | -14% | 4 | ✅ 숫자 좋음 | 4 |
+| 14 | [ON](https://finviz.com/quote.ashx?t=ON&p=w) | 🧠 AI 칩·장비 🐕 중형 | 🟢공포 레이더 | 🔔 50~62% (60%) | -12%p | -36% | 6 | ✅ 숫자 좋음 | 3 |
+| 15 | [TSLA](https://finviz.com/quote.ashx?t=TSLA&p=w) | 🤖 피지컬 AI·EV 🐘 대형 | ⭐워치 1군 · 🦅드러켄밀러 26Q2 신규(콜) | 🔔 62~70% 방어선 (64%) | -13%p | -23% | 3 | ✅ 숫자 좋음 | 4 |
+| 16 | [NVMI](https://finviz.com/quote.ashx?t=NVMI&p=w) | 🧠 AI 칩·장비 🐕 중형 | 🟢공포 레이더 | ⚠️ 70% 이탈 (77%) | -19%p | -35% | 6 | ✅ 숫자 좋음 | 3 |
+| 17 | [FPS](https://finviz.com/quote.ashx?t=FPS&p=w) | ⚡ 전력·에너지 병목 🐕 중형 | 🏆Top3 D (10월1주) | 🟢 고점 근처 (13%) | -20%p | -40% | 5 | ✅ 숫자 좋음 | 3 |
+| 18 | [GLW](https://finviz.com/quote.ashx?t=GLW&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐘 대형 | 🟢공포 레이더 | 🔔 50~62% (60%) | -21%p | -38% | 5 | ✅ 숫자 좋음 | 3 |
+| 19 | [MKSI](https://finviz.com/quote.ashx?t=MKSI&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐕 중형 | 🟢공포 레이더 | 🔔 50~62% (60%) | -26%p | -37% | 7 | ✅ 숫자 좋음 | 4 |
+| 20 | [INIO](https://finviz.com/quote.ashx?t=INIO&p=w) | 🤖 피지컬 AI·EV 🐕 중형 | 🏆Top3 D (10월1주) | 🔔 38~50% (46%) | -52%p | -54% | 3 | ✅ 숫자 좋음 | 2 |
+| 21 | [FICO](https://finviz.com/quote.ashx?t=FICO&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (10월1주) | 🔔 50~62% (61%) | -54%p | -63% | 0 | ✅ 숫자 좋음 | 2 |
 
 ## ⏳ 강하지만 아직 자리 아님 (기다림 · 3개월 QQQ 대비 강한 순)
 | # | 티커 | 테마·크기 | 출처 (언제) | 풀백 위치 | 3개월 QQQ 대비 | 고점 대비 | 🧲 | 숫자 | 점수 |
@@ -61,11 +62,12 @@
 
 > 🙈 18개월 지도 테마 밖이라 숨김 15개 (워치리스트는 예외)
 
-> 🗑️ 숫자 게이트에서 걸러짐 (흑자+성장 아님): TXG(적자 · 매출 -13%), TWST(적자 · 매출 +23%), AVTR(적자 · 매출 +0% · 순이익(분기) -41%), PTC(흑자 · 매출 -7% · 순이익(분기) -16%), ILMN(흑자 · 매출 +9% · 순이익(분기) -12%), ZS(적자 · 매출 +25%), MANH(흑자 · 매출 +9% · 순이익(분기) -11%), CRCL(흑자 · 매출 +7%), RVMD(적자), BRKRP(적자 · 매출 +5%), IWM(—), UTHR(흑자 · 매출 -2% · 순이익(분기) +8%), ZTS(흑자 · 매출 -0% · 순이익(분기) -5%), TME(흑자 · 매출 +6% · 순이익(분기) +3%), CMS(흑자 · 매출 -0% · 순이익(분기) -40%)
+> 🗑️ 숫자 게이트에서 걸러짐 (흑자+성장 아님): TXG(적자 · 매출 -13%), TWST(적자 · 매출 +23%), AVTR(적자 · 매출 +0% · 순이익(분기) -41%), PTC(흑자 · 매출 -7% · 순이익(분기) -16%), ILMN(흑자 · 매출 +9% · 순이익(분기) -12%), ZS(적자 · 매출 +25%), MANH(흑자 · 매출 +9% · 순이익(분기) -11%), CRCL(흑자 · 매출 +7%), RVMD(적자), BRKRP(적자 · 매출 +5%), IWM(—), UTHR(흑자 · 매출 -2% · 순이익(분기) +8%), TME(흑자 · 매출 +6% · 순이익(분기) +3%), CMS(흑자 · 매출 -0% · 순이익(분기) -40%)
 
 ## 🟢 공포 속 기회 후보 (52주 고점 대비 -35%↓ + 매도가 마르는 흔적)
 | 티커 | 고점 대비 | 🧲 | 최근 10일 QQQ 대비 | 저점 방어 | 하락일 거래량 | 숫자 |
 | :--- | ---: | ---: | ---: | :---: | ---: | :--- |
+| [BSY](https://finviz.com/quote.ashx?t=BSY&p=w) | -38% | 7/10 | +7.0%p | ✅ | -8% | 흑자 · 매출 +13% · 순이익(분기) +12% |
 | [MKSI](https://finviz.com/quote.ashx?t=MKSI&p=w) | -37% | 7/10 | +7.2%p | ✅ | -16% | 흑자 · 매출 +28% · 순이익(분기) +182% |
 | [TRI](https://finviz.com/quote.ashx?t=TRI&p=w) | -38% | 6/10 | -0.3%p | ✅ | -23% | 흑자 · 매출 +10% · 순이익(분기) +43% |
 | [ONON](https://finviz.com/quote.ashx?t=ONON&p=w) | -37% | 7/10 | +14.7%p | ✅ | +56% | 흑자 · 매출 +14% |
@@ -77,7 +79,6 @@
 | [TME](https://finviz.com/quote.ashx?t=TME&p=w) | -66% | 5/10 | -5.7%p | ✅ | -25% | 흑자 · 매출 +6% · 순이익(분기) +3% |
 | [BMNR](https://finviz.com/quote.ashx?t=BMNR&p=w) | -58% | 5/10 | -7.2%p | ✅ | -18% | 적자 · 매출 +2168% |
 | [HUBS](https://finviz.com/quote.ashx?t=HUBS&p=w) | -55% | 4/10 | +1.2%p | ✅ | -35% | 흑자 · 매출 +20% |
-| [ZTS](https://finviz.com/quote.ashx?t=ZTS&p=w) | -51% | 4/10 | -1.9%p | ✅ | -23% | 흑자 · 매출 -0% · 순이익(분기) -5% |
 
 ## 🔴 ⭐ 1군 — 세상을 바꾸는 티커
 | 티커 | 풀백 위치 (주봉) | 고점 대비 | 3개월 QQQ 대비 | 🧲 | 신호 |
