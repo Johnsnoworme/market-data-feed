@@ -120,6 +120,11 @@ def get_finviz_top3(order):
                 ticker = href.split('t=')[1].split('&')[0]
                 break
         val = float(cells[i_v].replace('%', '').replace(',', ''))
+        # 2026-10-07: 'When Issued'(상장 전 임시 거래) 종목 제외 — MMEDV +161.78%(10/5)가 Top 3 1위로 잘못 들어감
+        nm = cells[i_c].lower()
+        if 'when issued' in nm or 'when-issued' in nm or ticker.upper().endswith('.WI'):
+            print(f"   제외(상장 전 임시 거래): {ticker} {cells[i_c]} {val}%")
+            continue
         out.append((ticker, cells[i_c], cells[i_s], val))
         if len(out) == 3:
             break
@@ -164,9 +169,9 @@ def top3_md(rows, title, finviz_url):
     for ticker, name, sector, val in rows:
         sign = "+" if val > 0 else ""
         finviz_quote = f"https://finviz.com/quote.ashx?t={ticker}"
-        ticker_link = f'<a href="{finviz_quote}" target="_blank">{ticker}</a>'
+        ticker_link = f'[{ticker}]({finviz_quote})'  # 2026-10-07: HTML 링크 → 마크다운 링크 (모든 기기에서 눌림)
         md += f"| {ticker_link} | {name} | {sector} | {sign}{val:.2f}% |\n"
-    md += f'\n👉 <a href="{finviz_url}" target="_blank">Finviz {title} Large-Cap Screener 전체보기</a>\n\n'
+    md += f'\n👉 [Finviz {title} Large-Cap Screener 전체보기]({finviz_url})\n\n'
     return md
 
 # ─────────────────────────────────────────────────────────────
@@ -288,7 +293,7 @@ def _archive_md(kind, name, rows, base_d, final_d, source):
     md += "| 티커 | 회사 이름 | 섹터 | 변동률 |\n| :--- | :--- | :--- | :--- |\n"
     for ticker, cname, sector, val in rows:
         sign = "+" if val > 0 else ""
-        link = f'<a href="https://finviz.com/quote.ashx?t={ticker}" target="_blank">{ticker}</a>'
+        link = f'[{ticker}](https://finviz.com/quote.ashx?t={ticker})'  # 2026-10-07 마크다운 링크
         md += f"| {link} | {cname} | {sector} | {sign}{val:.2f}% |\n"
     return md
 

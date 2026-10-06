@@ -19,7 +19,8 @@ import yfinance as yf
 
 OUT = "top3/follow"
 DAYS = 56
-PAT = re.compile(r'quote\.ashx\?t=([A-Z0-9.\-]+)"[^>]*>[^<]*</a>\s*\|\s*([^|]*)\|\s*([^|]*)\|\s*([+\-][0-9.]+%)')
+# HTML 링크(<a href=...>T</a>)와 마크다운 링크([T](...t=T)) 둘 다 읽음 (2026-10-07)
+PAT = re.compile(r'quote\.ashx\?t=([A-Z0-9.\-]+)(?:"[^>]*>[^<]*</a>|\))\s*\|\s*([^|]*)\|\s*([^|]*)\|\s*([+\-][0-9.]+%)')
 
 
 def fv(t):
@@ -46,6 +47,8 @@ def daily_signals():
             day -= pd.Timedelta(days=1)
         d = day.strftime("%Y-%m-%d")
         for t, name, sector, chg in PAT.findall(section(md, "Daily Top 3")):
+            if "when issued" in name.lower():
+                continue  # 상장 전 임시 거래 종목은 추적하지 않음 (2026-10-07 MMEDV)
             out.setdefault((t, "D", d), {"name": name.strip(), "sector": sector.strip(), "chg": chg})
     return out
 
@@ -60,6 +63,8 @@ def archive_signals(sub, kind):
         if not m:
             continue
         for t, name, sector, chg in PAT.findall(md):
+            if "when issued" in name.lower():
+                continue
             out.setdefault((t, kind, m.group(1)), {"name": name.strip(), "sector": sector.strip(), "chg": chg})
     return out
 
