@@ -30,7 +30,7 @@ tags:
 - 📉 공포탐욕지수는 31(공포)을 기록 중이며, 소수 대형주만 오르고 나머지 대다수 종목은 하락 추세나 저점 이탈을 겪고 있습니다.
 - 📊 S&P 500 종목 중 50일 이동평균선 상회 비율은 25% 수준으로 급락해 시장 내부 건전성이 극도로 취약합니다.
 - 🏦 골드만삭스 분석에 따르면 현재 시장 폭(Market Breadth)은 닷컴버블 이후 최악의 수준으로 좁혀졌습니다.
-- 🗣️ 시장에서 웃고 있는 투자자는 나스닥 지수 ETF 보유자이거나 <a href="https://finviz.com/quote.ashx?t=NVDA&p=w">NVDA</a> 단독 보유자 등 극소수에 불과합니다.
+- 🗣️ 시장에서 웃고 있는 투자자는 나스닥 지수 ETF 보유자이거나 [NVDA](https://finviz.com/quote.ashx?t=NVDA&p=w) 단독 보유자 등 극소수에 불과합니다.
 
 
 ### 2️⃣ 엔비디아의 신고가 랠리와 자사주 매입
@@ -69,25 +69,25 @@ tags:
 ## 🎯 종목
 | 티커 | 회사 | 소수몽키 입장 | 이유 한 줄 | 내 시스템 |
 | :--- | :--- | :--- | :--- | :--- |
-| <a href="https://finviz.com/quote.ashx?t=NVDA&p=w">NVDA</a> | 엔비디아 | 👍 선호 | 역대급 자사주 매입, 칩담대·보험사 연계 생태계 확장, 압도적 실적과 신고가 랠리 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=META&p=w">META</a> | 메타 | 👍 선호 | AI 비서 '뮤즈' 22일 만에 500만 돌파, 쇼핑·결제 수수료 기반 강력한 수익화 기대 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=PANW&p=w">PANW</a> | 팔로알토 | 👀 관심 | 백악관 AI 핵심 회의 참석, AI 실생활 침투 가속화에 따른 사이버 보안 수요 급증 | ✅ Top 3 추적 중 / ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=ZS&p=w">ZS</a> | 지스케일러 | 👀 관심 | AI 에이전트 확산과 해킹 리스크 대두에 따른 사이버 보안 대표 ETF 구성 종목 | ✅ Top 3 추적 중 |
-| <a href="https://finviz.com/quote.ashx?t=PLTR&p=w">PLTR</a> | 팔란티어 | 👀 관심 | 백악관 초청 AI 핵심 기업 회의 참석, 국방/정부 AI 에이전트 연계 수혜 기대 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=AMD&p=w">AMD</a> | AMD | 👀 관심 | 백악관 회의 참석 및 리사 수 방한 이슈, AI 인프라 순환매 수혜 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=CRWD&p=w">CRWD</a> | 크라우드스트라이크 | 👀 관심 | CIBR ETF 1위 종목, AI 고도화에 따른 사이버 보안 인프라 필수화 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=GOOGL&p=w">GOOGL</a> | 알파벳 | 💬 언급만 | 미국 정부 사이트(아메리카.gov)에 제미나이 탑재 발표 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=AAPL&p=w">AAPL</a> | 애플 | 💬 언급만 | 주주환원 대명사였으나 자사주 매입 규모 1위를 엔비디아에 넘겨줌 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=MSFT&p=w">MSFT</a> | 마이크로소프트 | 💬 언급만 | 젠슨 황 참석 예정인 연례 행사 및 백악관 회의 참석 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=AMZN&p=w">AMZN</a> | 아마존 | 💬 언급만 | 백악관 AI 회의 참석 빅테크 기업 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=AVGO&p=w">AVGO</a> | 브로드컴 | 💬 언급만 | 백악관 AI 회의 참석 및 반도체/보안 인프라 핵심 기업 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=ARM&p=w">ARM</a> | ARM 홀딩스 | 💬 언급만 | AI 인프라 및 신규 아키텍처 수혜주로 테이블 언급 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=MU&p=w">MU</a> | 마이크론 | 💬 언급만 | 대규모 증설 및 투자 발표, 백악관 AI 회의 참석 | - |
-| <a href="https://finviz.com/quote.ashx?t=MRVL&p=w">MRVL</a> | 마벨 테크놀로지 | 👀 관심 | 10/6 '마벨 투자자의 날' 개최, 맞춤형 AI/광통신 반도체 모멘텀 기대 | - |
-| <a href="https://finviz.com/quote.ashx?t=NOW&p=w">NOW</a> | 서비스나우 | 💬 언급만 | 백악관 AI 핵심 회의 참석 기업 리스트 | - |
-| <a href="https://finviz.com/quote.ashx?t=QQQ&p=w">QQQ</a> | Invesco QQQ | 👍 선호 | 개별주 선별이 어려운 극단적 쏠림 장세의 최적 대안 | - |
-| <a href="https://finviz.com/quote.ashx?t=SOXX&p=w">SOXX</a> | iShares 반도체 ETF | 👍 선호 | AI 인프라 순환매를 한 번에 담는 반도체 핵심 ETF | - |
-| <a href="https://finviz.com/quote.ashx?t=CIBR&p=w">CIBR</a> | 사이버보안 ETF | 👀 관심 | AI 실생활 침투 및 에이전트 확산에 따른 보안 리스크 수혜 ETF | - |
+| [NVDA](https://finviz.com/quote.ashx?t=NVDA&p=w) | 엔비디아 | 👍 선호 | 역대급 자사주 매입, 칩담대·보험사 연계 생태계 확장, 압도적 실적과 신고가 랠리 | ✅ ⭐ 워치리스트 |
+| [META](https://finviz.com/quote.ashx?t=META&p=w) | 메타 | 👍 선호 | AI 비서 '뮤즈' 22일 만에 500만 돌파, 쇼핑·결제 수수료 기반 강력한 수익화 기대 | ✅ ⭐ 워치리스트 |
+| [PANW](https://finviz.com/quote.ashx?t=PANW&p=w) | 팔로알토 | 👀 관심 | 백악관 AI 핵심 회의 참석, AI 실생활 침투 가속화에 따른 사이버 보안 수요 급증 | ✅ Top 3 추적 중 / ✅ ⭐ 워치리스트 |
+| [ZS](https://finviz.com/quote.ashx?t=ZS&p=w) | 지스케일러 | 👀 관심 | AI 에이전트 확산과 해킹 리스크 대두에 따른 사이버 보안 대표 ETF 구성 종목 | ✅ Top 3 추적 중 |
+| [PLTR](https://finviz.com/quote.ashx?t=PLTR&p=w) | 팔란티어 | 👀 관심 | 백악관 초청 AI 핵심 기업 회의 참석, 국방/정부 AI 에이전트 연계 수혜 기대 | ✅ ⭐ 워치리스트 |
+| [AMD](https://finviz.com/quote.ashx?t=AMD&p=w) | AMD | 👀 관심 | 백악관 회의 참석 및 리사 수 방한 이슈, AI 인프라 순환매 수혜 | ✅ ⭐ 워치리스트 |
+| [CRWD](https://finviz.com/quote.ashx?t=CRWD&p=w) | 크라우드스트라이크 | 👀 관심 | CIBR ETF 1위 종목, AI 고도화에 따른 사이버 보안 인프라 필수화 | ✅ ⭐ 워치리스트 |
+| [GOOGL](https://finviz.com/quote.ashx?t=GOOGL&p=w) | 알파벳 | 💬 언급만 | 미국 정부 사이트(아메리카.gov)에 제미나이 탑재 발표 | ✅ ⭐ 워치리스트 |
+| [AAPL](https://finviz.com/quote.ashx?t=AAPL&p=w) | 애플 | 💬 언급만 | 주주환원 대명사였으나 자사주 매입 규모 1위를 엔비디아에 넘겨줌 | ✅ ⭐ 워치리스트 |
+| [MSFT](https://finviz.com/quote.ashx?t=MSFT&p=w) | 마이크로소프트 | 💬 언급만 | 젠슨 황 참석 예정인 연례 행사 및 백악관 회의 참석 | ✅ ⭐ 워치리스트 |
+| [AMZN](https://finviz.com/quote.ashx?t=AMZN&p=w) | 아마존 | 💬 언급만 | 백악관 AI 회의 참석 빅테크 기업 | ✅ ⭐ 워치리스트 |
+| [AVGO](https://finviz.com/quote.ashx?t=AVGO&p=w) | 브로드컴 | 💬 언급만 | 백악관 AI 회의 참석 및 반도체/보안 인프라 핵심 기업 | ✅ ⭐ 워치리스트 |
+| [ARM](https://finviz.com/quote.ashx?t=ARM&p=w) | ARM 홀딩스 | 💬 언급만 | AI 인프라 및 신규 아키텍처 수혜주로 테이블 언급 | ✅ ⭐ 워치리스트 |
+| [MU](https://finviz.com/quote.ashx?t=MU&p=w) | 마이크론 | 💬 언급만 | 대규모 증설 및 투자 발표, 백악관 AI 회의 참석 | - |
+| [MRVL](https://finviz.com/quote.ashx?t=MRVL&p=w) | 마벨 테크놀로지 | 👀 관심 | 10/6 '마벨 투자자의 날' 개최, 맞춤형 AI/광통신 반도체 모멘텀 기대 | - |
+| [NOW](https://finviz.com/quote.ashx?t=NOW&p=w) | 서비스나우 | 💬 언급만 | 백악관 AI 핵심 회의 참석 기업 리스트 | - |
+| [QQQ](https://finviz.com/quote.ashx?t=QQQ&p=w) | Invesco QQQ | 👍 선호 | 개별주 선별이 어려운 극단적 쏠림 장세의 최적 대안 | - |
+| [SOXX](https://finviz.com/quote.ashx?t=SOXX&p=w) | iShares 반도체 ETF | 👍 선호 | AI 인프라 순환매를 한 번에 담는 반도체 핵심 ETF | - |
+| [CIBR](https://finviz.com/quote.ashx?t=CIBR&p=w) | 사이버보안 ETF | 👀 관심 | AI 실생활 침투 및 에이전트 확산에 따른 보안 리스크 수혜 ETF | - |
 
 💬 리스트만: INTC, DELL, HPE, LRCX, AMAT, KLAC, COHR, GLW, FTNT, CSCO, OKTA, NET, FFIV, QLYS, RBRK, TWLO, VYLR, WBD, CTVA
 

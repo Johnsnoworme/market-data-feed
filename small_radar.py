@@ -36,6 +36,8 @@ def universe():
             continue
         if not s or "^" in s or "/" in s or not (MIN_CAP <= cap < MAX_CAP):
             continue
+        if any(b in (" " + str(x.get("name") or "").lower() + " ") for b in (" when issued", "when-issued", " rights", " warrant", " units")):  # 2026-10-07 임시 거래 제외
+            continue
         if (x.get("sector") or "") not in PRE_SECTORS:
             continue
         out[s.replace(".", "-")] = dict(name=(x.get("name") or "")[:40], cap=cap, sector=x.get("sector"), industry=x.get("industry"))

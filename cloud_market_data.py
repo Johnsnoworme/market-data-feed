@@ -69,6 +69,9 @@ def get_large_cap_universe():
         # 우선주/워런트 등 특수 심볼(^ 포함) 제외, 시총 기준 미달 제외
         if not sym or '^' in sym or cap < MIN_MARKET_CAP:
             continue
+        # 2026-10-07: When Issued(상장 전 임시 거래)·권리·워런트 제외
+        if any(b in (" " + str(r.get('name') or "").lower() + " ") for b in (" when issued", "when-issued", " rights", " warrant", " units")):
+            continue
         # yfinance 호환: BRK/B -> BRK-B
         yf_sym = sym.replace('/', '-').replace('.', '-')
         info[yf_sym] = {
@@ -86,6 +89,37 @@ FINVIZ_HEADERS = {
 
 # Finviz 커스텀 뷰(v=152) 컬럼: 1=Ticker, 2=Company, 3=Sector, 42=Perf Week, 43=Perf Month, 66=Change %
 FINVIZ_COLS = {'change': 'Change %', 'perf1w': 'Perf Week', 'perf4w': 'Perf Month'}
+
+
+# ─────────────────────────────────────────────────────────────
+# 2026-10-07 가짜 상승 거르기 (안전장치 2겹)
+#  1겹: 이름/티커로 거름 — When Issued(상장 전 임시 거래), 권리(Rights), 워런트, 유닛
+#  2겹: 대형주($10B+)로서 비정상적으로 큰 숫자면(일 40%·주 60%·월 100% 초과)
+#       yfinance 거래 이력을 확인 → 이력이 20일 미만(분사·임시 티커·신규)이면 제외
+#       이력이 충분하면 진짜 움직임(인수합병 등)으로 보고 남기되 표 아래 ⚠️ 표시
+# ─────────────────────────────────────────────────────────────
+EXCLUDED = {}   # order -> ["MMEDV +161.78% (상장 전 임시 거래)", ...]
+FLAGGED = {}    # order -> ["PTC +33.49%", ...] (남겼지만 뉴스 확인 권장)
+EXTREME = {'change': 40.0, 'perf1w': 60.0, 'perf4w': 100.0}
+BAD_NAME = ['when issued', 'when-issued', ' rights', ' warrant', ' units', ' unit ']
+
+def suspicious_reason(ticker, name, val, order):
+    nm = f" {name.lower()} "
+    t = ticker.upper()
+    if any(b in nm for b in BAD_NAME) or t.endswith('.WI') or t.endswith('-WI'):
+        return "상장 전 임시 거래/권리·워런트"
+    if abs(val) <= EXTREME.get(order, 40.0):
+        return None
+    try:
+        h = yf.Ticker(t.replace('.', '-')).history(period="3mo", interval="1d")
+        n = int(h['Close'].dropna().shape[0])
+    except Exception as e:
+        print(f"   이력 확인 실패 {t}: {e}")
+        n = -1
+    if 0 < n < 20:  # 0개 = Yahoo 오류일 수 있음 → 빼지 않고 ⚠️ 표시만
+        return f"거래 이력 {n}일뿐 — 분사·임시 티커 의심"
+    FLAGGED.setdefault(order, []).append(f"{ticker} {val:+.2f}%")
+    return None
 
 def get_finviz_top3(order):
     """
@@ -120,10 +154,11 @@ def get_finviz_top3(order):
                 ticker = href.split('t=')[1].split('&')[0]
                 break
         val = float(cells[i_v].replace('%', '').replace(',', ''))
-        # 2026-10-07: 'When Issued'(상장 전 임시 거래) 종목 제외 — MMEDV +161.78%(10/5)가 Top 3 1위로 잘못 들어감
-        nm = cells[i_c].lower()
-        if 'when issued' in nm or 'when-issued' in nm or ticker.upper().endswith('.WI'):
-            print(f"   제외(상장 전 임시 거래): {ticker} {cells[i_c]} {val}%")
+        # 2026-10-07: 가짜 상승 거르기 (MMEDV When Issued +161.78%가 1위로 잘못 들어간 사고)
+        why = suspicious_reason(ticker, cells[i_c], val, order)
+        if why:
+            print(f"   제외({why}): {ticker} {cells[i_c]} {val}%")
+            EXCLUDED.setdefault(order, []).append(f"{ticker} {val:+.2f}% ({why})")
             continue
         out.append((ticker, cells[i_c], cells[i_s], val))
         if len(out) == 3:
@@ -171,7 +206,13 @@ def top3_md(rows, title, finviz_url):
         finviz_quote = f"https://finviz.com/quote.ashx?t={ticker}"
         ticker_link = f'[{ticker}]({finviz_quote})'  # 2026-10-07: HTML 링크 → 마크다운 링크 (모든 기기에서 눌림)
         md += f"| {ticker_link} | {name} | {sector} | {sign}{val:.2f}% |\n"
-    md += f'\n👉 [Finviz {title} Large-Cap Screener 전체보기]({finviz_url})\n\n'
+    md += f'\n👉 [Finviz {title} Large-Cap Screener 전체보기]({finviz_url})\n'
+    order = {'Daily Top 3': 'change', 'Weekly Top 3': 'perf1w', 'Monthly Top 3': 'perf4w'}.get(title)
+    if order and EXCLUDED.get(order):
+        md += f"\n> 🚫 자동 제외(가짜 상승): {', '.join(EXCLUDED[order])}\n"
+    if order and FLAGGED.get(order):
+        md += f"\n> ⚠️ 대형주치고 아주 큰 움직임 — 뉴스로 이유 확인 권장: {', '.join(FLAGGED[order])}\n"
+    md += '\n'
     return md
 
 # ─────────────────────────────────────────────────────────────
@@ -278,6 +319,11 @@ def period_top3(close, start, end, info, n=3):
     b, f = before[-1], inside[-1]
     rets = (close.iloc[f] / close.iloc[b] - 1) * 100
     rets = rets.replace([float('inf'), float('-inf')], float('nan')).dropna()
+    # 2026-10-07: When Issued·권리·워런트 등은 기록에서도 제외
+    keep = [t for t in rets.index
+            if not any(b in f" {str(info.get(t, {}).get('Security', '')).lower()} " for b in BAD_NAME)
+            and not str(t).upper().endswith(('.WI', '-WI'))]
+    rets = rets[keep]
     rows = [(t, info[t]['Security'], info[t]['GICS Sector'], float(v))
             for t, v in rets.nlargest(n).items()]
     return rows, idx[b], idx[f]

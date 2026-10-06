@@ -70,12 +70,12 @@ tags:
 ## 🎯 종목
 | 티커 | 회사 | 소수몽키 입장 | 이유 한 줄 | 내 시스템 |
 | :--- | :--- | :--- | :--- | :--- |
-| <a href="https://finviz.com/quote.ashx?t=GOOGL&p=w">GOOGL</a> | 알파벳 | 👍 선호 | TPU 4개를 탑재한 우주 AI 데이터센터 실험을 가장 먼저 개시하며 인프라 병목을 선제 해결 중 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=SPCX&p=w">SPCX</a> | 스페이스X | 👍 선호 | 스타십 상용 궤도 비행 성공 시 발사 비용 혁신과 글로벌 우주 화물 독점으로 수익성 급가속 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=AMZN&p=w">AMZN</a> | 아마존 | 👀 관심 | 제프 베이조스의 블루 오리진이 첫 외부 자금 조달을 시작해 우주 클라우드·물류 연계 기대 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=PL&p=w">PL</a> | 플래닛 랩스 | 👀 관심 | 구글의 핵심 우주 협력사로서 이번 우주 AI 위성체 제작을 전담해 실적 및 기술 검증 기대 | - |
-| <a href="https://finviz.com/quote.ashx?t=RKLB&p=w">RKLB</a> | 로켓랩 | ⚠️ 주의 | 발사체 대표 주자이나 우주 섹터 전반의 고금리 취약성과 적자 지속으로 주가 변동성 주의 필요 | - |
-| <a href="https://finviz.com/quote.ashx?t=ASTS&p=w">ASTS</a> | AST 스페이스모바일 | ⚠️ 주의 | 우주 통신 기대감으로 급등 후 긴축 우려에 따른 변동성 국면이므로 리스크 관리 필요 | - |
+| [GOOGL](https://finviz.com/quote.ashx?t=GOOGL&p=w) | 알파벳 | 👍 선호 | TPU 4개를 탑재한 우주 AI 데이터센터 실험을 가장 먼저 개시하며 인프라 병목을 선제 해결 중 | ✅ ⭐ 워치리스트 |
+| [SPCX](https://finviz.com/quote.ashx?t=SPCX&p=w) | 스페이스X | 👍 선호 | 스타십 상용 궤도 비행 성공 시 발사 비용 혁신과 글로벌 우주 화물 독점으로 수익성 급가속 | ✅ ⭐ 워치리스트 |
+| [AMZN](https://finviz.com/quote.ashx?t=AMZN&p=w) | 아마존 | 👀 관심 | 제프 베이조스의 블루 오리진이 첫 외부 자금 조달을 시작해 우주 클라우드·물류 연계 기대 | ✅ ⭐ 워치리스트 |
+| [PL](https://finviz.com/quote.ashx?t=PL&p=w) | 플래닛 랩스 | 👀 관심 | 구글의 핵심 우주 협력사로서 이번 우주 AI 위성체 제작을 전담해 실적 및 기술 검증 기대 | - |
+| [RKLB](https://finviz.com/quote.ashx?t=RKLB&p=w) | 로켓랩 | ⚠️ 주의 | 발사체 대표 주자이나 우주 섹터 전반의 고금리 취약성과 적자 지속으로 주가 변동성 주의 필요 | - |
+| [ASTS](https://finviz.com/quote.ashx?t=ASTS&p=w) | AST 스페이스모바일 | ⚠️ 주의 | 우주 통신 기대감으로 급등 후 긴축 우려에 따른 변동성 국면이므로 리스크 관리 필요 | - |
 
 💬 리스트만: BKSY, SPIR, SATL, FLY, LUNR, MNTS, RDW, NASA(ETF), MU, SNDK, INTC, ARM, AMD, QCOM, DELL, NBIS, LRCX, AMAT, MRVL, GLW, BE
 

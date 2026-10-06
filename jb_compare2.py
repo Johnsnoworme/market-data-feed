@@ -13,7 +13,7 @@ LEADERS = ["NVDA", "MSFT", "AAPL", "AMZN", "GOOGL", "META", "AVGO", "TSLA"]
 
 
 def fv(t, w=True):
-    return f'<a href="https://finviz.com/quote.ashx?p={"w" if w else "d"}&t={t}" target="_blank">{t}</a>'
+    return f'[{t}](https://finviz.com/quote.ashx?p={"w" if w else "d"}&t={t})'
 
 
 def main():

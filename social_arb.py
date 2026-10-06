@@ -34,7 +34,7 @@ PHRASES = ["supply constrained", "capacity constrained", "demand exceeds supply"
 
 
 def fv(t):
-    return f'<a href="https://finviz.com/quote.ashx?p=d&t={t}" target="_blank">{t}</a>'
+    return f'[{t}](https://finviz.com/quote.ashx?p=d&t={t})'  # 2026-10-07 마크다운 링크
 
 
 def get(url, **kw):
@@ -61,7 +61,7 @@ def universe():
         except ValueError:
             continue
         s = (x.get("symbol") or "").strip()
-        if s and "^" not in s and "/" not in s and cap >= MIN_CAP:
+        if s and "^" not in s and "/" not in s and cap >= MIN_CAP and not any(b in (" " + str(x.get("name") or "").lower() + " ") for b in (" when issued", "when-issued", " rights", " warrant", " units")):
             out[s.replace(".", "-")] = {"cap": cap, "name": x.get("name") or s, "sector": x.get("sector") or ""}
     return out
 

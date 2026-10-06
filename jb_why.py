@@ -9,7 +9,7 @@ ASK = ["BE", "PLTR", "HOOD", "MSTR", "TEM", "NVDA", "TSLA", "CRCL", "ORCL", "MU"
 
 
 def fv(t):
-    return f'<a href="https://finviz.com/quote.ashx?p=w&t={t}" target="_blank">{t}</a>'
+    return f'[{t}](https://finviz.com/quote.ashx?p=w&t={t})'
 
 
 def main():

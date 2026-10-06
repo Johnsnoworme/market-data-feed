@@ -44,23 +44,23 @@ tags:
 
 ### 3️⃣ 피해가 예상되는 대표 업종 분석
 - 🏦 월가 리서치 기관(시트리니 등)은 AI 에이전트가 소비자의 비효율을 제거하면서 마진이 깎일 대표 기업들을 경고함.
-- 📉 실제로 찰스 슈왑(<a href="https://finviz.com/quote.ashx?t=SCHW&p=w">SCHW</a>)은 방치된 예수금 90억 달러가 유출될 수 있다는 지적 속에 주간 6%가량 급락세를 보임.
+- 📉 실제로 찰스 슈왑([SCHW](https://finviz.com/quote.ashx?t=SCHW&p=w))은 방치된 예수금 90억 달러가 유출될 수 있다는 지적 속에 주간 6%가량 급락세를 보임.
 
 | 업종 | AI가 줄여주는 낭비 요소 | 대표 티커 |
 | :--- | :--- | :--- |
-| **은행** | 저금리 예금 방치, 비싼 대출이자 | <a href="https://finviz.com/quote.ashx?t=JPM&p=w">JPM</a>, <a href="https://finviz.com/quote.ashx?t=BAC&p=w">BAC</a> |
-| **증권·자산관리** | 놀고 있는 예수금, 높은 자산관리/거래 수수료 | <a href="https://finviz.com/quote.ashx?t=SCHW&p=w">SCHW</a> |
-| **보험** | 중복 보험, 비싼 갱신료, 미청구 보험금 회수 | <a href="https://finviz.com/quote.ashx?t=ALL&p=w">ALL</a>, <a href="https://finviz.com/quote.ashx?t=PGR&p=w">PGR</a> |
-| **쇼핑몰** | 비싸게 구매하는 행위, 할인 누락 방지 | <a href="https://finviz.com/quote.ashx?t=AMZN&p=w">AMZN</a> |
-| **통신** | 과도한 요금제, 불필요한 유료 부가서비스 | <a href="https://finviz.com/quote.ashx?t=T&p=w">T</a>, <a href="https://finviz.com/quote.ashx?t=VZ&p=w">VZ</a> |
-| **구독·멤버십** | 사용하지 않는 유료 서비스 자동 결제 | <a href="https://finviz.com/quote.ashx?t=NFLX&p=w">NFLX</a>, <a href="https://finviz.com/quote.ashx?t=SPOT&p=w">SPOT</a> |
-| **여행·예약** | 비싼 예약, 환불 기한 누락 방지 | <a href="https://finviz.com/quote.ashx?t=BKNG&p=w">BKNG</a>, <a href="https://finviz.com/quote.ashx?t=EXPE&p=w">EXPE</a> |
-| **기업용 SW** | 미사용 계정 정리, 중복 구독 제거 | <a href="https://finviz.com/quote.ashx?t=CRM&p=w">CRM</a>, <a href="https://finviz.com/quote.ashx?t=ADBE&p=w">ADBE</a> |
+| **은행** | 저금리 예금 방치, 비싼 대출이자 | [JPM](https://finviz.com/quote.ashx?t=JPM&p=w), [BAC](https://finviz.com/quote.ashx?t=BAC&p=w) |
+| **증권·자산관리** | 놀고 있는 예수금, 높은 자산관리/거래 수수료 | [SCHW](https://finviz.com/quote.ashx?t=SCHW&p=w) |
+| **보험** | 중복 보험, 비싼 갱신료, 미청구 보험금 회수 | [ALL](https://finviz.com/quote.ashx?t=ALL&p=w), [PGR](https://finviz.com/quote.ashx?t=PGR&p=w) |
+| **쇼핑몰** | 비싸게 구매하는 행위, 할인 누락 방지 | [AMZN](https://finviz.com/quote.ashx?t=AMZN&p=w) |
+| **통신** | 과도한 요금제, 불필요한 유료 부가서비스 | [T](https://finviz.com/quote.ashx?t=T&p=w), [VZ](https://finviz.com/quote.ashx?t=VZ&p=w) |
+| **구독·멤버십** | 사용하지 않는 유료 서비스 자동 결제 | [NFLX](https://finviz.com/quote.ashx?t=NFLX&p=w), [SPOT](https://finviz.com/quote.ashx?t=SPOT&p=w) |
+| **여행·예약** | 비싼 예약, 환불 기한 누락 방지 | [BKNG](https://finviz.com/quote.ashx?t=BKNG&p=w), [EXPE](https://finviz.com/quote.ashx?t=EXPE&p=w) |
+| **기업용 SW** | 미사용 계정 정리, 중복 구독 제거 | [CRM](https://finviz.com/quote.ashx?t=CRM&p=w), [ADBE](https://finviz.com/quote.ashx?t=ADBE&p=w) |
 
 
 ### 4️⃣ 문을 여는 기업 vs 걸어 잠그는 아마존
 - 🤝 **생태계 개방파**: 메타 뮤즈 출시 1주일 만에 쇼피파이, 스포티파이, 스트라이프 등 1,500개 이상 기업이 협업을 맺음. 마진이 줄더라도 AI 거래량을 선점하는 것이 고립되는 것보다 낫다는 판단임.
-- 🛡️ **철통 방어파 (아마존)**: 아마존(<a href="https://finviz.com/quote.ashx?t=AMZN&p=w">AMZN</a>)은 AI 에이전트의 접속을 보안 이유로 적극 차단함.
+- 🛡️ **철통 방어파 (아마존)**: 아마존([AMZN](https://finviz.com/quote.ashx?t=AMZN&p=w))은 AI 에이전트의 접속을 보안 이유로 적극 차단함.
 - 🎯 **충돌 원인**: 아마존의 핵심 수익원인 680억 달러 규모 광고 비즈니스가 붕괴될 위기이기 때문임.
 - 💻 인간을 위해 최적화된 복잡한 추천·스폰서 광고 UI를 AI 에이전트는 완전히 무시하고 오직 최저가/조건만 뽑아 결제해 버림.
 - ⚖️ **법적 공방**: 퍼플렉시티 AI 봇의 대리 쇼핑 소송에서 법원은 "AI 챗봇은 인간의 대리인이므로 사람과 다를 바 없다"며 AI 기업의 손을 들어줘 아마존에 불리한 환경이 조성됨.
@@ -70,7 +70,7 @@ tags:
 - 🤖 블랙록은 'The Machine-Native Economy' 보고서를 통해 AI 에이전트가 직접 데이터를 사고 자원을 빌려 결제하는 경제가 열렸다고 분석함.
 - 💳 전통적인 비자/마스터카드 결제망 대신, 24시간 끊김 없이 작동하고 수수료가 저렴한 **스테이블코인과 온체인 가상자산**이 핵심 거래 수단이 될 것으로 전망함.
 - 📊 시장은 아직 AI 에이전트발 결제 인프라 수요를 충분히 반영하지 못하고 있어 과소평가된 상태라고 주장함.
-- 🏛️ 관련 수혜주로 로빈후드(<a href="https://finviz.com/quote.ashx?t=HOOD&p=w">HOOD</a>), 코인베이스(<a href="https://finviz.com/quote.ashx?t=COIN&p=w">COIN</a>), 마이크로스트래티지(<a href="https://finviz.com/quote.ashx?t=MSTR&p=w">MSTR</a>), 서클(CRCL) 등을 제시함.
+- 🏛️ 관련 수혜주로 로빈후드([HOOD](https://finviz.com/quote.ashx?t=HOOD&p=w)), 코인베이스([COIN](https://finviz.com/quote.ashx?t=COIN&p=w)), 마이크로스트래티지([MSTR](https://finviz.com/quote.ashx?t=MSTR&p=w)), 서클(CRCL) 등을 제시함.
 
 
 ### 6️⃣ 시트리니(Citrini)의 디스토피아 시나리오 재조명
@@ -84,12 +84,12 @@ tags:
 ## 🎯 종목
 | 티커 | 회사 | 소수몽키 입장 | 이유 한 줄 | 내 시스템 |
 | :--- | :--- | :--- | :--- | :--- |
-| <a href="https://finviz.com/quote.ashx?t=META&p=w">META</a> | Meta Platforms | 👍 선호 | AI 비서 '뮤즈'로 일상 침투 및 대중화 주도, 1,500개 제휴 생태계 확장 중 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=AMZN&p=w">AMZN</a> | Amazon | ⚠️ 주의 | AI 봇이 검색/스폰서 광고 UI를 우회하며 680억 달러 광고 수익 기반 위협받음 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=HOOD&p=w">HOOD</a> | Robinhood | 👀 관심 | 블랙록 선정 머신 네이티브 경제 및 암호화폐 수혜주 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=MSTR&p=w">MSTR</a> | MicroStrategy | 👀 관심 | 머신 네이티브 경제 보고서에서 비트코인 자산 관련주로 언급 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=SCHW&p=w">SCHW</a> | Charles Schwab | ⚠️ 주의 | AI 에이전트의 예수금 이동으로 90억 달러 '레이지 캐시' 유출 우려 직면 | - |
-| <a href="https://finviz.com/quote.ashx?t=COIN&p=w">COIN</a> | Coinbase | 👀 관심 | AI 간 거래에 쓰일 스테이블코인 및 거래소 생태계 수혜주 | - |
+| [META](https://finviz.com/quote.ashx?t=META&p=w) | Meta Platforms | 👍 선호 | AI 비서 '뮤즈'로 일상 침투 및 대중화 주도, 1,500개 제휴 생태계 확장 중 | ✅ ⭐ 워치리스트 |
+| [AMZN](https://finviz.com/quote.ashx?t=AMZN&p=w) | Amazon | ⚠️ 주의 | AI 봇이 검색/스폰서 광고 UI를 우회하며 680억 달러 광고 수익 기반 위협받음 | ✅ ⭐ 워치리스트 |
+| [HOOD](https://finviz.com/quote.ashx?t=HOOD&p=w) | Robinhood | 👀 관심 | 블랙록 선정 머신 네이티브 경제 및 암호화폐 수혜주 | ✅ ⭐ 워치리스트 |
+| [MSTR](https://finviz.com/quote.ashx?t=MSTR&p=w) | MicroStrategy | 👀 관심 | 머신 네이티브 경제 보고서에서 비트코인 자산 관련주로 언급 | ✅ ⭐ 워치리스트 |
+| [SCHW](https://finviz.com/quote.ashx?t=SCHW&p=w) | Charles Schwab | ⚠️ 주의 | AI 에이전트의 예수금 이동으로 90억 달러 '레이지 캐시' 유출 우려 직면 | - |
+| [COIN](https://finviz.com/quote.ashx?t=COIN&p=w) | Coinbase | 👀 관심 | AI 간 거래에 쓰일 스테이블코인 및 거래소 생태계 수혜주 | - |
 💬 리스트만: JPM, BAC, ALL, PGR, T, VZ, NFLX, SPOT, BKNG, EXPE, CRM, ADBE, CRCL, IBIT, ETHA
 
 <br>

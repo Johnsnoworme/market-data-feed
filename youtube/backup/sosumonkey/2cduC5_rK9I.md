@@ -76,20 +76,20 @@ tags:
 
 | 티커 | 회사 | 소수몽키 입장 | 이유 한 줄 | 내 시스템 |
 | :--- | :--- | :--- | :--- | :--- |
-| <a href="https://finviz.com/quote.ashx?t=TEM&p=w">TEM</a> | 템퍼스 AI | 💬 언급만 | ARK 펀드 주요 편입 종목으로 AI 바이오 융합 테마 소개 | ✅ Top 3 추적 중 |
-| <a href="https://finviz.com/quote.ashx?t=CRCL&p=w">CRCL</a> | 서클 | 💬 언급만 | ARK 핵심 암호화폐/블록체인 포트폴리오 비중 소개 | ✅ Top 3 추적 중 |
-| <a href="https://finviz.com/quote.ashx?t=TWST&p=w">TWST</a> | 트위스트 바이오 | 💬 언급만 | 비용 절감으로 성장 중인 ARKK/ARKG 핵심 바이오 편입주 | ✅ Top 3 추적 중 |
-| <a href="https://finviz.com/quote.ashx?t=TXG&p=w">TXG</a> | 10x 지노믹스 | 💬 언급만 | AI 접목 유전체 분석 비용 하락 수혜 기대 유망주 | ✅ Top 3 추적 중 |
-| <a href="https://finviz.com/quote.ashx?t=ILMN&p=w">ILMN</a> | 일루미나 | 💬 언급만 | ARKG 내 유전체 염기서열 분석 장비 주요 편입주 | ✅ Top 3 추적 중 |
-| <a href="https://finviz.com/quote.ashx?t=TSLA&p=w">TSLA</a> | 테슬라 | 👀 관심 | 일론 머스크의 로보틱스·AI 역량 및 ARK 펀드 비중 1위 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=SPCX&p=w">SPCX</a> | 스페이스X | 👀 관심 | 우주 데이터센터 및 로켓 발사 비용 급감의 최대 주역 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=HOOD&p=w">HOOD</a> | 로빈후드 | 💬 언급만 | ARKK 상위 포트폴리오 내 핀테크/금융 혁신 기업으로 언급 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=MSFT&p=w">MSFT</a> | 마이크로소프트 | 👍 선호 | 사티아 나델라 CEO가 증언한 AI 에이전트 슈퍼사이클 최대 수혜 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=GOOGL&p=w">GOOGL</a> | 알파벳 (구글) | 👀 관심 | 우주 궤도로 TPU 칩을 발사해 궤도 데이터센터를 시험 중 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=AAPL&p=w">AAPL</a> | 애플 | 💬 언급만 | 글로벌 소비자가 지속적으로 하드웨어 및 클라우드 구독료를 지불하는 기업 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=META&p=w">META</a> | 메타 플랫폼스 | 💬 언급만 | 컴퓨팅 인프라 오픈소스를 주도하며 AI 대중화 드라이브 | ✅ ⭐ 워치리스트 |
-| <a href="https://finviz.com/quote.ashx?t=TLT&p=w">TLT</a> | 미국 20년+ 국채 ETF | ⚠️ 주의 | 장기 금리가 6~8%로 더 오를 경우 추가 하락 위험 존재 | - |
-| <a href="https://finviz.com/quote.ashx?t=QQQ&p=w">QQQ</a> | 인베스코 QQQ 트러스트 | 👍 선호 | 개별주 리스크와 매크로 불안을 피해 AI 기술 혁명을 누릴 최적 대안 | - |
+| [TEM](https://finviz.com/quote.ashx?t=TEM&p=w) | 템퍼스 AI | 💬 언급만 | ARK 펀드 주요 편입 종목으로 AI 바이오 융합 테마 소개 | ✅ Top 3 추적 중 |
+| [CRCL](https://finviz.com/quote.ashx?t=CRCL&p=w) | 서클 | 💬 언급만 | ARK 핵심 암호화폐/블록체인 포트폴리오 비중 소개 | ✅ Top 3 추적 중 |
+| [TWST](https://finviz.com/quote.ashx?t=TWST&p=w) | 트위스트 바이오 | 💬 언급만 | 비용 절감으로 성장 중인 ARKK/ARKG 핵심 바이오 편입주 | ✅ Top 3 추적 중 |
+| [TXG](https://finviz.com/quote.ashx?t=TXG&p=w) | 10x 지노믹스 | 💬 언급만 | AI 접목 유전체 분석 비용 하락 수혜 기대 유망주 | ✅ Top 3 추적 중 |
+| [ILMN](https://finviz.com/quote.ashx?t=ILMN&p=w) | 일루미나 | 💬 언급만 | ARKG 내 유전체 염기서열 분석 장비 주요 편입주 | ✅ Top 3 추적 중 |
+| [TSLA](https://finviz.com/quote.ashx?t=TSLA&p=w) | 테슬라 | 👀 관심 | 일론 머스크의 로보틱스·AI 역량 및 ARK 펀드 비중 1위 | ✅ ⭐ 워치리스트 |
+| [SPCX](https://finviz.com/quote.ashx?t=SPCX&p=w) | 스페이스X | 👀 관심 | 우주 데이터센터 및 로켓 발사 비용 급감의 최대 주역 | ✅ ⭐ 워치리스트 |
+| [HOOD](https://finviz.com/quote.ashx?t=HOOD&p=w) | 로빈후드 | 💬 언급만 | ARKK 상위 포트폴리오 내 핀테크/금융 혁신 기업으로 언급 | ✅ ⭐ 워치리스트 |
+| [MSFT](https://finviz.com/quote.ashx?t=MSFT&p=w) | 마이크로소프트 | 👍 선호 | 사티아 나델라 CEO가 증언한 AI 에이전트 슈퍼사이클 최대 수혜 | ✅ ⭐ 워치리스트 |
+| [GOOGL](https://finviz.com/quote.ashx?t=GOOGL&p=w) | 알파벳 (구글) | 👀 관심 | 우주 궤도로 TPU 칩을 발사해 궤도 데이터센터를 시험 중 | ✅ ⭐ 워치리스트 |
+| [AAPL](https://finviz.com/quote.ashx?t=AAPL&p=w) | 애플 | 💬 언급만 | 글로벌 소비자가 지속적으로 하드웨어 및 클라우드 구독료를 지불하는 기업 | ✅ ⭐ 워치리스트 |
+| [META](https://finviz.com/quote.ashx?t=META&p=w) | 메타 플랫폼스 | 💬 언급만 | 컴퓨팅 인프라 오픈소스를 주도하며 AI 대중화 드라이브 | ✅ ⭐ 워치리스트 |
+| [TLT](https://finviz.com/quote.ashx?t=TLT&p=w) | 미국 20년+ 국채 ETF | ⚠️ 주의 | 장기 금리가 6~8%로 더 오를 경우 추가 하락 위험 존재 | - |
+| [QQQ](https://finviz.com/quote.ashx?t=QQQ&p=w) | 인베스코 QQQ 트러스트 | 👍 선호 | 개별주 리스크와 매크로 불안을 피해 AI 기술 혁명을 누릴 최적 대안 | - |
 
 💬 리스트만: COIN, CRSP, SHOP, PSNL, GH, ABSI, NTRA, DNA
 

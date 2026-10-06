@@ -51,7 +51,7 @@ def sig_points(sig):
 
 
 def fv(t):
-    return f'<a href="https://finviz.com/quote.ashx?p=d&t={t}" target="_blank">{t}</a>'
+    return f'[{t}](https://finviz.com/quote.ashx?p=d&t={t})'
 
 
 def main():

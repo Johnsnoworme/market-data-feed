@@ -111,3 +111,10 @@
 - 🩺 건강검진이 김종봉 주간 파일, 한 방·Top 3 최신 거래일 파일을 직접 확인하고 없으면 다시 실행한다.
 - Finviz에서 가져오는 Daily Top 3 · Fear & Greed(cloud_market_data.py)는 이 지연과 상관없다.
 - NYSE 휴장일 목록은 ny_session.py에 있다 → 매년 초 다음 해를 추가할 것.
+
+## 🛡️ 가짜 상승·링크 안전장치 (2026-10-07, MMEDV 사고 후)
+- 사고: 10/5 Daily Top 3 1위 MMEDV +161.78% = Medtronic 분사 MiniMed의 When Issued(상장 전 임시 거래). 진짜 상승 아님.
+- 1겹 이름 필터: When Issued·Rights·Warrant·Units → Finviz Top 3, 주간·월간 기록, 대형주 목록(Nasdaq), 소형주 레이더, 소셜 레이더에서 모두 제외.
+- 2겹 상식 검사: 대형주가 일 40%·주 60%·월 100% 넘게 움직이면 yfinance 거래 이력 확인 → 20일 미만이면 제외, 충분하면 남기고 표 아래 "⚠️ 뉴스 확인 권장". 제외한 종목은 "🚫 자동 제외" 줄로 표시(숨기지 않음).
+- 3겹 건강검진(health_check 8번): HTML 링크·임시 거래 종목·수집 실패·비정상 숫자 → ❌/⚠️, Market_Data 문제면 자동 재실행.
+- 링크는 전부 마크다운 [T](url). HTML <a href> 금지 (옵시디언 표 안·아이폰·아이패드에서 안 눌림).
