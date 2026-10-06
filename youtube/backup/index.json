@@ -91,8 +91,8 @@
     "published_utc": "2026-10-06T09:23:48.791124+00:00",
     "status": "stub",
     "model": "",
-    "tries": 2,
-    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "tries": 3,
+    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
     "updated_utc": "2026-10-06T20:23:48+00:00"
   }
 }

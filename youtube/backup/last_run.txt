@@ -1,10 +1,5 @@
-2026-10-06 20:55 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: ha4-lyhvafM 12시간 전 / V3ZQ02Syf5U 1일 전 / 2cduC5_rK9I 5일 전
-   Gemini 실패 ha4-lyhvafM: gemini-3.8-flash: HTTP 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash 
+2026-10-06 21:43 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: ha4-lyhvafM 13시간 전 / V3ZQ02Syf5U 1일 전 / 2cduC5_rK9I 5일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
+   Gemini 실패 ha4-lyhvafM: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: c82bBXBuqOw 3일 전 / 3TUarra5A4I 5일 전 / t5e3br8z5uo 7일 전
