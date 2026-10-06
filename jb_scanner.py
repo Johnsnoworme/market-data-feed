@@ -259,7 +259,7 @@ def fill_names(rows):
 
 def fv(t):
     """Finviz 링크 (새 탭). p=d&t= 순서라서 Top 3 티커 태그 자동 추가에는 안 걸림"""
-    return f'<a href="https://finviz.com/quote.ashx?p=d&t={t}" target="_blank">{t}</a>'
+    return f'[{t}](https://finviz.com/quote.ashx?p=d&t={t})'  # 2026-10-07 마크다운 링크 (모든 기기)
 
 
 def row_md(r, extra=None):

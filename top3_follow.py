@@ -24,7 +24,7 @@ PAT = re.compile(r'quote\.ashx\?t=([A-Z0-9.\-]+)(?:"[^>]*>[^<]*</a>|\))\s*\|\s*(
 
 
 def fv(t):
-    return f'<a href="https://finviz.com/quote.ashx?p=w&t={t}" target="_blank">{t}</a>'
+    return f'[{t}](https://finviz.com/quote.ashx?p=w&t={t})'  # 2026-10-07 마크다운 링크 (모든 기기)
 
 
 def section(md, title):
