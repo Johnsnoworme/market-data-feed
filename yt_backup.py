@@ -199,7 +199,13 @@ def gemini(url, prompt):
         u = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent"
         for attempt in range(2):
             # 키는 주소 대신 헤더로 보냄 (새 형식 키 AQ.… 도 지원, 로그에 키가 안 남음)
-            r = requests.post(u, json=body, timeout=600, headers={"x-goog-api-key": KEY})
+            try:
+                r = requests.post(u, json=body, timeout=600, headers={"x-goog-api-key": KEY})
+            except requests.RequestException as e:  # 2026-10-07: 연결 끊김 → 쉬고 다시, 그래도 안 되면 다음 모델
+                last = f"{m}: 연결 오류 {str(e)[:120]}"
+                r = None
+                time.sleep(30)
+                continue
             if r.status_code == 200:
                 parts = r.json()["candidates"][0]["content"]["parts"]
                 txt = "".join(p.get("text", "") for p in parts).strip()
@@ -215,7 +221,7 @@ def gemini(url, prompt):
                 time.sleep(45)  # 붐빔 → 잠깐 쉬고 한 번 더
                 continue
             break
-        if r.status_code != 200:
+        if r is None or r.status_code != 200:
             errs.append(last)
     raise RuntimeError(" | ".join(errs) or "알 수 없음")
 
