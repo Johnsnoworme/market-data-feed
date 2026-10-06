@@ -139,12 +139,17 @@ def rel_to_dt(rel, now):
 
 def list_videos(handle, now):
     """채널 '동영상' 탭의 ytInitialData를 읽음 (Mac 작업의 공통 규칙 1⃣과 같은 방법). 쇼츠는 이 탭에 없음."""
-    r = requests.get(f"https://www.youtube.com/{handle}/videos?hl=ko&gl=KR", headers=UA,
-                     cookies={"CONSENT": "YES+1", "SOCS": "CAI"}, timeout=30)
-    r.raise_for_status()
-    m = re.search(r"var ytInitialData = (\{.*?\});</script>", r.text, re.S)
+    m = None
+    for attempt in range(3):  # 2026-10-07: 유튜브가 가끔 빈 페이지를 줌 → 최대 3번 다시 시도
+        r = requests.get(f"https://www.youtube.com/{handle}/videos?hl=ko&gl=KR", headers=UA,
+                         cookies={"CONSENT": "YES+1", "SOCS": "CAI"}, timeout=30)
+        r.raise_for_status()
+        m = re.search(r"var ytInitialData = (\{.*?\});</script>", r.text, re.S)
+        if m:
+            break
+        time.sleep(10 * (attempt + 1))
     if not m:
-        raise ValueError("ytInitialData 없음")
+        raise ValueError("ytInitialData 없음 (3번 시도)")
     out = []
 
     def walk(o):
