@@ -89,10 +89,10 @@
     "name": "2026-10-06 2년만에 재결합한 머스크와 트럼프, 두 거물 화해의 수혜주들",
     "daily": "2026-10-07",
     "published_utc": "2026-10-06T09:23:48.791124+00:00",
-    "status": "stub",
-    "model": "",
+    "status": "done",
+    "model": "gemini-3.8-flash",
     "tries": 3,
-    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-    "updated_utc": "2026-10-06T20:23:48+00:00"
+    "error": "",
+    "updated_utc": "2026-10-06T21:50:56+00:00"
   }
 }
