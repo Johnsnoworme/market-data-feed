@@ -1,33 +1,33 @@
 # Market Data
 
-> 마지막 업데이트: 2026-10-06 07:44:16 UTC (데이터 출처: Finviz)
+> 마지막 업데이트: 2026-10-06 21:12:26 UTC (데이터 출처: Finviz)
 
 ## Fear & Greed Index
-43.1 / 100 (Fear)
+47.3 / 100 (Neutral)
 
 ## Daily Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| <a href="https://finviz.com/quote.ashx?t=MMEDV" target="_blank">MMEDV</a> | MiniMed Group Inc - When Issued - Oct 2026 | Healthcare | +161.78% |
-| <a href="https://finviz.com/quote.ashx?t=PTC" target="_blank">PTC</a> | PTC Inc | Technology | +33.49% |
-| <a href="https://finviz.com/quote.ashx?t=XP" target="_blank">XP</a> | XP Inc | Financial | +30.93% |
+| [CIEN](https://finviz.com/quote.ashx?t=CIEN) | CIENA Corp | Technology | +13.85% |
+| [INIO](https://finviz.com/quote.ashx?t=INIO) | Innio NV | Industrials | +12.49% |
+| [TLN](https://finviz.com/quote.ashx?t=TLN) | Talen Energy Corp | Utilities | +12.43% |
 
-👉 <a href="https://finviz.com/screener.ashx?v=111&f=cap_largeover&o=-change" target="_blank">Finviz Daily Top 3 Large-Cap Screener 전체보기</a>
+👉 [Finviz Daily Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=111&f=cap_largeover&o=-change)
 
 ## Weekly Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| <a href="https://finviz.com/quote.ashx?t=XP" target="_blank">XP</a> | XP Inc | Financial | +39.15% |
-| <a href="https://finviz.com/quote.ashx?t=PTC" target="_blank">PTC</a> | PTC Inc | Technology | +37.63% |
-| <a href="https://finviz.com/quote.ashx?t=BBD" target="_blank">BBD</a> | Banco Bradesco SA ADR | Financial | +29.25% |
+| [XP](https://finviz.com/quote.ashx?t=XP) | XP Inc | Financial | +46.67% |
+| [PTC](https://finviz.com/quote.ashx?t=PTC) | PTC Inc | Technology | +40.30% |
+| [BBD](https://finviz.com/quote.ashx?t=BBD) | Banco Bradesco SA ADR | Financial | +34.23% |
 
-👉 <a href="https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf1w" target="_blank">Finviz Weekly Top 3 Large-Cap Screener 전체보기</a>
+👉 [Finviz Weekly Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf1w)
 
 ## Monthly Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| <a href="https://finviz.com/quote.ashx?t=VICR" target="_blank">VICR</a> | Vicor Corp | Technology | +70.96% |
-| <a href="https://finviz.com/quote.ashx?t=TWST" target="_blank">TWST</a> | Twist Bioscience Corp | Healthcare | +59.27% |
-| <a href="https://finviz.com/quote.ashx?t=TXG" target="_blank">TXG</a> | 10x Genomics Inc | Healthcare | +54.60% |
+| [VICR](https://finviz.com/quote.ashx?t=VICR) | Vicor Corp | Technology | +58.73% |
+| [PS](https://finviz.com/quote.ashx?t=PS) | Pershing Square Inc | Financial | +52.89% |
+| [XP](https://finviz.com/quote.ashx?t=XP) | XP Inc | Financial | +49.70% |
 
-👉 <a href="https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf4w" target="_blank">Finviz Monthly Top 3 Large-Cap Screener 전체보기</a>
+👉 [Finviz Monthly Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf4w)
