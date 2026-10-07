@@ -106,5 +106,17 @@
     "tries": 0,
     "error": "",
     "updated_utc": "2026-10-07T10:24:16+00:00"
+  },
+  "bL2q1ZfwdJA": {
+    "ch": "sosumonkey",
+    "title": "끌로드, 챗GPT가 주식투자도 대신해준다? AI 실생활 침투 가속화의 수혜주들",
+    "name": "2026-10-07 끌로드, 챗GPT가 주식투자도 대신해준다 AI 실생활 침투 가속화의 수혜",
+    "daily": "2026-10-08",
+    "published_utc": "2026-10-07T12:40:30.641712+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-10-07T20:40:30+00:00"
   }
 }
