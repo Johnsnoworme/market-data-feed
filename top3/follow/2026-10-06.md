@@ -1,18 +1,20 @@
 # 🔔 풀백 추적 — 2026-10-06 뉴욕 종가 (8주)
 
-> 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 5개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
+> 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 7개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 39개 · 풀백 5개
+### 🏆 내 Top 3 — 추적 39개 · 풀백 7개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [FICO](https://finviz.com/quote.ashx?p=w&t=FICO) | Daily | 10-01 (0주 전) | 🔔 50~61.8% | 59% | 695.46 | 773.3 ~ 666.3 (719.8) | +5.1% |
-| [INIO](https://finviz.com/quote.ashx?p=w&t=INIO) | Daily | 10-06 (0주 전) | 🔔 38.2~50% | 46% | 18.98 | 19.44 ~ 18.3 (18.87) | +0.0% |
-| [CRCL](https://finviz.com/quote.ashx?p=w&t=CRCL) | Monthly | 08-31 (5주 전) | 🔔 30~38.2% | 37% | 83.3 | 87.27 ~ 65.91 (76.59) | -12.8% |
+| [CRCL](https://finviz.com/quote.ashx?p=w&t=CRCL) | Monthly | 08-31 (5주 전) | 🔔 30~38.2% | 36% | 84.13 | 87.27 ~ 65.91 (76.59) | -12.0% |
+| [TEM](https://finviz.com/quote.ashx?p=w&t=TEM) | Weekly | 09-18 (2주 전) | 🔔 30~38.2% | 35% | 71.98 | 74.59 ~ 55.27 (64.93) | -7.5% |
+| [TWST](https://finviz.com/quote.ashx?p=w&t=TWST) | Daily·Weekly | 09-24 (1주 전) | 🔔 30~38.2% | 38% | 166.97 | 177.97 ~ 122.33 (150.15) | -9.3% |
+| [TXG](https://finviz.com/quote.ashx?p=w&t=TXG) | Daily | 09-24 (1주 전) | 🔔 30~38.2% | 36% | 80.66 | 84.45 ~ 59.96 (72.2) | -4.1% |
 | [UTHR](https://finviz.com/quote.ashx?p=w&t=UTHR) | Daily | 09-30 (0주 전) | 🔔 30~38.2% | 38% | 541.62 | 550.74 ~ 504.02 (527.38) | -0.0% |
 | [ACN](https://finviz.com/quote.ashx?p=w&t=ACN) | Daily | 10-01 (0주 전) | 🔔 30~38.2% | 35% | 193.4 | 198.19 ~ 158.94 (178.57) | -8.9% |
 
-> [!note]- 대기 33개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> H 51% 📏, NTES 44% 📏, BPYPO 29%, ILMN 27%, CRDO 23%, PS 18%, VICR 18%, BRKRP 18%, NBIS 17%, FORM 14%, FPS 13%, TEM 12%, CMS 11% 📏, BE 11%, MCHPP 11%, IBRX 10%, TLN 9%, FROG 8%, SMCIP 6%, XP 6%, PTC 4%, MRNA 3%, PANW 3%, CCL 2%, TEAM 2%, TWST 2%, SNPS 2%, CIEN 2%, VIAV 2%, TXG 1%, RCL 1%, P 0%, BTSGU 0%
+> [!note]- 대기 31개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
+> H 51% 📏, NTES 44% 📏, BPYPO 29%, ILMN 27%, IBRX 27%, VICR 18%, BRKRP 18%, MRNA 15%, FORM 14%, CRDO 13%, CMS 11% 📏, MCHPP 11%, PANW 10%, FROG 7%, TLN 5%, SMCIP 5%, NBIS 5%, BE 4%, TEAM 4%, PTC 4%, CCL 2%, PS 2%, SNPS 2%, P 2%, CIEN 2%, FPS 2%, VIAV 2%, INIO 2%, RCL 1%, XP 0%, BTSGU 0%
 
 ⚠️ 70% 이탈로 종료: AKAM
 
@@ -20,6 +22,6 @@
 오늘 풀백 구간(30~70%)에 있는 종목이 없어요.
 
 > [!note]- 대기 10개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> ILMN 19%, ZS 15%, MANH 11%, WDAY 9%, VEEV 6%, DOCU 3%, MPC 2%, VLO 2%, AVTR 1%, TXG 1%
+> TXG 27%, ILMN 19%, WDAY 12%, MANH 11%, AVTR 11%, DOCU 9%, VEEV 6%, ZS 5%, MPC 2%, VLO 2%
 
 > 알림 = '지켜볼 자리'. 진입은 7개 룰을 차트로 직접 확인 · 옵션: 9~12개월 ATM, +100% 익절 / 6개월 안 정리, 종가 70% 이탈 = 정리 ([[2026-09-28 레이더 백테스트 보고서]])
