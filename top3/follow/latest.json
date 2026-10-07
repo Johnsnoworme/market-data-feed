@@ -373,6 +373,32 @@
       ]
     },
     {
+      "ticker": "BE",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-09-29",
+      "name": "Bloom Energy Corp",
+      "sector": "Industrials",
+      "chg": "+10.80%",
+      "close": 295.78,
+      "high": 302.35,
+      "low": 157.33,
+      "retr": 4.5,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 258.85,
+        "50": 229.84,
+        "70": 200.84
+      },
+      "weeks": 1,
+      "since": 1.6,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "CRDO",
       "kind": "D",
       "src": "T",
@@ -1131,5 +1157,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-10-07T09:11:44.808725+00:00"
+  "generated_utc": "2026-10-07T11:00:37.814129+00:00"
 }
