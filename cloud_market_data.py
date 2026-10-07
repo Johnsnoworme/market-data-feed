@@ -375,7 +375,7 @@ def update_archive(now_ny=None):
             last_td -= datetime.timedelta(days=1)
         if os.path.exists(path):
             print(f"   {kind} {name}: 이미 확정됨 (그대로 둠)")
-        elif _ns.expected_session(now_ny.astimezone(datetime.timezone.utc)) <= last_td:
+        elif (finviz_window_session(now_ny.astimezone(datetime.timezone.utc)) or datetime.date.min) == last_td:
             print(f"   {kind} {name}: 아직 Finviz 저장 기회 시간 → 백업 계산 안 함")
         else:
             print(f"   {kind} {name}: Finviz 저장 시간을 놓침 → yfinance 백업 계산")
