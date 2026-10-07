@@ -2,10 +2,17 @@
 
 > 마지막 정리: 2026-09-25 (주간/월간 확정 기록 + 자동 생성 추가) · 이 노트는 Claude가 새 대화에서도 시스템 구조를 바로 파악하도록 만든 설명서입니다.
 
+> ## 📌 2026-10-07 Top 3 규칙 (사용자 결정 — 최우선)
+> - **조건은 딱 하나: 시가총액 $10B 이상 (Finviz +Large).** 그 화면의 상위 3개를 그대로 쓴다. 다른 필터·제외·체크리스트 없음.
+> - Daily = Finviz Change % · Weekly = Finviz Perf Week · Monthly = Finviz Perf Month
+> - 시간은 **UTC로 고정**: 매일 21:30 UTC (백업 23:30, 01:30 UTC). 서머타임과 상관없이 뉴욕 장 마감 뒤.
+> - 숫자 기준 = 마지막으로 끝난 뉴욕 거래일 종가. 한 번 저장하면 다시 안 바뀜.
+> - Weekly/Monthly 확정 기록 = 그 주/달 마지막 뉴욕 거래일 장 마감 뒤 Finviz 화면 그대로 저장. 이 시간을 모두 놓쳤을 때만 yfinance로 계산(백업, Finviz +Large 종목군).
+
 ## 1. 한눈에 보기
 
 ```
-[Finviz + CNN]  →  [GitHub Actions: 매일 UTC 21:15]  →  Market_Data.md (GitHub)
+[Finviz + CNN]  →  [GitHub Actions: 매일 UTC 21:30]  →  Market_Data.md (GitHub)
                                                               ↓ (노트가 만들어지는 순간 가져옴)
                          [Obsidian: Templater 템플릿]  →  Daily / Weekly / Monthly 노트에 숫자 기록
 ```

@@ -92,35 +92,9 @@ FINVIZ_COLS = {'change': 'Change %', 'perf1w': 'Perf Week', 'perf4w': 'Perf Mont
 
 
 # ─────────────────────────────────────────────────────────────
-# 2026-10-07 가짜 상승 거르기 (안전장치 2겹)
-#  1겹: 이름/티커로 거름 — When Issued(상장 전 임시 거래), 권리(Rights), 워런트, 유닛
-#  2겹: 대형주($10B+)로서 비정상적으로 큰 숫자면(일 40%·주 60%·월 100% 초과)
-#       yfinance 거래 이력을 확인 → 이력이 20일 미만(분사·임시 티커·신규)이면 제외
-#       이력이 충분하면 진짜 움직임(인수합병 등)으로 보고 남기되 표 아래 ⚠️ 표시
+# 2026-10-07 (사용자 결정) Top 3 규칙은 딱 하나: Finviz +Large(시총 $10B+) 화면 상위 3개 그대로.
+#   다른 필터·제외·체크리스트 없음. (이전의 When Issued/큰 숫자 거르기는 삭제)
 # ─────────────────────────────────────────────────────────────
-EXCLUDED = {}   # order -> ["MMEDV +161.78% (상장 전 임시 거래)", ...]
-FLAGGED = {}    # order -> ["PTC +33.49%", ...] (남겼지만 뉴스 확인 권장)
-EXTREME = {'change': 40.0, 'perf1w': 60.0, 'perf4w': 100.0}
-BAD_NAME = ['when issued', 'when-issued', ' rights', ' warrant', ' units', ' unit ']
-
-def suspicious_reason(ticker, name, val, order):
-    nm = f" {name.lower()} "
-    t = ticker.upper()
-    if any(b in nm for b in BAD_NAME) or t.endswith('.WI') or t.endswith('-WI'):
-        return "상장 전 임시 거래/권리·워런트"
-    if abs(val) <= EXTREME.get(order, 40.0):
-        return None
-    try:
-        h = yf.Ticker(t.replace('.', '-')).history(period="3mo", interval="1d")
-        n = int(h['Close'].dropna().shape[0])
-    except Exception as e:
-        print(f"   이력 확인 실패 {t}: {e}")
-        n = -1
-    if 0 < n < 20:  # 0개 = Yahoo 오류일 수 있음 → 빼지 않고 ⚠️ 표시만
-        return f"거래 이력 {n}일뿐 — 분사·임시 티커 의심"
-    FLAGGED.setdefault(order, []).append(f"{ticker} {val:+.2f}%")
-    return None
-
 def get_finviz_top3(order):
     """
     Finviz 스크리너(+Large, 시총 $10B 이상)를 그대로 읽어서 상위 3개를 가져옴.
@@ -154,12 +128,6 @@ def get_finviz_top3(order):
                 ticker = href.split('t=')[1].split('&')[0]
                 break
         val = float(cells[i_v].replace('%', '').replace(',', ''))
-        # 2026-10-07: 가짜 상승 거르기 (MMEDV When Issued +161.78%가 1위로 잘못 들어간 사고)
-        why = suspicious_reason(ticker, cells[i_c], val, order)
-        if why:
-            print(f"   제외({why}): {ticker} {cells[i_c]} {val}%")
-            EXCLUDED.setdefault(order, []).append(f"{ticker} {val:+.2f}% ({why})")
-            continue
         out.append((ticker, cells[i_c], cells[i_s], val))
         if len(out) == 3:
             break
@@ -207,11 +175,6 @@ def top3_md(rows, title, finviz_url):
         ticker_link = f'[{ticker}]({finviz_quote})'  # 2026-10-07: HTML 링크 → 마크다운 링크 (모든 기기에서 눌림)
         md += f"| {ticker_link} | {name} | {sector} | {sign}{val:.2f}% |\n"
     md += f'\n👉 [Finviz {title} Large-Cap Screener 전체보기]({finviz_url})\n'
-    order = {'Daily Top 3': 'change', 'Weekly Top 3': 'perf1w', 'Monthly Top 3': 'perf4w'}.get(title)
-    if order and EXCLUDED.get(order):
-        md += f"\n> 🚫 자동 제외(가짜 상승): {', '.join(EXCLUDED[order])}\n"
-    if order and FLAGGED.get(order):
-        md += f"\n> ⚠️ 대형주치고 아주 큰 움직임 — 뉴스로 이유 확인 권장: {', '.join(FLAGGED[order])}\n"
     md += '\n'
     return md
 
@@ -294,16 +257,17 @@ def get_finviz_large_cap_universe():
     return info
 
 def get_universe_for_archive():
+    # 2026-10-07: Finviz +Large 목록을 먼저 (Finviz 화면과 같은 종목군), 막히면 Nasdaq 목록
     try:
-        info = get_large_cap_universe()
+        info = get_finviz_large_cap_universe()
         if len(info) >= 100:
-            return info, "Nasdaq 상장 $10B+ 전 종목"
+            return info, "Finviz +Large($10B+) 전 종목"
     except Exception as e:
-        print(f"   Nasdaq 종목 목록 실패 ({e}) → Finviz 목록으로 대체")
-    info = get_finviz_large_cap_universe()
+        print(f"   Finviz 종목 목록 실패 ({e}) → Nasdaq 목록으로 대체")
+    info = get_large_cap_universe()
     if len(info) < 100:
         raise ValueError(f"종목 수가 비정상적으로 적습니다: {len(info)}")
-    return info, "Finviz +Large($10B+) 전 종목"
+    return info, "Nasdaq 상장 $10B+ 전 종목"
 
 def period_top3(close, start, end, info, n=3):
     """
@@ -319,11 +283,6 @@ def period_top3(close, start, end, info, n=3):
     b, f = before[-1], inside[-1]
     rets = (close.iloc[f] / close.iloc[b] - 1) * 100
     rets = rets.replace([float('inf'), float('-inf')], float('nan')).dropna()
-    # 2026-10-07: When Issued·권리·워런트 등은 기록에서도 제외
-    keep = [t for t in rets.index
-            if not any(b in f" {str(info.get(t, {}).get('Security', '')).lower()} " for b in BAD_NAME)
-            and not str(t).upper().endswith(('.WI', '-WI'))]
-    rets = rets[keep]
     rows = [(t, info[t]['Security'], info[t]['GICS Sector'], float(v))
             for t, v in rets.nlargest(n).items()]
     return rows, idx[b], idx[f]
@@ -343,6 +302,62 @@ def _archive_md(kind, name, rows, base_d, final_d, source):
         md += f"| {link} | {cname} | {sector} | {sign}{val:.2f}% |\n"
     return md
 
+# ─────────────────────────────────────────────────────────────
+# 📌 2026-10-07 Weekly/Monthly 확정 기록 = Finviz 화면 그대로
+#  - 그 주(월)의 마지막 뉴욕 거래일 장 마감 뒤 ~ 다음 거래일 프리마켓(04:00 뉴욕) 전에
+#    Finviz +Large 스크리너 Perf Week(주) / Perf Month(달) 상위 3개를 그대로 저장
+#  - 다른 필터 없음. 이미 있으면 다시 쓰지 않음.
+#  - 이 시간대를 모두 놓쳤을 때만 아래 update_archive()가 yfinance로 계산(백업)
+# ─────────────────────────────────────────────────────────────
+import ny_session as _ns
+
+def _next_trading_day(d):
+    d += datetime.timedelta(days=1)
+    while not _ns.is_trading_day(d):
+        d += datetime.timedelta(days=1)
+    return d
+
+def finviz_window_session(now_utc):
+    """지금이 '장 마감 후 ~ 다음 프리마켓 전'이면 그 뉴욕 거래일, 아니면 None."""
+    n = now_utc.astimezone(NY)
+    if _ns.is_trading_day(n.date()) and datetime.time(4, 0) <= n.time() < datetime.time(16, 30):
+        return None
+    return _ns.expected_session(now_utc)
+
+def save_period_from_finviz(results, now_utc=None):
+    now_utc = now_utc or datetime.datetime.now(datetime.timezone.utc)
+    d = finviz_window_session(now_utc)
+    if d is None:
+        print("   Weekly/Monthly(Finviz): 뉴욕 장중·프리마켓 → 저장 안 함")
+        return
+    nxt = _next_trading_day(d)
+    fmt = f"{d.isoformat()}({KO_WD[d.weekday()]})"
+    stamp = now_utc.strftime("%Y-%m-%d %H:%M:%S UTC")
+    jobs = []
+    if nxt.isocalendar()[:2] != d.isocalendar()[:2]:
+        iso = d.isocalendar()
+        jobs.append(("Weekly", f"{iso[0]}-W{iso[1]:02d}", results['perf1w'], "Perf Week (최근 1주)"))
+    if (nxt.year, nxt.month) != (d.year, d.month):
+        jobs.append(("Monthly", f"{d.year}-{d.month:02d}", results['perf4w'], "Perf Month (최근 1개월)"))
+    for kind, name, rows, col in jobs:
+        path = os.path.join(ARCHIVE_DIR, kind.lower(), f"{name}.md")
+        if os.path.exists(path):
+            print(f"   {kind} {name}: 이미 확정됨 (그대로 둠)")
+            continue
+        title = f"{kind} Top 3"
+        md = f"# {title} — {name}\n\n"
+        md += f"> 기간: Finviz {col} · 🗽 뉴욕 {fmt} 장 마감 기준\n"
+        md += f"> 확정 시각: {stamp} (데이터: Finviz +Large $10B+ 스크리너 그대로)\n\n"
+        md += f"## {title}\n"
+        md += "| 티커 | 회사 이름 | 섹터 | 변동률 |\n| :--- | :--- | :--- | :--- |\n"
+        for ticker, cname, sector, val in rows:
+            sign = "+" if val > 0 else ""
+            md += f"| [{ticker}](https://finviz.com/quote.ashx?t={ticker}) | {cname} | {sector} | {sign}{val:.2f}% |\n"
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as fp:
+            fp.write(md)
+        print(f"   📌 {kind} {name} 확정 저장 (Finviz): {[r[0] for r in rows]}")
+
 def update_archive(now_ny=None):
     now_ny = now_ny or datetime.datetime.now(NY)
     w_mon, w_fri = last_completed_week(now_ny)
@@ -355,9 +370,15 @@ def update_archive(now_ny=None):
     for kind, name, start, end in [("Weekly", week_name, w_mon, w_fri),
                                    ("Monthly", month_name, m_first, m_last)]:
         path = os.path.join(ARCHIVE_DIR, kind.lower(), f"{name}.md")
+        last_td = end
+        while not _ns.is_trading_day(last_td):
+            last_td -= datetime.timedelta(days=1)
         if os.path.exists(path):
             print(f"   {kind} {name}: 이미 확정됨 (그대로 둠)")
+        elif _ns.expected_session(now_ny.astimezone(datetime.timezone.utc)) <= last_td:
+            print(f"   {kind} {name}: 아직 Finviz 저장 기회 시간 → 백업 계산 안 함")
         else:
+            print(f"   {kind} {name}: Finviz 저장 시간을 놓침 → yfinance 백업 계산")
             jobs.append((kind, name, start, end, path))
 
     if jobs:
@@ -488,6 +509,8 @@ def save_daily_snapshot(market_md, now_utc=None, use_yf=True):
     print(f"   📸 Daily 스냅샷 확정 저장: {path}")
     return True
 
+LAST_RESULTS = {}
+
 def generate_market_data_md():
     print("1. Finviz 스크리너(+Large, 시총 $10B 이상)에서 Daily/Weekly/Monthly Top 3 수집 중...")
     results = {}
@@ -521,6 +544,8 @@ def generate_market_data_md():
     with open("Market_Data.md", "w", encoding="utf-8") as f:
         f.write(md_content.strip())
 
+    global LAST_RESULTS
+    LAST_RESULTS = results
     print("Market_Data.md 정상 생성 완료!")
     return md_content.strip()
 
@@ -536,6 +561,11 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"   Daily index 실패: {e}")
     print("3. 주간/월간 확정 기록(archive) 확인 중...")
+    try:
+        if "출처: Finviz" in market_md:
+            save_period_from_finviz(LAST_RESULTS)
+    except Exception as e:
+        print(f"   Weekly/Monthly(Finviz) 저장 실패: {e}")
     try:
         update_archive()
     except Exception as e:

@@ -147,8 +147,7 @@ except Exception as e:
 
 # 8) 🔎 데이터 품질 — 숫자·링크가 상식에 맞는지 (2026-10-07 추가: MMEDV When Issued +161%가 Top 3 1위로 들어간 사고)
 #    · HTML 링크(<a href) = ❌ (표 안·아이폰에서 안 눌림)
-#    · When Issued·권리·워런트 종목 = ❌ → market_data 다시 실행 (새 필터가 거름)
-#    · 대형주 하루 +60%↑ / 주 +100%↑ / 달 +200%↑ = ⚠️ 확인 필요
+#    · 2026-10-07: 종목 거르기 검사는 삭제 (Top 3 = Finviz 화면 그대로가 규칙)
 #    · "데이터 수집 실패" = ❌ → 다시 실행
 try:
     import re as _re
@@ -161,26 +160,12 @@ try:
             probs.append(("❌", f"{f}: HTML 링크 있음 (안 눌림)"))
         if "데이터 수집 실패" in t:
             probs.append(("❌", f"{f}: 데이터 수집 실패 표시"))
-        for sec, lim in (("Daily", 60), ("Weekly", 100), ("Monthly", 200)):
-            m = _re.search(r"## " + sec + r" Top 3\n([\s\S]*?)(?:\n## |$)", t)
-            if not m:
-                continue
-            for row in m.group(1).splitlines():
-                if not row.startswith("| [") and not row.startswith("| <"):
-                    continue
-                low = row.lower()
-                tk = (_re.search(r"t=([A-Za-z0-9.\-]+)", row) or [None, "?"])[1]
-                if "when issued" in low or " rights" in low or " warrant" in low:
-                    probs.append(("❌", f"{f} {sec}: {tk} 상장 전 임시 거래/권리·워런트 종목"))
-                v = _re.search(r"\|\s*([+\-][0-9.]+)%\s*\|\s*$", row)
-                if v and abs(float(v.group(1))) > lim:
-                    probs.append(("⚠️", f"{f} {sec}: {tk} {v.group(1)}% — 대형주치고 비정상, 확인 필요"))
     if not probs:
         checks.append("✅ 🔎 데이터 품질 (링크·숫자 상식 검사)")
     for lv, msg in probs:
         checks.append(f"{lv} 🔎 {msg}")
     if any(lv == "❌" and "Market_Data" in msg for lv, msg in probs):
-        dispatch("market_data.yml", "Top 3 데이터 품질 문제 (HTML 링크/임시 거래 종목/수집 실패)")
+        dispatch("market_data.yml", "Top 3 데이터 품질 문제 (HTML 링크/수집 실패)")
 except Exception as e:
     checks.append(f"⚠️ 🔎 데이터 품질 확인 실패: {e}")
 
