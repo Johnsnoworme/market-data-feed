@@ -69,9 +69,6 @@ def get_large_cap_universe():
         # 우선주/워런트 등 특수 심볼(^ 포함) 제외, 시총 기준 미달 제외
         if not sym or '^' in sym or cap < MIN_MARKET_CAP:
             continue
-        # 2026-10-07: When Issued(상장 전 임시 거래)·권리·워런트 제외
-        if any(b in (" " + str(r.get('name') or "").lower() + " ") for b in (" when issued", "when-issued", " rights", " warrant", " units")):
-            continue
         # yfinance 호환: BRK/B -> BRK-B
         yf_sym = sym.replace('/', '-').replace('.', '-')
         info[yf_sym] = {
