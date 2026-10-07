@@ -10,7 +10,7 @@
 - **🖥️ 소프트웨어** 10개: TEAM(Software - Application), PTC(Software - Application), ZS(Software - Infrastructure), DOCU(Software - Application), WDAY(Software - Application), MANH(Software - Application), PANW(Software - Infrastructure), SNPS(Software - Infrastructure), FROG(Software - Application), FICO(Software - Application)
 - **🧬 AI 바이오·헬스** 9개: MRNA(Biotechnology), TXG(Medical Devices), TWST(Biotechnology), AVTR(Medical Instruments & Supplies), VEEV(Health Information Services), ILMN(Diagnostics & Research), TEM(Health Information Services), IBRX(Biotechnology), UTHR(Drug Manufacturers - Specialty & Generic)
 - **🔌 AI 인프라 (메모리·광·부품)** 4개: P(Computer Hardware), VIAV(Communication Equipment), VICR(Electronic Components), CIEN(Communication Equipment)
-- **⚡ 전력·에너지 병목** 3개: TLN(Utilities - Independent Power Producers), FPS(Electrical Equipment & Parts), CMS(Utilities - Regulated Electric)
+- **⚡ 전력·에너지 병목** 4개: BE(Electrical Equipment & Parts), TLN(Utilities - Independent Power Producers), FPS(Electrical Equipment & Parts), CMS(Utilities - Regulated Electric)
 - **🪙 크립토·토큰화·금융 인프라** 2개: XP(Capital Markets), CRCL(Capital Markets)
 - **🧠 AI 칩·장비** 2개: FORM(Semiconductor Equipment & Materials), CRDO(Semiconductors)
 - **🌐 AI 플랫폼·인터넷** 1개: NBIS(Internet Content & Information)
@@ -98,7 +98,7 @@
 | [AMZN](https://finviz.com/quote.ashx?t=AMZN&p=w) | 🔔 30~38% (34%) | -10% | -2%p | 1/10 | 🔔 눌림 구간 |
 | [ARM](https://finviz.com/quote.ashx?t=ARM&p=w) | 🔔 38~50% (43%) | -31% | -6%p | 3/10 | 🔔 눌림 구간 |
 | [AVGO](https://finviz.com/quote.ashx?t=AVGO&p=w) | 🔔 50~62% (58%) | -22% | -10%p | 2/10 | 🔔 눌림 구간 |
-| [BE](https://finviz.com/quote.ashx?t=BE&p=w) | 🟢 고점 근처 (21%) | -14% | +9%p | 4/10 |  |
+| [BE](https://finviz.com/quote.ashx?t=BE&p=w) | 🟢 고점 근처 (4%) | -14% | +9%p | 4/10 |  |
 | [CRWD](https://finviz.com/quote.ashx?t=CRWD&p=w) | 🟢 고점 근처 (4%) | +0% | +39%p | 7/10 | 🧲 매집 강함 🔥 지수보다 강함 |
 | [MRNA](https://finviz.com/quote.ashx?t=MRNA&p=w) | 🟢 고점 근처 (15%) | -8% | +147%p | 7/10 | 🧲 매집 강함 🔥 지수보다 강함 |
 | [MSFT](https://finviz.com/quote.ashx?t=MSFT&p=w) | 🟢 고점 근처 (3%) | -2% | +31%p | 5/10 | 🔥 지수보다 강함 |
@@ -141,6 +141,7 @@
 | [CRDO](https://finviz.com/quote.ashx?t=CRDO&p=w) | 🏆D | 2026-09-25 | 🟢 고점 근처 (13%) | 5/10 | -22%p |
 | [FPS](https://finviz.com/quote.ashx?t=FPS&p=w) | 🏆D | 2026-10-02 | 🟢 고점 근처 (2%) | 5/10 | -16%p |
 | [CIEN](https://finviz.com/quote.ashx?t=CIEN&p=w) | 🏆D | 2026-10-06 | 🟢 고점 근처 (2%) | 5/10 | -6%p |
+| [BE](https://finviz.com/quote.ashx?t=BE&p=w) | 🏆D | 2026-09-29 | 🟢 고점 근처 (4%) | 4/10 | +9%p |
 | [MANH](https://finviz.com/quote.ashx?t=MANH&p=w) | 🧭김종봉 | 2026-09-25 | 🟢 고점 근처 (11%) | 4/10 | +24%p |
 | [FORM](https://finviz.com/quote.ashx?t=FORM&p=w) | 🏆D·M | 2026-09-30 | 🟢 고점 근처 (10%) | 4/10 | +20%p |
 | [SNPS](https://finviz.com/quote.ashx?t=SNPS&p=w) | 🏆D | 2026-10-01 | 🟢 고점 근처 (2%) | 4/10 | +9%p |
