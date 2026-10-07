@@ -6,8 +6,8 @@
       "kind": "W",
       "src": "T",
       "date": "2026-09-25",
-      "name": "Moderna Inc.",
-      "sector": "Health Care",
+      "name": "Moderna Inc",
+      "sector": "Healthcare",
       "chg": "+29.11%",
       "close": 187.46,
       "high": 212.22,
@@ -34,7 +34,7 @@
       "kind": "M",
       "src": "T",
       "date": "2026-08-31",
-      "name": "Atlassian Corporation",
+      "name": "Atlassian Corp",
       "sector": "Technology",
       "chg": "+92.22%",
       "close": 193.98,
@@ -60,8 +60,8 @@
       "kind": "M",
       "src": "T",
       "date": "2026-08-31",
-      "name": "Circle Internet Group Inc.",
-      "sector": "Finance",
+      "name": "Circle Internet Group Inc",
+      "sector": "Financial",
       "chg": "+52.61%",
       "close": 84.13,
       "high": 103.28,
@@ -113,8 +113,8 @@
       "kind": "W",
       "src": "T",
       "date": "2026-09-18",
-      "name": "Tempus AI Inc.",
-      "sector": "Technology",
+      "name": "Tempus AI Inc",
+      "sector": "Healthcare",
       "chg": "+31.91%",
       "close": 71.98,
       "high": 89.09,
@@ -241,28 +241,29 @@
     },
     {
       "ticker": "TXG",
-      "kind": "D",
+      "kind": "M",
       "src": "T",
-      "date": "2026-09-24",
+      "date": "2026-09-30",
       "name": "10x Genomics Inc",
       "sector": "Healthcare",
-      "chg": "+11.23%",
+      "chg": "+44.69%",
       "close": 80.66,
       "high": 102.81,
-      "low": 41.6,
-      "retr": 36.2,
-      "zone": "🔔 30~38.2%",
-      "alert": true,
-      "order": 2,
+      "low": 12.8,
+      "retr": 24.6,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
       "lv": {
-        "30": 84.45,
-        "50": 72.2,
-        "70": 59.96
+        "30": 75.81,
+        "50": 57.8,
+        "70": 39.8
       },
       "weeks": 1,
-      "since": -4.1,
+      "since": -10.7,
       "kinds": [
-        "D"
+        "D",
+        "M"
       ]
     },
     {
@@ -270,7 +271,7 @@
       "kind": "W",
       "src": "T",
       "date": "2026-09-25",
-      "name": "Everpure Inc.",
+      "name": "Everpure Inc",
       "sector": "Technology",
       "chg": "+20.99%",
       "close": 147.2,
@@ -346,12 +347,12 @@
     },
     {
       "ticker": "VIAV",
-      "kind": "D",
+      "kind": "W",
       "src": "T",
-      "date": "2026-09-25",
+      "date": "2026-10-02",
       "name": "Viavi Solutions Inc",
       "sector": "Technology",
-      "chg": "+9.27%",
+      "chg": "+15.78%",
       "close": 48.14,
       "high": 48.42,
       "low": 31.41,
@@ -364,36 +365,11 @@
         "50": 39.91,
         "70": 36.51
       },
-      "weeks": 1,
-      "since": 18.3,
+      "weeks": 0,
+      "since": 2.2,
       "kinds": [
-        "D"
-      ]
-    },
-    {
-      "ticker": "BE",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-09-29",
-      "name": "Bloom Energy Corp",
-      "sector": "Industrials",
-      "chg": "+10.80%",
-      "close": 295.78,
-      "high": 302.35,
-      "low": 157.33,
-      "retr": 4.5,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 258.85,
-        "50": 229.84,
-        "70": 200.84
-      },
-      "weeks": 1,
-      "since": 1.6,
-      "kinds": [
-        "D"
+        "D",
+        "W"
       ]
     },
     {
@@ -424,27 +400,28 @@
     },
     {
       "ticker": "VICR",
-      "kind": "W",
+      "kind": "M",
       "src": "T",
-      "date": "2026-09-25",
-      "name": "Vicor Corporation",
+      "date": "2026-09-30",
+      "name": "Vicor Corp",
       "sector": "Technology",
-      "chg": "+26.60%",
+      "chg": "+53.95%",
       "close": 299.29,
       "high": 331.0,
-      "low": 151.27,
-      "retr": 17.6,
+      "low": 80.29,
+      "retr": 12.6,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
       "lv": {
-        "30": 277.08,
-        "50": 241.14,
-        "70": 205.19
+        "30": 255.79,
+        "50": 205.65,
+        "70": 155.5
       },
       "weeks": 1,
-      "since": 6.1,
+      "since": 3.6,
       "kinds": [
+        "M",
         "W"
       ]
     },
@@ -632,12 +609,12 @@
     },
     {
       "ticker": "CCL",
-      "kind": "D",
+      "kind": "W",
       "src": "T",
-      "date": "2026-09-29",
+      "date": "2026-10-02",
       "name": "Carnival Corp Ltd",
       "sector": "Consumer Cyclical",
-      "chg": "+13.41%",
+      "chg": "+15.78%",
       "close": 26.58,
       "high": 26.71,
       "low": 21.45,
@@ -650,10 +627,11 @@
         "50": 24.08,
         "70": 23.03
       },
-      "weeks": 1,
-      "since": 5.9,
+      "weeks": 0,
+      "since": 3.2,
       "kinds": [
-        "D"
+        "D",
+        "W"
       ]
     },
     {
@@ -702,7 +680,7 @@
         "50": 527.38,
         "70": 504.02
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": -0.0,
       "kinds": [
         "D"
@@ -710,28 +688,29 @@
     },
     {
       "ticker": "FORM",
-      "kind": "D",
+      "kind": "M",
       "src": "T",
       "date": "2026-09-30",
       "name": "FormFactor Inc",
       "sector": "Technology",
-      "chg": "+9.59%",
+      "chg": "+48.40%",
       "close": 141.3,
       "high": 151.18,
-      "low": 82.34,
-      "retr": 14.4,
+      "low": 47.33,
+      "retr": 9.5,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
       "lv": {
-        "30": 130.53,
-        "50": 116.76,
-        "70": 102.99
+        "30": 120.02,
+        "50": 99.25,
+        "70": 78.48
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": -5.4,
       "kinds": [
-        "D"
+        "D",
+        "M"
       ]
     },
     {
@@ -754,89 +733,10 @@
         "50": 86.26,
         "70": 80.61
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": 1.5,
       "kinds": [
         "D"
-      ]
-    },
-    {
-      "ticker": "BRKRP",
-      "kind": "M",
-      "src": "T",
-      "date": "2026-09-30",
-      "name": "Bruker Corporation 6.375% Mandatory Convertible Preferred Stock Series A",
-      "sector": "Industrials",
-      "chg": "+10.07%",
-      "close": 445.04,
-      "high": 484.9,
-      "low": 258.84,
-      "retr": 17.6,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 417.08,
-        "50": 371.87,
-        "70": 326.66
-      },
-      "weeks": 0,
-      "since": -5.5,
-      "kinds": [
-        "M"
-      ]
-    },
-    {
-      "ticker": "SMCIP",
-      "kind": "M",
-      "src": "T",
-      "date": "2026-09-30",
-      "name": "Super Micro Computer Inc. Depositary Shares representing a 1/20th Interest in a Share of 7% Series A Mandatory Convertible Preferred Stock",
-      "sector": "Technology",
-      "chg": "+9.41%",
-      "close": 72.43,
-      "high": 73.99,
-      "low": 42.44,
-      "retr": 4.9,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 64.53,
-        "50": 58.22,
-        "70": 51.91
-      },
-      "weeks": 0,
-      "since": 5.4,
-      "kinds": [
-        "M"
-      ]
-    },
-    {
-      "ticker": "MCHPP",
-      "kind": "W",
-      "src": "T",
-      "date": "2026-10-02",
-      "name": "Microchip Technology Incorporated Depositary Shares Each Representing a 1/20th Interest in a Share of 7.50% Series A Mandatory Convertible Preferred Stock",
-      "sector": "Technology",
-      "chg": "+2.91%",
-      "close": 69.07,
-      "high": 70.62,
-      "low": 56.28,
-      "retr": 10.8,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 66.32,
-        "50": 63.45,
-        "70": 60.58
-      },
-      "weeks": 0,
-      "since": 0.0,
-      "kinds": [
-        "M",
-        "W"
       ]
     },
     {
@@ -919,12 +819,12 @@
     },
     {
       "ticker": "IBRX",
-      "kind": "D",
+      "kind": "W",
       "src": "T",
       "date": "2026-10-02",
       "name": "ImmunityBio Inc",
       "sector": "Healthcare",
-      "chg": "+10.83%",
+      "chg": "+21.86%",
       "close": 9.69,
       "high": 10.81,
       "low": 6.65,
@@ -940,7 +840,8 @@
       "weeks": 0,
       "since": -5.8,
       "kinds": [
-        "D"
+        "D",
+        "W"
       ]
     },
     {
@@ -993,58 +894,6 @@
       "since": 2.5,
       "kinds": [
         "D"
-      ]
-    },
-    {
-      "ticker": "BTSGU",
-      "kind": "W",
-      "src": "T",
-      "date": "2026-10-02",
-      "name": "BrightSpring Health Services Inc. Tangible Equity Unit",
-      "sector": "Health Care",
-      "chg": "+7.08%",
-      "close": 197.35,
-      "high": 197.35,
-      "low": 143.81,
-      "retr": 0.0,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 181.29,
-        "50": 170.58,
-        "70": 159.87
-      },
-      "weeks": 0,
-      "since": 0.0,
-      "kinds": [
-        "W"
-      ]
-    },
-    {
-      "ticker": "BPYPO",
-      "kind": "W",
-      "src": "T",
-      "date": "2026-10-02",
-      "name": "Brookfield Property Partners L.P. 6.375%",
-      "sector": "Finance",
-      "chg": "+3.11%",
-      "close": 14.86,
-      "high": 15.25,
-      "low": 13.88,
-      "retr": 28.6,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 14.84,
-        "50": 14.57,
-        "70": 14.29
-      },
-      "weeks": 0,
-      "since": -1.4,
-      "kinds": [
-        "W"
       ]
     },
     {
@@ -1282,5 +1131,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-10-07T02:23:46.997073+00:00"
+  "generated_utc": "2026-10-07T09:11:44.808725+00:00"
 }
