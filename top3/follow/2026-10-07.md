@@ -5,13 +5,13 @@
 ### 🏆 내 Top 3 — 추적 37개 · 풀백 7개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
-| [FICO](https://finviz.com/quote.ashx?p=w&t=FICO) | Daily | 10-01 (0주 전) | 🔔 61.8~70% (마지막 방어선) | 64% | 681.77 | 773.3 ~ 666.3 (719.8) | +3.0% |
+| [FICO](https://finviz.com/quote.ashx?p=w&t=FICO) | Daily | 10-01 (1주 전) | 🔔 61.8~70% (마지막 방어선) | 64% | 681.77 | 773.3 ~ 666.3 (719.8) | +3.0% |
 | [CRCL](https://finviz.com/quote.ashx?p=w&t=CRCL) | Monthly | 08-31 (5주 전) | 🔔 38.2~50% | 42% | 80.84 | 87.27 ~ 65.91 (76.59) | -15.4% |
 | [TEM](https://finviz.com/quote.ashx?p=w&t=TEM) | Weekly | 09-18 (2주 전) | 🔔 38.2~50% | 39% | 70.35 | 74.59 ~ 55.27 (64.93) | -9.6% |
-| [TWST](https://finviz.com/quote.ashx?p=w&t=TWST) | Daily·Weekly | 09-24 (1주 전) | 🔔 38.2~50% | 46% | 155.65 | 177.97 ~ 122.33 (150.15) | -15.4% |
-| [ILMN](https://finviz.com/quote.ashx?p=w&t=ILMN) | Daily | 09-24 (1주 전) | 🔔 30~38.2% | 32% | 267.76 | 270.21 ~ 218.02 (244.12) | -2.2% |
+| [TWST](https://finviz.com/quote.ashx?p=w&t=TWST) | Daily·Weekly | 09-24 (2주 전) | 🔔 38.2~50% | 46% | 155.65 | 177.97 ~ 122.33 (150.15) | -15.4% |
+| [ILMN](https://finviz.com/quote.ashx?p=w&t=ILMN) | Daily | 09-24 (2주 전) | 🔔 30~38.2% | 32% | 267.76 | 270.21 ~ 218.02 (244.12) | -2.2% |
 | [UTHR](https://finviz.com/quote.ashx?p=w&t=UTHR) | Daily | 09-30 (1주 전) | 🔔 30~38.2% | 35% | 545.0 | 550.74 ~ 504.02 (527.38) | +0.6% |
-| [ACN](https://finviz.com/quote.ashx?p=w&t=ACN) | Daily | 10-01 (0주 전) | 🔔 30~38.2% | 32% | 196.64 | 198.19 ~ 158.94 (178.57) | -7.4% |
+| [ACN](https://finviz.com/quote.ashx?p=w&t=ACN) | Daily | 10-01 (1주 전) | 🔔 30~38.2% | 32% | 196.64 | 198.19 ~ 158.94 (178.57) | -7.4% |
 
 > [!note]- 대기 28개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
 > TXG 30%, INIO 27%, NTES 26% 📏, IBRX 26%, PANW 22%, VICR 19%, NBIS 16%, CRDO 14%, VIAV 13%, CMS 11% 📏, FORM 11%, CCL 11%, RCL 10%, BSP 10%, MRNA 9%, SPOT 8%, GKOS 8%, FROG 8%, BE 8%, FPS 7%, PS 6%, SNPS 5%, XP 5%, TEAM 3%, PTC 3%, TLN 2%, CIEN 1%, P 1%
