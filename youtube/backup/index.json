@@ -118,5 +118,17 @@
     "tries": 1,
     "error": "",
     "updated_utc": "2026-10-08T01:21:24+00:00"
+  },
+  "MjEc_J9gYko": {
+    "ch": "sosumonkey",
+    "title": "올해 메모리 놓친 사람 주목? AI 반도체 다음 격전지가 될 투자처",
+    "name": "2026-10-08 올해 메모리 놓친 사람 주목 AI 반도체 다음 격전지가 될 투자처",
+    "daily": "2026-10-09",
+    "published_utc": "2026-10-08T10:18:44.095252+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-10-08T10:44:44+00:00"
   }
 }
