@@ -127,7 +127,7 @@
     "published_utc": "2026-10-08T10:18:44.095252+00:00",
     "status": "stub",
     "model": "",
-    "tries": 1,
+    "tries": 2,
     "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
     "updated_utc": "2026-10-08T10:44:44+00:00"
   }
