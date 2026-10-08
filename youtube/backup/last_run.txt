@@ -1,12 +1,5 @@
-2026-10-07 20:40 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: bL2q1ZfwdJA 8시간 전 / ha4-lyhvafM 1일 전 / V3ZQ02Syf5U 2일 전
+2026-10-08 01:21 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: bL2q1ZfwdJA 13시간 전 / ha4-lyhvafM 1일 전 / V3ZQ02Syf5U 2일 전
    사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
-   Gemini 실패 bL2q1ZfwdJA: gemini-3.8-flash: HTTP 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash 
-   ⏳ 대기: 소수몽키 · bL2q1ZfwdJA · 끌로드, 챗GPT가 주식투자도 대신해준다? AI 실생활 침투 가속화의 수혜주들
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: kRmwzk0MRvo 10시간 전 / c82bBXBuqOw 돈의 흐름 완전히 뒤바뀐다. 반도체 다음 주도주 될 '3가지'｜성상현의 매크로비욘드 3-풀버전 / 3TUarra5A4I 6일 전
+   ✅ 요약: 소수몽키 · bL2q1ZfwdJA · 끌로드, 챗GPT가 주식투자도 대신해준다? AI 실생활 침투 가속화의 수혜주들
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: kRmwzk0MRvo 15시간 전 / c82bBXBuqOw 4일 전 / 3TUarra5A4I 6일 전
