@@ -130,5 +130,17 @@
     "tries": 2,
     "error": "",
     "updated_utc": "2026-10-09T01:29:19+00:00"
+  },
+  "Ob5TSrJbxbs": {
+    "ch": "sosumonkey",
+    "title": "AI사이클 더 큰 한 방 남았다? 증시 의심의 벽 뚫고 올라갈까",
+    "name": "2026-10-09 AI사이클 더 큰 한 방 남았다 증시 의심의 벽 뚫고 올라갈까",
+    "daily": "2026-10-10",
+    "published_utc": "2026-10-09T09:43:33.058582+00:00",
+    "status": "done",
+    "model": "gemini-3.8-flash",
+    "tries": 0,
+    "error": "",
+    "updated_utc": "2026-10-09T10:43:33+00:00"
   }
 }
