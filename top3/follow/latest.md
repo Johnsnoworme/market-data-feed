@@ -8,7 +8,7 @@
 | [FICO](https://finviz.com/quote.ashx?p=w&t=FICO) | Daily | 10-01 (1주 전) | 🔔 50~61.8% | 55% | 707.43 | 773.3 ~ 666.3 (719.8) | +6.9% |
 | [INIO](https://finviz.com/quote.ashx?p=w&t=INIO) | Daily | 10-06 (0주 전) | 🔔 50~61.8% | 56% | 19.2 | 20.22 ~ 18.64 (19.43) | -10.1% |
 | [CRCL](https://finviz.com/quote.ashx?p=w&t=CRCL) | Monthly | 08-31 (5주 전) | 🔔 38.2~50% | 42% | 80.84 | 87.27 ~ 65.91 (76.59) | -15.4% |
-| [TEM](https://finviz.com/quote.ashx?p=w&t=TEM) | Weekly | 09-18 (2주 전) | 🔔 38.2~50% | 41% | 69.28 | 74.59 ~ 55.27 (64.93) | -11.0% |
+| [TEM](https://finviz.com/quote.ashx?p=w&t=TEM) | Weekly | 09-18 (3주 전) | 🔔 38.2~50% | 41% | 69.28 | 74.59 ~ 55.27 (64.93) | -11.0% |
 | [TWST](https://finviz.com/quote.ashx?p=w&t=TWST) | Daily·Weekly | 09-24 (2주 전) | 🔔 38.2~50% | 49% | 152.05 | 177.97 ~ 122.33 (150.15) | -17.4% |
 | [UTHR](https://finviz.com/quote.ashx?p=w&t=UTHR) | Daily | 09-30 (1주 전) | 🔔 38.2~50% | 45% | 532.78 | 550.74 ~ 504.02 (527.38) | -1.7% |
 | [GKOS](https://finviz.com/quote.ashx?p=w&t=GKOS) | Daily | 10-07 (0주 전) | 🔔 38.2~50% | 46% | 161.29 | 165.87 ~ 154.39 (160.13) | -6.3% |
@@ -24,7 +24,7 @@
 ### 🧭 김종봉 후보 — 추적 10개 · 풀백 1개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
-| [TXG](https://finviz.com/quote.ashx?p=w&t=TXG) | 주간 | 10-02 (0주 전) | 🔔 30~38.2% | 31% | 77.28 | 77.83 ~ 44.51 (61.17) | -17.3% |
+| [TXG](https://finviz.com/quote.ashx?p=w&t=TXG) | 주간 | 10-02 (1주 전) | 🔔 30~38.2% | 31% | 77.28 | 77.83 ~ 44.51 (61.17) | -17.3% |
 
 > [!note]- 대기 9개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
 > ILMN 24%, AVTR 11%, WDAY 11%, MANH 7%, VEEV 5%, ZS 2%, MPC 2%, VLO 1%, DOCU 0%
