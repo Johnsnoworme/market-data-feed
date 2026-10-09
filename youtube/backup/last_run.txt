@@ -1,11 +1,5 @@
-2026-10-08 20:44 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: MjEc_J9gYko 10시간 전 / bL2q1ZfwdJA 1일 전 / ha4-lyhvafM 2일 전
+2026-10-09 01:29 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: MjEc_J9gYko 15시간 전 / bL2q1ZfwdJA 1일 전 / ha4-lyhvafM 2일 전
    사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
-   Gemini 실패 MjEc_J9gYko: gemini-3.8-flash: HTTP 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash 
+   ✅ 요약: 소수몽키 · MjEc_J9gYko · 올해 메모리 놓친 사람 주목? AI 반도체 다음 격전지가 될 투자처
 성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: kRmwzk0MRvo 1일 전 / c82bBXBuqOw 5일 전 / 3TUarra5A4I 7일 전
