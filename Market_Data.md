@@ -1,6 +1,6 @@
 # Market Data
 
-> 마지막 업데이트: 2026-10-10 01:09:45 UTC (데이터 출처: Finviz)
+> 마지막 업데이트: 2026-10-10 02:37:06 UTC (데이터 출처: Finviz)
 
 ## Fear & Greed Index
 45 / 100 (Fear)
