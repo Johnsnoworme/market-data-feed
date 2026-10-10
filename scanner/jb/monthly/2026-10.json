@@ -6,11 +6,12 @@
       "sector": "Industrials",
       "first": "10/02",
       "weeks": [
-        "10/02"
+        "10/02",
+        "10/09"
       ],
-      "last": "10/02",
+      "last": "10/09",
       "score": 40.6,
-      "up": 102.1,
+      "up": 67.0,
       "near": true
     },
     "VEEV": {
@@ -18,11 +19,12 @@
       "sector": "Health Care",
       "first": "10/02",
       "weeks": [
-        "10/02"
+        "10/02",
+        "10/09"
       ],
-      "last": "10/02",
+      "last": "10/09",
       "score": 29.0,
-      "up": 46.8,
+      "up": 59.0,
       "near": true
     },
     "ILMN": {
@@ -42,11 +44,12 @@
       "sector": "Energy",
       "first": "10/02",
       "weeks": [
-        "10/02"
+        "10/02",
+        "10/09"
       ],
-      "last": "10/02",
-      "score": 27.3,
-      "up": 36.9,
+      "last": "10/09",
+      "score": 34.8,
+      "up": 47.5,
       "near": true
     },
     "VLO": {
@@ -54,14 +57,27 @@
       "sector": "Energy",
       "first": "10/02",
       "weeks": [
-        "10/02"
+        "10/02",
+        "10/09"
       ],
-      "last": "10/02",
-      "score": 25.2,
-      "up": 34.8,
+      "last": "10/09",
+      "score": 35.5,
+      "up": 47.3,
+      "near": true
+    },
+    "DINO": {
+      "name": "HF Sinclair Corporation",
+      "sector": "Energy",
+      "first": "10/09",
+      "weeks": [
+        "10/09"
+      ],
+      "last": "10/09",
+      "score": 28.3,
+      "up": 38.2,
       "near": true
     }
   },
   "version": 3,
-  "last_week": "2026-10-02"
+  "last_week": "2026-10-09"
 }
