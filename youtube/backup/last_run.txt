@@ -1,3 +1,12 @@
-2026-10-10 01:18 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: Ob5TSrJbxbs 15시간 전 / MjEc_J9gYko 1일 전 / bL2q1ZfwdJA 2일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: kRmwzk0MRvo 2일 전 / c82bBXBuqOw 6일 전 / 3TUarra5A4I 8일 전
+2026-10-10 09:59 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: Ob5TSrJbxbs 1일 전 / MjEc_J9gYko 1일 전 / bL2q1ZfwdJA 2일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: KZiIh-nqqwY 6시간 전 / kRmwzk0MRvo 2일 전 / c82bBXBuqOw 7일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
+   Gemini 실패 KZiIh-nqqwY: gemini-3.8-flash: HTTP 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash 
+   ⏳ 대기: 성상현 (매크로비욘드) · KZiIh-nqqwY · “2022년과는 다르다” 곧 폭발할 유동성 장세. 앞으로 ‘이걸’ 봐야합니다｜성상현의 매크로비욘드 초대석 KK 대표 1부
