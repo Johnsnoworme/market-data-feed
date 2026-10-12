@@ -8,7 +8,7 @@
 | [FICO](https://finviz.com/quote.ashx?p=w&t=FICO) | Daily | 10-01 (1주 전) | 🔔 61.8~70% (마지막 방어선) | 70% | 667.58 | 773.3 ~ 666.3 (719.8) | +0.9% |
 | [TWST](https://finviz.com/quote.ashx?p=w&t=TWST) | Daily·Weekly | 09-24 (2주 전) | 🔔 38.2~50% | 43% | 159.78 | 177.97 ~ 122.33 (150.15) | -13.2% |
 | [INIO](https://finviz.com/quote.ashx?p=w&t=INIO) | Daily | 10-06 (0주 전) | 🔔 38.2~50% | 41% | 19.79 | 20.22 ~ 18.64 (19.43) | -7.3% |
-| [CRCL](https://finviz.com/quote.ashx?p=w&t=CRCL) | Monthly | 08-31 (5주 전) | 🔔 30~38.2% | 35% | 84.51 | 87.27 ~ 65.91 (76.59) | -11.6% |
+| [CRCL](https://finviz.com/quote.ashx?p=w&t=CRCL) | Monthly | 08-31 (6주 전) | 🔔 30~38.2% | 35% | 84.51 | 87.27 ~ 65.91 (76.59) | -11.6% |
 | [TEM](https://finviz.com/quote.ashx?p=w&t=TEM) | Weekly | 09-18 (3주 전) | 🔔 30~38.2% | 38% | 70.93 | 74.59 ~ 55.27 (64.93) | -8.9% |
 | [NBIS](https://finviz.com/quote.ashx?p=w&t=NBIS) | Daily | 09-24 (2주 전) | 🔔 30~38.2% | 31% | 221.07 | 222.31 ~ 178.59 (200.45) | -9.2% |
 | [UTHR](https://finviz.com/quote.ashx?p=w&t=UTHR) | Daily | 09-30 (1주 전) | 🔔 30~38.2% | 31% | 549.16 | 550.74 ~ 504.02 (527.38) | +1.3% |
