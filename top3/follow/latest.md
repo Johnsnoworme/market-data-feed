@@ -2,7 +2,7 @@
 
 > 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 10개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 41개 · 풀백 10개
+### 🏆 내 Top 3 — 추적 42개 · 풀백 10개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [FICO](https://finviz.com/quote.ashx?p=w&t=FICO) | Daily | 10-01 (1주 전) | 🔔 61.8~70% (마지막 방어선) | 70% | 667.58 | 773.3 ~ 666.3 (719.8) | +0.9% |
@@ -16,8 +16,8 @@
 | [GKOS](https://finviz.com/quote.ashx?p=w&t=GKOS) | Daily | 10-07 (0주 전) | 🔔 30~38.2% | 31% | 165.69 | 165.87 ~ 154.39 (160.13) | -3.8% |
 | [FLUT](https://finviz.com/quote.ashx?p=w&t=FLUT) | Daily | 10-08 (0주 전) | 🔔 30~38.2% | 31% | 79.78 | 79.91 ~ 76.25 (78.08) | -2.2% |
 
-> [!note]- 대기 30개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> VICR 26%, TXG 25%, HUM 24%, ILMN 24%, PS 20%, ACN 19%, CRDO 18%, VIAV 17%, NTES 16%, BE 15%, PBF 15%, SPOT 14%, FPS 12%, CSGP 12%, FORM 11%, PANW 11%, RCL 10%, IBRX 7%, CCL 7%, CMS 4% 📏, CIEN 4%, P 3%, TLN 2%, PTC 2%, SNPS 2%, CCI 1%, FROG 1%, TEAM 0%, XP 0%, MRNA 0%
+> [!note]- 대기 31개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
+> VICR 26%, TXG 25%, HUM 24%, ILMN 24%, H 23% 📏, PS 20%, ACN 19%, CRDO 18%, VIAV 17%, NTES 16%, BE 15%, PBF 15%, SPOT 14%, FPS 12%, CSGP 12%, FORM 11%, PANW 11%, RCL 10%, IBRX 7%, CCL 7%, CMS 4% 📏, CIEN 4%, P 3%, TLN 2%, PTC 2%, SNPS 2%, CCI 1%, FROG 1%, TEAM 0%, XP 0%, MRNA 0%
 
 ⚠️ 70% 이탈로 종료: AKAM
 

@@ -188,6 +188,32 @@
       ]
     },
     {
+      "ticker": "H",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-09-24",
+      "name": "Hyatt Hotels Corp",
+      "sector": "Consumer Cyclical",
+      "chg": "+14.25%",
+      "close": 161.94,
+      "high": 164.22,
+      "low": 154.16,
+      "retr": 22.7,
+      "zone": "📏 1파 작음 (8% 미만)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 161.2,
+        "50": 159.19,
+        "70": 157.18
+      },
+      "weeks": 2,
+      "since": 1.8,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "CMS",
       "kind": "D",
       "src": "T",
@@ -1365,5 +1391,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-10-11T07:47:18.518563+00:00"
+  "generated_utc": "2026-10-12T00:42:54.848150+00:00"
 }
