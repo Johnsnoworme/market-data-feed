@@ -1391,6 +1391,32 @@
       ]
     },
     {
+      "ticker": "HUBB",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-12",
+      "name": "Hubbell Inc",
+      "sector": "Industrials",
+      "chg": "+9.42%",
+      "close": 474.05,
+      "high": 476.63,
+      "low": 435.71,
+      "retr": 6.3,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 464.36,
+        "50": 456.17,
+        "70": 447.99
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "FCNCA",
       "kind": "D",
       "src": "T",
@@ -1495,5 +1521,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-10-13T08:21:49.517025+00:00"
+  "generated_utc": "2026-10-13T09:43:00.370631+00:00"
 }
