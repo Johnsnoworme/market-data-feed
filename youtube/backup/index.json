@@ -161,10 +161,10 @@
     "name": "2026-10-12 AI투자 판도 조용히 바뀌는 중 부진했던 빅테크, 팔란티어의 수상한 신고",
     "daily": "2026-10-13",
     "published_utc": "2026-10-12T12:31:24.046358+00:00",
-    "status": "stub",
-    "model": "",
+    "status": "done",
+    "model": "gemini-3.8-flash",
     "tries": 1,
-    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
-    "updated_utc": "2026-10-12T22:31:24+00:00"
+    "error": "",
+    "updated_utc": "2026-10-13T02:43:56+00:00"
   }
 }
