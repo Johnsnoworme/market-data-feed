@@ -1,3 +1,12 @@
-2026-10-14 08:51 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: _LOD9GYd1Qk 21시간 전 / ILs31CN-_VA 1일 전 / Ob5TSrJbxbs 4일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: KZiIh-nqqwY 4일 전 / kRmwzk0MRvo 6일 전 / c82bBXBuqOw 11일 전
+2026-10-14 19:29 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: PrEHp2DoRVU 7시간 전 / _LOD9GYd1Qk 1일 전 / ILs31CN-_VA 2일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
+   Gemini 실패 PrEHp2DoRVU: gemini-3.8-flash: HTTP 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash 
+   ⏳ 대기: 소수몽키 · PrEHp2DoRVU · 금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: wjhMlLJEHVs 이번 고금리는 누군가에게 비용이지만, 누군가에겐 소득이다｜성상현의 매크로비욘드 4-풀버전 / KZiIh-nqqwY 4일 전 / kRmwzk0MRvo 7일 전

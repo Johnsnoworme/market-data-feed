@@ -178,5 +178,17 @@
     "tries": 1,
     "error": "",
     "updated_utc": "2026-10-14T00:38:37+00:00"
+  },
+  "PrEHp2DoRVU": {
+    "ch": "sosumonkey",
+    "title": "금리 5.5%가 증시 충격 마지노선? 월가 초고수들의 경고, 대비해야 할까",
+    "name": "2026-10-14 금리 5.5%가 증시 충격 마지노선 월가 초고수들의 경고, 대비해야 할까",
+    "daily": "2026-10-15",
+    "published_utc": "2026-10-14T12:29:51.769201+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-10-14T19:29:51+00:00"
   }
 }
