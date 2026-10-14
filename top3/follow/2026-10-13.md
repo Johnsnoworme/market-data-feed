@@ -14,15 +14,15 @@
 | [VIAV](https://finviz.com/quote.ashx?p=w&t=VIAV) | Daily·Weekly | 10-02 (1주 전) | 🔔 38.2~50% | 42% | 41.28 | 43.32 ~ 36.51 (39.91) | -12.4% |
 | [FPS](https://finviz.com/quote.ashx?p=w&t=FPS) | Daily | 10-02 (1주 전) | 🔔 38.2~50% | 40% | 36.17 | 37.52 ~ 32.08 (34.8) | -10.4% |
 | [CRCL](https://finviz.com/quote.ashx?p=w&t=CRCL) | Monthly | 08-31 (6주 전) | 🔔 30~38.2% | 36% | 84.27 | 87.27 ~ 65.91 (76.59) | -11.8% |
-| [TXG](https://finviz.com/quote.ashx?p=w&t=TXG) | Daily·Monthly | 09-30 (1주 전) | 🔔 30~38.2% | 34% | 71.79 | 75.81 ~ 39.8 (57.8) | -20.6% |
+| [TXG](https://finviz.com/quote.ashx?p=w&t=TXG) | Daily·Monthly | 09-30 (2주 전) | 🔔 30~38.2% | 34% | 71.79 | 75.81 ~ 39.8 (57.8) | -20.6% |
 
 > [!note]- 나머지 풀백 5개
 > | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 > | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
-> | [UTHR](https://finviz.com/quote.ashx?p=w&t=UTHR) | Daily | 09-30 (1주 전) | 🔔 30~38.2% | 36% | 543.4 | 550.74 ~ 504.02 (527.38) | +0.3% |
+> | [UTHR](https://finviz.com/quote.ashx?p=w&t=UTHR) | Daily | 09-30 (2주 전) | 🔔 30~38.2% | 36% | 543.4 | 550.74 ~ 504.02 (527.38) | +0.3% |
 > | [CIEN](https://finviz.com/quote.ashx?p=w&t=CIEN) | Daily | 10-06 (1주 전) | 🔔 30~38.2% | 38% | 400.4 | 411.79 ~ 354.54 (383.17) | -9.7% |
-> | [BSP](https://finviz.com/quote.ashx?p=w&t=BSP) | Daily | 10-07 (0주 전) | 🔔 30~38.2% | 36% | 37.86 | 38.62 ~ 33.76 (36.19) | -7.8% |
-> | [GKOS](https://finviz.com/quote.ashx?p=w&t=GKOS) | Daily | 10-07 (0주 전) | 🔔 30~38.2% | 31% | 165.5 | 165.87 ~ 154.39 (160.13) | -3.9% |
+> | [BSP](https://finviz.com/quote.ashx?p=w&t=BSP) | Daily | 10-07 (1주 전) | 🔔 30~38.2% | 36% | 37.86 | 38.62 ~ 33.76 (36.19) | -7.8% |
+> | [GKOS](https://finviz.com/quote.ashx?p=w&t=GKOS) | Daily | 10-07 (1주 전) | 🔔 30~38.2% | 31% | 165.5 | 165.87 ~ 154.39 (160.13) | -3.9% |
 > | [HUM](https://finviz.com/quote.ashx?p=w&t=HUM) | Daily | 10-09 (0주 전) | 🔔 30~38.2% | 35% | 420.38 | 425.66 ~ 384.53 (405.1) | -2.7% |
 
 > [!note]- 대기 32개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
