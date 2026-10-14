@@ -26,7 +26,7 @@
 > | [HUM](https://finviz.com/quote.ashx?p=w&t=HUM) | Daily | 10-09 (0주 전) | 🔔 30~38.2% | 35% | 420.38 | 425.66 ~ 384.53 (405.1) | -2.7% |
 
 > [!note]- 대기 32개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> MTB 40% 📏, ILMN 29%, PANW 28%, BE 27%, VICR 25%, IBRX 24%, FCNCA 24% 📏, FICO 23%, FORM 22%, CCI 16%, SPOT 16%, NTES 15%, ACN 14%, FROG 13%, H 13% 📏, SNPS 12%, RCL 11%, WIT 9%, XP 8%, TLN 8%, MRNA 6%, HUBB 6%, TEAM 4%, MANH 4%, CSGP 4%, CMS 3% 📏, FRO 3%, PTC 2%, CCL 2%, PBF 1%, CDW 1%, P 1%
+> MTB 40% 📏, ILMN 29%, PANW 28%, BE 27%, VICR 25%, FCNCA 24% 📏, IBRX 24%, FICO 23%, FORM 22%, CCI 16%, SPOT 16%, NTES 15%, FROG 13%, H 13% 📏, ACN 13%, SNPS 12%, RCL 11%, WIT 9%, XP 8%, TLN 8%, MRNA 6%, HUBB 6%, TEAM 4%, MANH 4%, CSGP 4%, CMS 3% 📏, FRO 3%, PTC 2%, CCL 2%, CDW 1%, PBF 1%, P 1%
 
 ⚠️ 70% 이탈로 종료: AKAM, INIO
 
