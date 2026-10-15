@@ -24,7 +24,7 @@
 | 3 | [BE](https://finviz.com/quote.ashx?t=BE&p=w) | ⚡ 전력·에너지 병목 🐘 대형 | ⭐워치 2군 · 🏆Top3 D (9월5주) | 🔔 38~50% (44%) | +12%p | -31% | 3 | ✅ 숫자 좋음 | 4 |
 | 4 | [FORM](https://finviz.com/quote.ashx?t=FORM&p=w) | 🧠 AI 칩·장비 🐁 소형 | 🏆Top3 D·M (9월5주) | 🔔 30~38% (30%) | +8%p | -25% | 3 | ✅ 숫자 좋음 | 3 |
 | 5 | [FOXA](https://finviz.com/quote.ashx?t=FOXA&p=w) | 🌐 AI 플랫폼·인터넷 🐕 중형 | 🦅드러켄밀러 26Q2 신규 | 🔔 30~38% (37%) | +7%p | -18% | 6 | ✅ 숫자 좋음 | 4 |
-| 6 | [NBIS](https://finviz.com/quote.ashx?t=NBIS&p=w) | 🌐 AI 플랫폼·인터넷 🐘 대형 | 🏆Top3 D (9월4주) | 🔔 62~70% 방어선 (63%) | +5%p | -35% | 0 | ✅ 숫자 좋음 | 3 |
+| 6 | [NBIS](https://finviz.com/quote.ashx?t=NBIS&p=w) | 🌐 AI 플랫폼·인터넷 🐕 중형 | 🏆Top3 D (9월4주) | 🔔 62~70% 방어선 (63%) | +5%p | -35% | 0 | ✅ 숫자 좋음 | 3 |
 | 7 | [NVDA](https://finviz.com/quote.ashx?t=NVDA&p=w) | 🧠 AI 칩·장비 🐘 대형 | ⭐워치 1군 | 🔔 30~38% (38%) | +4%p | -8% | 2 | ✅ 숫자 좋음 | 4 |
 | 8 | [VICR](https://finviz.com/quote.ashx?t=VICR&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐕 중형 | 🏆Top3 W·M (9월5주) | 🔔 30~38% (34%) | +3%p | -35% | 3 | ✅ 숫자 좋음 | 3 |
 | 9 | [FROG](https://finviz.com/quote.ashx?t=FROG&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (9월5주) | 🔔 30~38% (37%) | +3%p | -12% | 3 | 🟡 적자·고성장 | 3 |
