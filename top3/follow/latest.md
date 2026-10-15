@@ -5,11 +5,11 @@
 ### 🏆 내 Top 3 — 추적 51개 · 풀백 16개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
-| [NBIS](https://finviz.com/quote.ashx?p=w&t=NBIS) | Daily | 09-24 (2주 전) | 🔔 61.8~70% (마지막 방어선) | 63% | 186.01 | 222.31 ~ 178.59 (200.45) | -23.6% |
+| [NBIS](https://finviz.com/quote.ashx?p=w&t=NBIS) | Daily | 09-24 (3주 전) | 🔔 61.8~70% (마지막 방어선) | 63% | 186.01 | 222.31 ~ 178.59 (200.45) | -23.6% |
 | [CRDO](https://finviz.com/quote.ashx?p=w&t=CRDO) | Daily | 09-25 (2주 전) | 🔔 61.8~70% (마지막 방어선) | 64% | 179.23 | 206.85 ~ 173.87 (190.36) | -15.0% |
 | [FPS](https://finviz.com/quote.ashx?p=w&t=FPS) | Daily | 10-02 (1주 전) | 🔔 61.8~70% (마지막 방어선) | 65% | 32.7 | 37.52 ~ 32.08 (34.8) | -19.0% |
 | [CIEN](https://finviz.com/quote.ashx?p=w&t=CIEN) | Daily | 10-06 (1주 전) | 🔔 61.8~70% (마지막 방어선) | 66% | 359.6 | 411.79 ~ 354.54 (383.17) | -18.9% |
-| [TWST](https://finviz.com/quote.ashx?p=w&t=TWST) | Daily·Weekly | 09-24 (2주 전) | 🔔 50~61.8% | 51% | 148.16 | 177.97 ~ 122.33 (150.15) | -19.5% |
+| [TWST](https://finviz.com/quote.ashx?p=w&t=TWST) | Daily·Weekly | 09-24 (3주 전) | 🔔 50~61.8% | 51% | 148.16 | 177.97 ~ 122.33 (150.15) | -19.5% |
 | [PS](https://finviz.com/quote.ashx?p=w&t=PS) | Daily·Weekly | 09-28 (2주 전) | 🔔 50~61.8% | 52% | 45.58 | 51.86 ~ 40.62 (46.24) | -22.8% |
 | [VIAV](https://finviz.com/quote.ashx?p=w&t=VIAV) | Daily·Weekly | 10-02 (1주 전) | 🔔 50~61.8% | 58% | 38.55 | 43.32 ~ 36.51 (39.91) | -18.2% |
 | [CRCL](https://finviz.com/quote.ashx?p=w&t=CRCL) | Monthly | 08-31 (6주 전) | 🔔 38.2~50% | 44% | 79.55 | 87.27 ~ 65.91 (76.59) | -16.7% |
@@ -27,7 +27,7 @@
 > | [FROG](https://finviz.com/quote.ashx?p=w&t=FROG) | Daily | 09-30 (2주 전) | 🔔 30~38.2% | 37% | 91.96 | 94.01 ~ 81.51 (87.76) | -5.2% |
 
 > [!note]- 대기 32개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> MTB 58% 📏, FCNCA 48% 📏, H 39% 📏, TLN 29%, ILMN 29%, HUM 28%, FICO 25%, NTES 23%, GKOS 23%, RCL 22%, SNPS 22%, IBRX 22%, SPOT 20%, BSP 19%, P 17%, ESLT 17%, CCI 17%, CCL 16%, FRO 14%, XP 13%, ACN 11%, WIT 9%, PBF 8%, MANH 7%, TEAM 6%, CDW 6%, HUBB 6%, HALO 6%, CMS 4% 📏, PTC 3%, CSGP 2%, MRNA 1%
+> MTB 58% 📏, FCNCA 48% 📏, H 39% 📏, TLN 29%, ILMN 29%, HUM 28%, FICO 25%, NTES 23%, GKOS 23%, RCL 22%, SNPS 22%, IBRX 22%, SPOT 20%, BSP 19%, P 17%, ESLT 17%, CCI 17%, CCL 16%, HUBB 16%, FRO 14%, XP 13%, ACN 11%, WIT 9%, PBF 8%, MANH 7%, TEAM 6%, CDW 6%, HALO 6%, CMS 4% 📏, PTC 3%, CSGP 2%, MRNA 1%
 
 ⚠️ 70% 이탈로 종료: AKAM, INIO, FLUT
 
