@@ -1,33 +1,33 @@
 # Market Data
 
-> 마지막 업데이트: 2026-10-16 06:19:41 UTC (데이터 출처: Finviz)
+> 마지막 업데이트: 2026-10-16 23:43:32 UTC (데이터 출처: Finviz)
 
 ## Fear & Greed Index
-31.5 / 100 (Fear)
+17.9 / 100 (Extreme Fear)
 
 ## Daily Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [ERIC](https://finviz.com/quote.ashx?t=ERIC) | Telefonaktiebolaget L M Ericsson ADR | Technology | +11.80% |
-| [TRU](https://finviz.com/quote.ashx?t=TRU) | TransUnion | Financial | +10.73% |
-| [CRCL](https://finviz.com/quote.ashx?t=CRCL) | Circle Internet Group Inc | Financial | +9.33% |
+| [PAYP](https://finviz.com/quote.ashx?t=PAYP) | PayPay Corp ADR | Technology | +6.99% |
+| [AR](https://finviz.com/quote.ashx?t=AR) | Antero Resources Corp | Energy | +6.06% |
+| [OVV](https://finviz.com/quote.ashx?t=OVV) | Ovintiv Inc | Energy | +4.84% |
 
 👉 [Finviz Daily Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=111&f=cap_largeover&o=-change)
 
 ## Weekly Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [BSP](https://finviz.com/quote.ashx?t=BSP) | Bending Spoons S.p.A | Technology | +46.72% |
-| [MRNA](https://finviz.com/quote.ashx?t=MRNA) | Moderna Inc | Healthcare | +20.05% |
-| [CCI](https://finviz.com/quote.ashx?t=CCI) | Crown Castle Inc | Real Estate | +16.13% |
+| [BSP](https://finviz.com/quote.ashx?t=BSP) | Bending Spoons S.p.A | Technology | +23.84% |
+| [FICO](https://finviz.com/quote.ashx?t=FICO) | Fair Isaac Corp | Technology | +15.52% |
+| [ESLT](https://finviz.com/quote.ashx?t=ESLT) | Elbit Systems Ltd | Industrials | +15.20% |
 
 👉 [Finviz Weekly Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf1w)
 
 ## Monthly Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [MRNA](https://finviz.com/quote.ashx?t=MRNA) | Moderna Inc | Healthcare | +62.41% |
-| [XP](https://finviz.com/quote.ashx?t=XP) | XP Inc | Financial | +52.02% |
-| [PTC](https://finviz.com/quote.ashx?t=PTC) | PTC Inc | Technology | +47.26% |
+| [XP](https://finviz.com/quote.ashx?t=XP) | XP Inc | Financial | +44.77% |
+| [PTC](https://finviz.com/quote.ashx?t=PTC) | PTC Inc | Technology | +43.54% |
+| [MRNA](https://finviz.com/quote.ashx?t=MRNA) | Moderna Inc | Healthcare | +37.92% |
 
 👉 [Finviz Monthly Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf4w)
