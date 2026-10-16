@@ -26,7 +26,7 @@
 | 5 | [NVDA](https://finviz.com/quote.ashx?t=NVDA&p=w) | 🧠 AI 칩·장비 🐘 대형 | ⭐워치 1군 | 🔔 38~50% (45%) | +2%p | -9% | 1 | ✅ 숫자 좋음 | 4 |
 | 6 | [ORCL](https://finviz.com/quote.ashx?t=ORCL&p=w) | 🖥️ 소프트웨어 🐘 대형 | ⭐워치 2군 | ⚠️ 70% 이탈 (99%) | +2%p | -56% | 2 | ✅ 숫자 좋음 | 3 |
 | 7 | [TSM](https://finviz.com/quote.ashx?t=TSM&p=w) | 🧠 AI 칩·장비 🐘 대형 | ⭐워치 2군 | 🔔 50~62% (51%) | +2%p | -13% | 2 | ✅ 숫자 좋음 | 3 |
-| 8 | [NBIS](https://finviz.com/quote.ashx?t=NBIS&p=w) | 🌐 AI 플랫폼·인터넷 🐕 중형 | 🏆Top3 D (9월4주) | 🔔 50~62% (61%) | +1%p | -34% | 0 | ✅ 숫자 좋음 | 3 |
+| 8 | [NBIS](https://finviz.com/quote.ashx?t=NBIS&p=w) | 🌐 AI 플랫폼·인터넷 🐘 대형 | 🏆Top3 D (9월4주) | 🔔 50~62% (61%) | +1%p | -34% | 0 | ✅ 숫자 좋음 | 3 |
 | 9 | [GKOS](https://finviz.com/quote.ashx?t=GKOS&p=w) | 🧬 AI 바이오·헬스 🐁 소형 | 🏆Top3 D (10월1주) | 🔔 30~38% (31%) | +1%p | -13% | 3 | 🟡 적자·고성장 | 3 |
 | 10 | [HOOD](https://finviz.com/quote.ashx?t=HOOD&p=w) | 🪙 크립토·토큰화·금융 인프라 🐘 대형 | ⭐워치 1군 | 🔔 30~38% (36%) | -1%p | -29% | 0 | ✅ 숫자 좋음 | 3 |
 | 11 | [PANW](https://finviz.com/quote.ashx?t=PANW&p=w) | 🖥️ 소프트웨어 🐘 대형 | ⭐워치 2군 · 🏆Top3 D (9월4주) | 🔔 50~62% (50%) | -2%p | -12% | 2 | ✅ 숫자 좋음 | 3 |
