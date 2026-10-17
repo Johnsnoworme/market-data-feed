@@ -29,7 +29,7 @@
 > | [GKOS](https://finviz.com/quote.ashx?p=w&t=GKOS) | Daily | 10-07 (1주 전) | 🔔 30~38.2% | 34% | 164.84 | 165.87 ~ 154.39 (160.13) | -4.3% |
 
 > [!note]- 대기 29개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> MTB 70% 📏, H 30%, FRO 29%, PBF 23%, FCNCA 21% 📏, XP 20%, CCL 19%, CRCL 18%, RCL 17%, PAYP 13%, MRNA 13%, CDW 13%, SPOT 12%, ERIC 12%, TRU 12%, MANH 11%, NTES 10%, TEAM 10%, WIT 8%, FICO 7%, CCI 6%, CSGP 5%, CMS 4%, PTC 4%, AR 2%, ACN 2%, HALO 1%, OVV 0%, ESLT 0%
+> MTB 70% 📏, H 30%, FRO 29%, PBF 23%, FCNCA 21% 📏, XP 20%, CCL 19%, CRCL 18%, RCL 17%, PAYP 13%, MRNA 13%, CDW 13%, SPOT 12%, ERIC 12%, TRU 12%, MANH 11%, NTES 10%, TEAM 10%, WIT 8%, FICO 7%, CCI 6%, CSGP 5%, CMS 4%, PTC 4%, ACN 2%, AR 2%, HALO 1%, OVV 0%, ESLT 0%
 
 ⚠️ 70% 이탈로 종료: AKAM, NBIS, VIAV, CRDO, PANW, INIO, FPS, CIEN, FLUT
 
