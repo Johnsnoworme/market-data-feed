@@ -76,8 +76,68 @@
       "score": 28.3,
       "up": 38.2,
       "near": true
+    },
+    "FICO": {
+      "name": "Fair Isaac",
+      "sector": "Technology",
+      "first": "10/16",
+      "weeks": [
+        "10/16"
+      ],
+      "last": "10/16",
+      "score": 21.0,
+      "up": 0.0,
+      "near": true
+    },
+    "ESLT": {
+      "name": "Elbit Systems Ltd.",
+      "sector": "Industrials",
+      "first": "10/16",
+      "weeks": [
+        "10/16"
+      ],
+      "last": "10/16",
+      "score": 20.9,
+      "up": 0.0,
+      "near": true
+    },
+    "INFY": {
+      "name": "Infosys Limited",
+      "sector": "Technology",
+      "first": "10/16",
+      "weeks": [
+        "10/16"
+      ],
+      "last": "10/16",
+      "score": 19.6,
+      "up": 0.0,
+      "near": true
+    },
+    "TRU": {
+      "name": "TransUnion",
+      "sector": "Financials",
+      "first": "10/16",
+      "weeks": [
+        "10/16"
+      ],
+      "last": "10/16",
+      "score": 18.7,
+      "up": 0.0,
+      "near": true
+    },
+    "CTSH": {
+      "name": "Cognizant",
+      "sector": "Technology",
+      "first": "10/16",
+      "weeks": [
+        "10/16"
+      ],
+      "last": "10/16",
+      "score": 17.1,
+      "up": 0.0,
+      "near": true
     }
   },
   "version": 3,
-  "last_week": "2026-10-09"
+  "last_week": "2026-10-16"
 }

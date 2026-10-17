@@ -353,8 +353,8 @@
   "CTSH": {
     "name": "Cognizant",
     "first_seen": "2026-09-25",
-    "last_seen": "2026-09-25",
-    "expires": "2026-11-20",
+    "last_seen": "2026-10-16",
+    "expires": "2026-12-11",
     "kind": "🎯",
     "status": "active",
     "last_zone": "🟢 고점 근처 (0~30%)|—"
@@ -1285,5 +1285,41 @@
     "kind": "👀",
     "status": "active",
     "last_zone": "🟢 고점 근처 (0~30%)|🔔 38.2~50%"
+  },
+  "FICO": {
+    "name": "Fair Isaac",
+    "first_seen": "2026-10-16",
+    "last_seen": "2026-10-16",
+    "expires": "2026-12-11",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ESLT": {
+    "name": "Elbit Systems Ltd.",
+    "first_seen": "2026-10-16",
+    "last_seen": "2026-10-16",
+    "expires": "2026-12-11",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "INFY": {
+    "name": "Infosys Limited",
+    "first_seen": "2026-10-16",
+    "last_seen": "2026-10-16",
+    "expires": "2026-12-11",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TRU": {
+    "name": "TransUnion",
+    "first_seen": "2026-10-16",
+    "last_seen": "2026-10-16",
+    "expires": "2026-12-11",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
   }
 }
