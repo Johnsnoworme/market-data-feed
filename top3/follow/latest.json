@@ -1754,7 +1754,137 @@
       "kinds": [
         "D"
       ]
+    },
+    {
+      "ticker": "FICO",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-16",
+      "name": "Fair Isaac",
+      "sector": "",
+      "chg": "",
+      "close": 771.19,
+      "high": 785.64,
+      "low": 586.05,
+      "retr": 7.2,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 725.76,
+        "50": 685.85,
+        "70": 645.93
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "ESLT",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-16",
+      "name": "Elbit Systems Ltd.",
+      "sector": "",
+      "chg": "",
+      "close": 755.43,
+      "high": 755.44,
+      "low": 649.68,
+      "retr": 0.0,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 723.71,
+        "50": 702.56,
+        "70": 681.41
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "INFY",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-16",
+      "name": "Infosys Limited",
+      "sector": "",
+      "chg": "",
+      "close": 12.24,
+      "high": 12.43,
+      "low": 10.12,
+      "retr": 8.2,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 11.74,
+        "50": 11.28,
+        "70": 10.81
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "TRU",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-16",
+      "name": "TransUnion",
+      "sector": "",
+      "chg": "",
+      "close": 74.08,
+      "high": 75.89,
+      "low": 60.96,
+      "retr": 12.1,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 71.41,
+        "50": 68.42,
+        "70": 65.44
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "CTSH",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-16",
+      "name": "Cognizant",
+      "sector": "",
+      "chg": "",
+      "close": 66.03,
+      "high": 67.43,
+      "low": 36.86,
+      "retr": 4.6,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 58.26,
+        "50": 52.15,
+        "70": 46.03
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
     }
   ],
-  "generated_utc": "2026-10-17T07:10:17.370700+00:00"
+  "generated_utc": "2026-10-17T08:30:49.689428+00:00"
 }
