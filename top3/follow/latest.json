@@ -1678,37 +1678,11 @@
       ]
     },
     {
-      "ticker": "PAYP",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-10-16",
-      "name": "PayPay Corp ADR",
-      "sector": "Technology",
-      "chg": "+6.99%",
-      "close": 15.68,
-      "high": 15.9,
-      "low": 14.21,
-      "retr": 13.0,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 15.39,
-        "50": 15.05,
-        "70": 14.72
-      },
-      "weeks": 0,
-      "since": 0.0,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
       "ticker": "AR",
       "kind": "D",
       "src": "T",
       "date": "2026-10-16",
-      "name": "Antero Resources Corp",
+      "name": "Antero Resources Corporation",
       "sector": "Energy",
       "chg": "+6.06%",
       "close": 38.65,
@@ -1734,7 +1708,7 @@
       "kind": "D",
       "src": "T",
       "date": "2026-10-16",
-      "name": "Ovintiv Inc",
+      "name": "Ovintiv Inc. (DE)",
       "sector": "Energy",
       "chg": "+4.84%",
       "close": 69.33,
@@ -1748,6 +1722,58 @@
         "30": 65.58,
         "50": 63.05,
         "70": 60.52
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "EQNR",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-16",
+      "name": "Equinor ASA",
+      "sector": "Energy",
+      "chg": "+4.59%",
+      "close": 46.98,
+      "high": 47.01,
+      "low": 36.48,
+      "retr": 0.3,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 43.85,
+        "50": 41.74,
+        "70": 39.64
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "PAYP",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-16",
+      "name": "PayPay Corp ADR",
+      "sector": "Technology",
+      "chg": "+6.99%",
+      "close": 15.68,
+      "high": 15.9,
+      "low": 14.21,
+      "retr": 13.0,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 15.39,
+        "50": 15.05,
+        "70": 14.72
       },
       "weeks": 0,
       "since": 0.0,
@@ -1886,5 +1912,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-10-17T08:30:49.689428+00:00"
+  "generated_utc": "2026-10-17T23:15:40.810523+00:00"
 }
