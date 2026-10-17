@@ -43,7 +43,7 @@
 | 22 | [FROG](https://finviz.com/quote.ashx?t=FROG&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (9월5주) | 🔔 50~62% (61%) | -9%p | -19% | 1 | 🟡 적자·고성장 | 2 |
 | 23 | [ARM](https://finviz.com/quote.ashx?t=ARM&p=w) | 🧠 AI 칩·장비 🐘 대형 | ⭐워치 2군 | 🔔 62~70% 방어선 (64%) | -18%p | -48% | 2 | ✅ 숫자 좋음 | 2 |
 | 24 | [VICR](https://finviz.com/quote.ashx?t=VICR&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐁 소형 | 🏆Top3 W·M (9월5주) | 🔔 50~62% (56%) | -19%p | -50% | 1 | ✅ 숫자 좋음 | 2 |
-| 25 | [FICO](https://finviz.com/quote.ashx?t=FICO&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (10월2주) | 🟢 고점 근처 (7%) | -41%p | -58% | 4 | ✅ 숫자 좋음 | 2 |
+| 25 | [FICO](https://finviz.com/quote.ashx?t=FICO&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🧭김종봉 (10월3주) | 🟢 고점 근처 (7%) | -41%p | -58% | 4 | ✅ 숫자 좋음 | 2 |
 
 ## ⏳ 강하지만 아직 자리 아님 (기다림 · 3개월 QQQ 대비 강한 순)
 | # | 티커 | 테마·크기 | 출처 (언제) | 풀백 위치 | 3개월 QQQ 대비 | 고점 대비 | 🧲 | 숫자 | 점수 |
@@ -64,7 +64,7 @@
 | 14 | [AAPL](https://finviz.com/quote.ashx?t=AAPL&p=w) | 🌐 AI 플랫폼·인터넷 🐘 대형 | ⭐워치 2군 | 🟢 고점 근처 (6%) | +3%p | +0% | 6 | ✅ 숫자 좋음 | 2 |
 | 15 | [PAYP](https://finviz.com/quote.ashx?t=PAYP&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (10월3주) | 🟢 고점 근처 (13%) | +2%p | -36% | 5 | ✅ 숫자 좋음 | 2 |
 
-> 🙈 18개월 지도 테마 밖이라 숨김 29개 (워치리스트는 예외)
+> 🙈 18개월 지도 테마 밖이라 숨김 31개 (워치리스트는 예외)
 
 > 🗑️ 숫자 게이트에서 걸러짐 (흑자+성장 아님): TXG(적자 · 매출 -13%), PTC(흑자 · 매출 -7% · 순이익(분기) -16%), AVTR(적자 · 매출 +0% · 순이익(분기) -41%), TWST(적자 · 매출 +23%), ILMN(흑자 · 매출 +9% · 순이익(분기) -12%), ZS(적자 · 매출 +25%), MANH(흑자 · 매출 +9% · 순이익(분기) -11%), CRCL(흑자 · 매출 +7%), ERIC(흑자 · 매출 +6% · 순이익(분기) -48%), ZTS(흑자 · 매출 -0% · 순이익(분기) -5%), BSX(흑자 · 매출 +8% · 순이익(분기) +14%), UTHR(흑자 · 매출 -2% · 순이익(분기) +8%), RVMD(적자), CMS(흑자 · 매출 -0% · 순이익(분기) -40%), TME(흑자 · 매출 +6% · 순이익(분기) +3%), IWM(—), FISV(—), HONA(흑자 · 매출 +5% · 순이익(분기) -71%), NVO(흑자 · 매출 +2% · 순이익(분기) -21%)
 
@@ -142,6 +142,7 @@
 | [DINO](https://finviz.com/quote.ashx?t=DINO&p=w) | 🧭김종봉 | 2026-10-09 | 🟢 고점 근처 (6%) | 9/10 | +37%p |
 | [H](https://finviz.com/quote.ashx?t=H&p=w) | 🏆D | 2026-09-24 | 🟢 고점 근처 (30%) | 8/10 | -13%p |
 | [CMS](https://finviz.com/quote.ashx?t=CMS&p=w) | 🏆D | 2026-09-24 | 🟢 고점 근처 (4%) | 8/10 | -7%p |
+| [CTSH](https://finviz.com/quote.ashx?t=CTSH&p=w) | 🧭김종봉 | 2026-10-16 | 🟢 고점 근처 (5%) | 8/10 | +47%p |
 | [MRNA](https://finviz.com/quote.ashx?t=MRNA&p=w) | 🏆D·W·M | 2026-10-09 | 🟢 고점 근처 (13%) | 7/10 | +264%p |
 | [TEAM](https://finviz.com/quote.ashx?t=TEAM&p=w) | 🏆M | 2026-08-31 | 🟢 고점 근처 (10%) | 7/10 | +113%p |
 | [ZS](https://finviz.com/quote.ashx?t=ZS&p=w) | 🧭김종봉 | 2026-09-25 | 🟢 고점 근처 (25%) | 7/10 | +36%p |
@@ -151,6 +152,7 @@
 | [HALO](https://finviz.com/quote.ashx?t=HALO&p=w) | 🏆D | 2026-10-14 | 🟢 고점 근처 (1%) | 7/10 | +56%p |
 | [AR](https://finviz.com/quote.ashx?t=AR&p=w) | 🏆D | 2026-10-16 | 🟢 고점 근처 (2%) | 7/10 | +14%p |
 | [OVV](https://finviz.com/quote.ashx?t=OVV&p=w) | 🏆D | 2026-10-16 | 🟢 고점 근처 (0%) | 7/10 | +18%p |
+| [INFY](https://finviz.com/quote.ashx?t=INFY&p=w) | 🧭김종봉 | 2026-10-16 | 🟢 고점 근처 (8%) | 7/10 | +6%p |
 | [ILMN](https://finviz.com/quote.ashx?t=ILMN&p=w) | 🧭김종봉 | 2026-10-02 | 🟢 고점 근처 (25%) | 6/10 | +40%p |
 | [AVTR](https://finviz.com/quote.ashx?t=AVTR&p=w) | 🧭김종봉 | 2026-09-25 | 🟢 고점 근처 (0%) | 6/10 | +52%p |
 | [NTES](https://finviz.com/quote.ashx?t=NTES&p=w) | 🏆D | 2026-09-28 | 🟢 고점 근처 (10%) | 6/10 | -8%p |
@@ -166,10 +168,10 @@
 | [CSGP](https://finviz.com/quote.ashx?t=CSGP&p=w) | 🏆D | 2026-10-08 | 🟢 고점 근처 (5%) | 5/10 | +7%p |
 | [PAYP](https://finviz.com/quote.ashx?t=PAYP&p=w) | 🏆D | 2026-10-16 | 🟢 고점 근처 (13%) | 5/10 | +2%p |
 | [MANH](https://finviz.com/quote.ashx?t=MANH&p=w) | 🏆D | 2026-10-12 | 🟢 고점 근처 (11%) | 4/10 | +32%p |
-| [FICO](https://finviz.com/quote.ashx?t=FICO&p=w) | 🏆D | 2026-10-12 | 🟢 고점 근처 (7%) | 4/10 | -41%p |
+| [FICO](https://finviz.com/quote.ashx?t=FICO&p=w) | 🧭김종봉 | 2026-10-16 | 🟢 고점 근처 (7%) | 4/10 | -41%p |
 | [XP](https://finviz.com/quote.ashx?t=XP&p=w) | 🏆D | 2026-10-05 | 🟢 고점 근처 (20%) | 4/10 | +72%p |
-| [ESLT](https://finviz.com/quote.ashx?t=ESLT&p=w) | 🏆D | 2026-10-14 | 🟢 고점 근처 (0%) | 4/10 | -2%p |
-| [TRU](https://finviz.com/quote.ashx?t=TRU&p=w) | 🏆D | 2026-10-15 | 🟢 고점 근처 (12%) | 4/10 | -8%p |
+| [ESLT](https://finviz.com/quote.ashx?t=ESLT&p=w) | 🧭김종봉 | 2026-10-16 | 🟢 고점 근처 (0%) | 4/10 | -2%p |
+| [TRU](https://finviz.com/quote.ashx?t=TRU&p=w) | 🧭김종봉 | 2026-10-16 | 🟢 고점 근처 (12%) | 4/10 | -8%p |
 | [CDW](https://finviz.com/quote.ashx?t=CDW&p=w) | 🏆D | 2026-10-13 | 🟢 고점 근처 (13%) | 3/10 | +14%p |
 | [ERIC](https://finviz.com/quote.ashx?t=ERIC&p=w) | 🏆D | 2026-10-15 | 🟢 고점 근처 (12%) | 3/10 | +10%p |
 
