@@ -7,7 +7,7 @@
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [TWST](https://finviz.com/quote.ashx?p=w&t=TWST) | Daily·Weekly | 09-24 (3주 전) | 🔔 61.8~70% (마지막 방어선) | 62% | 132.75 | 177.97 ~ 122.33 (150.15) | -27.9% |
 | [TEM](https://finviz.com/quote.ashx?p=w&t=TEM) | Weekly | 09-18 (4주 전) | 🔔 50~61.8% | 50% | 64.72 | 74.59 ~ 55.27 (64.93) | -16.9% |
-| [PS](https://finviz.com/quote.ashx?p=w&t=PS) | Daily·Weekly | 09-28 (2주 전) | 🔔 50~61.8% | 56% | 44.48 | 51.86 ~ 40.62 (46.24) | -24.7% |
+| [PS](https://finviz.com/quote.ashx?p=w&t=PS) | Daily·Weekly | 09-28 (3주 전) | 🔔 50~61.8% | 56% | 44.48 | 51.86 ~ 40.62 (46.24) | -24.7% |
 | [BE](https://finviz.com/quote.ashx?p=w&t=BE) | Daily | 09-29 (2주 전) | 🔔 50~61.8% | 56% | 221.31 | 258.85 ~ 200.84 (229.84) | -24.0% |
 | [VICR](https://finviz.com/quote.ashx?p=w&t=VICR) | Weekly·Monthly | 09-30 (2주 전) | 🔔 50~61.8% | 56% | 191.5 | 255.79 ~ 155.5 (205.65) | -33.7% |
 | [FROG](https://finviz.com/quote.ashx?p=w&t=FROG) | Daily | 09-30 (2주 전) | 🔔 50~61.8% | 61% | 84.31 | 94.01 ~ 81.51 (87.76) | -13.1% |
@@ -20,7 +20,7 @@
 > | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 > | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 > | [HUM](https://finviz.com/quote.ashx?p=w&t=HUM) | Daily | 10-09 (1주 전) | 🔔 38.2~50% | 42% | 413.16 | 425.66 ~ 384.53 (405.1) | -4.3% |
-> | [HUBB](https://finviz.com/quote.ashx?p=w&t=HUBB) | Daily | 10-12 (0주 전) | 🔔 38.2~50% | 43% | 461.1 | 467.08 ~ 449.16 (458.12) | -2.7% |
+> | [HUBB](https://finviz.com/quote.ashx?p=w&t=HUBB) | Daily | 10-12 (1주 전) | 🔔 38.2~50% | 43% | 461.1 | 467.08 ~ 449.16 (458.12) | -2.7% |
 > | [BSP](https://finviz.com/quote.ashx?p=w&t=BSP) | Daily | 10-14 (0주 전) | 🔔 38.2~50% | 44% | 47.07 | 51.08 ~ 39.85 (45.47) | -12.0% |
 > | [ILMN](https://finviz.com/quote.ashx?p=w&t=ILMN) | Daily | 09-24 (3주 전) | 🔔 30~38.2% | 36% | 262.54 | 270.21 ~ 218.02 (244.12) | -4.1% |
 > | [P](https://finviz.com/quote.ashx?p=w&t=P) | Daily·Weekly | 09-25 (3주 전) | 🔔 30~38.2% | 36% | 124.01 | 129.74 ~ 92.63 (111.19) | -1.6% |
