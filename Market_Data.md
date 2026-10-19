@@ -1,6 +1,6 @@
 # Market Data
 
-> 마지막 업데이트: 2026-10-19 00:13:15 UTC (데이터 출처: Nasdaq + yfinance (백업))
+> 마지막 업데이트: 2026-10-19 00:28:06 UTC (데이터 출처: Nasdaq + yfinance (백업))
 
 ## Fear & Greed Index
 17.9 / 100 (Extreme Fear)
