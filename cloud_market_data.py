@@ -112,25 +112,35 @@ def get_finviz_top3(order):
     """
     import lxml.html
     url = f"https://finviz.com/screener.ashx?v=152&f=cap_largeover&o=-{order}&c=1,2,3,42,43,66"
-    # 2026-10-21: 한 번 막히면 바로 백업으로 넘어가던 것을 3번까지 재시도 (5초·20초 간격)
+    # 2026-10-21: ① 3번까지 재시도 ② 표 이름(class)이 아니라 'Ticker·Company' 머리줄로 표를 찾음
+    #   (10-17부터 Finviz 화면 구조가 바뀌어 class="screener_table"이 사라짐 → 계속 백업으로 넘어가던 원인)
     for attempt in range(3):
         try:
             resp = requests.get(url, headers=FINVIZ_HEADERS, timeout=20)
             resp.raise_for_status()
-            if "screener_table" not in resp.text:
-                raise ValueError(f"Finviz 표 없음 (HTTP {resp.status_code}, {len(resp.text)}자 — 차단/로그인 화면 가능성)")
+            doc = lxml.html.fromstring(resp.text)
+            rows = header = None
+            for tb in doc.xpath("//table"):
+                trs = tb.xpath("./tr|./thead/tr|./tbody/tr")
+                if len(trs) < 4:
+                    continue
+                h = [c.text_content().strip() for c in trs[0].xpath("./th|./td")]
+                if 'Ticker' in h and 'Company' in h and FINVIZ_COLS[order] in h:
+                    rows, header = trs, h
+                    break
+            if rows is None:
+                try:  # 진단용: 받은 화면을 저장 (원인 확인 후 삭제 가능)
+                    os.makedirs("archive", exist_ok=True)
+                    open("archive/_finviz_debug.html", "w", encoding="utf-8").write(resp.text)
+                except Exception:
+                    pass
+                raise ValueError(f"Finviz 표 없음 (HTTP {resp.status_code}, {len(resp.text)}자 — 화면 구조 변경/차단 가능성)")
             break
         except Exception as e:
             print(f"   Finviz 시도 {attempt + 1}/3 실패: {e}")
             if attempt == 2:
                 raise
             _time.sleep([5, 20][attempt])
-    doc = lxml.html.fromstring(resp.text)
-    tables = doc.xpath("//table[contains(concat(' ', normalize-space(@class), ' '), ' screener_table ')]")
-    if not tables:
-        raise ValueError("Finviz 스크리너 표를 찾을 수 없습니다.")
-    rows = tables[0].xpath(".//tr")
-    header = [c.text_content().strip() for c in rows[0].xpath("./th|./td")]
     i_t, i_c, i_s = header.index('Ticker'), header.index('Company'), header.index('Sector')
     i_v = header.index(FINVIZ_COLS[order])
 
