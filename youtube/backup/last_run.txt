@@ -1,3 +1,12 @@
-2026-10-20 08:42 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: quJTDt4JGpU 21시간 전 / PrEHp2DoRVU 5일 전 / _LOD9GYd1Qk 6일 전
+2026-10-20 19:23 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: JFtx8IXlz5c 9시간 전 / quJTDt4JGpU 1일 전 / PrEHp2DoRVU 6일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
+   Gemini 실패 JFtx8IXlz5c: gemini-3.8-flash: HTTP 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash 
+   ⏳ 대기: 소수몽키 · JFtx8IXlz5c · "1999년 붕괴 직전과 완벽히 똑같다" 월가 초고수의 변심, 적중할까
 성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: TO_Qw3dM2gI 3일 전 / wjhMlLJEHVs 이번 고금리는 누군가에게 비용이지만, 누군가에겐 소득이다｜성상현의 매크로비욘드 4-풀버전 / KZiIh-nqqwY 10일 전
