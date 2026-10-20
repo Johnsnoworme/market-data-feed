@@ -1,9 +1,5 @@
-2026-10-19 20:38 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: quJTDt4JGpU 9시간 전 / PrEHp2DoRVU 5일 전 / _LOD9GYd1Qk 6일 전
+2026-10-20 00:43 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: quJTDt4JGpU 13시간 전 / PrEHp2DoRVU 5일 전 / _LOD9GYd1Qk 6일 전
    사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
-   Gemini 실패 quJTDt4JGpU: gemini-3.8-flash: 연결 오류 ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | gemini-2.5-flash: HTTP 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/ge | gemin
-   ⏳ 대기: 소수몽키 · quJTDt4JGpU · AI인프라 약한 고리 결국 터진다? 극단적 공포 진입, 이번에도 기회일까
+   ✅ 요약: 소수몽키 · quJTDt4JGpU · AI인프라 약한 고리 결국 터진다? 극단적 공포 진입, 이번에도 기회일까
 성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: TO_Qw3dM2gI 2일 전 / wjhMlLJEHVs 이번 고금리는 누군가에게 비용이지만, 누군가에겐 소득이다｜성상현의 매크로비욘드 4-풀버전 / KZiIh-nqqwY 9일 전

@@ -209,10 +209,10 @@
     "name": "2026-10-19 AI인프라 약한 고리 결국 터진다 극단적 공포 진입, 이번에도 기회일까",
     "daily": "2026-10-20",
     "published_utc": "2026-10-19T11:38:10.731577+00:00",
-    "status": "stub",
-    "model": "",
+    "status": "done",
+    "model": "gemini-3.8-flash",
     "tries": 1,
-    "error": "gemini-3.8-flash: 연결 오류 ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/ge | gemin",
-    "updated_utc": "2026-10-19T20:38:10+00:00"
+    "error": "",
+    "updated_utc": "2026-10-20T00:43:10+00:00"
   }
 }
