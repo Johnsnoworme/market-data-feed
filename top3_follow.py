@@ -32,6 +32,12 @@ def section(md, title):
     return m.group(1) if m else ""
 
 
+# 2026-10-21: 보통주가 아닌 증권(우선주·채권·유닛·워런트·When Issued)은 추적 안 함
+#   (Finviz 백업 방식이 BTSGU·BIPJ·BRKRP·SMCIP·MCHPP 등을 Top 3에 넣었던 기록이 git에 남아 있음)
+NON_COMMON = re.compile(r"preferred|\bnotes?\b|debentures?|subordinated|\bunits?\b|warrants?\b|\brights\b|"
+                        r"tangible equity|when[- ]issued|%|\bdue \d{4}", re.I)
+
+
 def daily_signals():
     out = {}
     shas = subprocess.run(["git", "log", "--format=%H", f"--since={DAYS + 14}.days", "--", "Market_Data.md"],
@@ -47,8 +53,8 @@ def daily_signals():
             day -= pd.Timedelta(days=1)
         d = day.strftime("%Y-%m-%d")
         for t, name, sector, chg in PAT.findall(section(md, "Daily Top 3")):
-            if "when issued" in name.lower():
-                continue  # 상장 전 임시 거래 종목은 추적하지 않음 (2026-10-07 MMEDV)
+            if NON_COMMON.search(name):
+                continue  # 임시 거래(MMEDV)·우선주·채권·유닛은 추적하지 않음
             out.setdefault((t, "D", d), {"name": name.strip(), "sector": sector.strip(), "chg": chg})
     return out
 
@@ -63,7 +69,7 @@ def archive_signals(sub, kind):
         if not m:
             continue
         for t, name, sector, chg in PAT.findall(md):
-            if "when issued" in name.lower():
+            if NON_COMMON.search(name):
                 continue
             out.setdefault((t, kind, m.group(1)), {"name": name.strip(), "sector": sector.strip(), "chg": chg})
     return out

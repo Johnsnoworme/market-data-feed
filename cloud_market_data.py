@@ -40,6 +40,15 @@ def _clean_name(name):
             name = name[:idx]
     return name.strip()
 
+# 2026-10-21 사고: 백업 방식이 BTSGU(유닛)·BIPJ(채권)·BRKRP(우선주)를 Top 3에 넣음.
+#   Finviz는 보통주·ADR·ETF만 보여주므로, 백업도 Finviz에 없는 증권은 뺀다 (= "Finviz 화면 그대로" 규칙과 같음).
+_NON_COMMON = re.compile(
+    r"preferred|\bnotes?\b|debentures?|subordinated|\bunits?\b|warrants?\b|\brights\b|"
+    r"tangible equity|when[- ]issued|%|\bdue \d{4}", re.I)
+
+def _is_common(name):
+    return not _NON_COMMON.search(name or "")
+
 def get_large_cap_universe():
     """
     Nasdaq 스크리너(NYSE/NASDAQ/AMEX 전체 상장 종목)에서 시가총액 $10B 이상만 추출.
@@ -68,6 +77,8 @@ def get_large_cap_universe():
             continue
         # 우선주/워런트 등 특수 심볼(^ 포함) 제외, 시총 기준 미달 제외
         if not sym or '^' in sym or cap < MIN_MARKET_CAP:
+            continue
+        if not _is_common(r.get('name')):  # 우선주·채권·유닛·워런트 제외 (Finviz에 없음)
             continue
         # yfinance 호환: BRK/B -> BRK-B
         yf_sym = sym.replace('/', '-').replace('.', '-')
@@ -101,8 +112,19 @@ def get_finviz_top3(order):
     """
     import lxml.html
     url = f"https://finviz.com/screener.ashx?v=152&f=cap_largeover&o=-{order}&c=1,2,3,42,43,66"
-    resp = requests.get(url, headers=FINVIZ_HEADERS, timeout=20)
-    resp.raise_for_status()
+    # 2026-10-21: 한 번 막히면 바로 백업으로 넘어가던 것을 3번까지 재시도 (5초·20초 간격)
+    for attempt in range(3):
+        try:
+            resp = requests.get(url, headers=FINVIZ_HEADERS, timeout=20)
+            resp.raise_for_status()
+            if "screener_table" not in resp.text:
+                raise ValueError(f"Finviz 표 없음 (HTTP {resp.status_code}, {len(resp.text)}자 — 차단/로그인 화면 가능성)")
+            break
+        except Exception as e:
+            print(f"   Finviz 시도 {attempt + 1}/3 실패: {e}")
+            if attempt == 2:
+                raise
+            _time.sleep([5, 20][attempt])
     doc = lxml.html.fromstring(resp.text)
     tables = doc.xpath("//table[contains(concat(' ', normalize-space(@class), ' '), ' screener_table ')]")
     if not tables:
@@ -146,7 +168,17 @@ def compute_top3_fallback():
     close = data['Close'].dropna(how='all')
     if len(close) < 2:
         raise ValueError("수익률을 계산할 충분한 거래일 데이터가 없습니다.")
+    # 2026-10-21: yfinance가 일부 종목만 받아오면(차단·지연) 남은 몇 개로 Top 3가 정해지는 사고 방지.
+    #   ① 마지막 줄 날짜 = 마지막으로 끝난 뉴욕 거래일  ② 90% 이상 종목이 최근 2일 가격 보유 → 아니면 저장 안 함
+    expected = ny_session_for(datetime.datetime.now(datetime.timezone.utc))
+    last_day = pd.to_datetime(close.index[-1]).date()
+    if last_day != expected:
+        raise ValueError(f"yfinance 마지막 거래일 {last_day} ≠ 기대 {expected} (데이터 덜 들어옴)")
     week_idx = -6 if len(close) >= 6 else 0
+    for name, i in [("Daily", -2), ("Weekly", week_idx), ("Monthly", 0)]:
+        cover = float((close.iloc[-1].notna() & close.iloc[i].notna()).mean())
+        if cover < 0.9:
+            raise ValueError(f"yfinance {name} 데이터가 {cover:.0%}만 들어옴 (90% 미만) → 저장 안 함")
     rets = {
         'change': (close.iloc[-1] / close.iloc[-2] - 1) * 100,
         'perf1w': (close.iloc[-1] / close.iloc[week_idx] - 1) * 100,
@@ -485,6 +517,14 @@ def save_daily_snapshot(market_md, now_utc=None, use_yf=True):
     syd = now_utc.astimezone(SYD).date()
     path = os.path.join(DAILY_DIR, f"{syd.isoformat()}.md")
     if os.path.exists(path):
+        old = open(path, encoding="utf-8").read()
+        # 2026-10-21: 백업으로 저장된 날은, 같은 뉴욕 거래일의 Finviz 데이터가 오면 한 번 교체
+        if "(백업)" in old and "출처: Finviz" in market_md:
+            m = re.search(r"뉴욕 거래일: (\d{4}-\d{2}-\d{2})", old)
+            if m and m.group(1) == ny_session_for(now_utc, use_yf).isoformat():
+                print(f"   Daily 스냅샷 {syd}: 백업 → Finviz 데이터로 교체")
+                os.remove(path)
+                return save_daily_snapshot(market_md, now_utc, use_yf)
         print(f"   Daily 스냅샷 {syd}: 이미 확정됨 (그대로 둠)")
         return False
     if not capture_ok(now_utc):
@@ -511,6 +551,7 @@ LAST_RESULTS = {}
 def generate_market_data_md():
     print("1. Finviz 스크리너(+Large, 시총 $10B 이상)에서 Daily/Weekly/Monthly Top 3 수집 중...")
     results = {}
+    fail_reason = None
     try:
         for order in ['change', 'perf1w', 'perf4w']:
             results[order] = get_finviz_top3(order)
@@ -518,6 +559,7 @@ def generate_market_data_md():
         source = "Finviz"
     except Exception as e:
         print(f"   Finviz 수집 실패 ({e}) → 백업 방식(Nasdaq + yfinance)으로 계산합니다.")
+        fail_reason = str(e)[:200]
         try:
             results = compute_top3_fallback()
             source = "Nasdaq + yfinance (백업)"
@@ -533,6 +575,8 @@ def generate_market_data_md():
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     md_content = "# Market Data\n\n"
     md_content += f"> 마지막 업데이트: {now} (데이터 출처: {source})\n\n"
+    if fail_reason:  # 2026-10-21: GitHub 로그를 못 볼 때도 Finviz 실패 이유가 보이게
+        md_content += f"<!-- Finviz 실패 이유: {fail_reason.replace('--', '-')} -->\n\n"
     md_content += f"## Fear & Greed Index\n{get_fear_and_greed()}\n\n"
     md_content += top3_md(results['change'], "Daily Top 3", url_daily)
     md_content += top3_md(results['perf1w'], "Weekly Top 3", url_weekly)

@@ -160,12 +160,22 @@ try:
             probs.append(("❌", f"{f}: HTML 링크 있음 (안 눌림)"))
         if "데이터 수집 실패" in t:
             probs.append(("❌", f"{f}: 데이터 수집 실패 표시"))
+        # 2026-10-21 추가 (BTSGU·BIPJ·BRKRP 사고): Finviz에 없는 증권(우선주·채권·유닛)이 Top 3에 있으면 ❌
+        for line in t.splitlines():
+            if line.startswith("| [") and _re.search(
+                    r"preferred|\bnotes?\b|debentures?|subordinated|\bunits?\b|warrants?\b|tangible equity|when[- ]issued|\d%\s|\bdue \d{4}",
+                    line.split("|")[2] if line.count("|") > 3 else "", _re.I):
+                probs.append(("❌", f"{f}: 보통주 아닌 종목 — {line.split('](')[0][3:]}"))
+        if "(백업)" in t and f in ("Market_Data.md", snap):
+            why = _re.search(r"<!-- Finviz 실패 이유: (.*?) -->", t)
+            probs.append(("⚠️", f"{f}: Finviz 대신 백업(Nasdaq+yfinance)으로 수집됨"
+                          + (f" — 이유: {why.group(1)[:120]}" if why else "")))
     if not probs:
         checks.append("✅ 🔎 데이터 품질 (링크·숫자 상식 검사)")
     for lv, msg in probs:
         checks.append(f"{lv} 🔎 {msg}")
     if any(lv == "❌" and "Market_Data" in msg for lv, msg in probs):
-        dispatch("market_data.yml", "Top 3 데이터 품질 문제 (HTML 링크/수집 실패)")
+        dispatch("market_data.yml", "Top 3 데이터 품질 문제 (HTML 링크/수집 실패/보통주 아님)")
 except Exception as e:
     checks.append(f"⚠️ 🔎 데이터 품질 확인 실패: {e}")
 
