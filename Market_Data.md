@@ -1,8 +1,8 @@
 # Market Data
 
-> 마지막 업데이트: 2026-10-20 22:09:50 UTC (데이터 출처: Nasdaq + yfinance (백업))
+> 마지막 업데이트: 2026-10-20 22:12:30 UTC (데이터 출처: Nasdaq + yfinance (백업))
 
-<!-- Finviz 실패 이유: Finviz 표 없음 (HTTP 200, 308769자 — 차단/로그인 화면 가능성) -->
+<!-- Finviz 실패 이유: Finviz 표 없음 (HTTP 200, 308769자 — 화면 구조 변경/차단 가능성) -->
 
 ## Fear & Greed Index
 27.2 / 100 (Fear)
