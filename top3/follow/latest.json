@@ -374,32 +374,6 @@
       ]
     },
     {
-      "ticker": "BE",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-09-29",
-      "name": "Bloom Energy Corp",
-      "sector": "Industrials",
-      "chg": "+10.80%",
-      "close": 222.65,
-      "high": 302.35,
-      "low": 157.33,
-      "retr": 55.0,
-      "zone": "🔔 50~61.8%",
-      "alert": true,
-      "order": 4,
-      "lv": {
-        "30": 258.85,
-        "50": 229.84,
-        "70": 200.84
-      },
-      "weeks": 3,
-      "since": -23.6,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
       "ticker": "CRDO",
       "kind": "D",
       "src": "T",
@@ -1968,8 +1942,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-10-20",
-      "name": "PT Telekomunikasi Indonesia Tbk",
-      "sector": "Telecommunications",
+      "name": "Telkom Indonesia (Persero) Tbk PT ADR",
+      "sector": "Communication Services",
       "chg": "+11.39%",
       "close": 11.64,
       "high": 11.69,
@@ -1994,8 +1968,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-10-20",
-      "name": "Equifax Inc.",
-      "sector": "Finance",
+      "name": "Equifax Inc",
+      "sector": "Industrials",
       "chg": "+11.33%",
       "close": 176.54,
       "high": 177.8,
@@ -2020,8 +1994,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-10-20",
-      "name": "Hasbro Inc.",
-      "sector": "Consumer Discretionary",
+      "name": "Hasbro Inc",
+      "sector": "Consumer Cyclical",
       "chg": "+11.20%",
       "close": 109.52,
       "high": 109.8,
@@ -2042,5 +2016,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-10-20T22:13:09.367565+00:00"
+  "generated_utc": "2026-10-20T22:14:54.460495+00:00"
 }
