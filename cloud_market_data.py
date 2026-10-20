@@ -112,52 +112,45 @@ def get_finviz_top3(order):
     """
     import lxml.html
     url = f"https://finviz.com/screener.ashx?v=152&f=cap_largeover&o=-{order}&c=1,2,3,42,43,66"
-    # 2026-10-21: ① 3번까지 재시도 ② 표 이름(class)이 아니라 'Ticker·Company' 머리줄로 표를 찾음
-    #   (10-17부터 Finviz 화면 구조가 바뀌어 class="screener_table"이 사라짐 → 계속 백업으로 넘어가던 원인)
+    # 2026-10-21: Finviz 리디자인(10-17~)으로 HTML 표(<table class="screener_table">)가 사라지고
+    #   화면 데이터가 <script type="application/json" data-ssr-props> 안의 JSON으로 들어옴 → JSON을 읽음.
+    #   (이걸 못 읽어서 10-17부터 계속 백업 방식으로 넘어갔고, 백업이 BTSGU·BIPJ·BRKRP 사고를 냄)
+    #   + 3번까지 재시도, 실패하면 받은 화면을 archive/_finviz_debug.html에 저장(원인 확인용)
+    import json as _json
+    key = {'change': 'change', 'perf1w': 'perf1w', 'perf4w': 'perf4w'}[order]
     for attempt in range(3):
         try:
             resp = requests.get(url, headers=FINVIZ_HEADERS, timeout=20)
             resp.raise_for_status()
             doc = lxml.html.fromstring(resp.text)
-            rows = header = None
-            for tb in doc.xpath("//table"):
-                trs = tb.xpath("./tr|./thead/tr|./tbody/tr")
-                if len(trs) < 4:
+            data_rows = None
+            for sc in doc.xpath('//script[@type="application/json"]'):
+                try:
+                    j = _json.loads(sc.text_content())
+                except Exception:
                     continue
-                h = [c.text_content().strip() for c in trs[0].xpath("./th|./td")]
-                if 'Ticker' in h and 'Company' in h and FINVIZ_COLS[order] in h:
-                    rows, header = trs, h
+                rows = (j.get("data") or {}).get("rows") if isinstance(j, dict) else None
+                if rows and isinstance(rows, list) and "text" in rows[0]:
+                    data_rows = rows
                     break
-            if rows is None:
-                try:  # 진단용: 받은 화면을 저장 (원인 확인 후 삭제 가능)
-                    os.makedirs("archive", exist_ok=True)
+            if not data_rows:
+                try:
                     open("archive/_finviz_debug.html", "w", encoding="utf-8").write(resp.text)
                 except Exception:
                     pass
-                raise ValueError(f"Finviz 표 없음 (HTTP {resp.status_code}, {len(resp.text)}자 — 화면 구조 변경/차단 가능성)")
+                raise ValueError(f"Finviz 데이터(JSON) 없음 (HTTP {resp.status_code}, {len(resp.text)}자 — 화면 구조 변경/차단 가능성)")
             break
         except Exception as e:
             print(f"   Finviz 시도 {attempt + 1}/3 실패: {e}")
             if attempt == 2:
                 raise
             _time.sleep([5, 20][attempt])
-    i_t, i_c, i_s = header.index('Ticker'), header.index('Company'), header.index('Sector')
-    i_v = header.index(FINVIZ_COLS[order])
 
     out = []
-    for r in rows[1:]:
-        tds = r.xpath("./td")
-        cells = [c.text_content().strip() for c in tds]
-        if len(cells) <= i_v or not cells[i_t]:
-            continue
-        # 티커 칸에는 로고 글자가 섞여 있어서(예: "TTWST"), 링크 주소의 t=티커 값을 사용
-        ticker = cells[i_t]
-        for href in tds[i_t].xpath(".//a/@href"):
-            if 't=' in href:
-                ticker = href.split('t=')[1].split('&')[0]
-                break
-        val = float(cells[i_v].replace('%', '').replace(',', ''))
-        out.append((ticker, cells[i_c], cells[i_s], val))
+    for r in data_rows:  # Finviz가 이미 정렬해서 줌 (o=-change 등) → 위에서부터 3개
+        t, n = r.get("text", {}), r.get("numbers", {})
+        if t.get("ticker") and n.get(key) is not None:
+            out.append((t["ticker"], t.get("company", ""), t.get("sector", ""), float(n[key])))
         if len(out) == 3:
             break
     if len(out) < 3:
@@ -259,40 +252,42 @@ def last_completed_month(now_ny):
         last = _last_weekday_of_month(y, m)
     return datetime.date(y, m, 1), last
 
+def _finviz_json_rows(html):
+    """2026-10-21 Finviz 리디자인: 화면 데이터(JSON)의 rows. 없으면 []"""
+    import lxml.html, json as _json
+    for sc in lxml.html.fromstring(html).xpath('//script[@type="application/json"]'):
+        try:
+            j = _json.loads(sc.text_content())
+        except Exception:
+            continue
+        rows = (j.get("data") or {}).get("rows") if isinstance(j, dict) else None
+        if rows and isinstance(rows, list) and "text" in rows[0]:
+            return rows
+    return []
+
 def get_finviz_large_cap_universe():
-    """Nasdaq 접속이 막혔을 때: Finviz +Large 스크리너를 20개씩 넘겨가며 전체 목록 수집."""
-    import lxml.html
+    """Finviz +Large 스크리너를 넘겨가며 전체 목록 수집 (2026-10-21: 리디자인 JSON 방식)."""
     info, r = {}, 1
     while r < 3000:
         url = f"https://finviz.com/screener.ashx?v=152&f=cap_largeover&o=ticker&c=1,2,3&r={r}"
         resp = requests.get(url, headers=FINVIZ_HEADERS, timeout=20)
         resp.raise_for_status()
-        doc = lxml.html.fromstring(resp.text)
-        tables = doc.xpath("//table[contains(concat(' ', normalize-space(@class), ' '), ' screener_table ')]")
-        if not tables:
+        rows = _finviz_json_rows(resp.text)
+        if not rows:
             break
-        rows = tables[0].xpath(".//tr")
-        header = [c.text_content().strip() for c in rows[0].xpath("./th|./td")]
-        i_t, i_c, i_s = header.index('Ticker'), header.index('Company'), header.index('Sector')
         new = 0
-        for row in rows[1:]:
-            tds = row.xpath("./td")
-            cells = [c.text_content().strip() for c in tds]
-            if len(cells) <= i_s:
-                continue
-            ticker = cells[i_t]
-            for href in tds[i_t].xpath(".//a/@href"):
-                if 't=' in href:
-                    ticker = href.split('t=')[1].split('&')[0]
-                    break
-            yf_sym = ticker.replace('/', '-').replace('.', '-')
+        for row in rows:
+            t = row.get("text", {})
+            yf_sym = (t.get("ticker") or "").replace('/', '-').replace('.', '-')
             if yf_sym and yf_sym not in info:
-                info[yf_sym] = {'Security': cells[i_c], 'GICS Sector': cells[i_s]}
+                info[yf_sym] = {'Security': t.get("company", ""), 'GICS Sector': t.get("sector", "")}
                 new += 1
-        if new == 0 or len(rows) - 1 < 20:
+        if new == 0:
             break
-        r += 20
+        r += len(rows)
         _time.sleep(1)
+    if len(info) < 300:
+        raise ValueError(f"Finviz 종목 목록이 너무 적음: {len(info)}개")
     return info
 
 def get_universe_for_archive():
