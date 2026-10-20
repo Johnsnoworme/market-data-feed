@@ -714,6 +714,33 @@
       ]
     },
     {
+      "ticker": "FORM",
+      "kind": "M",
+      "src": "T",
+      "date": "2026-09-30",
+      "name": "FormFactor Inc",
+      "sector": "Technology",
+      "chg": "+48.40%",
+      "close": 110.16,
+      "high": 151.18,
+      "low": 47.33,
+      "retr": 39.5,
+      "zone": "🔔 38.2~50%",
+      "alert": true,
+      "order": 3,
+      "lv": {
+        "30": 120.02,
+        "50": 99.25,
+        "70": 78.48
+      },
+      "weeks": 2,
+      "since": -26.2,
+      "kinds": [
+        "D",
+        "M"
+      ]
+    },
+    {
       "ticker": "FROG",
       "kind": "D",
       "src": "T",
@@ -2015,5 +2042,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-10-20T01:53:26.362667+00:00"
+  "generated_utc": "2026-10-20T02:04:38.987996+00:00"
 }
