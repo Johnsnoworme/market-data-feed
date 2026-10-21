@@ -131,3 +131,14 @@
 - 백업의 구멍 2개: ① 우선주·채권·유닛도 종목 목록에 들어감(Finviz엔 없는 증권 → 링크 안 됨) ② yfinance가 일부 종목만 받아와도 그대로 Top 3를 뽑음(10-20 00:29 실행).
 - 고침: Finviz JSON 읽기 + 3번 재시도 · 백업은 보통주만 + 데이터 90% 미만/날짜 불일치면 저장 안 함 · 백업 스냅샷은 Finviz 성공 시 교체 · 건강검진이 "백업으로 수집됨(⚠️)", "보통주 아닌 종목(❌, 자동 재실행)" 감시 · 풀백 추적에서 보통주 아닌 종목 제외.
 - 다시 Finviz가 바뀌면: Market_Data.md 안 `<!-- Finviz 실패 이유 -->` 와 archive/_finviz_debug.html 확인.
+
+## 🛡️ 데이터 안전 원칙 (2026-10-21 — 전 스크립트 점검 후)
+**틀린 숫자를 저장하느니 저장하지 않는다.** 저장 안 하면 → 다음 예약 실행이 다시 시도 → 그래도 없으면 🩺 건강검진이 ❌ + 자동 재실행(하루 2번) → 그래도 안 되면 "사람/Claude 확인 필요".
+| 막는 문 | 무엇을 막나 | 어디 |
+|---|---|---|
+| ① 날짜 문 | Yahoo에 그날 종가가 아직 없음 | ny_session.require_fresh (모든 Yahoo 스크립트) |
+| ② 채움 문 | QQQ만 최신이고 나머지 종목이 반쪽 (90% 미만) | data_guard.require_coverage (Market Data 백업·김종봉·한 방·소형·풀백) |
+| ③ 종류 문 | 우선주·채권·유닛·워런트·When Issued | data_guard.is_common (모든 종목 목록 + 풀백 추적 + 건강검진) |
+| ④ 상식 문 | Finviz에서 엉뚱한 칸을 읽음 (티커 형식·순서·크기 이상) | cloud_market_data.get_finviz_top3 |
+| ⑤ 알림 문 | 백업으로 돌았음 ⚠️ / 보통주 아닌 종목 ❌ / 결과물 없음 ❌ | health_check.py (3시간마다) |
+- 실측(2026-10-21 guard_probe): 평소 채움 99.9~100% → 90% 기준은 정상일에 오작동 안 함. 다시 재려면 Actions → "Guard Probe (manual)" 실행 → health/guard_probe.md
