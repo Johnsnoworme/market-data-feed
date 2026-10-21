@@ -42,12 +42,7 @@ def _clean_name(name):
 
 # 2026-10-21 사고: 백업 방식이 BTSGU(유닛)·BIPJ(채권)·BRKRP(우선주)를 Top 3에 넣음.
 #   Finviz는 보통주·ADR·ETF만 보여주므로, 백업도 Finviz에 없는 증권은 뺀다 (= "Finviz 화면 그대로" 규칙과 같음).
-_NON_COMMON = re.compile(
-    r"preferred|\bnotes?\b|debentures?|subordinated|\bunits?\b|warrants?\b|\brights\b|"
-    r"tangible equity|when[- ]issued|%|\bdue \d{4}", re.I)
-
-def _is_common(name):
-    return not _NON_COMMON.search(name or "")
+from data_guard import is_common as _is_common  # 공통 규칙 (data_guard.py)
 
 def get_large_cap_universe():
     """
@@ -155,6 +150,15 @@ def get_finviz_top3(order):
             break
     if len(out) < 3:
         raise ValueError(f"Finviz 결과가 3개 미만입니다: {out}")
+    # 2026-10-21 상식 검사: 읽은 값이 이상하면(화면 구조가 또 바뀌어 엉뚱한 칸을 읽는 경우 등) 저장하지 않고 실패 처리
+    tick_ok = all(re.fullmatch(r"[A-Z][A-Z0-9.\-]{0,6}", t) for t, _, _, _ in out)
+    if not tick_ok or len({t for t, _, _, _ in out}) < 3:
+        raise ValueError(f"Finviz 티커 형식 이상: {[t for t, _, _, _ in out]}")
+    vals = [v for _, _, _, v in out]
+    if vals != sorted(vals, reverse=True) or any(abs(v) > 500 for v in vals):
+        raise ValueError(f"Finviz 숫자 순서/크기 이상: {vals}")
+    if any(not c for _, c, _, _ in out):
+        raise ValueError("Finviz 회사 이름 비어 있음")
     return out
 
 def compute_top3_fallback():

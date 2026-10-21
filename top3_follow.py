@@ -34,8 +34,7 @@ def section(md, title):
 
 # 2026-10-21: 보통주가 아닌 증권(우선주·채권·유닛·워런트·When Issued)은 추적 안 함
 #   (Finviz 백업 방식이 BTSGU·BIPJ·BRKRP·SMCIP·MCHPP 등을 Top 3에 넣었던 기록이 git에 남아 있음)
-NON_COMMON = re.compile(r"preferred|\bnotes?\b|debentures?|subordinated|\bunits?\b|warrants?\b|\brights\b|"
-                        r"tangible equity|when[- ]issued|%|\bdue \d{4}", re.I)
+from data_guard import NON_COMMON  # 2026-10-21 공통 규칙
 
 
 def daily_signals():
@@ -121,6 +120,8 @@ def main():
     last = d["Close"]["QQQ"].dropna().index[-1]
     from ny_session import require_fresh
     require_fresh(last, "Top 3 풀백 추적")  # 그날 종가가 없으면 저장하지 않고 종료 (2026-10-05)
+    from data_guard import require_coverage  # 2026-10-21: 추적 종목이 90% 이상 들어왔는지 (빠지면 목록이 조용히 줄어듦)
+    require_coverage(d["Close"].loc[:last], "Top 3 풀백 추적")
     rows = []
     for (t, kind, sd), info in sig.items():
         y = t.replace(".", "-")

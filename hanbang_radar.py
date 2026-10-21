@@ -262,6 +262,8 @@ def main():
     C, H, L, V = d["Close"], d["High"], d["Low"], d["Volume"]
     q = C["QQQ"].dropna()
     require_fresh(q.index[-1], "한 방 레이더")  # 그날 종가가 없으면 저장하지 않고 종료 (2026-10-05)
+    from data_guard import require_coverage  # 2026-10-21: 나머지 종목도 90% 이상 들어왔는지
+    require_coverage(C.loc[:q.index[-1]], "한 방 레이더")
     ny = q.index[-1].strftime("%Y-%m-%d")
     cache = {}
 

@@ -563,6 +563,8 @@ def main():
         os.environ["DATA_FORCE"] = "1"
     from ny_session import require_fresh
     require_fresh(last_day, "김종봉 주간 스캐너")
+    from data_guard import require_coverage  # 2026-10-21: QQQ만 최신이고 나머지가 반쪽이면 저장 안 함
+    require_coverage(daily["Close"].loc[:last_day], "김종봉 주간 스캐너")
 
     fname = f"{OUT_DIR}/{week_end.strftime('%Y-%m-%d')}.md"
     if os.path.exists(fname) and os.environ.get("JB_OVERWRITE") != "1":

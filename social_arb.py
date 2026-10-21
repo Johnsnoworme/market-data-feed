@@ -61,7 +61,7 @@ def universe():
         except ValueError:
             continue
         s = (x.get("symbol") or "").strip()
-        if s and "^" not in s and "/" not in s and cap >= MIN_CAP and not any(b in (" " + str(x.get("name") or "").lower() + " ") for b in (" when issued", "when-issued", " rights", " warrant", " units")):
+        if s and "^" not in s and "/" not in s and cap >= MIN_CAP and __import__("data_guard").is_common(str(x.get("name") or "")):
             out[s.replace(".", "-")] = {"cap": cap, "name": x.get("name") or s, "sector": x.get("sector") or ""}
     return out
 

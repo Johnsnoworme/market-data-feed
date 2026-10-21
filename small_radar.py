@@ -36,7 +36,7 @@ def universe():
             continue
         if not s or "^" in s or "/" in s or not (MIN_CAP <= cap < MAX_CAP):
             continue
-        if any(b in (" " + str(x.get("name") or "").lower() + " ") for b in (" when issued", "when-issued", " rights", " warrant", " units")):  # 2026-10-07 임시 거래 제외
+        if not __import__("data_guard").is_common(str(x.get("name") or "")):  # 2026-10-07 임시 거래 제외
             continue
         if (x.get("sector") or "") not in PRE_SECTORS:
             continue
@@ -77,6 +77,8 @@ def main():
     q = C["QQQ"].dropna()
     from ny_session import require_fresh
     require_fresh(q.index[-1], "소형 병목 레이더")  # 2026-10-05
+    from data_guard import require_coverage  # 2026-10-21
+    require_coverage(C.loc[:q.index[-1]], "소형 병목 레이더")
     ny = q.index[-1].strftime("%Y-%m-%d")
     q63 = (q.iloc[-1] / q.iloc[-64] - 1) * 100
     pre = []
