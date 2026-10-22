@@ -7,7 +7,7 @@
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [PANW](https://finviz.com/quote.ashx?p=w&t=PANW) | Daily | 09-28 (3주 전) | 🔔 61.8~70% (마지막 방어선) | 69% | 347.25 | 395.19 ~ 345.68 (370.43) | -11.4% |
 | [CIEN](https://finviz.com/quote.ashx?p=w&t=CIEN) | Daily | 10-06 (2주 전) | 🔔 61.8~70% (마지막 방어선) | 65% | 361.34 | 411.79 ~ 354.54 (383.17) | -18.6% |
-| [TWST](https://finviz.com/quote.ashx?p=w&t=TWST) | Daily·Weekly | 09-24 (3주 전) | 🔔 50~61.8% | 51% | 149.13 | 177.97 ~ 122.33 (150.15) | -19.0% |
+| [TWST](https://finviz.com/quote.ashx?p=w&t=TWST) | Daily·Weekly | 09-24 (4주 전) | 🔔 50~61.8% | 51% | 149.13 | 177.97 ~ 122.33 (150.15) | -19.0% |
 | [CRDO](https://finviz.com/quote.ashx?p=w&t=CRDO) | Daily | 09-25 (3주 전) | 🔔 50~61.8% | 60% | 182.28 | 206.85 ~ 173.87 (190.36) | -13.6% |
 | [IBRX](https://finviz.com/quote.ashx?p=w&t=IBRX) | Daily·Weekly | 10-02 (2주 전) | 🔔 50~61.8% | 52% | 8.64 | 9.56 ~ 7.9 (8.73) | -16.0% |
 | [BSP](https://finviz.com/quote.ashx?p=w&t=BSP) | Daily | 10-14 (1주 전) | 🔔 50~61.8% | 55% | 44.13 | 51.08 ~ 39.85 (45.47) | -17.5% |
@@ -19,8 +19,8 @@
 > [!note]- 나머지 풀백 10개
 > | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 > | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
-> | [SNPS](https://finviz.com/quote.ashx?p=w&t=SNPS) | Daily | 10-01 (2주 전) | 🔔 38.2~50% | 41% | 451.19 | 467.51 ~ 407.53 (437.52) | -8.0% |
-> | [FLUT](https://finviz.com/quote.ashx?p=w&t=FLUT) | Daily | 10-08 (1주 전) | 🔔 38.2~50% | 48% | 78.26 | 79.91 ~ 76.25 (78.08) | -4.1% |
+> | [SNPS](https://finviz.com/quote.ashx?p=w&t=SNPS) | Daily | 10-01 (3주 전) | 🔔 38.2~50% | 41% | 451.19 | 467.51 ~ 407.53 (437.52) | -8.0% |
+> | [FLUT](https://finviz.com/quote.ashx?p=w&t=FLUT) | Daily | 10-08 (2주 전) | 🔔 38.2~50% | 48% | 78.26 | 79.91 ~ 76.25 (78.08) | -4.1% |
 > | [HUBB](https://finviz.com/quote.ashx?p=w&t=HUBB) | Daily | 10-12 (1주 전) | 🔔 38.2~50% | 44% | 460.76 | 467.08 ~ 449.16 (458.12) | -2.8% |
 > | [NTES](https://finviz.com/quote.ashx?p=w&t=NTES) | Daily | 09-28 (3주 전) | 🔔 30~38.2% | 34% | 122.98 | 123.47 ~ 118.28 (120.88) | +1.6% |
 > | [TXG](https://finviz.com/quote.ashx?p=w&t=TXG) | Daily·Monthly | 09-30 (3주 전) | 🔔 30~38.2% | 30% | 75.59 | 75.81 ~ 39.8 (57.8) | -16.3% |
