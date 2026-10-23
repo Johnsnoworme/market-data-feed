@@ -1,3 +1,5 @@
-2026-10-23 08:40 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: JFtx8IXlz5c 2일 전 / quJTDt4JGpU 3일 전 / PrEHp2DoRVU 8일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: uo0dZYwmJB4 1일 전 / TO_Qw3dM2gI 6일 전 / wjhMlLJEHVs 이번 고금리는 누군가에게 비용이지만, 누군가에겐 소득이다｜성상현의 매크로비욘드 4-풀버전
+2026-10-23 19:20 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: JFtx8IXlz5c 3일 전 / quJTDt4JGpU 4일 전 / PrEHp2DoRVU 9일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: kbAXoZCjRK0 8시간 전 / uo0dZYwmJB4 2일 전 / TO_Qw3dM2gI 6일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
+   ✅ 요약: 성상현 (매크로비욘드) · kbAXoZCjRK0 · 이번 증시 폭락, 금융위기 전조일까? 진짜 위험신호는 '이것'부터 봐야합니다｜성상현의 매크로비욘드 7부
