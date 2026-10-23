@@ -2,7 +2,7 @@
 
 > 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 23개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 66개 · 풀백 22개
+### 🏆 내 Top 3 — 추적 67개 · 풀백 22개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [NTES](https://finviz.com/quote.ashx?p=w&t=NTES) | Daily | 09-28 (3주 전) | 🔔 61.8~70% (마지막 방어선) | 67% | 118.67 | 123.47 ~ 118.28 (120.88) | -2.0% |
@@ -32,8 +32,8 @@
 > | [PBF](https://finviz.com/quote.ashx?p=w&t=PBF) | Daily | 10-13 (1주 전) | 🔔 30~38.2% | 38% | 79.25 | 82.04 ~ 68.15 (75.1) | -13.1% |
 > | [SMCI](https://finviz.com/quote.ashx?p=w&t=SMCI) | Daily | 10-21 (0주 전) | 🔔 30~38.2% | 32% | 33.72 | 33.92 ~ 29.21 (31.57) | -5.2% |
 
-> [!note]- 대기 36개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> MRNA 26%, CCI 25%, ERIC 22%, ESLT 20%, XP 20%, SMMT 19%, FROG 16%, CRCL 16%, RCL 14%, H 12%, OVV 12%, CCL 11%, CRL 9%, EQNR 6%, MTB 5% 📏, UTHR 5%, WIT 5%, GKOS 5%, SPOT 4%, TEAM 4%, AR 3%, PTC 2%, FICO 2%, EFX 2%, HALO 2%, CSGP 2%, CDW 2%, TRU 2%, TLK 1%, R 1%, ALLE 1%, FCNCA 1%, CMS 1%, ACN 1%, MANH 0%, HAS 0%
+> [!note]- 대기 37개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
+> MRNA 26%, CCI 25%, ERIC 22%, ESLT 20%, XP 20%, SMMT 19%, FROG 16%, CRCL 16%, RCL 14%, H 12%, OVV 12%, CCL 11%, FLUT 10%, CRL 9%, EQNR 6%, MTB 5% 📏, UTHR 5%, WIT 5%, GKOS 5%, SPOT 4%, TEAM 4%, AR 3%, PTC 2%, FICO 2%, EFX 2%, HALO 2%, CSGP 2%, CDW 2%, TRU 2%, TLK 1%, R 1%, ALLE 1%, FCNCA 1%, CMS 1%, ACN 1%, MANH 0%, HAS 0%
 
 ⚠️ 70% 이탈로 종료: AKAM, NBIS, VIAV, CRDO, INIO, FPS, CIEN, HUBB
 
