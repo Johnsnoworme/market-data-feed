@@ -24,7 +24,7 @@
 | 2 | [MSTR](https://finviz.com/quote.ashx?t=MSTR&p=w) | 🖥️ 소프트웨어 🐘 대형 | ⭐워치 1군 | 🔔 50~62% (55%) | +56%p | -51% | 2 | ❌ 숫자 약함 | 5 |
 | 3 | [TEM](https://finviz.com/quote.ashx?t=TEM&p=w) | 🧬 AI 바이오·헬스 🐕 중형 | ⭐워치 2군 · 🏆Top3 W (9월3주) | 🔔 50~62% (52%) | +46%p | -30% | 4 | ❌ 숫자 약함 | 5 |
 | 4 | [BSP](https://finviz.com/quote.ashx?t=BSP&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (10월2주) | 🔔 38~50% (49%) | +31%p | -18% | 3 | ✅ 숫자 좋음 | 4 |
-| 5 | [TSLA](https://finviz.com/quote.ashx?t=TSLA&p=w) | 🤖 피지컬 AI·EV 🐘 대형 | ⭐워치 1군 · 🦅드러켄밀러 26Q2 신규(콜) | 🔔 62~70% 방어선 (68%) | +17%p | -24% | 2 | ✅ 숫자 좋음 | 6 |
+| 5 | [TSLA](https://finviz.com/quote.ashx?t=TSLA&p=w) | 🤖 피지컬 AI·EV 🐘 대형 | ⭐워치 1군 · 🦅드러켄밀러 26Q2 신규(콜) | 🔔 62~70% 방어선 (68%) | +17%p | -24% | 2 | ❌ 숫자 약함 | 6 |
 | 6 | [BE](https://finviz.com/quote.ashx?t=BE&p=w) | ⚡ 전력·에너지 병목 🐘 대형 | ⭐워치 2군 · 🏆Top3 D (9월5주) | 🔔 50~62% (58%) | +15%p | -37% | 2 | ✅ 숫자 좋음 | 4 |
 | 7 | [IBRX](https://finviz.com/quote.ashx?t=IBRX&p=w) | 🧬 AI 바이오·헬스 🐁 소형 | 🏆Top3 D·W (10월1주) | 🔔 50~62% (60%) | +14%p | -28% | 4 | 🟡 적자·고성장 | 3 |
 | 8 | [SNPS](https://finviz.com/quote.ashx?t=SNPS&p=w) | 🖥️ 소프트웨어 🐘 대형 | 🏆Top3 D (10월1주) | 🔔 50~62% (60%) | +10%p | -21% | 0 | ✅ 숫자 좋음 | 3 |
@@ -83,7 +83,7 @@
 | [BSX](https://finviz.com/quote.ashx?t=BSX&p=w) | -56% | 6/10 | +15.2%p | ✅ | -25% | 흑자 · 매출 +8% · 순이익(분기) +14% |
 | [CSGP](https://finviz.com/quote.ashx?t=CSGP&p=w) | -55% | 6/10 | +24.7%p | ✅ | -37% | 흑자 · 매출 +18% · 순이익(분기) +817% |
 | [ALNY](https://finviz.com/quote.ashx?t=ALNY&p=w) | -53% | 6/10 | +7.0%p | ✅ | -24% | 흑자 · 매출 +67% |
-| [ROL](https://finviz.com/quote.ashx?t=ROL&p=w) | -46% | 6/10 | +15.2%p | ✅ | -34% | 흑자 · 매출 +8% · 순이익(분기) +2% |
+| [ROL](https://finviz.com/quote.ashx?t=ROL&p=w) | -46% | 6/10 | +15.2%p | ✅ | -34% | 흑자 · 매출 +6% · 순이익(분기) -3% |
 | [FIS](https://finviz.com/quote.ashx?t=FIS&p=w) | -42% | 6/10 | +17.3%p | ✅ | -36% | 흑자 · 매출 +29% |
 | [HDB](https://finviz.com/quote.ashx?t=HDB&p=w) | -40% | 6/10 | +7.7%p | ✅ | -11% | 흑자 · 매출 +81% · 순이익(분기) +21% |
 | [HONA](https://finviz.com/quote.ashx?t=HONA&p=w) | -40% | 6/10 | +11.6%p | ✅ | -49% | 흑자 · 매출 +5% · 순이익(분기) -71% |
