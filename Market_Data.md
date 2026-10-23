@@ -1,33 +1,33 @@
 # Market Data
 
-> 마지막 업데이트: 2026-10-22 06:33:10 UTC (데이터 출처: Finviz)
+> 마지막 업데이트: 2026-10-23 00:02:18 UTC (데이터 출처: Finviz)
 
 ## Fear & Greed Index
-31.3 / 100 (Fear)
+19.8 / 100 (Extreme Fear)
 
 ## Daily Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [SMCI](https://finviz.com/quote.ashx?t=SMCI) | Super Micro Computer Inc | Technology | +9.55% |
-| [CRL](https://finviz.com/quote.ashx?t=CRL) | Charles River Laboratories International Inc | Healthcare | +9.33% |
-| [QNT](https://finviz.com/quote.ashx?t=QNT) | Quantinuum Inc | Technology | +8.32% |
+| [SPOT](https://finviz.com/quote.ashx?t=SPOT) | Spotify Technology SA | Communication Services | +11.10% |
+| [ALLE](https://finviz.com/quote.ashx?t=ALLE) | Allegion plc | Industrials | +11.02% |
+| [R](https://finviz.com/quote.ashx?t=R) | Ryder System Inc | Industrials | +10.49% |
 
 👉 [Finviz Daily Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=111&f=cap_largeover&o=-change)
 
 ## Weekly Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [WIT](https://finviz.com/quote.ashx?t=WIT) | Wipro Ltd ADR | Technology | +19.44% |
-| [HAS](https://finviz.com/quote.ashx?t=HAS) | Hasbro Inc | Consumer Cyclical | +19.42% |
-| [TRU](https://finviz.com/quote.ashx?t=TRU) | TransUnion | Financial | +17.91% |
+| [HAS](https://finviz.com/quote.ashx?t=HAS) | Hasbro Inc | Consumer Cyclical | +19.12% |
+| [WIT](https://finviz.com/quote.ashx?t=WIT) | Wipro Ltd ADR | Technology | +17.11% |
+| [EFX](https://finviz.com/quote.ashx?t=EFX) | Equifax Inc | Industrials | +16.05% |
 
 👉 [Finviz Weekly Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf1w)
 
 ## Monthly Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [XP](https://finviz.com/quote.ashx?t=XP) | XP Inc | Financial | +43.42% |
-| [PTC](https://finviz.com/quote.ashx?t=PTC) | PTC Inc | Technology | +38.84% |
-| [MRNA](https://finviz.com/quote.ashx?t=MRNA) | Moderna Inc | Healthcare | +34.65% |
+| [ACN](https://finviz.com/quote.ashx?t=ACN) | Accenture plc | Technology | +40.99% |
+| [XP](https://finviz.com/quote.ashx?t=XP) | XP Inc | Financial | +40.57% |
+| [PTC](https://finviz.com/quote.ashx?t=PTC) | PTC Inc | Technology | +38.18% |
 
 👉 [Finviz Monthly Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf4w)
