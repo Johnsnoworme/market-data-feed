@@ -1782,32 +1782,6 @@
       ]
     },
     {
-      "ticker": "FICO",
-      "kind": "J",
-      "src": "J",
-      "date": "2026-10-16",
-      "name": "Fair Isaac",
-      "sector": "",
-      "chg": "",
-      "close": 815.31,
-      "high": 828.95,
-      "low": 586.05,
-      "retr": 5.6,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 756.08,
-        "50": 707.5,
-        "70": 658.92
-      },
-      "weeks": 1,
-      "since": 5.7,
-      "kinds": [
-        "J"
-      ]
-    },
-    {
       "ticker": "ESLT",
       "kind": "J",
       "src": "J",
@@ -1855,32 +1829,6 @@
       },
       "weeks": 1,
       "since": 0.9,
-      "kinds": [
-        "J"
-      ]
-    },
-    {
-      "ticker": "TRU",
-      "kind": "J",
-      "src": "J",
-      "date": "2026-10-16",
-      "name": "TransUnion",
-      "sector": "",
-      "chg": "",
-      "close": 81.48,
-      "high": 83.86,
-      "low": 60.96,
-      "retr": 10.4,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 76.99,
-        "50": 72.41,
-        "70": 67.83
-      },
-      "weeks": 1,
-      "since": 10.0,
       "kinds": [
         "J"
       ]
@@ -2248,7 +2196,137 @@
       "kinds": [
         "D"
       ]
+    },
+    {
+      "ticker": "FICO",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-23",
+      "name": "Fair Isaac",
+      "sector": "",
+      "chg": "",
+      "close": 815.31,
+      "high": 828.95,
+      "low": 586.05,
+      "retr": 5.6,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 756.08,
+        "50": 707.5,
+        "70": 658.92
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "TRU",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-23",
+      "name": "TransUnion",
+      "sector": "",
+      "chg": "",
+      "close": 81.48,
+      "high": 83.86,
+      "low": 60.96,
+      "retr": 10.4,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 76.99,
+        "50": 72.41,
+        "70": 67.83
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "HAS",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-23",
+      "name": "Hasbro",
+      "sector": "",
+      "chg": "",
+      "close": 117.44,
+      "high": 117.77,
+      "low": 74.63,
+      "retr": 0.8,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 104.83,
+        "50": 96.2,
+        "70": 87.57
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "EFX",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-23",
+      "name": "Equifax",
+      "sector": "",
+      "chg": "",
+      "close": 182.36,
+      "high": 188.29,
+      "low": 137.01,
+      "retr": 11.6,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 172.91,
+        "50": 162.65,
+        "70": 152.39
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "WCN",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-23",
+      "name": "Waste Connections Inc.",
+      "sector": "",
+      "chg": "",
+      "close": 186.6,
+      "high": 187.27,
+      "low": 146.58,
+      "retr": 1.6,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 175.06,
+        "50": 166.92,
+        "70": 158.79
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
     }
   ],
-  "generated_utc": "2026-10-24T07:34:41.194396+00:00"
+  "generated_utc": "2026-10-24T08:49:49.076579+00:00"
 }
