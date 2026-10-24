@@ -1289,8 +1289,8 @@
   "FICO": {
     "name": "Fair Isaac",
     "first_seen": "2026-10-16",
-    "last_seen": "2026-10-16",
-    "expires": "2026-12-11",
+    "last_seen": "2026-10-23",
+    "expires": "2026-12-18",
     "kind": "🎯",
     "status": "active",
     "last_zone": ""
@@ -1316,8 +1316,35 @@
   "TRU": {
     "name": "TransUnion",
     "first_seen": "2026-10-16",
-    "last_seen": "2026-10-16",
-    "expires": "2026-12-11",
+    "last_seen": "2026-10-23",
+    "expires": "2026-12-18",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "HAS": {
+    "name": "Hasbro",
+    "first_seen": "2026-10-23",
+    "last_seen": "2026-10-23",
+    "expires": "2026-12-18",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "EFX": {
+    "name": "Equifax",
+    "first_seen": "2026-10-23",
+    "last_seen": "2026-10-23",
+    "expires": "2026-12-18",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "WCN": {
+    "name": "Waste Connections Inc.",
+    "first_seen": "2026-10-23",
+    "last_seen": "2026-10-23",
+    "expires": "2026-12-18",
     "kind": "🎯",
     "status": "active",
     "last_zone": ""

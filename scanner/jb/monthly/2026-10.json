@@ -82,10 +82,11 @@
       "sector": "Technology",
       "first": "10/16",
       "weeks": [
-        "10/16"
+        "10/16",
+        "10/23"
       ],
-      "last": "10/16",
-      "score": 21.0,
+      "last": "10/23",
+      "score": 28.4,
       "up": 0.0,
       "near": true
     },
@@ -118,10 +119,11 @@
       "sector": "Financials",
       "first": "10/16",
       "weeks": [
-        "10/16"
+        "10/16",
+        "10/23"
       ],
-      "last": "10/16",
-      "score": 18.7,
+      "last": "10/23",
+      "score": 30.7,
       "up": 0.0,
       "near": true
     },
@@ -136,8 +138,44 @@
       "score": 17.1,
       "up": 0.0,
       "near": true
+    },
+    "HAS": {
+      "name": "Hasbro",
+      "sector": "Consumer Discretionary",
+      "first": "10/23",
+      "weeks": [
+        "10/23"
+      ],
+      "last": "10/23",
+      "score": 32.1,
+      "up": 0.0,
+      "near": true
+    },
+    "EFX": {
+      "name": "Equifax",
+      "sector": "Industrials",
+      "first": "10/23",
+      "weeks": [
+        "10/23"
+      ],
+      "last": "10/23",
+      "score": 31.3,
+      "up": 0.0,
+      "near": true
+    },
+    "WCN": {
+      "name": "Waste Connections Inc.",
+      "sector": "Utilities",
+      "first": "10/23",
+      "weeks": [
+        "10/23"
+      ],
+      "last": "10/23",
+      "score": 28.3,
+      "up": 0.0,
+      "near": true
     }
   },
   "version": 3,
-  "last_week": "2026-10-16"
+  "last_week": "2026-10-23"
 }

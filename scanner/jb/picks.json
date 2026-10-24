@@ -55,7 +55,7 @@
     "sector": "Energy"
   },
   "FICO": {
-    "date": "2026-10-16",
+    "date": "2026-10-23",
     "name": "Fair Isaac",
     "sector": "Technology"
   },
@@ -70,7 +70,7 @@
     "sector": "Technology"
   },
   "TRU": {
-    "date": "2026-10-16",
+    "date": "2026-10-23",
     "name": "TransUnion",
     "sector": "Financials"
   },
@@ -78,5 +78,20 @@
     "date": "2026-10-16",
     "name": "Cognizant",
     "sector": "Technology"
+  },
+  "HAS": {
+    "date": "2026-10-23",
+    "name": "Hasbro",
+    "sector": "Consumer Discretionary"
+  },
+  "EFX": {
+    "date": "2026-10-23",
+    "name": "Equifax",
+    "sector": "Industrials"
+  },
+  "WCN": {
+    "date": "2026-10-23",
+    "name": "Waste Connections Inc.",
+    "sector": "Utilities"
   }
 }
