@@ -40,6 +40,6 @@
 | [TXG](https://finviz.com/quote.ashx?p=w&t=TXG) | 주간 | 10-09 (2주 전) | 🔔 30~38.2% | 38% | 71.55 | 77.83 ~ 44.51 (61.17) | -11.3% |
 
 > [!note]- 대기 15개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> INFY 30%, ESLT 27%, ILMN 21%, VLO 18%, MPC 14%, DINO 11%, TRU 10%, CTSH 9%, FICO 6%, MANH 4%, VEEV 2%, AVTR 2%, WDAY 1%, DOCU 0%, ZS 0%
+> INFY 30%, ESLT 27%, ILMN 21%, VLO 18%, MPC 14%, DINO 11%, TRU 10%, CTSH 9%, FICO 6%, MANH 4%, VEEV 2%, AVTR 2%, WDAY 2%, DOCU 0%, ZS 0%
 
 > 알림 = '지켜볼 자리'. 진입은 7개 룰을 차트로 직접 확인 · 옵션: 9~12개월 ATM, +100% 익절 / 6개월 안 정리, 종가 70% 이탈 = 정리 ([[2026-09-28 레이더 백테스트 보고서]])
