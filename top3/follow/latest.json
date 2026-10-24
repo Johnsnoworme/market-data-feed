@@ -1399,10 +1399,10 @@
       "name": "Hubbell Inc",
       "sector": "Industrials",
       "chg": "+9.42%",
-      "close": 445.8,
+      "close": 448.1,
       "high": 480.52,
       "low": 435.71,
-      "retr": 77.5,
+      "retr": 72.4,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -1412,7 +1412,7 @@
         "70": 449.16
       },
       "weeks": 1,
-      "since": -6.0,
+      "since": -5.5,
       "kinds": [
         "D"
       ]
@@ -2250,5 +2250,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-10-24T01:57:15.440521+00:00"
+  "generated_utc": "2026-10-24T06:25:46.730001+00:00"
 }
