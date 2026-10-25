@@ -1,3 +1,5 @@
-2026-10-24 23:46 UTC · Gemini 키 있음
+2026-10-25 08:33 UTC · Gemini 키 있음
 소수몽키: 목록 10개 읽음 · 위 3개: JFtx8IXlz5c 4일 전 / quJTDt4JGpU 5일 전 / PrEHp2DoRVU 10일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: iM9w3zdQMGk 17시간 전 / kbAXoZCjRK0 1일 전 / uo0dZYwmJB4 3일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: K9spR7r9tv4 5시간 전 / iM9w3zdQMGk 1일 전 / kbAXoZCjRK0 1일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
+   ✅ 요약: 성상현 (매크로비욘드) · K9spR7r9tv4 · "반도체만 보면 전부 놓칩니다" AI 인프라의 핵심은 일시적 병목이 아닌 '이것'｜성상현의 매크로비욘드 6-3부
