@@ -1028,6 +1028,32 @@
       ]
     },
     {
+      "ticker": "TLN",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-06",
+      "name": "Talen Energy Corp",
+      "sector": "Utilities",
+      "chg": "+12.43%",
+      "close": 327.91,
+      "high": 390.54,
+      "low": 279.77,
+      "retr": 56.5,
+      "zone": "🔔 50~61.8%",
+      "alert": true,
+      "order": 4,
+      "lv": {
+        "30": 357.31,
+        "50": 335.15,
+        "70": 313.0
+      },
+      "weeks": 2,
+      "since": -12.1,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "BSP",
       "kind": "D",
       "src": "T",
@@ -2302,5 +2328,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-10-24T23:45:45.199822+00:00"
+  "generated_utc": "2026-10-25T00:20:34.253435+00:00"
 }
