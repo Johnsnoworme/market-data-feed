@@ -1,3 +1,5 @@
-2026-10-26 09:08 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: JFtx8IXlz5c 5일 전 / quJTDt4JGpU 6일 전 / PrEHp2DoRVU 11일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: K9spR7r9tv4 1일 전 / iM9w3zdQMGk 2일 전 / kbAXoZCjRK0 2일 전
+2026-10-26 20:36 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: P4i9A1Woky8 9시간 전 / JFtx8IXlz5c 6일 전 / quJTDt4JGpU 7일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
+   ✅ 요약: 소수몽키 · P4i9A1Woky8 · AI 자금줄 갑자기 뚝 끊겼다? 증시에 등장한 이상 신호, 경고일까
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: K9spR7r9tv4 1일 전 / iM9w3zdQMGk 2일 전 / kbAXoZCjRK0 3일 전
