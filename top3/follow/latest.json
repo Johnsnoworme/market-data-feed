@@ -2,87 +2,6 @@
   "ny_date": "2026-10-26",
   "rows": [
     {
-      "ticker": "MRNA",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-10-09",
-      "name": "Moderna Inc",
-      "sector": "Healthcare",
-      "chg": "+14.21%",
-      "close": 198.85,
-      "high": 254.48,
-      "low": 52.66,
-      "retr": 27.6,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 193.93,
-        "50": 153.57,
-        "70": 113.21
-      },
-      "weeks": 2,
-      "since": -11.6,
-      "kinds": [
-        "D",
-        "M",
-        "W"
-      ]
-    },
-    {
-      "ticker": "TEAM",
-      "kind": "M",
-      "src": "T",
-      "date": "2026-08-31",
-      "name": "Atlassian Corp",
-      "sector": "Technology",
-      "chg": "+92.22%",
-      "close": 223.41,
-      "high": 229.96,
-      "low": 56.01,
-      "retr": 3.8,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 177.78,
-        "50": 142.99,
-        "70": 108.2
-      },
-      "weeks": 8,
-      "since": 15.1,
-      "kinds": [
-        "M"
-      ]
-    },
-    {
-      "ticker": "CRCL",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-10-15",
-      "name": "Circle Internet Group Inc",
-      "sector": "Financial",
-      "chg": "+9.33%",
-      "close": 79.84,
-      "high": 92.17,
-      "low": 57.84,
-      "retr": 35.9,
-      "zone": "🔔 30~38.2%",
-      "alert": true,
-      "order": 2,
-      "lv": {
-        "30": 81.87,
-        "50": 75.0,
-        "70": 68.14
-      },
-      "weeks": 1,
-      "since": -8.2,
-      "kinds": [
-        "D",
-        "M"
-      ]
-    },
-    {
       "ticker": "PS",
       "kind": "D",
       "src": "T",
@@ -347,6 +266,33 @@
       ]
     },
     {
+      "ticker": "MRNA",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-09",
+      "name": "Moderna Inc",
+      "sector": "Healthcare",
+      "chg": "+14.21%",
+      "close": 198.85,
+      "high": 254.48,
+      "low": 52.66,
+      "retr": 27.6,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 193.93,
+        "50": 153.57,
+        "70": 113.21
+      },
+      "weeks": 2,
+      "since": -11.6,
+      "kinds": [
+        "D",
+        "W"
+      ]
+    },
+    {
       "ticker": "VIAV",
       "kind": "W",
       "src": "T",
@@ -393,7 +339,7 @@
         "50": 229.84,
         "70": 200.84
       },
-      "weeks": 3,
+      "weeks": 4,
       "since": -30.0,
       "kinds": [
         "D"
@@ -681,7 +627,7 @@
         "50": 259.59,
         "70": 244.64
       },
-      "weeks": 3,
+      "weeks": 4,
       "since": 7.6,
       "kinds": [
         "D"
@@ -1021,7 +967,7 @@
         "50": 383.17,
         "70": 354.54
       },
-      "weeks": 2,
+      "weeks": 3,
       "since": -24.3,
       "kinds": [
         "D"
@@ -1047,7 +993,7 @@
         "50": 335.15,
         "70": 313.0
       },
-      "weeks": 2,
+      "weeks": 3,
       "since": -9.5,
       "kinds": [
         "D"
@@ -1203,7 +1149,7 @@
         "50": 75.1,
         "70": 68.15
       },
-      "weeks": 1,
+      "weeks": 2,
       "since": -11.6,
       "kinds": [
         "D"
@@ -1399,20 +1345,20 @@
       "name": "Hubbell Inc",
       "sector": "Industrials",
       "chg": "+9.42%",
-      "close": 448.1,
+      "close": 459.4,
       "high": 480.52,
       "low": 435.71,
-      "retr": 72.4,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
+      "retr": 47.1,
+      "zone": "🔔 38.2~50%",
+      "alert": true,
+      "order": 3,
       "lv": {
         "30": 467.08,
         "50": 458.12,
         "70": 449.16
       },
       "weeks": 2,
-      "since": -5.5,
+      "since": -3.1,
       "kinds": [
         "D"
       ]
@@ -1541,7 +1487,7 @@
         "50": 1.91,
         "70": 1.78
       },
-      "weeks": 1,
+      "weeks": 2,
       "since": 16.1,
       "kinds": [
         "D"
@@ -1567,7 +1513,7 @@
         "50": 139.31,
         "70": 128.57
       },
-      "weeks": 1,
+      "weeks": 2,
       "since": 7.4,
       "kinds": [
         "D"
@@ -1673,6 +1619,32 @@
       },
       "weeks": 1,
       "since": 7.4,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "CRCL",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-15",
+      "name": "Circle Internet Group Inc",
+      "sector": "Financial",
+      "chg": "+9.33%",
+      "close": 79.84,
+      "high": 92.17,
+      "low": 57.84,
+      "retr": 35.9,
+      "zone": "🔔 30~38.2%",
+      "alert": true,
+      "order": 2,
+      "lv": {
+        "30": 81.87,
+        "50": 75.0,
+        "70": 68.14
+      },
+      "weeks": 1,
+      "since": -8.2,
       "kinds": [
         "D"
       ]
@@ -1931,7 +1903,7 @@
         "50": 11.26,
         "70": 10.82
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": 5.2,
       "kinds": [
         "D"
@@ -1957,7 +1929,7 @@
         "50": 162.65,
         "70": 152.39
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": 1.1,
       "kinds": [
         "D"
@@ -1983,7 +1955,7 @@
         "50": 102.19,
         "70": 95.46
       },
-      "weeks": 0,
+      "weeks": 1,
       "since": 7.7,
       "kinds": [
         "D"
@@ -2380,5 +2352,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-10-27T02:24:35.208676+00:00"
+  "generated_utc": "2026-10-27T06:48:44.471778+00:00"
 }
