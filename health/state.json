@@ -1,5 +1,7 @@
 {
   "day": "2026-10-29",
-  "retries": {},
-  "checked_utc": "2026-10-28T20:33:56+00:00"
+  "retries": {
+    "top3_follow.yml": 1
+  },
+  "checked_utc": "2026-10-29T01:14:33+00:00"
 }
