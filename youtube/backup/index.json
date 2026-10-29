@@ -346,5 +346,17 @@
     "tries": 0,
     "error": "",
     "updated_utc": "2026-10-29T10:11:17+00:00"
+  },
+  "MXwB5P9mJxA": {
+    "ch": "sosumonkey",
+    "title": "큰 손이 된 키덜트 덕에 주식도 부활? 장난감 사는 어른 시대의 수혜주들",
+    "name": "2026-10-29 큰 손이 된 키덜트 덕에 주식도 부활 장난감 사는 어른 시대의 수혜주들",
+    "daily": "2026-10-30",
+    "published_utc": "2026-10-29T11:22:08.543190+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-10-29T20:22:08+00:00"
   }
 }
