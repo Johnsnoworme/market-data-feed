@@ -1,3 +1,5 @@
-2026-10-29 01:16 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: _gMyqLP0928 13시간 전 / WM76m1GByyg 1일 전 / P4i9A1Woky8 2일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: E6TCzSccKCc 14시간 전 / 6GSU4vYB_HE 1일 전 / K9spR7r9tv4 3일 전
+2026-10-29 10:11 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: _gMyqLP0928 22시간 전 / WM76m1GByyg 1일 전 / P4i9A1Woky8 2일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: 1AXwsfV6ngQ 11분 전 / E6TCzSccKCc 23시간 전 / 6GSU4vYB_HE 2일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
+   ✅ 요약: 성상현 (매크로비욘드) · 1AXwsfV6ngQ · 앞으로 폭발할 유동성 장세 이제 ‘이걸’ 봐야합니다｜성상현의 매크로비욘드 9-1
