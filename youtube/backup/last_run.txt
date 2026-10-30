@@ -1,5 +1,3 @@
-2026-10-30 10:13 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: DBm1cqv3avc 40분 전 / MXwB5P9mJxA 23시간 전 / _gMyqLP0928 1일 전
-   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
-   ✅ 요약: 소수몽키 · DBm1cqv3avc · AI인프라 쇼크 어떻게 대응해야 할까, 다음 승자까지 마음 편하게 투자하는 법
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: 1AXwsfV6ngQ 1일 전 / E6TCzSccKCc 1일 전 / 6GSU4vYB_HE 3일 전
+2026-10-30 19:57 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: DBm1cqv3avc 10시간 전 / MXwB5P9mJxA 1일 전 / _gMyqLP0928 2일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: 1AXwsfV6ngQ 1일 전 / E6TCzSccKCc 2일 전 / 6GSU4vYB_HE 3일 전
