@@ -1,12 +1,5 @@
-2026-10-29 20:22 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: MXwB5P9mJxA 9시간 전 / _gMyqLP0928 1일 전 / WM76m1GByyg 2일 전
+2026-10-30 01:21 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: MXwB5P9mJxA 14시간 전 / _gMyqLP0928 1일 전 / WM76m1GByyg 2일 전
    사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
-   Gemini 실패 MXwB5P9mJxA: gemini-3.8-flash: HTTP 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash 
-   ⏳ 대기: 소수몽키 · MXwB5P9mJxA · 큰 손이 된 키덜트 덕에 주식도 부활? 장난감 사는 어른 시대의 수혜주들
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: 1AXwsfV6ngQ 10시간 전 / E6TCzSccKCc 1일 전 / 6GSU4vYB_HE 2일 전
+   ✅ 요약: 소수몽키 · MXwB5P9mJxA · 큰 손이 된 키덜트 덕에 주식도 부활? 장난감 사는 어른 시대의 수혜주들
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: 1AXwsfV6ngQ 15시간 전 / E6TCzSccKCc 1일 전 / 6GSU4vYB_HE 2일 전
