@@ -1348,5 +1348,50 @@
     "kind": "🎯",
     "status": "active",
     "last_zone": ""
+  },
+  "GMAB": {
+    "name": "Genmab A/S",
+    "first_seen": "2026-10-30",
+    "last_seen": "2026-10-30",
+    "expires": "2026-12-25",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "GKOS": {
+    "name": "Glaukos Corporation",
+    "first_seen": "2026-10-30",
+    "last_seen": "2026-10-30",
+    "expires": "2026-12-25",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "RRC": {
+    "name": "Range Resources Corporation",
+    "first_seen": "2026-10-30",
+    "last_seen": "2026-10-30",
+    "expires": "2026-12-25",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ICLR": {
+    "name": "ICON plc",
+    "first_seen": "2026-10-30",
+    "last_seen": "2026-10-30",
+    "expires": "2026-12-25",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ROP": {
+    "name": "Roper Technologies",
+    "first_seen": "2026-10-30",
+    "last_seen": "2026-10-30",
+    "expires": "2026-12-25",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
   }
 }

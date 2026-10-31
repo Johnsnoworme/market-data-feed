@@ -93,5 +93,30 @@
     "date": "2026-10-23",
     "name": "Waste Connections Inc.",
     "sector": "Utilities"
+  },
+  "GMAB": {
+    "date": "2026-10-30",
+    "name": "Genmab A/S",
+    "sector": "Health Care"
+  },
+  "GKOS": {
+    "date": "2026-10-30",
+    "name": "Glaukos Corporation",
+    "sector": "Health Care"
+  },
+  "RRC": {
+    "date": "2026-10-30",
+    "name": "Range Resources Corporation",
+    "sector": "Energy"
+  },
+  "ICLR": {
+    "date": "2026-10-30",
+    "name": "ICON plc",
+    "sector": "Health Care"
+  },
+  "ROP": {
+    "date": "2026-10-30",
+    "name": "Roper Technologies",
+    "sector": "Technology"
   }
 }
