@@ -1,3 +1,12 @@
-2026-10-31 01:05 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: DBm1cqv3avc 15시간 전 / MXwB5P9mJxA 1일 전 / _gMyqLP0928 2일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: 1AXwsfV6ngQ 1일 전 / E6TCzSccKCc 2일 전 / 6GSU4vYB_HE 3일 전
+2026-10-31 09:48 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: DBm1cqv3avc 1일 전 / MXwB5P9mJxA 1일 전 / _gMyqLP0928 2일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: lexC9mX46Bo 5시간 전 / 1AXwsfV6ngQ 1일 전 / E6TCzSccKCc 2일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
+   Gemini 실패 lexC9mX46Bo: gemini-3.8-flash: HTTP 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash 
+   ⏳ 대기: 성상현 (매크로비욘드) · lexC9mX46Bo · 미국 전역에 퍼진 충격 소문 ‘여기’ 앞으로 무서워질 겁니다｜성상현의 매크로비욘드 9-2

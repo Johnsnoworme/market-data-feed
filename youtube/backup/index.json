@@ -370,5 +370,17 @@
     "tries": 0,
     "error": "",
     "updated_utc": "2026-10-30T10:13:51+00:00"
+  },
+  "lexC9mX46Bo": {
+    "ch": "ssh",
+    "title": "미국 전역에 퍼진 충격 소문 ‘여기’ 앞으로 무서워질 겁니다｜성상현의 매크로비욘드 9-2",
+    "name": "2026-10-31 미국 전역에 퍼진 충격 소문 ‘여기’ 앞으로 무서워질 겁니다｜성상현의 매",
+    "daily": "2026-10-31",
+    "published_utc": "2026-10-31T04:48:32.637150+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-10-31T09:48:32+00:00"
   }
 }
