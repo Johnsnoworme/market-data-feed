@@ -1104,32 +1104,6 @@
       ]
     },
     {
-      "ticker": "FLUT",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-10-08",
-      "name": "Flutter Entertainment Plc",
-      "sector": "Consumer Cyclical",
-      "chg": "+7.55%",
-      "close": 82.59,
-      "high": 82.88,
-      "low": 72.56,
-      "retr": 2.8,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 79.78,
-        "50": 77.72,
-        "70": 75.66
-      },
-      "weeks": 3,
-      "since": 1.2,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
       "ticker": "PBF",
       "kind": "D",
       "src": "T",
@@ -2716,5 +2690,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-02T02:34:27.708142+00:00"
+  "generated_utc": "2026-11-02T02:43:57.761786+00:00"
 }
