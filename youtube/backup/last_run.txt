@@ -1,3 +1,5 @@
-2026-11-02 01:03 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: DBm1cqv3avc 2일 전 / MXwB5P9mJxA 3일 전 / _gMyqLP0928 4일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: lexC9mX46Bo 1일 전 / 1AXwsfV6ngQ 3일 전 / E6TCzSccKCc 4일 전
+2026-11-02 11:26 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: DBm1cqv3avc 3일 전 / MXwB5P9mJxA 4일 전 / _gMyqLP0928 4일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: D5_u0_spL80 1시간 전 / lexC9mX46Bo 2일 전 / 1AXwsfV6ngQ 4일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
+   ✅ 요약: 성상현 (매크로비욘드) · D5_u0_spL80 · “새로운 돈의 방향” 앞으로 ‘이쪽’으로 움직인다｜성상현의 매크로비욘드 9-3
