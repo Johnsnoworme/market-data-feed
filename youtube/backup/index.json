@@ -394,5 +394,17 @@
     "tries": 0,
     "error": "",
     "updated_utc": "2026-11-02T11:26:32+00:00"
+  },
+  "6Zq7p54WTNI": {
+    "ch": "sosumonkey",
+    "title": "인텔 -30% 쇼크, AI 피크아웃일까 중간선거 코앞 리스크 관리일까",
+    "name": "2026-11-02 인텔 -30% 쇼크, AI 피크아웃일까 중간선거 코앞 리스크 관리일까",
+    "daily": "2026-11-03",
+    "published_utc": "2026-11-02T12:08:54.104141+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-02T23:08:54+00:00"
   }
 }
