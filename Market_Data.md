@@ -1,33 +1,33 @@
 # Market Data
 
-> 마지막 업데이트: 2026-11-02 08:13:38 UTC (데이터 출처: Finviz)
+> 마지막 업데이트: 2026-11-03 02:58:38 UTC (데이터 출처: Finviz)
 
 ## Fear & Greed Index
-26.2 / 100 (Fear)
+22.7 / 100 (Extreme Fear)
 
 ## Daily Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [FDXF](https://finviz.com/quote.ashx?t=FDXF) | FedEx Freight Holding Company Inc | Industrials | +14.91% |
-| [REGN](https://finviz.com/quote.ashx?t=REGN) | Regeneron Pharmaceuticals Inc | Healthcare | +13.33% |
-| [GPN](https://finviz.com/quote.ashx?t=GPN) | Global Payments Inc | Technology | +12.97% |
+| [IDXX](https://finviz.com/quote.ashx?t=IDXX) | Idexx Laboratories Inc | Healthcare | +21.85% |
+| [NXT](https://finviz.com/quote.ashx?t=NXT) | Nextpower Inc | Technology | +14.87% |
+| [TEM](https://finviz.com/quote.ashx?t=TEM) | Tempus AI Inc | Healthcare | +8.67% |
 
 👉 [Finviz Daily Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=111&f=cap_largeover&o=-change)
 
 ## Weekly Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [GKOS](https://finviz.com/quote.ashx?t=GKOS) | Glaukos Corp | Healthcare | +32.83% |
-| [GMAB](https://finviz.com/quote.ashx?t=GMAB) | Genmab ADR | Healthcare | +30.30% |
-| [VSAT](https://finviz.com/quote.ashx?t=VSAT) | Viasat Inc | Technology | +25.30% |
+| [GKOS](https://finviz.com/quote.ashx?t=GKOS) | Glaukos Corp | Healthcare | +33.85% |
+| [PNR](https://finviz.com/quote.ashx?t=PNR) | Pentair plc | Industrials | +27.78% |
+| [CVNA](https://finviz.com/quote.ashx?t=CVNA) | Carvana Co | Consumer Cyclical | +27.19% |
 
 👉 [Finviz Weekly Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf1w)
 
 ## Monthly Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [GMAB](https://finviz.com/quote.ashx?t=GMAB) | Genmab ADR | Healthcare | +65.15% |
-| [GKOS](https://finviz.com/quote.ashx?t=GKOS) | Glaukos Corp | Healthcare | +45.62% |
-| [RRC](https://finviz.com/quote.ashx?t=RRC) | Range Resources Corp | Energy | +45.29% |
+| [GMAB](https://finviz.com/quote.ashx?t=GMAB) | Genmab ADR | Healthcare | +58.04% |
+| [GKOS](https://finviz.com/quote.ashx?t=GKOS) | Glaukos Corp | Healthcare | +45.72% |
+| [RRC](https://finviz.com/quote.ashx?t=RRC) | Range Resources Corp | Energy | +42.48% |
 
 👉 [Finviz Monthly Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf4w)
