@@ -10,11 +10,11 @@
 | [PANW](https://finviz.com/quote.ashx?p=w&t=PANW) | Daily | 09-28 (5주 전) | 🔔 61.8~70% (마지막 방어선) | 65% | 351.72 | 395.19 ~ 345.68 (370.43) | -10.3% |
 | [VICR](https://finviz.com/quote.ashx?p=w&t=VICR) | Weekly·Monthly | 09-30 (4주 전) | 🔔 61.8~70% (마지막 방어선) | 62% | 174.97 | 255.79 ~ 155.5 (205.65) | -39.4% |
 | [IBRX](https://finviz.com/quote.ashx?p=w&t=IBRX) | Daily·Weekly | 10-02 (4주 전) | 🔔 61.8~70% (마지막 방어선) | 69% | 7.95 | 9.56 ~ 7.9 (8.73) | -22.7% |
-| [TLK](https://finviz.com/quote.ashx?p=w&t=TLK) | Daily | 10-20 (1주 전) | 🔔 61.8~70% (마지막 방어선) | 69% | 10.85 | 11.71 ~ 10.82 (11.26) | -6.8% |
+| [TLK](https://finviz.com/quote.ashx?p=w&t=TLK) | Daily | 10-20 (2주 전) | 🔔 61.8~70% (마지막 방어선) | 69% | 10.85 | 11.71 ~ 10.82 (11.26) | -6.8% |
 | [VG](https://finviz.com/quote.ashx?p=w&t=VG) | Daily | 10-23 (1주 전) | 🔔 61.8~70% (마지막 방어선) | 67% | 12.87 | 14.11 ~ 12.77 (13.44) | -8.1% |
 | [FORM](https://finviz.com/quote.ashx?p=w&t=FORM) | Daily·Monthly | 09-30 (4주 전) | 🔔 50~61.8% | 62% | 87.3 | 120.02 ~ 78.48 (99.25) | -41.5% |
-| [TLN](https://finviz.com/quote.ashx?p=w&t=TLN) | Daily | 10-06 (3주 전) | 🔔 50~61.8% | 52% | 332.99 | 357.31 ~ 313.0 (335.15) | -10.8% |
-| [PBF](https://finviz.com/quote.ashx?p=w&t=PBF) | Daily | 10-13 (2주 전) | 🔔 50~61.8% | 50% | 75.08 | 82.04 ~ 68.15 (75.1) | -17.6% |
+| [TLN](https://finviz.com/quote.ashx?p=w&t=TLN) | Daily | 10-06 (4주 전) | 🔔 50~61.8% | 52% | 332.99 | 357.31 ~ 313.0 (335.15) | -10.8% |
+| [PBF](https://finviz.com/quote.ashx?p=w&t=PBF) | Daily | 10-13 (3주 전) | 🔔 50~61.8% | 50% | 75.08 | 82.04 ~ 68.15 (75.1) | -17.6% |
 
 > [!note]- 나머지 풀백 17개
 > | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
