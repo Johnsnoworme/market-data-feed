@@ -1,8 +1,19 @@
-2026-11-03 11:02 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: 6Zq7p54WTNI 23시간 전 / DBm1cqv3avc 4일 전 / MXwB5P9mJxA 5일 전
+2026-11-03 21:06 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: 4Gkk5BqjIf0 9시간 전 / 6Zq7p54WTNI 1일 전 / DBm1cqv3avc 4일 전
    사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
-   Gemini 실패 6Zq7p54WTNI: gemini-3.8-flash: 연결 오류 HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=600) | gemini-2.5-flash: HTTP 404 {
+   Gemini 실패 4Gkk5BqjIf0: gemini-3.8-flash: HTTP 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your 
+    "message": "This model models/gemini-2.5-flash 
+   ⏳ 대기: 소수몽키 · 4Gkk5BqjIf0 · 중간선거 이후 더 큰 전쟁이 시작된다? 유례 없는 움직임, 불길한 신호일까
+   Gemini 실패 6Zq7p54WTNI: gemini-3.8-flash: HTTP 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash 
 성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: D5_u0_spL80 1일 전 / lexC9mX46Bo 3일 전 / 1AXwsfV6ngQ 5일 전
