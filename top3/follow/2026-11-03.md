@@ -2,7 +2,7 @@
 
 > 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 32개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 85개 · 풀백 26개
+### 🏆 내 Top 3 — 추적 84개 · 풀백 26개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [PANW](https://finviz.com/quote.ashx?p=w&t=PANW) | Daily | 09-28 (5주 전) | 🔔 61.8~70% (마지막 방어선) | 66% | 350.2 | 395.19 ~ 345.68 (370.43) | -10.7% |
@@ -39,7 +39,7 @@
 > [!note]- 대기 45개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
 > EQNR 30%, AR 29%, FRO 29%, VRT 28%, FCNCA 26%, TRU 23%, MTB 23% 📏, SOFI 23%, ICLR 22%, TEM 19%, CCI 19%, CART 18%, CRL 18%, SMMT 17%, FDXF 16%, GKOS 15%, ERIC 15%, CCL 15%, RRC 14%, GPN 14%, GMAB 14%, R 14%, MRNA 13%, FN 13%, NBIX 13%, CMS 11%, RCL 11%, WIT 11%, EFX 10%, INIO 10%, HALO 10%, NXT 10%, FTAI 10%, H 10%, ACN 10%, GEN 9%, HAS 9%, MANH 6%, FISV 6%, ALLE 6%, UTHR 6%, IDXX 5%, PTC 2%, SPOT 1%, REGN 1%
 
-⚠️ 70% 이탈로 종료: AKAM, NBIS, VIAV, CRDO, NTES, FPS, XP, CIEN, PAYP, WDC, TLK, QNT, LITE, CLS
+⚠️ 70% 이탈로 종료: AKAM, NBIS, VIAV, CRDO, NTES, FPS, XP, CIEN, PAYP, WDC, TLK, QNT, CLS
 
 ### 🧭 김종봉 후보 — 추적 24개 · 풀백 6개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
