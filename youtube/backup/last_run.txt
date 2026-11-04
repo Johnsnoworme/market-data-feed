@@ -1,5 +1,5 @@
-2026-11-04 01:42 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: 4Gkk5BqjIf0 13시간 전 / 6Zq7p54WTNI 1일 전 / DBm1cqv3avc 4일 전
+2026-11-04 11:11 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: 4Gkk5BqjIf0 23시간 전 / 6Zq7p54WTNI 1일 전 / DBm1cqv3avc 5일 전
    사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.1-flash
    Gemini 실패 4Gkk5BqjIf0: gemini-3.8-flash: HTTP 503 {
   "error": {
@@ -8,4 +8,4 @@
   "error": {
     "code": 404,
     "message": "This model models/gemini-2.5-flash 
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: D5_u0_spL80 1일 전 / lexC9mX46Bo 3일 전 / 1AXwsfV6ngQ 5일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: KIej2HG2vmI 미국 전역에 싹다 퍼졌다 앞으로 ‘이곳’에 돈 몰립니다｜성상현의 매크로비욘드 9-풀버전 / D5_u0_spL80 2일 전 / lexC9mX46Bo 4일 전
