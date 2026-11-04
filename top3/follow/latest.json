@@ -2327,6 +2327,32 @@
       ]
     },
     {
+      "ticker": "LITE",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-26",
+      "name": "Lumentum Holdings Inc",
+      "sector": "Technology",
+      "chg": "+8.19%",
+      "close": 680.16,
+      "high": 978.4,
+      "low": 671.0,
+      "retr": 97.0,
+      "zone": "⚠️ 70% 이탈 → 종료",
+      "alert": false,
+      "order": 8,
+      "lv": {
+        "30": 886.18,
+        "50": 824.7,
+        "70": 763.22
+      },
+      "weeks": 1,
+      "since": -16.9,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "SOFI",
       "kind": "D",
       "src": "T",
@@ -2821,5 +2847,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-04T03:02:26.034176+00:00"
+  "generated_utc": "2026-11-04T03:13:18.477969+00:00"
 }
