@@ -90,7 +90,7 @@
 | [CHTR](https://finviz.com/quote.ashx?t=CHTR&p=w) | -54% | 6/10 | +7.9%p | ✅ | -22% | 흑자 · 매출 -2% · 순이익(분기) -1% |
 | [LULU](https://finviz.com/quote.ashx?t=LULU&p=w) | -50% | 6/10 | +11.5%p | ✅ | -31% | 흑자 · 매출 -4% · 순이익(분기) -11% |
 | [INTU](https://finviz.com/quote.ashx?t=INTU&p=w) | -48% | 6/10 | +7.3%p | ✅ | -35% | 흑자 · 매출 +14% · 순이익(분기) -5% |
-| [GRAB](https://finviz.com/quote.ashx?t=GRAB&p=w) | -47% | 6/10 | +12.5%p | ✅ | -30% | 흑자 · 매출 +22% · 순이익(분기) +623% |
+| [GRAB](https://finviz.com/quote.ashx?t=GRAB&p=w) | -47% | 6/10 | +12.5%p | ✅ | -30% | 흑자 · 매출 +27% · 순이익(분기) -27% |
 | [SMMT](https://finviz.com/quote.ashx?t=SMMT&p=w) | -40% | 6/10 | +2.7%p | ✅ | -29% | 적자 |
 | [CG](https://finviz.com/quote.ashx?t=CG&p=w) | -37% | 6/10 | +14.1%p | ✅ | -25% | 흑자 · 매출 -33% · 순이익(분기) -57% |
 | [TU](https://finviz.com/quote.ashx?t=TU&p=w) | -36% | 6/10 | +9.7%p | ✅ | -17% | 적자 · 매출 -2% |
