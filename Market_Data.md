@@ -1,33 +1,33 @@
 # Market Data
 
-> 마지막 업데이트: 2026-11-04 07:58:18 UTC (데이터 출처: Finviz)
+> 마지막 업데이트: 2026-11-05 01:32:27 UTC (데이터 출처: Finviz)
 
 ## Fear & Greed Index
-19.1 / 100 (Extreme Fear)
+27.3 / 100 (Fear)
 
 ## Daily Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [FN](https://finviz.com/quote.ashx?t=FN) | Fabrinet | Technology | +15.45% |
-| [NBIX](https://finviz.com/quote.ashx?t=NBIX) | Neurocrine Biosciences Inc | Healthcare | +13.42% |
-| [FISV](https://finviz.com/quote.ashx?t=FISV) | Fiserv Inc | Technology | +12.46% |
+| [PCOR](https://finviz.com/quote.ashx?t=PCOR) | Procore Technologies Inc | Technology | +19.68% |
+| [MDLN](https://finviz.com/quote.ashx?t=MDLN) | Medline Inc | Healthcare | +18.36% |
+| [XYZ](https://finviz.com/quote.ashx?t=XYZ) | Block Inc | Technology | +15.30% |
 
 👉 [Finviz Daily Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=111&f=cap_largeover&o=-change)
 
 ## Weekly Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [GKOS](https://finviz.com/quote.ashx?t=GKOS) | Glaukos Corp | Healthcare | +28.63% |
-| [FTAI](https://finviz.com/quote.ashx?t=FTAI) | FTAI Aviation Ltd | Industrials | +26.51% |
-| [JLL](https://finviz.com/quote.ashx?t=JLL) | Jones Lang Lasalle Inc | Real Estate | +24.86% |
+| [GKOS](https://finviz.com/quote.ashx?t=GKOS) | Glaukos Corp | Healthcare | +35.98% |
+| [CVNA](https://finviz.com/quote.ashx?t=CVNA) | Carvana Co | Consumer Cyclical | +31.35% |
+| [NXT](https://finviz.com/quote.ashx?t=NXT) | Nextpower Inc | Technology | +30.00% |
 
 👉 [Finviz Weekly Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf1w)
 
 ## Monthly Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [GMAB](https://finviz.com/quote.ashx?t=GMAB) | Genmab ADR | Healthcare | +44.28% |
-| [GKOS](https://finviz.com/quote.ashx?t=GKOS) | Glaukos Corp | Healthcare | +42.09% |
-| [RRC](https://finviz.com/quote.ashx?t=RRC) | Range Resources Corp | Energy | +39.67% |
+| [GKOS](https://finviz.com/quote.ashx?t=GKOS) | Glaukos Corp | Healthcare | +52.67% |
+| [GMAB](https://finviz.com/quote.ashx?t=GMAB) | Genmab ADR | Healthcare | +45.82% |
+| [BSP](https://finviz.com/quote.ashx?t=BSP) | Bending Spoons S.p.A | Technology | +40.85% |
 
 👉 [Finviz Monthly Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf4w)
