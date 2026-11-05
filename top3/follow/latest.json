@@ -2483,32 +2483,6 @@
       ]
     },
     {
-      "ticker": "GEN",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-10-29",
-      "name": "Gen Digital Inc",
-      "sector": "Technology",
-      "chg": "+15.81%",
-      "close": 30.89,
-      "high": 31.2,
-      "low": 20.34,
-      "retr": 2.9,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 27.94,
-        "50": 25.77,
-        "70": 23.6
-      },
-      "weeks": 0,
-      "since": 9.5,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
       "ticker": "FDXF",
       "kind": "D",
       "src": "T",
@@ -2925,5 +2899,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-05T03:31:49.506308+00:00"
+  "generated_utc": "2026-11-05T03:43:02.266572+00:00"
 }
