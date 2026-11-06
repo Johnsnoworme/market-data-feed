@@ -1625,32 +1625,6 @@
       ]
     },
     {
-      "ticker": "CRCL",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-10-15",
-      "name": "Circle Internet Group Inc",
-      "sector": "Financial",
-      "chg": "+9.33%",
-      "close": 69.48,
-      "high": 92.17,
-      "low": 57.84,
-      "retr": 66.1,
-      "zone": "🔔 61.8~70% (마지막 방어선)",
-      "alert": true,
-      "order": 5,
-      "lv": {
-        "30": 81.87,
-        "50": 75.0,
-        "70": 68.14
-      },
-      "weeks": 3,
-      "since": -20.1,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
       "ticker": "AR",
       "kind": "D",
       "src": "T",
@@ -3003,5 +2977,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-06T02:47:57.358164+00:00"
+  "generated_utc": "2026-11-06T03:28:49.437811+00:00"
 }
