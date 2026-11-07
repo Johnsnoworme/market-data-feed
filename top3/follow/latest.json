@@ -1365,6 +1365,32 @@
       ]
     },
     {
+      "ticker": "FCNCA",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-12",
+      "name": "First Citizens Bancshares Inc (NC)",
+      "sector": "Financial",
+      "chg": "+7.59%",
+      "close": 2273.74,
+      "high": 2429.96,
+      "low": 2010.34,
+      "retr": 37.2,
+      "zone": "🔔 30~38.2%",
+      "alert": true,
+      "order": 2,
+      "lv": {
+        "30": 2304.07,
+        "50": 2220.15,
+        "70": 2136.23
+      },
+      "weeks": 3,
+      "since": 9.2,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "MTB",
       "kind": "D",
       "src": "T",
@@ -3029,5 +3055,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-07T07:45:08.921327+00:00"
+  "generated_utc": "2026-11-07T09:11:39.566197+00:00"
 }
