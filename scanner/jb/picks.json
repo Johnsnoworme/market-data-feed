@@ -95,12 +95,12 @@
     "sector": "Utilities"
   },
   "GMAB": {
-    "date": "2026-10-30",
+    "date": "2026-11-06",
     "name": "Genmab A/S",
     "sector": "Health Care"
   },
   "GKOS": {
-    "date": "2026-10-30",
+    "date": "2026-11-06",
     "name": "Glaukos Corporation",
     "sector": "Health Care"
   },
@@ -117,6 +117,21 @@
   "ROP": {
     "date": "2026-10-30",
     "name": "Roper Technologies",
+    "sector": "Technology"
+  },
+  "APP": {
+    "date": "2026-11-06",
+    "name": "AppLovin",
+    "sector": "Communication Services"
+  },
+  "FISV": {
+    "date": "2026-11-06",
+    "name": "Fiserv",
+    "sector": "Financials"
+  },
+  "PCOR": {
+    "date": "2026-11-06",
+    "name": "Procore Technologies Inc.",
     "sector": "Technology"
   }
 }

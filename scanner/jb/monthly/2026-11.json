@@ -1,0 +1,67 @@
+{
+  "month": "2026-11",
+  "tickers": {
+    "GMAB": {
+      "name": "Genmab A/S",
+      "sector": "Health Care",
+      "first": "11/06",
+      "weeks": [
+        "11/06"
+      ],
+      "last": "11/06",
+      "score": 57.3,
+      "up": 0.0,
+      "near": true
+    },
+    "APP": {
+      "name": "AppLovin",
+      "sector": "Communication Services",
+      "first": "11/06",
+      "weeks": [
+        "11/06"
+      ],
+      "last": "11/06",
+      "score": 53.9,
+      "up": 0.0,
+      "near": true
+    },
+    "FISV": {
+      "name": "Fiserv",
+      "sector": "Financials",
+      "first": "11/06",
+      "weeks": [
+        "11/06"
+      ],
+      "last": "11/06",
+      "score": 50.5,
+      "up": 0.0,
+      "near": true
+    },
+    "GKOS": {
+      "name": "Glaukos Corporation",
+      "sector": "Health Care",
+      "first": "11/06",
+      "weeks": [
+        "11/06"
+      ],
+      "last": "11/06",
+      "score": 48.1,
+      "up": 0.0,
+      "near": true
+    },
+    "PCOR": {
+      "name": "Procore Technologies Inc.",
+      "sector": "Technology",
+      "first": "11/06",
+      "weeks": [
+        "11/06"
+      ],
+      "last": "11/06",
+      "score": 46.7,
+      "up": 0.0,
+      "near": true
+    }
+  },
+  "version": 3,
+  "last_week": "2026-11-06"
+}

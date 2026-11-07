@@ -1352,8 +1352,8 @@
   "GMAB": {
     "name": "Genmab A/S",
     "first_seen": "2026-10-30",
-    "last_seen": "2026-10-30",
-    "expires": "2026-12-25",
+    "last_seen": "2026-11-06",
+    "expires": "2027-01-01",
     "kind": "🎯",
     "status": "active",
     "last_zone": ""
@@ -1361,8 +1361,8 @@
   "GKOS": {
     "name": "Glaukos Corporation",
     "first_seen": "2026-10-30",
-    "last_seen": "2026-10-30",
-    "expires": "2026-12-25",
+    "last_seen": "2026-11-06",
+    "expires": "2027-01-01",
     "kind": "🎯",
     "status": "active",
     "last_zone": ""
@@ -1390,6 +1390,33 @@
     "first_seen": "2026-10-30",
     "last_seen": "2026-10-30",
     "expires": "2026-12-25",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "APP": {
+    "name": "AppLovin",
+    "first_seen": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "expires": "2027-01-01",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "FISV": {
+    "name": "Fiserv",
+    "first_seen": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "expires": "2027-01-01",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "PCOR": {
+    "name": "Procore Technologies Inc.",
+    "first_seen": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "expires": "2027-01-01",
     "kind": "🎯",
     "status": "active",
     "last_zone": ""
