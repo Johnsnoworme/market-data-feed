@@ -2587,58 +2587,6 @@
       ]
     },
     {
-      "ticker": "GMAB",
-      "kind": "J",
-      "src": "J",
-      "date": "2026-10-30",
-      "name": "Genmab A/S",
-      "sector": "",
-      "chg": "",
-      "close": 53.63,
-      "high": 59.97,
-      "low": 23.62,
-      "retr": 17.4,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 49.07,
-        "50": 41.8,
-        "70": 34.53
-      },
-      "weeks": 1,
-      "since": -6.0,
-      "kinds": [
-        "J"
-      ]
-    },
-    {
-      "ticker": "GKOS",
-      "kind": "J",
-      "src": "J",
-      "date": "2026-10-30",
-      "name": "Glaukos Corporation",
-      "sector": "",
-      "chg": "",
-      "close": 224.41,
-      "high": 255.18,
-      "low": 99.48,
-      "retr": 19.8,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 208.47,
-        "50": 177.33,
-        "70": 146.19
-      },
-      "weeks": 1,
-      "since": -5.6,
-      "kinds": [
-        "J"
-      ]
-    },
-    {
       "ticker": "RRC",
       "kind": "J",
       "src": "J",
@@ -3053,7 +3001,137 @@
       "kinds": [
         "D"
       ]
+    },
+    {
+      "ticker": "GMAB",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-06",
+      "name": "Genmab A/S",
+      "sector": "",
+      "chg": "",
+      "close": 53.63,
+      "high": 56.84,
+      "low": 23.62,
+      "retr": 9.7,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 46.87,
+        "50": 40.23,
+        "70": 33.59
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "GKOS",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-06",
+      "name": "Glaukos Corporation",
+      "sector": "",
+      "chg": "",
+      "close": 224.41,
+      "high": 255.18,
+      "low": 99.48,
+      "retr": 19.8,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 208.47,
+        "50": 177.33,
+        "70": 146.19
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "APP",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-06",
+      "name": "AppLovin",
+      "sector": "",
+      "chg": "",
+      "close": 391.22,
+      "high": 398.0,
+      "low": 225.19,
+      "retr": 3.9,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 346.16,
+        "50": 311.6,
+        "70": 277.03
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "FISV",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-06",
+      "name": "Fiserv",
+      "sector": "",
+      "chg": "",
+      "close": 62.88,
+      "high": 63.87,
+      "low": 43.87,
+      "retr": 4.9,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 57.87,
+        "50": 53.87,
+        "70": 49.87
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "PCOR",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-06",
+      "name": "Procore Technologies Inc.",
+      "sector": "",
+      "chg": "",
+      "close": 75.33,
+      "high": 79.8,
+      "low": 38.03,
+      "retr": 10.7,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 67.27,
+        "50": 58.92,
+        "70": 50.56
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
     }
   ],
-  "generated_utc": "2026-11-07T09:11:39.566197+00:00"
+  "generated_utc": "2026-11-07T10:59:52.953844+00:00"
 }

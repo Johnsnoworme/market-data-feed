@@ -46,7 +46,7 @@
 
 ⚠️ 70% 이탈로 종료: TWST, AKAM, NBIS, ILMN, VIAV, BE, CRDO, VICR, PANW, INIO, FPS, XP, CIEN, PBF, HUBB, ESLT, CRCL, OVV, WDC, SMCI, VG, LITE, CLS, VRT
 
-### 🧭 김종봉 후보 — 추적 24개 · 풀백 8개
+### 🧭 김종봉 후보 — 추적 27개 · 풀백 8개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [ILMN](https://finviz.com/quote.ashx?p=w&t=ILMN) | 주간 | 10-02 (5주 전) | 🔔 50~61.8% | 51% | 213.13 | 252.29 ~ 176.2 (214.25) | -21.9% |
@@ -58,8 +58,8 @@
 | [DINO](https://finviz.com/quote.ashx?p=w&t=DINO) | 주간 | 10-09 (4주 전) | 🔔 38.2~50% | 44% | 97.18 | 107.48 ~ 78.29 (92.88) | -19.9% |
 | [RRC](https://finviz.com/quote.ashx?p=w&t=RRC) | 주간 | 10-30 (1주 전) | 🔔 30~38.2% | 37% | 48.72 | 50.27 ~ 41.42 (45.84) | -10.8% |
 
-> [!note]- 대기 15개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> INFY 25%, CTSH 25%, GKOS 20%, AVTR 20%, WDAY 20%, DOCU 19%, GMAB 17%, ROP 15%, ICLR 13%, WCN 13%, VEEV 13%, EFX 12%, TRU 12%, HAS 10%, MANH 8%
+> [!note]- 대기 18개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
+> INFY 25%, CTSH 25%, GKOS 20%, AVTR 20%, WDAY 20%, DOCU 19%, ROP 15%, ICLR 13%, WCN 13%, VEEV 13%, EFX 12%, TRU 12%, PCOR 11%, HAS 10%, GMAB 10%, MANH 8%, FISV 5%, APP 4%
 
 ⚠️ 70% 이탈로 종료: ESLT
 
