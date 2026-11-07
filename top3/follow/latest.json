@@ -2457,6 +2457,32 @@
       ]
     },
     {
+      "ticker": "FTAI",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-29",
+      "name": "FTAI Aviation Ltd",
+      "sector": "Industrials",
+      "chg": "+17.27%",
+      "close": 180.27,
+      "high": 206.6,
+      "low": 146.48,
+      "retr": 43.8,
+      "zone": "🔔 38.2~50%",
+      "alert": true,
+      "order": 3,
+      "lv": {
+        "30": 188.56,
+        "50": 176.54,
+        "70": 164.52
+      },
+      "weeks": 1,
+      "since": -8.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "GEN",
       "kind": "D",
       "src": "T",
@@ -3029,5 +3055,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-07T02:51:56.965344+00:00"
+  "generated_utc": "2026-11-07T03:11:36.468128+00:00"
 }
