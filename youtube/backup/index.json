@@ -418,5 +418,17 @@
     "tries": 4,
     "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
     "updated_utc": "2026-11-03T21:06:27+00:00"
+  },
+  "_OkpE2mUMBA": {
+    "ch": "ssh",
+    "title": "“닷컴버블 데자뷔?” 월가에 싹다 퍼진 충격 소문 앞으로 ‘이렇게’ 됩니다｜성상현의 매크로비욘드 10-1부",
+    "name": "2026-11-07 “닷컴버블 데자뷔” 월가에 싹다 퍼진 충격 소문 앞으로 ‘이렇게’ 됩니다",
+    "daily": "2026-11-07",
+    "published_utc": "2026-11-07T02:26:59.067727+00:00",
+    "status": "done",
+    "model": "gemini-flash-latest",
+    "tries": 0,
+    "error": "",
+    "updated_utc": "2026-11-07T10:26:59+00:00"
   }
 }
