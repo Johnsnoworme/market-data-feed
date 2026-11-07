@@ -1,5 +1,5 @@
 {
-  "ny_date": "2026-11-05",
+  "ny_date": "2026-11-06",
   "rows": [
     {
       "ticker": "PS",
@@ -9,10 +9,10 @@
       "name": "Pershing Square Inc",
       "sector": "Financial",
       "chg": "+5.36%",
-      "close": 50.34,
+      "close": 51.45,
       "high": 60.29,
       "low": 32.19,
-      "retr": 35.4,
+      "retr": 31.4,
       "zone": "🔔 30~38.2%",
       "alert": true,
       "order": 2,
@@ -22,7 +22,7 @@
         "70": 40.62
       },
       "weeks": 5,
-      "since": -14.8,
+      "since": -12.9,
       "kinds": [
         "D",
         "W"
@@ -36,20 +36,20 @@
       "name": "Tempus AI Inc",
       "sector": "Healthcare",
       "chg": "+8.67%",
-      "close": 70.43,
+      "close": 76.05,
       "high": 84.47,
       "low": 49.35,
-      "retr": 40.0,
-      "zone": "🔔 38.2~50%",
-      "alert": true,
-      "order": 3,
+      "retr": 24.0,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
       "lv": {
         "30": 73.93,
         "50": 66.91,
         "70": 59.89
       },
       "weeks": 0,
-      "since": -10.3,
+      "since": -3.1,
       "kinds": [
         "D",
         "W"
@@ -63,10 +63,10 @@
       "name": "Twist Bioscience Corp",
       "sector": "Healthcare",
       "chg": "+16.11%",
-      "close": 120.61,
+      "close": 120.79,
       "high": 219.71,
       "low": 80.59,
-      "retr": 71.2,
+      "retr": 71.1,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -76,7 +76,7 @@
         "70": 122.33
       },
       "weeks": 6,
-      "since": -34.5,
+      "since": -34.4,
       "kinds": [
         "D",
         "W"
@@ -90,10 +90,10 @@
       "name": "Akamai Technologies Inc",
       "sector": "Technology",
       "chg": "+21.88%",
-      "close": 77.84,
+      "close": 83.09,
       "high": 128.46,
       "low": 100.77,
-      "retr": 182.8,
+      "retr": 163.8,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -103,7 +103,7 @@
         "70": 109.08
       },
       "weeks": 6,
-      "since": -29.5,
+      "since": -24.7,
       "kinds": [
         "D"
       ]
@@ -116,10 +116,10 @@
       "name": "Hyatt Hotels Corp",
       "sector": "Consumer Cyclical",
       "chg": "+14.25%",
-      "close": 183.78,
+      "close": 184.32,
       "high": 190.69,
       "low": 154.16,
-      "retr": 18.9,
+      "retr": 17.4,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -129,7 +129,7 @@
         "70": 165.12
       },
       "weeks": 6,
-      "since": 15.6,
+      "since": 15.9,
       "kinds": [
         "D"
       ]
@@ -142,20 +142,20 @@
       "name": "CMS Energy Corp",
       "sector": "Utilities",
       "chg": "+10.55%",
-      "close": 70.68,
-      "high": 72.35,
-      "low": 62.29,
-      "retr": 16.6,
+      "close": 69.18,
+      "high": 71.77,
+      "low": 61.79,
+      "retr": 25.9,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
       "lv": {
-        "30": 69.33,
-        "50": 67.32,
-        "70": 65.31
+        "30": 68.77,
+        "50": 66.78,
+        "70": 64.78
       },
       "weeks": 6,
-      "since": 12.6,
+      "since": 11.1,
       "kinds": [
         "D"
       ]
@@ -168,10 +168,10 @@
       "name": "10x Genomics Inc",
       "sector": "Healthcare",
       "chg": "+44.69%",
-      "close": 58.06,
+      "close": 59.28,
       "high": 102.81,
       "low": 12.8,
-      "retr": 49.7,
+      "retr": 48.4,
       "zone": "🔔 38.2~50%",
       "alert": true,
       "order": 3,
@@ -181,7 +181,7 @@
         "70": 39.8
       },
       "weeks": 5,
-      "since": -35.7,
+      "since": -34.4,
       "kinds": [
         "D",
         "M"
@@ -195,10 +195,10 @@
       "name": "Everpure Inc",
       "sector": "Technology",
       "chg": "+20.99%",
-      "close": 93.44,
+      "close": 96.75,
       "high": 157.57,
       "low": 64.8,
-      "retr": 69.1,
+      "retr": 65.6,
       "zone": "🔔 61.8~70% (마지막 방어선)",
       "alert": true,
       "order": 5,
@@ -208,7 +208,7 @@
         "70": 92.63
       },
       "weeks": 6,
-      "since": -25.8,
+      "since": -23.2,
       "kinds": [
         "D",
         "W"
@@ -222,10 +222,10 @@
       "name": "Nebius Group NV",
       "sector": "Technology",
       "chg": "+11.22%",
-      "close": 120.37,
+      "close": 129.49,
       "high": 182.74,
       "low": 149.48,
-      "retr": 187.5,
+      "retr": 160.1,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -235,7 +235,7 @@
         "70": 159.46
       },
       "weeks": 1,
-      "since": -29.4,
+      "since": -24.0,
       "kinds": [
         "D"
       ]
@@ -248,10 +248,10 @@
       "name": "Illumina, Inc.",
       "sector": "Health Care",
       "chg": "+7.25%",
-      "close": 208.0,
+      "close": 213.13,
       "high": 309.35,
       "low": 178.88,
-      "retr": 77.7,
+      "retr": 73.7,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -261,7 +261,7 @@
         "70": 218.02
       },
       "weeks": 6,
-      "since": -24.1,
+      "since": -22.2,
       "kinds": [
         "D"
       ]
@@ -274,20 +274,20 @@
       "name": "Moderna Inc",
       "sector": "Healthcare",
       "chg": "+14.21%",
-      "close": 241.46,
-      "high": 261.0,
+      "close": 254.19,
+      "high": 267.5,
       "low": 58.41,
-      "retr": 9.6,
+      "retr": 6.4,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
       "lv": {
-        "30": 200.22,
-        "50": 159.7,
-        "70": 119.19
+        "30": 204.77,
+        "50": 162.95,
+        "70": 121.14
       },
       "weeks": 4,
-      "since": 7.3,
+      "since": 13.0,
       "kinds": [
         "D",
         "W"
@@ -301,10 +301,10 @@
       "name": "Viavi Solutions Inc",
       "sector": "Technology",
       "chg": "+15.78%",
-      "close": 26.3,
+      "close": 28.47,
       "high": 48.42,
       "low": 31.41,
-      "retr": 130.0,
+      "retr": 117.3,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -314,7 +314,7 @@
         "70": 36.51
       },
       "weeks": 5,
-      "since": -44.2,
+      "since": -39.6,
       "kinds": [
         "D",
         "W"
@@ -328,10 +328,10 @@
       "name": "Bloom Energy Corp",
       "sector": "Industrials",
       "chg": "+10.80%",
-      "close": 167.52,
+      "close": 173.24,
       "high": 302.35,
       "low": 157.33,
-      "retr": 93.0,
+      "retr": 89.0,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -341,7 +341,7 @@
         "70": 200.84
       },
       "weeks": 5,
-      "since": -42.5,
+      "since": -40.5,
       "kinds": [
         "D"
       ]
@@ -354,10 +354,10 @@
       "name": "Credo Technology Group Holding Ltd",
       "sector": "Technology",
       "chg": "+7.65%",
-      "close": 112.33,
+      "close": 120.51,
       "high": 231.59,
       "low": 149.14,
-      "retr": 144.6,
+      "retr": 134.7,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -367,7 +367,7 @@
         "70": 173.87
       },
       "weeks": 6,
-      "since": -46.8,
+      "since": -42.9,
       "kinds": [
         "D"
       ]
@@ -380,10 +380,10 @@
       "name": "Vicor Corp",
       "sector": "Technology",
       "chg": "+53.95%",
-      "close": 135.1,
+      "close": 146.88,
       "high": 331.0,
       "low": 80.29,
-      "retr": 78.1,
+      "retr": 73.4,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -393,7 +393,7 @@
         "70": 155.5
       },
       "weeks": 5,
-      "since": -53.2,
+      "since": -49.2,
       "kinds": [
         "M",
         "W"
@@ -407,10 +407,10 @@
       "name": "Avantor Inc.",
       "sector": "",
       "chg": "",
-      "close": 15.14,
+      "close": 15.47,
       "high": 17.45,
       "low": 7.42,
-      "retr": 23.0,
+      "retr": 19.7,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -420,7 +420,7 @@
         "70": 10.43
       },
       "weeks": 6,
-      "since": -0.7,
+      "since": 1.4,
       "kinds": [
         "J"
       ]
@@ -433,10 +433,10 @@
       "name": "DocuSign Inc.",
       "sector": "",
       "chg": "",
-      "close": 78.92,
+      "close": 77.61,
       "high": 85.9,
       "low": 41.37,
-      "retr": 15.7,
+      "retr": 18.6,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -446,7 +446,7 @@
         "70": 54.73
       },
       "weeks": 6,
-      "since": 16.9,
+      "since": 15.0,
       "kinds": [
         "J"
       ]
@@ -459,10 +459,10 @@
       "name": "Workday, Inc.",
       "sector": "",
       "chg": "",
-      "close": 200.17,
+      "close": 192.9,
       "high": 212.91,
       "low": 111.5,
-      "retr": 12.6,
+      "retr": 19.7,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -472,7 +472,7 @@
         "70": 141.92
       },
       "weeks": 6,
-      "since": 5.7,
+      "since": 1.8,
       "kinds": [
         "J"
       ]
@@ -485,10 +485,10 @@
       "name": "Manhattan Associates Inc.",
       "sector": "",
       "chg": "",
-      "close": 255.17,
+      "close": 252.78,
       "high": 263.47,
       "low": 124.33,
-      "retr": 6.0,
+      "retr": 7.7,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -498,7 +498,7 @@
         "70": 166.07
       },
       "weeks": 6,
-      "since": 23.9,
+      "since": 22.7,
       "kinds": [
         "J"
       ]
@@ -511,10 +511,10 @@
       "name": "Zscaler Inc.",
       "sector": "",
       "chg": "",
-      "close": 203.88,
+      "close": 197.66,
       "high": 267.87,
       "low": 119.5,
-      "retr": 43.1,
+      "retr": 47.3,
       "zone": "🔔 38.2~50%",
       "alert": true,
       "order": 3,
@@ -524,7 +524,7 @@
         "70": 164.01
       },
       "weeks": 6,
-      "since": 5.6,
+      "since": 2.4,
       "kinds": [
         "J"
       ]
@@ -537,20 +537,20 @@
       "name": "NetEase Inc ADR",
       "sector": "Communication Services",
       "chg": "+4.88%",
-      "close": 126.56,
-      "high": 128.85,
+      "close": 129.45,
+      "high": 130.6,
       "low": 110.23,
-      "retr": 12.3,
+      "retr": 5.6,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
       "lv": {
-        "30": 123.26,
-        "50": 119.54,
-        "70": 115.82
+        "30": 124.49,
+        "50": 120.42,
+        "70": 116.34
       },
       "weeks": 5,
-      "since": 4.6,
+      "since": 6.9,
       "kinds": [
         "D"
       ]
@@ -563,10 +563,10 @@
       "name": "Palo Alto Networks Inc",
       "sector": "Technology",
       "chg": "+4.63%",
-      "close": 314.67,
+      "close": 313.84,
       "high": 432.33,
       "low": 308.54,
-      "retr": 95.0,
+      "retr": 95.7,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -576,7 +576,7 @@
         "70": 345.68
       },
       "weeks": 5,
-      "since": -19.7,
+      "since": -20.0,
       "kinds": [
         "D"
       ]
@@ -589,20 +589,20 @@
       "name": "Carnival Corp Ltd",
       "sector": "Consumer Cyclical",
       "chg": "+15.78%",
-      "close": 29.59,
-      "high": 31.57,
-      "low": 21.45,
-      "retr": 19.6,
+      "close": 29.58,
+      "high": 31.41,
+      "low": 21.34,
+      "retr": 18.2,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
       "lv": {
-        "30": 28.53,
-        "50": 26.51,
-        "70": 24.49
+        "30": 28.39,
+        "50": 26.38,
+        "70": 24.36
       },
       "weeks": 5,
-      "since": 14.9,
+      "since": 15.4,
       "kinds": [
         "D",
         "W"
@@ -616,10 +616,10 @@
       "name": "Royal Caribbean Group",
       "sector": "Consumer Cyclical",
       "chg": "+7.45%",
-      "close": 322.73,
+      "close": 327.16,
       "high": 337.01,
       "low": 222.22,
-      "retr": 12.4,
+      "retr": 8.6,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -629,7 +629,7 @@
         "70": 256.66
       },
       "weeks": 5,
-      "since": 23.8,
+      "since": 25.5,
       "kinds": [
         "D"
       ]
@@ -642,10 +642,10 @@
       "name": "United Therapeutics Corp",
       "sector": "Healthcare",
       "chg": "+12.55%",
-      "close": 565.72,
+      "close": 562.02,
       "high": 614.23,
       "low": 468.97,
-      "retr": 33.4,
+      "retr": 35.9,
       "zone": "🔔 30~38.2%",
       "alert": true,
       "order": 2,
@@ -655,7 +655,7 @@
         "70": 512.55
       },
       "weeks": 5,
-      "since": 4.4,
+      "since": 3.7,
       "kinds": [
         "D"
       ]
@@ -668,20 +668,20 @@
       "name": "FormFactor Inc",
       "sector": "Technology",
       "chg": "+48.40%",
-      "close": 71.76,
+      "close": 81.12,
       "high": 151.18,
       "low": 47.33,
-      "retr": 76.5,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
+      "retr": 67.5,
+      "zone": "🔔 61.8~70% (마지막 방어선)",
+      "alert": true,
+      "order": 5,
       "lv": {
         "30": 120.02,
         "50": 99.25,
         "70": 78.48
       },
       "weeks": 5,
-      "since": -51.9,
+      "since": -45.7,
       "kinds": [
         "D",
         "M"
@@ -691,24 +691,24 @@
       "ticker": "FROG",
       "kind": "D",
       "src": "T",
-      "date": "2026-10-19",
-      "name": "JFrog Ltd.",
+      "date": "2026-11-06",
+      "name": "JFrog Ltd",
       "sector": "Technology",
-      "chg": "+7.94%",
-      "close": 74.62,
-      "high": 103.4,
-      "low": 79.5,
-      "retr": 120.4,
-      "zone": "⚠️ 70% 이탈 → 종료",
+      "chg": "+35.33%",
+      "close": 100.98,
+      "high": 102.2,
+      "low": 73.97,
+      "retr": 4.3,
+      "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
-      "order": 8,
+      "order": 1,
       "lv": {
-        "30": 96.23,
-        "50": 91.45,
-        "70": 86.67
+        "30": 93.73,
+        "50": 88.09,
+        "70": 82.44
       },
-      "weeks": 2,
-      "since": -18.0,
+      "weeks": 0,
+      "since": 0.0,
       "kinds": [
         "D"
       ]
@@ -721,10 +721,10 @@
       "name": "Accenture plc",
       "sector": "Technology",
       "chg": "+15.78%",
-      "close": 265.16,
+      "close": 260.5,
       "high": 271.76,
       "low": 168.4,
-      "retr": 6.4,
+      "retr": 10.9,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -734,7 +734,7 @@
         "70": 199.41
       },
       "weeks": 5,
-      "since": 25.9,
+      "since": 23.7,
       "kinds": [
         "D"
       ]
@@ -747,10 +747,10 @@
       "name": "Synopsys Inc",
       "sector": "Technology",
       "chg": "+12.78%",
-      "close": 440.31,
+      "close": 450.46,
       "high": 512.49,
       "low": 362.55,
-      "retr": 48.1,
+      "retr": 41.4,
       "zone": "🔔 38.2~50%",
       "alert": true,
       "order": 3,
@@ -760,7 +760,7 @@
         "70": 407.53
       },
       "weeks": 5,
-      "since": -10.2,
+      "since": -8.2,
       "kinds": [
         "D"
       ]
@@ -773,10 +773,10 @@
       "name": "Fair Isaac Corp",
       "sector": "Technology",
       "chg": "+10.85%",
-      "close": 707.4,
+      "close": 704.55,
       "high": 828.95,
       "low": 586.05,
-      "retr": 50.0,
+      "retr": 51.2,
       "zone": "🔔 50~61.8%",
       "alert": true,
       "order": 4,
@@ -786,7 +786,7 @@
         "70": 658.92
       },
       "weeks": 3,
-      "since": -4.4,
+      "since": -4.8,
       "kinds": [
         "D"
       ]
@@ -799,20 +799,20 @@
       "name": "ImmunityBio Inc",
       "sector": "Healthcare",
       "chg": "+21.86%",
-      "close": 8.01,
+      "close": 8.64,
       "high": 10.81,
       "low": 6.65,
-      "retr": 67.3,
-      "zone": "🔔 61.8~70% (마지막 방어선)",
+      "retr": 52.3,
+      "zone": "🔔 50~61.8%",
       "alert": true,
-      "order": 5,
+      "order": 4,
       "lv": {
         "30": 9.56,
         "50": 8.73,
         "70": 7.9
       },
       "weeks": 5,
-      "since": -22.1,
+      "since": -16.0,
       "kinds": [
         "D",
         "W"
@@ -826,10 +826,10 @@
       "name": "Innio NV",
       "sector": "Industrials",
       "chg": "+9.34%",
-      "close": 13.33,
+      "close": 13.77,
       "high": 18.74,
       "low": 14.58,
-      "retr": 130.0,
+      "retr": 119.5,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -839,7 +839,7 @@
         "70": 15.83
       },
       "weeks": 1,
-      "since": -19.8,
+      "since": -17.2,
       "kinds": [
         "D"
       ]
@@ -852,10 +852,10 @@
       "name": "Forgent Power Solutions Inc",
       "sector": "Industrials",
       "chg": "+8.09%",
-      "close": 18.21,
+      "close": 19.48,
       "high": 41.61,
       "low": 27.99,
-      "retr": 171.8,
+      "retr": 162.5,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -865,7 +865,7 @@
         "70": 32.08
       },
       "weeks": 5,
-      "since": -54.9,
+      "since": -51.7,
       "kinds": [
         "D"
       ]
@@ -878,10 +878,10 @@
       "name": "Illumina, Inc.",
       "sector": "",
       "chg": "",
-      "close": 208.0,
+      "close": 213.13,
       "high": 309.35,
       "low": 119.14,
-      "retr": 53.3,
+      "retr": 50.6,
       "zone": "🔔 50~61.8%",
       "alert": true,
       "order": 4,
@@ -891,7 +891,7 @@
         "70": 176.2
       },
       "weeks": 5,
-      "since": -23.8,
+      "since": -21.9,
       "kinds": [
         "J"
       ]
@@ -904,10 +904,10 @@
       "name": "PTC Inc",
       "sector": "Technology",
       "chg": "+33.49%",
-      "close": 194.6,
+      "close": 195.07,
       "high": 196.05,
       "low": 111.93,
-      "retr": 1.7,
+      "retr": 1.2,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -917,7 +917,7 @@
         "70": 137.17
       },
       "weeks": 4,
-      "since": 1.2,
+      "since": 1.5,
       "kinds": [
         "D"
       ]
@@ -930,10 +930,10 @@
       "name": "XP Inc",
       "sector": "Financial",
       "chg": "+30.93%",
-      "close": 14.78,
+      "close": 15.14,
       "high": 32.73,
       "low": 15.4,
-      "retr": 103.5,
+      "retr": 101.5,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -943,7 +943,7 @@
         "70": 20.6
       },
       "weeks": 4,
-      "since": -47.5,
+      "since": -46.2,
       "kinds": [
         "D"
       ]
@@ -956,10 +956,10 @@
       "name": "CIENA Corp",
       "sector": "Technology",
       "chg": "+13.85%",
-      "close": 230.81,
+      "close": 243.39,
       "high": 454.73,
       "low": 311.6,
-      "retr": 156.4,
+      "retr": 147.7,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -969,7 +969,7 @@
         "70": 354.54
       },
       "weeks": 4,
-      "since": -48.0,
+      "since": -45.1,
       "kinds": [
         "D"
       ]
@@ -982,20 +982,20 @@
       "name": "Talen Energy Corp",
       "sector": "Utilities",
       "chg": "+12.43%",
-      "close": 316.23,
+      "close": 338.64,
       "high": 390.54,
       "low": 279.77,
-      "retr": 67.1,
-      "zone": "🔔 61.8~70% (마지막 방어선)",
+      "retr": 46.9,
+      "zone": "🔔 38.2~50%",
       "alert": true,
-      "order": 5,
+      "order": 3,
       "lv": {
         "30": 357.31,
         "50": 335.15,
         "70": 313.0
       },
       "weeks": 4,
-      "since": -15.2,
+      "since": -9.2,
       "kinds": [
         "D"
       ]
@@ -1008,10 +1008,10 @@
       "name": "Bending Spoons S.p.A",
       "sector": "Technology",
       "chg": "+41.20%",
-      "close": 45.09,
+      "close": 42.41,
       "high": 59.5,
       "low": 31.43,
-      "retr": 51.3,
+      "retr": 60.9,
       "zone": "🔔 50~61.8%",
       "alert": true,
       "order": 4,
@@ -1021,7 +1021,7 @@
         "70": 39.85
       },
       "weeks": 3,
-      "since": -15.7,
+      "since": -20.7,
       "kinds": [
         "D"
       ]
@@ -1034,20 +1034,20 @@
       "name": "Glaukos Corp",
       "sector": "Healthcare",
       "chg": "+33.65%",
-      "close": 219.98,
+      "close": 224.41,
       "high": 255.18,
       "low": 146.38,
-      "retr": 32.4,
-      "zone": "🔔 30~38.2%",
-      "alert": true,
-      "order": 2,
+      "retr": 28.3,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
       "lv": {
         "30": 222.54,
         "50": 200.78,
         "70": 179.02
       },
       "weeks": 1,
-      "since": -9.3,
+      "since": -7.5,
       "kinds": [
         "D"
       ]
@@ -1060,10 +1060,10 @@
       "name": "Spotify Technology SA",
       "sector": "Communication Services",
       "chg": "+11.10%",
-      "close": 614.41,
+      "close": 603.01,
       "high": 635.0,
       "low": 470.25,
-      "retr": 12.5,
+      "retr": 19.4,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -1073,7 +1073,7 @@
         "70": 519.67
       },
       "weeks": 2,
-      "since": 5.3,
+      "since": 3.3,
       "kinds": [
         "D"
       ]
@@ -1086,20 +1086,20 @@
       "name": "Costar Group Inc",
       "sector": "Real Estate",
       "chg": "+8.01%",
-      "close": 32.05,
+      "close": 30.55,
       "high": 35.63,
       "low": 25.89,
-      "retr": 36.8,
-      "zone": "🔔 30~38.2%",
+      "retr": 52.2,
+      "zone": "🔔 50~61.8%",
       "alert": true,
-      "order": 2,
+      "order": 4,
       "lv": {
         "30": 32.71,
         "50": 30.76,
         "70": 28.81
       },
       "weeks": 4,
-      "since": 7.5,
+      "since": 2.5,
       "kinds": [
         "D"
       ]
@@ -1112,20 +1112,20 @@
       "name": "Flutter Entertainment Plc",
       "sector": "Consumer Cyclical",
       "chg": "+7.55%",
-      "close": 82.97,
+      "close": 81.7,
       "high": 89.0,
       "low": 72.56,
-      "retr": 36.7,
-      "zone": "🔔 30~38.2%",
+      "retr": 44.4,
+      "zone": "🔔 38.2~50%",
       "alert": true,
-      "order": 2,
+      "order": 3,
       "lv": {
         "30": 84.07,
         "50": 80.78,
         "70": 77.49
       },
       "weeks": 4,
-      "since": 1.7,
+      "since": 0.1,
       "kinds": [
         "D"
       ]
@@ -1138,20 +1138,20 @@
       "name": "PBF Energy Inc",
       "sector": "Energy",
       "chg": "+7.23%",
-      "close": 68.37,
+      "close": 67.27,
       "high": 92.46,
       "low": 57.74,
-      "retr": 69.4,
-      "zone": "🔔 61.8~70% (마지막 방어선)",
-      "alert": true,
-      "order": 5,
+      "retr": 72.5,
+      "zone": "⚠️ 70% 이탈 → 종료",
+      "alert": false,
+      "order": 8,
       "lv": {
         "30": 82.04,
         "50": 75.1,
         "70": 68.15
       },
       "weeks": 3,
-      "since": -25.0,
+      "since": -26.2,
       "kinds": [
         "D"
       ]
@@ -1164,10 +1164,10 @@
       "name": "Crown Castle Inc",
       "sector": "Real Estate",
       "chg": "+15.60%",
-      "close": 90.95,
+      "close": 88.6,
       "high": 93.5,
       "low": 65.32,
-      "retr": 9.0,
+      "retr": 17.4,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -1177,7 +1177,7 @@
         "70": 73.77
       },
       "weeks": 4,
-      "since": 14.2,
+      "since": 11.3,
       "kinds": [
         "D"
       ]
@@ -1190,20 +1190,20 @@
       "name": "Humana Inc",
       "sector": "Healthcare",
       "chg": "+11.56%",
-      "close": 411.79,
+      "close": 433.74,
       "high": 455.53,
       "low": 352.94,
-      "retr": 42.6,
-      "zone": "🔔 38.2~50%",
-      "alert": true,
-      "order": 3,
+      "retr": 21.2,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
       "lv": {
         "30": 424.75,
         "50": 404.24,
         "70": 383.72
       },
       "weeks": 4,
-      "since": -4.4,
+      "since": 0.6,
       "kinds": [
         "D"
       ]
@@ -1216,10 +1216,10 @@
       "name": "10x Genomics Inc.",
       "sector": "",
       "chg": "",
-      "close": 58.06,
+      "close": 59.28,
       "high": 102.81,
       "low": 19.53,
-      "retr": 53.7,
+      "retr": 52.3,
       "zone": "🔔 50~61.8%",
       "alert": true,
       "order": 4,
@@ -1229,7 +1229,7 @@
         "70": 44.51
       },
       "weeks": 4,
-      "since": -28.0,
+      "since": -26.5,
       "kinds": [
         "J"
       ]
@@ -1242,10 +1242,10 @@
       "name": "Veeva Systems",
       "sector": "",
       "chg": "",
-      "close": 310.1,
+      "close": 303.73,
       "high": 325.99,
       "low": 150.39,
-      "retr": 9.0,
+      "retr": 12.7,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -1255,7 +1255,7 @@
         "70": 203.07
       },
       "weeks": 4,
-      "since": 4.7,
+      "since": 2.6,
       "kinds": [
         "J"
       ]
@@ -1268,10 +1268,10 @@
       "name": "Marathon Petroleum",
       "sector": "",
       "chg": "",
-      "close": 377.32,
+      "close": 372.74,
       "high": 493.98,
       "low": 222.64,
-      "retr": 43.0,
+      "retr": 44.7,
       "zone": "🔔 38.2~50%",
       "alert": true,
       "order": 3,
@@ -1281,7 +1281,7 @@
         "70": 304.04
       },
       "weeks": 4,
-      "since": -17.1,
+      "since": -18.1,
       "kinds": [
         "J"
       ]
@@ -1294,10 +1294,10 @@
       "name": "Valero Energy",
       "sector": "",
       "chg": "",
-      "close": 351.23,
+      "close": 346.45,
       "high": 461.52,
       "low": 221.32,
-      "retr": 45.9,
+      "retr": 47.9,
       "zone": "🔔 38.2~50%",
       "alert": true,
       "order": 3,
@@ -1307,7 +1307,7 @@
         "70": 293.38
       },
       "weeks": 4,
-      "since": -19.0,
+      "since": -20.1,
       "kinds": [
         "J"
       ]
@@ -1320,10 +1320,10 @@
       "name": "HF Sinclair Corporation",
       "sector": "",
       "chg": "",
-      "close": 97.77,
+      "close": 97.18,
       "high": 129.37,
       "low": 56.4,
-      "retr": 43.3,
+      "retr": 44.1,
       "zone": "🔔 38.2~50%",
       "alert": true,
       "order": 3,
@@ -1333,7 +1333,7 @@
         "70": 78.29
       },
       "weeks": 4,
-      "since": -19.4,
+      "since": -19.9,
       "kinds": [
         "J"
       ]
@@ -1346,10 +1346,10 @@
       "name": "Hubbell Inc",
       "sector": "Industrials",
       "chg": "+9.42%",
-      "close": 418.79,
+      "close": 429.45,
       "high": 480.52,
       "low": 435.71,
-      "retr": 137.8,
+      "retr": 114.0,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -1359,7 +1359,7 @@
         "70": 449.16
       },
       "weeks": 3,
-      "since": -11.7,
+      "since": -9.4,
       "kinds": [
         "D"
       ]
@@ -1372,20 +1372,20 @@
       "name": "First Citizens Bancshares Inc (NC)",
       "sector": "Financial",
       "chg": "+7.59%",
-      "close": 2304.72,
+      "close": 2273.74,
       "high": 2429.96,
       "low": 2010.34,
-      "retr": 29.8,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
+      "retr": 37.2,
+      "zone": "🔔 30~38.2%",
+      "alert": true,
+      "order": 2,
       "lv": {
         "30": 2304.07,
         "50": 2220.15,
         "70": 2136.23
       },
       "weeks": 3,
-      "since": 10.7,
+      "since": 9.2,
       "kinds": [
         "D"
       ]
@@ -1398,20 +1398,20 @@
       "name": "M & T Bank Corp",
       "sector": "Financial",
       "chg": "+6.84%",
-      "close": 219.78,
+      "close": 217.75,
       "high": 229.97,
       "low": 211.71,
-      "retr": 55.8,
-      "zone": "🔔 50~61.8%",
+      "retr": 66.9,
+      "zone": "🔔 61.8~70% (마지막 방어선)",
       "alert": true,
-      "order": 4,
+      "order": 5,
       "lv": {
         "30": 224.49,
         "50": 220.84,
         "70": 217.19
       },
       "weeks": 3,
-      "since": -0.1,
+      "since": -1.0,
       "kinds": [
         "D"
       ]
@@ -1424,10 +1424,10 @@
       "name": "Manhattan Associates Inc",
       "sector": "Technology",
       "chg": "+6.34%",
-      "close": 255.17,
+      "close": 252.78,
       "high": 263.47,
       "low": 187.59,
-      "retr": 10.9,
+      "retr": 14.1,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -1437,7 +1437,7 @@
         "70": 210.35
       },
       "weeks": 3,
-      "since": 17.1,
+      "since": 16.0,
       "kinds": [
         "D"
       ]
@@ -1450,10 +1450,10 @@
       "name": "Frontline Plc",
       "sector": "Energy",
       "chg": "+5.51%",
-      "close": 44.7,
+      "close": 45.42,
       "high": 59.75,
       "low": 34.43,
-      "retr": 59.4,
+      "retr": 56.6,
       "zone": "🔔 50~61.8%",
       "alert": true,
       "order": 4,
@@ -1463,7 +1463,7 @@
         "70": 42.03
       },
       "weeks": 3,
-      "since": -24.5,
+      "since": -23.3,
       "kinds": [
         "D"
       ]
@@ -1502,10 +1502,10 @@
       "name": "CDW Corp",
       "sector": "Technology",
       "chg": "+5.71%",
-      "close": 158.39,
+      "close": 157.0,
       "high": 172.47,
       "low": 127.77,
-      "retr": 31.5,
+      "retr": 34.6,
       "zone": "🔔 30~38.2%",
       "alert": true,
       "order": 2,
@@ -1515,7 +1515,7 @@
         "70": 141.18
       },
       "weeks": 3,
-      "since": 4.2,
+      "since": 3.3,
       "kinds": [
         "D"
       ]
@@ -1528,20 +1528,20 @@
       "name": "Halozyme Therapeutics Inc",
       "sector": "Healthcare",
       "chg": "+6.57%",
-      "close": 122.96,
+      "close": 103.63,
       "high": 134.0,
       "low": 81.75,
-      "retr": 21.1,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
+      "retr": 58.1,
+      "zone": "🔔 50~61.8%",
+      "alert": true,
+      "order": 4,
       "lv": {
         "30": 118.33,
         "50": 107.88,
         "70": 97.42
       },
       "weeks": 3,
-      "since": 5.3,
+      "since": -11.3,
       "kinds": [
         "D"
       ]
@@ -1554,10 +1554,10 @@
       "name": "Elbit Systems Ltd",
       "sector": "Industrials",
       "chg": "+5.05%",
-      "close": 651.31,
+      "close": 682.59,
       "high": 815.13,
       "low": 649.68,
-      "retr": 99.0,
+      "retr": 80.1,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -1567,7 +1567,7 @@
         "70": 699.32
       },
       "weeks": 3,
-      "since": -7.1,
+      "since": -2.7,
       "kinds": [
         "D"
       ]
@@ -1580,20 +1580,20 @@
       "name": "Telefonaktiebolaget L M Ericsson ADR",
       "sector": "Technology",
       "chg": "+11.80%",
-      "close": 10.44,
+      "close": 10.26,
       "high": 11.21,
       "low": 9.04,
-      "retr": 35.5,
-      "zone": "🔔 30~38.2%",
+      "retr": 43.8,
+      "zone": "🔔 38.2~50%",
       "alert": true,
-      "order": 2,
+      "order": 3,
       "lv": {
         "30": 10.56,
         "50": 10.12,
         "70": 9.69
       },
       "weeks": 3,
-      "since": -2.5,
+      "since": -4.2,
       "kinds": [
         "D"
       ]
@@ -1606,10 +1606,10 @@
       "name": "TransUnion",
       "sector": "Financial",
       "chg": "+10.73%",
-      "close": 82.91,
+      "close": 81.18,
       "high": 84.01,
       "low": 60.96,
-      "retr": 4.8,
+      "retr": 12.3,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -1619,7 +1619,7 @@
         "70": 67.88
       },
       "weeks": 3,
-      "since": 11.9,
+      "since": 9.5,
       "kinds": [
         "D"
       ]
@@ -1632,20 +1632,20 @@
       "name": "Circle Internet Group Inc",
       "sector": "Financial",
       "chg": "+9.33%",
-      "close": 69.48,
+      "close": 67.88,
       "high": 92.17,
       "low": 57.84,
-      "retr": 66.1,
-      "zone": "🔔 61.8~70% (마지막 방어선)",
-      "alert": true,
-      "order": 5,
+      "retr": 70.8,
+      "zone": "⚠️ 70% 이탈 → 종료",
+      "alert": false,
+      "order": 8,
       "lv": {
         "30": 81.87,
         "50": 75.0,
         "70": 68.14
       },
       "weeks": 3,
-      "since": -20.1,
+      "since": -22.0,
       "kinds": [
         "D"
       ]
@@ -1658,10 +1658,10 @@
       "name": "Antero Resources Corporation",
       "sector": "Energy",
       "chg": "+6.06%",
-      "close": 36.38,
+      "close": 36.08,
       "high": 42.75,
       "low": 33.12,
-      "retr": 66.1,
+      "retr": 69.3,
       "zone": "🔔 61.8~70% (마지막 방어선)",
       "alert": true,
       "order": 5,
@@ -1671,7 +1671,7 @@
         "70": 36.01
       },
       "weeks": 3,
-      "since": -5.9,
+      "since": -6.6,
       "kinds": [
         "D"
       ]
@@ -1684,10 +1684,10 @@
       "name": "Ovintiv Inc. (DE)",
       "sector": "Energy",
       "chg": "+4.84%",
-      "close": 60.91,
+      "close": 60.52,
       "high": 73.62,
       "low": 57.46,
-      "retr": 78.7,
+      "retr": 81.1,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -1697,7 +1697,7 @@
         "70": 62.31
       },
       "weeks": 3,
-      "since": -12.1,
+      "since": -12.7,
       "kinds": [
         "D"
       ]
@@ -1710,10 +1710,10 @@
       "name": "Equinor ASA",
       "sector": "Energy",
       "chg": "+4.59%",
-      "close": 42.54,
+      "close": 41.99,
       "high": 49.08,
       "low": 37.52,
-      "retr": 56.6,
+      "retr": 61.3,
       "zone": "🔔 50~61.8%",
       "alert": true,
       "order": 4,
@@ -1723,7 +1723,7 @@
         "70": 40.98
       },
       "weeks": 3,
-      "since": -9.5,
+      "since": -10.6,
       "kinds": [
         "D"
       ]
@@ -1736,20 +1736,20 @@
       "name": "PayPay Corp ADR",
       "sector": "Technology",
       "chg": "+6.99%",
-      "close": 14.54,
+      "close": 14.91,
       "high": 16.36,
       "low": 13.88,
-      "retr": 73.4,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
+      "retr": 58.5,
+      "zone": "🔔 50~61.8%",
+      "alert": true,
+      "order": 4,
       "lv": {
         "30": 15.62,
         "50": 15.12,
         "70": 14.62
       },
       "weeks": 3,
-      "since": -7.3,
+      "since": -4.9,
       "kinds": [
         "D"
       ]
@@ -1762,10 +1762,10 @@
       "name": "Elbit Systems Ltd.",
       "sector": "",
       "chg": "",
-      "close": 651.31,
+      "close": 682.59,
       "high": 815.13,
       "low": 649.68,
-      "retr": 99.0,
+      "retr": 80.1,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -1775,7 +1775,7 @@
         "70": 699.32
       },
       "weeks": 3,
-      "since": -13.8,
+      "since": -9.6,
       "kinds": [
         "J"
       ]
@@ -1788,10 +1788,10 @@
       "name": "Infosys Limited",
       "sector": "",
       "chg": "",
-      "close": 12.8,
+      "close": 12.5,
       "high": 13.3,
       "low": 10.12,
-      "retr": 15.7,
+      "retr": 25.2,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -1801,7 +1801,7 @@
         "70": 11.07
       },
       "weeks": 3,
-      "since": 4.6,
+      "since": 2.1,
       "kinds": [
         "J"
       ]
@@ -1814,10 +1814,10 @@
       "name": "Cognizant",
       "sector": "",
       "chg": "",
-      "close": 66.54,
+      "close": 64.72,
       "high": 73.92,
       "low": 36.86,
-      "retr": 19.9,
+      "retr": 24.8,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -1827,7 +1827,7 @@
         "70": 47.98
       },
       "weeks": 3,
-      "since": 0.8,
+      "since": -2.0,
       "kinds": [
         "J"
       ]
@@ -1840,20 +1840,20 @@
       "name": "Summit Therapeutics Inc.",
       "sector": "Health Care",
       "chg": "+6.43%",
-      "close": 14.19,
+      "close": 16.33,
       "high": 16.55,
       "low": 12.07,
-      "retr": 52.7,
-      "zone": "🔔 50~61.8%",
-      "alert": true,
-      "order": 4,
+      "retr": 4.9,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
       "lv": {
         "30": 15.21,
         "50": 14.31,
         "70": 13.41
       },
       "weeks": 2,
-      "since": -8.9,
+      "since": 4.9,
       "kinds": [
         "D"
       ]
@@ -1866,10 +1866,10 @@
       "name": "Western Digital Corporation",
       "sector": "Technology",
       "chg": "+6.09%",
-      "close": 267.63,
+      "close": 263.78,
       "high": 402.23,
       "low": 331.81,
-      "retr": 191.1,
+      "retr": 196.6,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -1879,7 +1879,7 @@
         "70": 352.94
       },
       "weeks": 2,
-      "since": -24.0,
+      "since": -25.1,
       "kinds": [
         "D"
       ]
@@ -1892,20 +1892,20 @@
       "name": "Telkom Indonesia (Persero) Tbk PT ADR",
       "sector": "Communication Services",
       "chg": "+11.39%",
-      "close": 10.95,
+      "close": 11.12,
       "high": 12.38,
       "low": 10.15,
-      "retr": 64.1,
-      "zone": "🔔 61.8~70% (마지막 방어선)",
+      "retr": 56.5,
+      "zone": "🔔 50~61.8%",
       "alert": true,
-      "order": 5,
+      "order": 4,
       "lv": {
         "30": 11.71,
         "50": 11.26,
         "70": 10.82
       },
       "weeks": 2,
-      "since": -5.9,
+      "since": -4.5,
       "kinds": [
         "D"
       ]
@@ -1918,10 +1918,10 @@
       "name": "Equifax Inc",
       "sector": "Industrials",
       "chg": "+11.33%",
-      "close": 193.84,
+      "close": 189.59,
       "high": 197.0,
       "low": 137.01,
-      "retr": 5.3,
+      "retr": 12.4,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -1931,7 +1931,7 @@
         "70": 155.01
       },
       "weeks": 2,
-      "since": 9.8,
+      "since": 7.4,
       "kinds": [
         "D"
       ]
@@ -1944,10 +1944,10 @@
       "name": "Hasbro Inc",
       "sector": "Consumer Cyclical",
       "chg": "+11.20%",
-      "close": 119.54,
+      "close": 118.91,
       "high": 124.0,
       "low": 85.37,
-      "retr": 11.5,
+      "retr": 13.2,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -1957,7 +1957,7 @@
         "70": 96.96
       },
       "weeks": 2,
-      "since": 9.1,
+      "since": 8.6,
       "kinds": [
         "D"
       ]
@@ -1970,10 +1970,10 @@
       "name": "Super Micro Computer Inc",
       "sector": "Technology",
       "chg": "+9.55%",
-      "close": 27.08,
+      "close": 28.76,
       "high": 37.45,
       "low": 25.68,
-      "retr": 88.1,
+      "retr": 73.8,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -1983,7 +1983,7 @@
         "70": 29.21
       },
       "weeks": 2,
-      "since": -23.9,
+      "since": -19.1,
       "kinds": [
         "D"
       ]
@@ -1996,20 +1996,20 @@
       "name": "Charles River Laboratories International Inc",
       "sector": "Healthcare",
       "chg": "+9.33%",
-      "close": 313.02,
+      "close": 337.52,
       "high": 379.63,
       "low": 228.01,
-      "retr": 43.9,
-      "zone": "🔔 38.2~50%",
-      "alert": true,
-      "order": 3,
+      "retr": 27.8,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
       "lv": {
         "30": 334.14,
         "50": 303.82,
         "70": 273.5
       },
       "weeks": 2,
-      "since": -9.2,
+      "since": -2.1,
       "kinds": [
         "D"
       ]
@@ -2022,20 +2022,20 @@
       "name": "Quantinuum Inc",
       "sector": "Technology",
       "chg": "+8.32%",
-      "close": 29.82,
+      "close": 37.57,
       "high": 40.37,
       "low": 32.91,
-      "retr": 141.4,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
+      "retr": 37.5,
+      "zone": "🔔 30~38.2%",
+      "alert": true,
+      "order": 2,
       "lv": {
         "30": 38.13,
         "50": 36.64,
         "70": 35.15
       },
       "weeks": 2,
-      "since": -22.8,
+      "since": -2.8,
       "kinds": [
         "D"
       ]
@@ -2048,10 +2048,10 @@
       "name": "Allegion plc",
       "sector": "Industrials",
       "chg": "+11.02%",
-      "close": 187.14,
+      "close": 185.39,
       "high": 195.42,
       "low": 142.0,
-      "retr": 15.5,
+      "retr": 18.8,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2061,7 +2061,7 @@
         "70": 158.03
       },
       "weeks": 2,
-      "since": 6.0,
+      "since": 5.0,
       "kinds": [
         "D"
       ]
@@ -2074,10 +2074,10 @@
       "name": "Ryder System Inc",
       "sector": "Industrials",
       "chg": "+10.49%",
-      "close": 270.16,
+      "close": 266.39,
       "high": 291.03,
       "low": 223.3,
-      "retr": 30.8,
+      "retr": 36.4,
       "zone": "🔔 30~38.2%",
       "alert": true,
       "order": 2,
@@ -2087,7 +2087,7 @@
         "70": 243.62
       },
       "weeks": 2,
-      "since": 1.7,
+      "since": 0.3,
       "kinds": [
         "D"
       ]
@@ -2100,10 +2100,10 @@
       "name": "Genmab ADR",
       "sector": "Healthcare",
       "chg": "+28.25%",
-      "close": 52.74,
+      "close": 53.63,
       "high": 59.97,
       "low": 28.09,
-      "retr": 22.7,
+      "retr": 19.9,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2113,7 +2113,7 @@
         "70": 37.65
       },
       "weeks": 1,
-      "since": -7.9,
+      "since": -6.4,
       "kinds": [
         "D"
       ]
@@ -2126,10 +2126,10 @@
       "name": "Venture Global Inc",
       "sector": "Energy",
       "chg": "+9.29%",
-      "close": 11.52,
+      "close": 11.53,
       "high": 15.12,
       "low": 11.76,
-      "retr": 107.1,
+      "retr": 106.8,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -2139,7 +2139,7 @@
         "70": 12.77
       },
       "weeks": 2,
-      "since": -17.7,
+      "since": -17.6,
       "kinds": [
         "D"
       ]
@@ -2152,10 +2152,10 @@
       "name": "Maplebear Inc",
       "sector": "Consumer Cyclical",
       "chg": "+9.21%",
-      "close": 57.79,
+      "close": 58.12,
       "high": 62.0,
       "low": 42.03,
-      "retr": 21.1,
+      "retr": 19.4,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2165,7 +2165,7 @@
         "70": 48.02
       },
       "weeks": 2,
-      "since": 2.4,
+      "since": 3.0,
       "kinds": [
         "D"
       ]
@@ -2178,10 +2178,10 @@
       "name": "Fair Isaac",
       "sector": "",
       "chg": "",
-      "close": 707.4,
+      "close": 704.55,
       "high": 828.95,
       "low": 586.05,
-      "retr": 50.0,
+      "retr": 51.2,
       "zone": "🔔 50~61.8%",
       "alert": true,
       "order": 4,
@@ -2191,7 +2191,7 @@
         "70": 658.92
       },
       "weeks": 2,
-      "since": -13.2,
+      "since": -13.6,
       "kinds": [
         "J"
       ]
@@ -2204,10 +2204,10 @@
       "name": "TransUnion",
       "sector": "",
       "chg": "",
-      "close": 82.91,
+      "close": 81.18,
       "high": 84.01,
       "low": 60.96,
-      "retr": 4.8,
+      "retr": 12.3,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2217,7 +2217,7 @@
         "70": 67.88
       },
       "weeks": 2,
-      "since": 1.8,
+      "since": -0.4,
       "kinds": [
         "J"
       ]
@@ -2230,10 +2230,10 @@
       "name": "Hasbro",
       "sector": "",
       "chg": "",
-      "close": 119.54,
+      "close": 118.91,
       "high": 124.0,
       "low": 74.63,
-      "retr": 9.0,
+      "retr": 10.3,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2243,7 +2243,7 @@
         "70": 89.44
       },
       "weeks": 2,
-      "since": 1.8,
+      "since": 1.3,
       "kinds": [
         "J"
       ]
@@ -2256,10 +2256,10 @@
       "name": "Equifax",
       "sector": "",
       "chg": "",
-      "close": 193.84,
+      "close": 189.59,
       "high": 197.0,
       "low": 137.01,
-      "retr": 5.3,
+      "retr": 12.4,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2269,7 +2269,7 @@
         "70": 155.01
       },
       "weeks": 2,
-      "since": 6.3,
+      "since": 4.0,
       "kinds": [
         "J"
       ]
@@ -2282,10 +2282,10 @@
       "name": "Waste Connections Inc.",
       "sector": "",
       "chg": "",
-      "close": 191.66,
+      "close": 189.07,
       "high": 195.34,
       "low": 146.28,
-      "retr": 7.5,
+      "retr": 12.8,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2295,7 +2295,7 @@
         "70": 161.0
       },
       "weeks": 2,
-      "since": 2.9,
+      "since": 1.5,
       "kinds": [
         "J"
       ]
@@ -2308,20 +2308,20 @@
       "name": "Range Resources Corp",
       "sector": "Energy",
       "chg": "+17.66%",
-      "close": 50.19,
+      "close": 48.72,
       "high": 56.9,
       "low": 36.75,
-      "retr": 33.3,
-      "zone": "🔔 30~38.2%",
+      "retr": 40.6,
+      "zone": "🔔 38.2~50%",
       "alert": true,
-      "order": 2,
+      "order": 3,
       "lv": {
         "30": 50.86,
         "50": 46.83,
         "70": 42.8
       },
       "weeks": 1,
-      "since": -6.3,
+      "since": -9.0,
       "kinds": [
         "D"
       ]
@@ -2334,10 +2334,10 @@
       "name": "Lumentum Holdings Inc",
       "sector": "Technology",
       "chg": "+8.19%",
-      "close": 509.7,
+      "close": 538.59,
       "high": 978.4,
       "low": 671.0,
-      "retr": 152.5,
+      "retr": 143.1,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -2347,7 +2347,7 @@
         "70": 763.22
       },
       "weeks": 1,
-      "since": -37.7,
+      "since": -34.2,
       "kinds": [
         "D"
       ]
@@ -2360,10 +2360,10 @@
       "name": "SoFi Technologies Inc",
       "sector": "Financial",
       "chg": "+13.42%",
-      "close": 16.04,
+      "close": 16.21,
       "high": 17.74,
       "low": 13.86,
-      "retr": 43.8,
+      "retr": 39.4,
       "zone": "🔔 38.2~50%",
       "alert": true,
       "order": 3,
@@ -2373,7 +2373,7 @@
         "70": 15.02
       },
       "weeks": 1,
-      "since": -2.2,
+      "since": -1.2,
       "kinds": [
         "D"
       ]
@@ -2386,10 +2386,10 @@
       "name": "Celestica Inc",
       "sector": "Technology",
       "chg": "+12.12%",
-      "close": 205.64,
+      "close": 206.68,
       "high": 308.21,
       "low": 246.24,
-      "retr": 165.5,
+      "retr": 163.8,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -2399,7 +2399,7 @@
         "70": 264.83
       },
       "weeks": 1,
-      "since": -25.6,
+      "since": -25.3,
       "kinds": [
         "D"
       ]
@@ -2412,10 +2412,10 @@
       "name": "Icon Plc",
       "sector": "Healthcare",
       "chg": "+17.04%",
-      "close": 201.65,
+      "close": 204.74,
       "high": 219.04,
       "low": 150.86,
-      "retr": 25.5,
+      "retr": 21.0,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2425,7 +2425,7 @@
         "70": 171.31
       },
       "weeks": 1,
-      "since": -5.8,
+      "since": -4.4,
       "kinds": [
         "D"
       ]
@@ -2438,10 +2438,10 @@
       "name": "Vertiv Holdings Co",
       "sector": "Industrials",
       "chg": "+16.48%",
-      "close": 176.73,
+      "close": 182.86,
       "high": 254.73,
       "low": 187.24,
-      "retr": 115.6,
+      "retr": 106.5,
       "zone": "⚠️ 70% 이탈 → 종료",
       "alert": false,
       "order": 8,
@@ -2451,33 +2451,7 @@
         "70": 207.49
       },
       "weeks": 1,
-      "since": -27.3,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
-      "ticker": "FTAI",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-10-29",
-      "name": "FTAI Aviation Ltd",
-      "sector": "Industrials",
-      "chg": "+17.27%",
-      "close": 162.45,
-      "high": 206.6,
-      "low": 146.48,
-      "retr": 73.4,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
-      "lv": {
-        "30": 188.56,
-        "50": 176.54,
-        "70": 164.52
-      },
-      "weeks": 1,
-      "since": -17.1,
+      "since": -24.7,
       "kinds": [
         "D"
       ]
@@ -2490,10 +2464,10 @@
       "name": "Gen Digital Inc",
       "sector": "Technology",
       "chg": "+15.81%",
-      "close": 30.6,
+      "close": 29.79,
       "high": 31.2,
       "low": 20.34,
-      "retr": 5.5,
+      "retr": 13.0,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2503,7 +2477,7 @@
         "70": 23.6
       },
       "weeks": 1,
-      "since": 8.5,
+      "since": 5.6,
       "kinds": [
         "D"
       ]
@@ -2516,10 +2490,10 @@
       "name": "FedEx Freight Holding Company Inc",
       "sector": "Industrials",
       "chg": "+14.91%",
-      "close": 124.41,
+      "close": 123.56,
       "high": 135.43,
       "low": 103.48,
-      "retr": 34.5,
+      "retr": 37.2,
       "zone": "🔔 30~38.2%",
       "alert": true,
       "order": 2,
@@ -2529,7 +2503,7 @@
         "70": 113.07
       },
       "weeks": 1,
-      "since": -1.3,
+      "since": -2.0,
       "kinds": [
         "D"
       ]
@@ -2542,10 +2516,10 @@
       "name": "Regeneron Pharmaceuticals Inc",
       "sector": "Healthcare",
       "chg": "+13.33%",
-      "close": 902.9,
+      "close": 904.35,
       "high": 991.73,
       "low": 722.02,
-      "retr": 32.9,
+      "retr": 32.4,
       "zone": "🔔 30~38.2%",
       "alert": true,
       "order": 2,
@@ -2555,7 +2529,7 @@
         "70": 802.93
       },
       "weeks": 1,
-      "since": -2.7,
+      "since": -2.5,
       "kinds": [
         "D"
       ]
@@ -2568,10 +2542,10 @@
       "name": "Global Payments Inc",
       "sector": "Technology",
       "chg": "+12.97%",
-      "close": 94.98,
+      "close": 97.4,
       "high": 101.32,
       "low": 77.92,
-      "retr": 27.1,
+      "retr": 16.8,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2581,7 +2555,7 @@
         "70": 84.94
       },
       "weeks": 1,
-      "since": -1.9,
+      "since": 0.6,
       "kinds": [
         "D"
       ]
@@ -2594,10 +2568,10 @@
       "name": "Genmab A/S",
       "sector": "",
       "chg": "",
-      "close": 52.74,
+      "close": 53.63,
       "high": 59.97,
       "low": 23.62,
-      "retr": 19.9,
+      "retr": 17.4,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2607,7 +2581,7 @@
         "70": 34.53
       },
       "weeks": 1,
-      "since": -7.6,
+      "since": -6.0,
       "kinds": [
         "J"
       ]
@@ -2620,10 +2594,10 @@
       "name": "Glaukos Corporation",
       "sector": "",
       "chg": "",
-      "close": 219.98,
+      "close": 224.41,
       "high": 255.18,
       "low": 99.48,
-      "retr": 22.6,
+      "retr": 19.8,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2633,7 +2607,7 @@
         "70": 146.19
       },
       "weeks": 1,
-      "since": -7.4,
+      "since": -5.6,
       "kinds": [
         "J"
       ]
@@ -2646,10 +2620,10 @@
       "name": "Range Resources Corporation",
       "sector": "",
       "chg": "",
-      "close": 50.19,
+      "close": 48.72,
       "high": 56.9,
       "low": 34.79,
-      "retr": 30.3,
+      "retr": 37.0,
       "zone": "🔔 30~38.2%",
       "alert": true,
       "order": 2,
@@ -2659,7 +2633,7 @@
         "70": 41.42
       },
       "weeks": 1,
-      "since": -8.1,
+      "since": -10.8,
       "kinds": [
         "J"
       ]
@@ -2672,10 +2646,10 @@
       "name": "ICON plc",
       "sector": "",
       "chg": "",
-      "close": 201.65,
+      "close": 204.74,
       "high": 219.04,
       "low": 108.8,
-      "retr": 15.8,
+      "retr": 13.0,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2685,7 +2659,7 @@
         "70": 141.87
       },
       "weeks": 1,
-      "since": -4.6,
+      "since": -3.1,
       "kinds": [
         "J"
       ]
@@ -2698,10 +2672,10 @@
       "name": "Roper Technologies",
       "sector": "",
       "chg": "",
-      "close": 490.96,
+      "close": 476.6,
       "high": 507.24,
       "low": 305.19,
-      "retr": 8.1,
+      "retr": 15.2,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2711,7 +2685,7 @@
         "70": 365.81
       },
       "weeks": 1,
-      "since": 5.2,
+      "since": 2.1,
       "kinds": [
         "J"
       ]
@@ -2724,10 +2698,10 @@
       "name": "Idexx Laboratories Inc",
       "sector": "Healthcare",
       "chg": "+21.85%",
-      "close": 670.71,
+      "close": 676.04,
       "high": 713.74,
       "low": 500.61,
-      "retr": 20.2,
+      "retr": 17.7,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2737,7 +2711,7 @@
         "70": 564.55
       },
       "weeks": 0,
-      "since": -0.1,
+      "since": 0.7,
       "kinds": [
         "D"
       ]
@@ -2750,20 +2724,20 @@
       "name": "Nextpower Inc",
       "sector": "Technology",
       "chg": "+14.87%",
-      "close": 99.58,
+      "close": 104.9,
       "high": 115.0,
       "low": 75.4,
-      "retr": 38.9,
-      "zone": "🔔 38.2~50%",
-      "alert": true,
-      "order": 3,
+      "retr": 25.5,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
       "lv": {
         "30": 103.12,
         "50": 95.2,
         "70": 87.28
       },
       "weeks": 0,
-      "since": 9.3,
+      "since": 15.1,
       "kinds": [
         "D"
       ]
@@ -2776,20 +2750,20 @@
       "name": "Fabrinet",
       "sector": "Technology",
       "chg": "+15.45%",
-      "close": 292.97,
+      "close": 327.13,
       "high": 371.79,
       "low": 286.07,
-      "retr": 92.0,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
+      "retr": 52.1,
+      "zone": "🔔 50~61.8%",
+      "alert": true,
+      "order": 4,
       "lv": {
         "30": 346.07,
         "50": 328.93,
         "70": 311.79
       },
       "weeks": 0,
-      "since": -19.4,
+      "since": -10.0,
       "kinds": [
         "D"
       ]
@@ -2802,10 +2776,10 @@
       "name": "Neurocrine Biosciences Inc",
       "sector": "Healthcare",
       "chg": "+13.42%",
-      "close": 159.76,
+      "close": 164.63,
       "high": 169.53,
       "low": 132.25,
-      "retr": 26.2,
+      "retr": 13.1,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2815,7 +2789,7 @@
         "70": 143.43
       },
       "weeks": 0,
-      "since": -3.1,
+      "since": -0.1,
       "kinds": [
         "D"
       ]
@@ -2828,20 +2802,20 @@
       "name": "Fiserv Inc",
       "sector": "Technology",
       "chg": "+12.46%",
-      "close": 62.74,
-      "high": 63.33,
+      "close": 62.88,
+      "high": 63.87,
       "low": 43.87,
-      "retr": 3.0,
+      "retr": 4.9,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
       "lv": {
-        "30": 57.49,
-        "50": 53.6,
-        "70": 49.71
+        "30": 57.87,
+        "50": 53.87,
+        "70": 49.87
       },
       "weeks": 0,
-      "since": 7.4,
+      "since": 7.7,
       "kinds": [
         "D"
       ]
@@ -2854,10 +2828,10 @@
       "name": "Procore Technologies Inc",
       "sector": "Technology",
       "chg": "+19.68%",
-      "close": 75.6,
+      "close": 75.33,
       "high": 79.8,
       "low": 47.27,
-      "retr": 12.9,
+      "retr": 13.7,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2867,7 +2841,7 @@
         "70": 57.03
       },
       "weeks": 0,
-      "since": 0.0,
+      "since": -0.4,
       "kinds": [
         "D"
       ]
@@ -2880,10 +2854,10 @@
       "name": "Medline Inc",
       "sector": "Healthcare",
       "chg": "+18.36%",
-      "close": 39.76,
+      "close": 39.64,
       "high": 41.6,
       "low": 31.37,
-      "retr": 18.0,
+      "retr": 19.2,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2893,7 +2867,7 @@
         "70": 34.44
       },
       "weeks": 0,
-      "since": -1.5,
+      "since": -1.8,
       "kinds": [
         "D"
       ]
@@ -2906,10 +2880,10 @@
       "name": "Block Inc",
       "sector": "Technology",
       "chg": "+15.30%",
-      "close": 84.04,
+      "close": 85.48,
       "high": 88.51,
       "low": 72.28,
-      "retr": 27.5,
+      "retr": 18.7,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
@@ -2919,7 +2893,7 @@
         "70": 77.15
       },
       "weeks": 0,
-      "since": -4.1,
+      "since": -2.5,
       "kinds": [
         "D"
       ]
@@ -2932,20 +2906,20 @@
       "name": "Applovin Corp",
       "sector": "Communication Services",
       "chg": "+31.04%",
-      "close": 356.1,
-      "high": 365.33,
+      "close": 391.22,
+      "high": 398.0,
       "low": 225.19,
-      "retr": 6.6,
+      "retr": 3.9,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
       "lv": {
-        "30": 323.29,
-        "50": 295.26,
-        "70": 267.23
+        "30": 346.16,
+        "50": 311.6,
+        "70": 277.03
       },
       "weeks": 0,
-      "since": 0.0,
+      "since": 9.9,
       "kinds": [
         "D"
       ]
@@ -2958,20 +2932,20 @@
       "name": "Unity Software Inc",
       "sector": "Technology",
       "chg": "+14.93%",
-      "close": 48.8,
-      "high": 49.49,
+      "close": 51.49,
+      "high": 52.91,
       "low": 37.1,
-      "retr": 5.6,
+      "retr": 9.0,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
       "lv": {
-        "30": 45.77,
-        "50": 43.29,
-        "70": 40.81
+        "30": 48.17,
+        "50": 45.0,
+        "70": 41.84
       },
       "weeks": 0,
-      "since": 0.0,
+      "since": 5.5,
       "kinds": [
         "D"
       ]
@@ -2984,17 +2958,69 @@
       "name": "Liberty Media Corp",
       "sector": "Communication Services",
       "chg": "+9.55%",
-      "close": 99.72,
-      "high": 101.2,
+      "close": 101.01,
+      "high": 102.0,
       "low": 80.74,
-      "retr": 7.2,
+      "retr": 4.7,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
       "lv": {
-        "30": 95.06,
-        "50": 90.97,
-        "70": 86.88
+        "30": 95.62,
+        "50": 91.37,
+        "70": 87.12
+      },
+      "weeks": 0,
+      "since": 1.3,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "IONQ",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-11-06",
+      "name": "IonQ Inc",
+      "sector": "Technology",
+      "chg": "+23.42%",
+      "close": 32.62,
+      "high": 32.62,
+      "low": 24.92,
+      "retr": 0.0,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 30.31,
+        "50": 28.77,
+        "70": 27.23
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "SITM",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-11-06",
+      "name": "SiTime Corp",
+      "sector": "Technology",
+      "chg": "+17.44%",
+      "close": 416.92,
+      "high": 465.19,
+      "low": 335.0,
+      "retr": 37.1,
+      "zone": "🔔 30~38.2%",
+      "alert": true,
+      "order": 2,
+      "lv": {
+        "30": 426.13,
+        "50": 400.1,
+        "70": 374.06
       },
       "weeks": 0,
       "since": 0.0,
@@ -3003,5 +3029,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-06T12:00:31.839524+00:00"
+  "generated_utc": "2026-11-07T02:51:56.965344+00:00"
 }
