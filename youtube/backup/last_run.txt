@@ -1,3 +1,5 @@
-2026-11-08 00:55 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: 4Gkk5BqjIf0 4일 전 / 6Zq7p54WTNI 5일 전 / DBm1cqv3avc 8일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: _OkpE2mUMBA 22시간 전 / KIej2HG2vmI “한국인들 싹다 속고 있다” 스테이블코인 충격 전망 떴다 앞으로 ‘이렇게’ 될 겁니다｜성상현의 매크로비욘드 9-풀버전 / D5_u0_spL80 5일 전
+2026-11-08 10:34 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: 4Gkk5BqjIf0 4일 전 / 6Zq7p54WTNI 5일 전 / DBm1cqv3avc 9일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: Z7B62o0Hk2k 8시간 전 / _OkpE2mUMBA 1일 전 / KIej2HG2vmI “한국인들 싹다 속고 있다” 스테이블코인 충격 전망 떴다 앞으로 ‘이렇게’ 될 겁니다｜성상현의 매크로비욘드 9-풀버전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.2-flash
+   ✅ 요약: 성상현 (매크로비욘드) · Z7B62o0Hk2k · “미국 중간선거로 폭락?” 앞으로 ‘이렇게’ 됩니다｜성상현의 매크로비욘드 10-2부
