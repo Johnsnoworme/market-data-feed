@@ -1807,6 +1807,32 @@
       ]
     },
     {
+      "ticker": "CTSH",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-16",
+      "name": "Cognizant",
+      "sector": "",
+      "chg": "",
+      "close": 64.72,
+      "high": 73.92,
+      "low": 36.86,
+      "retr": 24.8,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 62.8,
+        "50": 55.39,
+        "70": 47.98
+      },
+      "weeks": 3,
+      "since": -2.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
       "ticker": "SMMT",
       "kind": "D",
       "src": "T",
@@ -2691,32 +2717,6 @@
       ]
     },
     {
-      "ticker": "FN",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-11-03",
-      "name": "Fabrinet",
-      "sector": "Technology",
-      "chg": "+15.45%",
-      "close": 327.13,
-      "high": 371.79,
-      "low": 286.07,
-      "retr": 52.1,
-      "zone": "🔔 50~61.8%",
-      "alert": true,
-      "order": 4,
-      "lv": {
-        "30": 346.07,
-        "50": 328.93,
-        "70": 311.79
-      },
-      "weeks": 0,
-      "since": -10.0,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
       "ticker": "NBIX",
       "kind": "D",
       "src": "T",
@@ -3107,5 +3107,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-08T00:49:31.383630+00:00"
+  "generated_utc": "2026-11-08T00:55:42.429902+00:00"
 }
