@@ -1833,6 +1833,32 @@
       ]
     },
     {
+      "ticker": "SMMT",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-19",
+      "name": "Summit Therapeutics Inc.",
+      "sector": "Health Care",
+      "chg": "+6.43%",
+      "close": 16.33,
+      "high": 16.55,
+      "low": 12.07,
+      "retr": 4.9,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 15.21,
+        "50": 14.31,
+        "70": 13.41
+      },
+      "weeks": 2,
+      "since": 4.9,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "WDC",
       "kind": "D",
       "src": "T",
@@ -3107,5 +3133,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-09T01:14:41.652436+00:00"
+  "generated_utc": "2026-11-09T01:43:53.248184+00:00"
 }

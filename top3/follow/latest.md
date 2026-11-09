@@ -2,7 +2,7 @@
 
 > 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 39개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 92개 · 풀백 31개
+### 🏆 내 Top 3 — 추적 93개 · 풀백 31개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [P](https://finviz.com/quote.ashx?p=w&t=P) | Daily·Weekly | 09-25 (6주 전) | 🔔 61.8~70% (마지막 방어선) | 66% | 96.75 | 129.74 ~ 92.63 (111.19) | -23.2% |
@@ -41,8 +41,8 @@
 > | [REGN](https://finviz.com/quote.ashx?p=w&t=REGN) | Daily | 10-30 (1주 전) | 🔔 30~38.2% | 32% | 904.35 | 910.82 ~ 802.93 (856.88) | -2.5% |
 > | [SITM](https://finviz.com/quote.ashx?p=w&t=SITM) | Daily | 11-06 (0주 전) | 🔔 30~38.2% | 37% | 416.92 | 426.13 ~ 374.06 (400.1) | +0.0% |
 
-> [!note]- 대기 37개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> GKOS 28%, CRL 28%, CMS 26%, NXT 26%, TEM 24%, HUM 21%, ICLR 21%, GMAB 20%, SPOT 19%, CART 19%, MDLN 19%, ALLE 19%, XYZ 19%, CCL 18%, IDXX 18%, H 17%, CCI 17%, GPN 17%, MANH 14%, PCOR 14%, HAS 13%, NBIX 13%, GEN 13%, EFX 12%, TRU 12%, ACN 11%, WIT 10%, U 9%, RCL 9%, MRNA 6%, NTES 6%, FISV 5%, FWONA 5%, FROG 4%, APP 4%, PTC 1%, IONQ 0%
+> [!note]- 대기 38개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
+> GKOS 28%, CRL 28%, CMS 26%, NXT 26%, TEM 24%, HUM 21%, ICLR 21%, GMAB 20%, SPOT 19%, CART 19%, MDLN 19%, ALLE 19%, XYZ 19%, CCL 18%, IDXX 18%, H 17%, CCI 17%, GPN 17%, MANH 14%, PCOR 14%, HAS 13%, NBIX 13%, GEN 13%, EFX 12%, TRU 12%, ACN 11%, WIT 10%, U 9%, RCL 9%, MRNA 6%, NTES 6%, SMMT 5%, FISV 5%, FWONA 5%, FROG 4%, APP 4%, PTC 1%, IONQ 0%
 
 ⚠️ 70% 이탈로 종료: TWST, AKAM, NBIS, ILMN, VIAV, BE, CRDO, VICR, PANW, INIO, FPS, XP, CIEN, PBF, HUBB, ESLT, CRCL, OVV, WDC, SMCI, VG, LITE, CLS, VRT
 
