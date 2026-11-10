@@ -2,13 +2,13 @@
 
 > 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 32개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 95개 · 풀백 23개
+### 🏆 내 Top 3 — 추적 96개 · 풀백 23개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [ILMN](https://finviz.com/quote.ashx?p=w&t=ILMN) | Daily | 09-24 (6주 전) | 🔔 61.8~70% (마지막 방어선) | 68% | 220.78 | 270.21 ~ 218.02 (244.12) | -19.4% |
 | [VICR](https://finviz.com/quote.ashx?p=w&t=VICR) | Weekly·Monthly | 09-30 (5주 전) | 🔔 61.8~70% (마지막 방어선) | 67% | 163.51 | 255.79 ~ 155.5 (205.65) | -43.4% |
 | [FORM](https://finviz.com/quote.ashx?p=w&t=FORM) | Daily·Monthly | 09-30 (5주 전) | 🔔 61.8~70% (마지막 방어선) | 64% | 85.2 | 120.02 ~ 78.48 (99.25) | -42.9% |
-| [PBF](https://finviz.com/quote.ashx?p=w&t=PBF) | Daily | 10-13 (3주 전) | 🔔 61.8~70% (마지막 방어선) | 66% | 69.55 | 82.04 ~ 68.15 (75.1) | -23.7% |
+| [PBF](https://finviz.com/quote.ashx?p=w&t=PBF) | Daily | 10-13 (4주 전) | 🔔 61.8~70% (마지막 방어선) | 66% | 69.55 | 82.04 ~ 68.15 (75.1) | -23.7% |
 | [BSP](https://finviz.com/quote.ashx?p=w&t=BSP) | Daily | 10-14 (3주 전) | 🔔 61.8~70% (마지막 방어선) | 64% | 41.54 | 51.08 ~ 39.85 (45.47) | -22.3% |
 | [AR](https://finviz.com/quote.ashx?p=w&t=AR) | Daily | 10-16 (3주 전) | 🔔 61.8~70% (마지막 방어선) | 66% | 36.36 | 39.86 ~ 36.01 (37.93) | -5.9% |
 | [EQNR](https://finviz.com/quote.ashx?p=w&t=EQNR) | Daily | 10-16 (3주 전) | 🔔 61.8~70% (마지막 방어선) | 69% | 41.12 | 45.61 ~ 40.98 (43.3) | -12.5% |
@@ -27,7 +27,7 @@
 > | [FICO](https://finviz.com/quote.ashx?p=w&t=FICO) | Daily | 10-12 (4주 전) | 🔔 38.2~50% | 43% | 723.76 | 756.08 ~ 658.92 (707.5) | -2.2% |
 > | [MTB](https://finviz.com/quote.ashx?p=w&t=MTB) | Daily | 10-12 (4주 전) | 🔔 38.2~50% | 40% | 222.73 | 224.49 ~ 217.19 (220.84) | +1.3% |
 > | [PAYP](https://finviz.com/quote.ashx?p=w&t=PAYP) | Daily | 10-16 (3주 전) | 🔔 38.2~50% | 39% | 15.4 | 15.62 ~ 14.62 (15.12) | -1.8% |
-> | [TLK](https://finviz.com/quote.ashx?p=w&t=TLK) | Daily | 10-20 (2주 전) | 🔔 38.2~50% | 44% | 11.4 | 11.71 ~ 10.82 (11.26) | -2.1% |
+> | [TLK](https://finviz.com/quote.ashx?p=w&t=TLK) | Daily | 10-20 (3주 전) | 🔔 38.2~50% | 44% | 11.4 | 11.71 ~ 10.82 (11.26) | -2.1% |
 > | [RRC](https://finviz.com/quote.ashx?p=w&t=RRC) | Daily | 10-26 (2주 전) | 🔔 38.2~50% | 40% | 48.85 | 50.86 ~ 42.8 (46.83) | -8.8% |
 > | [SNPS](https://finviz.com/quote.ashx?p=w&t=SNPS) | Daily | 10-01 (5주 전) | 🔔 30~38.2% | 30% | 466.97 | 467.51 ~ 407.53 (437.52) | -4.8% |
 > | [HUM](https://finviz.com/quote.ashx?p=w&t=HUM) | Daily | 10-09 (4주 전) | 🔔 30~38.2% | 32% | 423.22 | 424.75 ~ 383.72 (404.24) | -1.8% |
@@ -36,7 +36,7 @@
 > [!note]- 대기 53개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
 > PS 30%, ERIC 28%, REGN 27%, SOFI 26%, NXT 26%, TLN 25%, CMS 22%, UTHR 22%, CCI 20%, FDXF 20%, R 18%, CART 18%, CDW 18%, CRL 17%, ACN 17%, ICLR 17%, U 16%, SPOT 16%, MANH 16%, GPN 15%, GKOS 15%, EFX 14%, H 14%, GMAB 13%, FTAI 13%, GEN 13%, WIT 13%, PCOR 10%, ALLE 9%, SITM 9%, IONQ 9%, MDLN 9%, QXO 8%, HAS 8%, FN 7%, COHR 6%, CCL 6%, MRNA 5%, SMMT 5%, XYZ 5%, NTES 5%, RCL 4%, QNT 4%, TRU 4%, TEM 4%, IDXX 3%, MPWR 3%, NBIX 3%, FISV 3%, APP 2%, FROG 1%, FWONA 1%, PTC 0%
 
-⚠️ 70% 이탈로 종료: AKAM, NBIS, VIAV, BE, CRDO, PANW, INIO, FPS, XP, CIEN, HUBB, CRCL, OVV, WDC, SMCI, VG, LITE, CLS, VRT
+⚠️ 70% 이탈로 종료: AKAM, NBIS, VIAV, BE, CRDO, PANW, IBRX, INIO, FPS, XP, CIEN, HUBB, CRCL, OVV, WDC, SMCI, VG, LITE, CLS, VRT
 
 ### 🧭 김종봉 후보 — 추적 27개 · 풀백 9개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
