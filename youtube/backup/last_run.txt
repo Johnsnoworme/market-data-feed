@@ -1,8 +1,7 @@
-2026-11-10 11:24 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: ra5nRE3x9qk 21분 전 / ucXMFfhriSw 23시간 전 / 4Gkk5BqjIf0 6일 전
+2026-11-10 21:21 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: ra5nRE3x9qk 10시간 전 / ucXMFfhriSw 1일 전 / 4Gkk5BqjIf0 7일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: LI9zF1vVk54 11시간 전 / Z7B62o0Hk2k 2일 전 / _OkpE2mUMBA 3일 전
    사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.2-flash
-   ✅ 요약: 소수몽키 · ra5nRE3x9qk · 트럼프 관련주 총공세 예고한 민주당, 조심할 주식과 주목할 주식들
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: LI9zF1vVk54 1시간 전 / Z7B62o0Hk2k 2일 전 / _OkpE2mUMBA 3일 전
    Gemini 실패 LI9zF1vVk54: gemini-3.8-flash: HTTP 503 {
   "error": {
     "code": 503,
@@ -10,4 +9,3 @@
   "error": {
     "code": 404,
     "message": "This model models/gemini-2.5-flash 
-   ⏳ 대기: 성상현 (매크로비욘드) · LI9zF1vVk54 · 200조 유동성 폭탄 준비중. 곧 미국에서 엄청난 게 온다｜성상현의 매크로비욘드 11부
