@@ -2,7 +2,7 @@
 
 > 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 32개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 95개 · 풀백 23개
+### 🏆 내 Top 3 — 추적 96개 · 풀백 23개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [ILMN](https://finviz.com/quote.ashx?p=w&t=ILMN) | Daily | 09-24 (6주 전) | 🔔 61.8~70% (마지막 방어선) | 68% | 220.78 | 270.21 ~ 218.02 (244.12) | -19.4% |
@@ -33,12 +33,12 @@
 > | [HUM](https://finviz.com/quote.ashx?p=w&t=HUM) | Daily | 10-09 (4주 전) | 🔔 30~38.2% | 32% | 423.22 | 424.75 ~ 383.72 (404.24) | -1.8% |
 > | [FCNCA](https://finviz.com/quote.ashx?p=w&t=FCNCA) | Daily | 10-12 (4주 전) | 🔔 30~38.2% | 33% | 2290.07 | 2304.07 ~ 2136.23 (2220.15) | +10.0% |
 
-> [!note]- 대기 52개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> PS 30%, ERIC 28%, REGN 27%, SOFI 26%, NXT 26%, TLN 25%, CMS 22%, UTHR 22%, CCI 20%, FDXF 20%, R 18%, CART 18%, CDW 18%, CRL 17%, ACN 17%, ICLR 17%, U 16%, SPOT 16%, MANH 16%, GPN 15%, GKOS 15%, EFX 14%, H 14%, FTAI 13%, GEN 13%, WIT 13%, PCOR 10%, ALLE 9%, SITM 9%, IONQ 9%, MDLN 9%, QXO 8%, HAS 8%, FN 7%, COHR 6%, CCL 6%, MRNA 5%, SMMT 5%, XYZ 5%, NTES 5%, RCL 4%, QNT 4%, TRU 4%, TEM 4%, IDXX 3%, MPWR 3%, NBIX 3%, FISV 3%, APP 2%, FROG 1%, FWONA 1%, PTC 0%
+> [!note]- 대기 53개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
+> PS 30%, ERIC 28%, REGN 27%, SOFI 26%, NXT 26%, TLN 25%, CMS 22%, UTHR 22%, CCI 20%, FDXF 20%, R 18%, CART 18%, CDW 18%, CRL 17%, ACN 17%, ICLR 17%, U 16%, SPOT 16%, MANH 16%, GPN 15%, GKOS 15%, EFX 14%, H 14%, GMAB 13%, FTAI 13%, GEN 13%, WIT 13%, PCOR 10%, ALLE 9%, SITM 9%, IONQ 9%, MDLN 9%, QXO 8%, HAS 8%, FN 7%, COHR 6%, CCL 6%, MRNA 5%, SMMT 5%, XYZ 5%, NTES 5%, RCL 4%, QNT 4%, TRU 4%, TEM 4%, IDXX 3%, MPWR 3%, NBIX 3%, FISV 3%, APP 2%, FROG 1%, FWONA 1%, PTC 0%
 
 ⚠️ 70% 이탈로 종료: AKAM, NBIS, VIAV, BE, CRDO, PANW, IBRX, INIO, FPS, XP, CIEN, HUBB, CRCL, OVV, WDC, SMCI, VG, LITE, CLS, VRT
 
-### 🧭 김종봉 후보 — 추적 26개 · 풀백 9개
+### 🧭 김종봉 후보 — 추적 27개 · 풀백 9개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [ESLT](https://finviz.com/quote.ashx?p=w&t=ESLT) | 주간 | 10-16 (3주 전) | 🔔 50~61.8% | 56% | 721.93 | 765.5 ~ 699.32 (732.41) | -4.4% |
@@ -51,7 +51,7 @@
 | [FICO](https://finviz.com/quote.ashx?p=w&t=FICO) | 주간 | 10-23 (2주 전) | 🔔 38.2~50% | 43% | 723.76 | 756.08 ~ 658.92 (707.5) | -11.2% |
 | [RRC](https://finviz.com/quote.ashx?p=w&t=RRC) | 주간 | 10-30 (1주 전) | 🔔 30~38.2% | 36% | 48.85 | 50.27 ~ 41.42 (45.84) | -10.6% |
 
-> [!note]- 대기 17개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> INFY 29%, CTSH 28%, WDAY 22%, DOCU 18%, ROP 18%, AVTR 15%, EFX 14%, VEEV 11%, WCN 11%, GKOS 11%, ICLR 10%, MANH 8%, PCOR 8%, HAS 6%, TRU 4%, FISV 3%, APP 2%
+> [!note]- 대기 18개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
+> INFY 29%, CTSH 28%, WDAY 22%, DOCU 18%, ROP 18%, AVTR 15%, EFX 14%, VEEV 11%, WCN 11%, GKOS 11%, ICLR 10%, MANH 8%, PCOR 8%, HAS 6%, TRU 4%, GMAB 3%, FISV 3%, APP 2%
 
 > 알림 = '지켜볼 자리'. 진입은 7개 룰을 차트로 직접 확인 · 옵션: 9~12개월 ATM, +100% 익절 / 6개월 안 정리, 종가 70% 이탈 = 정리 ([[2026-09-28 레이더 백테스트 보고서]])

@@ -2093,6 +2093,32 @@
       ]
     },
     {
+      "ticker": "GMAB",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-28",
+      "name": "Genmab ADR",
+      "sector": "Healthcare",
+      "chg": "+28.25%",
+      "close": 55.8,
+      "high": 59.97,
+      "low": 28.09,
+      "retr": 13.1,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 50.41,
+        "50": 44.03,
+        "70": 37.65
+      },
+      "weeks": 1,
+      "since": -2.6,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "VG",
       "kind": "D",
       "src": "T",
@@ -2977,6 +3003,32 @@
       ]
     },
     {
+      "ticker": "GMAB",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-06",
+      "name": "Genmab A/S",
+      "sector": "",
+      "chg": "",
+      "close": 55.8,
+      "high": 56.84,
+      "low": 23.62,
+      "retr": 3.1,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 46.87,
+        "50": 40.23,
+        "70": 33.59
+      },
+      "weeks": 0,
+      "since": 4.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
       "ticker": "GKOS",
       "kind": "J",
       "src": "J",
@@ -3159,5 +3211,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-10T04:18:39.214082+00:00"
+  "generated_utc": "2026-11-10T04:39:25.658986+00:00"
 }
