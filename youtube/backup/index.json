@@ -454,5 +454,29 @@
     "tries": 0,
     "error": "",
     "updated_utc": "2026-11-09T23:48:44+00:00"
+  },
+  "ra5nRE3x9qk": {
+    "ch": "sosumonkey",
+    "title": "트럼프 관련주 총공세 예고한 민주당, 조심할 주식과 주목할 주식들",
+    "name": "2026-11-10 트럼프 관련주 총공세 예고한 민주당, 조심할 주식과 주목할 주식들",
+    "daily": "2026-11-11",
+    "published_utc": "2026-11-10T11:03:41.488745+00:00",
+    "status": "done",
+    "model": "gemini-3.8-flash",
+    "tries": 0,
+    "error": "",
+    "updated_utc": "2026-11-10T11:24:41+00:00"
+  },
+  "LI9zF1vVk54": {
+    "ch": "ssh",
+    "title": "200조 유동성 폭탄 준비중. 곧 미국에서 엄청난 게 온다｜성상현의 매크로비욘드 11부",
+    "name": "2026-11-10 200조 유동성 폭탄 준비중. 곧 미국에서 엄청난 게 온다｜성상현의 매크",
+    "daily": "2026-11-11",
+    "published_utc": "2026-11-10T10:24:41.488745+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-10T11:24:41+00:00"
   }
 }
