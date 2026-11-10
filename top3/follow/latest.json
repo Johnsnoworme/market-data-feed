@@ -792,33 +792,6 @@
       ]
     },
     {
-      "ticker": "IBRX",
-      "kind": "W",
-      "src": "T",
-      "date": "2026-10-02",
-      "name": "ImmunityBio Inc",
-      "sector": "Healthcare",
-      "chg": "+21.86%",
-      "close": 7.11,
-      "high": 10.81,
-      "low": 6.65,
-      "retr": 88.9,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
-      "lv": {
-        "30": 9.56,
-        "50": 8.73,
-        "70": 7.9
-      },
-      "weeks": 5,
-      "since": -30.9,
-      "kinds": [
-        "D",
-        "W"
-      ]
-    },
-    {
       "ticker": "INIO",
       "kind": "D",
       "src": "T",
@@ -3211,5 +3184,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-10T04:39:25.658986+00:00"
+  "generated_utc": "2026-11-10T04:47:19.210560+00:00"
 }
