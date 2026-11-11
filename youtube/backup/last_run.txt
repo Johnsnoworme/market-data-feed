@@ -1,3 +1,5 @@
-2026-11-11 11:12 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: ra5nRE3x9qk 1일 전 / ucXMFfhriSw 1일 전 / 4Gkk5BqjIf0 7일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: yszxS2Hu0Mo “닷컴버블이랑 똑같다?” 미국에 싹다 퍼진 충격 전망 앞으로 ‘이렇게’ 됩니다｜성상현의 매크로비욘드 10-풀버전 / LI9zF1vVk54 1일 전 / Z7B62o0Hk2k 3일 전
+2026-11-11 22:03 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: gNm_uU33nOk 9시간 전 / ra5nRE3x9qk 1일 전 / ucXMFfhriSw 2일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.2-flash
+   ✅ 요약: 소수몽키 · gNm_uU33nOk · 20년 전 부시 행정부와 똑같다? 초강경 모드 진입한 트럼프, 분위기 바꿀까
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: yszxS2Hu0Mo 중간선거로 폭락한 지금 하늘이 준 기회 왔습니다｜성상현의 매크로비욘드 10-풀버전 / LI9zF1vVk54 1일 전 / Z7B62o0Hk2k 3일 전
