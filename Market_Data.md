@@ -1,9 +1,9 @@
 # Market Data
 
-> 마지막 업데이트: 2026-11-11 02:58:59 UTC (데이터 출처: Finviz)
+> 마지막 업데이트: 2026-11-11 08:20:45 UTC (데이터 출처: Finviz)
 
 ## Fear & Greed Index
-33.5 / 100 (Fear)
+33.8 / 100 (Fear)
 
 ## Daily Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
