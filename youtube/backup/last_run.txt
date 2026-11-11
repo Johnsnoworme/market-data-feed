@@ -1,11 +1,5 @@
-2026-11-10 21:21 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: ra5nRE3x9qk 10시간 전 / ucXMFfhriSw 1일 전 / 4Gkk5BqjIf0 7일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: LI9zF1vVk54 11시간 전 / Z7B62o0Hk2k 2일 전 / _OkpE2mUMBA 3일 전
+2026-11-11 01:29 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: ra5nRE3x9qk 14시간 전 / ucXMFfhriSw 1일 전 / 4Gkk5BqjIf0 7일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: LI9zF1vVk54 15시간 전 / Z7B62o0Hk2k 2일 전 / _OkpE2mUMBA 3일 전
    사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.2-flash
-   Gemini 실패 LI9zF1vVk54: gemini-3.8-flash: HTTP 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash 
+   ✅ 요약: 성상현 (매크로비욘드) · LI9zF1vVk54 · 1985년 이후 최악의 급락. 나스닥 블랙아웃 '이때' 끝난다｜성상현의 매크로비욘드 11부

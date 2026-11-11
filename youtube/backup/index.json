@@ -469,14 +469,14 @@
   },
   "LI9zF1vVk54": {
     "ch": "ssh",
-    "title": "200조 유동성 폭탄 준비중. 곧 미국에서 엄청난 게 온다｜성상현의 매크로비욘드 11부",
-    "name": "2026-11-10 200조 유동성 폭탄 준비중. 곧 미국에서 엄청난 게 온다｜성상현의 매크",
+    "title": "1985년 이후 최악의 급락. 나스닥 블랙아웃 '이때' 끝난다｜성상현의 매크로비욘드 11부",
+    "name": "2026-11-10 1985년 이후 최악의 급락. 나스닥 블랙아웃 '이때' 끝난다｜성상현의",
     "daily": "2026-11-11",
     "published_utc": "2026-11-10T10:24:41.488745+00:00",
-    "status": "stub",
-    "model": "",
+    "status": "done",
+    "model": "gemini-3.8-flash",
     "tries": 2,
-    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
-    "updated_utc": "2026-11-10T11:24:41+00:00"
+    "error": "",
+    "updated_utc": "2026-11-11T01:29:25+00:00"
   }
 }
