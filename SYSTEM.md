@@ -142,3 +142,14 @@
 | ④ 상식 문 | Finviz에서 엉뚱한 칸을 읽음 (티커 형식·순서·크기 이상) | cloud_market_data.get_finviz_top3 |
 | ⑤ 알림 문 | 백업으로 돌았음 ⚠️ / 보통주 아닌 종목 ❌ / 결과물 없음 ❌ | health_check.py (3시간마다) |
 - 실측(2026-10-21 guard_probe): 평소 채움 99.9~100% → 90% 기준은 정상일에 오작동 안 함. 다시 재려면 Actions → "Guard Probe (manual)" 실행 → health/guard_probe.md
+
+## 🔭 조기 레이더 (2026-11-12 추가 — Top 3의 앞 단계, 기록 전용)
+- 왜: Top 3는 $10B+만 봄 → 샌디스크·블룸에너지·모더나(바닥 때)는 $10B가 되기 전엔 안 보였음. 기존 Top 3·김종봉·풀백 추적은 그대로 두고 한 칸만 덧붙임.
+- `early_radar.py` + `.github/workflows/early_radar.yml` (UTC 21:52 / 23:26 / 01:48 / 05:14, Finviz만 사용 · Claude 토큰 0)
+  - 🎓 졸업 후보 Top 3: Finviz Mid($2B~$10B, `f=cap_mid`) Perf Week / Perf Month 상위 3개 (보통주만, 섹터 제한 없음 → 바이오도 잡힘. 🌱 소형 병목 레이더는 전력·AI 칩만 봄)
+  - 🏭 업종 Top 3: Finviz Groups → Industry 상위 3개
+  - 🔁 반복 등장: 최근 8주 Daily Top 3(뉴욕 거래일 기준)·Weekly Top 3·졸업 후보에 2번 이상 나온 종목 (최대 8개)
+- 저장: `early/weekly/2026-W46.md`, `early/monthly/2026-11.md` — 그 주/달 마지막 뉴욕 거래일 장 마감 뒤 한 번만, 다시 안 바뀜. 하나라도 못 읽으면 저장 안 하고 다음 실행에 재시도(Actions 빨간색).
+- 테스트: Actions → Early Radar → Run workflow → `early/_test.md` (지금 화면 그대로, 확정 기록 아님). Finviz 화면이 바뀌면 `early/_debug_*.html` 확인.
+- Obsidian: Weekly/Monthly 템플릿 **맨 아래**에 `## 🔭 조기 레이더` 칸 추가(기존 코드는 그대로), `_Startup_AutoCreate` 11번이 `> 🕒 아직 조기 레이더 결과가 없어요` 줄을 나중에 채움. 원본 백업: `Backup/🔭 조기레이더_추가전_백업_2026-11-12/`
+- 아직 안 한 것: 🩺 건강검진에 조기 레이더 감시 추가 · Events Log에 졸업 후보 촉매 날짜 넣기
