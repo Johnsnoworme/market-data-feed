@@ -1,0 +1,43 @@
+name: Early Radar (🔭 조기 레이더)
+
+on:
+  schedule:
+    # 2026-11-12 추가: Top 3($10B+) 앞 단계 — 졸업 후보($2B~$10B) · 업종 Top 3 · 반복 등장
+    # 매일 뉴욕 장 마감 뒤(UTC 고정) 실행하지만, 주/달의 마지막 거래일에만 확정 기록을 만든다.
+    # 이미 저장된 주/달은 절대 다시 안 씀 → 여러 번 돌아도 숫자는 그대로. (Finviz만 사용, Claude 토큰 0)
+    - cron: '52 21 * * *'
+    - cron: '26 23 * * *'
+    - cron: '48 1 * * *'
+    - cron: '14 5 * * *'
+  push:
+    paths:
+      - 'early_radar.py'
+      - '.github/workflows/early_radar.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  early:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install yfinance pandas lxml requests
+      - name: Run early radar
+        id: run
+        continue-on-error: true
+        env:
+          # 코드를 고쳤을 때(push)와 수동 실행 때는 지금 화면 그대로 early/_test.md 도 만든다
+          EARLY_TEST: ${{ github.event_name != 'schedule' && '1' || '0' }}
+        run: python early_radar.py
+      - run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add early
+          git diff --staged --quiet || (git commit -m "Early radar" && git pull --rebase && git push)
+      - if: steps.run.outcome == 'failure'
+        run: exit 1
