@@ -5,7 +5,7 @@
 ### 🏆 내 Top 3 — 추적 100개 · 풀백 25개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
-| [TWST](https://finviz.com/quote.ashx?p=w&t=TWST) | Daily·Weekly | 09-24 (6주 전) | 🔔 61.8~70% (마지막 방어선) | 70% | 122.59 | 177.97 ~ 122.33 (150.15) | -33.4% |
+| [TWST](https://finviz.com/quote.ashx?p=w&t=TWST) | Daily·Weekly | 09-24 (7주 전) | 🔔 61.8~70% (마지막 방어선) | 70% | 122.59 | 177.97 ~ 122.33 (150.15) | -33.4% |
 | [BE](https://finviz.com/quote.ashx?p=w&t=BE) | Daily | 09-29 (6주 전) | 🔔 61.8~70% (마지막 방어선) | 64% | 209.47 | 258.85 ~ 200.84 (229.84) | -28.1% |
 | [VICR](https://finviz.com/quote.ashx?p=w&t=VICR) | Weekly·Monthly | 09-30 (6주 전) | 🔔 61.8~70% (마지막 방어선) | 65% | 168.1 | 255.79 ~ 155.5 (205.65) | -41.8% |
 | [PBF](https://finviz.com/quote.ashx?p=w&t=PBF) | Daily | 10-13 (4주 전) | 🔔 61.8~70% (마지막 방어선) | 66% | 69.73 | 82.04 ~ 68.15 (75.1) | -23.5% |
@@ -20,7 +20,7 @@
 > | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 > | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 > | [FORM](https://finviz.com/quote.ashx?p=w&t=FORM) | Daily·Monthly | 09-30 (6주 전) | 🔔 50~61.8% | 53% | 95.78 | 120.02 ~ 78.48 (99.25) | -35.9% |
-> | [CSGP](https://finviz.com/quote.ashx?p=w&t=CSGP) | Daily | 10-08 (4주 전) | 🔔 50~61.8% | 55% | 30.27 | 32.71 ~ 28.81 (30.76) | +1.5% |
+> | [CSGP](https://finviz.com/quote.ashx?p=w&t=CSGP) | Daily | 10-08 (5주 전) | 🔔 50~61.8% | 55% | 30.27 | 32.71 ~ 28.81 (30.76) | +1.5% |
 > | [MTB](https://finviz.com/quote.ashx?p=w&t=MTB) | Daily | 10-12 (4주 전) | 🔔 50~61.8% | 54% | 220.19 | 224.49 ~ 217.19 (220.84) | +0.1% |
 > | [FRO](https://finviz.com/quote.ashx?p=w&t=FRO) | Daily | 10-12 (4주 전) | 🔔 50~61.8% | 56% | 45.54 | 52.15 ~ 42.03 (47.09) | -23.1% |
 > | [ESLT](https://finviz.com/quote.ashx?p=w&t=ESLT) | Daily | 10-14 (4주 전) | 🔔 50~61.8% | 54% | 725.44 | 765.5 ~ 699.32 (732.41) | +3.4% |
@@ -31,7 +31,7 @@
 > | [FICO](https://finviz.com/quote.ashx?p=w&t=FICO) | Daily | 10-12 (4주 전) | 🔔 38.2~50% | 41% | 728.85 | 756.08 ~ 658.92 (707.5) | -1.5% |
 > | [AR](https://finviz.com/quote.ashx?p=w&t=AR) | Daily | 10-16 (3주 전) | 🔔 38.2~50% | 47% | 38.21 | 39.86 ~ 36.01 (37.93) | -1.1% |
 > | [TLK](https://finviz.com/quote.ashx?p=w&t=TLK) | Daily | 10-20 (3주 전) | 🔔 38.2~50% | 43% | 11.43 | 11.71 ~ 10.82 (11.26) | -1.8% |
-> | [SNPS](https://finviz.com/quote.ashx?p=w&t=SNPS) | Daily | 10-01 (5주 전) | 🔔 30~38.2% | 34% | 462.12 | 467.51 ~ 407.53 (437.52) | -5.8% |
+> | [SNPS](https://finviz.com/quote.ashx?p=w&t=SNPS) | Daily | 10-01 (6주 전) | 🔔 30~38.2% | 34% | 462.12 | 467.51 ~ 407.53 (437.52) | -5.8% |
 > | [SOFI](https://finviz.com/quote.ashx?p=w&t=SOFI) | Daily | 10-27 (2주 전) | 🔔 30~38.2% | 38% | 16.27 | 16.58 ~ 15.02 (15.8) | -0.8% |
 > | [NXT](https://finviz.com/quote.ashx?p=w&t=NXT) | Daily | 11-02 (1주 전) | 🔔 30~38.2% | 36% | 100.59 | 103.12 ~ 87.28 (95.2) | +10.4% |
 
