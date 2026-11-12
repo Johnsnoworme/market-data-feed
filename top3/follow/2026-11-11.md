@@ -2,7 +2,7 @@
 
 > 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 34개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 100개 · 풀백 25개
+### 🏆 내 Top 3 — 추적 99개 · 풀백 25개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [TWST](https://finviz.com/quote.ashx?p=w&t=TWST) | Daily·Weekly | 09-24 (6주 전) | 🔔 61.8~70% (마지막 방어선) | 70% | 122.59 | 177.97 ~ 122.33 (150.15) | -33.4% |
@@ -38,7 +38,7 @@
 > [!note]- 대기 58개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
 > ICLR 28%, FCNCA 27%, U 27%, ERIC 27%, RRC 25%, FTAI 25%, SMMT 25%, CRL 24%, QNT 23%, CMS 22%, XYZ 22%, FLUT 21%, IONQ 20%, GMAB 19%, ACN 18%, TEM 17%, SNDK 16%, CCI 16%, SPOT 16%, CART 16%, MRNA 15%, EFX 14%, SITM 14%, COHR 13%, R 13%, UTHR 13%, REGN 12%, NBIS 12%, TTWO 11%, FN 11%, TLN 11%, GPN 11%, FROG 10%, WIT 10%, HUM 9%, MPWR 9%, FDXF 9%, TRU 8%, ALLE 8%, QXO 8%, GKOS 7%, CCL 7%, PCOR 7%, MANH 6%, RCL 6%, CRWV 6%, GEN 5%, IDXX 5%, APP 5%, CDW 4%, H 4%, MDLN 3%, HAS 2%, PTC 1%, FISV 1%, FWONA 0%, NBIX 0%, CHTR 0%
 
-⚠️ 70% 이탈로 종료: AKAM, ILMN, VIAV, CRDO, PANW, IBRX, INIO, FPS, XP, CIEN, HUBB, CRCL, WDC, VG, LITE, CLS, VRT
+⚠️ 70% 이탈로 종료: AKAM, ILMN, VIAV, CRDO, PANW, IBRX, INIO, FPS, XP, CIEN, HUBB, CRCL, VG, LITE, CLS, VRT
 
 ### 🧭 김종봉 후보 — 추적 27개 · 풀백 9개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
