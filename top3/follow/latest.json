@@ -556,6 +556,32 @@
       ]
     },
     {
+      "ticker": "PANW",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-09-28",
+      "name": "Palo Alto Networks Inc",
+      "sector": "Technology",
+      "chg": "+4.63%",
+      "close": 322.66,
+      "high": 432.33,
+      "low": 308.54,
+      "retr": 88.6,
+      "zone": "⚠️ 70% 이탈 → 종료",
+      "alert": false,
+      "order": 8,
+      "lv": {
+        "30": 395.19,
+        "50": 370.43,
+        "70": 345.68
+      },
+      "weeks": 6,
+      "since": -17.7,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "CCL",
       "kind": "W",
       "src": "T",
@@ -3367,5 +3393,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-13T02:53:22.132925+00:00"
+  "generated_utc": "2026-11-13T03:27:10.676384+00:00"
 }
