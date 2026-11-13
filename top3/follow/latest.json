@@ -556,32 +556,6 @@
       ]
     },
     {
-      "ticker": "PANW",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-09-28",
-      "name": "Palo Alto Networks Inc",
-      "sector": "Technology",
-      "chg": "+4.63%",
-      "close": 322.66,
-      "high": 432.33,
-      "low": 308.54,
-      "retr": 88.6,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
-      "lv": {
-        "30": 395.19,
-        "50": 370.43,
-        "70": 345.68
-      },
-      "weeks": 6,
-      "since": -17.7,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
       "ticker": "CCL",
       "kind": "W",
       "src": "T",
@@ -2119,6 +2093,32 @@
       ]
     },
     {
+      "ticker": "VG",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-23",
+      "name": "Venture Global Inc",
+      "sector": "Energy",
+      "chg": "+9.29%",
+      "close": 13.26,
+      "high": 15.12,
+      "low": 11.76,
+      "retr": 55.4,
+      "zone": "🔔 50~61.8%",
+      "alert": true,
+      "order": 4,
+      "lv": {
+        "30": 14.11,
+        "50": 13.44,
+        "70": 12.77
+      },
+      "weeks": 2,
+      "since": -5.3,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "CART",
       "kind": "D",
       "src": "T",
@@ -3367,5 +3367,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-13T02:38:06.201655+00:00"
+  "generated_utc": "2026-11-13T02:53:22.132925+00:00"
 }
