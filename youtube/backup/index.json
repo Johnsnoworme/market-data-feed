@@ -490,5 +490,17 @@
     "tries": 0,
     "error": "",
     "updated_utc": "2026-11-11T22:03:48+00:00"
+  },
+  "nGhH0obpfB4": {
+    "ch": "ssh",
+    "title": "\"AI 다음은 무조건 여기” 돈이 몰릴 산업의 결정적 신호｜성상현의 매크로비욘드(박병수 현대자동차 책임연구원 1부)",
+    "name": "2026-11-13 AI 다음은 무조건 여기” 돈이 몰릴 산업의 결정적 신호｜성상현의 매크로",
+    "daily": "2026-11-14",
+    "published_utc": "2026-11-13T10:14:30.412968+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-13T11:14:30+00:00"
   }
 }
