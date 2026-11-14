@@ -737,6 +737,32 @@
       ]
     },
     {
+      "ticker": "FICO",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-12",
+      "name": "Fair Isaac Corp",
+      "sector": "Technology",
+      "chg": "+10.85%",
+      "close": 720.19,
+      "high": 828.95,
+      "low": 586.05,
+      "retr": 44.8,
+      "zone": "🔔 38.2~50%",
+      "alert": true,
+      "order": 3,
+      "lv": {
+        "30": 756.08,
+        "50": 707.5,
+        "70": 658.92
+      },
+      "weeks": 4,
+      "since": -2.7,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "IBRX",
       "kind": "W",
       "src": "T",
@@ -2113,6 +2139,32 @@
       "since": 4.3,
       "kinds": [
         "D"
+      ]
+    },
+    {
+      "ticker": "FICO",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-23",
+      "name": "Fair Isaac",
+      "sector": "",
+      "chg": "",
+      "close": 720.19,
+      "high": 828.95,
+      "low": 586.05,
+      "retr": 44.8,
+      "zone": "🔔 38.2~50%",
+      "alert": true,
+      "order": 3,
+      "lv": {
+        "30": 756.08,
+        "50": 707.5,
+        "70": 658.92
+      },
+      "weeks": 3,
+      "since": -11.7,
+      "kinds": [
+        "J"
       ]
     },
     {
@@ -3546,5 +3598,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-14T07:59:23.320811+00:00"
+  "generated_utc": "2026-11-14T09:21:05.828522+00:00"
 }
