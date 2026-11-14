@@ -2,87 +2,6 @@
   "ny_date": "2026-11-13",
   "rows": [
     {
-      "ticker": "PS",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-09-28",
-      "name": "Pershing Square Inc",
-      "sector": "Financial",
-      "chg": "+5.36%",
-      "close": 44.71,
-      "high": 60.29,
-      "low": 32.19,
-      "retr": 55.4,
-      "zone": "🔔 50~61.8%",
-      "alert": true,
-      "order": 4,
-      "lv": {
-        "30": 51.86,
-        "50": 46.24,
-        "70": 40.62
-      },
-      "weeks": 6,
-      "since": -24.3,
-      "kinds": [
-        "D",
-        "W"
-      ]
-    },
-    {
-      "ticker": "TEM",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-11-02",
-      "name": "Tempus AI Inc",
-      "sector": "Healthcare",
-      "chg": "+8.67%",
-      "close": 71.6,
-      "high": 85.75,
-      "low": 49.35,
-      "retr": 38.9,
-      "zone": "🔔 38.2~50%",
-      "alert": true,
-      "order": 3,
-      "lv": {
-        "30": 74.83,
-        "50": 67.55,
-        "70": 60.27
-      },
-      "weeks": 1,
-      "since": -8.8,
-      "kinds": [
-        "D",
-        "W"
-      ]
-    },
-    {
-      "ticker": "TWST",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-09-24",
-      "name": "Twist Bioscience Corp",
-      "sector": "Healthcare",
-      "chg": "+16.11%",
-      "close": 111.6,
-      "high": 219.71,
-      "low": 80.59,
-      "retr": 77.7,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
-      "lv": {
-        "30": 177.97,
-        "50": 150.15,
-        "70": 122.33
-      },
-      "weeks": 7,
-      "since": -39.4,
-      "kinds": [
-        "D",
-        "W"
-      ]
-    },
-    {
       "ticker": "AKAM",
       "kind": "D",
       "src": "T",
@@ -156,6 +75,32 @@
       },
       "weeks": 7,
       "since": 13.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "TWST",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-09-24",
+      "name": "Twist Bioscience Corp",
+      "sector": "Healthcare",
+      "chg": "+16.11%",
+      "close": 111.6,
+      "high": 219.71,
+      "low": 80.59,
+      "retr": 77.7,
+      "zone": "⚠️ 70% 이탈 → 종료",
+      "alert": false,
+      "order": 8,
+      "lv": {
+        "30": 177.97,
+        "50": 150.15,
+        "70": 122.33
+      },
+      "weeks": 7,
+      "since": -39.4,
       "kinds": [
         "D"
       ]
@@ -530,6 +475,32 @@
       ]
     },
     {
+      "ticker": "PS",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-09-28",
+      "name": "Pershing Square Inc",
+      "sector": "Financial",
+      "chg": "+5.36%",
+      "close": 44.71,
+      "high": 60.29,
+      "low": 32.19,
+      "retr": 55.4,
+      "zone": "🔔 50~61.8%",
+      "alert": true,
+      "order": 4,
+      "lv": {
+        "30": 51.86,
+        "50": 46.24,
+        "70": 40.62
+      },
+      "weeks": 6,
+      "since": -24.3,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "NTES",
       "kind": "D",
       "src": "T",
@@ -761,32 +732,6 @@
       },
       "weeks": 6,
       "since": -7.2,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
-      "ticker": "FICO",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-10-12",
-      "name": "Fair Isaac Corp",
-      "sector": "Technology",
-      "chg": "+10.85%",
-      "close": 720.19,
-      "high": 828.95,
-      "low": 586.05,
-      "retr": 44.8,
-      "zone": "🔔 38.2~50%",
-      "alert": true,
-      "order": 3,
-      "lv": {
-        "30": 756.08,
-        "50": 707.5,
-        "70": 658.92
-      },
-      "weeks": 4,
-      "since": -2.7,
       "kinds": [
         "D"
       ]
@@ -2171,32 +2116,6 @@
       ]
     },
     {
-      "ticker": "FICO",
-      "kind": "J",
-      "src": "J",
-      "date": "2026-10-23",
-      "name": "Fair Isaac",
-      "sector": "",
-      "chg": "",
-      "close": 720.19,
-      "high": 828.95,
-      "low": 586.05,
-      "retr": 44.8,
-      "zone": "🔔 38.2~50%",
-      "alert": true,
-      "order": 3,
-      "lv": {
-        "30": 756.08,
-        "50": 707.5,
-        "70": 658.92
-      },
-      "weeks": 3,
-      "since": -11.7,
-      "kinds": [
-        "J"
-      ]
-    },
-    {
       "ticker": "TRU",
       "kind": "J",
       "src": "J",
@@ -2712,6 +2631,32 @@
       },
       "weeks": 1,
       "since": 4.3,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "TEM",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-11-02",
+      "name": "Tempus AI Inc",
+      "sector": "Healthcare",
+      "chg": "+8.67%",
+      "close": 71.6,
+      "high": 85.75,
+      "low": 49.35,
+      "retr": 38.9,
+      "zone": "🔔 38.2~50%",
+      "alert": true,
+      "order": 3,
+      "lv": {
+        "30": 74.83,
+        "50": 67.55,
+        "70": 60.27
+      },
+      "weeks": 1,
+      "since": -8.8,
       "kinds": [
         "D"
       ]
@@ -3601,5 +3546,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-14T03:32:24.082356+00:00"
+  "generated_utc": "2026-11-14T07:59:23.320811+00:00"
 }
