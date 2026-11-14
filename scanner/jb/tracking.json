@@ -1001,8 +1001,8 @@
   "FROG": {
     "name": "JFrog Ltd.",
     "first_seen": "2026-09-25",
-    "last_seen": "2026-09-25",
-    "expires": "2026-11-20",
+    "last_seen": "2026-11-13",
+    "expires": "2027-01-08",
     "kind": "🎯",
     "status": "active",
     "last_zone": "🟢 고점 근처 (0~30%)|🟢 고점 근처 (0~30%)"
@@ -1417,6 +1417,42 @@
     "first_seen": "2026-11-06",
     "last_seen": "2026-11-06",
     "expires": "2027-01-01",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "CHTR": {
+    "name": "Charter Communications",
+    "first_seen": "2026-11-13",
+    "last_seen": "2026-11-13",
+    "expires": "2027-01-08",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "LNG": {
+    "name": "Cheniere Energy Inc.",
+    "first_seen": "2026-11-13",
+    "last_seen": "2026-11-13",
+    "expires": "2027-01-08",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "SOLS": {
+    "name": "Solstice Advanced Materials Inc.",
+    "first_seen": "2026-11-13",
+    "last_seen": "2026-11-13",
+    "expires": "2027-01-08",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "FERG": {
+    "name": "Ferguson Enterprises",
+    "first_seen": "2026-11-13",
+    "last_seen": "2026-11-13",
+    "expires": "2027-01-08",
     "kind": "🎯",
     "status": "active",
     "last_zone": ""

@@ -60,8 +60,68 @@
       "score": 46.7,
       "up": 0.0,
       "near": true
+    },
+    "CHTR": {
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "first": "11/13",
+      "weeks": [
+        "11/13"
+      ],
+      "last": "11/13",
+      "score": 13.6,
+      "up": 17.2,
+      "near": true
+    },
+    "FROG": {
+      "name": "JFrog Ltd.",
+      "sector": "Technology",
+      "first": "11/13",
+      "weeks": [
+        "11/13"
+      ],
+      "last": "11/13",
+      "score": 8.9,
+      "up": 12.5,
+      "near": true
+    },
+    "LNG": {
+      "name": "Cheniere Energy Inc.",
+      "sector": "Utilities",
+      "first": "11/13",
+      "weeks": [
+        "11/13"
+      ],
+      "last": "11/13",
+      "score": 7.7,
+      "up": 11.3,
+      "near": true
+    },
+    "SOLS": {
+      "name": "Solstice Advanced Materials Inc.",
+      "sector": "Industrials",
+      "first": "11/13",
+      "weeks": [
+        "11/13"
+      ],
+      "last": "11/13",
+      "score": 7.2,
+      "up": 14.0,
+      "near": true
+    },
+    "FERG": {
+      "name": "Ferguson Enterprises",
+      "sector": "Industrials",
+      "first": "11/13",
+      "weeks": [
+        "11/13"
+      ],
+      "last": "11/13",
+      "score": 6.1,
+      "up": 9.7,
+      "near": true
     }
   },
   "version": 3,
-  "last_week": "2026-11-06"
+  "last_week": "2026-11-13"
 }

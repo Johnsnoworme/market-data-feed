@@ -133,5 +133,30 @@
     "date": "2026-11-06",
     "name": "Procore Technologies Inc.",
     "sector": "Technology"
+  },
+  "CHTR": {
+    "date": "2026-11-13",
+    "name": "Charter Communications",
+    "sector": "Communication Services"
+  },
+  "FROG": {
+    "date": "2026-11-13",
+    "name": "JFrog Ltd.",
+    "sector": "Technology"
+  },
+  "LNG": {
+    "date": "2026-11-13",
+    "name": "Cheniere Energy Inc.",
+    "sector": "Utilities"
+  },
+  "SOLS": {
+    "date": "2026-11-13",
+    "name": "Solstice Advanced Materials Inc.",
+    "sector": "Industrials"
+  },
+  "FERG": {
+    "date": "2026-11-13",
+    "name": "Ferguson Enterprises",
+    "sector": "Industrials"
   }
 }
