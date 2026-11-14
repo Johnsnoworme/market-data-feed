@@ -150,8 +150,20 @@ def compare_native(ticker, mine, interval):
                 errs.append(col)
         if errs:
             bad += 1
-            worst.append(f"{k} {','.join(errs)}")
-    return {"checked": int(len(common)), "bad": bad, "bad_ratio": round(bad / len(common), 4), "examples": worst[-3:]}
+            worst.append(f"{k} {','.join(errs)} 내값C={a['Close']:.2f} 야후C={b['Close']:.2f}")
+    out = {"checked": int(len(common)), "bad": bad, "bad_ratio": round(bad / len(common), 4), "examples": worst[-3:]}
+    if bad / len(common) > BAR_MISMATCH_MAX:
+        # 진단 전용(판정 기준은 그대로): 야후 봉이 한 칸 밀려 있는지 확인
+        for sh in (-1, 1):
+            ok = 0
+            for k in common:
+                pos = nat.index.get_loc(k) + sh
+                if 0 <= pos < len(nat) and abs(m.loc[k]["Close"] / nat.iloc[pos]["Close"] - 1) <= BAR_TOL:
+                    ok += 1
+            out[f"shift{sh:+d}_match"] = f"{ok}/{len(common)}"
+        out["native_tail"] = [[str(i.date()) if hasattr(i, "date") else str(i), round(float(r.Close), 2)] for i, r in nat.iloc[-4:].iterrows()]
+        out["mine_tail"] = [[str(i.date()) if hasattr(i, "date") else str(i), round(float(r.Close), 2)] for i, r in m.iloc[-4:].iterrows()]
+    return out
 
 
 def check_anchors(daily):
@@ -315,7 +327,7 @@ def build(expected):
             for k, v in cmp_.items():
                 if v.get("checked", 0) and v.get("bad_ratio", 0) > BAR_MISMATCH_MAX:
                     info["status"] = "FAIL"
-                    info["notes"].append(f"{k}봉 Yahoo와 불일치 {v['bad']}/{v['checked']} {v.get('examples')}")
+                    info["notes"].append(f"{k}봉 Yahoo와 불일치 {v['bad']}/{v['checked']} {v.get('examples')} 진단:{ {x: v[x] for x in v if x.startswith(('shift','native_tail','mine_tail'))} }")
         except Exception as e:  # noqa
             info["status"] = "WARN" if info["status"] == "OK" else info["status"]
             info["notes"].append(f"주/월봉 교차검증 못함: {str(e)[:120]}")
