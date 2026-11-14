@@ -342,7 +342,7 @@ def build(expected):
         try:
             cmp_["w"] = compare_native(t, w, "1wk")
             cmp_["m"] = compare_native(t, m, "1mo")
-            for k, v in cmp_.items():
+            for k, v in list(cmp_.items()):
                 if v.get("checked", 0) and v.get("bad_ratio", 0) > BAR_MISMATCH_MAX:
                     fb = etf_weekly_fallback(t, w, daily) if k == "w" else None
                     cmp_["w_fallback"] = fb
