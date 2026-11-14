@@ -1,0 +1,55 @@
+name: OHLC Feed (🕯️ 캔들스틱 분석가용)
+
+on:
+  schedule:
+    # 한 방 레이더와 같은 시간대: Yahoo 종가는 뉴욕 마감 후 5~6시간 뒤에 들어옴 (ny_session.py가 최신 거래일인지 확인,
+    # 이미 게시한 거래일이면 건너뜀). UTC 화~토 02:55 / 04:25 / 06:55 = 뉴욕 월~금 밤
+    - cron: '55 2 * * 2-6'
+    - cron: '25 4 * * 2-6'
+    - cron: '55 6 * * 2-6'
+  push:
+    paths:
+      - 'ohlc_feed.py'
+      - '.github/workflows/ohlc_feed.yml'
+      - 'hanbang/ohlc/extra.txt'
+  workflow_dispatch:
+    inputs:
+      extra:
+        description: '추가 티커 (공백으로 구분)'
+        required: false
+        default: ''
+      force:
+        description: '이미 게시한 거래일이어도 다시 만들기 (1 = 예)'
+        required: false
+        default: '0'
+
+permissions:
+  contents: write
+
+jobs:
+  ohlc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install yfinance pandas numpy requests lxml
+      - run: python ohlc_feed.py
+        env:
+          EXTRA: ${{ github.event.inputs.extra || '' }}
+          FORCE: ${{ github.event.inputs.force || '0' }}
+      # 결과는 main이 아니라 'ohlc-data' 브랜치에 단일 커밋으로 덮어쓴다 (기록이 쌓여 저장소가 커지는 걸 막음)
+      - name: Publish to ohlc-data branch
+        if: hashFiles('out/ohlc/_summary.json') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd out
+          git init -q -b ohlc-data
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "OHLC $(python -c "import json;print(json.load(open('ohlc/_summary.json'))['ny_date'])")"
+          git push -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" ohlc-data
