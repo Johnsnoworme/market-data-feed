@@ -40,6 +40,7 @@ jobs:
         env:
           EXTRA: ${{ github.event.inputs.extra || '' }}
           FORCE: ${{ github.event.inputs.force || '0' }}
+          DATA_FORCE: ${{ github.event.inputs.force == '1' && '1' || '0' }}
       # 결과는 main이 아니라 'ohlc-data' 브랜치에 단일 커밋으로 덮어쓴다 (기록이 쌓여 저장소가 커지는 걸 막음)
       - name: Publish to ohlc-data branch
         if: hashFiles('out/ohlc/_summary.json') != ''
