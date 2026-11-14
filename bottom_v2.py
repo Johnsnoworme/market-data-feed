@@ -372,4 +372,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import traceback
+    try:
+        main()
+    except BaseException as e:  # noqa — 실패 이유를 파일로 남겨 읽을 수 있게 한다
+        os.makedirs(OUT, exist_ok=True)
+        msg = e.code if isinstance(e, SystemExit) else traceback.format_exc()
+        open(f"{OUT}/v2_error.txt", "w", encoding="utf-8").write(f"{dt.datetime.utcnow().isoformat()}Z\n{msg}\n")
+        raise
