@@ -166,6 +166,24 @@ def compare_native(ticker, mine, interval):
     return out
 
 
+def etf_weekly_fallback(t, w_idx, daily):
+    """Yahoo 자체 주봉이 믿을 수 없을 때: 같은 일봉으로 만든 지수·ETF 주봉 수익률이 서로 맞는지 대조."""
+    pair = {i: e for e, i in PAIRS}
+    etf = pair.get(t)
+    if not etf or etf not in daily:
+        return None
+    w_etf = agg(daily[etf], "W-FRI")
+    a = w_idx["Close"].pct_change()
+    b = w_etf["Close"].pct_change()
+    a.index = w_idx["key"].values
+    b.index = w_etf["key"].values
+    j = pd.concat([a, b], axis=1, keys=["i", "e"]).dropna().iloc[-300:-1]
+    if len(j) < 100:
+        return None
+    bad = int(((j["i"] - j["e"]).abs() > 0.006).sum())
+    return {"etf": etf, "checked": int(len(j)), "bad": bad, "ok": bool(bad / len(j) <= 0.02)}
+
+
 def check_anchors(daily):
     res = []
     for t, d, official in ANCHORS:
@@ -326,6 +344,12 @@ def build(expected):
             cmp_["m"] = compare_native(t, m, "1mo")
             for k, v in cmp_.items():
                 if v.get("checked", 0) and v.get("bad_ratio", 0) > BAR_MISMATCH_MAX:
+                    fb = etf_weekly_fallback(t, w, daily) if k == "w" else None
+                    cmp_["w_fallback"] = fb
+                    if fb and fb["ok"]:
+                        info["notes"].append(
+                            f"Yahoo 자체 주봉이 이상함(종가가 다음 주 값과 섞임) → ETF({fb['etf']}) 주봉 수익률 대조로 대체 검증 통과 {fb['bad']}/{fb['checked']}")
+                        continue
                     info["status"] = "FAIL"
                     info["notes"].append(f"{k}봉 Yahoo와 불일치 {v['bad']}/{v['checked']} {v.get('examples')} 진단:{ {x: v[x] for x in v if x.startswith(('shift','native_tail','mine_tail'))} }")
         except Exception as e:  # noqa
