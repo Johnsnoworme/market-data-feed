@@ -514,5 +514,29 @@
     "tries": 0,
     "error": "",
     "updated_utc": "2026-11-15T11:14:04+00:00"
+  },
+  "wImd4kZNdN4": {
+    "ch": "sosumonkey",
+    "title": "엔비디아-33% 폭락, 젠슨 황 사임 나비효과가 증시 혼란 더 키울까",
+    "name": "2026-11-16 엔비디아-33% 폭락, 젠슨 황 사임 나비효과가 증시 혼란 더 키울까",
+    "daily": "2026-11-17",
+    "published_utc": "2026-11-16T10:44:27.980627+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-16T11:44:27+00:00"
+  },
+  "VwehmhIzid4": {
+    "ch": "ssh",
+    "title": "“미국 중국 제대로 붙었다” 자율주행 시장 싹다 뒤집힌다｜성상현의 매크로비욘드(박병수 현대자동차 책임연구원 2부)",
+    "name": "2026-11-16 “미국 중국 제대로 붙었다” 자율주행 시장 싹다 뒤집힌다｜성상현의 매크로",
+    "daily": "2026-11-17",
+    "published_utc": "2026-11-16T10:44:27.980627+00:00",
+    "status": "done",
+    "model": "gemini-3.8-flash",
+    "tries": 0,
+    "error": "",
+    "updated_utc": "2026-11-16T11:44:27+00:00"
   }
 }
