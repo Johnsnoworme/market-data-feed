@@ -3394,8 +3394,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-13",
-      "name": "Nu Holdings Ltd",
-      "sector": "Financial",
+      "name": "Nu Holdings Ltd.",
+      "sector": "Finance",
       "chg": "+11.75%",
       "close": 13.22,
       "high": 13.25,
@@ -3420,7 +3420,7 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-13",
-      "name": "Cerebras Systems Inc",
+      "name": "Cerebras Systems Inc.",
       "sector": "Technology",
       "chg": "+11.22%",
       "close": 108.72,
@@ -3446,8 +3446,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-13",
-      "name": "Alnylam Pharmaceuticals Inc",
-      "sector": "Healthcare",
+      "name": "Alnylam Pharmaceuticals Inc.",
+      "sector": "Health Care",
       "chg": "+5.36%",
       "close": 165.04,
       "high": 168.35,
@@ -3598,5 +3598,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-16T02:47:30.108044+00:00"
+  "generated_utc": "2026-11-16T03:04:38.489389+00:00"
 }
