@@ -816,6 +816,32 @@
       ]
     },
     {
+      "ticker": "FPS",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-02",
+      "name": "Forgent Power Solutions Inc",
+      "sector": "Industrials",
+      "chg": "+8.09%",
+      "close": 20.57,
+      "high": 41.61,
+      "low": 27.99,
+      "retr": 154.5,
+      "zone": "⚠️ 70% 이탈 → 종료",
+      "alert": false,
+      "order": 8,
+      "lv": {
+        "30": 37.52,
+        "50": 34.8,
+        "70": 32.08
+      },
+      "weeks": 6,
+      "since": -49.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "ILMN",
       "kind": "J",
       "src": "J",
@@ -3650,5 +3676,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-17T09:45:00.461752+00:00"
+  "generated_utc": "2026-11-17T11:04:03.736443+00:00"
 }

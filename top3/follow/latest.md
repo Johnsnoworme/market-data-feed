@@ -2,7 +2,7 @@
 
 > 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 43개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 108개 · 풀백 34개
+### 🏆 내 Top 3 — 추적 109개 · 풀백 34개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [FORM](https://finviz.com/quote.ashx?p=w&t=FORM) | Daily·Monthly | 09-30 (6주 전) | 🔔 61.8~70% (마지막 방어선) | 67% | 81.14 | 120.02 ~ 78.48 (99.25) | -45.7% |
@@ -47,7 +47,7 @@
 > [!note]- 대기 44개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
 > MRNA 30%, MDLN 30%, TLK 29%, CRL 29%, TLN 29%, FCNCA 28%, NU 28%, GMAB 26%, CCL 24%, ACN 23%, NBIX 22%, RCL 20%, CDW 20%, CART 19%, UTHR 18%, WIT 18%, CCI 15%, REGN 15%, SPOT 14%, U 14%, EFX 12%, TRU 12%, FROG 11%, R 11%, CMS 10%, GKOS 10%, HAS 9%, FISV 9%, ALLE 8%, FDXF 8%, TU 8%, MANH 7%, PCOR 7%, GEN 6%, HTHT 6%, IDXX 6%, HUBS 4%, FWONA 3%, H 3%, CHTR 2%, APP 2%, HUM 2%, MOH 1%, PTC 1%
 
-⚠️ 70% 이탈로 종료: AKAM, TWST, NBIS, ILMN, VIAV, BE, CRDO, VICR, PANW, IBRX, INIO, XP, CIEN, HUBB, HALO, ESLT, CRCL, PAYP, SMMT, WDC, SMCI, QNT, VG, LITE, SOFI, CLS, VRT, FN, IONQ, SNDK
+⚠️ 70% 이탈로 종료: AKAM, TWST, NBIS, ILMN, VIAV, BE, CRDO, VICR, PANW, IBRX, INIO, FPS, XP, CIEN, HUBB, HALO, ESLT, CRCL, PAYP, SMMT, WDC, SMCI, QNT, VG, LITE, SOFI, CLS, VRT, FN, IONQ, SNDK
 
 ### 🧭 김종봉 후보 — 추적 32개 · 풀백 9개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
