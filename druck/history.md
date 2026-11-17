@@ -2,6 +2,11 @@
 
 > 분기마다: 총액 · 종목 수 · 상위 10 · 새로 산 것 · 다 판 것. 최신 분기가 위.
 
+## 2026-Q3 · $4.47B · 65종목
+- 상위: NTRA 29%, Seagate Technology Hld 7%, AMZN 4%, FOXA 4%, YPF 4%, U 4%, SE 3%, EWZ 3%, INSM 3%, AMZN CALL 3%
+- 🆕 Seagate Technology Hld CALL 2.0%, SGI 1.4%, NEM 1.0%, B 1.0%, AEM 0.9%
+- ❌ RSP CALL (직전 3.4%), EWZ CALL (직전 2.8%), GOOGL (직전 2.3%), UAL (직전 2.1%), IWM CALL (직전 1.9%)
+
 ## 2026-Q2 · $5.21B · 95종목
 - 상위: NTRA 17%, TSM 5%, STM 4%, RSP CALL 3%, INSM 3%, EWZ CALL 3%, INSM CALL 3%, YPF 3%, AMZN 2%, Bbb Foods Inc 2%
 - 🆕 INSM CALL 2.8%, GOOGL 2.3%, FOXA 2.2%, CDW 2.0%, Bitdeer Technologies G 1.2%
