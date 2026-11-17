@@ -212,33 +212,6 @@
       ]
     },
     {
-      "ticker": "MRNA",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-10-09",
-      "name": "Moderna Inc",
-      "sector": "Healthcare",
-      "chg": "+14.21%",
-      "close": 215.27,
-      "high": 280.8,
-      "low": 62.13,
-      "retr": 30.0,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 215.2,
-        "50": 171.46,
-        "70": 127.73
-      },
-      "weeks": 5,
-      "since": -4.3,
-      "kinds": [
-        "D",
-        "W"
-      ]
-    },
-    {
       "ticker": "VIAV",
       "kind": "W",
       "src": "T",
@@ -3676,5 +3649,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-17T04:29:02.937298+00:00"
+  "generated_utc": "2026-11-17T04:45:52.436008+00:00"
 }
