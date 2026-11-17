@@ -1,11 +1,5 @@
-2026-11-16 23:45 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: wImd4kZNdN4 14시간 전 / gNm_uU33nOk 5일 전 / ra5nRE3x9qk 6일 전
+2026-11-17 04:12 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: wImd4kZNdN4 18시간 전 / gNm_uU33nOk 5일 전 / ra5nRE3x9qk 6일 전
    사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.2-flash
-   Gemini 실패 wImd4kZNdN4: gemini-3.8-flash: HTTP 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash 
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: VwehmhIzid4 13시간 전 / 800GRGf5ceo 1일 전 / nGhH0obpfB4 3일 전
+   ✅ 요약: 소수몽키 · wImd4kZNdN4 · 엔비디아-33% 폭락, 젠슨 황 사임 나비효과가 증시 혼란 더 키울까
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: VwehmhIzid4 18시간 전 / 800GRGf5ceo 2일 전 / nGhH0obpfB4 3일 전

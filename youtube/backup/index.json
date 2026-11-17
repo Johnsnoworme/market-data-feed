@@ -521,11 +521,11 @@
     "name": "2026-11-16 엔비디아-33% 폭락, 젠슨 황 사임 나비효과가 증시 혼란 더 키울까",
     "daily": "2026-11-17",
     "published_utc": "2026-11-16T10:44:27.980627+00:00",
-    "status": "stub",
-    "model": "",
+    "status": "done",
+    "model": "gemini-3.8-flash",
     "tries": 2,
-    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
-    "updated_utc": "2026-11-16T11:44:27+00:00"
+    "error": "",
+    "updated_utc": "2026-11-17T04:12:14+00:00"
   },
   "VwehmhIzid4": {
     "ch": "ssh",
