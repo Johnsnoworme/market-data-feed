@@ -816,32 +816,6 @@
       ]
     },
     {
-      "ticker": "FPS",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-10-02",
-      "name": "Forgent Power Solutions Inc",
-      "sector": "Industrials",
-      "chg": "+8.09%",
-      "close": 20.57,
-      "high": 41.61,
-      "low": 27.99,
-      "retr": 154.5,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
-      "lv": {
-        "30": 37.52,
-        "50": 34.8,
-        "70": 32.08
-      },
-      "weeks": 6,
-      "since": -49.0,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
       "ticker": "ILMN",
       "kind": "J",
       "src": "J",
@@ -3602,8 +3576,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-16",
-      "name": "Telus Corp",
-      "sector": "Communication Services",
+      "name": "Telus Corporation",
+      "sector": "Telecommunications",
       "chg": "+12.19%",
       "close": 9.57,
       "high": 9.73,
@@ -3629,7 +3603,7 @@
       "src": "T",
       "date": "2026-11-16",
       "name": "Molina Healthcare Inc",
-      "sector": "Healthcare",
+      "sector": "Health Care",
       "chg": "+11.27%",
       "close": 233.09,
       "high": 233.52,
@@ -3654,8 +3628,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-16",
-      "name": "H World Group Limited ADR",
-      "sector": "Consumer Cyclical",
+      "name": "H World Group Limited",
+      "sector": "Consumer Discretionary",
       "chg": "+8.91%",
       "close": 54.88,
       "high": 55.78,
@@ -3676,5 +3650,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-17T05:14:21.231369+00:00"
+  "generated_utc": "2026-11-17T09:45:00.461752+00:00"
 }
