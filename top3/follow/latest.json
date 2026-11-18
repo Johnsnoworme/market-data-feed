@@ -1830,32 +1830,6 @@
       ]
     },
     {
-      "ticker": "WDC",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-10-19",
-      "name": "Western Digital Corporation",
-      "sector": "Technology",
-      "chg": "+6.09%",
-      "close": 283.33,
-      "high": 402.23,
-      "low": 331.81,
-      "retr": 168.8,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
-      "lv": {
-        "30": 381.1,
-        "50": 367.02,
-        "70": 352.94
-      },
-      "weeks": 4,
-      "since": -19.6,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
       "ticker": "TLK",
       "kind": "D",
       "src": "T",
@@ -3728,5 +3702,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-18T02:59:35.849080+00:00"
+  "generated_utc": "2026-11-18T03:09:45.404567+00:00"
 }
