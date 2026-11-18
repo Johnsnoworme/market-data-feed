@@ -1,3 +1,5 @@
-2026-11-18 03:10 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: MQ8gneRrYuw 15시간 전 / wImd4kZNdN4 1일 전 / gNm_uU33nOk 6일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: VwehmhIzid4 1일 전 / 800GRGf5ceo 3일 전 / nGhH0obpfB4 4일 전
+2026-11-18 11:55 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: Z4fzVAS4KCc 15분 전 / MQ8gneRrYuw 23시간 전 / wImd4kZNdN4 2일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.2-flash
+   ✅ 요약: 소수몽키 · Z4fzVAS4KCc · AI 끝판왕 앤트로픽 사려고 다른 주식 매도 중? 역대 IPO 패턴 반복될까
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: VwehmhIzid4 2일 전 / 800GRGf5ceo 3일 전 / nGhH0obpfB4 5일 전

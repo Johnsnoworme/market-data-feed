@@ -550,5 +550,17 @@
     "tries": 0,
     "error": "",
     "updated_utc": "2026-11-17T22:59:45+00:00"
+  },
+  "Z4fzVAS4KCc": {
+    "ch": "sosumonkey",
+    "title": "AI 끝판왕 앤트로픽 사려고 다른 주식 매도 중? 역대 IPO 패턴 반복될까",
+    "name": "2026-11-18 AI 끝판왕 앤트로픽 사려고 다른 주식 매도 중 역대 IPO 패턴 반복될",
+    "daily": "2026-11-19",
+    "published_utc": "2026-11-18T11:40:54.373096+00:00",
+    "status": "done",
+    "model": "gemini-3.8-flash",
+    "tries": 0,
+    "error": "",
+    "updated_utc": "2026-11-18T11:55:54+00:00"
   }
 }
