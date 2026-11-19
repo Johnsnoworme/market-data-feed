@@ -2,7 +2,7 @@
 
 > 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 54개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 113개 · 풀백 41개
+### 🏆 내 Top 3 — 추적 114개 · 풀백 41개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [FORM](https://finviz.com/quote.ashx?p=w&t=FORM) | Daily·Monthly | 09-30 (7주 전) | 🔔 61.8~70% (마지막 방어선) | 66% | 82.84 | 120.02 ~ 78.48 (99.25) | -44.5% |
@@ -11,28 +11,27 @@
 | [GPN](https://finviz.com/quote.ashx?p=w&t=GPN) | Daily | 10-30 (2주 전) | 🔔 61.8~70% (마지막 방어선) | 69% | 85.62 | 95.41 ~ 85.42 (90.42) | -11.6% |
 | [FN](https://finviz.com/quote.ashx?p=w&t=FN) | Daily | 11-03 (2주 전) | 🔔 61.8~70% (마지막 방어선) | 64% | 320.06 | 351.42 ~ 314.08 (332.75) | -11.9% |
 | [SNDK](https://finviz.com/quote.ashx?p=w&t=SNDK) | Daily | 11-11 (1주 전) | 🔔 61.8~70% (마지막 방어선) | 63% | 776.22 | 799.84 ~ 771.01 (785.43) |  |
-| [HUBS](https://finviz.com/quote.ashx?p=w&t=HUBS) | Daily | 11-12 (0주 전) | 🔔 61.8~70% (마지막 방어선) | 63% | 205.12 | 220.19 ~ 201.94 (211.07) | -5.0% |
-| [P](https://finviz.com/quote.ashx?p=w&t=P) | Daily·Weekly | 09-25 (7주 전) | 🔔 50~61.8% | 61% | 100.74 | 129.74 ~ 92.63 (111.19) | -20.0% |
+| [HUBS](https://finviz.com/quote.ashx?p=w&t=HUBS) | Daily | 11-12 (1주 전) | 🔔 61.8~70% (마지막 방어선) | 63% | 205.12 | 220.19 ~ 201.94 (211.07) | -5.0% |
 | [NTES](https://finviz.com/quote.ashx?p=w&t=NTES) | Daily | 09-28 (7주 전) | 🔔 50~61.8% | 60% | 118.43 | 124.49 ~ 116.34 (120.42) | -2.2% |
 | [TXG](https://finviz.com/quote.ashx?p=w&t=TXG) | Daily·Monthly | 09-30 (7주 전) | 🔔 50~61.8% | 51% | 57.07 | 75.81 ~ 39.8 (57.8) | -36.8% |
+| [SNPS](https://finviz.com/quote.ashx?p=w&t=SNPS) | Daily | 10-01 (7주 전) | 🔔 50~61.8% | 52% | 434.01 | 467.51 ~ 407.53 (437.52) | -11.5% |
 
 > [!note]- 나머지 풀백 31개
 > | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 > | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
-> | [SNPS](https://finviz.com/quote.ashx?p=w&t=SNPS) | Daily | 10-01 (6주 전) | 🔔 50~61.8% | 52% | 434.01 | 467.51 ~ 407.53 (437.52) | -11.5% |
-> | [CSGP](https://finviz.com/quote.ashx?p=w&t=CSGP) | Daily | 10-08 (5주 전) | 🔔 50~61.8% | 59% | 29.9 | 32.71 ~ 28.81 (30.76) | +0.3% |
+> | [CSGP](https://finviz.com/quote.ashx?p=w&t=CSGP) | Daily | 10-08 (6주 전) | 🔔 50~61.8% | 59% | 29.9 | 32.71 ~ 28.81 (30.76) | +0.3% |
 > | [FRO](https://finviz.com/quote.ashx?p=w&t=FRO) | Daily | 10-12 (5주 전) | 🔔 50~61.8% | 61% | 44.41 | 52.15 ~ 42.03 (47.09) | -25.0% |
 > | [BSP](https://finviz.com/quote.ashx?p=w&t=BSP) | Daily | 10-14 (5주 전) | 🔔 50~61.8% | 60% | 42.79 | 51.08 ~ 39.85 (45.47) | -20.0% |
-> | [FTAI](https://finviz.com/quote.ashx?p=w&t=FTAI) | Daily | 10-29 (2주 전) | 🔔 50~61.8% | 56% | 172.25 | 188.09 ~ 164.1 (176.1) | -11.9% |
+> | [FTAI](https://finviz.com/quote.ashx?p=w&t=FTAI) | Daily | 10-29 (3주 전) | 🔔 50~61.8% | 56% | 172.25 | 188.09 ~ 164.1 (176.1) | -11.9% |
 > | [TEM](https://finviz.com/quote.ashx?p=w&t=TEM) | Daily | 11-02 (2주 전) | 🔔 50~61.8% | 61% | 63.62 | 74.83 ~ 60.27 (67.55) | -18.9% |
 > | [XYZ](https://finviz.com/quote.ashx?p=w&t=XYZ) | Daily | 11-04 (2주 전) | 🔔 50~61.8% | 61% | 79.01 | 84.26 ~ 77.41 (80.84) | -9.8% |
 > | [MPWR](https://finviz.com/quote.ashx?p=w&t=MPWR) | Daily | 11-09 (1주 전) | 🔔 50~61.8% | 52% | 1310.91 | 1396.94 ~ 1241.55 (1319.24) | -5.6% |
 > | [NU](https://finviz.com/quote.ashx?p=w&t=NU) | Daily | 11-13 (0주 전) | 🔔 50~61.8% | 57% | 12.08 | 12.64 ~ 11.82 (12.23) | -8.6% |
 > | [CBRS](https://finviz.com/quote.ashx?p=w&t=CBRS) | Daily | 11-13 (0주 전) | 🔔 50~61.8% | 62% | 94.15 | 107.66 ~ 90.62 (99.14) | -13.4% |
-> | [ACN](https://finviz.com/quote.ashx?p=w&t=ACN) | Daily | 10-01 (6주 전) | 🔔 38.2~50% | 43% | 227.49 | 240.75 ~ 199.41 (220.08) | +8.0% |
+> | [ACN](https://finviz.com/quote.ashx?p=w&t=ACN) | Daily | 10-01 (7주 전) | 🔔 38.2~50% | 43% | 227.49 | 240.75 ~ 199.41 (220.08) | +8.0% |
 > | [MRNA](https://finviz.com/quote.ashx?p=w&t=MRNA) | Daily·Weekly | 10-09 (5주 전) | 🔔 38.2~50% | 38% | 196.79 | 215.2 ~ 127.73 (171.46) | -12.5% |
 > | [FCNCA](https://finviz.com/quote.ashx?p=w&t=FCNCA) | Daily | 10-12 (5주 전) | 🔔 38.2~50% | 48% | 2229.82 | 2304.07 ~ 2136.23 (2220.15) | +7.1% |
-> | [ERIC](https://finviz.com/quote.ashx?p=w&t=ERIC) | Daily | 10-15 (4주 전) | 🔔 38.2~50% | 42% | 10.31 | 10.56 ~ 9.69 (10.12) | -3.7% |
+> | [ERIC](https://finviz.com/quote.ashx?p=w&t=ERIC) | Daily | 10-15 (5주 전) | 🔔 38.2~50% | 42% | 10.31 | 10.56 ~ 9.69 (10.12) | -3.7% |
 > | [SITM](https://finviz.com/quote.ashx?p=w&t=SITM) | Daily | 11-06 (1주 전) | 🔔 38.2~50% | 48% | 418.78 | 446.95 ~ 382.98 (414.96) | +0.4% |
 > | [TTWO](https://finviz.com/quote.ashx?p=w&t=TTWO) | Daily | 11-10 (1주 전) | 🔔 38.2~50% | 39% | 216.61 | 221.35 ~ 199.93 (210.64) | -3.6% |
 > | [MOH](https://finviz.com/quote.ashx?p=w&t=MOH) | Daily | 11-16 (0주 전) | 🔔 38.2~50% | 49% | 206.56 | 216.86 ~ 194.66 (205.76) | -11.4% |
@@ -40,19 +39,20 @@
 > | [ESLT](https://finviz.com/quote.ashx?p=w&t=ESLT) | Daily | 11-17 (0주 전) | 🔔 38.2~50% | 45% | 698.36 | 712.11 ~ 676.44 (694.27) | -3.1% |
 > | [CCI](https://finviz.com/quote.ashx?p=w&t=CCI) | Daily | 10-09 (5주 전) | 🔔 30~38.2% | 34% | 83.94 | 85.05 ~ 73.77 (79.41) | +5.4% |
 > | [WIT](https://finviz.com/quote.ashx?p=w&t=WIT) | Daily | 10-13 (5주 전) | 🔔 30~38.2% | 32% | 2.02 | 2.03 ~ 1.78 (1.91) | +12.2% |
-> | [TRU](https://finviz.com/quote.ashx?p=w&t=TRU) | Daily | 10-15 (4주 전) | 🔔 30~38.2% | 36% | 75.82 | 77.23 ~ 67.88 (72.56) | +2.5% |
+> | [TRU](https://finviz.com/quote.ashx?p=w&t=TRU) | Daily | 10-15 (5주 전) | 🔔 30~38.2% | 36% | 75.82 | 77.23 ~ 67.88 (72.56) | +2.5% |
 > | [TLK](https://finviz.com/quote.ashx?p=w&t=TLK) | Daily | 10-20 (4주 전) | 🔔 30~38.2% | 31% | 11.69 | 11.71 ~ 10.82 (11.26) | +0.4% |
 > | [CRL](https://finviz.com/quote.ashx?p=w&t=CRL) | Daily | 10-21 (4주 전) | 🔔 30~38.2% | 31% | 333.25 | 334.14 ~ 273.5 (303.82) | -3.4% |
 > | [RRC](https://finviz.com/quote.ashx?p=w&t=RRC) | Daily | 10-26 (3주 전) | 🔔 30~38.2% | 34% | 50.06 | 50.86 ~ 42.8 (46.83) | -6.5% |
 > | [ICLR](https://finviz.com/quote.ashx?p=w&t=ICLR) | Daily | 10-28 (3주 전) | 🔔 30~38.2% | 35% | 195.16 | 198.59 ~ 171.31 (184.95) | -8.9% |
 > | [MDLN](https://finviz.com/quote.ashx?p=w&t=MDLN) | Daily | 11-04 (2주 전) | 🔔 30~38.2% | 30% | 39.16 | 39.16 ~ 34.71 (36.94) | -2.9% |
-> | [U](https://finviz.com/quote.ashx?p=w&t=U) | Daily | 11-05 (1주 전) | 🔔 30~38.2% | 31% | 48.96 | 49.11 ~ 42.25 (45.68) | +0.3% |
-> | [AMD](https://finviz.com/quote.ashx?p=w&t=AMD) | Daily | 11-12 (0주 전) | 🔔 30~38.2% | 33% | 530.14 | 536.43 ~ 459.67 (498.05) | -9.4% |
+> | [U](https://finviz.com/quote.ashx?p=w&t=U) | Daily | 11-05 (2주 전) | 🔔 30~38.2% | 31% | 48.96 | 49.11 ~ 42.25 (45.68) | +0.3% |
+> | [AMD](https://finviz.com/quote.ashx?p=w&t=AMD) | Daily | 11-12 (1주 전) | 🔔 30~38.2% | 33% | 530.14 | 536.43 ~ 459.67 (498.05) | -9.4% |
 > | [CRWV](https://finviz.com/quote.ashx?p=w&t=CRWV) | Daily | 11-17 (0주 전) | 🔔 30~38.2% | 37% | 47.83 | 48.62 ~ 44.02 (46.32) | -4.1% |
 > | [ARM](https://finviz.com/quote.ashx?p=w&t=ARM) | Daily | 11-17 (0주 전) | 🔔 30~38.2% | 31% | 182.76 | 183.09 ~ 171.69 (177.39) | -0.3% |
+> | [P](https://finviz.com/quote.ashx?p=w&t=P) | Daily·Weekly | 11-18 (0주 전) | 🔔 30~38.2% | 34% | 100.74 | 101.44 ~ 94.7 (98.07) | +0.0% |
 
-> [!note]- 대기 36개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> EFX 29%, TLN 28%, GMAB 28%, NBIX 28%, UTHR 25%, CCL 24%, HTHT 23%, FISV 22%, CMS 20%, GKOS 20%, AVGO 20%, FDXF 19%, RCL 18%, SPOT 18%, MANH 18%, REGN 17%, CART 17%, APP 14%, ALLE 14%, HAS 13%, FWONA 13%, CDW 13%, PCOR 11%, COHR 11%, TU 10%, R 9%, CHTR 8%, SAIL 8%, FROG 8%, IDXX 7%, ACM 7%, PANW 6%, GEN 6%, H 4%, PTC 1%, OKTA 1%
+> [!note]- 대기 37개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
+> EFX 29%, TLN 28%, GMAB 28%, NBIX 28%, UTHR 25%, CCL 24%, HTHT 23%, FISV 22%, CMS 20%, GKOS 20%, AVGO 20%, FDXF 19%, RCL 18%, SPOT 18%, MANH 18%, REGN 17%, CART 17%, APP 14%, ALLE 14%, HAS 13%, FWONA 13%, CDW 13%, PCOR 11%, COHR 11%, TU 10%, R 9%, CHTR 8%, SAIL 8%, FROG 8%, IDXX 7%, ACM 7%, PANW 6%, GEN 6%, CRWD 5%, H 4%, PTC 1%, OKTA 1%
 
 ⚠️ 70% 이탈로 종료: AKAM, TWST, ILMN, VIAV, BE, CRDO, VICR, PS, IBRX, INIO, FPS, XP, CIEN, FLUT, PBF, HUM, HUBB, MTB, HALO, CRCL, OVV, EQNR, PAYP, SMMT, WDC, SMCI, QNT, VG, LITE, SOFI, CLS, VRT, NXT, IONQ, QXO, ALNY
 
