@@ -2,7 +2,7 @@
 
 ## 🌤️ 시장 날씨: 🔴 폭풍 → 🛍️ 빅 세일 모드
 > 좋은 종목(⭐워치·✅숫자)이 공포로 크게 빠진 것 우선. 단 바닥 신호(🧲 매집·저점 방어·지수보다 덜 빠짐)가 보일 때만, 나눠서
-> QQQ 고점 대비 -13.2% · 최근 20일 -9.1% · 대장주 8개 중 지수보다 강함 6개 (MSFT, AAPL, AMZN, META, AVGO, TSLA) · Fear & Greed 26.5 Fear · 🟢공포 후보 12개
+> QQQ 고점 대비 -13.2% · 최근 20일 -9.1% · 대장주 8개 중 지수보다 강함 5개 (MSFT, AAPL, AMZN, AVGO, TSLA) · Fear & Greed 26.5 Fear · 🟢공포 후보 12개
 
 > 가격·거래량만 본다 (이동평균 없음). 읽는 법 → 옵시디언 [[📖 한 방 대시보드 설명서]]. 매수 추천이 아니다.
 
@@ -25,37 +25,36 @@
 | 2 | [MDLN](https://finviz.com/quote.ashx?t=MDLN&p=w) | 🧬 AI 바이오·헬스 🐘 대형 | 🏆Top3 D (11월1주) | 🔔 30~38% (30%) | +27%p | -22% | 7 | ✅ 숫자 좋음 | 6 |
 | 3 | [UI](https://finviz.com/quote.ashx?t=UI&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐕 중형 | 🟢공포 레이더 | 🟢 고점 근처 (8%) | +27%p | -37% | 6 | ✅ 숫자 좋음 | 5 |
 | 4 | [CRL](https://finviz.com/quote.ashx?t=CRL&p=w) | 🧬 AI 바이오·헬스 🐕 중형 | 🏆Top3 D (10월3주) | 🔔 30~38% (31%) | +22%p | -11% | 4 | ✅ 숫자 좋음 | 4 |
-| 5 | [META](https://finviz.com/quote.ashx?t=META&p=w) | 🌐 AI 플랫폼·인터넷 🐘 대형 | ⭐워치 1군 | 🔔 62~70% 방어선 (64%) | +20%p | -21% | 5 | ✅ 숫자 좋음 | 6 |
-| 6 | [AMD](https://finviz.com/quote.ashx?t=AMD&p=w) | 🧠 AI 칩·장비 🐘 대형 | ⭐워치 1군 · 🏆Top3 D (11월2주) | 🔔 30~38% (33%) | +20%p | -18% | 4 | ✅ 숫자 좋음 | 6 |
-| 7 | [TSLA](https://finviz.com/quote.ashx?t=TSLA&p=w) | 🤖 피지컬 AI·EV 🐘 대형 | ⭐워치 1군 | 🔔 50~62% (57%) | +18%p | -22% | 3 | ❌ 숫자 약함 | 5 |
-| 8 | [SNPS](https://finviz.com/quote.ashx?t=SNPS&p=w) | 🖥️ 소프트웨어 🐘 대형 | 🏆Top3 D (10월1주) | 🔔 50~62% (52%) | +16%p | -19% | 3 | ✅ 숫자 좋음 | 4 |
-| 9 | [BSP](https://finviz.com/quote.ashx?t=BSP&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (10월2주) | 🔔 50~62% (60%) | +14%p | -23% | 7 | ✅ 숫자 좋음 | 5 |
-| 10 | [U](https://finviz.com/quote.ashx?t=U&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (11월1주) · 🦅드러켄밀러 26Q3 늘림 | 🔔 30~38% (31%) | +12%p | -7% | 3 | 🟡 적자·고성장 | 4 |
-| 11 | [MPWR](https://finviz.com/quote.ashx?t=MPWR&p=w) | 🧠 AI 칩·장비 🐘 대형 | 🏆Top3 D (11월2주) | 🔔 50~62% (52%) | +7%p | -22% | 5 | ✅ 숫자 좋음 | 4 |
-| 12 | [XYZ](https://finviz.com/quote.ashx?t=XYZ&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (11월1주) | 🔔 50~62% (61%) | +6%p | -11% | 4 | ✅ 숫자 좋음 | 3 |
-| 13 | [ILMN](https://finviz.com/quote.ashx?t=ILMN&p=w) | 🧬 AI 바이오·헬스 🐕 중형 | 🧭김종봉 (10월1주) | 🔔 50~62% (52%) | +6%p | -28% | 3 | ✅ 숫자 좋음 | 3 |
-| 14 | [HII](https://finviz.com/quote.ashx?t=HII&p=w) | 🚀 우주·방산 🐕 중형 | 🟢공포 레이더 | 🔔 62~70% 방어선 (64%) | +3%p | -36% | 5 | ✅ 숫자 좋음 | 4 |
-| 15 | [TEM](https://finviz.com/quote.ashx?t=TEM&p=w) | 🧬 AI 바이오·헬스 🐕 중형 | ⭐워치 2군 · 🏆Top3 D (11월1주) | 🔔 50~62% (61%) | +3%p | -25% | 2 | ❌ 숫자 약함 | 4 |
-| 16 | [ESLT](https://finviz.com/quote.ashx?t=ESLT&p=w) | 🚀 우주·방산 🐕 중형 | 🏆Top3 D (11월3주) | 🔔 38~50% (45%) | +1%p | -31% | 3 | ✅ 숫자 좋음 | 3 |
-| 17 | [P](https://finviz.com/quote.ashx?t=P&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐕 중형 | 🏆Top3 D·W (11월3주) | 🔔 30~38% (34%) | -1%p | -36% | 3 | ✅ 숫자 좋음 | 2 |
-| 18 | [PLTR](https://finviz.com/quote.ashx?t=PLTR&p=w) | 🖥️ 소프트웨어 🐘 대형 | ⭐워치 1군 | 🔔 50~62% (53%) | -3%p | -25% | 2 | ✅ 숫자 좋음 | 3 |
-| 19 | [WDAY](https://finviz.com/quote.ashx?t=WDAY&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🧭김종봉 (9월4주) | 🔔 30~38% (35%) | -3%p | -24% | 3 | ✅ 숫자 좋음 | 2 |
-| 20 | [TRU](https://finviz.com/quote.ashx?t=TRU&p=w) | 🪙 크립토·토큰화·금융 인프라 🐕 중형 | 🧭김종봉 (10월4주) | 🔔 30~38% (36%) | -4%p | -13% | 5 | ✅ 숫자 좋음 | 3 |
-| 21 | [FTAI](https://finviz.com/quote.ashx?t=FTAI&p=w) | 🚀 우주·방산 🐕 중형 | 🏆Top3 D (10월5주) | 🔔 50~62% (56%) | -6%p | -44% | 2 | ✅ 숫자 좋음 | 2 |
-| 22 | [HUBS](https://finviz.com/quote.ashx?t=HUBS&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (11월2주) | 🔔 62~70% 방어선 (63%) | -7%p | -50% | 3 | ✅ 숫자 좋음 | 2 |
-| 23 | [BE](https://finviz.com/quote.ashx?t=BE&p=w) | ⚡ 전력·에너지 병목 🐘 대형 | ⭐워치 2군 | 🔔 62~70% 방어선 (68%) | -8%p | -51% | 2 | ✅ 숫자 좋음 | 2 |
-| 24 | [ORCL](https://finviz.com/quote.ashx?t=ORCL&p=w) | 🖥️ 소프트웨어 🐘 대형 | ⭐워치 2군 | ⬇️ 1파 저점 아래 (117%) | -12%p | -54% | 2 | ✅ 숫자 좋음 | 2 |
-| 25 | [COHR](https://finviz.com/quote.ashx?t=COHR&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐕 중형 | 🏆Top3 D (11월3주) | 🟢 고점 근처 (11%) | -20%p | -50% | 1 | ✅ 숫자 좋음 | 2 |
-| 26 | [MDB](https://finviz.com/quote.ashx?t=MDB&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🟢공포 레이더 | 🔔 62~70% 방어선 (65%) | -20%p | -35% | 5 | ✅ 숫자 좋음 | 3 |
-| 27 | [ARM](https://finviz.com/quote.ashx?t=ARM&p=w) | 🧠 AI 칩·장비 🐘 대형 | ⭐워치 2군 · 🏆Top3 D (11월3주) | 🔔 30~38% (31%) | -20%p | -58% | 3 | ✅ 숫자 좋음 | 3 |
-| 28 | [FN](https://finviz.com/quote.ashx?t=FN&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐕 중형 | 🏆Top3 D (11월1주) | 🔔 62~70% 방어선 (64%) | -21%p | -57% | 1 | ✅ 숫자 좋음 | 2 |
-| 29 | [FORM](https://finviz.com/quote.ashx?t=FORM&p=w) | 🧠 AI 칩·장비 🐁 소형 | 🏆Top3 D·M (9월5주) | 🔔 62~70% 방어선 (66%) | -21%p | -48% | 3 | ✅ 숫자 좋음 | 2 |
-| 30 | [SITM](https://finviz.com/quote.ashx?t=SITM&p=w) | 🧠 AI 칩·장비 🐕 중형 | 🏆Top3 D (11월1주) | 🔔 38~50% (48%) | -23%p | -54% | 3 | ✅ 숫자 좋음 | 2 |
-| 31 | [WDC](https://finviz.com/quote.ashx?t=WDC&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐘 대형 | 🦅드러켄밀러 26Q3 신규 | ⚠️ 70% 이탈 (81%) | -31%p | -61% | 3 | ✅ 숫자 좋음 | 2 |
-| 32 | [FICO](https://finviz.com/quote.ashx?t=FICO&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🧭김종봉 (10월4주) · 🟢공포 레이더 | 🔔 62~70% 방어선 (62%) | -34%p | -63% | 6 | ✅ 숫자 좋음 | 4 |
-| 33 | [CRWV](https://finviz.com/quote.ashx?t=CRWV&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (11월3주) | 🔔 30~38% (37%) | -40%p | -65% | 2 | 🟡 적자·고성장 | 2 |
-| 34 | [NBIS](https://finviz.com/quote.ashx?t=NBIS&p=w) | 🌐 AI 플랫폼·인터넷 🐕 중형 | 🏆Top3 D (11월3주) | 🔔 38~50% (44%) | -44%p | -63% | 1 | ✅ 숫자 좋음 | 2 |
-| 35 | [CBRS](https://finviz.com/quote.ashx?t=CBRS&p=w) | 🧠 AI 칩·장비 🐕 중형 | 🏆Top3 D (11월2주) | 🔔 50~62% (62%) | -48%p | -70% | 1 | 🟡 적자·고성장 | 2 |
+| 5 | [AMD](https://finviz.com/quote.ashx?t=AMD&p=w) | 🧠 AI 칩·장비 🐘 대형 | ⭐워치 1군 · 🏆Top3 D (11월2주) | 🔔 30~38% (33%) | +20%p | -18% | 4 | ✅ 숫자 좋음 | 6 |
+| 6 | [TSLA](https://finviz.com/quote.ashx?t=TSLA&p=w) | 🤖 피지컬 AI·EV 🐘 대형 | ⭐워치 1군 | 🔔 50~62% (57%) | +18%p | -22% | 3 | ❌ 숫자 약함 | 5 |
+| 7 | [SNPS](https://finviz.com/quote.ashx?t=SNPS&p=w) | 🖥️ 소프트웨어 🐘 대형 | 🏆Top3 D (10월1주) | 🔔 50~62% (52%) | +16%p | -19% | 3 | ✅ 숫자 좋음 | 4 |
+| 8 | [BSP](https://finviz.com/quote.ashx?t=BSP&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (10월2주) | 🔔 50~62% (60%) | +14%p | -23% | 7 | ✅ 숫자 좋음 | 5 |
+| 9 | [U](https://finviz.com/quote.ashx?t=U&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (11월1주) · 🦅드러켄밀러 26Q3 늘림 | 🔔 30~38% (31%) | +12%p | -7% | 3 | 🟡 적자·고성장 | 4 |
+| 10 | [MPWR](https://finviz.com/quote.ashx?t=MPWR&p=w) | 🧠 AI 칩·장비 🐘 대형 | 🏆Top3 D (11월2주) | 🔔 50~62% (52%) | +7%p | -22% | 5 | ✅ 숫자 좋음 | 4 |
+| 11 | [XYZ](https://finviz.com/quote.ashx?t=XYZ&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (11월1주) | 🔔 50~62% (61%) | +6%p | -11% | 4 | ✅ 숫자 좋음 | 3 |
+| 12 | [ILMN](https://finviz.com/quote.ashx?t=ILMN&p=w) | 🧬 AI 바이오·헬스 🐕 중형 | 🧭김종봉 (10월1주) | 🔔 50~62% (52%) | +6%p | -28% | 3 | ✅ 숫자 좋음 | 3 |
+| 13 | [HII](https://finviz.com/quote.ashx?t=HII&p=w) | 🚀 우주·방산 🐕 중형 | 🟢공포 레이더 | 🔔 62~70% 방어선 (64%) | +3%p | -36% | 5 | ✅ 숫자 좋음 | 4 |
+| 14 | [TEM](https://finviz.com/quote.ashx?t=TEM&p=w) | 🧬 AI 바이오·헬스 🐕 중형 | ⭐워치 2군 · 🏆Top3 D (11월1주) | 🔔 50~62% (61%) | +3%p | -25% | 2 | ❌ 숫자 약함 | 4 |
+| 15 | [ESLT](https://finviz.com/quote.ashx?t=ESLT&p=w) | 🚀 우주·방산 🐕 중형 | 🏆Top3 D (11월3주) | 🔔 38~50% (45%) | +1%p | -31% | 3 | ✅ 숫자 좋음 | 3 |
+| 16 | [P](https://finviz.com/quote.ashx?t=P&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐕 중형 | 🏆Top3 D·W (11월3주) | 🔔 30~38% (34%) | -1%p | -36% | 3 | ✅ 숫자 좋음 | 2 |
+| 17 | [PLTR](https://finviz.com/quote.ashx?t=PLTR&p=w) | 🖥️ 소프트웨어 🐘 대형 | ⭐워치 1군 | 🔔 50~62% (53%) | -3%p | -25% | 2 | ✅ 숫자 좋음 | 3 |
+| 18 | [WDAY](https://finviz.com/quote.ashx?t=WDAY&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🧭김종봉 (9월4주) | 🔔 30~38% (35%) | -3%p | -24% | 3 | ✅ 숫자 좋음 | 2 |
+| 19 | [TRU](https://finviz.com/quote.ashx?t=TRU&p=w) | 🪙 크립토·토큰화·금융 인프라 🐕 중형 | 🧭김종봉 (10월4주) | 🔔 30~38% (36%) | -4%p | -13% | 5 | ✅ 숫자 좋음 | 3 |
+| 20 | [FTAI](https://finviz.com/quote.ashx?t=FTAI&p=w) | 🚀 우주·방산 🐕 중형 | 🏆Top3 D (10월5주) | 🔔 50~62% (56%) | -6%p | -44% | 2 | ✅ 숫자 좋음 | 2 |
+| 21 | [HUBS](https://finviz.com/quote.ashx?t=HUBS&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (11월2주) | 🔔 62~70% 방어선 (63%) | -7%p | -50% | 3 | ✅ 숫자 좋음 | 2 |
+| 22 | [BE](https://finviz.com/quote.ashx?t=BE&p=w) | ⚡ 전력·에너지 병목 🐘 대형 | ⭐워치 2군 | 🔔 62~70% 방어선 (68%) | -8%p | -51% | 2 | ✅ 숫자 좋음 | 2 |
+| 23 | [ORCL](https://finviz.com/quote.ashx?t=ORCL&p=w) | 🖥️ 소프트웨어 🐘 대형 | ⭐워치 2군 | ⬇️ 1파 저점 아래 (117%) | -12%p | -54% | 2 | ✅ 숫자 좋음 | 2 |
+| 24 | [COHR](https://finviz.com/quote.ashx?t=COHR&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐕 중형 | 🏆Top3 D (11월3주) | 🟢 고점 근처 (11%) | -20%p | -50% | 1 | ✅ 숫자 좋음 | 2 |
+| 25 | [MDB](https://finviz.com/quote.ashx?t=MDB&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🟢공포 레이더 | 🔔 62~70% 방어선 (65%) | -20%p | -35% | 5 | ✅ 숫자 좋음 | 3 |
+| 26 | [ARM](https://finviz.com/quote.ashx?t=ARM&p=w) | 🧠 AI 칩·장비 🐘 대형 | ⭐워치 2군 · 🏆Top3 D (11월3주) | 🔔 30~38% (31%) | -20%p | -58% | 3 | ✅ 숫자 좋음 | 3 |
+| 27 | [FN](https://finviz.com/quote.ashx?t=FN&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐕 중형 | 🏆Top3 D (11월1주) | 🔔 62~70% 방어선 (64%) | -21%p | -57% | 1 | ✅ 숫자 좋음 | 2 |
+| 28 | [FORM](https://finviz.com/quote.ashx?t=FORM&p=w) | 🧠 AI 칩·장비 🐁 소형 | 🏆Top3 D·M (9월5주) | 🔔 62~70% 방어선 (66%) | -21%p | -48% | 3 | ✅ 숫자 좋음 | 2 |
+| 29 | [SITM](https://finviz.com/quote.ashx?t=SITM&p=w) | 🧠 AI 칩·장비 🐕 중형 | 🏆Top3 D (11월1주) | 🔔 38~50% (48%) | -23%p | -54% | 3 | ✅ 숫자 좋음 | 2 |
+| 30 | [WDC](https://finviz.com/quote.ashx?t=WDC&p=w) | 🔌 AI 인프라 (메모리·광·부품) 🐘 대형 | 🦅드러켄밀러 26Q3 신규 | ⚠️ 70% 이탈 (81%) | -31%p | -61% | 3 | ✅ 숫자 좋음 | 2 |
+| 31 | [FICO](https://finviz.com/quote.ashx?t=FICO&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🧭김종봉 (10월4주) · 🟢공포 레이더 | 🔔 62~70% 방어선 (62%) | -34%p | -63% | 6 | ✅ 숫자 좋음 | 4 |
+| 32 | [CRWV](https://finviz.com/quote.ashx?t=CRWV&p=w) | 🖥️ 소프트웨어 🐕 중형 | 🏆Top3 D (11월3주) | 🔔 30~38% (37%) | -40%p | -65% | 2 | 🟡 적자·고성장 | 2 |
+| 33 | [NBIS](https://finviz.com/quote.ashx?t=NBIS&p=w) | 🌐 AI 플랫폼·인터넷 🐕 중형 | 🏆Top3 D (11월3주) | 🔔 38~50% (44%) | -44%p | -63% | 1 | ✅ 숫자 좋음 | 2 |
+| 34 | [CBRS](https://finviz.com/quote.ashx?t=CBRS&p=w) | 🧠 AI 칩·장비 🐕 중형 | 🏆Top3 D (11월2주) | 🔔 50~62% (62%) | -48%p | -70% | 1 | 🟡 적자·고성장 | 2 |
 
 ## ⏳ 강하지만 아직 자리 아님 (기다림 · 3개월 QQQ 대비 강한 순)
 | # | 티커 | 테마·크기 | 출처 (언제) | 풀백 위치 | 3개월 QQQ 대비 | 고점 대비 | 🧲 | 숫자 | 점수 |
@@ -102,7 +101,6 @@
 | [AMD](https://finviz.com/quote.ashx?t=AMD&p=w) | 🔔 30~38% (33%) | -18% | +20%p | 4/10 | 🔥 지수보다 강함 🔔 눌림 구간 |
 | [GOOGL](https://finviz.com/quote.ashx?t=GOOGL&p=w) | ⚠️ 70% 이탈 (91%) | -30% | -10%p | 4/10 |  |
 | [HOOD](https://finviz.com/quote.ashx?t=HOOD&p=w) | ⚠️ 70% 이탈 (91%) | -50% | -20%p | 1/10 | 🟢 크게 빠짐 |
-| [META](https://finviz.com/quote.ashx?t=META&p=w) | 🔔 62~70% 방어선 (64%) | -21% | +20%p | 5/10 | 🔥 지수보다 강함 🔔 눌림 구간 |
 | [MSTR](https://finviz.com/quote.ashx?t=MSTR&p=w) | ⚠️ 70% 이탈 (90%) | -54% | -12%p | 0/10 | 🟢 크게 빠짐 |
 | [NVDA](https://finviz.com/quote.ashx?t=NVDA&p=w) | ⬇️ 1파 저점 아래 (159%) | -37% | -23%p | 0/10 | 🟢 크게 빠짐 |
 | [PLTR](https://finviz.com/quote.ashx?t=PLTR&p=w) | 🔔 50~62% (53%) | -25% | -3%p | 2/10 | 🔔 눌림 구간 |
