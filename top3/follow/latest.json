@@ -531,7 +531,7 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-18",
-      "name": "Palo Alto Networks Inc",
+      "name": "Palo Alto Networks Inc.",
       "sector": "Technology",
       "chg": "+9.90%",
       "close": 339.92,
@@ -3260,32 +3260,6 @@
       ]
     },
     {
-      "ticker": "CRWV",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-11-17",
-      "name": "CoreWeave Inc",
-      "sector": "Technology",
-      "chg": "+7.18%",
-      "close": 47.83,
-      "high": 52.06,
-      "low": 40.58,
-      "retr": 36.8,
-      "zone": "🔔 30~38.2%",
-      "alert": true,
-      "order": 2,
-      "lv": {
-        "30": 48.62,
-        "50": 46.32,
-        "70": 44.02
-      },
-      "weeks": 0,
-      "since": -4.1,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
       "ticker": "SNDK",
       "kind": "D",
       "src": "T",
@@ -3732,7 +3706,7 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-18",
-      "name": "Okta Inc",
+      "name": "Okta Inc.",
       "sector": "Technology",
       "chg": "+12.07%",
       "close": 195.61,
@@ -3758,7 +3732,7 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-18",
-      "name": "Sailpoint Inc",
+      "name": "SailPoint Inc.",
       "sector": "Technology",
       "chg": "+10.26%",
       "close": 22.25,
@@ -3780,5 +3754,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-19T03:49:43.706988+00:00"
+  "generated_utc": "2026-11-19T04:15:37.383426+00:00"
 }
