@@ -562,5 +562,29 @@
     "tries": 0,
     "error": "",
     "updated_utc": "2026-11-18T11:55:54+00:00"
+  },
+  "_HKbEOD-fd8": {
+    "ch": "sosumonkey",
+    "title": "앤트로픽 상장 후 투자법 달라져야 한다? AI 다음 사이클의 승자들 잡는 법",
+    "name": "2026-11-19 앤트로픽 상장 후 투자법 달라져야 한다 AI 다음 사이클의 승자들 잡는",
+    "daily": "2026-11-20",
+    "published_utc": "2026-11-19T09:53:36.478870+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-19T11:53:36+00:00"
+  },
+  "63djyCi3pT0": {
+    "ch": "ssh",
+    "title": "“머스크의 폭탄 선언” 한국에 제2의 반도체 탄생 곧 어마무시한 일 벌어진다｜성상현의 매크로비욘드(박병수 현대자동차 책임연구원 3부)",
+    "name": "2026-11-19 “머스크의 폭탄 선언” 한국에 제2의 반도체 탄생 곧 어마무시한 일 벌어",
+    "daily": "2026-11-20",
+    "published_utc": "2026-11-19T09:53:36.478870+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-19T11:53:36+00:00"
   }
 }

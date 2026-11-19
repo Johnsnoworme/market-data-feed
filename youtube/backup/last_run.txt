@@ -1,3 +1,20 @@
-2026-11-19 02:50 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: Z4fzVAS4KCc 15시간 전 / MQ8gneRrYuw 1일 전 / wImd4kZNdN4 2일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: VwehmhIzid4 2일 전 / 800GRGf5ceo 3일 전 / nGhH0obpfB4 5일 전
+2026-11-19 11:53 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: _HKbEOD-fd8 2시간 전 / Z4fzVAS4KCc 1일 전 / MQ8gneRrYuw 1일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.2-flash
+   Gemini 실패 _HKbEOD-fd8: gemini-3.8-flash: HTTP 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash 
+   ⏳ 대기: 소수몽키 · _HKbEOD-fd8 · 앤트로픽 상장 후 투자법 달라져야 한다? AI 다음 사이클의 승자들 잡는 법
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: 63djyCi3pT0 2시간 전 / VwehmhIzid4 3일 전 / 800GRGf5ceo 4일 전
+   Gemini 실패 63djyCi3pT0: gemini-3.8-flash: HTTP 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash 
+   ⏳ 대기: 성상현 (매크로비욘드) · 63djyCi3pT0 · “머스크의 폭탄 선언” 한국에 제2의 반도체 탄생 곧 어마무시한 일 벌어진다｜성상현의 매크로비욘드(박병수 현대자동차 책임연구원 3부)
