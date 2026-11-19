@@ -1,8 +1,8 @@
 # 🔔 풀백 추적 — 2026-11-18 뉴욕 종가 (8주)
 
-> 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 52개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
+> 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 53개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 112개 · 풀백 39개
+### 🏆 내 Top 3 — 추적 112개 · 풀백 40개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [FORM](https://finviz.com/quote.ashx?p=w&t=FORM) | Daily·Monthly | 09-30 (7주 전) | 🔔 61.8~70% (마지막 방어선) | 66% | 82.84 | 120.02 ~ 78.48 (99.25) | -44.5% |
@@ -16,7 +16,7 @@
 | [TXG](https://finviz.com/quote.ashx?p=w&t=TXG) | Daily·Monthly | 09-30 (7주 전) | 🔔 50~61.8% | 51% | 57.07 | 75.81 ~ 39.8 (57.8) | -36.8% |
 | [SNPS](https://finviz.com/quote.ashx?p=w&t=SNPS) | Daily | 10-01 (6주 전) | 🔔 50~61.8% | 52% | 434.01 | 467.51 ~ 407.53 (437.52) | -11.5% |
 
-> [!note]- 나머지 풀백 29개
+> [!note]- 나머지 풀백 30개
 > | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 > | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 > | [CSGP](https://finviz.com/quote.ashx?p=w&t=CSGP) | Daily | 10-08 (5주 전) | 🔔 50~61.8% | 59% | 29.9 | 32.71 ~ 28.81 (30.76) | +0.3% |
@@ -25,6 +25,7 @@
 > | [FTAI](https://finviz.com/quote.ashx?p=w&t=FTAI) | Daily | 10-29 (2주 전) | 🔔 50~61.8% | 56% | 172.25 | 188.09 ~ 164.1 (176.1) | -11.9% |
 > | [TEM](https://finviz.com/quote.ashx?p=w&t=TEM) | Daily | 11-02 (2주 전) | 🔔 50~61.8% | 61% | 63.62 | 74.83 ~ 60.27 (67.55) | -18.9% |
 > | [XYZ](https://finviz.com/quote.ashx?p=w&t=XYZ) | Daily | 11-04 (2주 전) | 🔔 50~61.8% | 61% | 79.01 | 84.26 ~ 77.41 (80.84) | -9.8% |
+> | [MPWR](https://finviz.com/quote.ashx?p=w&t=MPWR) | Daily | 11-09 (1주 전) | 🔔 50~61.8% | 52% | 1310.91 | 1396.94 ~ 1241.55 (1319.24) | -5.6% |
 > | [NU](https://finviz.com/quote.ashx?p=w&t=NU) | Daily | 11-13 (0주 전) | 🔔 50~61.8% | 57% | 12.08 | 12.64 ~ 11.82 (12.23) | -8.6% |
 > | [CBRS](https://finviz.com/quote.ashx?p=w&t=CBRS) | Daily | 11-13 (0주 전) | 🔔 50~61.8% | 62% | 94.15 | 107.66 ~ 90.62 (99.14) | -13.4% |
 > | [ACN](https://finviz.com/quote.ashx?p=w&t=ACN) | Daily | 10-01 (6주 전) | 🔔 38.2~50% | 43% | 227.49 | 240.75 ~ 199.41 (220.08) | +8.0% |
@@ -52,7 +53,7 @@
 > [!note]- 대기 36개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
 > EFX 29%, TLN 28%, GMAB 28%, NBIX 28%, UTHR 25%, CCL 24%, HTHT 23%, FISV 22%, CMS 20%, GKOS 20%, AVGO 20%, FDXF 19%, RCL 18%, SPOT 18%, MANH 18%, REGN 17%, CART 17%, APP 14%, ALLE 14%, HAS 13%, FWONA 13%, CDW 13%, PCOR 11%, COHR 11%, TU 10%, R 9%, CHTR 8%, SAIL 8%, FROG 8%, IDXX 7%, ACM 7%, PANW 6%, GEN 6%, H 4%, PTC 1%, OKTA 1%
 
-⚠️ 70% 이탈로 종료: AKAM, TWST, ILMN, VIAV, BE, CRDO, VICR, PS, IBRX, INIO, FPS, XP, CIEN, FLUT, PBF, HUM, HUBB, MTB, HALO, CRCL, OVV, EQNR, PAYP, SMMT, WDC, SMCI, QNT, VG, LITE, SOFI, CLS, VRT, NXT, IONQ, QXO, SNDK, ALNY
+⚠️ 70% 이탈로 종료: AKAM, TWST, ILMN, VIAV, BE, CRDO, VICR, PS, IBRX, INIO, FPS, XP, CIEN, FLUT, PBF, HUM, HUBB, HALO, CRCL, OVV, EQNR, PAYP, SMMT, WDC, SMCI, QNT, VG, LITE, SOFI, CLS, VRT, NXT, IONQ, QXO, SNDK, ALNY
 
 ### 🧭 김종봉 후보 — 추적 32개 · 풀백 13개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
