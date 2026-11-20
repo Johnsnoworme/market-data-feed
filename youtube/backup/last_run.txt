@@ -1,6 +1,3 @@
-2026-11-19 22:41 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: _HKbEOD-fd8 13시간 전 / Z4fzVAS4KCc 1일 전 / MQ8gneRrYuw 2일 전
-   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.2-flash
-   ✅ 요약: 소수몽키 · _HKbEOD-fd8 · 앤트로픽 상장 후 투자법 달라져야 한다? AI 다음 사이클의 승자들 잡는 법
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: 63djyCi3pT0 12시간 전 / VwehmhIzid4 3일 전 / 800GRGf5ceo 4일 전
-   ✅ 요약: 성상현 (매크로비욘드) · 63djyCi3pT0 · 미국 월가에 싹다 퍼졌다 테슬라에 대한 엄청난 소문｜성상현의 매크로비욘드(박병수 현대자동차 책임연구원 3부)
+2026-11-20 02:39 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: _HKbEOD-fd8 17시간 전 / Z4fzVAS4KCc 1일 전 / MQ8gneRrYuw 2일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: 63djyCi3pT0 16시간 전 / VwehmhIzid4 3일 전 / 800GRGf5ceo 4일 전
