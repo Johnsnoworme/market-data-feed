@@ -8,7 +8,7 @@
 
 ## 🧩 오늘의 흐름 — 최근 Top 3·김종봉 신호가 몰린 테마
 - **🖥️ 소프트웨어** 18개: OKTA(Software - Infrastructure), CRWD(Software - Infrastructure), PTC(Software - Application), DOCU(Software - Application), FROG(Software - Application), SAIL(Software - Infrastructure), PCOR(Software - Application), MANH(Software - Application), ZS(Software - Infrastructure), ROP(Software - Application), SNPS(Software - Infrastructure), GEN(Software - Infrastructure), PANW(Software - Infrastructure), BSP(Software - Application), U(Software - Application), WDAY(Software - Application), FICO(Software - Application), CRWV(Software - Infrastructure)
-- **🧬 AI 바이오·헬스** 14개: GMAB(Biotechnology), MRNA(Biotechnology), GKOS(Medical Devices), IDXX(Diagnostics & Research), INSM(Biotechnology), CRL(Diagnostics & Research), REGN(Biotechnology), ICLR(Diagnostics & Research), MDLN(Medical Instruments & Supplies), UTHR(Drug Manufacturers - Specialty & Generic), VEEV(Health Information Services), NBIX(Drug Manufacturers - Specialty & Generic), ILMN(Diagnostics & Research), TXG(Medical Devices)
+- **🧬 AI 바이오·헬스** 15개: GMAB(Biotechnology), MRNA(Biotechnology), GKOS(Medical Devices), IDXX(Diagnostics & Research), INSM(Biotechnology), CRL(Diagnostics & Research), REGN(Biotechnology), ICLR(Diagnostics & Research), MDLN(Medical Instruments & Supplies), UTHR(Drug Manufacturers - Specialty & Generic), VEEV(Health Information Services), AVTR(Medical Instruments & Supplies), NBIX(Drug Manufacturers - Specialty & Generic), ILMN(Diagnostics & Research), TXG(Medical Devices)
 - **🌐 AI 플랫폼·인터넷** 7개: CART(Internet Retail), TU(Telecom Services), SPOT(Internet Content & Information), FWONA(Entertainment), PDD(Internet Retail), CHTR(Telecom Services), TLK(Telecom Services)
 - **🧠 AI 칩·장비** 6개: AMD(Semiconductors), MPWR(Semiconductors), AVGO(Semiconductors), ARM(Semiconductors), FORM(Semiconductor Equipment & Materials), SITM(Semiconductors)
 - **🔌 AI 인프라 (메모리·광·부품)** 3개: ERIC(Communication Equipment), P(Computer Hardware), COHR(Scientific & Technical Instruments)
@@ -77,7 +77,7 @@
 
 > 🙈 18개월 지도 테마 밖이라 숨김 35개 (워치리스트는 예외)
 
-> 🗑️ 숫자 게이트에서 걸러짐 (흑자+성장 아님): PTC(흑자 · 매출 -25% · 순이익(분기) -55%), IDXX(흑자 · 매출 +10% · 순이익(분기) +16%), SAIL(적자 · 매출 +17%), PCOR(적자 · 매출 +19%), ALLE(흑자 · 매출 +10% · 순이익(분기) +17%), ZS(적자 · 매출 +25%), ICLR(흑자 · 매출 -3%), TU(적자 · 매출 -1%), UTHR(흑자 · 매출 +4% · 순이익(분기) -24%), FISV(—), PNR(흑자 · 매출 -4% · 순이익(분기) -21%), ZTS(흑자 · 매출 -1% · 순이익(분기) -18%), ERIC(흑자 · 매출 +6% · 순이익(분기) -48%), PDD(흑자 · 매출 +0% · 순이익(분기) +1%), CHTR(흑자 · 매출 +9%), TXG(적자 · 매출 +1%), BSX(흑자 · 매출 +1% · 순이익(분기) -23%), TLK(흑자 · 매출 +3% · 순이익(분기) -16%)
+> 🗑️ 숫자 게이트에서 걸러짐 (흑자+성장 아님): PTC(흑자 · 매출 -25% · 순이익(분기) -55%), IDXX(흑자 · 매출 +10% · 순이익(분기) +16%), SAIL(적자 · 매출 +17%), PCOR(적자 · 매출 +19%), ALLE(흑자 · 매출 +10% · 순이익(분기) +17%), ZS(적자 · 매출 +25%), ICLR(흑자 · 매출 -3%), TU(적자 · 매출 -1%), UTHR(흑자 · 매출 +4% · 순이익(분기) -24%), FISV(—), PNR(흑자 · 매출 -4% · 순이익(분기) -21%), AVTR(흑자 · 매출 +5%), ZTS(흑자 · 매출 -1% · 순이익(분기) -18%), ERIC(흑자 · 매출 +6% · 순이익(분기) -48%), PDD(흑자 · 매출 +0% · 순이익(분기) +1%), CHTR(흑자 · 매출 +9%), TXG(적자 · 매출 +1%), BSX(흑자 · 매출 +1% · 순이익(분기) -23%), TLK(흑자 · 매출 +3% · 순이익(분기) -16%)
 
 ## 🟢 공포 속 기회 후보 (52주 고점 대비 -35%↓ + 매도가 마르는 흔적)
 | 티커 | 고점 대비 | 🧲 | 최근 10일 QQQ 대비 | 저점 방어 | 하락일 거래량 | 숫자 |
@@ -200,6 +200,7 @@
 | [ROP](https://finviz.com/quote.ashx?t=ROP&p=w) | 🧭김종봉 | 2026-10-30 | 🟢 고점 근처 (22%) | 5/10 | +22%p |
 | [CHTR](https://finviz.com/quote.ashx?t=CHTR&p=w) | 🧭김종봉 | 2026-11-13 | 🟢 고점 근처 (23%) | 5/10 | -2%p |
 | [TU](https://finviz.com/quote.ashx?t=TU&p=w) | 🏆D | 2026-11-19 | 🟢 고점 근처 (3%) | 5/10 | +20%p |
+| [AVTR](https://finviz.com/quote.ashx?t=AVTR&p=w) | 🧭김종봉 | 2026-09-25 | 🟢 고점 근처 (23%) | 4/10 | +14%p |
 | [ICLR](https://finviz.com/quote.ashx?t=ICLR&p=w) | 🧭김종봉 | 2026-10-30 | 🟢 고점 근처 (26%) | 4/10 | +20%p |
 | [GEN](https://finviz.com/quote.ashx?t=GEN&p=w) | 🏆D | 2026-10-29 | 🟢 고점 근처 (8%) | 4/10 | +14%p |
 | [AVGO](https://finviz.com/quote.ashx?t=AVGO&p=w) | 🏆D | 2026-11-12 | 🟢 고점 근처 (29%) | 4/10 | +4%p |
