@@ -54,7 +54,7 @@
 
 ⚠️ 70% 이탈로 종료: VIAV, BE, CRDO, VICR, PS, NTES, IBRX, INIO, FPS, XP, CIEN, CSGP, FLUT, PBF, HUM, HUBB, MTB, HALO, CRCL, AR, OVV, EQNR, PAYP, SMMT, WDC, SMCI, QNT, VG, LITE, SOFI, CLS, NBIS, VRT, GPN, NXT, TEM, FN, XYZ, IONQ, QXO, SNDK, HUBS, NU, CBRS, ALNY, ANT
 
-### 🧭 김종봉 후보 — 추적 31개 · 풀백 17개
+### 🧭 김종봉 후보 — 추적 32개 · 풀백 17개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [FICO](https://finviz.com/quote.ashx?p=w&t=FICO) | 주간 | 10-23 (4주 전) | 🔔 61.8~70% (마지막 방어선) | 62% | 677.64 | 756.08 ~ 658.92 (707.5) | -16.9% |
@@ -79,8 +79,8 @@
 > | [WCN](https://finviz.com/quote.ashx?p=w&t=WCN) | 주간 | 10-23 (4주 전) | 🔔 30~38.2% | 33% | 180.43 | 182.03 ~ 161.6 (171.82) | -3.1% |
 > | [FERG](https://finviz.com/quote.ashx?p=w&t=FERG) | 주간 | 11-13 (1주 전) | 🔔 30~38.2% | 36% | 247.39 | 250.66 ~ 228.64 (239.65) | -3.5% |
 
-> [!note]- 대기 13개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> ICLR 26%, FROG 24%, DOCU 24%, SOLS 23%, CHTR 23%, ROP 22%, APP 20%, LNG 20%, HAS 18%, GMAB 16%, PCOR 16%, MANH 13%, GKOS 11%
+> [!note]- 대기 14개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
+> ICLR 26%, FROG 24%, DOCU 24%, AVTR 23%, SOLS 23%, CHTR 23%, ROP 22%, APP 20%, LNG 20%, HAS 18%, GMAB 16%, PCOR 16%, MANH 13%, GKOS 11%
 
 ⚠️ 70% 이탈로 종료: ESLT
 
