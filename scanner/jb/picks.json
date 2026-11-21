@@ -95,12 +95,12 @@
     "sector": "Utilities"
   },
   "GMAB": {
-    "date": "2026-11-06",
+    "date": "2026-11-20",
     "name": "Genmab A/S",
     "sector": "Health Care"
   },
   "GKOS": {
-    "date": "2026-11-06",
+    "date": "2026-11-20",
     "name": "Glaukos Corporation",
     "sector": "Health Care"
   },
@@ -158,5 +158,20 @@
     "date": "2026-11-13",
     "name": "Ferguson Enterprises",
     "sector": "Industrials"
+  },
+  "TU": {
+    "date": "2026-11-20",
+    "name": "Telus Corporation",
+    "sector": "Communication Services"
+  },
+  "INSM": {
+    "date": "2026-11-20",
+    "name": "Insmed Incorporated",
+    "sector": "Health Care"
+  },
+  "ACM": {
+    "date": "2026-11-20",
+    "name": "AECOM",
+    "sector": "Consumer Discretionary"
   }
 }

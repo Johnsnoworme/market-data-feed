@@ -6,10 +6,11 @@
       "sector": "Health Care",
       "first": "11/06",
       "weeks": [
-        "11/06"
+        "11/06",
+        "11/20"
       ],
-      "last": "11/06",
-      "score": 57.3,
+      "last": "11/20",
+      "score": 55.5,
       "up": 0.0,
       "near": true
     },
@@ -42,10 +43,11 @@
       "sector": "Health Care",
       "first": "11/06",
       "weeks": [
-        "11/06"
+        "11/06",
+        "11/20"
       ],
-      "last": "11/06",
-      "score": 48.1,
+      "last": "11/20",
+      "score": 62.2,
       "up": 0.0,
       "near": true
     },
@@ -120,8 +122,44 @@
       "score": 6.1,
       "up": 9.7,
       "near": true
+    },
+    "TU": {
+      "name": "Telus Corporation",
+      "sector": "Communication Services",
+      "first": "11/20",
+      "weeks": [
+        "11/20"
+      ],
+      "last": "11/20",
+      "score": 62.4,
+      "up": 0.0,
+      "near": true
+    },
+    "INSM": {
+      "name": "Insmed Incorporated",
+      "sector": "Health Care",
+      "first": "11/20",
+      "weeks": [
+        "11/20"
+      ],
+      "last": "11/20",
+      "score": 59.5,
+      "up": 0.0,
+      "near": true
+    },
+    "ACM": {
+      "name": "AECOM",
+      "sector": "Consumer Discretionary",
+      "first": "11/20",
+      "weeks": [
+        "11/20"
+      ],
+      "last": "11/20",
+      "score": 52.4,
+      "up": 0.0,
+      "near": true
     }
   },
   "version": 3,
-  "last_week": "2026-11-13"
+  "last_week": "2026-11-20"
 }

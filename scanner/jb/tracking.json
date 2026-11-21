@@ -1118,8 +1118,8 @@
   "INSM": {
     "name": "Insmed Incorporated",
     "first_seen": "2026-09-25",
-    "last_seen": "2026-09-25",
-    "expires": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "expires": "2027-01-15",
     "kind": "🎯",
     "status": "active",
     "last_zone": "🔔 38.2~50%|🔔 38.2~50%"
@@ -1352,8 +1352,8 @@
   "GMAB": {
     "name": "Genmab A/S",
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06",
-    "expires": "2027-01-01",
+    "last_seen": "2026-11-20",
+    "expires": "2027-01-15",
     "kind": "🎯",
     "status": "active",
     "last_zone": ""
@@ -1361,8 +1361,8 @@
   "GKOS": {
     "name": "Glaukos Corporation",
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06",
-    "expires": "2027-01-01",
+    "last_seen": "2026-11-20",
+    "expires": "2027-01-15",
     "kind": "🎯",
     "status": "active",
     "last_zone": ""
@@ -1453,6 +1453,24 @@
     "first_seen": "2026-11-13",
     "last_seen": "2026-11-13",
     "expires": "2027-01-08",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "TU": {
+    "name": "Telus Corporation",
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "expires": "2027-01-15",
+    "kind": "🎯",
+    "status": "active",
+    "last_zone": ""
+  },
+  "ACM": {
+    "name": "AECOM",
+    "first_seen": "2026-11-20",
+    "last_seen": "2026-11-20",
+    "expires": "2027-01-15",
     "kind": "🎯",
     "status": "active",
     "last_zone": ""
