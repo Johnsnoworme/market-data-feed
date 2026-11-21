@@ -2405,8 +2405,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-20",
-      "name": "Global Payments Inc",
-      "sector": "Technology",
+      "name": "Global Payments Inc.",
+      "sector": "Consumer Discretionary",
       "chg": "+9.95%",
       "close": 91.83,
       "high": 95.5,
@@ -3705,8 +3705,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-20",
-      "name": "HDFC Bank Ltd ADR",
-      "sector": "Financial",
+      "name": "HDFC Bank Limited",
+      "sector": "Finance",
       "chg": "+4.50%",
       "close": 27.42,
       "high": 27.81,
@@ -3731,8 +3731,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-20",
-      "name": "Rocket Companies Inc",
-      "sector": "Financial",
+      "name": "Rocket Companies Inc.",
+      "sector": "Finance",
       "chg": "+4.25%",
       "close": 13.75,
       "high": 13.87,
@@ -3883,5 +3883,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-21T03:12:33.993176+00:00"
+  "generated_utc": "2026-11-21T03:27:38.627609+00:00"
 }
