@@ -2293,6 +2293,32 @@
       ]
     },
     {
+      "ticker": "ROP",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-30",
+      "name": "Roper Technologies",
+      "sector": "",
+      "chg": "",
+      "close": 459.83,
+      "high": 507.24,
+      "low": 304.43,
+      "retr": 23.4,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 446.4,
+        "50": 405.83,
+        "70": 365.27
+      },
+      "weeks": 3,
+      "since": -1.5,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
       "ticker": "IDXX",
       "kind": "D",
       "src": "T",
@@ -3697,5 +3723,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-21T08:44:55.970980+00:00"
+  "generated_utc": "2026-11-21T10:08:19.607327+00:00"
 }
