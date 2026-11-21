@@ -2,7 +2,7 @@
 
 > 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 57개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 113개 · 풀백 36개
+### 🏆 내 Top 3 — 추적 114개 · 풀백 36개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [CSGP](https://finviz.com/quote.ashx?p=w&t=CSGP) | Daily | 10-08 (6주 전) | 🔔 61.8~70% (마지막 방어선) | 62% | 29.61 | 32.71 ~ 28.81 (30.76) | -0.7% |
@@ -49,7 +49,7 @@
 > [!note]- 대기 22개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
 > HAS 29%, GMAB 29%, CDW 28%, MANH 27%, WIT 27%, OKTA 27%, REGN 26%, FWONA 26%, PCOR 25%, CART 24%, ALLE 22%, R 22%, GPN 21%, ACM 20%, IDXX 18%, GEN 17%, GKOS 16%, INSM 15%, HDB 6%, TU 6%, RKT 3%, PTC 2%
 
-⚠️ 70% 이탈로 종료: VIAV, BE, CRDO, VICR, P, PS, NTES, FORM, SNPS, IBRX, INIO, FPS, CIEN, FLUT, PBF, HUM, HUBB, FCNCA, MTB, HALO, ESLT, CRCL, AR, OVV, EQNR, PAYP, SMMT, WDC, SMCI, QNT, VG, LITE, SOFI, CLS, NBIS, VRT, FTAI, NXT, TEM, FN, XYZ, IONQ, SITM, QXO, MPWR, CRWV, SNDK, HUBS, AMD, AVGO, NU, CBRS, ALNY, ARM, ANT
+⚠️ 70% 이탈로 종료: VIAV, BE, CRDO, VICR, P, PS, NTES, FORM, SNPS, IBRX, INIO, FPS, XP, CIEN, FLUT, PBF, HUM, HUBB, FCNCA, MTB, HALO, ESLT, CRCL, AR, OVV, EQNR, PAYP, SMMT, WDC, SMCI, QNT, VG, LITE, SOFI, CLS, NBIS, VRT, FTAI, NXT, TEM, FN, XYZ, IONQ, SITM, QXO, MPWR, CRWV, SNDK, HUBS, AMD, AVGO, NU, CBRS, ALNY, ARM, ANT
 
 ### 🧭 김종봉 후보 — 추적 32개 · 풀백 21개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
