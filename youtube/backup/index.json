@@ -586,5 +586,17 @@
     "tries": 1,
     "error": "",
     "updated_utc": "2026-11-19T22:41:38+00:00"
+  },
+  "8ydxXAiqhP8": {
+    "ch": "ssh",
+    "title": "폭락한 나스닥 지금이 기회? 아무거나 사면 계좌 녹는다｜성상현의 매크로비욘드 13-1부",
+    "name": "2026-11-21 폭락한 나스닥 지금이 기회 아무거나 사면 계좌 녹는다｜성상현의 매크로비욘",
+    "daily": "2026-11-21",
+    "published_utc": "2026-11-21T03:24:51.308652+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-21T11:24:51+00:00"
   }
 }
