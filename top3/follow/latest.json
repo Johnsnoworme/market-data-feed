@@ -2869,58 +2869,6 @@
       ]
     },
     {
-      "ticker": "GMAB",
-      "kind": "J",
-      "src": "J",
-      "date": "2026-11-06",
-      "name": "Genmab A/S",
-      "sector": "",
-      "chg": "",
-      "close": 50.6,
-      "high": 56.84,
-      "low": 23.62,
-      "retr": 18.8,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 46.87,
-        "50": 40.23,
-        "70": 33.59
-      },
-      "weeks": 2,
-      "since": -5.6,
-      "kinds": [
-        "J"
-      ]
-    },
-    {
-      "ticker": "GKOS",
-      "kind": "J",
-      "src": "J",
-      "date": "2026-11-06",
-      "name": "Glaukos Corporation",
-      "sector": "",
-      "chg": "",
-      "close": 237.31,
-      "high": 255.18,
-      "low": 99.48,
-      "retr": 11.5,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 208.47,
-        "50": 177.33,
-        "70": 146.19
-      },
-      "weeks": 2,
-      "since": 5.7,
-      "kinds": [
-        "J"
-      ]
-    },
-    {
       "ticker": "APP",
       "kind": "J",
       "src": "J",
@@ -3803,7 +3751,137 @@
       "kinds": [
         "D"
       ]
+    },
+    {
+      "ticker": "GMAB",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-20",
+      "name": "Genmab A/S",
+      "sector": "",
+      "chg": "",
+      "close": 50.6,
+      "high": 52.82,
+      "low": 23.62,
+      "retr": 7.6,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 44.06,
+        "50": 38.22,
+        "70": 32.38
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "GKOS",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-20",
+      "name": "Glaukos Corporation",
+      "sector": "",
+      "chg": "",
+      "close": 237.31,
+      "high": 250.61,
+      "low": 99.48,
+      "retr": 8.8,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 205.27,
+        "50": 175.05,
+        "70": 144.82
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "TU",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-20",
+      "name": "Telus Corporation",
+      "sector": "",
+      "chg": "",
+      "close": 11.07,
+      "high": 11.27,
+      "low": 7.64,
+      "retr": 5.5,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 10.18,
+        "50": 9.46,
+        "70": 8.73
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "INSM",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-20",
+      "name": "Insmed Incorporated",
+      "sector": "",
+      "chg": "",
+      "close": 141.33,
+      "high": 150.0,
+      "low": 90.39,
+      "retr": 14.5,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 132.12,
+        "50": 120.19,
+        "70": 108.27
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "ACM",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-20",
+      "name": "AECOM",
+      "sector": "",
+      "chg": "",
+      "close": 78.65,
+      "high": 84.29,
+      "low": 56.1,
+      "retr": 20.0,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 75.83,
+        "50": 70.19,
+        "70": 64.55
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
     }
   ],
-  "generated_utc": "2026-11-21T02:51:46.477630+00:00"
+  "generated_utc": "2026-11-21T03:12:33.993176+00:00"
 }
