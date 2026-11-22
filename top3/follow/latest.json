@@ -785,6 +785,32 @@
       ]
     },
     {
+      "ticker": "MRNA",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-09",
+      "name": "Moderna Inc",
+      "sector": "Healthcare",
+      "chg": "+14.21%",
+      "close": 195.0,
+      "high": 280.8,
+      "low": 62.13,
+      "retr": 39.2,
+      "zone": "🔔 38.2~50%",
+      "alert": true,
+      "order": 3,
+      "lv": {
+        "30": 215.2,
+        "50": 171.46,
+        "70": 127.73
+      },
+      "weeks": 6,
+      "since": -13.3,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "HUM",
       "kind": "D",
       "src": "T",
@@ -2193,8 +2219,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-20",
-      "name": "Global Payments Inc.",
-      "sector": "Consumer Discretionary",
+      "name": "Global Payments Inc",
+      "sector": "Technology",
       "chg": "+9.95%",
       "close": 91.83,
       "high": 95.5,
@@ -3519,8 +3545,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-20",
-      "name": "HDFC Bank Limited",
-      "sector": "Finance",
+      "name": "HDFC Bank Ltd ADR",
+      "sector": "Financial",
       "chg": "+4.50%",
       "close": 27.42,
       "high": 27.81,
@@ -3545,8 +3571,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-20",
-      "name": "Rocket Companies Inc.",
-      "sector": "Finance",
+      "name": "Rocket Companies Inc",
+      "sector": "Financial",
       "chg": "+4.25%",
       "close": 13.75,
       "high": 13.87,
@@ -3697,5 +3723,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-22T01:28:42.646564+00:00"
+  "generated_utc": "2026-11-22T01:37:21.340861+00:00"
 }
