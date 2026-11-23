@@ -264,6 +264,32 @@
       ]
     },
     {
+      "ticker": "TXG",
+      "kind": "M",
+      "src": "T",
+      "date": "2026-09-30",
+      "name": "10x Genomics Inc",
+      "sector": "Healthcare",
+      "chg": "+44.69%",
+      "close": 51.8,
+      "high": 102.81,
+      "low": 12.8,
+      "retr": 56.7,
+      "zone": "🔔 50~61.8%",
+      "alert": true,
+      "order": 4,
+      "lv": {
+        "30": 75.81,
+        "50": 57.8,
+        "70": 39.8
+      },
+      "weeks": 7,
+      "since": -42.7,
+      "kinds": [
+        "M"
+      ]
+    },
+    {
       "ticker": "ACN",
       "kind": "D",
       "src": "T",
@@ -808,6 +834,32 @@
       "since": -9.5,
       "kinds": [
         "D"
+      ]
+    },
+    {
+      "ticker": "TXG",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-09",
+      "name": "10x Genomics Inc.",
+      "sector": "",
+      "chg": "",
+      "close": 51.8,
+      "high": 102.81,
+      "low": 19.53,
+      "retr": 61.3,
+      "zone": "🔔 50~61.8%",
+      "alert": true,
+      "order": 4,
+      "lv": {
+        "30": 77.83,
+        "50": 61.17,
+        "70": 44.51
+      },
+      "weeks": 6,
+      "since": -35.8,
+      "kinds": [
+        "J"
       ]
     },
     {
@@ -2167,8 +2219,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-20",
-      "name": "Global Payments Inc.",
-      "sector": "Consumer Discretionary",
+      "name": "Global Payments Inc",
+      "sector": "Technology",
       "chg": "+9.95%",
       "close": 91.83,
       "high": 95.5,
@@ -3493,8 +3545,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-20",
-      "name": "HDFC Bank Limited",
-      "sector": "Finance",
+      "name": "HDFC Bank Ltd ADR",
+      "sector": "Financial",
       "chg": "+4.50%",
       "close": 27.42,
       "high": 27.81,
@@ -3519,8 +3571,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-20",
-      "name": "Rocket Companies Inc.",
-      "sector": "Finance",
+      "name": "Rocket Companies Inc",
+      "sector": "Financial",
       "chg": "+4.25%",
       "close": 13.75,
       "high": 13.87,
@@ -3671,5 +3723,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-23T03:46:25.086823+00:00"
+  "generated_utc": "2026-11-23T03:59:59.795616+00:00"
 }
