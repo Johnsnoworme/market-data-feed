@@ -598,5 +598,29 @@
     "tries": 1,
     "error": "",
     "updated_utc": "2026-11-21T20:56:05+00:00"
+  },
+  "6amgLtc9IgU": {
+    "ch": "sosumonkey",
+    "title": "나스닥-20%, 엔비디아 -48% 극단적 공포 구간에 진입한 증시, 기회일까",
+    "name": "2026-11-24 나스닥-20%, 엔비디아 -48% 극단적 공포 구간에 진입한 증시, 기회",
+    "daily": "2026-11-24",
+    "published_utc": "2026-11-23T13:02:52.258042+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-23T13:13:52+00:00"
+  },
+  "0AaAHaiXMdI": {
+    "ch": "ssh",
+    "title": "“소름돋게 똑같다” 닷컴버블 붕괴? 진짜 바닥은 따로 있다｜성상현의 매크로비욘드 14부",
+    "name": "2026-11-23 “소름돋게 똑같다” 닷컴버블 붕괴 진짜 바닥은 따로 있다｜성상현의 매크로",
+    "daily": "2026-11-24",
+    "published_utc": "2026-11-23T10:13:52.258042+00:00",
+    "status": "done",
+    "model": "gemini-flash-latest",
+    "tries": 0,
+    "error": "",
+    "updated_utc": "2026-11-23T13:13:52+00:00"
   }
 }
