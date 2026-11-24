@@ -3753,7 +3753,7 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-23",
-      "name": "NVIDIA Corporation",
+      "name": "NVIDIA Corp",
       "sector": "Technology",
       "chg": "+31.48%",
       "close": 165.05,
@@ -3775,11 +3775,37 @@
       ]
     },
     {
+      "ticker": "KYMR",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-11-23",
+      "name": "Kymera Therapeutics Inc",
+      "sector": "Healthcare",
+      "chg": "+30.40%",
+      "close": 150.37,
+      "high": 161.49,
+      "low": 101.75,
+      "retr": 18.6,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 143.57,
+        "50": 131.62,
+        "70": 119.67
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "ALAB",
       "kind": "D",
       "src": "T",
       "date": "2026-11-23",
-      "name": "Astera Labs Inc.",
+      "name": "Astera Labs Inc",
       "sector": "Technology",
       "chg": "+23.16%",
       "close": 222.12,
@@ -3825,33 +3851,7 @@
       "kinds": [
         "D"
       ]
-    },
-    {
-      "ticker": "KYMR",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-11-23",
-      "name": "Kymera Therapeutics Inc",
-      "sector": "Healthcare",
-      "chg": "+30.40%",
-      "close": 150.37,
-      "high": 161.49,
-      "low": 101.75,
-      "retr": 18.6,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 143.57,
-        "50": 131.62,
-        "70": 119.67
-      },
-      "weeks": 0,
-      "since": 0.0,
-      "kinds": [
-        "D"
-      ]
     }
   ],
-  "generated_utc": "2026-11-24T06:22:27.733962+00:00"
+  "generated_utc": "2026-11-24T06:59:00.191246+00:00"
 }
