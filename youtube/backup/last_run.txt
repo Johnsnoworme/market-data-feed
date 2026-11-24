@@ -1,3 +1,20 @@
-2026-11-24 05:35 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: 6amgLtc9IgU 16시간 전 / _HKbEOD-fd8 4일 전 / Z4fzVAS4KCc 5일 전
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: 0AaAHaiXMdI 19시간 전 / 8ydxXAiqhP8 3일 전 / 800GRGf5ceo 9일 전
+2026-11-24 13:57 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: 2O2Zf9m0Pw8 3시간 전 / 6amgLtc9IgU 1일 전 / _HKbEOD-fd8 5일 전
+   사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.2-flash
+   Gemini 실패 2O2Zf9m0Pw8: gemini-3.8-flash: HTTP 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash 
+   ⏳ 대기: 소수몽키 · 2O2Zf9m0Pw8 · 결국 증시 바닥은 트럼프의 입에서 나온다? 트럼프 1기 평행이론 적중할까
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: 6Qsvy0ErXaY 4시간 전 / 0AaAHaiXMdI 1일 전 / 8ydxXAiqhP8 3일 전
+   Gemini 실패 6Qsvy0ErXaY: gemini-3.8-flash: HTTP 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash 
+   ⏳ 대기: 성상현 (매크로비욘드) · 6Qsvy0ErXaY · “금리 하락보다 중요한 게 있다” 앞으로 봐야 할 결정적 기회｜성상현의 매크로비욘드 13-2부

@@ -622,5 +622,29 @@
     "tries": 0,
     "error": "",
     "updated_utc": "2026-11-23T13:13:52+00:00"
+  },
+  "2O2Zf9m0Pw8": {
+    "ch": "sosumonkey",
+    "title": "결국 증시 바닥은 트럼프의 입에서 나온다? 트럼프 1기 평행이론 적중할까",
+    "name": "2026-11-24 결국 증시 바닥은 트럼프의 입에서 나온다 트럼프 1기 평행이론 적중할까",
+    "daily": "2026-11-25",
+    "published_utc": "2026-11-24T10:57:38.033520+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-24T13:57:38+00:00"
+  },
+  "6Qsvy0ErXaY": {
+    "ch": "ssh",
+    "title": "“금리 하락보다 중요한 게 있다” 앞으로 봐야 할 결정적 기회｜성상현의 매크로비욘드 13-2부",
+    "name": "2026-11-24 “금리 하락보다 중요한 게 있다” 앞으로 봐야 할 결정적 기회｜성상현의",
+    "daily": "2026-11-25",
+    "published_utc": "2026-11-24T09:57:38.033520+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-24T13:57:38+00:00"
   }
 }
