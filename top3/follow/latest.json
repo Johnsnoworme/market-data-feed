@@ -84,24 +84,24 @@
       "ticker": "UTHR",
       "kind": "D",
       "src": "T",
-      "date": "2026-09-30",
+      "date": "2026-11-23",
       "name": "United Therapeutics Corp",
       "sector": "Healthcare",
-      "chg": "+12.55%",
+      "chg": "+5.66%",
       "close": 559.32,
-      "high": 614.23,
+      "high": 566.06,
       "low": 468.97,
-      "retr": 37.8,
-      "zone": "🔔 30~38.2%",
-      "alert": true,
-      "order": 2,
+      "retr": 6.9,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
       "lv": {
-        "30": 570.65,
-        "50": 541.6,
-        "70": 512.55
+        "30": 536.93,
+        "50": 517.51,
+        "70": 498.1
       },
-      "weeks": 7,
-      "since": 3.2,
+      "weeks": 0,
+      "since": 0.0,
       "kinds": [
         "D"
       ]
@@ -3414,24 +3414,24 @@
       "ticker": "INSM",
       "kind": "D",
       "src": "T",
-      "date": "2026-11-19",
-      "name": "Insmed Incorporated",
-      "sector": "Health Care",
-      "chg": "+20.58%",
+      "date": "2026-11-23",
+      "name": "Insmed Inc",
+      "sector": "Healthcare",
+      "chg": "+14.87%",
       "close": 149.09,
-      "high": 150.0,
+      "high": 149.83,
       "low": 92.63,
-      "retr": 1.6,
+      "retr": 1.3,
       "zone": "🟢 고점 근처 (0~30%)",
       "alert": false,
       "order": 1,
       "lv": {
-        "30": 132.79,
-        "50": 121.31,
-        "70": 109.84
+        "30": 132.67,
+        "50": 121.23,
+        "70": 109.79
       },
       "weeks": 0,
-      "since": 3.2,
+      "since": 0.0,
       "kinds": [
         "D"
       ]
@@ -3749,6 +3749,32 @@
       ]
     },
     {
+      "ticker": "A",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-11-23",
+      "name": "Agilent Technologies Inc",
+      "sector": "Healthcare",
+      "chg": "+6.79%",
+      "close": 176.04,
+      "high": 178.5,
+      "low": 141.04,
+      "retr": 6.6,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 167.26,
+        "50": 159.77,
+        "70": 152.28
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "NVDA",
       "kind": "D",
       "src": "T",
@@ -3853,5 +3879,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-24T07:05:28.596935+00:00"
+  "generated_utc": "2026-11-24T11:35:28.837578+00:00"
 }
