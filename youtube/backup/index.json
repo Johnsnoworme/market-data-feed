@@ -605,11 +605,11 @@
     "name": "2026-11-24 나스닥-20%, 엔비디아 -48% 극단적 공포 구간에 진입한 증시, 기회",
     "daily": "2026-11-24",
     "published_utc": "2026-11-23T13:02:52.258042+00:00",
-    "status": "stub",
-    "model": "",
+    "status": "done",
+    "model": "gemini-3.8-flash",
     "tries": 1,
-    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
-    "updated_utc": "2026-11-23T13:13:52+00:00"
+    "error": "",
+    "updated_utc": "2026-11-24T02:22:01+00:00"
   },
   "0AaAHaiXMdI": {
     "ch": "ssh",
