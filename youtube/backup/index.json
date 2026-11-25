@@ -631,7 +631,7 @@
     "published_utc": "2026-11-24T10:57:38.033520+00:00",
     "status": "stub",
     "model": "",
-    "tries": 3,
+    "tries": 4,
     "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
     "updated_utc": "2026-11-24T13:57:38+00:00"
   },
@@ -643,8 +643,32 @@
     "published_utc": "2026-11-24T09:57:38.033520+00:00",
     "status": "stub",
     "model": "",
-    "tries": 3,
+    "tries": 4,
     "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
     "updated_utc": "2026-11-24T13:57:38+00:00"
+  },
+  "FoZGuT5uAO4": {
+    "ch": "sosumonkey",
+    "title": "갑자기 생필품 패닉 바잉에 들어간 미국인들? 음모론일까 경고 신호일까",
+    "name": "2026-11-25 갑자기 생필품 패닉 바잉에 들어간 미국인들 음모론일까 경고 신호일까",
+    "daily": "2026-11-26",
+    "published_utc": "2026-11-25T12:12:21.276615+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-25T13:12:21+00:00"
+  },
+  "FXVwl3aCzNA": {
+    "ch": "ssh",
+    "title": "AI 서사 종말인가? 일시적 조정인가? 3가지 진실｜성상현의 매크로비욘드 15부",
+    "name": "2026-11-25 AI 서사 종말인가 일시적 조정인가 3가지 진실｜성상현의 매크로비욘드 1",
+    "daily": "2026-11-26",
+    "published_utc": "2026-11-25T10:12:21.276615+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-25T13:12:21+00:00"
   }
 }
