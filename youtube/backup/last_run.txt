@@ -1,5 +1,5 @@
-2026-11-24 23:57 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: 2O2Zf9m0Pw8 13시간 전 / 6amgLtc9IgU 1일 전 / _HKbEOD-fd8 5일 전
+2026-11-25 04:37 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: 2O2Zf9m0Pw8 18시간 전 / 6amgLtc9IgU 1일 전 / _HKbEOD-fd8 5일 전
    사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.2-flash
    Gemini 실패 2O2Zf9m0Pw8: gemini-3.8-flash: HTTP 503 {
   "error": {
@@ -8,7 +8,7 @@
   "error": {
     "code": 404,
     "message": "This model models/gemini-2.5-flash 
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: 6Qsvy0ErXaY 14시간 전 / 0AaAHaiXMdI 1일 전 / 8ydxXAiqhP8 3일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: 6Qsvy0ErXaY 18시간 전 / 0AaAHaiXMdI 1일 전 / 8ydxXAiqhP8 4일 전
    Gemini 실패 6Qsvy0ErXaY: gemini-3.8-flash: HTTP 503 {
   "error": {
     "code": 503,
