@@ -2891,32 +2891,6 @@
       ]
     },
     {
-      "ticker": "AMD",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-11-12",
-      "name": "Advanced Micro Devices Inc",
-      "sector": "Technology",
-      "chg": "+5.86%",
-      "close": 413.27,
-      "high": 594.0,
-      "low": 402.1,
-      "retr": 94.2,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
-      "lv": {
-        "30": 536.43,
-        "50": 498.05,
-        "70": 459.67
-      },
-      "weeks": 1,
-      "since": -29.4,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
       "ticker": "AVGO",
       "kind": "D",
       "src": "T",
@@ -3905,5 +3879,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-25T04:23:24.271325+00:00"
+  "generated_utc": "2026-11-25T04:37:06.713734+00:00"
 }
