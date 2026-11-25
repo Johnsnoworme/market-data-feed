@@ -631,7 +631,7 @@
     "published_utc": "2026-11-24T10:57:38.033520+00:00",
     "status": "stub",
     "model": "",
-    "tries": 1,
+    "tries": 2,
     "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
     "updated_utc": "2026-11-24T13:57:38+00:00"
   },
@@ -643,7 +643,7 @@
     "published_utc": "2026-11-24T09:57:38.033520+00:00",
     "status": "stub",
     "model": "",
-    "tries": 1,
+    "tries": 2,
     "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
     "updated_utc": "2026-11-24T13:57:38+00:00"
   }
