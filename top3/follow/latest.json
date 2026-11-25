@@ -3332,6 +3332,32 @@
       ]
     },
     {
+      "ticker": "SAIL",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-11-18",
+      "name": "Sailpoint Inc",
+      "sector": "Technology",
+      "chg": "+10.26%",
+      "close": 21.98,
+      "high": 23.54,
+      "low": 16.62,
+      "retr": 22.5,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 21.46,
+        "50": 20.08,
+        "70": 18.7
+      },
+      "weeks": 1,
+      "since": -1.2,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "INSM",
       "kind": "D",
       "src": "T",
@@ -3800,6 +3826,84 @@
       ]
     },
     {
+      "ticker": "STLA",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-11-24",
+      "name": "Stellantis N.V",
+      "sector": "Consumer Cyclical",
+      "chg": "+4.07%",
+      "close": 3.44,
+      "high": 3.55,
+      "low": 3.34,
+      "retr": 52.4,
+      "zone": "📏 1파 작음 (8% 미만)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 3.49,
+        "50": 3.44,
+        "70": 3.4
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "SNY",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-11-24",
+      "name": "Sanofi ADR",
+      "sector": "Healthcare",
+      "chg": "+3.20%",
+      "close": 51.9,
+      "high": 51.95,
+      "low": 39.07,
+      "retr": 0.4,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 48.09,
+        "50": 45.51,
+        "70": 42.93
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "SKM",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-11-24",
+      "name": "SK Telecom Co Ltd ADR",
+      "sector": "Communication Services",
+      "chg": "+3.00%",
+      "close": 25.99,
+      "high": 27.92,
+      "low": 25.89,
+      "retr": 95.1,
+      "zone": "⚠️ 70% 이탈 → 종료",
+      "alert": false,
+      "order": 8,
+      "lv": {
+        "30": 27.31,
+        "50": 26.9,
+        "70": 26.5
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "DKS",
       "kind": "D",
       "src": "T",
@@ -3826,5 +3930,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-25T05:41:44.148088+00:00"
+  "generated_utc": "2026-11-25T10:26:04.869595+00:00"
 }
