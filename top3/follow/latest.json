@@ -888,6 +888,32 @@
       ]
     },
     {
+      "ticker": "MTB",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-12",
+      "name": "M & T Bank Corp",
+      "sector": "Financial",
+      "chg": "+6.84%",
+      "close": 214.33,
+      "high": 229.97,
+      "low": 211.71,
+      "retr": 85.7,
+      "zone": "⚠️ 70% 이탈 → 종료",
+      "alert": false,
+      "order": 8,
+      "lv": {
+        "30": 224.49,
+        "50": 220.84,
+        "70": 217.19
+      },
+      "weeks": 6,
+      "since": -2.5,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "MANH",
       "kind": "D",
       "src": "T",
@@ -3904,5 +3930,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-25T11:39:57.968743+00:00"
+  "generated_utc": "2026-11-25T14:12:22.630243+00:00"
 }
