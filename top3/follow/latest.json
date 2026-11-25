@@ -2501,32 +2501,6 @@
       ]
     },
     {
-      "ticker": "U",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-11-05",
-      "name": "Unity Software Inc",
-      "sector": "Technology",
-      "chg": "+14.93%",
-      "close": 48.37,
-      "high": 54.26,
-      "low": 37.1,
-      "retr": 34.3,
-      "zone": "🔔 30~38.2%",
-      "alert": true,
-      "order": 2,
-      "lv": {
-        "30": 49.11,
-        "50": 45.68,
-        "70": 42.25
-      },
-      "weeks": 2,
-      "since": -0.9,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
       "ticker": "FWONA",
       "kind": "D",
       "src": "T",
@@ -2886,6 +2860,32 @@
       },
       "weeks": 1,
       "since": -4.9,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-11-12",
+      "name": "Advanced Micro Devices Inc",
+      "sector": "Technology",
+      "chg": "+5.86%",
+      "close": 413.27,
+      "high": 594.0,
+      "low": 402.1,
+      "retr": 94.2,
+      "zone": "⚠️ 70% 이탈 → 종료",
+      "alert": false,
+      "order": 8,
+      "lv": {
+        "30": 536.43,
+        "50": 498.05,
+        "70": 459.67
+      },
+      "weeks": 1,
+      "since": -29.4,
       "kinds": [
         "D"
       ]
@@ -3389,8 +3389,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-24",
-      "name": "Insmed Inc",
-      "sector": "Healthcare",
+      "name": "Insmed Incorporated",
+      "sector": "Health Care",
       "chg": "+14.13%",
       "close": 170.15,
       "high": 170.61,
@@ -3779,8 +3779,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-24",
-      "name": "Kymera Therapeutics Inc",
-      "sector": "Healthcare",
+      "name": "Kymera Therapeutics Inc.",
+      "sector": "Health Care",
       "chg": "+15.66%",
       "close": 173.92,
       "high": 180.0,
@@ -3857,8 +3857,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-24",
-      "name": "Dicks Sporting Goods Inc",
-      "sector": "Consumer Cyclical",
+      "name": "Dick's Sporting Goods Inc",
+      "sector": "Consumer Discretionary",
       "chg": "+14.59%",
       "close": 153.17,
       "high": 157.89,
@@ -3879,5 +3879,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-25T04:37:06.713734+00:00"
+  "generated_utc": "2026-11-25T04:55:00.341106+00:00"
 }
