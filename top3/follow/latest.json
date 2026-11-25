@@ -3332,38 +3332,12 @@
       ]
     },
     {
-      "ticker": "SAIL",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-11-18",
-      "name": "Sailpoint Inc",
-      "sector": "Technology",
-      "chg": "+10.26%",
-      "close": 21.98,
-      "high": 23.54,
-      "low": 16.62,
-      "retr": 22.5,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 21.46,
-        "50": 20.08,
-        "70": 18.7
-      },
-      "weeks": 1,
-      "since": -1.2,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
       "ticker": "INSM",
       "kind": "D",
       "src": "T",
       "date": "2026-11-24",
-      "name": "Insmed Inc",
-      "sector": "Healthcare",
+      "name": "Insmed Incorporated",
+      "sector": "Health Care",
       "chg": "+14.13%",
       "close": 170.15,
       "high": 170.61,
@@ -3752,8 +3726,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-24",
-      "name": "Kymera Therapeutics Inc",
-      "sector": "Healthcare",
+      "name": "Kymera Therapeutics Inc.",
+      "sector": "Health Care",
       "chg": "+15.66%",
       "close": 173.92,
       "high": 180.0,
@@ -3830,8 +3804,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-24",
-      "name": "Dicks Sporting Goods Inc",
-      "sector": "Consumer Cyclical",
+      "name": "Dick's Sporting Goods Inc",
+      "sector": "Consumer Discretionary",
       "chg": "+14.59%",
       "close": 153.17,
       "high": 157.89,
@@ -3852,5 +3826,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-25T05:28:15.406548+00:00"
+  "generated_utc": "2026-11-25T05:41:44.148088+00:00"
 }
