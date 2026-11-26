@@ -758,32 +758,6 @@
       ]
     },
     {
-      "ticker": "MPC",
-      "kind": "J",
-      "src": "J",
-      "date": "2026-10-09",
-      "name": "Marathon Petroleum",
-      "sector": "",
-      "chg": "",
-      "close": 346.27,
-      "high": 492.61,
-      "low": 222.02,
-      "retr": 54.1,
-      "zone": "🔔 50~61.8%",
-      "alert": true,
-      "order": 4,
-      "lv": {
-        "30": 411.43,
-        "50": 357.31,
-        "70": 303.2
-      },
-      "weeks": 6,
-      "since": -23.7,
-      "kinds": [
-        "J"
-      ]
-    },
-    {
       "ticker": "VLO",
       "kind": "J",
       "src": "J",
@@ -4008,5 +3982,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-26T03:41:19.327428+00:00"
+  "generated_utc": "2026-11-26T03:47:24.359216+00:00"
 }
