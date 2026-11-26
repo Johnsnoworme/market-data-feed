@@ -80,33 +80,6 @@
       ]
     },
     {
-      "ticker": "IBRX",
-      "kind": "W",
-      "src": "T",
-      "date": "2026-10-02",
-      "name": "ImmunityBio Inc",
-      "sector": "Healthcare",
-      "chg": "+21.86%",
-      "close": 5.64,
-      "high": 10.81,
-      "low": 6.65,
-      "retr": 124.2,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
-      "lv": {
-        "30": 9.56,
-        "50": 8.73,
-        "70": 7.9
-      },
-      "weeks": 7,
-      "since": -45.1,
-      "kinds": [
-        "D",
-        "W"
-      ]
-    },
-    {
       "ticker": "INIO",
       "kind": "D",
       "src": "T",
@@ -1220,6 +1193,32 @@
       },
       "weeks": 2,
       "since": 3.8,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "SMMT",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-19",
+      "name": "Summit Therapeutics Inc.",
+      "sector": "Health Care",
+      "chg": "+6.43%",
+      "close": 10.59,
+      "high": 18.15,
+      "low": 12.07,
+      "retr": 124.4,
+      "zone": "⚠️ 70% 이탈 → 종료",
+      "alert": false,
+      "order": 8,
+      "lv": {
+        "30": 16.32,
+        "50": 15.11,
+        "70": 13.89
+      },
+      "weeks": 5,
+      "since": -32.0,
       "kinds": [
         "D"
       ]
@@ -3903,5 +3902,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-26T05:25:45.328171+00:00"
+  "generated_utc": "2026-11-26T10:01:00.034612+00:00"
 }
