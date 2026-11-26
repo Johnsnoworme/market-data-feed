@@ -758,6 +758,32 @@
       ]
     },
     {
+      "ticker": "MPC",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-10-09",
+      "name": "Marathon Petroleum",
+      "sector": "",
+      "chg": "",
+      "close": 346.27,
+      "high": 492.61,
+      "low": 222.02,
+      "retr": 54.1,
+      "zone": "🔔 50~61.8%",
+      "alert": true,
+      "order": 4,
+      "lv": {
+        "30": 411.43,
+        "50": 357.31,
+        "70": 303.2
+      },
+      "weeks": 6,
+      "since": -23.7,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
       "ticker": "VLO",
       "kind": "J",
       "src": "J",
@@ -2607,24 +2633,24 @@
       "ticker": "QXO",
       "kind": "D",
       "src": "T",
-      "date": "2026-11-09",
-      "name": "QXO Inc",
-      "sector": "Industrials",
-      "chg": "+19.20%",
+      "date": "2026-11-25",
+      "name": "QXO Inc.",
+      "sector": "Consumer Discretionary",
+      "chg": "+8.62%",
       "close": 11.97,
-      "high": 14.12,
+      "high": 12.21,
       "low": 10.04,
-      "retr": 52.7,
-      "zone": "🔔 50~61.8%",
-      "alert": true,
-      "order": 4,
+      "retr": 11.1,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
       "lv": {
-        "30": 12.9,
-        "50": 12.08,
-        "70": 11.26
+        "30": 11.56,
+        "50": 11.12,
+        "70": 10.69
       },
-      "weeks": 2,
-      "since": -13.1,
+      "weeks": 0,
+      "since": 0.0,
       "kinds": [
         "D"
       ]
@@ -3908,7 +3934,7 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-25",
-      "name": "HP Inc",
+      "name": "HP Inc.",
       "sector": "Technology",
       "chg": "+11.49%",
       "close": 31.15,
@@ -3934,8 +3960,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-25",
-      "name": "Li Auto Inc ADR",
-      "sector": "Consumer Cyclical",
+      "name": "Li Auto Inc.",
+      "sector": "Industrials",
       "chg": "+11.03%",
       "close": 11.88,
       "high": 11.92,
@@ -3982,5 +4008,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-26T03:47:24.359216+00:00"
+  "generated_utc": "2026-11-26T04:10:06.539894+00:00"
 }

@@ -2,7 +2,7 @@
 
 > 🏆 내 Top 3 · 🧭 김종봉 후보 — 뜬 날부터 8주 추적 · **풀백 구간(30~70%) 총 39개** · 1파 = 오르기 시작한 저점 → 신호 후 최고가 · 티커 = Finviz 주봉
 
-### 🏆 내 Top 3 — 추적 124개 · 풀백 32개
+### 🏆 내 Top 3 — 추적 124개 · 풀백 31개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [FCNCA](https://finviz.com/quote.ashx?p=w&t=FCNCA) | Daily | 10-12 (6주 전) | 🔔 61.8~70% (마지막 방어선) | 66% | 2153.88 | 2304.07 ~ 2136.23 (2220.15) | +3.4% |
@@ -14,12 +14,11 @@
 | [AR](https://finviz.com/quote.ashx?p=w&t=AR) | Daily | 10-16 (5주 전) | 🔔 50~61.8% | 58% | 37.13 | 39.86 ~ 36.01 (37.93) | -3.9% |
 | [TLK](https://finviz.com/quote.ashx?p=w&t=TLK) | Daily | 10-20 (5주 전) | 🔔 50~61.8% | 55% | 11.16 | 11.71 ~ 10.82 (11.26) | -4.1% |
 | [FDXF](https://finviz.com/quote.ashx?p=w&t=FDXF) | Daily | 10-30 (3주 전) | 🔔 50~61.8% | 52% | 118.71 | 125.84 ~ 113.07 (119.45) | -5.8% |
-| [QXO](https://finviz.com/quote.ashx?p=w&t=QXO) | Daily | 11-09 (2주 전) | 🔔 50~61.8% | 53% | 11.97 | 12.9 ~ 11.26 (12.08) | -13.1% |
+| [HUBS](https://finviz.com/quote.ashx?p=w&t=HUBS) | Daily | 11-12 (1주 전) | 🔔 50~61.8% | 52% | 210.21 | 220.19 ~ 201.94 (211.07) | -2.6% |
 
-> [!note]- 나머지 풀백 22개
+> [!note]- 나머지 풀백 21개
 > | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 > | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
-> | [HUBS](https://finviz.com/quote.ashx?p=w&t=HUBS) | Daily | 11-12 (1주 전) | 🔔 50~61.8% | 52% | 210.21 | 220.19 ~ 201.94 (211.07) | -2.6% |
 > | [MOH](https://finviz.com/quote.ashx?p=w&t=MOH) | Daily | 11-16 (1주 전) | 🔔 50~61.8% | 50% | 205.63 | 216.86 ~ 194.66 (205.76) | -11.8% |
 > | [COHR](https://finviz.com/quote.ashx?p=w&t=COHR) | Daily | 11-17 (1주 전) | 🔔 50~61.8% | 55% | 196.19 | 216.61 ~ 184.39 (200.5) | -7.0% |
 > | [UMC](https://finviz.com/quote.ashx?p=w&t=UMC) | Daily | 11-20 (0주 전) | 🔔 50~61.8% | 59% | 13.19 | 14.04 ~ 12.86 (13.45) | +9.6% |
@@ -42,16 +41,17 @@
 > | [U](https://finviz.com/quote.ashx?p=w&t=U) | Daily | 11-05 (2주 전) | 🔔 30~38.2% | 35% | 48.24 | 49.11 ~ 42.25 (45.68) | -1.1% |
 > | [FROG](https://finviz.com/quote.ashx?p=w&t=FROG) | Daily | 11-06 (2주 전) | 🔔 30~38.2% | 36% | 104.85 | 107.49 ~ 88.34 (97.91) | +3.8% |
 
-> [!note]- 대기 48개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> ICLR 30%, ASTS 28%, HTHT 28%, MRNA 27%, FISV 26%, TRU 24%, A 22%, CART 22%, APP 21%, NBIX 20%, PANW 20%, ZS 19%, ALNY 19%, TTWO 19%, EFX 18%, HPQ 18%, MDLN 17%, CSGP 16%, PCOR 16%, MANH 15%, OKTA 15%, FWONA 13%, TU 13%, SPOT 11%, R 11%, GMAB 10%, SAIL 10%, GEN 9%, STLA 9%, DKS 8%, KYMR 8%, WIT 8%, GPN 7%, ALLE 6%, PDD 6%, HDB 5%, UTHR 4%, REGN 4%, ACM 3%, GKOS 3%, IDXX 3%, LI 3%, RKT 2%, SNY 2%, PTC 2%, CDW 1%, CHTR 1%, INSM 0%
+> [!note]- 대기 49개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
+> ICLR 30%, ASTS 28%, HTHT 28%, MRNA 27%, FISV 26%, TRU 24%, A 22%, CART 22%, APP 21%, NBIX 20%, PANW 20%, ZS 19%, ALNY 19%, TTWO 19%, EFX 18%, HPQ 18%, MDLN 17%, CSGP 16%, PCOR 16%, MANH 15%, OKTA 15%, FWONA 13%, TU 13%, SPOT 11%, QXO 11%, R 11%, GMAB 10%, SAIL 10%, GEN 9%, STLA 9%, DKS 8%, KYMR 8%, WIT 8%, GPN 7%, ALLE 6%, PDD 6%, HDB 5%, UTHR 4%, REGN 4%, ACM 3%, GKOS 3%, IDXX 3%, LI 3%, RKT 2%, SNY 2%, PTC 2%, CDW 1%, CHTR 1%, INSM 0%
 
 ⚠️ 70% 이탈로 종료: FORM, VICR, SNPS, IBRX, INIO, FPS, VIAV, XP, CIEN, FLUT, PBF, HUBB, MTB, HALO, ESLT, CRCL, OVV, EQNR, PAYP, SMMT, WDC, SMCI, QNT, VG, LITE, SOFI, CLS, NBIS, VRT, FTAI, NXT, TEM, FN, XYZ, IONQ, MPWR, CRWV, SNDK, AMD, AVGO, CBRS, ARM, P, ANT
 
-### 🧭 김종봉 후보 — 추적 29개 · 풀백 7개
+### 🧭 김종봉 후보 — 추적 30개 · 풀백 8개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [ILMN](https://finviz.com/quote.ashx?p=w&t=ILMN) | 주간 | 10-02 (7주 전) | 🔔 50~61.8% | 57% | 200.39 | 252.29 ~ 176.2 (214.25) | -26.6% |
 | [TXG](https://finviz.com/quote.ashx?p=w&t=TXG) | 주간 | 10-09 (6주 전) | 🔔 50~61.8% | 57% | 55.68 | 77.83 ~ 44.51 (61.17) | -31.0% |
+| [MPC](https://finviz.com/quote.ashx?p=w&t=MPC) | 주간 | 10-09 (6주 전) | 🔔 50~61.8% | 54% | 346.27 | 411.43 ~ 303.2 (357.31) | -23.7% |
 | [VLO](https://finviz.com/quote.ashx?p=w&t=VLO) | 주간 | 10-09 (6주 전) | 🔔 50~61.8% | 57% | 323.0 | 388.04 ~ 292.31 (340.18) | -25.3% |
 | [DINO](https://finviz.com/quote.ashx?p=w&t=DINO) | 주간 | 10-09 (6주 전) | 🔔 50~61.8% | 59% | 85.76 | 106.92 ~ 77.88 (92.4) | -28.9% |
 | [FICO](https://finviz.com/quote.ashx?p=w&t=FICO) | 주간 | 10-23 (4주 전) | 🔔 50~61.8% | 53% | 699.81 | 756.08 ~ 658.92 (707.5) | -14.2% |
