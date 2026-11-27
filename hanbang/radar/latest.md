@@ -2,7 +2,7 @@
 
 ## 🌤️ 시장 날씨: 🔴 폭풍 → 🛍️ 빅 세일 모드
 > 좋은 종목(⭐워치·✅숫자)이 공포로 크게 빠진 것 우선. 단 바닥 신호(🧲 매집·저점 방어·지수보다 덜 빠짐)가 보일 때만, 나눠서
-> QQQ 고점 대비 -16.6% · 최근 20일 -12.6% · 대장주 8개 중 지수보다 강함 5개 (MSFT, AAPL, AMZN, META, TSLA) · Fear & Greed 15.0 Extreme Fear · 🟢공포 후보 12개
+> QQQ 고점 대비 -16.6% · 최근 20일 -12.6% · 대장주 8개 중 지수보다 강함 5개 (MSFT, AAPL, AMZN, META, TSLA) · Fear & Greed 17.9 Extreme Fear · 🟢공포 후보 12개
 
 > 가격·거래량만 본다 (이동평균 없음). 읽는 법 → 옵시디언 [[📖 한 방 대시보드 설명서]]. 매수 추천이 아니다.
 
@@ -122,14 +122,12 @@
 ## 🧲 추적 중 (🏆 Top 3 · 🧭 김종봉) — 신호 이후 풀백 위치
 | 티커 | 출처 | 신호일 | 풀백 위치 (신호 기준) | 🧲 | 3개월 QQQ 대비 |
 | :--- | :--- | :--- | :--- | ---: | ---: |
-| [ACN](https://finviz.com/quote.ashx?t=ACN&p=w) | 🏆D | 2026-10-01 | 🔔 30~38% (30%) | 7/10 | +41%p |
 | [FCNCA](https://finviz.com/quote.ashx?t=FCNCA&p=w) | 🏆D | 2026-10-12 | 🔔 62~70% 방어선 (66%) | 7/10 | +12%p |
 | [BSP](https://finviz.com/quote.ashx?t=BSP&p=w) | 🏆D | 2026-10-14 | 🔔 38~50% (47%) | 6/10 | +12%p |
 | [CCI](https://finviz.com/quote.ashx?t=CCI&p=w) | 🏆D | 2026-10-09 | 🔔 30~38% (35%) | 6/10 | +25%p |
-| [AR](https://finviz.com/quote.ashx?t=AR&p=w) | 🏆D | 2026-10-16 | 🔔 50~62% (58%) | 6/10 | +8%p |
-| [FICO](https://finviz.com/quote.ashx?t=FICO&p=w) | 🧭김종봉 | 2026-10-23 | 🔔 50~62% (53%) | 5/10 | -28%p |
 | [HUM](https://finviz.com/quote.ashx?t=HUM&p=w) | 🏆D | 2026-10-09 | 🔔 50~62% (60%) | 5/10 | +16%p |
 | [VLO](https://finviz.com/quote.ashx?t=VLO&p=w) | 🧭김종봉 | 2026-10-09 | 🔔 50~62% (57%) | 5/10 | +6%p |
+| [FICO](https://finviz.com/quote.ashx?t=FICO&p=w) | 🧭김종봉 | 2026-10-23 | 🔔 50~62% (53%) | 5/10 | -28%p |
 | [FRO](https://finviz.com/quote.ashx?t=FRO&p=w) | 🏆D | 2026-10-12 | 🔔 38~50% (48%) | 5/10 | +28%p |
 | [MOH](https://finviz.com/quote.ashx?t=MOH&p=w) | 🏆D | 2026-11-16 | 🔔 50~62% (50%) | 5/10 | +16%p |
 | [CCL](https://finviz.com/quote.ashx?t=CCL&p=w) | 🏆W | 2026-10-02 | 🔔 30~38% (34%) | 4/10 | +25%p |
@@ -200,19 +198,21 @@
 | [SOLS](https://finviz.com/quote.ashx?t=SOLS&p=w) | 🧭김종봉 | 2026-11-13 | 🟢 고점 근처 (29%) | 5/10 | +25%p |
 | [TU](https://finviz.com/quote.ashx?t=TU&p=w) | 🧭김종봉 | 2026-11-20 | 🟢 고점 근처 (13%) | 5/10 | +24%p |
 | [ZS](https://finviz.com/quote.ashx?t=ZS&p=w) | 🏆D | 2026-11-20 | 🟢 고점 근처 (19%) | 5/10 | +35%p |
-| [LI](https://finviz.com/quote.ashx?t=LI&p=w) | 🏆D | 2026-11-25 | 🟢 고점 근처 (3%) | 5/10 | +10%p |
+| [LI](https://finviz.com/quote.ashx?t=LI&p=w) | 🏆D | 2026-11-26 | 🟢 고점 근처 (3%) | 5/10 | +10%p |
+| [ITUB](https://finviz.com/quote.ashx?t=ITUB&p=w) | 🏆D | 2026-11-26 | 🟢 고점 근처 (23%) | 5/10 | +4%p |
 | [ICLR](https://finviz.com/quote.ashx?t=ICLR&p=w) | 🧭김종봉 | 2026-10-30 | 🟢 고점 근처 (18%) | 4/10 | +29%p |
 | [GPN](https://finviz.com/quote.ashx?t=GPN&p=w) | 🏆D | 2026-11-20 | 🟢 고점 근처 (7%) | 4/10 | +16%p |
 | [NBIX](https://finviz.com/quote.ashx?t=NBIX&p=w) | 🏆D | 2026-11-03 | 🟢 고점 근처 (20%) | 4/10 | +18%p |
 | [A](https://finviz.com/quote.ashx?t=A&p=w) | 🏆D | 2026-11-23 | 🟢 고점 근처 (22%) | 4/10 | +25%p |
+| [BBD](https://finviz.com/quote.ashx?t=BBD&p=w) | 🏆D | 2026-11-26 | 🟢 고점 근처 (4%) | 4/10 | -11%p |
 | [GEN](https://finviz.com/quote.ashx?t=GEN&p=w) | 🏆D | 2026-10-29 | 🟢 고점 근처 (9%) | 3/10 | +11%p |
 | [ALNY](https://finviz.com/quote.ashx?t=ALNY&p=w) | 🏆D | 2026-11-13 | 🟢 고점 근처 (19%) | 3/10 | -18%p |
 | [SAIL](https://finviz.com/quote.ashx?t=SAIL&p=w) | 🏆D | 2026-11-18 | 🟢 고점 근처 (10%) | 3/10 | +24%p |
 | [QXO](https://finviz.com/quote.ashx?t=QXO&p=w) | 🏆D | 2026-11-25 | 🟢 고점 근처 (11%) | 2/10 | -2%p |
 | [PANW](https://finviz.com/quote.ashx?t=PANW&p=w) | 🏆D | 2026-11-18 | 🟢 고점 근처 (20%) | 2/10 | +5%p |
 | [STLA](https://finviz.com/quote.ashx?t=STLA&p=w) | 🏆D | 2026-11-24 | 🟢 고점 근처 (9%) | 2/10 | -19%p |
-| [HPQ](https://finviz.com/quote.ashx?t=HPQ&p=w) | 🏆D | 2026-11-25 | 🟢 고점 근처 (18%) | 2/10 | +18%p |
+| [HPQ](https://finviz.com/quote.ashx?t=HPQ&p=w) | 🏆D | 2026-11-26 | 🟢 고점 근처 (18%) | 2/10 | +18%p |
 | [APP](https://finviz.com/quote.ashx?t=APP&p=w) | 🧭김종봉 | 2026-11-06 | 🟢 고점 근처 (21%) | 1/10 | +33%p |
-| [ASTS](https://finviz.com/quote.ashx?t=ASTS&p=w) | 🏆D | 2026-11-25 | 🟢 고점 근처 (28%) | 0/10 | -46%p |
+| [ASTS](https://finviz.com/quote.ashx?t=ASTS&p=w) | 🏆D | 2026-11-26 | 🟢 고점 근처 (28%) | 0/10 | -46%p |
 
 > 🦅 드러켄밀러 2026-Q3 신규·늘림 (비중 0.8%↑): AEM 신규, AMZN 늘림, B 신규, FOXA 늘림, NEM 신규, SE 늘림, SGI 신규, U 늘림, WDC 신규
