@@ -3855,7 +3855,7 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-26",
-      "name": "HP Inc.",
+      "name": "HP Inc",
       "sector": "Technology",
       "chg": "+11.49%",
       "close": 31.15,
@@ -3881,8 +3881,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-26",
-      "name": "Li Auto Inc.",
-      "sector": "Industrials",
+      "name": "Li Auto Inc ADR",
+      "sector": "Consumer Cyclical",
       "chg": "+11.03%",
       "close": 11.88,
       "high": 11.92,
@@ -3907,8 +3907,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-26",
-      "name": "AST SpaceMobile Inc.",
-      "sector": "Consumer Discretionary",
+      "name": "AST SpaceMobile Inc",
+      "sector": "Technology",
       "chg": "+10.25%",
       "close": 26.02,
       "high": 27.4,
@@ -3929,5 +3929,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-27T04:15:42.851916+00:00"
+  "generated_utc": "2026-11-27T04:30:23.874744+00:00"
 }
