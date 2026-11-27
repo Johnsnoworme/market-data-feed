@@ -1,35 +1,33 @@
 # Market Data
 
-> 마지막 업데이트: 2026-11-27 05:20:56 UTC (데이터 출처: Nasdaq + yfinance (백업))
-
-<!-- Finviz 실패 이유: 403 Client Error: Forbidden for url: https://finviz.com/screener.ashx?v=152&f=cap_largeover&o=-change&c=1,2,3,42,43,66 -->
+> 마지막 업데이트: 2026-11-27 10:06:03 UTC (데이터 출처: Finviz)
 
 ## Fear & Greed Index
-15.0 / 100 (Extreme Fear)
+17.9 / 100 (Extreme Fear)
 
 ## Daily Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [HPQ](https://finviz.com/quote.ashx?t=HPQ) | HP Inc. | Technology | +11.49% |
-| [LI](https://finviz.com/quote.ashx?t=LI) | Li Auto Inc. | Industrials | +11.03% |
-| [ASTS](https://finviz.com/quote.ashx?t=ASTS) | AST SpaceMobile Inc. | Consumer Discretionary | +10.25% |
+| [BBD](https://finviz.com/quote.ashx?t=BBD) | Banco Bradesco SA ADR | Financial | +13.98% |
+| [ITUB](https://finviz.com/quote.ashx?t=ITUB) | Itau Unibanco Holding SA ADR | Financial | +10.47% |
+| [SNDK](https://finviz.com/quote.ashx?t=SNDK) | Sandisk Corp | Technology | +9.52% |
 
 👉 [Finviz Daily Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=111&f=cap_largeover&o=-change)
 
 ## Weekly Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [KYMR](https://finviz.com/quote.ashx?t=KYMR) | Kymera Therapeutics Inc. | Health Care | +43.46% |
-| [INSM](https://finviz.com/quote.ashx?t=INSM) | Insmed Incorporated | Health Care | +42.16% |
-| [RBLX](https://finviz.com/quote.ashx?t=RBLX) | Roblox Corporation | Technology | +17.54% |
+| [KYMR](https://finviz.com/quote.ashx?t=KYMR) | Kymera Therapeutics Inc | Healthcare | +47.50% |
+| [RBLX](https://finviz.com/quote.ashx?t=RBLX) | Roblox Corp | Communication Services | +23.30% |
+| [BBD](https://finviz.com/quote.ashx?t=BBD) | Banco Bradesco SA ADR | Financial | +20.42% |
 
 👉 [Finviz Weekly Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf1w)
 
 ## Monthly Top 3
 | 티커 | 회사 이름 | 섹터 | 변동률 |
 | :--- | :--- | :--- | :--- |
-| [INSM](https://finviz.com/quote.ashx?t=INSM) | Insmed Incorporated | Health Care | +82.48% |
-| [KYMR](https://finviz.com/quote.ashx?t=KYMR) | Kymera Therapeutics Inc. | Health Care | +51.31% |
-| [GKOS](https://finviz.com/quote.ashx?t=GKOS) | Glaukos Corporation | Health Care | +45.79% |
+| [INSM](https://finviz.com/quote.ashx?t=INSM) | Insmed Inc | Healthcare | +75.50% |
+| [APP](https://finviz.com/quote.ashx?t=APP) | Applovin Corp | Communication Services | +51.23% |
+| [KYMR](https://finviz.com/quote.ashx?t=KYMR) | Kymera Therapeutics Inc | Healthcare | +43.74% |
 
 👉 [Finviz Monthly Top 3 Large-Cap Screener 전체보기](https://finviz.com/screener.ashx?v=141&f=cap_largeover&o=-perf4w)
