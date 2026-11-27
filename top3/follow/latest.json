@@ -965,6 +965,32 @@
       ]
     },
     {
+      "ticker": "AR",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-16",
+      "name": "Antero Resources Corporation",
+      "sector": "Energy",
+      "chg": "+6.06%",
+      "close": 37.13,
+      "high": 42.75,
+      "low": 33.12,
+      "retr": 58.4,
+      "zone": "🔔 50~61.8%",
+      "alert": true,
+      "order": 4,
+      "lv": {
+        "30": 39.86,
+        "50": 37.93,
+        "70": 36.01
+      },
+      "weeks": 6,
+      "since": -3.9,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
       "ticker": "OVV",
       "kind": "D",
       "src": "T",
@@ -3903,5 +3929,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-27T11:21:32.170340+00:00"
+  "generated_utc": "2026-11-27T13:45:26.578954+00:00"
 }
