@@ -2,6 +2,33 @@
   "ny_date": "2026-11-25",
   "rows": [
     {
+      "ticker": "IBRX",
+      "kind": "W",
+      "src": "T",
+      "date": "2026-10-02",
+      "name": "ImmunityBio Inc",
+      "sector": "Healthcare",
+      "chg": "+21.86%",
+      "close": 5.64,
+      "high": 10.81,
+      "low": 6.65,
+      "retr": 124.2,
+      "zone": "⚠️ 70% 이탈 → 종료",
+      "alert": false,
+      "order": 8,
+      "lv": {
+        "30": 9.56,
+        "50": 8.73,
+        "70": 7.9
+      },
+      "weeks": 8,
+      "since": -45.1,
+      "kinds": [
+        "D",
+        "W"
+      ]
+    },
+    {
       "ticker": "INIO",
       "kind": "D",
       "src": "T",
@@ -3776,7 +3803,7 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-26",
-      "name": "HP Inc",
+      "name": "HP Inc.",
       "sector": "Technology",
       "chg": "+11.49%",
       "close": 31.15,
@@ -3802,8 +3829,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-26",
-      "name": "Li Auto Inc ADR",
-      "sector": "Consumer Cyclical",
+      "name": "Li Auto Inc.",
+      "sector": "Industrials",
       "chg": "+11.03%",
       "close": 11.88,
       "high": 11.92,
@@ -3828,8 +3855,8 @@
       "kind": "D",
       "src": "T",
       "date": "2026-11-26",
-      "name": "AST SpaceMobile Inc",
-      "sector": "Technology",
+      "name": "AST SpaceMobile Inc.",
+      "sector": "Consumer Discretionary",
       "chg": "+10.25%",
       "close": 26.02,
       "high": 27.4,
@@ -3850,5 +3877,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-27T05:06:06.127020+00:00"
+  "generated_utc": "2026-11-27T05:21:33.803732+00:00"
 }
