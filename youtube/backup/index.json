@@ -694,5 +694,29 @@
     "tries": 1,
     "error": "",
     "updated_utc": "2026-11-26T23:54:51+00:00"
+  },
+  "8WXUg04sqKg": {
+    "ch": "sosumonkey",
+    "title": "미국주식 적립식 투자 이걸로 고민 끝? 미국 주요 지수 한번에 투자하는 법",
+    "name": "2026-11-27 미국주식 적립식 투자 이걸로 고민 끝 미국 주요 지수 한번에 투자하는 법",
+    "daily": "2026-11-28",
+    "published_utc": "2026-11-27T10:46:04.572740+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-27T12:46:04+00:00"
+  },
+  "BA3yOmLtZto": {
+    "ch": "ssh",
+    "title": "주식시장 반등 신호 떴다. 지금부터 주목해야 할 ‘이것’｜성상현의 매크로비욘드 13-3부",
+    "name": "2026-11-27 주식시장 반등 신호 떴다. 지금부터 주목해야 할 ‘이것’｜성상현의 매크로",
+    "daily": "2026-11-28",
+    "published_utc": "2026-11-27T09:46:04.572740+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-27T12:46:04+00:00"
   }
 }
