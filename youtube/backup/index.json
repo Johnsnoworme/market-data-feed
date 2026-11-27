@@ -677,22 +677,22 @@
     "name": "2026-11-26 이번 하락장 이후 올라갈 주식은 정해졌다 기회가 될 주식들의 특징",
     "daily": "2026-11-27",
     "published_utc": "2026-11-26T08:51:42.634832+00:00",
-    "status": "stub",
-    "model": "",
+    "status": "done",
+    "model": "gemini-3.8-flash",
     "tries": 1,
-    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
-    "updated_utc": "2026-11-26T12:51:42+00:00"
+    "error": "",
+    "updated_utc": "2026-11-26T23:54:51+00:00"
   },
   "XE15SvL9NvE": {
     "ch": "ssh",
-    "title": "“코스피 5000붕괴” 한국 증시 난리난 진짜 이유 곧 무시무시한 일 벌어지나｜성상현의 매크로비욘드(박세익 대표 1부)",
-    "name": "2026-11-26 “코스피 5000붕괴” 한국 증시 난리난 진짜 이유 곧 무시무시한 일 벌",
+    "title": "“공포의 12월이 온다” 마지막 매수 타이밍은 ‘이때’｜성상현의 매크로비욘드(박세익 대표 1부)",
+    "name": "2026-11-26 “공포의 12월이 온다” 마지막 매수 타이밍은 ‘이때’｜성상현의 매크로비",
     "daily": "2026-11-27",
     "published_utc": "2026-11-26T09:51:42.634832+00:00",
-    "status": "stub",
-    "model": "",
+    "status": "done",
+    "model": "gemini-3.8-flash",
     "tries": 1,
-    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
-    "updated_utc": "2026-11-26T12:51:42+00:00"
+    "error": "",
+    "updated_utc": "2026-11-26T23:54:51+00:00"
   }
 }
