@@ -3875,7 +3875,59 @@
       "kinds": [
         "D"
       ]
+    },
+    {
+      "ticker": "BBD",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-11-26",
+      "name": "Banco Bradesco SA ADR",
+      "sector": "Financial",
+      "chg": "+13.98%",
+      "close": 2.43,
+      "high": 2.44,
+      "low": 2.22,
+      "retr": 4.5,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 2.37,
+        "50": 2.33,
+        "70": 2.29
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "ITUB",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-11-26",
+      "name": "Itau Unibanco Holding SA ADR",
+      "sector": "Financial",
+      "chg": "+10.47%",
+      "close": 6.88,
+      "high": 6.99,
+      "low": 6.51,
+      "retr": 22.9,
+      "zone": "📏 1파 작음 (8% 미만)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 6.85,
+        "50": 6.75,
+        "70": 6.65
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "D"
+      ]
     }
   ],
-  "generated_utc": "2026-11-27T05:21:33.803732+00:00"
+  "generated_utc": "2026-11-27T10:06:43.802280+00:00"
 }
