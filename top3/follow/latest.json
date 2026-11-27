@@ -3854,7 +3854,7 @@
       "ticker": "HPQ",
       "kind": "D",
       "src": "T",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "name": "HP Inc",
       "sector": "Technology",
       "chg": "+11.49%",
@@ -3880,7 +3880,7 @@
       "ticker": "LI",
       "kind": "D",
       "src": "T",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "name": "Li Auto Inc ADR",
       "sector": "Consumer Cyclical",
       "chg": "+11.03%",
@@ -3906,7 +3906,7 @@
       "ticker": "ASTS",
       "kind": "D",
       "src": "T",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "name": "AST SpaceMobile Inc",
       "sector": "Technology",
       "chg": "+10.25%",
@@ -3929,5 +3929,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-26T13:48:26.361792+00:00"
+  "generated_utc": "2026-11-27T03:42:04.626433+00:00"
 }
