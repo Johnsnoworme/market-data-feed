@@ -1,20 +1,6 @@
-2026-11-27 12:46 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: 8WXUg04sqKg 2시간 전 / HqQsZiSJFI8 1일 전 / FoZGuT5uAO4 2일 전
+2026-11-27 23:34 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: 8WXUg04sqKg 13시간 전 / HqQsZiSJFI8 1일 전 / FoZGuT5uAO4 2일 전
    사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.2-flash
-   Gemini 실패 8WXUg04sqKg: gemini-3.8-flash: HTTP 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash 
-   ⏳ 대기: 소수몽키 · 8WXUg04sqKg · 미국주식 적립식 투자 이걸로 고민 끝? 미국 주요 지수 한번에 투자하는 법
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: BA3yOmLtZto 3시간 전 / XE15SvL9NvE 1일 전 / FXVwl3aCzNA 2일 전
-   Gemini 실패 BA3yOmLtZto: gemini-3.8-flash: HTTP 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash 
-   ⏳ 대기: 성상현 (매크로비욘드) · BA3yOmLtZto · 주식시장 반등 신호 떴다. 지금부터 주목해야 할 ‘이것’｜성상현의 매크로비욘드 13-3부
+   ✅ 요약: 소수몽키 · 8WXUg04sqKg · 미국주식 적립식 투자 이걸로 고민 끝? 미국 주요 지수 한번에 투자하는 법
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: BA3yOmLtZto 13시간 전 / XE15SvL9NvE 1일 전 / FXVwl3aCzNA 2일 전
+   ✅ 요약: 성상현 (매크로비욘드) · BA3yOmLtZto · 주식시장 반등 신호 떴다. 지금부터 주목해야 할 ‘이것’｜성상현의 매크로비욘드 13-3부
