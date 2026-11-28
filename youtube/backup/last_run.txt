@@ -1,6 +1,5 @@
-2026-11-27 23:34 UTC · Gemini 키 있음
-소수몽키: 목록 10개 읽음 · 위 3개: 8WXUg04sqKg 13시간 전 / HqQsZiSJFI8 1일 전 / FoZGuT5uAO4 2일 전
+2026-11-28 03:33 UTC · Gemini 키 있음
+소수몽키: 목록 10개 읽음 · 위 3개: 8WXUg04sqKg 17시간 전 / HqQsZiSJFI8 1일 전 / FoZGuT5uAO4 2일 전
+성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: mXceqqVdk-w 33분 전 / BA3yOmLtZto 17시간 전 / XE15SvL9NvE 1일 전
    사용할 Gemini 모델: gemini-3.8-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-flash-preview, gemini-omni-1.2-flash
-   ✅ 요약: 소수몽키 · 8WXUg04sqKg · 미국주식 적립식 투자 이걸로 고민 끝? 미국 주요 지수 한번에 투자하는 법
-성상현 (매크로비욘드): 목록 10개 읽음 · 위 3개: BA3yOmLtZto 13시간 전 / XE15SvL9NvE 1일 전 / FXVwl3aCzNA 2일 전
-   ✅ 요약: 성상현 (매크로비욘드) · BA3yOmLtZto · 주식시장 반등 신호 떴다. 지금부터 주목해야 할 ‘이것’｜성상현의 매크로비욘드 13-3부
+   ✅ 요약: 성상현 (매크로비욘드) · mXceqqVdk-w · “AI 버블 붕괴 아니다?” 진짜 돈 버는 기업 따로 있다｜성상현의 매크로비욘드 13-4부
