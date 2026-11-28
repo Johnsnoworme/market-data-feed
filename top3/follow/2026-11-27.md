@@ -44,7 +44,7 @@
 
 ⚠️ 70% 이탈로 종료: IBRX, INIO, FPS, VIAV, CIEN, FLUT, PBF, HUBB, MTB, HALO, CRCL, OVV, EQNR, PAYP, SMMT, WDC, SMCI, VG, LITE, SOFI, CLS, NBIS, VRT, NXT, TEM, FN, IONQ, SNDK, AMD, AVGO, ANT
 
-### 🧭 김종봉 후보 — 추적 30개 · 풀백 7개
+### 🧭 김종봉 후보 — 추적 34개 · 풀백 7개
 | 티커 | 신호 | 신호일 | 구간 | 되돌림 | 종가 | 30% ~ 70% 가격 (50%) | 신호일 이후 |
 | :--- | :--- | :--- | :--- | ---: | ---: | :--- | ---: |
 | [ILMN](https://finviz.com/quote.ashx?p=w&t=ILMN) | 주간 | 10-02 (8주 전) | 🔔 50~61.8% | 54% | 205.74 | 252.29 ~ 176.2 (214.25) | -24.6% |
@@ -55,8 +55,8 @@
 | [FICO](https://finviz.com/quote.ashx?p=w&t=FICO) | 주간 | 10-23 (5주 전) | 🔔 38.2~50% | 50% | 708.57 | 756.08 ~ 658.92 (707.5) | -13.1% |
 | [VEEV](https://finviz.com/quote.ashx?p=w&t=VEEV) | 주간 | 10-09 (7주 전) | 🔔 30~38.2% | 31% | 271.6 | 273.31 ~ 203.07 (238.19) | -8.3% |
 
-> [!note]- 대기 22개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
-> HAS 30%, CTSH 27%, SOLS 26%, RRC 26%, WCN 22%, TRU 21%, FROG 20%, EFX 18%, FISV 18%, ICLR 16%, TU 13%, ROP 11%, PCOR 10%, APP 10%, LNG 9%, FERG 8%, INFY 7%, CHTR 5%, GKOS 1%, GMAB 0%, INSM 0%, ACM 0%
+> [!note]- 대기 26개 (아직 30% 전 또는 신고가 · 📏 = 1파가 8% 미만이라 알림 제외)
+> HAS 30%, CTSH 27%, SOLS 26%, RRC 26%, WCN 22%, TRU 21%, FROG 20%, EFX 18%, FISV 18%, ICLR 16%, TU 13%, ROP 11%, PCOR 10%, APP 10%, LNG 9%, FERG 8%, INFY 7%, RBLX 7%, CHTR 5%, KYMR 4%, GKOS 1%, DKS 1%, BBIO 1%, GMAB 0%, ACM 0%, INSM 0%
 
 ⚠️ 70% 이탈로 종료: ESLT
 

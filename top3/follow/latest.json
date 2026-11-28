@@ -3487,32 +3487,6 @@
       ]
     },
     {
-      "ticker": "INSM",
-      "kind": "J",
-      "src": "J",
-      "date": "2026-11-20",
-      "name": "Insmed Incorporated",
-      "sector": "",
-      "chg": "",
-      "close": 170.44,
-      "high": 170.79,
-      "low": 90.39,
-      "retr": 0.4,
-      "zone": "🟢 고점 근처 (0~30%)",
-      "alert": false,
-      "order": 1,
-      "lv": {
-        "30": 146.67,
-        "50": 130.59,
-        "70": 114.51
-      },
-      "weeks": 1,
-      "since": 20.6,
-      "kinds": [
-        "J"
-      ]
-    },
-    {
       "ticker": "ACM",
       "kind": "J",
       "src": "J",
@@ -3927,7 +3901,137 @@
       "kinds": [
         "D"
       ]
+    },
+    {
+      "ticker": "INSM",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-27",
+      "name": "Insmed Incorporated",
+      "sector": "",
+      "chg": "",
+      "close": 170.44,
+      "high": 170.79,
+      "low": 90.39,
+      "retr": 0.4,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 146.67,
+        "50": 130.59,
+        "70": 114.51
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "KYMR",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-27",
+      "name": "Kymera Therapeutics Inc.",
+      "sector": "",
+      "chg": "",
+      "close": 175.53,
+      "high": 180.0,
+      "low": 69.48,
+      "retr": 4.0,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 146.84,
+        "50": 124.74,
+        "70": 102.64
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "DKS",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-27",
+      "name": "Dick's Sporting Goods Inc",
+      "sector": "",
+      "chg": "",
+      "close": 164.41,
+      "high": 164.74,
+      "low": 119.27,
+      "retr": 0.7,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 151.1,
+        "50": 142.0,
+        "70": 132.91
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "RBLX",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-27",
+      "name": "Roblox Corporation",
+      "sector": "",
+      "chg": "",
+      "close": 57.38,
+      "high": 59.06,
+      "low": 33.88,
+      "retr": 6.7,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 51.51,
+        "50": 46.47,
+        "70": 41.43
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
+    },
+    {
+      "ticker": "BBIO",
+      "kind": "J",
+      "src": "J",
+      "date": "2026-11-27",
+      "name": "BridgeBio Pharma Inc.",
+      "sector": "",
+      "chg": "",
+      "close": 91.12,
+      "high": 91.28,
+      "low": 62.5,
+      "retr": 0.6,
+      "zone": "🟢 고점 근처 (0~30%)",
+      "alert": false,
+      "order": 1,
+      "lv": {
+        "30": 82.65,
+        "50": 76.89,
+        "70": 71.13
+      },
+      "weeks": 0,
+      "since": 0.0,
+      "kinds": [
+        "J"
+      ]
     }
   ],
-  "generated_utc": "2026-11-28T03:34:19.527026+00:00"
+  "generated_utc": "2026-11-28T03:54:15.919273+00:00"
 }
