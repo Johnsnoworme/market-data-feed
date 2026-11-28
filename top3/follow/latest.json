@@ -2,163 +2,6 @@
   "ny_date": "2026-11-27",
   "rows": [
     {
-      "ticker": "IBRX",
-      "kind": "W",
-      "src": "T",
-      "date": "2026-10-02",
-      "name": "ImmunityBio Inc",
-      "sector": "Healthcare",
-      "chg": "+21.86%",
-      "close": 5.6,
-      "high": 10.81,
-      "low": 6.65,
-      "retr": 125.2,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
-      "lv": {
-        "30": 9.56,
-        "50": 8.73,
-        "70": 7.9
-      },
-      "weeks": 8,
-      "since": -45.6,
-      "kinds": [
-        "D",
-        "W"
-      ]
-    },
-    {
-      "ticker": "INIO",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-10-26",
-      "name": "Innio NV",
-      "sector": "Industrials",
-      "chg": "+9.34%",
-      "close": 13.02,
-      "high": 18.74,
-      "low": 14.58,
-      "retr": 137.5,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
-      "lv": {
-        "30": 17.49,
-        "50": 16.66,
-        "70": 15.83
-      },
-      "weeks": 4,
-      "since": -21.7,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
-      "ticker": "FPS",
-      "kind": "D",
-      "src": "T",
-      "date": "2026-10-02",
-      "name": "Forgent Power Solutions Inc",
-      "sector": "Industrials",
-      "chg": "+8.09%",
-      "close": 19.66,
-      "high": 41.61,
-      "low": 27.99,
-      "retr": 161.2,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
-      "lv": {
-        "30": 37.52,
-        "50": 34.8,
-        "70": 32.08
-      },
-      "weeks": 8,
-      "since": -51.3,
-      "kinds": [
-        "D"
-      ]
-    },
-    {
-      "ticker": "VIAV",
-      "kind": "W",
-      "src": "T",
-      "date": "2026-10-02",
-      "name": "Viavi Solutions Inc",
-      "sector": "Technology",
-      "chg": "+15.78%",
-      "close": 28.15,
-      "high": 48.42,
-      "low": 31.41,
-      "retr": 119.2,
-      "zone": "⚠️ 70% 이탈 → 종료",
-      "alert": false,
-      "order": 8,
-      "lv": {
-        "30": 43.32,
-        "50": 39.91,
-        "70": 36.51
-      },
-      "weeks": 8,
-      "since": -40.2,
-      "kinds": [
-        "W"
-      ]
-    },
-    {
-      "ticker": "CCL",
-      "kind": "W",
-      "src": "T",
-      "date": "2026-10-02",
-      "name": "Carnival Corp Ltd",
-      "sector": "Consumer Cyclical",
-      "chg": "+15.78%",
-      "close": 28.15,
-      "high": 31.41,
-      "low": 21.34,
-      "retr": 32.4,
-      "zone": "🔔 30~38.2%",
-      "alert": true,
-      "order": 2,
-      "lv": {
-        "30": 28.39,
-        "50": 26.38,
-        "70": 24.36
-      },
-      "weeks": 8,
-      "since": 9.8,
-      "kinds": [
-        "W"
-      ]
-    },
-    {
-      "ticker": "ILMN",
-      "kind": "J",
-      "src": "J",
-      "date": "2026-10-02",
-      "name": "Illumina, Inc.",
-      "sector": "",
-      "chg": "",
-      "close": 205.74,
-      "high": 309.35,
-      "low": 119.14,
-      "retr": 54.5,
-      "zone": "🔔 50~61.8%",
-      "alert": true,
-      "order": 4,
-      "lv": {
-        "30": 252.29,
-        "50": 214.25,
-        "70": 176.2
-      },
-      "weeks": 8,
-      "since": -24.6,
-      "kinds": [
-        "J"
-      ]
-    },
-    {
       "ticker": "PTC",
       "kind": "D",
       "src": "T",
@@ -232,6 +75,32 @@
       },
       "weeks": 7,
       "since": -42.2,
+      "kinds": [
+        "D"
+      ]
+    },
+    {
+      "ticker": "INIO",
+      "kind": "D",
+      "src": "T",
+      "date": "2026-10-26",
+      "name": "Innio NV",
+      "sector": "Industrials",
+      "chg": "+9.34%",
+      "close": 13.02,
+      "high": 18.74,
+      "low": 14.58,
+      "retr": 137.5,
+      "zone": "⚠️ 70% 이탈 → 종료",
+      "alert": false,
+      "order": 8,
+      "lv": {
+        "30": 17.49,
+        "50": 16.66,
+        "70": 15.83
+      },
+      "weeks": 4,
+      "since": -21.7,
       "kinds": [
         "D"
       ]
@@ -4033,5 +3902,5 @@
       ]
     }
   ],
-  "generated_utc": "2026-11-28T04:56:41.106561+00:00"
+  "generated_utc": "2026-11-28T09:25:29.178225+00:00"
 }
