@@ -730,5 +730,17 @@
     "tries": 0,
     "error": "",
     "updated_utc": "2026-11-28T03:33:55+00:00"
+  },
+  "j8EaDcK7Hc4": {
+    "ch": "sosumonkey",
+    "title": "다음 상승장은 이 주식들이 이끈다? 돈 버는 AI 주식들 한 번에 투자하는 법",
+    "name": "2026-11-28 다음 상승장은 이 주식들이 이끈다 돈 버는 AI 주식들 한 번에 투자하는",
+    "daily": "2026-11-29",
+    "published_utc": "2026-11-28T09:59:26.908961+00:00",
+    "status": "stub",
+    "model": "",
+    "tries": 1,
+    "error": "gemini-3.8-flash: HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later | gemini-2.5-flash: HTTP 404 {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash ",
+    "updated_utc": "2026-11-28T11:59:26+00:00"
   }
 }
