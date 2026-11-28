@@ -165,7 +165,7 @@
     "sector": "Communication Services"
   },
   "INSM": {
-    "date": "2026-11-20",
+    "date": "2026-11-27",
     "name": "Insmed Incorporated",
     "sector": "Health Care"
   },
@@ -173,5 +173,25 @@
     "date": "2026-11-20",
     "name": "AECOM",
     "sector": "Consumer Discretionary"
+  },
+  "KYMR": {
+    "date": "2026-11-27",
+    "name": "Kymera Therapeutics Inc.",
+    "sector": "Health Care"
+  },
+  "DKS": {
+    "date": "2026-11-27",
+    "name": "Dick's Sporting Goods Inc",
+    "sector": "Consumer Discretionary"
+  },
+  "RBLX": {
+    "date": "2026-11-27",
+    "name": "Roblox Corporation",
+    "sector": "Technology"
+  },
+  "BBIO": {
+    "date": "2026-11-27",
+    "name": "BridgeBio Pharma Inc.",
+    "sector": "Health Care"
   }
 }
